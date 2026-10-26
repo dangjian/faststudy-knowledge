@@ -532,6 +532,17 @@ function renderLanding() {
   legend.append(el('span', null, '多'), el('span', null, `（最多 ${max} 个概念）`))
   wrap.append(legend)
 
+  // 单页示例：用本仓数据生成的零依赖 HTML，用来演示「agent 直接出页面」这条路
+  const demoBox = el('div', 'card')
+  demoBox.style.marginTop = '22px'
+  demoBox.append(el('h3', null, '用本仓数据生成的单页示例'))
+  const a = el('a', 'link', '凸透镜成像（教材 p.61–90）→')
+  a.href = 'examples/convex-lens.html'
+  a.target = '_blank'
+  a.rel = 'noreferrer'
+  demoBox.append(a, el('p', 'muted small', '单文件、零依赖、双击可开；四步导航 + 滑块调参，页脚挂教材页码与易错点。'))
+  wrap.append(demoBox)
+
   box.innerHTML = ''
   box.append(wrap)
 }

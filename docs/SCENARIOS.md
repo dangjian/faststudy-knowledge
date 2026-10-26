@@ -54,7 +54,7 @@ pnpm kg:ask concepts 'PEP-8-1-Physics-C4-S2'     # 该节概念清单与易错�
 把这两段交给 agent，要求输出单个 HTML：滑块调参 → canvas 画光路 → 侧栏显示「教材 p.x–y」
 与该概念的 `misconceptions`。**检验标准只有一个**：页面上的页码能在教材里对上。
 
-**已经做出来的示例**：[docs/examples/convex-lens.html](examples/convex-lens.html)（单文件、零依赖）
+**已经做出来的示例**：[demo/examples/convex-lens.html](../demo/examples/convex-lens.html)（单文件、零依赖）
 
 用它自己的数据生成：`concept:物理:凸透镜成像规律`、教材 `p.61–90`、两条 `misconceptions`。
 四步导航覆盖「认识焦距 → 改变物距 → 实像与虚像 → 光屏承接」，
