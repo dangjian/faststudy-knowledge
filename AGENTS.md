@@ -42,6 +42,30 @@ pnpm kg:ask mindmap  <sectionId>    # 脑图聚合 JSON
 - 交付门禁：每 Concept ≥1 条 covered_by；lint 0 error；`kg:build` 后三类关系计数 > 0。
 - 决策落盘：改动后追加 `tools/kg/state/log.md`。
 
+## 新增字段必须改四处（漏一处就静默丢失）
+
+给概念加字段时，下面四处都要改。**只有第一处会报错，其余三处是静默丢弃**：
+
+| 位置 | 作用 | 漏了会怎样 |
+|---|---|---|
+| `tools/kg/src/schema/types.ts` | TS 类型 | 编译报错（唯一会响的） |
+| `tools/kg/src/schema/entities.ts` | zod schema | 校验时 strip 掉该字段 |
+| `graph/ontology.yaml` | 本体声明，lint 依据 | lint 报「未知属性」 |
+| `tools/kg/src/runtime_view.ts` | dist 字段白名单 | `dist/graph.json` 里没有该字段 |
+
+`standards`、`conceptType`、`masteryCriteria`、`strength` 都因此丢过一次。
+
+**派生字段的特殊处理**：`standards` 与 `gradeRange` 由 build 计算，YAML 源里不存在。
+任何从源码读数据的脚本（导出、评测、demo 生成）都必须从 `dist/graph.json` 合并，
+否则读到的永远是空——写 tool 时最容易忽略。
+
+## 不要做的事
+
+- **不要给数据编造依据**。课标条目级对齐尚未做（现有 80 条是领域/主题群级），
+  没有原文时不要补条目号——那属于伪造权威，比留空危害大得多。
+- **不要手改 `dist/` 或 `demo/data/`**，它们由 `kg:build` / `kg:demo` 生成。
+- **不要用行号冒充页码**。`pageRange` 只表示教材页号，扩展知识没有页码就留空。
+
 ## 提交前必跑
 
 ```bash
