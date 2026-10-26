@@ -3,14 +3,65 @@
 本仓库的定位是 **AI agent 处理中小学知识点时的数据底座**，不是终端产品。
 它提供「教材原文 + 概念 + 关系 + 页码」四类事实，课件、动画、视频由别的开源项目负责渲染。
 
-按 **「与数据的匹配度 × 落地成本」** 排序，不按技术栈排。
+按**三条可核查的标准**排序，不按技术栈：
+
+1. **项目实据**：有仓库、有 README 里写明的接入点（数据格式、检索引擎、CLI 命令），不是"据说能接"
+2. **我们是否刚需**：对方缺、且我们原生具备（教材原文与页码是典型；渲染能力则不是）
+3. **落地成本**：能否用现成命令接上，还是要写新适配层
+
+前三位都是在 GitHub 上 40k+ star、README 明确描述数据如何进入的项目。
 
 下面每个场景都给出：**我们提供什么 → 对方提供什么 → 产出什么 → 最小验证路径 → 风险**。
 每个场景都标清**分工边界**：哪些由本仓库负责，哪些由上游/下游负责。
 
 ---
 
-## 1. 交互式解题课件：EduLab
+## 1. 教材即知识库：DeepTutor
+
+**事实**（HKUDS/DeepTutor，Apache-2.0，43.5k★，v1.6.15）：Knowledge Center 是 RAG 背后的文档集合，
+**每个知识库绑定一个检索引擎**，可选 LlamaIndex（默认 hybrid vector + BM25）、**PageIndex（page-level citations）**、
+GraphRAG、LightRAG、WeKnora、Kiwix、Obsidian。导入支持**链接文件夹**（按 hash-diff 增量同步）、GitHub 仓库、
+文档站 URL，命令形如 `deeptutor kb create my-kb --doc textbook.pdf`；解析可选 MinerU / Docling / markitdown / PyMuPDF4LLM。
+
+**三个可落地的接入点**
+
+| 接入点 | 我们提供 | 为什么成立 |
+|---|---|---|
+| 知识库用 **linked folder** 指向 `content/` | 2,976 节 markdown，已按 年级/学期/学科/章/节 组织 | 它按 hash-diff 增量同步文件夹，不需要转换格式 |
+| 检索引擎选 **PageIndex** | 每节都带 `pageRange`（2,976 / 2,976） | 它主打 page-level citations，而教材页号正是我们的原生字段 |
+| 选 **GraphRAG / LightRAG** | `prerequisite` 1,798 · `part_of` 5,062 · `related` 14,338 | 它接受图检索，我们的边可导出为三元组 |
+
+**它缺、我们补的**：教材原文与页码。DeepTutor 的 `book` 与 `immersive reading` 强调 verified citations，
+但页码只能来自文档——PDF 要靠分页推断，我们的 markdown 直接带 `p.x-y`。
+
+**可量化的验收**：它自带 `deeptutor kb eval --dataset qa.jsonl`（Recall@k / nDCG@k / MRR）。
+用本仓的概念-章节对造 100 条 QA，可在同一条命令下比较「有教材」与「无教材」的检索质量。
+
+---
+
+## 2. 互动课堂生成：OpenMAIC
+
+**事实**（THU-MAIC，MIT，41.5k★，v1.3.0-rc.1）：输入是「描述主题，或附上素材」，素材支持 PDF / Word /
+PowerPoint / 表格 / 文本 / 图片 / 音频 / 视频，经解析进入两阶段流水线 **Outline → Scenes**
+（每个大纲项生成 slide / quiz / interactive / PBL 场景）。v1.3.0-rc.1 起有**知识库**：按文件夹组织、
+composer 里用 `@` 引用、agent 可读取与检索。导出支持 PPTX / Resource Pack / Offline HTML /
+Classroom ZIP（`.maic.zip`）/ MP4，数据落 PostgreSQL 16。
+
+**接入点**
+
+| 接入点 | 我们提供 | 注意 |
+|---|---|---|
+| Outline 阶段 | `pnpm kg:ask tree <textbookId>` 的章节树，本身即结构化大纲 | 比让它从主题自由发挥更有教材依据 |
+| Scenes 生成 | 每节概念清单 + `misconceptions` | 概念卡可直接成一张 slide，易错点可变成 quiz 干扰项 |
+| 知识库（`@` 引用） | 节 markdown | 它列出的格式未明确写 markdown，按「文本」类别处理 |
+| 导出之后 | 页码需写进正文（`教材 p.x–y`） | 它没有页码字段，只能标在文本里 |
+
+**它缺、我们补的**：教材级大纲与出处。OpenMAIC 强在把大纲切成课堂场景，但大纲从哪来取决于输入；
+给它教材章节树，生成的课堂才会落在正式教材范围内。
+
+---
+
+## 3. 交互式解题课件：EduLab
 
 **开源项目**：[wy51ai/edulab](https://github.com/wy51ai/edulab)（教育 skill 集合，Claude Code 插件形态；Gitee 有 [liangdabiao/edulab](https://gitee.com/liangdabiao/edulab) 增强版）
 
@@ -45,31 +96,7 @@ pnpm kg:ask covered 'concept:数学:配方法'   # 拿释义/易错点/页码
 **为什么它排在这里**：这是目前最贴近我们定位的开源项目——同样是「skill 形态 + 教育内容」，
 但走的是"题 → 课件"路线，我们走"教材 → 数据底座"路线。**两条路可以直接串起来**。
 
-## 2. AI 课堂与个性化辅导：OpenMAIC / DeepTutor
-
-两个项目都做「agent 驱动的一堂课或一段辅导」。它们强在**怎么教**（角色分工、对话、课件生成），
-弱在**教什么**的出处——这正是本仓补的位置。
-
-| 项目 | 形态（据仓库自述） | 我们补什么 |
-|---|---|---|
-| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)（41.5k★，TypeScript） | 一键生成多智能体互动课堂：多角色协作、幻灯片、交互组件、苏格拉底式提问 | 每节课的章节结构、本节概念清单、易错点、教材页码——课堂引用的内容能回落到原文 |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)（43.5k★，Python） | 长期个性化辅导，多智能体 + CLI（标签：interactive-learning、multi-agent-systems） | 概念的前置依赖、常见错误、课标领域——让「该补哪里」有依据，而不只依赖对话历史 |
-
-**分工**：它们决定教学策略与对话，我们负责事实与出处。2,976 节全带页码、1,497 万字原文，
-是这类系统最容易缺的一环——多数教学 agent 只能靠模型记忆讲教材。
-
-**最小验证路径**
-
-```bash
-pnpm kg:ask tree 'BSDU-7-1-Math'                    # 章节树 + 每节页码
-pnpm kg:ask concepts 'BSDU-7-1-Math-C1-S1'          # 本节概念清单
-pnpm kg:ask covered 'concept:数学:几何体'            # 该概念还在哪些节出现
-```
-
-拿这三段喂给对方写课堂脚本，检查生成的每一页能否标注「教材 p.x–y」。
-标不出来说明它只用了模型记忆；标得出就是真的落了数据。
-
-## 3. 可溯源问答：RAGFlow
+## 4. 可溯源问答：RAGFlow
 
 **开源项目**：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)（Apache-2.0）
 
@@ -81,7 +108,7 @@ pnpm kg:ask covered 'concept:数学:几何体'            # 该概念还在哪�
 
 ---
 
-## 4. 课件/讲义：Slidev 或 Marp
+## 5. 课件/讲义：Slidev 或 Marp
 
 **开源项目**：[slidevjs/slidev](https://github.com/slidevjs/slidev)（MIT）、[marp-team/marp-cli](https://github.com/marp-team/marp-cli)（MIT）
 
@@ -103,7 +130,7 @@ slidev export slides.md
 
 ---
 
-## 5. 动态微课：Manim + manim-slides
+## 6. 动态微课：Manim + manim-slides
 
 **开源项目**：[ManimCommunity/manim](https://github.com/ManimCommunity/manim)（MIT）、[jeertmans/manim-slides](https://github.com/jeertmans/manim-slides)（MIT）
 
@@ -127,7 +154,7 @@ manim -pql scene.py Peifang
 
 ---
 
-## 6. 视频与交互点：H5P Interactive Video + 时间戳对齐
+## 7. 视频与交互点：H5P Interactive Video + 时间戳对齐
 
 **开源项目**：[h5p/h5p-core](https://github.com/h5p/h5p-core)（MIT）、[m-bain/whisperX](https://github.com/m-bain/whisperX)（词级时间戳）
 
@@ -148,7 +175,7 @@ pnpm kg:ask covered 'concept:生物:光合作用'   # 取 misconceptions 作为�
 
 ---
 
-## 7. 关系图：Mermaid / D2
+## 8. 关系图：Mermaid / D2
 
 **开源项目**：[mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)（MIT）、[terrastruct/d2](https://github.com/terrastruct/d2)（MPL-2.0）
 
@@ -169,7 +196,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 8. 学科专用可视化
+## 9. 学科专用可视化
 
 **开源项目**：[jsxgraph/jsxgraph](https://github.com/jsxgraph/jsxgraph)（交互式几何）、[molstar/molstar](https://github.com/molstar/molstar)（分子结构）、[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)（手绘风白板，文件是 JSON 可脚本生成）
 
@@ -183,7 +210,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 9. 可交互例题：Marimo / Quarto
+## 10. 可交互例题：Marimo / Quarto
 
 **开源项目**：[marimo-team/marimo](https://github.com/marimo-team/marimo)（Apache-2.0，纯 Python 可 diff 的 notebook）、[quarto-dev/quarto-cli](https://github.com/quarto-dev/quarto-cli)
 
@@ -196,7 +223,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 10. LMS 承载：Moodle / Open edX / Kolibri
+## 11. LMS 承载：Moodle / Open edX / Kolibri
 
 **开源项目**：[moodle](https://github.com/moodle/moodle)（GPL-3.0）、[openedx](https://github.com/openedx/openedx-platform)（AGPL-3.0）、[kolibri](https://github.com/learningequality/kolibri)（MIT，离线优先）
 
@@ -209,7 +236,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 11. 分工边界
+## 12. 分工边界
 
 本仓库是**数据层**，不向上做题库、不向下做渲染。清楚的边界反而便于对接：
 
@@ -224,7 +251,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 是独立的数据工程，需要自己的判据与金标——按 `part_of` 的经验，没有金标的批量连边会带来
 约 8% 的假边率，所以宁可先空着。做全库关系图时，呈现的是学科各自的簇结构。
 
-## 12. 一条最小可行流水线
+## 13. 一条最小可行流水线
 
 ```
 教材 md（本仓库 content/）
