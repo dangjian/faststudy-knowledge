@@ -45,7 +45,31 @@ pnpm kg:ask covered 'concept:数学:配方法'   # 拿释义/易错点/页码
 **为什么它排在这里**：这是目前最贴近我们定位的开源项目——同样是「skill 形态 + 教育内容」，
 但走的是"题 → 课件"路线，我们走"教材 → 数据底座"路线。**两条路可以直接串起来**。
 
-## 2. 可溯源问答：RAGFlow
+## 2. AI 课堂与个性化辅导：OpenMAIC / DeepTutor
+
+两个项目都做「agent 驱动的一堂课或一段辅导」。它们强在**怎么教**（角色分工、对话、课件生成），
+弱在**教什么**的出处——这正是本仓补的位置。
+
+| 项目 | 形态（据仓库自述） | 我们补什么 |
+|---|---|---|
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)（41.5k★，TypeScript） | 一键生成多智能体互动课堂：多角色协作、幻灯片、交互组件、苏格拉底式提问 | 每节课的章节结构、本节概念清单、易错点、教材页码——课堂引用的内容能回落到原文 |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)（43.5k★，Python） | 长期个性化辅导，多智能体 + CLI（标签：interactive-learning、multi-agent-systems） | 概念的前置依赖、常见错误、课标领域——让「该补哪里」有依据，而不只依赖对话历史 |
+
+**分工**：它们决定教学策略与对话，我们负责事实与出处。2,976 节全带页码、1,497 万字原文，
+是这类系统最容易缺的一环——多数教学 agent 只能靠模型记忆讲教材。
+
+**最小验证路径**
+
+```bash
+pnpm kg:ask tree 'BSDU-7-1-Math'                    # 章节树 + 每节页码
+pnpm kg:ask concepts 'BSDU-7-1-Math-C1-S1'          # 本节概念清单
+pnpm kg:ask covered 'concept:数学:几何体'            # 该概念还在哪些节出现
+```
+
+拿这三段喂给对方写课堂脚本，检查生成的每一页能否标注「教材 p.x–y」。
+标不出来说明它只用了模型记忆；标得出就是真的落了数据。
+
+## 3. 可溯源问答：RAGFlow
 
 **开源项目**：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)（Apache-2.0）
 
@@ -57,7 +81,7 @@ pnpm kg:ask covered 'concept:数学:配方法'   # 拿释义/易错点/页码
 
 ---
 
-## 3. 课件/讲义：Slidev 或 Marp
+## 4. 课件/讲义：Slidev 或 Marp
 
 **开源项目**：[slidevjs/slidev](https://github.com/slidevjs/slidev)（MIT）、[marp-team/marp-cli](https://github.com/marp-team/marp-cli)（MIT）
 
@@ -79,7 +103,7 @@ slidev export slides.md
 
 ---
 
-## 4. 动态微课：Manim + manim-slides
+## 5. 动态微课：Manim + manim-slides
 
 **开源项目**：[ManimCommunity/manim](https://github.com/ManimCommunity/manim)（MIT）、[jeertmans/manim-slides](https://github.com/jeertmans/manim-slides)（MIT）
 
@@ -103,7 +127,7 @@ manim -pql scene.py Peifang
 
 ---
 
-## 5. 视频与交互点：H5P Interactive Video + 时间戳对齐
+## 6. 视频与交互点：H5P Interactive Video + 时间戳对齐
 
 **开源项目**：[h5p/h5p-core](https://github.com/h5p/h5p-core)（MIT）、[m-bain/whisperX](https://github.com/m-bain/whisperX)（词级时间戳）
 
@@ -124,7 +148,7 @@ pnpm kg:ask covered 'concept:生物:光合作用'   # 取 misconceptions 作为�
 
 ---
 
-## 6. 关系图：Mermaid / D2
+## 7. 关系图：Mermaid / D2
 
 **开源项目**：[mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)（MIT）、[terrastruct/d2](https://github.com/terrastruct/d2)（MPL-2.0）
 
@@ -145,7 +169,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 7. 学科专用可视化
+## 8. 学科专用可视化
 
 **开源项目**：[jsxgraph/jsxgraph](https://github.com/jsxgraph/jsxgraph)（交互式几何）、[molstar/molstar](https://github.com/molstar/molstar)（分子结构）、[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)（手绘风白板，文件是 JSON 可脚本生成）
 
@@ -159,7 +183,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 8. 可交互例题：Marimo / Quarto
+## 9. 可交互例题：Marimo / Quarto
 
 **开源项目**：[marimo-team/marimo](https://github.com/marimo-team/marimo)（Apache-2.0，纯 Python 可 diff 的 notebook）、[quarto-dev/quarto-cli](https://github.com/quarto-dev/quarto-cli)
 
@@ -172,7 +196,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 9. LMS 承载：Moodle / Open edX / Kolibri
+## 10. LMS 承载：Moodle / Open edX / Kolibri
 
 **开源项目**：[moodle](https://github.com/moodle/moodle)（GPL-3.0）、[openedx](https://github.com/openedx/openedx-platform)（AGPL-3.0）、[kolibri](https://github.com/learningequality/kolibri)（MIT，离线优先）
 
@@ -185,7 +209,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 
 ---
 
-## 10. 分工边界
+## 11. 分工边界
 
 本仓库是**数据层**，不向上做题库、不向下做渲染。清楚的边界反而便于对接：
 
@@ -200,7 +224,7 @@ pnpm kg:ask prereq 'concept:数学:无理数'    # → 有理数 / 勾股定理 
 是独立的数据工程，需要自己的判据与金标——按 `part_of` 的经验，没有金标的批量连边会带来
 约 8% 的假边率，所以宁可先空着。做全库关系图时，呈现的是学科各自的簇结构。
 
-## 11. 一条最小可行流水线
+## 12. 一条最小可行流水线
 
 ```
 教材 md（本仓库 content/）
