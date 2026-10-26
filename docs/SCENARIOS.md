@@ -25,16 +25,9 @@
 
 | 形态 | 用什么 | 我们的输入 | 验证情况 |
 |---|---|---|---|
-| 参数化图表 | 原生 canvas 2D | 概念 + 页码 + 章节结构 | **已实现**：`demo/net.js` 是零依赖 Canvas 力导向，160 节点 300 次迭代 20 ms |
-| 公式与解析页 | KaTeX 内联 | `explanation` + `misconceptions` | **已实现**：demo 把 KaTeX 放在 `demo/vendor/`，按需加载并局部降级 |
-| 三维演示 | three.js | 概念参数（需 agent 自行建模） | 未实现，且需注意下面两条约束 |
-
-**两条来自实测的约束**
-
-1. **ES Module 不能用 `file://` 打开**。浏览器会因 CORS 拒绝加载模块，必须起一个本地 HTTP 服务
-   （`python3 -m http.server`）。本仓 demo 的 README 里已记录同一条限制。
-2. **CDN 依赖会破坏"自包含"**。要真正离线可用，需把库文件内联进 HTML，单文件会涨到数百 KB；
-   只在线用则保留 CDN 引用即可。这是取舍，不是技术障碍。
+| 参数化图表 | 原生 canvas 2D | 概念 + 页码 + 章节结构 | 已验证（demo 的关系网即此方案） |
+| 公式与解析页 | KaTeX | `explanation` + `misconceptions` | 已验证（demo 的原文渲染） |
+| 三维演示 | three.js | 概念参数 | 尚未实现 |
 
 **为什么这个场景排第一**
 
