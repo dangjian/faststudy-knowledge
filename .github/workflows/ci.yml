@@ -12,6 +12,9 @@ on:
       - 'CONTRIBUTING.md'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -51,6 +54,8 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/')
     needs: check
     runs-on: ubuntu-latest
+    permissions:
+      contents: write      # 上传 Release 资产需要写权限，默认 token 只读
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
