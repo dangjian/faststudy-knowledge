@@ -1,0 +1,21 @@
+{
+  "comment": "normTitle 三档序数剥离 + 三分类的 golden 向量。期望值由 debug.tools.ts:233-243 现行实现实测产出（2026-09-14 node 实跑），不是推测。TS（应用侧与本仓两处）与 Python（reoutline_propose）测试都读本文件。",
+  "normTitle": [
+    { "input": "1. 三角形内角和定理", "expected": "三角形内角和定理" },
+    { "input": "第3节", "expected": "" },
+    { "input": "2一元一次方程", "expected": "一元一次方程" },
+    { "input": "第1单元 第一章 三角形的证明及其应用", "expected": "单元第一章三角形的证明及其应用" },
+    { "input": "一、相交线", "expected": "相交线" },
+    { "input": "9.1 不等式及其解集", "expected": "1不等式及其解集" },
+    { "input": "1.1 正数和负数", "expected": "1正数和负数" }
+  ],
+  "classify": [
+    { "pg": "1. 三角形内角和定理", "kg": "三角形内角和定理", "expected": "agree" },
+    { "pg": "2 一元一次方程", "kg": "一元一次方程", "expected": "agree" },
+    { "pg": "一、相交线", "kg": "相交线", "expected": "agree" },
+    { "pg": "不等式及其解集", "kg": "第3节", "expected": "placeholder" },
+    { "pg": "不等式及其解集", "kg": "", "expected": "placeholder" },
+    { "pg": "三角形的证明及其应用", "kg": "第1单元 第一章 三角形的证明及其应用", "expected": "mismatch" },
+    { "pg": "三角形内角和定理", "kg": "等腰三角形", "expected": "mismatch" }
+  ]
+}

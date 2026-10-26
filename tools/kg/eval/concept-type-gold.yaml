@@ -1,0 +1,502 @@
+# 概念教学类型（conceptType）金标：98 条
+#
+# 用途：验收「LLM/规则给概念打类型」的准确率。判据见同目录 rubric-cases.md 第十三节。
+# 抽样：按规则预测类型分层（程序型 25 / 应用型 15 / 建模型 10 / 推理型 3 / 概念型 45），
+#   保证稀有类有样本；**题包不含预测结果**，由独立 agent 盲判，避免自评自判。
+# 五类：概念型（名词定义/定理/公式，知道是什么即可）｜程序型（有固定操作顺序）｜
+#   推理型（证明方法与推理策略）｜应用型（解决具体情境）｜建模型（先抽象成模型再求解）。
+#
+# 已知：规则法在该金标上仅 88.8% 总一致，且**程序型池精度仅 48%**、全库漏判约 719 条，
+#   故改为 LLM 判定（规则仅作候选）。金标不随规则改动而调整。
+
+items:
+  - id: concept:数学:除法的验算
+    title: 除法的验算
+    subject: 数学
+    verdict: 程序型
+    note: 先商乘除数再加余数比，按步验算
+  - id: concept:地理:石油资源
+    title: 石油资源
+    subject: 地理
+    verdict: 概念型
+    note: 石油分布事实，知道即可
+  - id: concept:地理:极昼和极夜
+    title: 极昼和极夜
+    subject: 地理
+    verdict: 概念型
+    note: 现象定义，能说明成因即可
+  - id: concept:道德与法治:中华人文精神
+    title: 中华人文精神
+    subject: 道德与法治
+    verdict: 概念型
+    note: 精神内涵的名词解释
+  - id: concept:语文:犯上
+    title: 犯上
+    subject: 语文
+    verdict: 概念型
+    note: 词语释义，知道意思即可
+  - id: concept:历史:无为而治
+    title: 无为而治
+    subject: 历史
+    verdict: 概念型
+    note: 主张含义的名词性解释
+  - id: concept:科学:制作模型的方法
+    title: 制作模型的方法
+    subject: 科学
+    verdict: 程序型
+    note: 先方案后选材再制作修改，有顺序
+  - id: concept:数学:9的乘法口诀
+    title: 9的乘法口诀
+    subject: 数学
+    verdict: 概念型
+    note: 口诀是记忆性事实，知道即可
+  - id: concept:数学:概率的简单应用
+    title: 概率的简单应用
+    subject: 数学
+    verdict: 应用型
+    note: 用概率判断公平性，依具体情境
+  - id: concept:数学:分式的除法法则
+    title: 分式的除法法则
+    subject: 数学
+    verdict: 概念型
+    note: 运算法则，知道颠倒相乘即可
+  - id: concept:化学:二氧化碳的检验
+    title: 二氧化碳的检验
+    subject: 化学
+    verdict: 概念型
+    note: 性质事实，知道石灰水变浑浊
+  - id: concept:道德与法治:以人民为中心的发展思想
+    title: 以人民为中心的发展思想
+    subject: 道德与法治
+    verdict: 概念型
+    note: 思想内涵的名词解释
+  - id: concept:化学:碘酊
+    title: 碘酊
+    subject: 化学
+    verdict: 概念型
+    note: 物质组成与用途的定义
+  - id: concept:英语:时间/条件状语从句中的一般现在时表将来
+    title: 时间/条件状语从句中的一般现在时表将来
+    subject: 英语
+    verdict: 概念型
+    note: 语法规则，记住用法即可
+  - id: concept:道德与法治:惠民利民、安民富民
+    title: 惠民利民、安民富民
+    subject: 道德与法治
+    verdict: 概念型
+    note: 主张含义的名词性解释
+  - id: concept:历史:一个中心、两个基本点
+    title: 一个中心、两个基本点
+    subject: 历史
+    verdict: 概念型
+    note: 路线概括，记住内容即可
+  - id: concept:化学:分子模型
+    title: 分子模型
+    subject: 化学
+    verdict: 概念型
+    note: 模型的表示作用，知道即可
+  - id: concept:生物:科学方法：建构模型
+    title: 科学方法：建构模型
+    subject: 生物
+    verdict: 概念型
+    note: 模型定义，能说明含义即可
+  - id: concept:化学:化学与生活
+    title: 化学与生活
+    subject: 化学
+    verdict: 概念型
+    note: 应用领域的事实罗列
+  - id: concept:数学:用二次根式解决实际问题
+    title: 用二次根式解决实际问题
+    subject: 数学
+    verdict: 应用型
+    note: 用二次根式解实际情境问题
+  - id: concept:道德与法治:提高劳动本领的方法
+    title: 提高劳动本领的方法
+    subject: 道德与法治
+    verdict: 概念型
+    note: 做法性建议，能说出即可
+  - id: concept:数学:尺规作图：已知底边和底边上的高作等腰三角形
+    title: 尺规作图：已知底边和底边上的高作等腰三角形
+    subject: 数学
+    verdict: 程序型
+    note: 按作底边、垂直平分线顺序作图
+  - id: concept:数学:公式法
+    title: 公式法
+    subject: 数学
+    verdict: 程序型
+    note: 辨形式套公式，按步骤分解
+  - id: concept:语文:体会课文表达的思想感情
+    title: 体会课文表达的思想感情
+    subject: 语文
+    verdict: 程序型
+    note: 按找语句、抓字词步骤体会
+  - id: concept:历史:一带一路
+    title: 一带一路
+    subject: 历史
+    verdict: 概念型
+    note: 倡议由来与定位，知道即可
+  - id: concept:地理:生命存在的条件
+    title: 生命存在的条件
+    subject: 地理
+    verdict: 概念型
+    note: 生命条件的事实罗列
+  - id: concept:科学:地表变化的原因
+    title: 地表变化的原因
+    subject: 科学
+    verdict: 概念型
+    note: 内外力作用原因的说明
+  - id: concept:数学:中心对称的性质
+    title: 中心对称的性质
+    subject: 数学
+    verdict: 概念型
+    note: 对称性质的结论性知识
+  - id: concept:道德与法治:生活实践
+    title: 生活实践
+    subject: 道德与法治
+    verdict: 概念型
+    note: 含义解释，知道途径即可
+  - id: concept:科学:地球模型
+    title: 地球模型
+    subject: 科学
+    verdict: 概念型
+    note: 模型作用说明，知道即可
+  - id: concept:数学:变量之间关系的表示方法
+    title: 变量之间关系的表示方法
+    subject: 数学
+    verdict: 概念型
+    note: 三种表示方法的罗列
+  - id: concept:语文:写作目的
+    title: 写作目的
+    subject: 语文
+    verdict: 概念型
+    note: 目的类型的知识，知道即可
+  - id: concept:化学:除杂方法
+    title: 除杂方法
+    subject: 化学
+    verdict: 应用型
+    note: 依性质差异选除杂方案，看情境
+  - id: concept:道德与法治:劳动节
+    title: 劳动节
+    subject: 道德与法治
+    verdict: 概念型
+    note: 节日名称与日期的事实
+  - id: concept:历史:范缜
+    title: 范缜
+    subject: 历史
+    verdict: 概念型
+    note: 人物与著作的事实
+  - id: concept:物理:超声探伤仪
+    title: 超声探伤仪
+    subject: 物理
+    verdict: 概念型
+    note: 设备原理说明，知道即可
+  - id: concept:地理:中国的地理位置
+    title: 中国的地理位置
+    subject: 地理
+    verdict: 概念型
+    note: 地理位置事实，记住即可
+  - id: concept:英语:流程图
+    title: 流程图
+    subject: 英语
+    verdict: 程序型
+    note: 提取事件排序画图，有操作顺序
+  - id: concept:化学:卢瑟福原子模型
+    title: 卢瑟福原子模型
+    subject: 化学
+    verdict: 概念型
+    note: 模型结构描述，知道即可
+  - id: concept:化学:玻尔原子模型
+    title: 玻尔原子模型
+    subject: 化学
+    verdict: 概念型
+    note: 轨道模型要点，知道即可
+  - id: concept:物理:数学方法在物理中的应用
+    title: 数学方法在物理中的应用
+    subject: 物理
+    verdict: 推理型
+    note: 用公式表达并逻辑推演得结论
+  - id: concept:数学:一次函数的应用
+    title: 一次函数的应用
+    subject: 数学
+    verdict: 建模型
+    note: 先把实际情境抽象成函数模型
+  - id: concept:数学:因式分解法
+    title: 因式分解法
+    subject: 数学
+    verdict: 程序型
+    note: 移项化为零再分解，按步求解
+  - id: concept:化学:热还原法
+    title: 热还原法
+    subject: 化学
+    verdict: 概念型
+    note: 还原方法原理，知道即可
+  - id: concept:历史:文化专制政策
+    title: 文化专制政策
+    subject: 历史
+    verdict: 概念型
+    note: 政策措施内容的事实知识
+  - id: concept:数学:正比例函数
+    title: 正比例函数
+    subject: 数学
+    verdict: 概念型
+    note: 函数定义式，知道是什么即可
+  - id: concept:地理:见面礼仪
+    title: 见面礼仪
+    subject: 地理
+    verdict: 概念型
+    note: 各国礼仪差异的事实
+  - id: concept:化学:归纳法
+    title: 归纳法
+    subject: 化学
+    verdict: 推理型
+    note: 由个别概括一般的推理方法
+  - id: concept:数学:各象限内点的坐标特征
+    title: 各象限内点的坐标特征
+    subject: 数学
+    verdict: 概念型
+    note: 各象限符号特征，记住即可
+  - id: concept:数学:反比例函数与一次函数的综合应用
+    title: 反比例函数与一次函数的综合应用
+    subject: 数学
+    verdict: 应用型
+    note: 用两函数图象性质解综合问题
+  - id: concept:数学:一元一次方程的应用
+    title: 一元一次方程的应用
+    subject: 数学
+    verdict: 应用型
+    note: 列方程解实际问题，靠设未知找等量关系
+  - id: concept:数学:10的组成与加减法
+    title: 10的组成与加减法
+    subject: 数学
+    verdict: 概念型
+    note: 记住10的分与合，属事实性知识
+  - id: concept:数学:三位数连减
+    title: 三位数连减
+    subject: 数学
+    verdict: 程序型
+    note: 连减按步骤依次算，属计算操作
+  - id: concept:语文:读书的方法
+    title: 读书的方法
+    subject: 语文
+    verdict: 概念型
+    note: 理解培根读书观点，说出即可
+  - id: concept:语文:可歌可泣
+    title: 可歌可泣
+    subject: 语文
+    verdict: 概念型
+    note: 成语释义，知道意思即可
+  - id: concept:历史:德谟克利特的原子论
+    title: 德谟克利特的原子论
+    subject: 历史
+    verdict: 概念型
+    note: 记住原子论主张，属史实定义
+  - id: concept:语文:判断句
+    title: 判断句
+    subject: 语文
+    verdict: 概念型
+    note: 判断句形式，能辨认并说出标志
+  - id: concept:物理:质子
+    title: 质子
+    subject: 物理
+    verdict: 概念型
+    note: 质子定义，知道带正电即可
+  - id: concept:英语:不规则动词过去式
+    title: 不规则动词过去式
+    subject: 英语
+    verdict: 概念型
+    note: 特殊形式需单独记忆，说出即可
+  - id: concept:数学:用量角器量角
+    title: 用量角器量角
+    subject: 数学
+    verdict: 程序型
+    note: 量角有固定操作顺序，做不出
+  - id: concept:物理:固体、液体、气体的分子模型
+    title: 固体、液体、气体的分子模型
+    subject: 物理
+    verdict: 概念型
+    note: 用分子模型解释物性，知道即可
+  - id: concept:英语:描述正在进行的活动
+    title: 描述正在进行的活动
+    subject: 英语
+    verdict: 概念型
+    note: 现在进行时句型，说出结构即可
+  - id: concept:英语:谈论周末活动
+    title: 谈论周末活动
+    subject: 英语
+    verdict: 概念型
+    note: 询问周末活动的句型，记得即可
+  - id: concept:科学:观察植物的方法
+    title: 观察植物的方法
+    subject: 科学
+    verdict: 程序型
+    note: 多感官观察有操作次序，需动手
+  - id: concept:数学:相同数位上的数相加减
+    title: 相同数位上的数相加减
+    subject: 数学
+    verdict: 程序型
+    note: 数位对齐再算，属计算操作技能
+  - id: concept:化学:化学合成材料
+    title: 化学合成材料
+    subject: 化学
+    verdict: 概念型
+    note: 合成材料定义及举例，知道即可
+  - id: concept:英语:表语从句
+    title: 表语从句
+    subject: 英语
+    verdict: 概念型
+    note: 表语从句结构规则，说出即可
+  - id: concept:道德与法治:毛泽东思想
+    title: 毛泽东思想
+    subject: 道德与法治
+    verdict: 概念型
+    note: 思想内涵定义，知道是什么
+  - id: concept:数学:三角形三边垂直平分线的性质
+    title: 三角形三边垂直平分线的性质
+    subject: 数学
+    verdict: 概念型
+    note: 垂直平分线性质定理，知道即可
+  - id: concept:地理:泥石流
+    title: 泥石流
+    subject: 地理
+    verdict: 概念型
+    note: 泥石流定义与特点，知道即可
+  - id: concept:化学:汤姆孙原子模型
+    title: 汤姆孙原子模型
+    subject: 化学
+    verdict: 概念型
+    note: 记住枣糕模型主张，属史实
+  - id: concept:数学:反证法
+    title: 反证法
+    subject: 数学
+    verdict: 推理型
+    note: 反证法属证明方法，学推理策略
+  - id: concept:英语:生日庆祝活动
+    title: 生日庆祝活动
+    subject: 英语
+    verdict: 概念型
+    note: 生日活动词汇话题，记住即可
+  - id: concept:英语:描述活动的现在进行时句型
+    title: 描述活动的现在进行时句型
+    subject: 英语
+    verdict: 概念型
+    note: 现在进行时句型形式，说出即可
+  - id: concept:数学:首位不够商1的除法
+    title: 首位不够商1的除法
+    subject: 数学
+    verdict: 程序型
+    note: 竖式除法步骤，首位处理要操作
+  - id: concept:语文:阅读古典名著的方法
+    title: 阅读古典名著的方法
+    subject: 语文
+    verdict: 程序型
+    note: 猜词、借资料等阅读策略需实践
+  - id: concept:数学:20以内退位减法
+    title: 20以内退位减法
+    subject: 数学
+    verdict: 程序型
+    note: 退位减法按摆棒步骤操作，做不出
+  - id: concept:语文:按事情发展顺序讲故事
+    title: 按事情发展顺序讲故事
+    subject: 语文
+    verdict: 程序型
+    note: 按起因经过结果顺序复述，有步骤
+  - id: concept:物理:光路可逆
+    title: 光路可逆
+    subject: 物理
+    verdict: 概念型
+    note: 光路可逆是规律，知道即可
+  - id: concept:道德与法治:依法有序参与民主生活
+    title: 依法有序参与民主生活
+    subject: 道德与法治
+    verdict: 概念型
+    note: 参与民主生活的要求，理解即可
+  - id: concept:英语:鲨鱼鳍
+    title: 鲨鱼鳍
+    subject: 英语
+    verdict: 概念型
+    note: 话题内容与观点，知道即可
+  - id: concept:道德与法治:家人血脉相连
+    title: 家人血脉相连
+    subject: 道德与法治
+    verdict: 概念型
+    note: 家人血脉相连的道理，理解即可
+  - id: concept:地理:三股势力
+    title: 三股势力
+    subject: 地理
+    verdict: 概念型
+    note: 三股势力的定义，知道即可
+  - id: concept:化学:电子云模型
+    title: 电子云模型
+    subject: 化学
+    verdict: 概念型
+    note: 电子云模型主张，知道是什么
+  - id: concept:数学:二分法
+    title: 二分法
+    subject: 数学
+    verdict: 程序型
+    note: 取中点缩范围，有固定迭代步骤
+  - id: concept:物理:密度知识的应用
+    title: 密度知识的应用
+    subject: 物理
+    verdict: 应用型
+    note: 用密度鉴别、测质量体积，解决实景
+  - id: concept:数学:同分母分式的加减法法则
+    title: 同分母分式的加减法法则
+    subject: 数学
+    verdict: 概念型
+    note: 同分母分式加减法则，公式记住
+  - id: concept:道德与法治:自我调节的方法
+    title: 自我调节的方法
+    subject: 道德与法治
+    verdict: 概念型
+    note: 列举自我调节方法，说出即可
+  - id: concept:地理:跨学科主题学习
+    title: 跨学科主题学习
+    subject: 地理
+    verdict: 概念型
+    note: 学习方式定义，知道是什么
+  - id: concept:物理:参照物
+    title: 参照物
+    subject: 物理
+    verdict: 概念型
+    note: 参照物定义，知道即可
+  - id: concept:语文:慷慨激昂
+    title: 慷慨激昂
+    subject: 语文
+    verdict: 概念型
+    note: 成语释义，知道意思即可
+  - id: concept:历史:国家监察委员会
+    title: 国家监察委员会
+    subject: 历史
+    verdict: 概念型
+    note: 机构名称与时间，属史实记忆
+  - id: concept:化学:道尔顿原子模型
+    title: 道尔顿原子模型
+    subject: 化学
+    verdict: 概念型
+    note: 实心球模型主张，知道即可
+  - id: concept:物理:归纳法
+    title: 归纳法
+    subject: 物理
+    verdict: 推理型
+    note: 从事实概括一般结论的思维方法
+  - id: concept:英语:志愿者活动词汇
+    title: 志愿者活动词汇
+    subject: 英语
+    verdict: 概念型
+    note: 志愿活动短语词汇，记住即可
+  - id: concept:道德与法治:人类活动诱发自然灾害
+    title: 人类活动诱发自然灾害
+    subject: 道德与法治
+    verdict: 概念型
+    note: 人祸诱发灾害的认识，理解即可
+  - id: concept:科学:生物多样性的调查方法
+    title: 生物多样性的调查方法
+    subject: 科学
+    verdict: 程序型
+    note: 划区、分组统计、记录，有步骤
+  - id: concept:道德与法治:应对欺负的方法
+    title: 应对欺负的方法
+    subject: 道德与法治
+    verdict: 应用型
+    note: 校内校外分类应对，依赖具体情境

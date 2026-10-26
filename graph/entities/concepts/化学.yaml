@@ -1,0 +1,5852 @@
+- id: concept:化学:pH与生命活动
+  type: Concept
+  subject: 化学
+  title: pH与生命活动
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为所有生物最适pH都是7，如胃蛋白酶在pH约2时活性最强
+    - 能指出并纠正这一错误：认为pH越小，溶液越接近中性，实际pH越小酸性越强，pH越大碱性越强
+  aliases: []
+  category: 化学应用
+  explanation: 人体体液和农作物生长都有适宜的pH范围，pH对生命活动有重大影响。
+  misconceptions:
+    - 误以为所有生物最适pH都是7，如胃蛋白酶在pH约2时活性最强
+    - 认为pH越小，溶液越接近中性，实际pH越小酸性越强，pH越大碱性越强
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:pH试纸的使用
+  type: Concept
+  subject: 化学
+  title: pH试纸的使用
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将pH试纸直接伸入待测液中，会污染原试剂且测定不准确
+    - 能指出并纠正这一错误：用蒸馏水润湿pH试纸后再蘸取待测液，导致待测液被稀释，酸性或碱性测定偏大/偏小
+  aliases:
+    - pH试纸的使用方法
+  category: 实验操作
+  explanation: 用pH试纸测定溶液pH的方法：将待测液滴在试纸上，与标准比色卡比较读出pH。
+  misconceptions:
+    - 将pH试纸直接伸入待测液中，会污染原试剂且测定不准确
+    - 用蒸馏水润湿pH试纸后再蘸取待测液，导致待测液被稀释，酸性或碱性测定偏大/偏小
+    - 把pH试纸浸入溶液后立即与标准比色卡比较，过早读数颜色未稳定
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:一氧化碳的可燃性
+  type: Concept
+  subject: 化学
+  title: 一氧化碳的可燃性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：点燃CO前不验纯，混有空气时点燃会爆炸
+    - 能指出并纠正这一错误：误认为CO燃烧生成CO2和水，方程式写成2CO+O2=2CO2+H2O
+  aliases: []
+  category: 化学性质
+  explanation: 一氧化碳易燃，燃烧时产生蓝色火焰，生成二氧化碳。
+  misconceptions:
+    - 点燃CO前不验纯，混有空气时点燃会爆炸
+    - 误认为CO燃烧生成CO2和水，方程式写成2CO+O2=2CO2+H2O
+    - 认为CO燃烧火焰是黄色，实际是蓝色
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:一氧化碳的毒性
+  type: Concept
+  subject: 化学
+  title: 一氧化碳的毒性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为CO有刺激性气味，靠气味察觉中毒
+    - 能指出并纠正这一错误：认为CO难溶于水，室内放水可防CO中毒
+  aliases:
+    - 煤气中毒
+  category: 物质性质
+  explanation: 一氧化碳无色无味，难溶于水，能与血红蛋白结合导致缺氧中毒。
+  misconceptions:
+    - 误认为CO有刺激性气味，靠气味察觉中毒
+    - 认为CO难溶于水，室内放水可防CO中毒
+    - 误认为CO中毒是CO刺激呼吸道，实际是与血红蛋白结合缺氧
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S2.md
+- id: concept:化学:一氧化碳的燃烧
+  type: Concept
+  subject: 化学
+  title: 一氧化碳的燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：方程式漏写点燃条件，写成2CO+O2=2CO2
+    - 能指出并纠正这一错误：配平错误，写成CO+O2=CO2，氧原子数不等
+  aliases: []
+  category: 化学反应
+  explanation: 一氧化碳燃烧生成二氧化碳，化学方程式为2CO + O2 → 2CO2，火焰呈蓝色。
+  misconceptions:
+    - 方程式漏写点燃条件，写成2CO+O2=2CO2
+    - 配平错误，写成CO+O2=CO2，氧原子数不等
+    - 误认为CO燃烧生成CO2和H2O，未注意CO中无氢元素
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:三废
+  type: Concept
+  subject: 化学
+  title: 三废
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为三废仅指工厂排放的废渣、废水和废气，不包括生活废弃物。
+    - 能指出并纠正这一错误：认为废气只是二氧化碳，忽略二氧化硫等有害气体。
+  aliases: []
+  category: 环境化学
+  explanation: 三废指废渣、废水、废气，需要化学技术处理以减少污染。
+  misconceptions:
+    - 认为三废仅指工厂排放的废渣、废水和废气，不包括生活废弃物。
+    - 认为废气只是二氧化碳，忽略二氧化硫等有害气体。
+    - 认为处理三废只需物理沉降，不需要化学手段。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:不饱和溶液
+  type: Concept
+  subject: 化学
+  title: 不饱和溶液
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为不饱和溶液一定是稀溶液，如接近饱和的浓溶液也是不饱和溶液。
+    - 能指出并纠正这一错误：忽略温度条件，认为不饱和溶液降温后仍不饱和，如氢氧化钙溶液降温反而更不饱和。
+  aliases: []
+  category: 化学概念
+  explanation: 在一定温度下，一定量溶剂里还能继续溶解某溶质的溶液。
+  misconceptions:
+    - 误认为不饱和溶液一定是稀溶液，如接近饱和的浓溶液也是不饱和溶液。
+    - 忽略温度条件，认为不饱和溶液降温后仍不饱和，如氢氧化钙溶液降温反而更不饱和。
+    - 误认为不饱和溶液中能溶解任何溶质，实际只能继续溶解该溶质本身。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:中和反应
+  type: Concept
+  subject: 化学
+  title: 中和反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为中和反应后溶液一定呈中性，实际酸或碱过量时溶液仍可能显酸性或碱性
+    - 能指出并纠正这一错误：认为生成盐和水的反应都是中和反应，如CO₂与NaOH反应也生成盐和水但不是中和反应
+  aliases:
+    - 酸碱中和
+  category: 化学概念
+  explanation: 酸与碱作用生成盐和水的反应称为中和反应。
+  misconceptions:
+    - 误认为中和反应后溶液一定呈中性，实际酸或碱过量时溶液仍可能显酸性或碱性
+    - 认为生成盐和水的反应都是中和反应，如CO₂与NaOH反应也生成盐和水但不是中和反应
+    - 否定中和反应属于复分解反应，认为复分解反应必须有沉淀生成
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:中子
+  type: Concept
+  subject: 化学
+  title: 中子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为中子带正电，实际不带电
+    - 能指出并纠正这一错误：认为所有原子都含中子，氕原子就没有中子
+  aliases: []
+  category: 微观粒子
+  explanation: 中子不带电，位于原子核内，与质子共同构成原子核。
+  misconceptions:
+    - 认为中子带正电，实际不带电
+    - 认为所有原子都含中子，氕原子就没有中子
+    - 认为原子质量几乎全集中在中子上，质子质量可忽略
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:乙醇
+  type: Concept
+  subject: 化学
+  title: 乙醇
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为乙醇溶于水会电离出OH⁻，误写C2H5OH→C2H5⁺+OH⁻。
+    - 能指出并纠正这一错误：配平乙醇燃烧误写C2H5OH+2O2→2CO2+3H2O，原子不守恒。
+  aliases:
+    - 酒精
+  category: 具体物质
+  explanation: 乙醇俗称酒精，是一种常见的有机物，可作燃料和溶剂。
+  misconceptions:
+    - 认为乙醇溶于水会电离出OH⁻，误写C2H5OH→C2H5⁺+OH⁻。
+    - 配平乙醇燃烧误写C2H5OH+2O2→2CO2+3H2O，原子不守恒。
+    - 认为乙醇燃烧产物只有CO2和H2O，忽略氧气不足生成CO。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:二氧化硅与氢氧化钠反应
+  type: Concept
+  subject: 化学
+  title: 二氧化硅与氢氧化钠反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为SiO₂不与NaOH反应，因为SiO₂不溶于水，实际SiO₂是酸性氧化物能与碱反应生成盐和…
+    - 能指出并纠正这一错误：书写Na₂SiO₃时把化学式写成NaSiO₃，未注意钠元素化合价为+1，硅酸根为-2
+  aliases: []
+  category: 化学方程式
+  explanation: SiO₂与NaOH反应生成Na₂SiO₃和H₂O，Na₂SiO₃属于盐类。
+  misconceptions:
+    - 误认为SiO₂不与NaOH反应，因为SiO₂不溶于水，实际SiO₂是酸性氧化物能与碱反应生成盐和水
+    - 书写Na₂SiO₃时把化学式写成NaSiO₃，未注意钠元素化合价为+1，硅酸根为-2
+    - 认为生成物Na₂SiO₃是氧化物，实际它是由金属离子和酸根离子构成的盐
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:二氧化碳与氢氧化钙反应
+  type: Concept
+  subject: 化学
+  title: 二氧化碳与氢氧化钙反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：方程式漏标沉淀符号，写成CO2+Ca(OH)2=CaCO3+H2O
+    - 能指出并纠正这一错误：误认为CO2过量沉淀不消失，实际会生成Ca(HCO3)2而变澄清
+  aliases:
+    - CO2与石灰水反应
+    - 二氧化碳的检验
+  category: 化学方程式
+  explanation: 二氧化碳与澄清石灰水（氢氧化钙溶液）反应生成碳酸钙白色沉淀和水，化学方程式为CO2 + Ca(OH)2 → CaCO3↓ + H2O，用于检验二氧化碳。
+  misconceptions:
+    - 方程式漏标沉淀符号，写成CO2+Ca(OH)2=CaCO3+H2O
+    - 误认为CO2过量沉淀不消失，实际会生成Ca(HCO3)2而变澄清
+    - 误认为石灰水变浑浊是物理变化，实际是化学变化
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:二氧化碳与水反应
+  type: Concept
+  subject: 化学
+  title: 二氧化碳与水反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为CO2使石蕊变红是自身显酸性，实际是碳酸
+    - 能指出并纠正这一错误：认为碳酸很稳定，加热不分解，实际受热分解
+  aliases:
+    - CO2与水反应
+  category: 化学方程式
+  explanation: 二氧化碳与水反应生成碳酸，化学方程式为CO2 + H2O → H2CO3，碳酸不稳定，受热分解为水和二氧化碳。
+  misconceptions:
+    - 误认为CO2使石蕊变红是自身显酸性，实际是碳酸
+    - 认为碳酸很稳定，加热不分解，实际受热分解
+    - 写方程式时误加沉淀符号，认为H2CO3是沉淀
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:二氧化碳的化学性质
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的化学性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有物质都不能在CO2中燃烧，如镁却能在其中燃烧
+    - 能指出并纠正这一错误：误认为CO2能使干燥紫色石蕊试纸变红，未考虑需水
+  aliases:
+    - CO2化学性质
+  category: 化学性质
+  explanation: 二氧化碳不可燃、不支持燃烧，能与水反应生成碳酸，使紫色石蕊变红，能与氢氧化钙反应生成碳酸钙沉淀和水。
+  misconceptions:
+    - 误认为所有物质都不能在CO2中燃烧，如镁却能在其中燃烧
+    - 误认为CO2能使干燥紫色石蕊试纸变红，未考虑需水
+    - 误认为CO2有毒，实际是浓度高导致缺氧
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:二氧化碳的实验室制法
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的实验室制法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误用稀硫酸制CO2，生成CaSO4阻碍反应继续
+    - 能指出并纠正这一错误：误用浓盐酸，使CO2中混有HCl气体不纯
+  aliases:
+    - CO2的制取
+    - 二氧化碳的制取
+  category: 实验方法
+  explanation: 实验室常用石灰石或大理石与稀盐酸在常温下反应制取二氧化碳，化学方程式为CaCO3+2HCl→CaCl2+H2O+CO2↑。
+  misconceptions:
+    - 误用稀硫酸制CO2，生成CaSO4阻碍反应继续
+    - 误用浓盐酸，使CO2中混有HCl气体不纯
+    - 方程式漏写气体符号，写成CaCO3+2HCl=CaCl2+H2O+CO2
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:二氧化碳的性质
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为CO2密度比空气小，用向下排空气法收集
+    - 能指出并纠正这一错误：误认为CO2有刺激性气味，实际是无色无味
+  aliases:
+    - CO2的性质
+  category: 化学性质与物理性质
+  explanation: 二氧化碳在通常状况下是无色、无气味的气体，密度比空气大，能溶于水并与水反应生成碳酸，一般不燃烧也不支持燃烧，能使澄清石灰水变浑浊。
+  misconceptions:
+    - 误认为CO2密度比空气小，用向下排空气法收集
+    - 误认为CO2有刺激性气味，实际是无色无味
+    - 误认为干冰是固态水，融化后变水
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:二氧化碳的检验
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的检验
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用燃着木条熄灭证明是CO2，N2等也能使其熄灭
+    - 能指出并纠正这一错误：误认为CO2能使带火星木条复燃，实际是O2
+  aliases:
+    - 澄清石灰水检验CO2
+  category: 实验方法
+  explanation: 二氧化碳能使澄清石灰水变浑浊，常用此性质检验二氧化碳的存在。
+  misconceptions:
+    - 用燃着木条熄灭证明是CO2，N2等也能使其熄灭
+    - 误认为CO2能使带火星木条复燃，实际是O2
+    - 误认为使紫色石蕊变红即可证明CO2，其他酸性气体也可
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:二氧化碳的物理性质
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的物理性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为干冰是固态的H2O，融化后是水
+    - 能指出并纠正这一错误：误认为CO2密度比空气小，采用向下排空气法
+  aliases:
+    - CO2物理性质
+  category: 物理性质
+  explanation: 二氧化碳在通常情况下是无色、无气味的气体，密度大于空气，可溶于水，加压降温可变为液体或固体（干冰），干冰易升华吸热。
+  misconceptions:
+    - 误认为干冰是固态的H2O，融化后是水
+    - 误认为CO2密度比空气小，采用向下排空气法
+    - 误认为CO2易溶于水，实际只是能溶于水
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:二氧化碳的用途
+  type: Concept
+  subject: 化学
+  title: 二氧化碳的用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为CO2灭火只用其不可燃性，忽略密度比空气大
+    - 能指出并纠正这一错误：误认为干冰人工降雨是熔化吸热，实际是升华吸热
+  aliases:
+    - CO2用途
+  category: 应用
+  explanation: 二氧化碳可用于灭火、作制冷剂（干冰）、人工增雨、光合作用原料、化工原料等。
+  misconceptions:
+    - 误认为CO2灭火只用其不可燃性，忽略密度比空气大
+    - 误认为干冰人工降雨是熔化吸热，实际是升华吸热
+    - 误认为CO2可作燃料，实际不可燃
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:传统无机非金属材料
+  type: Concept
+  subject: 化学
+  title: 传统无机非金属材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为玻璃是纯净物且有固定熔点，实际为混合物非晶体。
+    - 能指出并纠正这一错误：将塑料、橡胶归为传统无机非金属材料，混淆材料分类。
+  aliases:
+    - 无机非金属材料
+  category: 材料科学
+  explanation: 指陶瓷、玻璃等传统无机非金属材料，具有耐高温、耐腐蚀等特性。
+  misconceptions:
+    - 认为玻璃是纯净物且有固定熔点，实际为混合物非晶体。
+    - 将塑料、橡胶归为传统无机非金属材料，混淆材料分类。
+    - 认为陶瓷易溶于水，实际耐水且耐腐蚀。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:低碳生活
+  type: Concept
+  subject: 化学
+  title: 低碳生活
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误把‘低碳’理解为少用碳单质，如不用木炭
+    - 能指出并纠正这一错误：认为低碳生活必须停止所有CO2排放，不切实际
+  aliases: []
+  category: 化学与生活
+  explanation: 减少二氧化碳排放的生活方式，包括节能减排、使用清洁能源等。
+  misconceptions:
+    - 误把‘低碳’理解为少用碳单质，如不用木炭
+    - 认为低碳生活必须停止所有CO2排放，不切实际
+    - 误认为低碳是减少空气中CO2，忽略源头减排
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:保护金属资源的措施
+  type: Concept
+  subject: 化学
+  title: 保护金属资源的措施
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为保护金属资源只需回收废旧金属，忽略防止锈蚀和有计划开采
+    - 能指出并纠正这一错误：认为金属资源取之不尽，不需要开发替代品
+  aliases:
+    - 节约金属资源
+  category: 化学应用
+  explanation: 保护金属资源包括有计划合理开采、防止金属锈蚀、回收利用废旧金属、开发金属替代品等。
+  misconceptions:
+    - 误以为保护金属资源只需回收废旧金属，忽略防止锈蚀和有计划开采
+    - 认为金属资源取之不尽，不需要开发替代品
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S4.md
+- id: concept:化学:催化作用
+  type: Concept
+  subject: 化学
+  title: 催化作用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为催化作用一定加快反应速率，忽略催化剂也可减慢（如防腐剂）。
+    - 能指出并纠正这一错误：认为催化作用能改变生成物的量，实际只改变化学反应速率。
+  aliases: []
+  category: 化学概念
+  explanation: 催化剂在化学反应中所起的作用。
+  misconceptions:
+    - 认为催化作用一定加快反应速率，忽略催化剂也可减慢（如防腐剂）。
+    - 认为催化作用能改变生成物的量，实际只改变化学反应速率。
+    - 把催化作用等同于参与反应并消耗，实际反应前后质量和化学性质不变。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:催化剂
+  type: Concept
+  subject: 化学
+  title: 催化剂
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为催化剂能增加生成物质量，实际只改变速率不改变产量。
+    - 能指出并纠正这一错误：误认为二氧化锰是所有反应的催化剂，实际有专一性。
+  aliases:
+    - 触媒
+  category: 化学概念
+  explanation: 在化学反应中能改变其他物质的反应速率，而本身的质量和化学性质在反应前后都没有发生变化的物质。
+  misconceptions:
+    - 误认为催化剂能增加生成物质量，实际只改变速率不改变产量。
+    - 误认为二氧化锰是所有反应的催化剂，实际有专一性。
+    - 认为催化剂反应后质量会减少，实际反应前后质量不变。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:元素
+  type: Concept
+  subject: 化学
+  title: 元素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为相同中子数的一类原子是元素，忽略了质子数
+    - 能指出并纠正这一错误：把化合物说成由元素混合而成，如水由氢元素和氧元素混合
+  aliases: []
+  category: 基本概念
+  explanation: 具有相同质子数（核电荷数）的一类原子的总称。
+  misconceptions:
+    - 认为相同中子数的一类原子是元素，忽略了质子数
+    - 把化合物说成由元素混合而成，如水由氢元素和氧元素混合
+    - 认为同种元素只存在一种原子，不知道有同位素
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:元素周期表
+  type: Concept
+  subject: 化学
+  title: 元素周期表
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将周期表的横行称为族，纵行称为周期
+    - 能指出并纠正这一错误：认为同一周期原子的最外层电子数相同，实际同一族才相同
+  aliases:
+    - 周期表
+  category: 化学工具
+  explanation: 元素周期表是将元素按原子核电荷数从小到大的顺序排列而成的表格，共有7个横行（周期）和18个纵列（族）。
+  misconceptions:
+    - 将周期表的横行称为族，纵行称为周期
+    - 认为同一周期原子的最外层电子数相同，实际同一族才相同
+    - 认为元素周期表是按相对原子质量由小到大排列的
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:元素符号
+  type: Concept
+  subject: 化学
+  title: 元素符号
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把元素符号两个字母都大写，如铜写成CU
+    - 能指出并纠正这一错误：根据中文名称拼音写符号，如氮写成D、氧写成Y
+  aliases:
+    - 化学符号
+  category: 化学用语
+  explanation: 元素符号是国际上统一用来表示元素的字母符号，通常采用该元素拉丁文名称的第一个字母大写，若相同则再加第二个或第三个字母小写。
+  misconceptions:
+    - 把元素符号两个字母都大写，如铜写成CU
+    - 根据中文名称拼音写符号，如氮写成D、氧写成Y
+    - 把元素符号小写字母写在前面，如氖写成ne
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:元素符号的意义
+  type: Concept
+  subject: 化学
+  title: 元素符号的意义
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为元素符号Fe表示铁分子
+  aliases: []
+  category: 化学用语
+  explanation: 元素符号宏观上表示一种元素，微观上表示一个原子；在元素符号前加数字只表示若干个原子。
+  misconceptions:
+    - 认为元素符号Fe表示铁分子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S3.md
+- id: concept:化学:元素质量分数的计算
+  type: Concept
+  subject: 化学
+  title: 元素质量分数的计算
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算水中氢元素质量分数时，用1÷18×100%，忘记乘以氢原子个数2，应得11.1%。
+    - 能指出并纠正这一错误：求硝酸铵(NH4NO3)中氮元素质量分数，只算一个氮原子，忽略两个氮原子，得17.5%。
+  aliases:
+    - mass fraction
+  category: 化学计算
+  explanation: 某元素质量分数等于该元素相对原子质量乘以原子个数除以相对分子质量再乘以100%。
+  misconceptions:
+    - 计算水中氢元素质量分数时，用1÷18×100%，忘记乘以氢原子个数2，应得11.1%。
+    - 求硝酸铵(NH4NO3)中氮元素质量分数，只算一个氮原子，忽略两个氮原子，得17.5%。
+    - 把元素质量分数写成元素质量比，如求CO2中碳质量分数写成12:32。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:元素质量比的计算
+  type: Concept
+  subject: 化学
+  title: 元素质量比的计算
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算CO2中碳氧质量比时，直接写12:16，漏乘氧原子个数2，正确为12:32即3:8。
+    - 能指出并纠正这一错误：求H2SO4中氢、硫、氧质量比，写成1:32:16，忘记氢有2个、氧有4个，正确为2:32:64…
+  aliases: []
+  category: 化学计算
+  explanation: 根据化学式，用各元素相对原子质量乘以原子个数之比计算。
+  misconceptions:
+    - 计算CO2中碳氧质量比时，直接写12:16，漏乘氧原子个数2，正确为12:32即3:8。
+    - 求H2SO4中氢、硫、氧质量比，写成1:32:16，忘记氢有2个、氧有4个，正确为2:32:64。
+    - 把元素质量比与原子个数比混淆，如H2O中氢氧质量比写成2:1，实际为1:8。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:冷却结晶法
+  type: Concept
+  subject: 化学
+  title: 冷却结晶法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冷却结晶适用于所有物质，如从海水中提取食盐也用冷却结晶，实际食盐溶解度受温度影响小。
+    - 能指出并纠正这一错误：把冷却结晶与蒸发结晶混为一谈，认为冷却结晶需要加热蒸发溶剂，实际只需降温。
+  aliases:
+    - 降温结晶
+    - 冷却结晶
+    - 降温结晶法
+  category: 化学方法
+  explanation: 对于溶解度随温度升高而显著增大的物质，通过降温使溶质超过溶解限度而析出晶体的方法。
+  misconceptions:
+    - 误认为冷却结晶适用于所有物质，如从海水中提取食盐也用冷却结晶，实际食盐溶解度受温度影响小。
+    - 把冷却结晶与蒸发结晶混为一谈，认为冷却结晶需要加热蒸发溶剂，实际只需降温。
+    - 忽略冷却后需过滤分离，误以为晶体直接留在原溶液中，无过滤操作。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:净水器
+  type: Concept
+  subject: 化学
+  title: 净水器
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为净水器能除去所有杂质，实际只能除不溶性和部分可溶性杂质。
+    - 能指出并纠正这一错误：认为活性炭过滤可杀菌消毒，实际吸附主要除色素和异味。
+  aliases:
+    - 简易净水器
+  category: 化学装置
+  explanation: 用于净化水的装置，通常包含过滤和吸附等步骤，可除去水中的不溶性杂质和部分可溶性杂质。
+  misconceptions:
+    - 认为净水器能除去所有杂质，实际只能除不溶性和部分可溶性杂质。
+    - 认为活性炭过滤可杀菌消毒，实际吸附主要除色素和异味。
+    - 认为净化后的水是纯水，仍含可溶性矿物质。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:分子
+  type: Concept
+  subject: 化学
+  title: 分子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为冰中的水分子静止不动
+    - 能指出并纠正这一错误：认为分子是保持物质化学性质的唯一粒子
+  aliases:
+    - 分子概念
+  category: 化学概念
+  explanation: 分子是保持物质化学性质的一种微观粒子，在物理变化中分子不变，在化学变化中分子改变。
+  misconceptions:
+    - 认为冰中的水分子静止不动
+    - 认为分子是保持物质化学性质的唯一粒子
+    - 认为化学变化中分子本身不变，只是位置变
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:分子模型
+  type: Concept
+  subject: 化学
+  title: 分子模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为分子模型中小球的大小就是原子真实大小
+    - 能指出并纠正这一错误：认为模型中连接小球的棍子是分子中实际存在的金属杆
+  aliases:
+    - 分子结构模型
+  category: 模型建构
+  explanation: 用模型表示分子中原子的排列和结合，帮助理解微观构成。
+  misconceptions:
+    - 认为分子模型中小球的大小就是原子真实大小
+    - 认为模型中连接小球的棍子是分子中实际存在的金属杆
+    - 认为分子模型是分子真实形状的照片
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:分子由原子构成
+  type: Concept
+  subject: 化学
+  title: 分子由原子构成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为物理变化中分子会分裂成原子，如冰变水
+    - 能指出并纠正这一错误：认为分子一定比任何原子都大，忽略原子的相对大小
+  aliases:
+    - 分子原子关系
+  category: 化学概念
+  explanation: 分子可以分成原子，原子构成分子，在化学变化中分子分裂为原子，原子重新组合成新分子。
+  misconceptions:
+    - 认为物理变化中分子会分裂成原子，如冰变水
+    - 认为分子一定比任何原子都大，忽略原子的相对大小
+    - 认为化学变化中原子可以再分，原子种类会改变
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:分解反应
+  type: Concept
+  subject: 化学
+  title: 分解反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将石蜡燃烧（多种反应物）误认为分解反应，分解需一种物质生成多种。
+    - 能指出并纠正这一错误：认为分解反应一定生成氧气，如碳酸分解生成水和二氧化碳。
+  aliases:
+    - decomposition reaction
+  category: 化学概念
+  explanation: 由一种物质生成两种或两种以上其他物质的反应。
+  misconceptions:
+    - 将石蜡燃烧（多种反应物）误认为分解反应，分解需一种物质生成多种。
+    - 认为分解反应一定生成氧气，如碳酸分解生成水和二氧化碳。
+    - 忽略分解反应需加热等条件，常温下也有的分解（如过氧化氢）。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:化合价
+  type: Concept
+  subject: 化学
+  title: 化合价
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：混淆化合价数值与离子电荷，如认为Mg2+中镁元素化合价为+2价，实际离子电荷和化合价表示法不同。
+    - 能指出并纠正这一错误：认为单质中元素化合价为零，如氧气中氧元素化合价为0。
+  aliases: []
+  category: 化学概念
+  explanation: 元素原子在形成化合物时表现出的一种性质，用于书写化学式。
+  misconceptions:
+    - 混淆化合价数值与离子电荷，如认为Mg2+中镁元素化合价为+2价，实际离子电荷和化合价表示法不同。
+    - 认为单质中元素化合价为零，如氧气中氧元素化合价为0。
+    - 认为化合价固定不变，如铁有+2、+3价需根据化合物判断。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:化合价规则
+  type: Concept
+  subject: 化学
+  title: 化合价规则
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为单质中元素化合价数值与常见化合价相同，如O2中氧元素为-2价，实际为0。
+    - 能指出并纠正这一错误：在化学式中求某元素化合价时，忽略原子团整体化合价，如NH4NO3中N化合价只算一个，不会分NH4…
+  aliases: []
+  category: 化学规律
+  explanation: 化合物中正负化合价代数和为零，单质中元素化合价为零，金属显正价，非金属与氢氧结合时通常有固定价态。
+  misconceptions:
+    - 认为单质中元素化合价数值与常见化合价相同，如O2中氧元素为-2价，实际为0。
+    - 在化学式中求某元素化合价时，忽略原子团整体化合价，如NH4NO3中N化合价只算一个，不会分NH4和NO3。
+    - 认为非金属在化合物中一定显负价，如NaH中氢为-1价而非+1。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:化合反应
+  type: Concept
+  subject: 化学
+  title: 化合反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为有氧气参加的反应一定是化合反应，如甲烷燃烧
+    - 能指出并纠正这一错误：认为一种反应物生成一种生成物也算化合反应，如2O3=3O2
+  aliases:
+    - 化合反应
+  category: 化学反应类型
+  explanation: 由两种或两种以上物质生成另一种物质的反应，如碳在氧气中燃烧生成二氧化碳。
+  misconceptions:
+    - 认为有氧气参加的反应一定是化合反应，如甲烷燃烧
+    - 认为一种反应物生成一种生成物也算化合反应，如2O3=3O2
+    - 认为化合反应一定是氧化反应，如二氧化碳与水反应生成碳酸
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:化合物
+  type: Concept
+  subject: 化学
+  title: 化合物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为只要含不同种元素就是化合物，如空气
+    - 能指出并纠正这一错误：认为化合物一定含有氧元素，如HCl是化合物但无氧
+  aliases: []
+  category: 物质分类
+  explanation: 由不同种元素组成的纯净物称为化合物。
+  misconceptions:
+    - 认为只要含不同种元素就是化合物，如空气
+    - 认为化合物一定含有氧元素，如HCl是化合物但无氧
+    - 认为化合物中各元素以单质形式存在
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:化合物化学式的书写
+  type: Concept
+  subject: 化学
+  title: 化合物化学式的书写
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：写氧化钙时正负顺序颠倒，写成OCa，正确为CaO。
+    - 能指出并纠正这一错误：写氢氧化钙时忘记加括号，写成CaOH2，正确为Ca(OH)2。
+  aliases: []
+  category: 化学用语
+  explanation: 根据化合价书写化合物化学式，正价在前负价在后，代数和为零。
+  misconceptions:
+    - 写氧化钙时正负顺序颠倒，写成OCa，正确为CaO。
+    - 写氢氧化钙时忘记加括号，写成CaOH2，正确为Ca(OH)2。
+    - 写硫化钠时交叉相乘后不约简，写成Na2S2，正确为Na2S。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:化合物化学式的读法
+  type: Concept
+  subject: 化学
+  title: 化合物化学式的读法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将NaCl读作'钠化氯'，正确应为'氯化钠'。
+    - 能指出并纠正这一错误：将NO2读作'氧化氮'，不读原子个数，应为'二氧化氮'。
+  aliases: []
+  category: 化学用语
+  explanation: 由两种元素组成的化合物从右到左读作“某化某”，有时读出原子个数，含原子团的读原子团名称。
+  misconceptions:
+    - 将NaCl读作'钠化氯'，正确应为'氯化钠'。
+    - 将NO2读作'氧化氮'，不读原子个数，应为'二氧化氮'。
+    - 将CaCO3读作'碳化钙'，正确为'碳酸钙'，含原子团应读原子团名称。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:化学
+  type: Concept
+  subject: 化学
+  title: 化学
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学只研究人造物质，不研究天然物质。
+    - 能指出并纠正这一错误：认为化学只研究物质变化，不研究组成、结构和性质。
+  aliases:
+    - 化学科学
+  category: 学科定义
+  explanation: 化学是研究物质的组成、结构、性质、转化及其应用的科学，是一门创造新物质的学科。
+  misconceptions:
+    - 认为化学只研究人造物质，不研究天然物质。
+    - 认为化学只研究物质变化，不研究组成、结构和性质。
+    - 认为化学是纯理论学科，不需要实验探究。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学与健康
+  type: Concept
+  subject: 化学
+  title: 化学与健康
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学药物都有毒，生病时宁愿不吃药。
+    - 能指出并纠正这一错误：认为青蒿素是天然的，不属于化学药物。
+  aliases: []
+  category: 化学应用
+  explanation: 化学药物用于防病治病，如青蒿素类药物。
+  misconceptions:
+    - 认为化学药物都有毒，生病时宁愿不吃药。
+    - 认为青蒿素是天然的，不属于化学药物。
+    - 认为食品添加剂都是有害的，应全部禁止。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:化学与材料
+  type: Concept
+  subject: 化学
+  title: 化学与材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为塑料是天然存在的，不是化学合成的。
+    - 能指出并纠正这一错误：认为合金是混合物，不属于化学材料。
+  aliases: []
+  category: 化学应用
+  explanation: 化学为社会发展提供各种材料，如金属、合金、高分子材料等。
+  misconceptions:
+    - 认为塑料是天然存在的，不是化学合成的。
+    - 认为合金是混合物，不属于化学材料。
+    - 认为玻璃和水泥也是合成材料。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学与环境
+  type: Concept
+  subject: 化学
+  title: 化学与环境
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学是造成污染的元凶，应禁止化学研究。
+    - 能指出并纠正这一错误：认为废水处理后就能饮用，不需进一步处理。
+  aliases: []
+  category: 化学应用
+  explanation: 化学用于减少和处理“三废”（废渣、废水、废气），保护环境。
+  misconceptions:
+    - 认为化学是造成污染的元凶，应禁止化学研究。
+    - 认为废水处理后就能饮用，不需进一步处理。
+    - 认为农药化肥都是污染物，应停止使用。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学与生活
+  type: Concept
+  subject: 化学
+  title: 化学与生活
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为洗涤剂去污只是物理溶解，不涉及化学反应。
+    - 能指出并纠正这一错误：认为食物腐败是物理变化，因为只是变质。
+  aliases: []
+  category: 化学应用
+  explanation: 化学在衣食住行、医疗健康、环境保护等方面有广泛应用，如食品添加剂、药物、洗涤剂等。
+  misconceptions:
+    - 认为洗涤剂去污只是物理溶解，不涉及化学反应。
+    - 认为食物腐败是物理变化，因为只是变质。
+    - 认为生活中只有燃烧才是化学变化，其他都不是。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学与社会发展
+  type: Concept
+  subject: 化学
+  title: 化学与社会发展
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学只能开发新能源，不能解决环境污染。
+    - 能指出并纠正这一错误：认为新材料可以完全取代化学，化学将不再重要。
+  aliases: []
+  category: 化学应用
+  explanation: 化学在能源、资源、环境等问题的解决中发挥关键作用，推动社会进步。
+  misconceptions:
+    - 认为化学只能开发新能源，不能解决环境污染。
+    - 认为新材料可以完全取代化学，化学将不再重要。
+    - 认为社会发展可以脱离化学，化学只属于实验室。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学变化
+  type: Concept
+  subject: 化学
+  title: 化学变化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电灯通电发光放热是化学变化，因为产生了光和热。
+    - 能指出并纠正这一错误：认为有气体生成的变化一定是化学变化，如干冰升华。
+  aliases:
+    - 化学反应
+  category: 化学概念
+  explanation: 化学变化是生成新物质的变化，如食品制作、燃料燃烧等。
+  misconceptions:
+    - 认为电灯通电发光放热是化学变化，因为产生了光和热。
+    - 认为有气体生成的变化一定是化学变化，如干冰升华。
+    - 认为爆炸一定是化学变化，如车胎爆炸。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:化学变化中元素种类不变
+  type: Concept
+  subject: 化学
+  title: 化学变化中元素种类不变
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电解水生成H2和O2，说明水中含有氢分子和氧分子
+    - 能指出并纠正这一错误：认为化学变化中分子种类不变，元素种类会变
+  aliases: []
+  category: 化学规律
+  explanation: 在化学变化中，分子种类改变，但原子和元素的种类保持不变。
+  misconceptions:
+    - 认为电解水生成H2和O2，说明水中含有氢分子和氧分子
+    - 认为化学变化中分子种类不变，元素种类会变
+    - 认为原子种类在化学变化中可以改变，如铁原子变铜原子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:化学变化前后元素种类不变
+  type: Concept
+  subject: 化学
+  title: 化学变化前后元素种类不变
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为物质燃烧生成CO2和H2O，就一定有C、H、O三种元素
+    - 能指出并纠正这一错误：认为生成物中氧元素一定来源于反应物，所以反应物中一定有氧气
+  aliases:
+    - 质量守恒定律的元素观
+  category: 化学规律
+  explanation: 化学变化中，元素的种类不发生改变，是探究物质组成的基本依据。
+  misconceptions:
+    - 认为物质燃烧生成CO2和H2O，就一定有C、H、O三种元素
+    - 认为生成物中氧元素一定来源于反应物，所以反应物中一定有氧气
+    - 根据燃烧产物只有CO2和H2O，就断定不含氧元素
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:化学变化的基本特征
+  type: Concept
+  subject: 化学
+  title: 化学变化的基本特征
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为有颜色变化就是化学变化，如氧气液化变蓝。
+    - 能指出并纠正这一错误：认为有沉淀生成就是化学变化，如饱和溶液析出晶体。
+  aliases: []
+  category: 化学概念
+  explanation: 化学变化的基本特征是生成新物质，常伴随发光、放热、变色、生成气体或沉淀等现象。
+  misconceptions:
+    - 认为有颜色变化就是化学变化，如氧气液化变蓝。
+    - 认为有沉淀生成就是化学变化，如饱和溶液析出晶体。
+    - 认为没有发光放热等现象就没有生成新物质，就不是化学变化。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:化学变化的微观实质
+  type: Concept
+  subject: 化学
+  title: 化学变化的微观实质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学变化中原子种类和数目会改变，如电解水时氢原子变成氧原子
+    - 能指出并纠正这一错误：把物理变化说成化学变化，认为水蒸发时水分子分裂成氢原子和氧原子
+  aliases:
+    - 化学反应的微观过程
+  category: 微观本质
+  explanation: 化学变化中分子分裂为原子，原子重新组合成新分子，原子种类和数目不变。
+  misconceptions:
+    - 认为化学变化中原子种类和数目会改变，如电解水时氢原子变成氧原子
+    - 把物理变化说成化学变化，认为水蒸发时水分子分裂成氢原子和氧原子
+    - 配平化学方程式时忽略原子个数守恒，如把水电解写成H2O→H2+O
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:化学合成材料
+  type: Concept
+  subject: 化学
+  title: 化学合成材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为合成材料只指塑料，不包括纤维和橡胶。
+    - 能指出并纠正这一错误：认为合成材料是对天然材料的简单加工，没有新物质生成。
+  aliases:
+    - 合成材料
+  category: 材料科学
+  explanation: 化学合成材料是通过化学方法制造的材料，如塑料、合成纤维、合成橡胶等。
+  misconceptions:
+    - 认为合成材料只指塑料，不包括纤维和橡胶。
+    - 认为合成材料是对天然材料的简单加工，没有新物质生成。
+    - 认为玻璃、陶瓷属于合成材料。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学实验基本操作
+  type: Concept
+  subject: 化学
+  title: 化学实验基本操作
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：取用药品后，将剩余药品倒回原瓶。
+    - 能指出并纠正这一错误：加热试管时，试管口对着自己或他人。
+  aliases: []
+  category: 实验操作
+  explanation: 化学实验基本操作包括试剂的取用、给物质加热、玻璃仪器的洗涤等。
+  misconceptions:
+    - 取用药品后，将剩余药品倒回原瓶。
+    - 加热试管时，试管口对着自己或他人。
+    - 量取液体时俯视读数，误以为所读体积是实际体积。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:化学实验安全
+  type: Concept
+  subject: 化学
+  title: 化学实验安全
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：酒精灯碰倒起火时，立即用水泼灭。
+    - 能指出并纠正这一错误：用手直接抓取药品，甚至品尝药品。
+  aliases:
+    - 实验安全
+  category: 实验安全
+  explanation: 实验时注意防火、防爆、防毒、防伤、防污染，正确使用安全设施，发生意外及时处理。
+  misconceptions:
+    - 酒精灯碰倒起火时，立即用水泼灭。
+    - 用手直接抓取药品，甚至品尝药品。
+    - 闻气体时把鼻子凑到容器口直接闻。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:化学实验室规则
+  type: Concept
+  subject: 化学
+  title: 化学实验室规则
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：在化学实验室里拿水杯喝水，觉得不是试剂应该没事。
+    - 能指出并纠正这一错误：趁老师不注意，用手摸一下带来的饼干并吃掉。
+  aliases:
+    - 实验室规则
+  category: 实验安全
+  explanation: 进入化学实验室必须遵守的规则，包括保持安静、不得饮食、未经许可不得擅自动用仪器等。
+  misconceptions:
+    - 在化学实验室里拿水杯喝水，觉得不是试剂应该没事。
+    - 趁老师不注意，用手摸一下带来的饼干并吃掉。
+    - 看到酒精灯好玩，未经老师允许就划火柴点燃试试。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学实验常用仪器
+  type: Concept
+  subject: 化学
+  title: 化学实验常用仪器
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用量筒量液体时俯视刻度线读数，以为看到的就是正确值。
+    - 能指出并纠正这一错误：加热试管时试管口对着自己或别人，感觉无所谓。
+  aliases:
+    - 常用仪器
+    - 常用化学仪器
+    - 化学仪器
+  category: 实验技能
+  explanation: 初中化学实验常用仪器包括试管、烧杯、量筒、酒精灯等，各有其用途和注意事项。
+  misconceptions:
+    - 用量筒量液体时俯视刻度线读数，以为看到的就是正确值。
+    - 加热试管时试管口对着自己或别人，感觉无所谓。
+    - 把滴管伸入试管内滴加液体，觉得这样更准确。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学式
+  type: Concept
+  subject: 化学
+  title: 化学式
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为化学式可随意改动，如将H2O写成HO表示水的组成错误。
+    - 能指出并纠正这一错误：将化学式中的数字与化学计量数混淆，如2H2O中两个水分子，但2H2O不是化学式。
+  aliases:
+    - 分子式
+  category: 化学用语
+  explanation: 用元素符号和数字的组合表示物质组成的式子，每种纯净物的化学式只有一个。
+  misconceptions:
+    - 误以为化学式可随意改动，如将H2O写成HO表示水的组成错误。
+    - 将化学式中的数字与化学计量数混淆，如2H2O中两个水分子，但2H2O不是化学式。
+    - 认为每种物质的化学式不唯一，实际每种纯净物只有一个化学式。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:化学式的写法
+  type: Concept
+  subject: 化学
+  title: 化学式的写法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：写化学式时正价在前、负价在后，如把NaCl写成ClNa。
+    - 能指出并纠正这一错误：忽略约分，如氧化铁写成Fe3O2，应为Fe2O3。
+  aliases: []
+  category: 化学用语
+  explanation: 根据化合价和物质组成书写化学式，由分子构成的物质化学式表示一个分子中原子的种类和数目。
+  misconceptions:
+    - 写化学式时正价在前、负价在后，如把NaCl写成ClNa。
+    - 忽略约分，如氧化铁写成Fe3O2，应为Fe2O3。
+    - 原子团书写错误，如硫酸根写成SO3而不是SO4。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:化学式的含义
+  type: Concept
+  subject: 化学
+  title: 化学式的含义
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：混淆宏观和微观，认为水由氢分子和氧原子构成，实际上水由水分子构成。
+    - 能指出并纠正这一错误：认为化学式表示几个分子，如H2表示两个氢原子，实际表示一个氢分子。
+  aliases: []
+  category: 化学用语
+  explanation: 化学式从宏观上表示物质及其元素组成，从微观上表示构成物质的粒子及其个数比。
+  misconceptions:
+    - 混淆宏观和微观，认为水由氢分子和氧原子构成，实际上水由水分子构成。
+    - 认为化学式表示几个分子，如H2表示两个氢原子，实际表示一个氢分子。
+    - 忽略元素只讲种类不讲个数，说“水由两个氢元素和一个氧元素组成”错误。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:化学式的计算
+  type: Concept
+  subject: 化学
+  title: 化学式的计算
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算相对分子质量时漏乘原子个数，如N2相对分子质量算成14。
+    - 能指出并纠正这一错误：元素质量分数计算时忘记乘以100%或算错分母。
+  aliases: []
+  category: 化学计算
+  explanation: 根据化学式可计算相对分子质量、元素质量比和元素质量分数等。
+  misconceptions:
+    - 计算相对分子质量时漏乘原子个数，如N2相对分子质量算成14。
+    - 元素质量分数计算时忘记乘以100%或算错分母。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:化学性质
+  type: Concept
+  subject: 化学
+  title: 化学性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为铁生锈只要干燥就不会发生，忽略了潮湿环境的作用。
+    - 能指出并纠正这一错误：把汽油能燃烧说成物理性质，因为没看到明显变化。
+  aliases:
+    - chemical property
+  category: 化学概念
+  explanation: 物质在化学变化中才能表现出来的性质，如可燃性、稳定性等。
+  misconceptions:
+    - 认为铁生锈只要干燥就不会发生，忽略了潮湿环境的作用。
+    - 把汽油能燃烧说成物理性质，因为没看到明显变化。
+    - 判断性质时只看是否需要点燃，不知道燃烧只属于化学变化。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化学方程式
+  type: Concept
+  subject: 化学
+  title: 化学方程式
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：写KMnO4分解的方程式不注明加热条件，只写等号。
+    - 能指出并纠正这一错误：实验室用大理石和稀盐酸制CO2，漏写CO2气体符号'↑'。
+  aliases:
+    - 反应方程式
+    - 反应式
+  category: 化学用语
+  explanation: 用化学式表示化学反应的式子，能表示反应物、生成物、反应条件以及质量关系。
+  misconceptions:
+    - 写KMnO4分解的方程式不注明加热条件，只写等号。
+    - 实验室用大理石和稀盐酸制CO2，漏写CO2气体符号'↑'。
+    - 铁在氧气中燃烧的生成物写成Fe2O3，实际应为Fe3O4。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:化学方程式的书写
+  type: Concept
+  subject: 化学
+  title: 化学方程式的书写
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：配平时随意改动化学式下标，如把H₂O改成H₂O₂使氢氧原子个数相等，违背守恒定律
+    - 能指出并纠正这一错误：忽略反应条件，如KClO₃分解制O₂时漏写MnO₂和加热条件
+  aliases: []
+  category: 化学技能
+  explanation: 根据反应事实，遵循质量守恒定律，正确书写化学方程式。
+  misconceptions:
+    - 配平时随意改动化学式下标，如把H₂O改成H₂O₂使氢氧原子个数相等，违背守恒定律
+    - 忽略反应条件，如KClO₃分解制O₂时漏写MnO₂和加热条件
+    - 复分解反应生成物中不溶物不标↓，如NaOH+CuSO₄反应漏写Cu(OH)₂沉淀符号
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:化学方程式的配平
+  type: Concept
+  subject: 化学
+  title: 化学方程式的配平
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：配平C2H2+O2→CO2+H2O时，为配平氧原子把O2改成O，违反客观事实。
+    - 能指出并纠正这一错误：配平后化学计量数未化最简，如写成4H2+2O2→4H2O，未约分为2H2+O2→2H2O。
+  aliases:
+    - 配平
+  category: 化学技能
+  explanation: 在化学式前配上适当的化学计量数，使反应前后各元素的原子个数相等。
+  misconceptions:
+    - 配平C2H2+O2→CO2+H2O时，为配平氧原子把O2改成O，违反客观事实。
+    - 配平后化学计量数未化最简，如写成4H2+2O2→4H2O，未约分为2H2+O2→2H2O。
+    - 配平KClO3→KCl+O2时只配平氯原子，忽略氧原子，系数仍为1,1,1。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:化学电池
+  type: Concept
+  subject: 化学
+  title: 化学电池
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电池充电时化学能变电能，实际是电能变化学能。
+    - 能指出并纠正这一错误：认为干电池可反复充电使用，忽略一次电池与二次电池区别。
+  aliases:
+    - 电池
+  category: 电化学
+  explanation: 将化学能直接转化为电能的装置，包括一次电池、二次电池和燃料电池。
+  misconceptions:
+    - 认为电池充电时化学能变电能，实际是电能变化学能。
+    - 认为干电池可反复充电使用，忽略一次电池与二次电池区别。
+    - 认为化学电池中能量转化顺序为化学能→热能→电能，实际直接转化。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:化学肥料
+  type: Concept
+  subject: 化学
+  title: 化学肥料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误将尿素CO(NH₂)₂归类为有机化合物而否定它是氮肥，实际尿素是含氮元素的化学肥料
+    - 能指出并纠正这一错误：认为复合肥就是多种肥料的混合物，实际复合肥是含N、P、K中两种或以上营养元素的化学肥料，如KNO…
+  aliases:
+    - 化肥
+  category: 化学应用
+  explanation: 化学肥料是用化学方法制成的肥料，常用化肥分为氮肥、磷肥、钾肥和复合肥料。
+  misconceptions:
+    - 误将尿素CO(NH₂)₂归类为有机化合物而否定它是氮肥，实际尿素是含氮元素的化学肥料
+    - 认为复合肥就是多种肥料的混合物，实际复合肥是含N、P、K中两种或以上营养元素的化学肥料，如KNO₃
+    - 认为化学肥料都是能溶于水的，实际磷肥如过磷酸钙部分难溶
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:化学能
+  type: Concept
+  subject: 化学
+  title: 化学能
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为只有放热反应才有化学能变化，如碳与CO2吸热反应无变化。
+    - 能指出并纠正这一错误：认为化学能就是热能，混淆能量形式，如燃烧放热但不全是化学能。
+  aliases:
+    - 化学能量
+  category: 化学
+  explanation: 物质发生化学变化时伴随的能量变化，可转化为热能、电能等。
+  misconceptions:
+    - 认为只有放热反应才有化学能变化，如碳与CO2吸热反应无变化。
+    - 认为化学能就是热能，混淆能量形式，如燃烧放热但不全是化学能。
+    - 认为化学能可脱离物质存在，实际储存于化学键中。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:化学计量数
+  type: Concept
+  subject: 化学
+  title: 化学计量数
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化学计量数表示质量比，如2H2+O2→2H2O中认为氢气、氧气、水质量比为2:1:2。
+    - 能指出并纠正这一错误：认为化学计量数可以为0，或认为系数1必须省略。
+  aliases:
+    - 系数
+  category: 化学概念
+  explanation: 化学方程式中各物质化学式前的数字，表示反应物和生成物之间的粒子个数比。
+  misconceptions:
+    - 认为化学计量数表示质量比，如2H2+O2→2H2O中认为氢气、氧气、水质量比为2:1:2。
+    - 认为化学计量数可以为0，或认为系数1必须省略。
+    - 将化学计量数与下标混淆，如认为H2中的2是化学计量数。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:化学课学习内容
+  type: Concept
+  subject: 化学
+  title: 化学课学习内容
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：觉得学化学就是记公式和背方程式，其他内容不重要。
+    - 能指出并纠正这一错误：认为化学课只需要做实验，不用学如何分析实验结果。
+  aliases: []
+  category: 学习指导
+  explanation: 化学课学习内容包括生活中的化学知识、物质的组成结构性质转化及应用、化学对社会的影响、科学探究的思路和方法。
+  misconceptions:
+    - 觉得学化学就是记公式和背方程式，其他内容不重要。
+    - 认为化学课只需要做实验，不用学如何分析实验结果。
+    - 以为化学研究只在实验室，与日常生活中的现象无关。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:化石燃料
+  type: Concept
+  subject: 化学
+  title: 化石燃料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为化石燃料可再生，短期内可再次生成
+    - 能指出并纠正这一错误：把煤、石油、天然气都当成由古代动物遗骸变化而成，忽略植物参与
+  aliases:
+    - 矿物燃料
+  category: 能源与资源
+  explanation: 煤、石油、天然气是常见的化石燃料，由古代生物遗骸经复杂变化形成，不可再生。
+  misconceptions:
+    - 误认为化石燃料可再生，短期内可再次生成
+    - 把煤、石油、天然气都当成由古代动物遗骸变化而成，忽略植物参与
+    - 将可燃冰归入常见化石燃料
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:化石燃料燃烧对环境的影响
+  type: Concept
+  subject: 化学
+  title: 化石燃料燃烧对环境的影响
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将CO2当作空气污染物，空气质量报告不包含CO2
+    - 能指出并纠正这一错误：认为天然气燃烧只生成CO2和水，忽略高温下生成氮氧化物
+  aliases:
+    - 化石燃料的环境影响
+  category: 环境化学
+  explanation: 化石燃料燃烧会产生CO2（温室效应）、SO2和NO2（酸雨）、CO及粉尘等污染物，对环境造成危害。
+  misconceptions:
+    - 将CO2当作空气污染物，空气质量报告不包含CO2
+    - 认为天然气燃烧只生成CO2和水，忽略高温下生成氮氧化物
+    - 误认为SO2和NO2都是温室气体，实则主要形成酸雨
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:化肥对环境的影响
+  type: Concept
+  subject: 化学
+  title: 化肥对环境的影响
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为化肥污染只有土壤板结，忽略过量氮磷流失会造成水体富营养化
+    - 能指出并纠正这一错误：认为合理施用化肥就绝对不会污染环境，实际长期大量施用仍可能残留
+  aliases: []
+  category: 环境保护
+  explanation: 不合理施用化肥会造成大气污染、水体污染和土壤污染。
+  misconceptions:
+    - 误认为化肥污染只有土壤板结，忽略过量氮磷流失会造成水体富营养化
+    - 认为合理施用化肥就绝对不会污染环境，实际长期大量施用仍可能残留
+    - 将化肥污染与农药污染混为一谈，化肥主要污染大气、水体、土壤，农药污染侧重残留毒性
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:化肥的合理施用
+  type: Concept
+  subject: 化学
+  title: 化肥的合理施用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为化肥施得越多庄稼产量越高，实际过量会造成烧苗和环境污染
+    - 能指出并纠正这一错误：将铵态氮肥与草木灰等碱性物质混用，导致氨气逸出降低肥效
+  aliases: []
+  category: 化学应用
+  explanation: 合理施用化肥可减少环境污染，避免大气污染、水体富营养化和土壤板结等问题。
+  misconceptions:
+    - 认为化肥施得越多庄稼产量越高，实际过量会造成烧苗和环境污染
+    - 将铵态氮肥与草木灰等碱性物质混用，导致氨气逸出降低肥效
+    - 认为合理施用只需控制用量，忽略还需根据作物种类和土壤情况选择化肥种类
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:化肥的施用
+  type: Concept
+  subject: 化学
+  title: 化肥的施用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：看到植物叶片发黄就施磷肥，实际叶片发黄往往缺氮，应施氮肥
+    - 能指出并纠正这一错误：误认为钾肥促进枝叶茂盛，实际钾肥促进茎秆健壮，枝叶茂盛靠氮肥
+  aliases: []
+  category: 化学应用
+  explanation: 根据植物生长需要合理施用氮、磷、钾肥，如叶黄可施氮肥。
+  misconceptions:
+    - 看到植物叶片发黄就施磷肥，实际叶片发黄往往缺氮，应施氮肥
+    - 误认为钾肥促进枝叶茂盛，实际钾肥促进茎秆健壮，枝叶茂盛靠氮肥
+    - 认为所有作物都需要大量施氮肥，实际豆科植物根瘤菌可固氮，可少施氮肥
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:化肥的种类和作用
+  type: Concept
+  subject: 化学
+  title: 化肥的种类和作用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将磷肥的作用记成促进枝叶生长，实际磷肥促进果实发育
+    - 能指出并纠正这一错误：认为钾肥促进开花结果，实际钾肥使茎秆健壮，抗倒伏
+  aliases:
+    - 化肥的种类
+  category: 化学应用
+  explanation: 氮肥促进枝叶生长，磷肥促进果实发育，钾肥促进茎秆健壮。
+  misconceptions:
+    - 将磷肥的作用记成促进枝叶生长，实际磷肥促进果实发育
+    - 认为钾肥促进开花结果，实际钾肥使茎秆健壮，抗倒伏
+    - 认为复合肥只含一种营养元素，实际复合肥含有N、P、K中两种或以上
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:医用酒精
+  type: Concept
+  subject: 化学
+  title: 医用酒精
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为酒精浓度越高杀菌越强，误用95%酒精效果反而差。
+    - 能指出并纠正这一错误：将75%误认为质量分数，实际为体积分数。
+  aliases:
+    - 酒精
+  category: 化学药品
+  explanation: 体积分数75%的医用酒精杀菌力最强，用于皮肤消毒。
+  misconceptions:
+    - 认为酒精浓度越高杀菌越强，误用95%酒精效果反而差。
+    - 将75%误认为质量分数，实际为体积分数。
+    - 认为工业酒精可代替医用酒精，忽略甲醇毒性。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:单质
+  type: Concept
+  subject: 化学
+  title: 单质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为由同种元素组成的物质一定是单质，如O2和O3的混合物也算单质
+    - 能指出并纠正这一错误：将金刚石和石墨说成是同一种单质，忽略它们是碳的不同单质
+  aliases: []
+  category: 物质分类
+  explanation: 由同种元素组成的纯净物称为单质。
+  misconceptions:
+    - 认为由同种元素组成的物质一定是单质，如O2和O3的混合物也算单质
+    - 将金刚石和石墨说成是同一种单质，忽略它们是碳的不同单质
+    - 误认为单质一定由原子构成，于是把氢气排除在单质之外
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:单质化学式的书写
+  type: Concept
+  subject: 化学
+  title: 单质化学式的书写
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把氢气和氧气分别写成H和O，漏写右下角原子个数2。
+    - 能指出并纠正这一错误：把铁的化学式写成Fe2，误认为金属也是双原子分子。
+  aliases: []
+  category: 化学用语
+  explanation: 单质化学式用元素符号表示，金属和稀有气体直接用元素符号，非金属气体在元素符号右下角标原子个数。
+  misconceptions:
+    - 把氢气和氧气分别写成H和O，漏写右下角原子个数2。
+    - 把铁的化学式写成Fe2，误认为金属也是双原子分子。
+    - 把氦气写成He2，稀有气体应直接用元素符号He。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:卢瑟福原子模型
+  type: Concept
+  subject: 化学
+  title: 卢瑟福原子模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误把卢瑟福模型说成葡萄干布丁模型，认为电子均匀分布
+    - 能指出并纠正这一错误：认为卢瑟福的时代已认识到原子核由质子和中子构成，实际上中子到1932年才被发现
+  aliases:
+    - 行星模型
+  category: 科学史
+  explanation: 1911年卢瑟福提出有核原子模型，原子核位于中心，电子绕核运动。
+  misconceptions:
+    - 误把卢瑟福模型说成葡萄干布丁模型，认为电子均匀分布
+    - 认为卢瑟福的时代已认识到原子核由质子和中子构成，实际上中子到1932年才被发现
+    - 误认为原子核占据原子大部分体积，实际上核很小，电子在很大空间运动
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:危险化学品标志
+  type: Concept
+  subject: 化学
+  title: 危险化学品标志
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：看黄色底色的易燃标志，却认为它代表有毒危险。
+    - 能指出并纠正这一错误：所有危险化学品标志都记成一个样子，分不清分类。
+  aliases:
+    - 安全标志
+  category: 实验安全
+  explanation: 实验室常见危险化学品标志，用于警示危险，需认识并遵守安全要求。
+  misconceptions:
+    - 看黄色底色的易燃标志，却认为它代表有毒危险。
+    - 所有危险化学品标志都记成一个样子，分不清分类。
+    - 看到标志上写着“腐蚀”，觉得只是伤皮肉，不处理也没事。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:原子
+  type: Concept
+  subject: 化学
+  title: 原子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为原子是实心小球且不可再分，如称原子为构成物质的最小粒子
+    - 能指出并纠正这一错误：把核变化当化学变化，认为化学变化中原子能变成其他原子
+  aliases:
+    - 原子概念
+  category: 化学概念
+  explanation: 原子是构成物质的另一种微观粒子，在化学变化中原子本身不变，只是重新组合。
+  misconceptions:
+    - 认为原子是实心小球且不可再分，如称原子为构成物质的最小粒子
+    - 把核变化当化学变化，认为化学变化中原子能变成其他原子
+    - 认为所有原子都由质子、中子、电子构成，忽略氢原子没有中子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:原子序数
+  type: Concept
+  subject: 化学
+  title: 原子序数
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把原子序数与相对原子质量混淆，如认为氮原子的原子序数是14
+    - 能指出并纠正这一错误：认为原子序数等于质子数加中子数，即质量数
+  aliases:
+    - 核电荷数
+  category: 化学概念
+  explanation: 原子序数等于原子核内的质子数，决定了元素的种类。
+  misconceptions:
+    - 把原子序数与相对原子质量混淆，如认为氮原子的原子序数是14
+    - 认为原子序数等于质子数加中子数，即质量数
+    - 误以为原子序数决定相对原子质量，而不是质子数
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C6/sections/S3.md
+- id: concept:化学:原子核
+  type: Concept
+  subject: 化学
+  title: 原子核
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有原子核都含有中子，如氢原子核也必须有中子
+    - 能指出并纠正这一错误：误认为原子核带的正电荷数等于中子数，如把钠原子核的电荷写成+12
+  aliases: []
+  category: 物质结构
+  explanation: 原子中心的带正电部分，由质子和中子构成。
+  misconceptions:
+    - 误认为所有原子核都含有中子，如氢原子核也必须有中子
+    - 误认为原子核带的正电荷数等于中子数，如把钠原子核的电荷写成+12
+    - 误认为原子核的质量只占原子质量的一半，实际上几乎全部质量都在原子核上
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:原子结构
+  type: Concept
+  subject: 化学
+  title: 原子结构
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为质子数一定等于中子数，如磷原子质子数15，中子数也写成15
+    - 能指出并纠正这一错误：认为原子质量主要由电子贡献，忽略了原子核的质量
+  aliases:
+    - 原子的构成
+  category: 物质结构
+  explanation: 原子由原子核和核外电子构成，原子核由质子和中子构成。
+  misconceptions:
+    - 误认为质子数一定等于中子数，如磷原子质子数15，中子数也写成15
+    - 认为原子质量主要由电子贡献，忽略了原子核的质量
+    - 误将中子数当成核外电子数，如钠原子有12个中子，就画成核外有12个电子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:原子结构示意图
+  type: Concept
+  subject: 化学
+  title: 原子结构示意图
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：圆圈内写相对原子质量，如钠原子核内写23，正确应写+11
+    - 能指出并纠正这一错误：漏写原子核电荷数的正号，把+11写成11
+  aliases: []
+  category: 表示方法
+  explanation: 用于表示原子核及核外电子排布的示意图。
+  misconceptions:
+    - 圆圈内写相对原子质量，如钠原子核内写23，正确应写+11
+    - 漏写原子核电荷数的正号，把+11写成11
+    - 画阳离子时电子数不变，如Na+仍画11个电子（实际应为10个）
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:原子质量
+  type: Concept
+  subject: 化学
+  title: 原子质量
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把相对原子质量说成原子的实际质量，如氧原子的实际质量是16克
+    - 能指出并纠正这一错误：误认为相对原子质量有单位千克，实际是比值单位1（常省略）
+  aliases: []
+  category: 化学概念
+  explanation: 原子的实际质量，用千克表示，数值很小。
+  misconceptions:
+    - 把相对原子质量说成原子的实际质量，如氧原子的实际质量是16克
+    - 误认为相对原子质量有单位千克，实际是比值单位1（常省略）
+    - 用质子数加电子数计算相对原子质量，如氮相对原子质量写成7（实为14）
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:双环醇
+  type: Concept
+  subject: 化学
+  title: 双环醇
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为双环醇是纯天然提取物，忽略其中化学合成/修饰过程。
+    - 能指出并纠正这一错误：认为双环醇可治疗所有肝炎，实际仅针对特定类型抗肝炎。
+  aliases: []
+  category: 化学药品
+  explanation: 从中药五味子科植物中研发的国家一类抗肝炎新药。
+  misconceptions:
+    - 认为双环醇是纯天然提取物，忽略其中化学合成/修饰过程。
+    - 认为双环醇可治疗所有肝炎，实际仅针对特定类型抗肝炎。
+    - 将双环醇归为维生素/保健品，它是国家一类抗肝炎新药。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:反应物
+  type: Concept
+  subject: 化学
+  title: 反应物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为催化剂是反应物，如KClO3分解中把MnO2当反应物。
+    - 能指出并纠正这一错误：把反应条件（如加热）也作为反应物写在方程式左边。
+  aliases: []
+  category: 化学概念
+  explanation: 参加化学反应的物质。
+  misconceptions:
+    - 误认为催化剂是反应物，如KClO3分解中把MnO2当反应物。
+    - 把反应条件（如加热）也作为反应物写在方程式左边。
+    - 写C+O2→CO2，误将CO2写在左边作为反应物。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:反渗透（RO）膜
+  type: Concept
+  subject: 化学
+  title: 反渗透（RO）膜
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为RO膜能除去所有杂质，实际不能去除可溶性气体。
+    - 能指出并纠正这一错误：认为RO膜可杀菌消毒，实际过滤只能截留细菌等颗粒。
+  aliases:
+    - RO膜
+  category: 化学技术
+  explanation: 一种能去除重金属离子、细菌等杂质的高效过滤膜，常用于家用净水器。
+  misconceptions:
+    - 认为RO膜能除去所有杂质，实际不能去除可溶性气体。
+    - 认为RO膜可杀菌消毒，实际过滤只能截留细菌等颗粒。
+    - 认为经RO膜净化的水可直接喝，还需消毒处理。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:发生装置的选择
+  type: Concept
+  subject: 化学
+  title: 发生装置的选择
+  conceptType: 应用型
+  masteryCriteria:
+    - 能指出并纠正这一错误：依据气体的密度和溶解性选择发生装置，混淆了收集装置的选择依据
+    - 能指出并纠正这一错误：认为石灰石与稀盐酸反应制CO2需加热，故选择固体加热型装置
+  aliases: []
+  category: 实验方法
+  explanation: 根据反应物状态和反应条件选择发生装置，如固液常温型、固体加热型。
+  misconceptions:
+    - 依据气体的密度和溶解性选择发生装置，混淆了收集装置的选择依据
+    - 认为石灰石与稀盐酸反应制CO2需加热，故选择固体加热型装置
+    - 忽略反应物状态，所有液体和固体反应都选固液常温型，不论是否加热
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:可燃冰
+  type: Concept
+  subject: 化学
+  title: 可燃冰
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为可燃冰燃烧会产生SO2等大气污染物
+    - 能指出并纠正这一错误：认为可燃冰在常温常压下就能稳定存在，忽略高压低温条件
+  aliases:
+    - 天然气水合物
+  category: 能源与资源
+  explanation: 可燃冰是甲烷水合物，在高压低温下形成，燃烧热值高，产物为二氧化碳和水。
+  misconceptions:
+    - 误认为可燃冰燃烧会产生SO2等大气污染物
+    - 认为可燃冰在常温常压下就能稳定存在，忽略高压低温条件
+    - 误把可燃冰当成固态二氧化碳，与干冰混淆
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:合成橡胶
+  type: Concept
+  subject: 化学
+  title: 合成橡胶
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为天然橡胶属于合成橡胶，混淆天然和合成高分子。
+    - 能指出并纠正这一错误：认为合成橡胶是纯净物，高分子材料实际为混合物。
+  aliases: []
+  category: 化学物质
+  explanation: 合成橡胶是利用小分子物质合成的一类弹性特别强的高分子材料，如丁苯橡胶、氯丁橡胶等。
+  misconceptions:
+    - 认为天然橡胶属于合成橡胶，混淆天然和合成高分子。
+    - 认为合成橡胶是纯净物，高分子材料实际为混合物。
+    - 认为合成橡胶易溶于水，实际防水且耐腐蚀。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:合成纤维
+  type: Concept
+  subject: 化学
+  title: 合成纤维
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为合成纤维吸湿透气，实际如涤纶不吸湿不透气。
+    - 能指出并纠正这一错误：误把尼龙、涤纶当天然纤维，忽略它们由小分子聚合。
+  aliases: []
+  category: 化学物质
+  explanation: 合成纤维是用某些小分子物质经化学反应合成的高分子材料，如尼龙、涤纶等，耐磨、耐腐蚀但不吸湿透气。
+  misconceptions:
+    - 认为合成纤维吸湿透气，实际如涤纶不吸湿不透气。
+    - 误把尼龙、涤纶当天然纤维，忽略它们由小分子聚合。
+    - 认为合成纤维耐腐蚀性差，实际耐磨耐腐蚀。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:合金
+  type: Concept
+  subject: 化学
+  title: 合金
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为合金一定是金属与金属熔合，不含非金属
+    - 能指出并纠正这一错误：把合金当作纯净物，认为其组成固定
+  aliases:
+    - alloy
+  category: 概念
+  explanation: 合金是由一种金属与其他金属或非金属熔合而成的具有金属特性的物质，大多数合金是混合物。
+  misconceptions:
+    - 误认为合金一定是金属与金属熔合，不含非金属
+    - 把合金当作纯净物，认为其组成固定
+    - 认为合金的化学性质与纯金属完全相同
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:合金的导热性
+  type: Concept
+  subject: 化学
+  title: 合金的导热性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为合金的导热性比纯金属好
+    - 能指出并纠正这一错误：认为合金的导热性不受组成影响
+  aliases: []
+  category: 性质
+  explanation: 合金的导热性一般比组成它的纯金属差。
+  misconceptions:
+    - 误以为合金的导热性比纯金属好
+    - 认为合金的导热性不受组成影响
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:合金的熔点
+  type: Concept
+  subject: 化学
+  title: 合金的熔点
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为合金的熔点高于任一组成金属
+    - 能指出并纠正这一错误：认为合金熔点是各组分金属熔点的算术平均值
+  aliases: []
+  category: 性质
+  explanation: 合金的熔点通常比其组分金属的熔点低。
+  misconceptions:
+    - 误认为合金的熔点高于任一组成金属
+    - 认为合金熔点是各组分金属熔点的算术平均值
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:合金的硬度
+  type: Concept
+  subject: 化学
+  title: 合金的硬度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为合金的硬度比纯金属小
+    - 能指出并纠正这一错误：认为合金的硬度与组成金属无关，只取决于形状
+  aliases: []
+  category: 性质
+  explanation: 合金的硬度一般比组成它的纯金属大。
+  misconceptions:
+    - 误以为合金的硬度比纯金属小
+    - 认为合金的硬度与组成金属无关，只取决于形状
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:后母戊鼎
+  type: Concept
+  subject: 化学
+  title: 后母戊鼎
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把后母戊鼎说成是铁器，以为商代能炼铁铸造。
+    - 能指出并纠正这一错误：认为后母戊鼎是纯金做的，因为名字带“金”。
+  aliases:
+    - 后母戊青铜方鼎
+  category: 化学史
+  explanation: 商代青铜方鼎，体现古代青铜冶铸技术，是国宝。
+  misconceptions:
+    - 把后母戊鼎说成是铁器，以为商代能炼铁铸造。
+    - 认为后母戊鼎是纯金做的，因为名字带“金”。
+    - 写材料题时答后母戊鼎是近代出土的青铜器。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:向上排空气法收集氧气
+  type: Concept
+  subject: 化学
+  title: 向上排空气法收集氧气
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为氧气密度比空气小，用向下排空气法收集。
+    - 能指出并纠正这一错误：收集氧气时导管未伸到集气瓶底部，导致空气排不净。
+  aliases: []
+  category: 实验操作
+  explanation: 利用氧气密度比空气略大的性质，用向上排空气法收集氧气，需验满。
+  misconceptions:
+    - 误以为氧气密度比空气小，用向下排空气法收集。
+    - 收集氧气时导管未伸到集气瓶底部，导致空气排不净。
+    - 收集完直接用火柴验满，未等火柴余烬，或验满时伸入集气瓶内。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:吸热现象
+  type: Concept
+  subject: 化学
+  title: 吸热现象
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为硝酸铵溶解吸热是因为需要加热，实际溶解本身吸热，溶液温度降低。
+    - 能指出并纠正这一错误：将溶解吸热与蒸发吸热混淆，认为温度降低是水蒸发所致，实际是溶质扩散吸热。
+  aliases: []
+  category: 化学概念
+  explanation: 某些物质溶解时吸收热量，使溶液温度降低，如硝酸铵溶于水。
+  misconceptions:
+    - 误认为硝酸铵溶解吸热是因为需要加热，实际溶解本身吸热，溶液温度降低。
+    - 将溶解吸热与蒸发吸热混淆，认为温度降低是水蒸发所致，实际是溶质扩散吸热。
+    - 误认为所有物质溶解都吸热，忽略氢氧化钠、浓硫酸溶解放热。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:吸附
+  type: Concept
+  subject: 化学
+  title: 吸附
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为吸附能除去所有可溶性杂质，实际主要除色素和异味。
+    - 能指出并纠正这一错误：认为活性炭吸附能杀菌消毒，实际是物理过程不杀菌。
+  aliases: []
+  category: 化学操作
+  explanation: 利用活性炭等物质的吸附性除去水中的色素和异味。
+  misconceptions:
+    - 认为吸附能除去所有可溶性杂质，实际主要除色素和异味。
+    - 认为活性炭吸附能杀菌消毒，实际是物理过程不杀菌。
+    - 认为吸附是化学变化，活性炭吸附色素是物理变化。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:吸附法
+  type: Concept
+  subject: 化学
+  title: 吸附法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为活性炭能吸附钙、镁离子从而降低水的硬度
+    - 能指出并纠正这一错误：误认为吸附是化学变化，活性炭与色素发生了反应
+  aliases: []
+  category: 化学方法
+  explanation: 利用活性炭等具有吸附性的物质除去水中的色素和异味。
+  misconceptions:
+    - 认为活性炭能吸附钙、镁离子从而降低水的硬度
+    - 误认为吸附是化学变化，活性炭与色素发生了反应
+    - 把吸附后的水当作纯净水，忽略可溶性杂质还在
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:四种基本反应类型
+  type: Concept
+  subject: 化学
+  title: 四种基本反应类型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为分解反应一定生成单质和化合物，如CaCO₃高温分解生成CaO和CO₂都是化合物，仍属分解反应
+    - 能指出并纠正这一错误：认为置换反应只能是金属与酸反应，实际铁与硫酸铜溶液也发生置换反应
+  aliases: []
+  category: 化学概念
+  explanation: 化合反应、分解反应、置换反应和复分解反应，是化学反应的四种基本类型。
+  misconceptions:
+    - 认为分解反应一定生成单质和化合物，如CaCO₃高温分解生成CaO和CO₂都是化合物，仍属分解反应
+    - 认为置换反应只能是金属与酸反应，实际铁与硫酸铜溶液也发生置换反应
+    - 将CO与CuO的反应归为置换反应，实际该反应中CO与CuO没有发生交换成分，不属于四种基本类型
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:固体物质的溶解度
+  type: Concept
+  subject: 化学
+  title: 固体物质的溶解度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为溶解度是指100g溶液中溶解的溶质质量，如错把36g食盐当作100g食盐水中所含。
+    - 能指出并纠正这一错误：忽略温度条件，说‘食盐溶解度为36g’而不指明温度，溶解度需注明温度。
+  aliases:
+    - 溶解度
+    - 固体溶解度
+  category: 化学概念
+  explanation: 在一定温度下，某固体物质在100g溶剂中达到饱和状态时所溶解的质量。
+  misconceptions:
+    - 误认为溶解度是指100g溶液中溶解的溶质质量，如错把36g食盐当作100g食盐水中所含。
+    - 忽略温度条件，说‘食盐溶解度为36g’而不指明温度，溶解度需注明温度。
+    - 误认为溶剂质量越大溶解度越大，实际温度一定时，100g溶剂中溶解的极限是定值。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:固体试剂的取用
+  type: Concept
+  subject: 化学
+  title: 固体试剂的取用
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：取块状固体时直接竖直投入试管，结果砸碎了试管底。
+    - 能指出并纠正这一错误：用药匙取粉末后，忘记把试管横放就直接送药品。
+  aliases: []
+  category: 实验操作
+  explanation: 取用固体试剂时，用药匙或纸槽，将试管横放，送入底部再竖起。
+  misconceptions:
+    - 取块状固体时直接竖直投入试管，结果砸碎了试管底。
+    - 用药匙取粉末后，忘记把试管横放就直接送药品。
+    - 取用固体后没有盖紧瓶塞，导致药品潮解变质。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:国际单位制词头
+  type: Concept
+  subject: 化学
+  title: 国际单位制词头
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将“毫(m)”误认为10⁻⁶，如1mm=10⁻⁶m，实际为10⁻³。
+    - 能指出并纠正这一错误：混淆“兆(M)”和“微(μ)”，如1M=10⁻⁶，1μ=10⁶。
+  aliases:
+    - SI词头
+  category: 计量单位
+  explanation: 用于构成十进倍数和分数单位的词头，如兆(M)、千(k)、百(h)、十(da)、分(d)、厘(c)、毫(m)、微(μ)、纳(n)、皮(p)等。
+  misconceptions:
+    - 将“毫(m)”误认为10⁻⁶，如1mm=10⁻⁶m，实际为10⁻³。
+    - 混淆“兆(M)”和“微(μ)”，如1M=10⁻⁶，1μ=10⁶。
+    - 认为词头可随意叠加，如1μkm=10⁻⁹m，实际不能连用。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:地壳中元素含量
+  type: Concept
+  subject: 化学
+  title: 地壳中元素含量
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地壳中含量最多的元素是硅，因为地壳主要成分是岩石
+    - 能指出并纠正这一错误：把地壳中含量最多的金属元素写成铁，实际是铝
+  aliases: []
+  category: 化学事实
+  explanation: 地壳中含量最多的元素是氧，约占地壳总质量的48.60%，其次是硅等。
+  misconceptions:
+    - 误认为地壳中含量最多的元素是硅，因为地壳主要成分是岩石
+    - 把地壳中含量最多的金属元素写成铁，实际是铝
+    - 误以为地壳中含量最多的是空气中的氮气，混淆地壳与空气成分
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:均一性
+  type: Concept
+  subject: 化学
+  title: 均一性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为均一性只指浓度均匀，而颜色、密度可以不同，实际各部分组成和性质完全相同。
+    - 能指出并纠正这一错误：认为悬浊液静置后上下浓度相同也是均一的，实际悬浊液不均一、不稳定。
+  aliases: []
+  category: 性质
+  explanation: 溶液各部分组成完全相同，从任意部分取出，其组成和性质一致。
+  misconceptions:
+    - 误认为均一性只指浓度均匀，而颜色、密度可以不同，实际各部分组成和性质完全相同。
+    - 认为悬浊液静置后上下浓度相同也是均一的，实际悬浊液不均一、不稳定。
+    - 误认为只有溶液具有均一性，合金等均一混合物也被忽略。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:均一性和稳定性
+  type: Concept
+  subject: 化学
+  title: 均一性和稳定性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将均一性理解为不分离，将稳定性理解为各部分组成相同，两者概念颠倒。
+    - 能指出并纠正这一错误：认为糖水静置后上层甜下层淡，违背稳定性，实际外界条件不变时溶质溶剂不分离。
+  aliases: []
+  category: 化学性质
+  explanation: 均一性指溶液各部分组成完全相同；稳定性指外界条件不变时，溶质和溶剂不会分离。
+  misconceptions:
+    - 将均一性理解为不分离，将稳定性理解为各部分组成相同，两者概念颠倒。
+    - 认为糖水静置后上层甜下层淡，违背稳定性，实际外界条件不变时溶质溶剂不分离。
+    - 误认为所有液体混合物都有均一性和稳定性，如浑浊的石灰水静置后分层。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:塑料
+  type: Concept
+  subject: 化学
+  title: 塑料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为塑料是纯净物，实际为高分子混合物，无固定熔点。
+    - 能指出并纠正这一错误：认为所有塑料都绝缘，忽略导电塑料的存在。
+  aliases: []
+  category: 化学物质
+  explanation: 塑料的主要成分是合成树脂，由小分子有机物聚合而成，具有质轻、柔软、绝缘、耐腐蚀等性能。
+  misconceptions:
+    - 认为塑料是纯净物，实际为高分子混合物，无固定熔点。
+    - 认为所有塑料都绝缘，忽略导电塑料的存在。
+    - 认为塑料易自然降解，实际大多难降解造成污染。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:复分解反应
+  type: Concept
+  subject: 化学
+  title: 复分解反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为酸和碱的中和反应不属于复分解反应，实际它是复分解反应的一种
+    - 能指出并纠正这一错误：认为复分解反应必须有沉淀生成，实际有水或气体生成也能发生
+  aliases: []
+  category: 化学概念
+  explanation: 两种化合物互相交换成分生成另外两种化合物的反应，酸与碱的中和反应属于复分解反应。
+  misconceptions:
+    - 误认为酸和碱的中和反应不属于复分解反应，实际它是复分解反应的一种
+    - 认为复分解反应必须有沉淀生成，实际有水或气体生成也能发生
+    - 认为两种化合物反应就是复分解反应，如CO₂+NaOH生成Na₂CO₃和H₂O不是交换成分，实际不是复分解反应
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:复分解反应发生的条件
+  type: Concept
+  subject: 化学
+  title: 复分解反应发生的条件
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为只要有沉淀、气体或水生成就能反应，忽略反应物必须可溶且实际能发生离子交换
+    - 能指出并纠正这一错误：将生成微溶物也算作沉淀，例如认为Ca(OH)₂与Na₂CO₃反应不生成沉淀
+  aliases: []
+  category: 化学规律
+  explanation: 复分解反应发生的条件是生成物中有沉淀、气体或水。
+  misconceptions:
+    - 误以为只要有沉淀、气体或水生成就能反应，忽略反应物必须可溶且实际能发生离子交换
+    - 将生成微溶物也算作沉淀，例如认为Ca(OH)₂与Na₂CO₃反应不生成沉淀
+    - 判断时只盯生成物，忘记检查反应物是否溶于酸，如碳酸钙与稀硫酸反应误判为能进行到底
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:复合材料
+  type: Concept
+  subject: 化学
+  title: 复合材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为复合材料是各成分简单混合，忽略性能互补优化。
+    - 能指出并纠正这一错误：误将合金归为复合材料，合金属于金属材料。
+  aliases:
+    - 复合物
+  category: 材料科学
+  explanation: 将增强材料（如纤维）复合包埋在基体材料（如合成树脂）中，使各材料优点互补，获得优异性能的材料。
+  misconceptions:
+    - 认为复合材料是各成分简单混合，忽略性能互补优化。
+    - 误将合金归为复合材料，合金属于金属材料。
+    - 认为复合材料只含一种材料，实际由增强和基体组成。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:复合肥料
+  type: Concept
+  subject: 化学
+  title: 复合肥料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为复合肥料必须同时含氮、磷、钾三种元素，把含两种的如硝酸钾排除
+    - 能指出并纠正这一错误：把磷酸氢二铵中的磷和氢都算作养分，误认为含氢也是复合肥的判断依据
+  aliases: []
+  category: 化学应用
+  explanation: 含有氮、磷、钾中两种或三种元素的化肥，如硝酸钾、磷酸氢二铵等。
+  misconceptions:
+    - 认为复合肥料必须同时含氮、磷、钾三种元素，把含两种的如硝酸钾排除
+    - 把磷酸氢二铵中的磷和氢都算作养分，误认为含氢也是复合肥的判断依据
+    - 将尿素CO(NH₂)₂误认为复合肥，因为含碳、氧、氮等多种元素
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:天然气
+  type: Concept
+  subject: 化学
+  title: 天然气
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为天然气的主要成分是CO，而不是甲烷
+    - 能指出并纠正这一错误：认为天然气燃烧产物有SO2，因为天然气中有硫元素
+  aliases: []
+  category: 化学物质
+  explanation: 天然气是一种化石燃料，主要成分为甲烷（CH4），燃烧产物为二氧化碳和水，是清洁能源。
+  misconceptions:
+    - 误认为天然气的主要成分是CO，而不是甲烷
+    - 认为天然气燃烧产物有SO2，因为天然气中有硫元素
+    - 写甲烷燃烧方程时漏配平或漏写点燃条件
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:宏观与微观视角
+  type: Concept
+  subject: 化学
+  title: 宏观与微观视角
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：宏观说‘水由氢分子和氧分子组成’，混淆了元素与分子
+    - 能指出并纠正这一错误：微观说‘一个水分子由氢元素和氧元素组成’，把微观粒子说成宏观元素
+  aliases: []
+  category: 化学观念
+  explanation: 从宏观上物质由元素组成，从微观上物质由分子、原子或离子构成。
+  misconceptions:
+    - 宏观说‘水由氢分子和氧分子组成’，混淆了元素与分子
+    - 微观说‘一个水分子由氢元素和氧元素组成’，把微观粒子说成宏观元素
+    - 认为所有物质都是由分子构成，忽略原子、离子也可直接构成物质
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:定性与定量视角
+  type: Concept
+  subject: 化学
+  title: 定性与定量视角
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算水中氢氧元素质量比时用原子个数比 2:1，应为 1:8
+    - 能指出并纠正这一错误：定量研究时不看化学式下标，把 H2O2 中氢氧质量比也算成 2:1
+  aliases: []
+  category: 化学观念
+  explanation: 定性研究物质的组成元素，定量研究各元素原子的个数比或质量比。
+  misconceptions:
+    - 计算水中氢氧元素质量比时用原子个数比 2:1，应为 1:8
+    - 定量研究时不看化学式下标，把 H2O2 中氢氧质量比也算成 2:1
+    - 定性分析时只写元素符号不写原子个数，丢失定量信息
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:定性实验与定量实验
+  type: Concept
+  subject: 化学
+  title: 定性实验与定量实验
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为测定氧气体积分数是定性实验，因为只看出红磷燃烧。
+    - 能指出并纠正这一错误：把颜色改变当作定量实验的证据，不知道要量数值。
+  aliases: []
+  category: 科学方法
+  explanation: 定性实验以现象证据为主，定量实验以数据证据为主，如测定氧气含量变化。
+  misconceptions:
+    - 认为测定氧气体积分数是定性实验，因为只看出红磷燃烧。
+    - 把颜色改变当作定量实验的证据，不知道要量数值。
+    - 觉得定量实验就是多记录几次数据，与定性实验完全无关。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:实验安全知识
+  type: Concept
+  subject: 化学
+  title: 实验安全知识
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：闻气体时把鼻子凑到瓶口直接闻，觉得这样才准。
+    - 能指出并纠正这一错误：用手直接拿锌粒放到试管里，认为试剂不脏。
+  aliases:
+    - 安全知识
+  category: 实验安全
+  explanation: 实验时注意防火、防爆、防毒、防伤、防污染，不能用手接触试剂，闻气味用扇闻法，不能尝试剂。
+  misconceptions:
+    - 闻气体时把鼻子凑到瓶口直接闻，觉得这样才准。
+    - 用手直接拿锌粒放到试管里，认为试剂不脏。
+    - 实验后剩余药品放回原瓶，怕浪费又没污染。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:实验室制取二氧化碳
+  type: Concept
+  subject: 化学
+  title: 实验室制取二氧化碳
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用稀硫酸代替稀盐酸制CO2，生成的CaSO4微溶覆盖石灰石使反应停止
+    - 能指出并纠正这一错误：用浓盐酸制CO2，混有HCl气体，导致收集的CO2不纯
+  aliases:
+    - CO2的实验室制法
+  category: 实验方法
+  explanation: 实验室常用稀盐酸与块状大理石或石灰石（主要成分碳酸钙）在常温下反应制取二氧化碳，化学方程式为CaCO3 + 2HCl → CaCl2
+    + H2O + CO2↑。
+  misconceptions:
+    - 用稀硫酸代替稀盐酸制CO2，生成的CaSO4微溶覆盖石灰石使反应停止
+    - 用浓盐酸制CO2，混有HCl气体，导致收集的CO2不纯
+    - 写化学方程式时漏标CO2的↑或未配平
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:实验室制取气体的方法
+  type: Concept
+  subject: 化学
+  title: 实验室制取气体的方法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：组装仪器时先加药品后检查气密性，操作顺序颠倒
+    - 能指出并纠正这一错误：选择收集装置时不看气体密度和溶解性，只看气味
+  aliases:
+    - 气体发生装置
+    - 气体收集装置
+  category: 实验方法
+  explanation: 实验室制取气体需选择合适的试剂，装置包括发生装置和收集装置，选择依据反应物状态、反应条件、气体性质等，组装顺序先下后上、先左后右，并检查气密性。
+  misconceptions:
+    - 组装仪器时先加药品后检查气密性，操作顺序颠倒
+    - 选择收集装置时不看气体密度和溶解性，只看气味
+    - 制取气体前未检验气密性，导致气体逸出或实验失败
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:实验室安全规则
+  type: Concept
+  subject: 化学
+  title: 实验室安全规则
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：给酒精灯添加酒精时没熄火，直接往燃着的灯里倒。
+    - 能指出并纠正这一错误：不小心烫伤后立刻用冰敷，不管破皮不破皮。
+  aliases: []
+  category: 实验安全
+  explanation: 实验室安全规则包括正确使用酒精灯、处理烫伤割伤、防止试剂溅入眼睛等，以确保实验安全。
+  misconceptions:
+    - 给酒精灯添加酒精时没熄火，直接往燃着的灯里倒。
+    - 不小心烫伤后立刻用冰敷，不管破皮不破皮。
+    - 试剂溅入眼睛里，只用手揉搓而不去冲洗。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:对比实验
+  type: Concept
+  subject: 化学
+  title: 对比实验
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：对比实验中同时改变温度和催化剂两个变量，无法确定影响因素
+    - 能指出并纠正这一错误：没有设置空白对照，如探究二氧化锰能否催化时只测加催化剂的速率
+  aliases:
+    - 对照实验
+  category: 科学方法
+  explanation: 设置两个或两个以上的实验组，每次只改变一个因素，其他因素保持不变，通过比较结果来探究因素与实验对象的关系。
+  misconceptions:
+    - 对比实验中同时改变温度和催化剂两个变量，无法确定影响因素
+    - 没有设置空白对照，如探究二氧化锰能否催化时只测加催化剂的速率
+    - 控制变量时每次都改变不同因素，结果不能得出可靠结论
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:导电塑料
+  type: Concept
+  subject: 化学
+  title: 导电塑料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为塑料都是绝缘体，否认导电塑料的存在。
+    - 能指出并纠正这一错误：认为导电塑料靠掺金属导电，不理解结构型导电塑料。
+  aliases:
+    - 导电高分子
+  category: 材料科学
+  explanation: 具有导电性能的塑料，分为复合型和结构型，可起导电、防静电或电屏蔽作用。
+  misconceptions:
+    - 认为塑料都是绝缘体，否认导电塑料的存在。
+    - 认为导电塑料靠掺金属导电，不理解结构型导电塑料。
+    - 认为导电塑料只能导电，忽略防静电、电屏蔽作用。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:工业制氧气
+  type: Concept
+  subject: 化学
+  title: 工业制氧气
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为工业制氧气是化学变化，氮气和氧气发生了分离反应
+    - 能指出并纠正这一错误：用液化空气制氧时依据密度不同分离，而不是沸点不同
+  aliases:
+    - 液化空气制氧气
+    - 膜分离技术
+  category: 工业方法
+  explanation: 利用空气中氧气和氮气沸点不同，通过液化空气、升温分离得到氧气，或采用膜分离技术富集氧气。
+  misconceptions:
+    - 认为工业制氧气是化学变化，氮气和氧气发生了分离反应
+    - 用液化空气制氧时依据密度不同分离，而不是沸点不同
+    - 误认为升温时先汽化的是氧气，实际氮气沸点更低先出来
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:常见合金的组分和用途
+  type: Concept
+  subject: 化学
+  title: 常见合金的组分和用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为不锈钢是纯铁，不含铬和镍
+    - 能指出并纠正这一错误：把硬铝当作纯铝，忽略铜、镁等成分
+  aliases: []
+  category: 应用
+  explanation: 常见合金如不锈钢、硬铝、黄铜等具有特定组分和用途，如不锈钢抗腐蚀，硬铝质轻强度高。
+  misconceptions:
+    - 误认为不锈钢是纯铁，不含铬和镍
+    - 把硬铝当作纯铝，忽略铜、镁等成分
+    - 误认为黄铜是纯铜，其实它含锌
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:常见物质的pH
+  type: Concept
+  subject: 化学
+  title: 常见物质的pH
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为pH=7的纯水显中性，但误以为所有盐溶液pH都等于7，如Na₂CO₃溶液pH>7
+    - 能指出并纠正这一错误：把pH试纸直接伸入待测液，污染试剂且读数不准，实际应蘸取滴在试纸上
+  aliases: []
+  category: 化学事实
+  explanation: 食醋、橙汁等pH<7显酸性，肥皂、氨水等pH>7显碱性。
+  misconceptions:
+    - 认为pH=7的纯水显中性，但误以为所有盐溶液pH都等于7，如Na₂CO₃溶液pH>7
+    - 把pH试纸直接伸入待测液，污染试剂且读数不准，实际应蘸取滴在试纸上
+    - 将pH=0的溶液说成无酸性，实际酸性极强
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:常量元素
+  type: Concept
+  subject: 化学
+  title: 常量元素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为体内含量超过0.01%的常量元素只有C、H、O、N，漏掉钙、磷等
+    - 能指出并纠正这一错误：把铁、锌、碘等微量元素误认为常量元素，因为它们对人体很重要
+  aliases:
+    - 宏量元素
+  category: 人体健康
+  explanation: 人体中含量超过0.01%的元素，如氧、碳、氢、氮、钙等，共11种。
+  misconceptions:
+    - 认为体内含量超过0.01%的常量元素只有C、H、O、N，漏掉钙、磷等
+    - 把铁、锌、碘等微量元素误认为常量元素，因为它们对人体很重要
+    - 认为常量元素就是每天摄入量大的元素，与体内含量无关
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:常量元素与微量元素
+  type: Concept
+  subject: 化学
+  title: 常量元素与微量元素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为微量元素含量低，所以对人体可有可无
+    - 能指出并纠正这一错误：按元素对健康的重要性来区分常量与微量，误把作用大的碘当常量元素
+  aliases: []
+  category: 化学元素
+  explanation: 人体中含量在0.01%以上的元素为常量元素，以下的为微量元素。
+  misconceptions:
+    - 认为微量元素含量低，所以对人体可有可无
+    - 按元素对健康的重要性来区分常量与微量，误把作用大的碘当常量元素
+    - 将人体必需的11种常量元素记成13种，把微量元素混入其中
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:张青莲的贡献
+  type: Concept
+  subject: 化学
+  title: 张青莲的贡献
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为张青莲发现新元素，如说他是新元素的发现者
+    - 能指出并纠正这一错误：以为张青莲编制了元素周期表，与门捷列夫混淆
+  aliases: []
+  category: 化学史
+  explanation: 张青莲院士主持测定了多种元素的相对原子质量新值，被采用为国际标准。
+  misconceptions:
+    - 误认为张青莲发现新元素，如说他是新元素的发现者
+    - 以为张青莲编制了元素周期表，与门捷列夫混淆
+    - 认为他测的是原子的绝对质量，而非相对原子质量
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:归纳法
+  type: Concept
+  subject: 化学
+  title: 归纳法
+  conceptType: 推理型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将归纳法等同于‘从一般到特殊’，和演绎法方向搞反
+    - 能指出并纠正这一错误：只根据一两个实验事实就归纳出普遍规律，忽略反例
+  aliases:
+    - 归纳
+  category: 科学方法
+  explanation: 以大量实验事实为基础，从个别现象中概括出一般规律的科学推理方法。
+  misconceptions:
+    - 将归纳法等同于‘从一般到特殊’，和演绎法方向搞反
+    - 只根据一两个实验事实就归纳出普遍规律，忽略反例
+    - 归纳结论前不做重复实验，把偶然现象当规律
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:微量元素
+  type: Concept
+  subject: 化学
+  title: 微量元素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为微量元素都是金属元素，如铁、锌、铜，不包括氟和碘
+    - 能指出并纠正这一错误：因为缺碘会得甲状腺疾病，就认为碘是常量元素
+  aliases:
+    - 痕量元素
+  category: 人体健康
+  explanation: 人体中含量低于0.01%的元素，如铁、锌、碘、氟等，对健康至关重要。
+  misconceptions:
+    - 认为微量元素都是金属元素，如铁、锌、铜，不包括氟和碘
+    - 因为缺碘会得甲状腺疾病，就认为碘是常量元素
+    - 误认为微量元素在体内含量少，吸收多也无害，忽略过量会中毒
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:性质决定用途
+  type: Concept
+  subject: 化学
+  title: 性质决定用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把铜作导线的原因说成化学性质稳定，实际是导电性强（物理性质）
+    - 能指出并纠正这一错误：倒因为果，认为用途决定性质，如'金刚石能划玻璃，所以它硬度大'
+  aliases:
+    - 性质决定用途
+  category: 化学思想
+  explanation: 物质的性质决定其用途，用途反映性质。
+  misconceptions:
+    - 把铜作导线的原因说成化学性质稳定，实际是导电性强（物理性质）
+    - 倒因为果，认为用途决定性质，如'金刚石能划玻璃，所以它硬度大'
+    - 误认为所有用途都是由化学性质决定，如干冰制造舞台云雾是物理性质（升华吸热）
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:手持技术数字化实验
+  type: Concept
+  subject: 化学
+  title: 手持技术数字化实验
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：觉得手持技术就是用手机计时，不算实验仪器。
+    - 能指出并纠正这一错误：把数据采集器当成传感器，插上温度探头却不调校。
+  aliases:
+    - 数字化实验
+  category: 实验技术
+  explanation: 由数据采集器、传感器和配套软件组成，用于采集定量数据的智能实验技术系统。
+  misconceptions:
+    - 觉得手持技术就是用手机计时，不算实验仪器。
+    - 把数据采集器当成传感器，插上温度探头却不调校。
+    - 认为数字化实验只能测温度，不能测pH、电导率等。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:排水法收集氧气
+  type: Concept
+  subject: 化学
+  title: 排水法收集氧气
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：刚开始冒气泡就收集，导致氧气中混有装置内空气
+    - 能指出并纠正这一错误：集气瓶未装满水就排水集气，瓶内原有空气使氧气不纯
+  aliases: []
+  category: 实验操作
+  explanation: 利用氧气不易溶于水的性质，通过排水法收集氧气，当气泡连续均匀放出时开始收集。
+  misconceptions:
+    - 刚开始冒气泡就收集，导致氧气中混有装置内空气
+    - 集气瓶未装满水就排水集气，瓶内原有空气使氧气不纯
+    - 收集完先熄酒精灯再撤导管，水槽水倒吸入试管使试管炸裂
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:探究物质组成的一般思路
+  type: Concept
+  subject: 化学
+  title: 探究物质组成的一般思路
+  conceptType: 推理型
+  masteryCriteria:
+    - 能指出并纠正这一错误：由电解水生成氢气和氧气，推断水中含有氢分子和氧分子，应说含氢元素和氧元素
+    - 能指出并纠正这一错误：探究水的组成时，用氢气燃烧实验，只看到生成水，就以为氢气中含氧元素，实际水中氧来自氧气
+  aliases:
+    - 物质组成探究方法
+  category: 科学方法
+  explanation: 通过分解或化合已知物质，根据元素种类不变推测未知物质的组成。
+  misconceptions:
+    - 由电解水生成氢气和氧气，推断水中含有氢分子和氧分子，应说含氢元素和氧元素
+    - 探究水的组成时，用氢气燃烧实验，只看到生成水，就以为氢气中含氧元素，实际水中氧来自氧气
+    - 实验操作顺序错误：先点燃氢气再验纯，导致可能爆炸，不能正确探究水的组成
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:控制变量法
+  type: Concept
+  subject: 化学
+  title: 控制变量法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：研究温度对溶液影响时，同时改变溶质种类和温度
+    - 能指出并纠正这一错误：探究催化剂时，加催化剂的同时又升温，变量不唯一
+  aliases:
+    - 控制变量
+  category: 科学方法
+  explanation: 在研究多因素问题时，每次只改变一个因素，控制其他因素不变，从而研究该因素对结果的影响。
+  misconceptions:
+    - 研究温度对溶液影响时，同时改变溶质种类和温度
+    - 探究催化剂时，加催化剂的同时又升温，变量不唯一
+    - 忘记设置空白对照，无法判断改变的因素是否真的有效果
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:摄氏温度
+  type: Concept
+  subject: 化学
+  title: 摄氏温度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算气体体积时，把25℃直接当成热力学温度代入PV=nRT
+    - 能指出并纠正这一错误：写摄氏温度与热力学温度关系时，写成 t = T + 273.15
+  aliases: []
+  category: 物理量
+  explanation: 摄氏温度是常用的温度表示方法，单位是摄氏度（℃），与热力学温度的关系为 t = T - 273.15。
+  misconceptions:
+    - 计算气体体积时，把25℃直接当成热力学温度代入PV=nRT
+    - 写摄氏温度与热力学温度关系时，写成 t = T + 273.15
+    - 认为摄氏温度与热力学温度仅是单位不同，数值相等
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:放热现象
+  type: Concept
+  subject: 化学
+  title: 放热现象
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为氢氧化钠溶解放热是化学变化的结果，实际溶解是物理变化，但水合过程放热。
+    - 能指出并纠正这一错误：将浓硫酸稀释的放热也归为溶解现象，忽略稀释与水合的区别，但稀释也涉及溶解过程。
+  aliases: []
+  category: 化学概念
+  explanation: 某些物质溶解时放出热量，使溶液温度升高，如氢氧化钠溶于水。
+  misconceptions:
+    - 误认为氢氧化钠溶解放热是化学变化的结果，实际溶解是物理变化，但水合过程放热。
+    - 将浓硫酸稀释的放热也归为溶解现象，忽略稀释与水合的区别，但稀释也涉及溶解过程。
+    - 误认为只有化学反应才能放热，物理变化如氢氧化钠溶解也可放热。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:新型陶瓷
+  type: Concept
+  subject: 化学
+  title: 新型陶瓷
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为新型陶瓷与普通陶瓷一样不导电，忽略了可导电的特殊性能
+    - 能指出并纠正这一错误：把新型陶瓷看作有延展性的金属材料，实际陶瓷脆性大
+  aliases:
+    - 先进陶瓷
+  category: 材料科学
+  explanation: 具有耐高温、耐腐蚀、高强度及可导电等特殊性能的陶瓷，用于工业、医疗等领域。
+  misconceptions:
+    - 认为新型陶瓷与普通陶瓷一样不导电，忽略了可导电的特殊性能
+    - 把新型陶瓷看作有延展性的金属材料，实际陶瓷脆性大
+    - 认为新型陶瓷的组成仍是传统硅酸盐，其实还有氧化物、碳化物等
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:新能源
+  type: Concept
+  subject: 化学
+  title: 新能源
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为太阳能不是新能源，因为早就存在了。
+    - 能指出并纠正这一错误：觉得电池只是化学电源，与新能源开发没关系。
+  aliases: []
+  category: 化学应用
+  explanation: 新能源如太阳能、电池等，研发依赖化学科学技术，以应对化石能源危机。
+  misconceptions:
+    - 认为太阳能不是新能源，因为早就存在了。
+    - 觉得电池只是化学电源，与新能源开发没关系。
+    - 把开发新能源看成物理问题，不懂化学的作用。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:无定形碳的吸附性
+  type: Concept
+  subject: 化学
+  title: 无定形碳的吸附性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把木炭吸附色素和异味当作化学变化，生成新物质
+    - 能指出并纠正这一错误：误认为金刚石和石墨也有疏松多孔结构，因而具有吸附性
+  aliases:
+    - 活性炭吸附
+  category: 物质性质
+  explanation: 木炭、活性炭等无定形碳具有疏松多孔结构，有吸附能力，用于防毒、净水、脱色等。
+  misconceptions:
+    - 把木炭吸附色素和异味当作化学变化，生成新物质
+    - 误认为金刚石和石墨也有疏松多孔结构，因而具有吸附性
+    - 认为活性炭能吸附所有杂质，包括可溶性金属离子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:无机化合物
+  type: Concept
+  subject: 化学
+  title: 无机化合物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为含碳化合物一定是有机物，把CO₂、碳酸钙当作有机物
+    - 能指出并纠正这一错误：认为一氧化碳和二氧化碳含碳但性质像无机物，所以不算无机化合物
+  aliases:
+    - 无机物
+  category: 化学概念
+  explanation: 一般指不含碳元素的化合物，但包括CO、CO₂、H₂CO₃及碳酸盐等少数含碳化合物。
+  misconceptions:
+    - 误以为含碳化合物一定是有机物，把CO₂、碳酸钙当作有机物
+    - 认为一氧化碳和二氧化碳含碳但性质像无机物，所以不算无机化合物
+    - 将碳酸氢钠中的碳元素视为有机碳，误判为有机物
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:普通玻璃的组成
+  type: Concept
+  subject: 化学
+  title: 普通玻璃的组成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为普通玻璃是纯净物，主要成分就是二氧化硅，没有其他组分
+    - 能指出并纠正这一错误：在书写普通玻璃原料时，只写石英砂和纯碱，漏写石灰石
+  aliases:
+    - 玻璃原料
+  category: 材料科学
+  explanation: 普通玻璃由石英砂（SiO₂）、石灰石（CaCO₃）、纯碱（Na₂CO₃）按一定配比高温熔炼而成。
+  misconceptions:
+    - 认为普通玻璃是纯净物，主要成分就是二氧化硅，没有其他组分
+    - 在书写普通玻璃原料时，只写石英砂和纯碱，漏写石灰石
+    - 误认为普通玻璃有固定熔点，实际它是在一定温度范围软化
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:最小公倍数法
+  type: Concept
+  subject: 化学
+  title: 最小公倍数法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：配平C2H2+O2→CO2+H2O时选氧找最小公倍数，因氧出现三次而无法直接找，应选碳或氢。
+    - 能指出并纠正这一错误：配平P+O2→P2O5时，先配氧得P+5/2O2→P2O5，忘记将分数系数化为整数。
+  aliases: []
+  category: 化学方法
+  explanation: 一种配平化学方程式的方法，通过找最小公倍数确定化学计量数。
+  misconceptions:
+    - 配平C2H2+O2→CO2+H2O时选氧找最小公倍数，因氧出现三次而无法直接找，应选碳或氢。
+    - 配平P+O2→P2O5时，先配氧得P+5/2O2→P2O5，忘记将分数系数化为整数。
+    - 配平Fe2O3+CO→Fe+CO2后未检验，写成Fe2O3+CO→2Fe+CO2，左右氧原子数不等。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:有机化合物
+  type: Concept
+  subject: 化学
+  title: 有机化合物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为只要含碳就是有机物，把CO、CO₂、H₂CO₃和碳酸盐也算作有机物
+    - 能指出并纠正这一错误：误以为有机物都能燃烧，如四氯化碳不能燃烧却是有机物
+  aliases:
+    - 有机物
+  category: 化学概念
+  explanation: 含碳元素的化合物（除CO、CO₂、H₂CO₃及碳酸盐外）称为有机化合物，简称有机物。
+  misconceptions:
+    - 认为只要含碳就是有机物，把CO、CO₂、H₂CO₃和碳酸盐也算作有机物
+    - 误以为有机物都能燃烧，如四氯化碳不能燃烧却是有机物
+    - 将碳单质（金刚石、石墨）误认为有机化合物，因为它们由碳元素组成
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:有机合成材料
+  type: Concept
+  subject: 化学
+  title: 有机合成材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把天然橡胶、棉花、羊毛误认为有机合成材料
+    - 能指出并纠正这一错误：认为有机合成材料就是所有有机物，包括乙醇、葡萄糖等小分子
+  aliases:
+    - 合成有机高分子材料
+  category: 化学概念
+  explanation: 以石油化工产品为主要原料，通过化学合成的方法制成的有机高分子材料，包括塑料、合成橡胶和合成纤维。
+  misconceptions:
+    - 把天然橡胶、棉花、羊毛误认为有机合成材料
+    - 认为有机合成材料就是所有有机物，包括乙醇、葡萄糖等小分子
+    - 认为有机合成材料只包括塑料和合成纤维，漏掉合成橡胶
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:有机物
+  type: Concept
+  subject: 化学
+  title: 有机物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为一氧化碳、二氧化碳、碳酸钙都属于有机物，因为它们含碳
+    - 能指出并纠正这一错误：认为有机物都难溶于水，忽略乙醇、乙酸能和水互溶
+  aliases:
+    - 有机化合物
+  category: 化学概念
+  explanation: 含碳化合物（除少数例外）称为有机物，一般难溶于水，易溶于有机溶剂，易燃烧，不导电。
+  misconceptions:
+    - 认为一氧化碳、二氧化碳、碳酸钙都属于有机物，因为它们含碳
+    - 认为有机物都难溶于水，忽略乙醇、乙酸能和水互溶
+    - 认为有机物都不导电，忽略了乙酸溶液能导电
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:有机物的特征
+  type: Concept
+  subject: 化学
+  title: 有机物的特征
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为所有有机物都难溶于水，忽略乙醇、乙酸、葡萄糖等易溶于水的有机物
+    - 能指出并纠正这一错误：误以为有机物都是非电解质，忽略醋酸是弱电解质，可导电
+  aliases: []
+  category: 化学性质
+  explanation: 多数有机物难溶于水，易溶于有机溶剂，受热易分解，容易燃烧，通常为非导电体，熔沸点较低。
+  misconceptions:
+    - 认为所有有机物都难溶于水，忽略乙醇、乙酸、葡萄糖等易溶于水的有机物
+    - 误以为有机物都是非电解质，忽略醋酸是弱电解质，可导电
+    - 认为有机物受热一定分解，有些如萘可以升华，加热不分解
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:木炭的吸附性
+  type: Concept
+  subject: 化学
+  title: 木炭的吸附性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为木炭的吸附性是化学性质，而非物理性质
+    - 能指出并纠正这一错误：误以为木炭能吸附水中的可溶性钙镁离子，从而降低水的硬度
+  aliases: []
+  category: 化学性质
+  explanation: 木炭具有疏松多孔的结构，能吸附色素和异味，可用于净水等。
+  misconceptions:
+    - 认为木炭的吸附性是化学性质，而非物理性质
+    - 误以为木炭能吸附水中的可溶性钙镁离子，从而降低水的硬度
+    - 误以为木炭与活性炭成分不同，因此吸附能力差异巨大
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:核外电子排布规律
+  type: Concept
+  subject: 化学
+  title: 核外电子排布规律
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：画氯原子结构示意图时，把第二层排成9个电子，忽略第二层最多排8个。
+    - 能指出并纠正这一错误：认为最外层电子数最多可达18个，如给硫原子最外层排10个电子。
+  aliases: []
+  category: 规律
+  explanation: 第一层最多2个电子，第二层最多8个电子，最外层不超过8个电子。
+  misconceptions:
+    - 画氯原子结构示意图时，把第二层排成9个电子，忽略第二层最多排8个。
+    - 认为最外层电子数最多可达18个，如给硫原子最外层排10个电子。
+    - 给锂原子排电子时第一层排3个，忘记第一层最多只能排2个。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:核电荷数
+  type: Concept
+  subject: 化学
+  title: 核电荷数
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为核电荷数等于中子数，如说钠原子核电荷数为12。
+    - 能指出并纠正这一错误：认为元素种类由中子数决定，把质子数相同中子数不同的原子当作不同元素。
+  aliases:
+    - 原子序数
+  category: 概念
+  explanation: 核电荷数等于质子数，也等于核外电子数，决定元素的种类。
+  misconceptions:
+    - 认为核电荷数等于中子数，如说钠原子核电荷数为12。
+    - 认为元素种类由中子数决定，把质子数相同中子数不同的原子当作不同元素。
+    - 计算核电荷数时把质子数加中子数，如认为核电荷数等于相对原子质量。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C6/sections/S3.md
+- id: concept:化学:根据化合价写化学式
+  type: Concept
+  subject: 化学
+  title: 根据化合价写化学式
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用交叉法写氧化铝时，将铝+3、氧-2交叉写成Al3O2，正确为Al2O3。
+    - 能指出并纠正这一错误：写氢氧化钙时，将Ca+2和OH-1交叉写成CaOH2，未给原子团加括号。
+  aliases: []
+  category: 化学技能
+  explanation: 步骤：写符号、标化合价、求原子个数、写化学式。
+  misconceptions:
+    - 用交叉法写氧化铝时，将铝+3、氧-2交叉写成Al3O2，正确为Al2O3。
+    - 写氢氧化钙时，将Ca+2和OH-1交叉写成CaOH2，未给原子团加括号。
+    - 写氧化钠时，Na+1 O-2交叉得Na2O2，未约简成最简式Na2O。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:根据化学式求化合价
+  type: Concept
+  subject: 化学
+  title: 根据化学式求化合价
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：求KClO3中Cl化合价时，直接认为Cl为+5，但忘记K是+1、O是-2，列式+1+x+3×(-…
+    - 能指出并纠正这一错误：在NH4NO3中求N化合价，误认为两个N原子化合价相同，实际前一个N为-3，后一个为+5。
+  aliases: []
+  category: 化学技能
+  explanation: 利用化合物中正负化合价代数和为零的原则，由已知元素化合价求未知元素化合价。
+  misconceptions:
+    - 求KClO3中Cl化合价时，直接认为Cl为+5，但忘记K是+1、O是-2，列式+1+x+3×(-2)=0解得x=+5。
+    - 在NH4NO3中求N化合价，误认为两个N原子化合价相同，实际前一个N为-3，后一个为+5。
+    - 求Fe3O4中铁化合价，错误写成+2或+3，实际按代数和为零计算得平均化合价为+8/3。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:根据化学方程式计算
+  type: Concept
+  subject: 化学
+  title: 根据化学方程式计算
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：利用化学方程式计算时不配平，直接按反应物质量相加算生成物质量，如镁燃烧只写Mg+O2→MgO，改…
+    - 能指出并纠正这一错误：计算时忘记乘化学式前的系数，如求2KClO3中氧元素质量时，直接算一个KClO3中的氧原子质量，…
+  aliases: []
+  category: 化学计算
+  explanation: 利用化学方程式表示的质量关系进行反应物或生成物质量的计算。
+  misconceptions:
+    - 利用化学方程式计算时不配平，直接按反应物质量相加算生成物质量，如镁燃烧只写Mg+O2→MgO，改用质量关系。
+    - 计算时忘记乘化学式前的系数，如求2KClO3中氧元素质量时，直接算一个KClO3中的氧原子质量，未乘2。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:检验氧气的方法
+  type: Concept
+  subject: 化学
+  title: 检验氧气的方法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用燃着木条检验氧气，认为熄灭就无氧，没有用带火星木条观察复燃
+    - 能指出并纠正这一错误：带火星木条复燃只证明氧气浓度较高，却当作纯氧检验
+  aliases:
+    - 氧气的检验
+    - 检验氧气
+  category: 实验操作
+  explanation: 利用带火星的木条伸入集气瓶中，若木条复燃则证明是氧气。
+  misconceptions:
+    - 用燃着木条检验氧气，认为熄灭就无氧，没有用带火星木条观察复燃
+    - 带火星木条复燃只证明氧气浓度较高，却当作纯氧检验
+    - 检验时木条没有复燃就断言气体中不含氧气，忽略浓度不足也难复燃
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:模型建构
+  type: Concept
+  subject: 化学
+  title: 模型建构
+  conceptType: 建模型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把原子结构示意图当成原子真实大小的照片，认为模型就是实物。
+    - 能指出并纠正这一错误：认为汤姆孙原子模型是最终真理，不需要通过新实验进行修正。
+  aliases:
+    - 建模
+  category: 科学方法
+  explanation: 通过构建模型来研究物质结构，模型不断完善修正。
+  misconceptions:
+    - 把原子结构示意图当成原子真实大小的照片，认为模型就是实物。
+    - 认为汤姆孙原子模型是最终真理，不需要通过新实验进行修正。
+    - 认为每种物质只能有一种固定模型，模型不能被修改或替换。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:气体收集装置的选择
+  type: Concept
+  subject: 化学
+  title: 气体收集装置的选择
+  conceptType: 应用型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用向上排空气法收集氢气，忽略了氢气密度比空气小
+    - 能指出并纠正这一错误：认为排水法收集气体只考虑溶解性，不考虑是否与水反应
+  aliases: []
+  category: 实验方法
+  explanation: 根据气体的密度和溶解性选择收集方法，如向上排空气法、向下排空气法、排水法。
+  misconceptions:
+    - 用向上排空气法收集氢气，忽略了氢气密度比空气小
+    - 认为排水法收集气体只考虑溶解性，不考虑是否与水反应
+    - 收集有毒气体时未考虑尾气处理，直接排空造成污染
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:气体物质的溶解度
+  type: Concept
+  subject: 化学
+  title: 气体物质的溶解度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为气体溶解度单位与固体相同为g/100g水，实际是体积比（1体积水溶解气体的体积）。
+    - 能指出并纠正这一错误：误认为气体溶解度随温度升高而增大，实际多数气体溶解度随温度升高而减小。
+  aliases:
+    - 气体溶解度
+    - 气体的溶解度
+  category: 化学概念
+  explanation: 在压强为101.3kPa和一定温度时，某气体在1体积溶剂中达到饱和状态时所溶解的体积。
+  misconceptions:
+    - 误认为气体溶解度单位与固体相同为g/100g水，实际是体积比（1体积水溶解气体的体积）。
+    - 误认为气体溶解度随温度升高而增大，实际多数气体溶解度随温度升高而减小。
+    - 忽视压强条件，认为气体溶解度只受温度影响，实际压强增大溶解度增大。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:氢气的可燃性
+  type: Concept
+  subject: 化学
+  title: 氢气的可燃性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氢气燃烧火焰是黄色，实际应为淡蓝色
+    - 能指出并纠正这一错误：点燃氢气前未验纯，直接点燃导致爆炸
+  aliases:
+    - 氢气燃烧
+  category: 化学性质
+  explanation: 氢气能在空气中燃烧，产生淡蓝色火焰，生成水并放出大量热，是洁净燃料。
+  misconceptions:
+    - 认为氢气燃烧火焰是黄色，实际应为淡蓝色
+    - 点燃氢气前未验纯，直接点燃导致爆炸
+    - 写氢气燃烧方程式时漏写点燃条件或漏配平
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢气的性质
+  type: Concept
+  subject: 化学
+  title: 氢气的性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氢气有气味，实际氢气是无色无味的气体。
+    - 能指出并纠正这一错误：误以为氢气易溶于水，实际氢气难溶于水，可用排水法收集。
+  aliases:
+    - 氢气的物理性质
+    - 氢气的化学性质
+  category: 物质性质
+  explanation: 氢气是无色、无味、难溶于水的气体，密度比空气小，是最轻的气体，具有可燃性。
+  misconceptions:
+    - 认为氢气有气味，实际氢气是无色无味的气体。
+    - 误以为氢气易溶于水，实际氢气难溶于水，可用排水法收集。
+    - 认为氢气的密度比空气大，实际氢气密度比空气小，是最轻的气体。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢气的热值
+  type: Concept
+  subject: 化学
+  title: 氢气的热值
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把热值单位写成1.4×10^8 J/g，不知道1 kJ=1000 J，导致数值差异1000倍。
+    - 能指出并纠正这一错误：认为热值越大火焰温度越高，误以为氢气燃烧温度不如汽油，所以热值低。
+  aliases: []
+  category: 物理性质
+  explanation: 氢气的热值为1.4×10^8 kJ·kg⁻¹，约为汽油的三倍，是高能燃料。
+  misconceptions:
+    - 把热值单位写成1.4×10^8 J/g，不知道1 kJ=1000 J，导致数值差异1000倍。
+    - 认为热值越大火焰温度越高，误以为氢气燃烧温度不如汽油，所以热值低。
+    - 忽略热值定义中“完全燃烧”条件，认为实际燃烧不充分也算热值。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢气的燃烧
+  type: Concept
+  subject: 化学
+  title: 氢气的燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：氢气燃烧时误认为火焰是黄色，实际氢气在空气中燃烧产生淡蓝色火焰。
+    - 能指出并纠正这一错误：书写氢气燃烧化学方程式时漏写条件点燃，写成2H2+O2→2H2O，未标条件。
+  aliases: []
+  category: 化学反应
+  explanation: 氢气在空气中燃烧生成水，放出大量热，化学方程式为2H2 + O2 → 2H2O。
+  misconceptions:
+    - 氢气燃烧时误认为火焰是黄色，实际氢气在空气中燃烧产生淡蓝色火焰。
+    - 书写氢气燃烧化学方程式时漏写条件点燃，写成2H2+O2→2H2O，未标条件。
+    - 认为氢气燃烧生成过氧化氢，实际生成物是水，化学方程式为2H2+O2→2H2O。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢气的爆炸极限
+  type: Concept
+  subject: 化学
+  title: 氢气的爆炸极限
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为氢气在任何浓度下遇明火都会爆炸，忽略体积分数4%~74%的极限条件。
+    - 能指出并纠正这一错误：把爆炸极限的“体积分数”当成“质量分数”，认为4%质量是极限。
+  aliases:
+    - 爆炸极限
+  category: 安全知识
+  explanation: 氢气与空气混合后，体积分数在4%~74%范围内遇明火会发生爆炸，因此点燃前必须验纯。
+  misconceptions:
+    - 误以为氢气在任何浓度下遇明火都会爆炸，忽略体积分数4%~74%的极限条件。
+    - 把爆炸极限的“体积分数”当成“质量分数”，认为4%质量是极限。
+    - 认为验纯后氢气就绝对不会爆炸，没考虑储存或操作中再次混入空气超过极限。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢气验纯方法
+  type: Concept
+  subject: 化学
+  title: 氢气验纯方法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：收集氢气时试管口向上，导致氢气迅速逸散，验纯操作失败。
+    - 能指出并纠正这一错误：听到尖锐爆鸣声后以为纯净，实际尖锐爆鸣声说明混有空气，应立即停止点火。
+  aliases:
+    - 验纯
+  category: 实验操作
+  explanation: 用拇指堵住试管口收集氢气，移近火焰点火，若听到尖锐爆鸣声则不纯，若听到轻微噗声则纯净。
+  misconceptions:
+    - 收集氢气时试管口向上，导致氢气迅速逸散，验纯操作失败。
+    - 听到尖锐爆鸣声后以为纯净，实际尖锐爆鸣声说明混有空气，应立即停止点火。
+    - 用拇指堵住试管口后，未靠近火焰就松开拇指，使氢气跑掉，无法检验。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:氢氧化钙
+  type: Concept
+  subject: 化学
+  title: 氢氧化钙
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误写化学式为CaOH，漏掉下标2
+    - 能指出并纠正这一错误：认为氢氧化钙可用来干燥气体，实际是碱石灰，熟石灰无吸水性
+  aliases:
+    - 熟石灰
+    - 消石灰
+  category: 物质
+  explanation: 氢氧化钙俗称熟石灰或消石灰，化学式为Ca(OH)₂，可用于建筑、改良酸性土壤等。
+  misconceptions:
+    - 误写化学式为CaOH，漏掉下标2
+    - 认为氢氧化钙可用来干燥气体，实际是碱石灰，熟石灰无吸水性
+    - 将生石灰（CaO）和熟石灰（Ca(OH)₂）混为一谈，改变酸性土壤时误用生石灰
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:氢氧化钠
+  type: Concept
+  subject: 化学
+  title: 氢氧化钠
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为烧碱的化学式是Na₂CO₃，与纯碱混淆
+    - 能指出并纠正这一错误：称量氢氧化钠时放在纸上称量，忽略其强腐蚀性和易潮解，应放在玻璃器皿中
+  aliases:
+    - 苛性钠
+    - 火碱
+    - 烧碱
+  category: 物质
+  explanation: 氢氧化钠俗称苛性钠、火碱或烧碱，化学式为NaOH，有强腐蚀性，易潮解。
+  misconceptions:
+    - 误以为烧碱的化学式是Na₂CO₃，与纯碱混淆
+    - 称量氢氧化钠时放在纸上称量，忽略其强腐蚀性和易潮解，应放在玻璃器皿中
+    - 认为氢氧化钠可干燥二氧化碳气体，实际会与CO₂反应不能用
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:氢氧化钠的变质
+  type: Concept
+  subject: 化学
+  title: 氢氧化钠的变质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为氢氧化钠变质只是吸收水分，忽略与CO₂反应生成Na₂CO₃
+    - 能指出并纠正这一错误：检验变质时加盐酸产生气泡，误以为没变质，实际气泡是CO₂
+  aliases: []
+  category: 化学性质
+  explanation: 氢氧化钠暴露在空气中易吸收二氧化碳生成碳酸钠，因此需密封保存。
+  misconceptions:
+    - 误以为氢氧化钠变质只是吸收水分，忽略与CO₂反应生成Na₂CO₃
+    - 检验变质时加盐酸产生气泡，误以为没变质，实际气泡是CO₂
+    - 认为部分变质的氢氧化钠溶液是Na₂CO₃和NaOH的混合物，计算时却按纯NaOH处理
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:氢燃料电池
+  type: Concept
+  subject: 化学
+  title: 氢燃料电池
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氢燃料电池是氢气燃烧放热，再将热能转化为电能，实际是化学能直接变电能
+    - 能指出并纠正这一错误：认为氢燃料电池在碱性条件下正极反应仍是O₂+4H⁺+4e⁻=2H₂O
+  aliases:
+    - 燃料电池
+  category: 电化学
+  explanation: 利用氢气和氧气反应将化学能直接转化为电能的装置，产物为水，清洁环保。
+  misconceptions:
+    - 认为氢燃料电池是氢气燃烧放热，再将热能转化为电能，实际是化学能直接变电能
+    - 认为氢燃料电池在碱性条件下正极反应仍是O₂+4H⁺+4e⁻=2H₂O
+    - 认为氢气和氧气在氢燃料电池中直接点燃，所以需要点火条件
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:氧化反应
+  type: Concept
+  subject: 化学
+  title: 氧化反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氧化反应一定需要氧气参与，不知道得氧也是氧化反应
+    - 能指出并纠正这一错误：把燃烧和缓慢氧化对立，认为缓慢氧化不是氧化反应
+  aliases:
+    - 氧化作用
+  category: 化学概念
+  explanation: 物质与氧发生的反应称为氧化反应，包括剧烈氧化（如燃烧）和缓慢氧化（如金属生锈、呼吸作用）。
+  misconceptions:
+    - 认为氧化反应一定需要氧气参与，不知道得氧也是氧化反应
+    - 把燃烧和缓慢氧化对立，认为缓慢氧化不是氧化反应
+    - 误认为氧化反应都是化合反应，如蜡烛燃烧的氧化反应产物不止一种
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:氧化物
+  type: Concept
+  subject: 化学
+  title: 氧化物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为含氧元素的化合物都是氧化物，如把高锰酸钾(KMnO4)看成氧化物。
+    - 能指出并纠正这一错误：把氧气称为氧化物，忽略氧化物必须是化合物这一条件。
+  aliases: []
+  category: 物质分类
+  explanation: 由两种元素组成且其中一种是氧元素的化合物称为氧化物。
+  misconceptions:
+    - 认为含氧元素的化合物都是氧化物，如把高锰酸钾(KMnO4)看成氧化物。
+    - 把氧气称为氧化物，忽略氧化物必须是化合物这一条件。
+    - 认为氯酸钾(KClO3)是氧化物，因为它含氧且是纯净物。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:氧化铜
+  type: Concept
+  subject: 化学
+  title: 氧化铜
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将氧化铜的化学式写成Cu2O，与氧化亚铜混淆。
+    - 能指出并纠正这一错误：认为铜加热变黑是物理变化，实际生成了新物质氧化铜。
+  aliases: []
+  category: 化学物质
+  explanation: 铜在空气中受热生成的黑色物质，化学式为CuO，能与稀硫酸反应。
+  misconceptions:
+    - 将氧化铜的化学式写成Cu2O，与氧化亚铜混淆。
+    - 认为铜加热变黑是物理变化，实际生成了新物质氧化铜。
+    - 认为氧化铜与稀硫酸反应生成无色溶液，实际生成蓝色溶液。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:氧气的化学性质
+  type: Concept
+  subject: 化学
+  title: 氧气的化学性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：铁丝在氧气中燃烧的化学方程式误写成生成Fe2O3，实际生成Fe3O4。
+    - 能指出并纠正这一错误：认为氧气有可燃性，可作燃料，忽略它只能支持燃烧。
+  aliases:
+    - 氧气的化学性质
+  category: 物质性质
+  explanation: 氧气化学性质活泼，能与许多物质发生氧化反应，如支持燃烧、供给呼吸等。
+  misconceptions:
+    - 铁丝在氧气中燃烧的化学方程式误写成生成Fe2O3，实际生成Fe3O4。
+    - 认为氧气有可燃性，可作燃料，忽略它只能支持燃烧。
+    - 写碳燃烧时忘记标注‘点燃’条件，直接写C+O2=CO2。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:氧气的实验室制法
+  type: Concept
+  subject: 化学
+  title: 氧气的实验室制法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：过氧化氢制氧气时忘记加二氧化锰，就认为一定不能生成氧气
+    - 能指出并纠正这一错误：高锰酸钾制氧气试管口不放棉花，加热时粉末进入导管使水槽水变紫
+  aliases: []
+  category: 实验操作
+  explanation: 实验室常用加热高锰酸钾或分解过氧化氢的方法制取氧气。
+  misconceptions:
+    - 过氧化氢制氧气时忘记加二氧化锰，就认为一定不能生成氧气
+    - 高锰酸钾制氧气试管口不放棉花，加热时粉末进入导管使水槽水变紫
+    - 先熄灭酒精灯后移出导管，会导致水槽水倒吸进热试管
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:氧气的物理性质
+  type: Concept
+  subject: 化学
+  title: 氧气的物理性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氧气易溶于水，所以不能用排水法收集氧气。
+    - 能指出并纠正这一错误：认为氧气密度比空气小，收集时采用向下排空气法。
+  aliases:
+    - 氧气的物理性质
+  category: 物质性质
+  explanation: 氧气在通常状况下是无色无味的气体，密度比空气略大，不易溶于水，液氧和固氧呈淡蓝色。
+  misconceptions:
+    - 认为氧气易溶于水，所以不能用排水法收集氧气。
+    - 认为氧气密度比空气小，收集时采用向下排空气法。
+    - 认为液氧是无色液体，忽略液氧呈淡蓝色。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:氧气的用途
+  type: Concept
+  subject: 化学
+  title: 氧气的用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氧气可作保护气，用于食品防腐，实际应用的是氮气。
+    - 能指出并纠正这一错误：认为氧气具有可燃性，所以可作火箭燃料，实际它是助燃剂。
+  aliases:
+    - 氧气的应用
+  category: 应用
+  explanation: 氧气可用于潜水、登山、医疗急救、支持燃烧等，性质决定用途。
+  misconceptions:
+    - 认为氧气可作保护气，用于食品防腐，实际应用的是氮气。
+    - 认为氧气具有可燃性，所以可作火箭燃料，实际它是助燃剂。
+    - 认为氧气能供给呼吸，所以可作焊接保护气。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:氮气的性质与用途
+  type: Concept
+  subject: 化学
+  title: 氮气的性质与用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氮气化学性质活泼，能与镁等金属在常温下剧烈反应。
+    - 能指出并纠正这一错误：把燃着的木条伸入氮气中，认为木条继续燃烧，忽略氮气不支持燃烧。
+  aliases:
+    - 氮气
+  category: 物质性质
+  explanation: 氮气化学性质稳定，常温下不易与其他物质反应，可用于制造氮肥、作保护气等。
+  misconceptions:
+    - 认为氮气化学性质活泼，能与镁等金属在常温下剧烈反应。
+    - 把燃着的木条伸入氮气中，认为木条继续燃烧，忽略氮气不支持燃烧。
+    - 认为氮气能供给呼吸，可用于潜水，实际潜水用氧气。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:氮肥
+  type: Concept
+  subject: 化学
+  title: 氮肥
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氮肥都是白色晶体且易溶于水，忽略个别如碳酸氢铵受热易分解但外观可能不同
+    - 能指出并纠正这一错误：误以为所有含氮物质都可做氮肥，如NH₄NO₃可做但N₂不能直接被植物吸收
+  aliases: []
+  category: 化学应用
+  explanation: 氮肥含氮元素，能促进植物叶色浓绿，增加产量，如碳酸氢铵、硝酸铵、尿素等。
+  misconceptions:
+    - 认为氮肥都是白色晶体且易溶于水，忽略个别如碳酸氢铵受热易分解但外观可能不同
+    - 误以为所有含氮物质都可做氮肥，如NH₄NO₃可做但N₂不能直接被植物吸收
+    - 施用时将铵态氮肥与碱性物质（如草木灰）混合，导致氨气逸出降低肥效
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:水污染
+  type: Concept
+  subject: 化学
+  title: 水污染
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为水污染只来自工业废水，忽略生活污水和农药化肥
+    - 能指出并纠正这一错误：误认为污染只是使水变浑浊，没有意识到溶解的毒物同样有害
+  aliases:
+    - 水体污染
+  category: 环境科学
+  explanation: 工业废水、生活污水、农药化肥等造成水体污染，危害健康。
+  misconceptions:
+    - 认为水污染只来自工业废水，忽略生活污水和农药化肥
+    - 误认为污染只是使水变浑浊，没有意识到溶解的毒物同样有害
+    - 以为沉淀和过滤能彻底清除水中的污染物，忽略可溶性有毒物质
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:水的净化
+  type: Concept
+  subject: 化学
+  title: 水的净化
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为消毒可除去所有杂质，如过滤后的水无需再蒸馏就直饮
+    - 能指出并纠正这一错误：误以为净水步骤中过滤能除去可溶性杂质如氯化钠
+  aliases:
+    - 净水
+  category: 化学应用
+  explanation: 通过沉淀、过滤、吸附、消毒等步骤，除去天然水中的不溶性杂质、可溶性杂质和微生物，获得较纯净的水。
+  misconceptions:
+    - 认为消毒可除去所有杂质，如过滤后的水无需再蒸馏就直饮
+    - 误以为净水步骤中过滤能除去可溶性杂质如氯化钠
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:水的净化方法
+  type: Concept
+  subject: 化学
+  title: 水的净化方法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：混淆沉淀和过滤：把过滤当作除去悬浮颗粒，而沉淀只除去大颗粒
+    - 能指出并纠正这一错误：认为吸附法能除去所有离子，如用活性炭去除钙镁离子
+  aliases:
+    - 净水方法
+  category: 化学方法
+  explanation: 包括沉淀法、过滤法、吸附法等，用于除去水中杂质。
+  misconceptions:
+    - 混淆沉淀和过滤：把过滤当作除去悬浮颗粒，而沉淀只除去大颗粒
+    - 认为吸附法能除去所有离子，如用活性炭去除钙镁离子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:水的组成
+  type: Concept
+  subject: 化学
+  title: 水的组成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为水由氢气和氧气组成，如说‘水就是H2和O2的混合物’。
+    - 能指出并纠正这一错误：电解水实验后，说正极产生氢气，负极产生氧气，颠倒电极产物。
+  aliases:
+    - 水的元素组成
+  category: 物质组成
+  explanation: 水由氢元素和氧元素组成，宏观上水是化合物。
+  misconceptions:
+    - 认为水由氢气和氧气组成，如说‘水就是H2和O2的混合物’。
+    - 电解水实验后，说正极产生氢气，负极产生氧气，颠倒电极产物。
+    - 认为水分子中含有氢分子和氧原子，混淆宏观组成与微观构成。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:水资源
+  type: Concept
+  subject: 化学
+  title: 水资源
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为地球水多，淡水资源取之不尽，如随意浪费海水淡化后的水
+    - 能指出并纠正这一错误：误将冰川水视为可直接利用的淡水资源
+  aliases:
+    - 淡水资源
+  category: 地理/化学
+  explanation: 地球上的水包括海水、淡水等，人类可利用的淡水资源有限。
+  misconceptions:
+    - 认为地球水多，淡水资源取之不尽，如随意浪费海水淡化后的水
+    - 误将冰川水视为可直接利用的淡水资源
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:汤姆孙原子模型
+  type: Concept
+  subject: 化学
+  title: 汤姆孙原子模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为汤姆孙发现的是原子核，实际发现原子核的是卢瑟福。
+    - 能指出并纠正这一错误：把汤姆孙模型说成行星模型，实际枣糕模型电子是镶嵌在球体内的。
+  aliases:
+    - 枣糕模型
+  category: 科学史
+  explanation: 1897年汤姆孙发现电子，1904年提出“枣糕模型”。
+  misconceptions:
+    - 认为汤姆孙发现的是原子核，实际发现原子核的是卢瑟福。
+    - 把汤姆孙模型说成行星模型，实际枣糕模型电子是镶嵌在球体内的。
+    - 认为汤姆孙发现电子带正电，实际电子带负电。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:沉淀
+  type: Concept
+  subject: 化学
+  title: 沉淀
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为沉淀能使所有杂质沉降，如胶体颗粒静止后也能完全去除
+    - 能指出并纠正这一错误：加入明矾后立即过滤，未等絮凝沉降完成
+  aliases: []
+  category: 化学操作
+  explanation: 利用重力使水中悬浮颗粒沉降的方法。
+  misconceptions:
+    - 认为沉淀能使所有杂质沉降，如胶体颗粒静止后也能完全去除
+    - 加入明矾后立即过滤，未等絮凝沉降完成
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:沉淀法
+  type: Concept
+  subject: 化学
+  title: 沉淀法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把明矾当作消毒剂，如认为明矾能杀灭细菌和病毒
+    - 能指出并纠正这一错误：误以为沉淀法可除去溶解在水中的有色物质
+  aliases: []
+  category: 化学方法
+  explanation: 利用重力使水中密度较大的颗粒物质沉降，可加入明矾等絮凝剂加速沉降。
+  misconceptions:
+    - 把明矾当作消毒剂，如认为明矾能杀灭细菌和病毒
+    - 误以为沉淀法可除去溶解在水中的有色物质
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:油脂
+  type: Concept
+  subject: 化学
+  title: 油脂
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为油脂是高分子化合物，其实油脂是高级脂肪酸甘油酯，属于酯类
+    - 能指出并纠正这一错误：把油脂与矿物油混为一谈，认为它们都是烃类，实际油脂是酯类
+  aliases:
+    - 油
+    - 脂肪
+  category: 营养物质
+  explanation: 油脂是油和脂肪的统称，室温下液态为油，固态或半固态为脂肪，含有C、H、O元素，是人体后备能源。
+  misconceptions:
+    - 认为油脂是高分子化合物，其实油脂是高级脂肪酸甘油酯，属于酯类
+    - 把油脂与矿物油混为一谈，认为它们都是烃类，实际油脂是酯类
+    - 认为油脂分子中含有亲水基团，所以易溶于水，实际油脂难溶于水
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:浓硫酸的特性
+  type: Concept
+  subject: 化学
+  title: 浓硫酸的特性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为浓硫酸的脱水性就是吸水性，把纸张炭化归因于吸收水分
+    - 能指出并纠正这一错误：稀释时将水倒入浓硫酸，造成液滴飞溅，剧烈放热
+  aliases: []
+  category: 物质性质
+  explanation: 浓硫酸具有强腐蚀性、脱水性和吸水性，稀释时需将浓硫酸沿器壁缓慢注入水中并搅拌。
+  misconceptions:
+    - 误以为浓硫酸的脱水性就是吸水性，把纸张炭化归因于吸收水分
+    - 稀释时将水倒入浓硫酸，造成液滴飞溅，剧烈放热
+    - 用浓硫酸干燥氨气或硫化氢，发生反应而失效
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:浓硫酸的稀释方法
+  type: Concept
+  subject: 化学
+  title: 浓硫酸的稀释方法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将水沿器壁倒入浓硫酸中，导致酸液飞溅
+    - 能指出并纠正这一错误：误认为可以在量筒中稀释浓硫酸，量筒不能承受放热且精度受损
+  aliases: []
+  category: 实验操作
+  explanation: 稀释浓硫酸时，应将浓硫酸沿器壁缓慢注入水中并不断搅拌，切不可将水倒入浓硫酸中。
+  misconceptions:
+    - 将水沿器壁倒入浓硫酸中，导致酸液飞溅
+    - 误认为可以在量筒中稀释浓硫酸，量筒不能承受放热且精度受损
+    - 稀释时忘记搅拌，造成局部过热暴沸
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:浓硫酸的腐蚀性
+  type: Concept
+  subject: 化学
+  title: 浓硫酸的腐蚀性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将浓硫酸的吸水性和脱水性混为一谈，误认为吸水也会使纸炭化。
+    - 能指出并纠正这一错误：稀释浓硫酸时把水倒入酸中，导致酸液飞溅，应酸入水。
+  aliases: []
+  category: 物质性质
+  explanation: 浓硫酸有强腐蚀性、脱水性和吸水性，能使纸张、蔗糖炭化，可作干燥剂。
+  misconceptions:
+    - 将浓硫酸的吸水性和脱水性混为一谈，误认为吸水也会使纸炭化。
+    - 稀释浓硫酸时把水倒入酸中，导致酸液飞溅，应酸入水。
+    - 认为浓硫酸可干燥氨气，实际会反应，只能干燥酸性或中性气体。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:海水晒盐
+  type: Concept
+  subject: 化学
+  title: 海水晒盐
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为海水晒盐是利用降温结晶，实际食盐溶解度受温度影响小，靠蒸发水分析出。
+    - 能指出并纠正这一错误：认为晒盐得到的食盐是纯净的，可直接食用，实际含氯化镁等杂质，需纯化。
+  aliases:
+    - 晒盐
+  category: 化学工艺
+  explanation: 利用风吹日晒使海水蒸发，逐渐浓缩至饱和，析出粗盐的过程。
+  misconceptions:
+    - 误认为海水晒盐是利用降温结晶，实际食盐溶解度受温度影响小，靠蒸发水分析出。
+    - 认为晒盐得到的食盐是纯净的，可直接食用，实际含氯化镁等杂质，需纯化。
+    - 误以为海水晒盐只需简单加热蒸发，不需要经过饱和再结晶的过程。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:海水淡化
+  type: Concept
+  subject: 化学
+  title: 海水淡化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为过滤能除去海水中的盐分，实际过滤只能除去不溶性杂质，不能淡化海水。
+    - 能指出并纠正这一错误：认为海水淡化只可用蒸馏法，忽略反渗透、低温多效蒸馏等现代方法。
+  aliases:
+    - 海水淡化方法
+  category: 化学工艺
+  explanation: 通过反渗透法或低温多效蒸馏法等方法去除海水中的盐分，获得淡水。
+  misconceptions:
+    - 误认为过滤能除去海水中的盐分，实际过滤只能除去不溶性杂质，不能淡化海水。
+    - 认为海水淡化只可用蒸馏法，忽略反渗透、低温多效蒸馏等现代方法。
+    - 误认为海水淡化后的浓盐水可直接排放，实际会破坏海洋生态。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:海洋资源
+  type: Concept
+  subject: 化学
+  title: 海洋资源
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为海洋资源只有化学资源如食盐，忽略生物、矿产、能源等资源。
+    - 能指出并纠正这一错误：认为海洋资源取之不尽，过度开发无后果，实际资源有限，过度捕捞等会导致枯竭。
+  aliases:
+    - 海洋资源类型
+  category: 化学知识
+  explanation: 海洋中蕴含的生物资源、化学资源、矿产资源、能源资源等。
+  misconceptions:
+    - 误认为海洋资源只有化学资源如食盐，忽略生物、矿产、能源等资源。
+    - 认为海洋资源取之不尽，过度开发无后果，实际资源有限，过度捕捞等会导致枯竭。
+    - 把海洋水等同于可饮用水，认为海水淡化很易得，实际成本高且海水不可直接饮用。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:海洋资源的综合利用
+  type: Concept
+  subject: 化学
+  title: 海洋资源的综合利用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为从海水中提取镁只需过滤，实际要经富集、转化、电解等多步化学过程。
+    - 能指出并纠正这一错误：认为综合利用只是分别提取单一物质，忽略综合设计流程和资源的循环利用。
+  aliases: []
+  category: 化学应用
+  explanation: 海洋资源的综合利用包括从海水中提取食盐、淡水、镁等物质，涉及溶解、过滤、结晶等多种方法。
+  misconceptions:
+    - 误认为从海水中提取镁只需过滤，实际要经富集、转化、电解等多步化学过程。
+    - 认为综合利用只是分别提取单一物质，忽略综合设计流程和资源的循环利用。
+    - 误以为海洋资源的综合利用只涉及物理变化，忽略了电解、沉淀等化学变化。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:液体试剂的取用
+  type: Concept
+  subject: 化学
+  title: 液体试剂的取用
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：倾倒液体时瓶塞正放，污染瓶塞和试剂。
+    - 能指出并纠正这一错误：量取液体时俯视刻度，使读数偏大，实际量取液体偏少。
+  aliases: []
+  category: 实验操作
+  explanation: 取用液体试剂包括倾倒、量取、滴加等操作，注意瓶塞倒放、标签向手心、视线与凹液面最低处水平等。
+  misconceptions:
+    - 倾倒液体时瓶塞正放，污染瓶塞和试剂。
+    - 量取液体时俯视刻度，使读数偏大，实际量取液体偏少。
+    - 胶头滴管伸入试管内滴液，容易污染试剂。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:淀粉的检验
+  type: Concept
+  subject: 化学
+  title: 淀粉的检验
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为碘化钾溶液也能使淀粉变蓝，误将碘离子当成碘单质
+    - 能指出并纠正这一错误：用碘水检验淀粉时，没有观察到蓝色，就认为不含淀粉，忽略了淀粉可能浓度过稀
+  aliases:
+    - 碘遇淀粉变蓝
+    - 淀粉遇碘变蓝
+  category: 化学实验
+  explanation: 淀粉遇碘单质显蓝色，可用于检验淀粉或碘单质的存在。
+  misconceptions:
+    - 认为碘化钾溶液也能使淀粉变蓝，误将碘离子当成碘单质
+    - 用碘水检验淀粉时，没有观察到蓝色，就认为不含淀粉，忽略了淀粉可能浓度过稀
+    - 认为淀粉遇碘变蓝是物理变化，忽略生成了新物质
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:混合物
+  type: Concept
+  subject: 化学
+  title: 混合物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为冰水混合物是混合物，因为冰和水是两种不同物质。
+    - 能指出并纠正这一错误：认为空气是纯净物，因为空气有固定的组成和性质。
+  aliases:
+    - 混合物定义
+  category: 化学概念
+  explanation: 由两种或两种以上的物质混合而成的物质，各组分保持各自的化学性质。
+  misconceptions:
+    - 认为冰水混合物是混合物，因为冰和水是两种不同物质。
+    - 认为空气是纯净物，因为空气有固定的组成和性质。
+    - 认为混合物中各组分混合后化学性质发生改变，不再保持各自性质。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:混合物分离的一般思路与方法
+  type: Concept
+  subject: 化学
+  title: 混合物分离的一般思路与方法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：不分析混合物成分就盲目选择方法，如用过滤分离酒精和水
+    - 能指出并纠正这一错误：只考虑一种性质差异，忽略其他干扰，如蒸发食盐水时未考虑水蒸气的挥发性
+  aliases:
+    - 物质分离思路
+  category: 化学方法
+  explanation: 利用混合物中不同组分的性质差异，选择合适的方法将杂质分离。主要步骤有分析混合物成分、比较物质性质差异、明确分离方法。
+  misconceptions:
+    - 不分析混合物成分就盲目选择方法，如用过滤分离酒精和水
+    - 只考虑一种性质差异，忽略其他干扰，如蒸发食盐水时未考虑水蒸气的挥发性
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:温室效应
+  type: Concept
+  subject: 化学
+  title: 温室效应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为二氧化碳吸收的是太阳辐射，实际吸收的是地面发出的红外辐射。
+    - 能指出并纠正这一错误：认为温室效应完全是人类活动造成的，忽略了水蒸气等天然温室气体的作用。
+  aliases:
+    - 温室效应加剧
+  category: 环境科学
+  explanation: 大气中的二氧化碳等温室气体允许太阳辐射透过，但吸收地表红外辐射，导致地球保温，人类活动排放过多温室气体加剧温室效应，引起全球变暖。
+  misconceptions:
+    - 误以为二氧化碳吸收的是太阳辐射，实际吸收的是地面发出的红外辐射。
+    - 认为温室效应完全是人类活动造成的，忽略了水蒸气等天然温室气体的作用。
+    - 把温室效应与臭氧层破坏混为一谈，认为臭氧层破损导致全球变暖。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:溶剂
+  type: Concept
+  subject: 化学
+  title: 溶剂
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为水一定是溶剂，如碘酒中的溶剂误写成水
+    - 能指出并纠正这一错误：把溶液中的少量物质一律当溶质，如少量酒精溶于水中仍把酒精当溶剂
+  aliases: []
+  category: 化学概念
+  explanation: 能溶解其他物质的物质，通常为液体，如水、酒精、汽油等。
+  misconceptions:
+    - 认为水一定是溶剂，如碘酒中的溶剂误写成水
+    - 把溶液中的少量物质一律当溶质，如少量酒精溶于水中仍把酒精当溶剂
+    - 忽略溶剂不一定都是水，汽油、酒精等也可作溶剂
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶液
+  type: Concept
+  subject: 化学
+  title: 溶液
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为溶液一定是无色透明的液体
+    - 能指出并纠正这一错误：认为均一稳定的液体就是溶液，如蒸馏水
+  aliases: []
+  category: 化学概念
+  explanation: 溶液是一种或几种物质分散到另一种物质里形成的均一、稳定的混合物。
+  misconceptions:
+    - 误认为溶液一定是无色透明的液体
+    - 认为均一稳定的液体就是溶液，如蒸馏水
+    - 误认为溶液中溶剂一定是水，忽略酒精等可作溶剂
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶液的组成
+  type: Concept
+  subject: 化学
+  title: 溶液的组成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为溶液就是溶质加水，把溶剂硬套成水
+    - 能指出并纠正这一错误：认为均一、稳定的液体就是溶液，把蒸馏水也当溶液
+  aliases: []
+  category: 化学概念
+  explanation: 溶液由溶质和溶剂组成，溶质是被溶解的物质，溶剂是能溶解其他物质的物质。
+  misconceptions:
+    - 误认为溶液就是溶质加水，把溶剂硬套成水
+    - 认为均一、稳定的液体就是溶液，把蒸馏水也当溶液
+    - 将溶液中的溶质只能有一种，忽略糖盐混合溶液有两种溶质
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶液的酸碱度与pH
+  type: Concept
+  subject: 化学
+  title: 溶液的酸碱度与pH
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为pH越小酸性越弱，例pH=1比pH=3碱性弱？错，pH越小酸性越强。
+    - 能指出并纠正这一错误：测pH时先将试纸湿润，导致酸性溶液pH偏大，碱性偏小。
+  aliases:
+    - pH
+  category: 化学概念
+  explanation: 表示溶液酸碱性强弱的程度，pH范围一般为0~14，常温下pH<7为酸性，pH=7为中性，pH>7为碱性。
+  misconceptions:
+    - 认为pH越小酸性越弱，例pH=1比pH=3碱性弱？错，pH越小酸性越强。
+    - 测pH时先将试纸湿润，导致酸性溶液pH偏大，碱性偏小。
+    - 认为pH=7的溶液一定是纯水，如NaCl溶液也pH=7。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:溶液的酸碱性与pH
+  type: Concept
+  subject: 化学
+  title: 溶液的酸碱性与pH
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用pH试纸直接伸入待测液，会污染试剂，应蘸取后点在试纸上。
+    - 能指出并纠正这一错误：认为酸性溶液一定是酸，如NaHSO4溶液呈酸性但不是酸。
+  aliases: []
+  category: 化学概念
+  explanation: pH小于7为酸性，等于7为中性，大于7为碱性；pH试纸可测定溶液酸碱度。
+  misconceptions:
+    - 用pH试纸直接伸入待测液，会污染试剂，应蘸取后点在试纸上。
+    - 认为酸性溶液一定是酸，如NaHSO4溶液呈酸性但不是酸。
+    - 认为pH试纸可读出精确值（如5.5），实际只能测整数。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:溶液稀释计算
+  type: Concept
+  subject: 化学
+  title: 溶液稀释计算
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：稀释计算中把浓溶液体积与水的体积直接相加得到稀溶液体积
+    - 能指出并纠正这一错误：误认为加水后溶质质量也增加，用稀释后溶液质量乘稀释前浓度求溶质
+  aliases:
+    - 稀释计算
+  category: 化学计算
+  explanation: 根据稀释前后溶质质量不变的原则，计算稀释所需浓溶液或溶剂的质量。
+  misconceptions:
+    - 稀释计算中把浓溶液体积与水的体积直接相加得到稀溶液体积
+    - 误认为加水后溶质质量也增加，用稀释后溶液质量乘稀释前浓度求溶质
+    - 求需水量时误算成稀溶液质量减浓溶液体积，单位混乱
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S3.md
+- id: concept:化学:溶解
+  type: Concept
+  subject: 化学
+  title: 溶解
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为溶解是化学变化，分子种类改变
+    - 能指出并纠正这一错误：认为所有物质都能无限溶解在水里
+  aliases:
+    - dissolution
+  category: 化学概念
+  explanation: 溶解是物质在水中分散开的现象，是常见的物质分散现象。
+  misconceptions:
+    - 误认为溶解是化学变化，分子种类改变
+    - 认为所有物质都能无限溶解在水里
+    - 忽略溶解时伴随能量变化，如放热或吸热
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶解度
+  type: Concept
+  subject: 化学
+  title: 溶解度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：说溶解度时不带温度，如“氯化钠的溶解度是36g”
+    - 能指出并纠正这一错误：把溶解度中的100g溶剂误当成100g溶液
+  aliases: []
+  category: 化学概念
+  explanation: 在一定温度下，某固态物质在100g溶剂中达到饱和状态时所溶解的质量。
+  misconceptions:
+    - 说溶解度时不带温度，如“氯化钠的溶解度是36g”
+    - 把溶解度中的100g溶剂误当成100g溶液
+    - 认为溶剂越多溶解度越大，把溶解度与一定量溶剂的溶解量混为一谈
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:溶解度曲线
+  type: Concept
+  subject: 化学
+  title: 溶解度曲线
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：比较溶解度时不限定温度，直接说曲线在上方的物质溶解度一定大
+    - 能指出并纠正这一错误：误认为曲线越陡表示溶解度越大，忽略曲线含义是溶解度随温度变化趋势
+  aliases: []
+  category: 化学图表
+  explanation: 表示溶解度随温度变化的曲线，用于比较不同物质溶解度随温度的变化趋势。
+  misconceptions:
+    - 比较溶解度时不限定温度，直接说曲线在上方的物质溶解度一定大
+    - 误认为曲线越陡表示溶解度越大，忽略曲线含义是溶解度随温度变化趋势
+    - 从曲线上读出的纵坐标数值直接当溶质质量分数
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:溶解性等级
+  type: Concept
+  subject: 化学
+  title: 溶解性等级
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：混淆易溶与可溶的边界，把20℃溶解度大于10g记成大于1g
+    - 能指出并纠正这一错误：判断溶解性时不写清温度，说“某物质易溶”却未说明是20℃
+  aliases:
+    - 溶解性
+  category: 化学概念
+  explanation: 根据20℃时溶解度大小，将物质分为难溶、微溶、可溶、易溶四个等级。
+  misconceptions:
+    - 混淆易溶与可溶的边界，把20℃溶解度大于10g记成大于1g
+    - 判断溶解性时不写清温度，说“某物质易溶”却未说明是20℃
+    - 认为难溶物质绝对不溶，忽略‘难溶’仍有微量溶解
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:溶解时的吸热或放热现象
+  type: Concept
+  subject: 化学
+  title: 溶解时的吸热或放热现象
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把硝酸铵错记为溶解放热，把氢氧化钠错记为溶解吸热
+    - 能指出并纠正这一错误：认为所有物质溶解都会放热，忽略有的物质溶解吸热
+  aliases:
+    - 溶解热效应
+  category: 化学现象
+  explanation: 物质溶解时伴随热量变化，如硝酸铵溶解吸热，氢氧化钠溶解放热。
+  misconceptions:
+    - 把硝酸铵错记为溶解放热，把氢氧化钠错记为溶解吸热
+    - 认为所有物质溶解都会放热，忽略有的物质溶解吸热
+    - 把溶解时的温度变化与化学反应放热混为一谈，认为溶解就是化学变化
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶解过程
+  type: Concept
+  subject: 化学
+  title: 溶解过程
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为氯化钠溶于水后以NaCl分子存在，忽略了电离成Na+和Cl-
+    - 能指出并纠正这一错误：认为溶液均一稳定后粒子就停止运动
+  aliases: []
+  category: 化学过程
+  explanation: 溶质在溶剂中分散形成溶液的过程，如氯化钠在水中解离成离子并扩散。
+  misconceptions:
+    - 误认为氯化钠溶于水后以NaCl分子存在，忽略了电离成Na+和Cl-
+    - 认为溶液均一稳定后粒子就停止运动
+    - 把溶解过程理解成溶质被化学分解成原子
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶解速率的影响因素
+  type: Concept
+  subject: 化学
+  title: 溶解速率的影响因素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为搅拌或研碎能增大溶解度，实际只能增大溶解速率
+    - 能指出并纠正这一错误：认为温度越低溶解越快，与温度越高溶解越快的结论相反
+  aliases: []
+  category: 化学概念
+  explanation: 溶解速率受温度、搅拌、溶质颗粒大小等因素影响，温度越高、搅拌越快、颗粒越小，溶解越快。
+  misconceptions:
+    - 误认为搅拌或研碎能增大溶解度，实际只能增大溶解速率
+    - 认为温度越低溶解越快，与温度越高溶解越快的结论相反
+    - 混淆溶解速率与溶解度，以为升温所有物质的溶解度都会增大
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶质
+  type: Concept
+  subject: 化学
+  title: 溶质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为溶质只能是固体，忽略盐酸中的溶质是氯化氢气体
+    - 能指出并纠正这一错误：将结晶水合物溶于水后的溶质误写成CuSO4·5H2O，实际是CuSO4
+  aliases: []
+  category: 化学概念
+  explanation: 被溶解的物质，可以是固体、液体或气体。
+  misconceptions:
+    - 认为溶质只能是固体，忽略盐酸中的溶质是氯化氢气体
+    - 将结晶水合物溶于水后的溶质误写成CuSO4·5H2O，实际是CuSO4
+    - 根据物质状态判断溶质，把溶液中的水都当溶剂
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:溶质的质量分数
+  type: Concept
+  subject: 化学
+  title: 溶质的质量分数
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误把溶质质量分数当成溶质质量与溶剂质量之比
+    - 能指出并纠正这一错误：给饱和溶液继续加溶质，误认为溶质质量分数会一直变大
+  aliases:
+    - 质量分数
+    - 浓度
+    - 溶质质量分数
+    - 溶液浓度
+  category: 化学概念
+  explanation: 溶质质量与溶液质量之比，通常以百分数表示，用于定量表示溶液的浓度。
+  misconceptions:
+    - 误把溶质质量分数当成溶质质量与溶剂质量之比
+    - 给饱和溶液继续加溶质，误认为溶质质量分数会一直变大
+    - 稀释时误认为溶质质量分数不变，或计算时漏乘100%
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S3.md
+- id: concept:化学:潮解
+  type: Concept
+  subject: 化学
+  title: 潮解
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将潮解与风化混淆，潮解是吸收水分溶解，风化是失去结晶水。
+    - 能指出并纠正这一错误：认为所有碱都易潮解，如Ca(OH)2并不明显吸水，NaOH才易潮解。
+  aliases: []
+  category: 物理性质
+  explanation: 某些固体物质吸收空气中的水分而逐渐溶解的现象，氢氧化钠具有潮解性。
+  misconceptions:
+    - 将潮解与风化混淆，潮解是吸收水分溶解，风化是失去结晶水。
+    - 认为所有碱都易潮解，如Ca(OH)2并不明显吸水，NaOH才易潮解。
+    - 忽略NaOH潮解时同时吸收CO2，导致固体表面出现Na2CO3。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:澄清石灰水变浑浊的条件
+  type: Concept
+  subject: 化学
+  title: 澄清石灰水变浑浊的条件
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为通入CO2一定浑浊，若气体含HCl，CO2与Ca(OH)2反应生成CaCO3又被HCl溶解。
+    - 能指出并纠正这一错误：检验CO2时用澄清石灰水，未变浑浊就断言无CO2，忽视HCl干扰。
+  aliases: []
+  category: 实验现象
+  explanation: 二氧化碳能使澄清石灰水变浑浊，但若气体中混有HCl，则可能不出现浑浊。
+  misconceptions:
+    - 认为通入CO2一定浑浊，若气体含HCl，CO2与Ca(OH)2反应生成CaCO3又被HCl溶解。
+    - 检验CO2时用澄清石灰水，未变浑浊就断言无CO2，忽视HCl干扰。
+    - 认为先变浑浊再变澄清是通入过量CO2，但混有HCl时可能始终不浑浊。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:灭火原理
+  type: Concept
+  subject: 化学
+  title: 灭火原理
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为用水灭火是降低着火点，而非降温至着火点以下
+    - 能指出并纠正这一错误：认为只要清除可燃物就一定能灭火，如油锅失火用水浇反而扩大
+  aliases: []
+  category: 化学应用
+  explanation: 灭火依据燃烧条件，通过清除可燃物、隔绝氧气或降温至着火点以下来实现。
+  misconceptions:
+    - 认为用水灭火是降低着火点，而非降温至着火点以下
+    - 认为只要清除可燃物就一定能灭火，如油锅失火用水浇反而扩大
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:热分解法
+  type: Concept
+  subject: 化学
+  title: 热分解法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：分解 HgO 时漏写加热条件，写成常温分解
+    - 能指出并纠正这一错误：误认为热分解法可冶炼铁、铝等金属
+  aliases:
+    - 分解法
+  category: 化学方法
+  explanation: 加热不稳定的金属化合物（如银、汞的氧化物）使其分解得到金属单质的方法。如2HgO → 2Hg + O₂↑。
+  misconceptions:
+    - 分解 HgO 时漏写加热条件，写成常温分解
+    - 误认为热分解法可冶炼铁、铝等金属
+    - 配平 HgO 分解方程时漏掉系数 2，如写成 HgO→Hg+O₂↑
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:热力学温度
+  type: Concept
+  subject: 化学
+  title: 热力学温度
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把热力学温度单位写成℃，如认为25K就是25℃
+    - 能指出并纠正这一错误：在摄氏温度与热力学温度转换时，将t=T-273.15错写成t=T+273.15
+  aliases:
+    - 绝对温度
+  category: 物理量
+  explanation: 热力学温度是表示物体冷热程度的物理量，单位是开尔文（K），与摄氏温度的关系为 t = T - 273.15。
+  misconceptions:
+    - 把热力学温度单位写成℃，如认为25K就是25℃
+    - 在摄氏温度与热力学温度转换时，将t=T-273.15错写成t=T+273.15
+    - 认为热力学温度可能有负值，忽略其最小值为0K
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:热固性塑料
+  type: Concept
+  subject: 化学
+  title: 热固性塑料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为热固性塑料受热软化后可以反复成型，如把酚醛树脂加热熔化再塑形
+    - 能指出并纠正这一错误：将热固性塑料与热塑性塑料混淆，认为酚醛树脂可反复加热冷却变硬
+  aliases: []
+  category: 化学概念
+  explanation: 热固性塑料受热时软化成型，冷却固化后不能再加热软化，如酚醛树脂、脲醛树脂等。
+  misconceptions:
+    - 误认为热固性塑料受热软化后可以反复成型，如把酚醛树脂加热熔化再塑形
+    - 将热固性塑料与热塑性塑料混淆，认为酚醛树脂可反复加热冷却变硬
+    - 认为热固性塑料不能受热，受热就会燃烧
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:热塑性塑料
+  type: Concept
+  subject: 化学
+  title: 热塑性塑料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为热塑性塑料一次成型后不能再加工，如认为聚乙烯塑料无法再次熔化
+    - 能指出并纠正这一错误：认为热固性塑料也能像聚乙烯一样加热熔化回收
+  aliases: []
+  category: 化学概念
+  explanation: 热塑性塑料受热会软化，冷却后硬化，可反复加工，如聚乙烯、聚氯乙烯等。
+  misconceptions:
+    - 误认为热塑性塑料一次成型后不能再加工，如认为聚乙烯塑料无法再次熔化
+    - 认为热固性塑料也能像聚乙烯一样加热熔化回收
+    - 将聚乙烯和酚醛树脂的加热行为颠倒，认为聚乙烯受热固化不可逆
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:热还原法
+  type: Concept
+  subject: 化学
+  title: 热还原法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用 CO 还原 Fe₂O₃ 时漏写高温条件，写成常温
+    - 能指出并纠正这一错误：误认为所有金属氧化物都可用氢气还原，如氧化铝
+  aliases:
+    - 还原法
+  category: 化学方法
+  explanation: 在加热条件下，用焦炭、氢气或一氧化碳等还原剂将金属氧化物还原为金属单质的方法。如Fe₂O₃ + 3CO → 2Fe + 3CO₂。
+  misconceptions:
+    - 用 CO 还原 Fe₂O₃ 时漏写高温条件，写成常温
+    - 误认为所有金属氧化物都可用氢气还原，如氧化铝
+    - 配平 Fe₂O₃+CO 反应时错误，未配平或漏标 CO₂ 的↑
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:煤气
+  type: Concept
+  subject: 化学
+  title: 煤气
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为煤气是煤燃烧直接产生的，实际是煤经干馏等过程生成的一氧化碳气体。
+    - 能指出并纠正这一错误：认为煤气中毒是二氧化碳中毒，其实煤气中毒是CO与血红蛋白结合导致缺氧。
+  aliases:
+    - 水煤气
+  category: 化学物质
+  explanation: 煤气主要成分为一氧化碳（CO），是一种气体燃料，不完全燃烧可能产生有毒气体。
+  misconceptions:
+    - 误认为煤气是煤燃烧直接产生的，实际是煤经干馏等过程生成的一氧化碳气体。
+    - 认为煤气中毒是二氧化碳中毒，其实煤气中毒是CO与血红蛋白结合导致缺氧。
+    - 认为煤气有刺鼻气味，实际CO无味，煤气中特意加入的硫化物才有味。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:煤的综合利用
+  type: Concept
+  subject: 化学
+  title: 煤的综合利用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为煤的干馏是物理变化，忽略了隔绝空气加热时发生了化学变化。
+    - 能指出并纠正这一错误：把煤的干馏和石油分馏混为一谈，认为干馏也是利用沸点不同进行分离。
+  aliases:
+    - 煤的干馏
+  category: 资源利用
+  explanation: 煤的干馏（隔绝空气加强热）可得到焦炉煤气、煤焦油、焦炭等产品，实现综合利用。
+  misconceptions:
+    - 误认为煤的干馏是物理变化，忽略了隔绝空气加热时发生了化学变化。
+    - 把煤的干馏和石油分馏混为一谈，认为干馏也是利用沸点不同进行分离。
+    - 认为煤焦油是煤气的主要成分，实际煤焦油是液体混合物，煤气是气体。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:燃烧
+  type: Concept
+  subject: 化学
+  title: 燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为燃烧一定有火焰，如铁丝燃烧发出火星但没有火焰
+    - 能指出并纠正这一错误：把缓慢氧化当作燃烧，如铁生锈不属于燃烧
+  aliases:
+    - combustion
+  category: 化学概念
+  explanation: 可燃物与氧气发生的一种发光、放热的剧烈氧化反应。
+  misconceptions:
+    - 误认为燃烧一定有火焰，如铁丝燃烧发出火星但没有火焰
+    - 把缓慢氧化当作燃烧，如铁生锈不属于燃烧
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:燃烧条件
+  type: Concept
+  subject: 化学
+  title: 燃烧条件
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为三个条件只需满足其一即可燃烧，如只有可燃物没有氧气也认为能烧
+  aliases:
+    - 燃烧三条件
+  category: 化学概念
+  explanation: 燃烧需要三个缺一不可的条件：可燃物、氧气（或空气）、温度达到着火点。
+  misconceptions:
+    - 认为三个条件只需满足其一即可燃烧，如只有可燃物没有氧气也认为能烧
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:爆炸
+  type: Concept
+  subject: 化学
+  title: 爆炸
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为爆炸一定是化学变化，如锅炉爆炸、轮胎爆炸被误判为化学爆炸
+    - 能指出并纠正这一错误：认为爆炸都是由燃烧引起，如粉尘爆炸未涉及明火也持怀疑
+  aliases: []
+  category: 化学概念
+  explanation: 可燃物在有限空间内急剧燃烧，短时间内产生大量气体和热量引起的现象。
+  misconceptions:
+    - 认为爆炸一定是化学变化，如锅炉爆炸、轮胎爆炸被误判为化学爆炸
+    - 认为爆炸都是由燃烧引起，如粉尘爆炸未涉及明火也持怀疑
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:爆炸极限
+  type: Concept
+  subject: 化学
+  title: 爆炸极限
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为低于爆炸极限的一定不会爆炸，如认为少量氢气在空气中绝对安全
+    - 能指出并纠正这一错误：认为所有可燃气体爆炸极限相同，如氢气和甲烷混为一谈
+  aliases:
+    - explosion limit
+  category: 化学概念
+  explanation: 可燃气体或粉尘在空气中能发生爆炸的含量范围。
+  misconceptions:
+    - 认为低于爆炸极限的一定不会爆炸，如认为少量氢气在空气中绝对安全
+    - 认为所有可燃气体爆炸极限相同，如氢气和甲烷混为一谈
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:物理变化
+  type: Concept
+  subject: 化学
+  title: 物理变化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为冰雪融化是化学变化，因为状态改变。
+    - 能指出并纠正这一错误：认为灯泡发光是化学变化，因为有发光发热现象。
+  aliases:
+    - physical change
+  category: 化学概念
+  explanation: 物质发生变化时没有生成新物质，这种变化叫作物理变化。
+  misconceptions:
+    - 认为冰雪融化是化学变化，因为状态改变。
+    - 认为灯泡发光是化学变化，因为有发光发热现象。
+    - 认为爆炸全部是化学变化，如轮胎爆炸其实是物理变化。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:物理变化与化学变化中分子的变化
+  type: Concept
+  subject: 化学
+  title: 物理变化与化学变化中分子的变化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为水蒸发时水分子变成了氢分子和氧分子，所以是化学变化。
+    - 能指出并纠正这一错误：认为化学变化中分子不变，只是分子间的间隔发生改变。
+  aliases:
+    - 分子变化规律
+  category: 化学规律
+  explanation: 物理变化中分子本身不变，化学变化中分子分裂成原子，原子重新组合成新分子。
+  misconceptions:
+    - 认为水蒸发时水分子变成了氢分子和氧分子，所以是化学变化。
+    - 认为化学变化中分子不变，只是分子间的间隔发生改变。
+    - 认为化学变化中原子可以再分成更小的粒子，分子不能分。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:物理性质
+  type: Concept
+  subject: 化学
+  title: 物理性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为可燃性是物理性质，其实它需要化学变化。
+    - 能指出并纠正这一错误：认为物质颜色、气味是化学性质，其实无需化学变化。
+  aliases:
+    - physical property
+  category: 化学概念
+  explanation: 不需要发生化学变化就能表现出来的性质，如颜色、气味、熔点、沸点、硬度等。
+  misconceptions:
+    - 认为可燃性是物理性质，其实它需要化学变化。
+    - 认为物质颜色、气味是化学性质，其实无需化学变化。
+    - 认为挥发性是化学性质，其实属于物理性质。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:物质分离的一般思路
+  type: Concept
+  subject: 化学
+  title: 物质分离的一般思路
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：不分析混合物各成分的性质差异，盲目选用过滤法分离
+    - 能指出并纠正这一错误：用过滤法分离酒精和水，忽略两者互溶且均为液体
+  aliases:
+    - 物质分离思路
+  category: 化学方法
+  explanation: 分析混合物成分、比较各成分的性质差异、明确分离方法。
+  misconceptions:
+    - 不分析混合物各成分的性质差异，盲目选用过滤法分离
+    - 用过滤法分离酒精和水，忽略两者互溶且均为液体
+    - 认为冷却热饱和溶液能分离所有混合物，不分析溶解度随温度变化
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:物质由微观粒子构成
+  type: Concept
+  subject: 化学
+  title: 物质由微观粒子构成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为所有物质都由分子构成，原子、离子不能直接构成物质
+    - 能指出并纠正这一错误：认为热胀冷缩是粒子本身大小改变，而非粒子间隔改变
+  aliases: []
+  category: 基本概念
+  explanation: 物质由分子、原子或离子等微观粒子构成。
+  misconceptions:
+    - 认为所有物质都由分子构成，原子、离子不能直接构成物质
+    - 认为热胀冷缩是粒子本身大小改变，而非粒子间隔改变
+    - 认为固体中的微观粒子固定不动，不运动
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:物质的转化
+  type: Concept
+  subject: 化学
+  title: 物质的转化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为CaCO3一步能生成Ca(OH)2，实际需先高温分解再与水反应。
+    - 能指出并纠正这一错误：忽略反应条件，如C与CO2常温不反应，需高温。
+  aliases: []
+  category: 化学观念
+  explanation: 在一定条件下通过化学反应可以实现物质的转化，可根据物质的性质设计转化途径。
+  misconceptions:
+    - 认为CaCO3一步能生成Ca(OH)2，实际需先高温分解再与水反应。
+    - 忽略反应条件，如C与CO2常温不反应，需高温。
+    - 设计转化时选错试剂，如欲得到NaOH，用NaCl与Ca(OH)2反应，实际不反应。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:物质的鉴别
+  type: Concept
+  subject: 化学
+  title: 物质的鉴别
+  conceptType: 应用型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用燃着的木条区分CO2和N2，均熄灭，无法鉴别。
+    - 能指出并纠正这一错误：用AgNO3溶液鉴别稀盐酸和NaCl溶液，都有白色沉淀，应选石蕊。
+  aliases: []
+  category: 化学实验
+  explanation: 利用物质性质差异，通过实验现象区分不同物质。
+  misconceptions:
+    - 用燃着的木条区分CO2和N2，均熄灭，无法鉴别。
+    - 用AgNO3溶液鉴别稀盐酸和NaCl溶液，都有白色沉淀，应选石蕊。
+    - 鉴别NaOH和NaCl时，直接向试剂瓶中滴酚酞，会污染整瓶试剂。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:玻尔原子模型
+  type: Concept
+  subject: 化学
+  title: 玻尔原子模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为玻尔模型能解释所有原子的光谱，实际上只适用于氢类原子
+    - 能指出并纠正这一错误：认为电子在轨道上运动时不断辐射能量会坠入原子核，未体现量子化
+  aliases: []
+  category: 科学史
+  explanation: 1913年玻尔提出电子在特定轨道绕核运动。
+  misconceptions:
+    - 认为玻尔模型能解释所有原子的光谱，实际上只适用于氢类原子
+    - 认为电子在轨道上运动时不断辐射能量会坠入原子核，未体现量子化
+    - 把玻尔模型的固定轨道与电子云模型混淆，认为电子仍沿轨道运动
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:玻璃仪器的洗涤
+  type: Concept
+  subject: 化学
+  title: 玻璃仪器的洗涤
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为洗净标准是内壁附着水珠均匀，实际应不聚成水滴也不成股流下。
+    - 能指出并纠正这一错误：认为用清水冲一冲就干净，不用刷洗。
+  aliases: []
+  category: 实验操作
+  explanation: 洗涤玻璃仪器时，内壁附着的水既不聚成水滴也不成股流下，表示已洗净。
+  misconceptions:
+    - 认为洗净标准是内壁附着水珠均匀，实际应不聚成水滴也不成股流下。
+    - 认为用清水冲一冲就干净，不用刷洗。
+    - 看到内壁附着的水成股流下，误以为已洗净，实际未洗净。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:玻璃钢
+  type: Concept
+  subject: 化学
+  title: 玻璃钢
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为玻璃钢是玻璃和钢组成的合金，或认为是玻璃纤维和钢的混合物
+    - 能指出并纠正这一错误：认为玻璃钢是玻璃材料，硬而脆，不能承受冲击
+  aliases:
+    - 纤维增强塑料
+  category: 材料科学
+  explanation: 由玻璃纤维和有机高分子材料复合而成的复合材料，坚硬、质轻、耐腐蚀，强度相当于钢材。
+  misconceptions:
+    - 误认为玻璃钢是玻璃和钢组成的合金，或认为是玻璃纤维和钢的混合物
+    - 认为玻璃钢是玻璃材料，硬而脆，不能承受冲击
+    - 把玻璃钢与钢化玻璃混淆，认为玻璃钢就是钢化玻璃
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:生成物
+  type: Concept
+  subject: 化学
+  title: 生成物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将反应后剩余的反应物误认为生成物，如蜡烛燃烧后剩下的蜡油仍是生成物。
+    - 能指出并纠正这一错误：认为生成物只能有一种，实际可能有多种，如碳酸钙高温分解生成氧化钙和二氧化碳。
+  aliases: []
+  category: 化学概念
+  explanation: 化学反应后产生的物质。
+  misconceptions:
+    - 将反应后剩余的反应物误认为生成物，如蜡烛燃烧后剩下的蜡油仍是生成物。
+    - 认为生成物只能有一种，实际可能有多种，如碳酸钙高温分解生成氧化钙和二氧化碳。
+    - 把催化剂当作反应物，如氯酸钾分解中二氧化锰是催化剂，但被误写入生成物。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:生活饮用水卫生标准
+  type: Concept
+  subject: 化学
+  title: 生活饮用水卫生标准
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为达标饮用水可无限期存放，忽视细菌繁殖风险
+    - 能指出并纠正这一错误：只关注感官性状如澄清度，忽略微生物和有毒物质指标
+  aliases:
+    - 饮用水标准
+  category: 化学标准
+  explanation: 国家规定的生活饮用水水质标准，包括感官性状、安全性等指标。
+  misconceptions:
+    - 认为达标饮用水可无限期存放，忽视细菌繁殖风险
+    - 只关注感官性状如澄清度，忽略微生物和有毒物质指标
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:生石灰
+  type: Concept
+  subject: 化学
+  title: 生石灰
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生石灰主要成分是CaCO3，实际是CaO。
+    - 能指出并纠正这一错误：写煅烧石灰石方程式漏写高温条件，或漏标CO2气体符号。
+  aliases:
+    - 氧化钙
+  category: 物质
+  explanation: 生石灰主要成分是氧化钙（CaO），由石灰石高温煅烧得到，与水反应生成熟石灰。
+  misconceptions:
+    - 误认为生石灰主要成分是CaCO3，实际是CaO。
+    - 写煅烧石灰石方程式漏写高温条件，或漏标CO2气体符号。
+    - 认为生石灰与水反应是物理变化，实际生成Ca(OH)2并放热。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:生铁和钢
+  type: Concept
+  subject: 化学
+  title: 生铁和钢
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生铁含碳量比钢低（实际相反）
+    - 能指出并纠正这一错误：认为生铁和钢都是纯铁，无碳
+  aliases:
+    - 铁合金
+  category: 化学概念
+  explanation: 生铁含碳量2%~4.3%，硬而脆；钢含碳量0.03%~2%，硬而韧、有弹性。二者都是铁的合金，主要区别在于含碳量不同。
+  misconceptions:
+    - 误认为生铁含碳量比钢低（实际相反）
+    - 认为生铁和钢都是纯铁，无碳
+    - 混淆二者性能，认为钢硬而脆、生铁硬而韧
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:甲烷
+  type: Concept
+  subject: 化学
+  title: 甲烷
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把甲烷化学式错写为CH3或C2H4，不知道甲烷是CH4且为最简单的有机物。
+    - 能指出并纠正这一错误：误认为甲烷能溶于水，实际甲烷难溶于水，实验室常用排水法收集。
+  aliases:
+    - CH4
+  category: 化学物质
+  explanation: 甲烷是天然气的主要成分，化学式为CH4，是最简单的有机物，完全燃烧生成二氧化碳和水。
+  misconceptions:
+    - 把甲烷化学式错写为CH3或C2H4，不知道甲烷是CH4且为最简单的有机物。
+    - 误认为甲烷能溶于水，实际甲烷难溶于水，实验室常用排水法收集。
+    - 认为甲烷密度比空气大，实际甲烷密度比空气小，收集时用向下排空气法。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:甲烷的燃烧
+  type: Concept
+  subject: 化学
+  title: 甲烷的燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：配平时写成CH4+O2=CO2+H2O，忘记配平氧气和水的系数。
+    - 能指出并纠正这一错误：遗漏反应条件“点燃”，只写生成物而不写反应条件。
+  aliases: []
+  category: 化学反应
+  explanation: 甲烷完全燃烧生成二氧化碳和水，化学方程式为CH4 + 2O2 → CO2 + 2H2O，火焰呈蓝色。
+  misconceptions:
+    - 配平时写成CH4+O2=CO2+H2O，忘记配平氧气和水的系数。
+    - 遗漏反应条件“点燃”，只写生成物而不写反应条件。
+    - 误认为甲烷燃烧火焰是黄色，实际完全燃烧时火焰呈蓝色。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:甲醇
+  type: Concept
+  subject: 化学
+  title: 甲醇
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为甲醇有酒味可以饮用，实际甲醇有毒，会致失明
+    - 能指出并纠正这一错误：将工业酒精中的甲醇误当作乙醇，认为可勾兑食用酒
+  aliases:
+    - CH3OH
+  category: 化学物质
+  explanation: 甲醇化学式为CH3OH，是无色、易燃的液体，有毒，饮后会使人失明甚至死亡。
+  misconceptions:
+    - 误认为甲醇有酒味可以饮用，实际甲醇有毒，会致失明
+    - 将工业酒精中的甲醇误当作乙醇，认为可勾兑食用酒
+    - 认为甲醇只是有毒，但不会致命，小量可安全饮用
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S1.md
+- id: concept:化学:电子
+  type: Concept
+  subject: 化学
+  title: 电子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电子带正电荷，与质子电荷相反
+    - 能指出并纠正这一错误：认为电子质量约等于质子质量，忽略电子质量远小于质子
+  aliases: []
+  category: 微观粒子
+  explanation: 电子带一个单位负电荷，在原子核外高速运动。
+  misconceptions:
+    - 认为电子带正电荷，与质子电荷相反
+    - 认为电子质量约等于质子质量，忽略电子质量远小于质子
+    - 认为电子位于原子核内部，不知道电子在核外运动
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:电子云模型
+  type: Concept
+  subject: 化学
+  title: 电子云模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电子云是电子形成的云雾，是看得见的实物
+    - 能指出并纠正这一错误：认为电子云图中的每个小黑点代表一个电子，点越多电子数越多
+  aliases: []
+  category: 科学史
+  explanation: 量子力学建立后提出的现代原子结构模型。
+  misconceptions:
+    - 认为电子云是电子形成的云雾，是看得见的实物
+    - 认为电子云图中的每个小黑点代表一个电子，点越多电子数越多
+    - 认为电子云中电子有确定运动轨迹，与玻尔轨道完全相同
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:电解水实验
+  type: Concept
+  subject: 化学
+  title: 电解水实验
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为电解水时正极产生氢气、负极产生氧气，记反两极产物
+    - 能指出并纠正这一错误：认为电解水生成氢气和氧气的体积比为1:2，实际应为2:1
+  aliases:
+    - 水的电解
+  category: 实验
+  explanation: 通过直流电使水分解为氢气和氧气，验证水的组成。
+  misconceptions:
+    - 认为电解水时正极产生氢气、负极产生氧气，记反两极产物
+    - 认为电解水生成氢气和氧气的体积比为1:2，实际应为2:1
+    - 实验时忘记加硫酸钠或氢氧化钠增强导电性，导致几乎不反应
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:电解法
+  type: Concept
+  subject: 化学
+  title: 电解法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：电解熔融 Al₂O₃ 时漏写通电条件
+    - 能指出并纠正这一错误：误认为电解法适用于冶炼所有金属，包括金、银
+  aliases:
+    - 电解冶炼
+  category: 化学方法
+  explanation: 利用电能将活泼金属（如钠、钾、镁、铝）从其熔融化合物中还原出来的方法。如电解熔融Al₂O₃制铝。
+  misconceptions:
+    - 电解熔融 Al₂O₃ 时漏写通电条件
+    - 误认为电解法适用于冶炼所有金属，包括金、银
+    - 配平电解 Al₂O₃ 方程时原子不守恒，如 Al₂O₃→Al+O₂ 未配平
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:白色污染
+  type: Concept
+  subject: 化学
+  title: 白色污染
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为白色污染仅指白色塑料产生的污染，忽略其他颜色塑料
+    - 能指出并纠正这一错误：认为白色污染是垃圾颜色变白，或者白颜色物质的污染
+  aliases: []
+  category: 环境问题
+  explanation: 白色污染是指塑料垃圾难以分解，对环境造成的污染现象。
+  misconceptions:
+    - 误认为白色污染仅指白色塑料产生的污染，忽略其他颜色塑料
+    - 认为白色污染是垃圾颜色变白，或者白颜色物质的污染
+    - 认为所有塑料都能降解，不会造成白色污染
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:盐的化学性质
+  type: Concept
+  subject: 化学
+  title: 盐的化学性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为Cu能与ZnSO4反应置换出Zn，实际Cu不如Zn活泼，不反应。
+    - 能指出并纠正这一错误：写复分解反应时忽略生成物需有沉淀/气体/水，如NaCl+KNO3=NaNO3+KCl（不反应）。
+  aliases: []
+  category: 化学性质
+  explanation: 盐可以与酸、碱、其他盐发生复分解反应，也可以与较活泼金属发生置换反应。
+  misconceptions:
+    - 认为Cu能与ZnSO4反应置换出Zn，实际Cu不如Zn活泼，不反应。
+    - 写复分解反应时忽略生成物需有沉淀/气体/水，如NaCl+KNO3=NaNO3+KCl（不反应）。
+    - 写盐与金属反应时，将生成的盐写成不溶物，如Fe+CuSO4=FeSO4+Cu，误写为Fe2(SO4)3。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:盐的定义
+  type: Concept
+  subject: 化学
+  title: 盐的定义
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为盐中一定含金属元素，忽略NH4Cl不含金属。
+    - 能指出并纠正这一错误：认为盐溶液一定显中性，如Na2CO3溶液显碱性。
+  aliases:
+    - 盐的组成
+  category: 化学概念
+  explanation: 由金属离子（或铵根离子）和酸根离子构成的化合物称为盐。
+  misconceptions:
+    - 认为盐中一定含金属元素，忽略NH4Cl不含金属。
+    - 认为盐溶液一定显中性，如Na2CO3溶液显碱性。
+    - 认为NaHSO4是酸，虽含H+，但属于酸式盐。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:盐酸的挥发性
+  type: Concept
+  subject: 化学
+  title: 盐酸的挥发性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为浓盐酸挥发是化学变化，实质是物理变化。
+    - 能指出并纠正这一错误：看到白雾误认为白烟，白雾是HCl小液滴，白烟是固体小颗粒。
+  aliases: []
+  category: 化学性质
+  explanation: 浓盐酸具有挥发性，挥发出的HCl气体可溶于水形成盐酸。
+  misconceptions:
+    - 认为浓盐酸挥发是化学变化，实质是物理变化。
+    - 看到白雾误认为白烟，白雾是HCl小液滴，白烟是固体小颗粒。
+    - 认为敞口放置后溶质质量分数不变，实际溶质减少，溶剂不变，变稀。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:相对分子质量
+  type: Concept
+  subject: 化学
+  title: 相对分子质量
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：计算相对分子质量时忘记乘原子个数，将H2O的相对分子质量算成1+16=17，应为1×2+16=1…
+    - 能指出并纠正这一错误：认为相对分子质量是物质实际质量，实际它是比值，单位为1，通常省略不写。
+  aliases:
+    - relative molecular mass
+  category: 化学计算
+  explanation: 化学式中各原子的相对原子质量总和，是比值。
+  misconceptions:
+    - 计算相对分子质量时忘记乘原子个数，将H2O的相对分子质量算成1+16=17，应为1×2+16=18。
+    - 认为相对分子质量是物质实际质量，实际它是比值，单位为1，通常省略不写。
+    - 求CuSO4·5H2O的相对分子质量时，忘记加上结晶水的质量，误算为160，实际为250。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:相对原子质量
+  type: Concept
+  subject: 化学
+  title: 相对原子质量
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为相对原子质量就是原子实际质量，且单位是千克
+    - 能指出并纠正这一错误：认为相对原子质量是原子质量与氢原子质量的比值，标准用错
+  aliases:
+    - 原子量
+  category: 概念
+  explanation: 以一种碳原子（碳-12）质量的1/12为标准，其他原子质量与它相比所得的比值。
+  misconceptions:
+    - 认为相对原子质量就是原子实际质量，且单位是千克
+    - 认为相对原子质量是原子质量与氢原子质量的比值，标准用错
+    - 用质子数加中子数直接作为相对原子质量，忽略同位素丰度影响
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:着火点
+  type: Concept
+  subject: 化学
+  title: 着火点
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为用水灭火是降低了可燃物的着火点（实际是降温至着火点以下）。
+    - 能指出并纠正这一错误：以为着火点是固定不变的，忽略大气压强对它的影响。
+  aliases:
+    - fire point
+  category: 化学概念
+  explanation: 可燃物燃烧必须达到的最低温度，与可燃物的种类、状态及大气压强等因素有关。
+  misconceptions:
+    - 认为用水灭火是降低了可燃物的着火点（实际是降温至着火点以下）。
+    - 以为着火点是固定不变的，忽略大气压强对它的影响。
+    - 混淆着火点与温度，以为温度越高着火点也越高。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:石墨的性质和用途
+  type: Concept
+  subject: 化学
+  title: 石墨的性质和用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为石墨和金刚石的原子排列方式相同，所以性质差异小，实际排列不同。
+    - 能指出并纠正这一错误：认为石墨能导电所以是金属材料，实际石墨是非金属单质但有导电性。
+  aliases: []
+  category: 物质性质
+  explanation: 石墨灰黑色，质软滑腻，能导电导热，用于铅笔芯、电极、润滑剂等。
+  misconceptions:
+    - 误认为石墨和金刚石的原子排列方式相同，所以性质差异小，实际排列不同。
+    - 认为石墨能导电所以是金属材料，实际石墨是非金属单质但有导电性。
+    - 误认为石墨质软是因为碳原子层间有化学键，实际是分子间作用力小，易滑动。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S2.md
+- id: concept:化学:石油的综合利用
+  type: Concept
+  subject: 化学
+  title: 石油的综合利用
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为石油分馏是化学变化，因为产物不同，实际是物理变化。
+    - 能指出并纠正这一错误：认为汽油是纯净物，实际汽油是多种烃的混合物，虽是分馏产物。
+  aliases:
+    - 石油分馏
+  category: 资源利用
+  explanation: 石油通过分馏（利用沸点不同）分离出多种产品，再经化学变化可制造合成纤维、塑料等。
+  misconceptions:
+    - 误认为石油分馏是化学变化，因为产物不同，实际是物理变化。
+    - 认为汽油是纯净物，实际汽油是多种烃的混合物，虽是分馏产物。
+    - 忽略分馏的原理是沸点不同，错误认为是密度不同导致分离。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:碘伏
+  type: Concept
+  subject: 化学
+  title: 碘伏
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为碘伏是碘的酒精溶液，与碘酊混淆
+    - 能指出并纠正这一错误：认为碘伏浓度高，杀菌力强，用于皮肤消毒刺激性大
+  aliases: []
+  category: 化学药品
+  explanation: 碘伏是碘含量0.45%~0.55%的水溶液，对皮肤黏膜无刺激，安全性高。
+  misconceptions:
+    - 误认为碘伏是碘的酒精溶液，与碘酊混淆
+    - 认为碘伏浓度高，杀菌力强，用于皮肤消毒刺激性大
+    - 将碘伏与碘酊的浓度弄反，认为碘伏含碘量2%~5%
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:碘酊
+  type: Concept
+  subject: 化学
+  title: 碘酊
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为碘酊是碘的水溶液，无刺激，用于黏膜消毒
+    - 能指出并纠正这一错误：认为碘酊含碘量0.45%~0.55%，与碘伏混淆
+  aliases:
+    - 碘酒
+  category: 化学药品
+  explanation: 碘酊是碘单质含量2%~5%的酒精溶液，杀菌力强，用于皮肤消毒。
+  misconceptions:
+    - 误认为碘酊是碘的水溶液，无刺激，用于黏膜消毒
+    - 认为碘酊含碘量0.45%~0.55%，与碘伏混淆
+    - 认为碘酊对皮肤无刺激，可大剂量涂抹
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:碱与盐的反应
+  type: Concept
+  subject: 化学
+  title: 碱与盐的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为NaOH与KCl能反应，实际都溶且无沉淀气体水，不反应。
+    - 能指出并纠正这一错误：写Fe(OH)3与NaCl反应，不反应。
+  aliases:
+    - 碱+盐→新碱+新盐
+  category: 化学性质
+  explanation: 碱与盐反应生成新碱和新盐，是碱的化学共性之一。
+  misconceptions:
+    - 认为NaOH与KCl能反应，实际都溶且无沉淀气体水，不反应。
+    - 写Fe(OH)3与NaCl反应，不反应。
+    - 写Cu(OH)2与Na2CO3反应，不反应，因为碱不溶。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:碱与非金属氧化物的反应
+  type: Concept
+  subject: 化学
+  title: 碱与非金属氧化物的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为碱能与CO、NO等非金属氧化物反应生成盐和水，如写2NaOH+CO→Na2CO3+H2O
+    - 能指出并纠正这一错误：写NaOH与CO2反应方程式时漏配平，生成Na2CO3后面加沉淀↑，实际Na2CO3可溶
+  aliases:
+    - 碱+非金属氧化物→盐+水
+  category: 化学性质
+  explanation: 碱与非金属氧化物反应生成盐和水，例如氢氧化钙与二氧化碳反应生成碳酸钙和水。
+  misconceptions:
+    - 误以为碱能与CO、NO等非金属氧化物反应生成盐和水，如写2NaOH+CO→Na2CO3+H2O
+    - 写NaOH与CO2反应方程式时漏配平，生成Na2CO3后面加沉淀↑，实际Na2CO3可溶
+    - 把CO2通入澄清石灰水变浑浊误认为物理变化，实际生成CaCO3和H2O
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:碱的化学性质
+  type: Concept
+  subject: 化学
+  title: 碱的化学性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为碱能与所有盐反应，如写NaOH+CaCO3→Na2CO3+Ca(OH)2，忽略CaCO3不…
+    - 能指出并纠正这一错误：认为难溶碱Cu(OH)2也能使酚酞变红，忽略其不溶于水不能电离出OH⁻
+  aliases:
+    - 碱的共性
+  category: 化学性质
+  explanation: 碱具有相似的化学性质，如能使指示剂变色、与某些非金属氧化物反应、与盐反应等。
+  misconceptions:
+    - 误认为碱能与所有盐反应，如写NaOH+CaCO3→Na2CO3+Ca(OH)2，忽略CaCO3不溶、生成物无沉淀水气体
+    - 认为难溶碱Cu(OH)2也能使酚酞变红，忽略其不溶于水不能电离出OH⁻
+    - 碱与盐反应时只注意生成物沉淀，忽略反应物必须都可溶，如错写Fe(OH)3+NaCl→FeCl3+NaOH
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:碱的通性
+  type: Concept
+  subject: 化学
+  title: 碱的通性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把碱的通性推广到所有碱，认为Cu(OH)2等难溶碱也能使紫色石蕊变蓝，实际不溶于水无此现象
+    - 能指出并纠正这一错误：误认为碱的通性包括能与所有非金属氧化物反应，把CO、NO等不成盐氧化物也算入
+  aliases: []
+  category: 化学性质
+  explanation: 碱性溶液能使紫色石蕊变蓝，使无色酚酞变红。
+  misconceptions:
+    - 把碱的通性推广到所有碱，认为Cu(OH)2等难溶碱也能使紫色石蕊变蓝，实际不溶于水无此现象
+    - 误认为碱的通性包括能与所有非金属氧化物反应，把CO、NO等不成盐氧化物也算入
+    - 将碱溶液与碱混淆，认为碱溶液一定显碱性，但有些碱（如Al(OH)3）不溶，其悬浊液pH≈7
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:碳与二氧化碳的反应
+  type: Concept
+  subject: 化学
+  title: 碳与二氧化碳的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为碳和二氧化碳反应是放热反应，实际该反应需要吸热。
+    - 能指出并纠正这一错误：化学方程式写成C+CO2=CO，没有配平，正确应为C+CO2=2CO。
+  aliases: []
+  category: 化学变化
+  explanation: 高温下碳与二氧化碳反应生成一氧化碳，是吸热反应。
+  misconceptions:
+    - 误认为碳和二氧化碳反应是放热反应，实际该反应需要吸热。
+    - 化学方程式写成C+CO2=CO，没有配平，正确应为C+CO2=2CO。
+    - 漏写反应条件“高温”，写成常温下就能反应。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:碳单质的同素异形体
+  type: Concept
+  subject: 化学
+  title: 碳单质的同素异形体
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为金刚石和石墨的化学性质不同，实际化学性质基本相同，物理性质差异大。
+    - 能指出并纠正这一错误：认为同素异形体是由于碳原子种类不同造成的，实际是碳原子排列方式不同。
+  aliases:
+    - 碳的同素异形体
+  category: 物质结构
+  explanation: 金刚石、石墨、C60、石墨烯等都是碳元素组成的单质，因碳原子排列方式不同而性质各异。
+  misconceptions:
+    - 误认为金刚石和石墨的化学性质不同，实际化学性质基本相同，物理性质差异大。
+    - 认为同素异形体是由于碳原子种类不同造成的，实际是碳原子排列方式不同。
+    - 把金刚石和石墨称作同位素，混淆同素异形体与同位素的概念。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:碳循环和氧循环
+  type: Concept
+  subject: 化学
+  title: 碳循环和氧循环
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为大气中氧气会越来越少，忽视碳循环的调节作用
+    - 能指出并纠正这一错误：把光合作用写成消耗氧气、产生二氧化碳，方向颠倒
+  aliases: []
+  category: 化学与生态
+  explanation: 二氧化碳在自然界的碳循环和氧循环中起重要作用，维持大气中氧气和二氧化碳含量的相对稳定。
+  misconceptions:
+    - 认为大气中氧气会越来越少，忽视碳循环的调节作用
+    - 把光合作用写成消耗氧气、产生二氧化碳，方向颠倒
+    - 误认为碳循环只在生物圈内进行，不涉及大气圈
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:碳的不完全燃烧
+  type: Concept
+  subject: 化学
+  title: 碳的不完全燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：配平出错：写成 C+O2→CO，未配平系数2
+    - 能指出并纠正这一错误：遗漏反应条件“点燃”，写成 2C+O2→2CO 不加条件
+  aliases: []
+  category: 化学变化
+  explanation: 氧气不足时，碳不完全燃烧生成一氧化碳，化学方程式为2C+O2→2CO。
+  misconceptions:
+    - 配平出错：写成 C+O2→CO，未配平系数2
+    - 遗漏反应条件“点燃”，写成 2C+O2→2CO 不加条件
+    - 误认为氧气不足时生成CO2，完全燃烧才生成CO
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:碳的完全燃烧
+  type: Concept
+  subject: 化学
+  title: 碳的完全燃烧
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：产物写成CO，混淆完全燃烧和不完全燃烧
+    - 能指出并纠正这一错误：漏写反应条件“点燃”，或误标气体符号
+  aliases: []
+  category: 化学变化
+  explanation: 氧气充足时，碳完全燃烧生成二氧化碳，化学方程式为C+O2→CO2。
+  misconceptions:
+    - 产物写成CO，混淆完全燃烧和不完全燃烧
+    - 漏写反应条件“点燃”，或误标气体符号
+    - 化学方程式写成 C+O2=CO2 而没配平（已配平但误以为配平）
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:碳纤维复合材料
+  type: Concept
+  subject: 化学
+  title: 碳纤维复合材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为碳纤维复合材料就是纯碳单质，是石墨的一种
+    - 能指出并纠正这一错误：认为碳纤维复合材料不耐高温，不能在航天中使用
+  aliases:
+    - 碳纤维增强复合材料
+  category: 材料科学
+  explanation: 由碳纤维与树脂等复合而成，坚韧、质轻、耐高温、耐腐蚀，用于航空航天等领域。
+  misconceptions:
+    - 误认为碳纤维复合材料就是纯碳单质，是石墨的一种
+    - 认为碳纤维复合材料不耐高温，不能在航天中使用
+    - 认为碳纤维复合材料很脆，像普通陶瓷一样易碎
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:碳达峰和碳中和
+  type: Concept
+  subject: 化学
+  title: 碳达峰和碳中和
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：把碳达峰理解为二氧化碳排放量不再变化，忽略“峰值后下降”
+    - 能指出并纠正这一错误：认为碳中和就是完全不排放二氧化碳，忽略“抵消”作用
+  aliases:
+    - 双碳
+  category: 环境政策
+  explanation: 碳达峰指二氧化碳排放量达到峰值后不再增长；碳中和指通过植树造林、节能减排等方式抵消人为排放的二氧化碳，达到相对零排放。
+  misconceptions:
+    - 把碳达峰理解为二氧化碳排放量不再变化，忽略“峰值后下降”
+    - 认为碳中和就是完全不排放二氧化碳，忽略“抵消”作用
+    - 混淆碳达峰和碳中和的先后顺序，认为先中和后达峰
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S3.md
+- id: concept:化学:碳酸盐的检验
+  type: Concept
+  subject: 化学
+  title: 碳酸盐的检验
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：看到加稀盐酸有气泡就断定是碳酸盐，忽略活泼金属（如Zn）也能产生CO2？实际产生H2，应澄清石灰…
+    - 能指出并纠正这一错误：检验碳酸盐时用稀硫酸代替稀盐酸，CaCO3+稀硫酸生成微溶CaSO4包裹，气泡很快停止，误判为无…
+  aliases: []
+  category: 实验方法
+  explanation: 向样品中滴加稀盐酸，若产生能使澄清石灰水变浑浊的气体，则样品可能含碳酸盐。
+  misconceptions:
+    - 看到加稀盐酸有气泡就断定是碳酸盐，忽略活泼金属（如Zn）也能产生CO2？实际产生H2，应澄清石灰水检验
+    - 检验碳酸盐时用稀硫酸代替稀盐酸，CaCO3+稀硫酸生成微溶CaSO4包裹，气泡很快停止，误判为无碳酸盐
+    - 将产生的气体直接闻气味或点燃，而不通入澄清石灰水，无法区分CO2与H2等其他气体
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:碳酸钙与碳酸氢钙的转化
+  type: Concept
+  subject: 化学
+  title: 碳酸钙与碳酸氢钙的转化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为CaCO3直接与水反应生成Ca(HCO3)2，漏写CO2参加反应，方程写成CaCO3+H2…
+    - 能指出并纠正这一错误：写Ca(HCO3)2受热分解时只写CaCO3+H2O，漏写CO2，且不标气体符号
+  aliases: []
+  category: 化学事实
+  explanation: 碳酸钙遇溶有二氧化碳的水生成可溶的碳酸氢钙，碳酸氢钙遇热或减压又分解为碳酸钙、二氧化碳和水。
+  misconceptions:
+    - 误认为CaCO3直接与水反应生成Ca(HCO3)2，漏写CO2参加反应，方程写成CaCO3+H2O→Ca(HCO3)2
+    - 写Ca(HCO3)2受热分解时只写CaCO3+H2O，漏写CO2，且不标气体符号
+    - 认为CaCO3→Ca(HCO3)2是可逆反应，实际条件不同，正反应需CO2和水，逆反应需加热或减压
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:磷肥
+  type: Concept
+  subject: 化学
+  title: 磷肥
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：混淆氮肥和磷肥作用，误认为磷肥促进茎叶茂盛生长，实际磷肥促根系发育和种子成熟
+    - 能指出并纠正这一错误：认为磷肥都易溶于水，如过磷酸钙是混合物含难溶的CaSO4，不是全溶
+  aliases: []
+  category: 化学应用
+  explanation: 磷肥含磷元素，能促进作物根系发育和种子成熟，如过磷酸钙等。
+  misconceptions:
+    - 混淆氮肥和磷肥作用，误认为磷肥促进茎叶茂盛生长，实际磷肥促根系发育和种子成熟
+    - 认为磷肥都易溶于水，如过磷酸钙是混合物含难溶的CaSO4，不是全溶
+    - 误以为磷肥能作氮肥使用，磷肥不含氮元素，不能补充氮
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:离子
+  type: Concept
+  subject: 化学
+  title: 离子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为原子变成离子时核内质子数发生改变
+    - 能指出并纠正这一错误：认为阳离子是得到电子形成，阴离子是失去电子形成
+  aliases: []
+  category: 基本概念
+  explanation: 原子得到或失去电子后形成的带电粒子，分为阳离子和阴离子。
+  misconceptions:
+    - 认为原子变成离子时核内质子数发生改变
+    - 认为阳离子是得到电子形成，阴离子是失去电子形成
+    - 认为所有离子都只带一个单位电荷，忽略多电荷离子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:科学探究
+  type: Concept
+  subject: 化学
+  title: 科学探究
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为科学探究就是做实验，不需要提出问题和猜想。
+    - 能指出并纠正这一错误：认为猜想必须是正确的，错了就半途而废。
+  aliases: []
+  category: 学习方法
+  explanation: 科学探究是学习化学的重要方法，包括提出问题、猜想假设、实验验证等。
+  misconceptions:
+    - 认为科学探究就是做实验，不需要提出问题和猜想。
+    - 认为猜想必须是正确的，错了就半途而废。
+    - 认为实验后直接得到结论，无需分析解释。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:科学探究的一般过程
+  type: Concept
+  subject: 化学
+  title: 科学探究的一般过程
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为反思评价环节多余，做完实验就结束。
+    - 能指出并纠正这一错误：把设计实验放在提出问题之前，顺序颠倒。
+  aliases:
+    - 科学探究步骤
+  category: 科学方法
+  explanation: 包括提出问题、形成假设、设计并实施实验、获取证据、分析解释、形成结论、表达交流、反思评价八个环节，其中实验是中心环节。
+  misconceptions:
+    - 认为反思评价环节多余，做完实验就结束。
+    - 把设计实验放在提出问题之前，顺序颠倒。
+    - 认为八个环节必须严格按顺序，不能跳过或循环。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S4.md
+- id: concept:化学:稀有气体的性质与用途
+  type: Concept
+  subject: 化学
+  title: 稀有气体的性质与用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为稀有气体完全不能发生任何化学反应，实际在特定条件下可反应
+    - 能指出并纠正这一错误：认为稀有气体在空气中的含量超过1%，实际约0.94%
+  aliases:
+    - 惰性气体
+  category: 物质性质
+  explanation: 稀有气体化学性质极不活泼，曾被称为惰性气体，可用于电光源、保护气等。
+  misconceptions:
+    - 认为稀有气体完全不能发生任何化学反应，实际在特定条件下可反应
+    - 认为稀有气体在空气中的含量超过1%，实际约0.94%
+    - 认为稀有气体有毒，不能用于食品保护气
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:稳定性
+  type: Concept
+  subject: 化学
+  title: 稳定性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为溶液稳定性指溶质分子静止不动，实际是均匀分散且不断运动
+    - 能指出并纠正这一错误：忽略外界条件变化，认为温度降低或溶剂蒸发后溶液仍不析出
+  aliases: []
+  category: 性质
+  explanation: 在外界条件不变时，溶液不会分层或析出溶质，能长期保持均匀。
+  misconceptions:
+    - 认为溶液稳定性指溶质分子静止不动，实际是均匀分散且不断运动
+    - 忽略外界条件变化，认为温度降低或溶剂蒸发后溶液仍不析出
+    - 将悬浊液静置后的澄清液误认为溶液，并认为其具有稳定性
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:空气污染
+  type: Concept
+  subject: 化学
+  title: 空气污染
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为二氧化碳是空气污染物，与一氧化碳混为一谈
+    - 能指出并纠正这一错误：认为没有气味和颜色的空气一定不污染，忽略CO等无色无味污染物
+  aliases:
+    - 大气污染
+  category: 环境化学
+  explanation: 空气污染是指空气中含有过多有害物质，如二氧化硫、一氧化碳、氮氧化物、可吸入颗粒物等，对健康和环境造成危害。
+  misconceptions:
+    - 认为二氧化碳是空气污染物，与一氧化碳混为一谈
+    - 认为没有气味和颜色的空气一定不污染，忽略CO等无色无味污染物
+    - 认为空气污染只指可吸入颗粒物，不包含有害气体
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:空气污染与防治
+  type: Concept
+  subject: 化学
+  title: 空气污染与防治
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为汽车尾气只有黑烟才是污染，无色无味的气体可直排
+    - 能指出并纠正这一错误：认为只要工厂废气排放达标，就不需要控制汽车尾气等生活源
+  aliases:
+    - 大气污染
+  category: 环境化学
+  explanation: 空气污染指空气中含有有害物质，如二氧化硫、一氧化碳、氮氧化物、可吸入颗粒物等，防治措施包括监测空气质量、减少排放等。
+  misconceptions:
+    - 认为汽车尾气只有黑烟才是污染，无色无味的气体可直排
+    - 认为只要工厂废气排放达标，就不需要控制汽车尾气等生活源
+    - 认为植树造林对空气污染治理没用，无法吸附颗粒物
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:空气的组成
+  type: Concept
+  subject: 化学
+  title: 空气的组成
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氧气体积分数最大，忽视氮气约占78%
+    - 能指出并纠正这一错误：认为空气中各成分的体积分数等于质量分数，不用分体积
+  aliases:
+    - 空气成分
+  category: 化学事实
+  explanation: 空气是由多种气体组成的混合物，按体积分数计算，氮气约占78%，氧气约占21%，稀有气体约占0.94%，二氧化碳约占0.03%，水蒸气和杂质约占0.03%。
+  misconceptions:
+    - 认为氧气体积分数最大，忽视氮气约占78%
+    - 认为空气中各成分的体积分数等于质量分数，不用分体积
+    - 认为空气是纯净物，因为各组分均匀混合看不出区别
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:空气质量指数
+  type: Concept
+  subject: 化学
+  title: 空气质量指数
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为空气质量指数越大空气质量越好，把级别大小弄反
+    - 能指出并纠正这一错误：认为空气质量指数只由二氧化碳决定，忽略PM2.5和臭氧等
+  aliases:
+    - AQI
+  category: 环境化学
+  explanation: 用于定量描述空气质量状况的指数，分为六级，级别越高空气质量越差。
+  misconceptions:
+    - 认为空气质量指数越大空气质量越好，把级别大小弄反
+    - 认为空气质量指数只由二氧化碳决定，忽略PM2.5和臭氧等
+    - 认为空气质量指数级别越高，对人体的危害越小
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:空气质量日报
+  type: Concept
+  subject: 化学
+  title: 空气质量日报
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为空气质量指数越大说明空气越洁净，实际指数越大污染越严重
+    - 能指出并纠正这一错误：把首要污染物当成当天唯一的污染物，忽略其他污染物也可能超标
+  aliases:
+    - 空气质量指数
+  category: 环境化学
+  explanation: 我国建立的空气质量日报制度，包括首要污染物、空气质量指数和级别，用于监测和公布空气质量。
+  misconceptions:
+    - 认为空气质量指数越大说明空气越洁净，实际指数越大污染越严重
+    - 把首要污染物当成当天唯一的污染物，忽略其他污染物也可能超标
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:粗盐提纯
+  type: Concept
+  subject: 化学
+  title: 粗盐提纯
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：溶解后直接蒸发，未经过滤就去除难溶性杂质
+    - 能指出并纠正这一错误：过滤时用玻璃棒搅拌漏斗内液体，导致滤纸破损
+  aliases:
+    - 粗盐的提纯
+  category: 化学实验
+  explanation: 通过溶解、过滤、蒸发等操作去除粗盐中难溶性杂质的过程。
+  misconceptions:
+    - 溶解后直接蒸发，未经过滤就去除难溶性杂质
+    - 过滤时用玻璃棒搅拌漏斗内液体，导致滤纸破损
+    - 蒸发时未用玻璃棒搅拌，造成液体飞溅
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:糖类
+  type: Concept
+  subject: 化学
+  title: 糖类
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为糖类都有甜味，如淀粉、纤维素不甜，却是糖类
+    - 能指出并纠正这一错误：认为糖类是甜的有机物的总称，忽略淀粉等不甜物质
+  aliases:
+    - 碳水化合物
+  category: 营养物质
+  explanation: 由C、H、O组成的有机物，包括葡萄糖、蔗糖、淀粉等，是人体主要能量来源。
+  misconceptions:
+    - 误认为糖类都有甜味，如淀粉、纤维素不甜，却是糖类
+    - 认为糖类是甜的有机物的总称，忽略淀粉等不甜物质
+    - 认为糖类只能提供能量，没有其他生理功能
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:纯净物
+  type: Concept
+  subject: 化学
+  title: 纯净物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将洁净的空气归为纯净物，误以为无可见杂质就是纯净物
+    - 能指出并纠正这一错误：认为只含一种元素的物质一定是纯净物，如O₂和O₃混合仍不是纯净物
+  aliases:
+    - 纯净物定义
+  category: 化学概念
+  explanation: 只由一种物质组成的物质，具有固定的组成和性质。
+  misconceptions:
+    - 将洁净的空气归为纯净物，误以为无可见杂质就是纯净物
+    - 认为只含一种元素的物质一定是纯净物，如O₂和O₃混合仍不是纯净物
+    - 误认为冰水混合物是两种物质，实际冰和水化学式相同属纯净物
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:纳米
+  type: Concept
+  subject: 化学
+  title: 纳米
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为纳米是一种新材料，可用于制造机器人
+    - 能指出并纠正这一错误：记错单位换算，认为1纳米=10^-6米或10^-3米
+  aliases:
+    - nm
+  category: 计量单位
+  explanation: 长度单位，1纳米=10⁻⁹米，是极小的尺度。
+  misconceptions:
+    - 误认为纳米是一种新材料，可用于制造机器人
+    - 记错单位换算，认为1纳米=10^-6米或10^-3米
+    - 将纳米与微米混淆，认为纳米是微米级别的长度单位
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:纳米材料
+  type: Concept
+  subject: 化学
+  title: 纳米材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为纳米材料是纳米做的材料，或由纳米颗粒堆积而成
+    - 能指出并纠正这一错误：认为所有物质只要尺寸变小到纳米级别就具有特殊性能，与种类无关
+  aliases:
+    - 纳米尺度材料
+  category: 材料科学
+  explanation: 物质小到纳米尺度（1-100nm）时，出现特异效应，具有特殊性能的材料。
+  misconceptions:
+    - 误认为纳米材料是纳米做的材料，或由纳米颗粒堆积而成
+    - 认为所有物质只要尺寸变小到纳米级别就具有特殊性能，与种类无关
+    - 认为纳米材料仅限于纳米尺度的粉末，不包括块状材料
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:结晶
+  type: Concept
+  subject: 化学
+  title: 结晶
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为只有蒸发溶剂才能结晶，忽略改变温度也能析出晶体
+    - 能指出并纠正这一错误：认为饱和溶液降温一定有晶体析出，忽视溶解度随温度降低而增大的情况
+  aliases:
+    - 结晶过程
+  category: 化学概念
+  explanation: 饱和溶液析出晶体的过程叫作结晶。
+  misconceptions:
+    - 认为只有蒸发溶剂才能结晶，忽略改变温度也能析出晶体
+    - 认为饱和溶液降温一定有晶体析出，忽视溶解度随温度降低而增大的情况
+    - 将结晶等同于溶液变浑浊，浑浊不一定是晶体析出
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:给物质加热
+  type: Concept
+  subject: 化学
+  title: 给物质加热
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用内焰加热，以为内焰温度最高，实际外焰温度最高。
+    - 能指出并纠正这一错误：用嘴吹灭酒精灯，容易引起灯内酒精燃烧。
+  aliases:
+    - 酒精灯的使用
+  category: 实验操作
+  explanation: 使用酒精灯加热，用外焰加热，禁止用酒精灯引燃另一只酒精灯，熄灭时用灯帽盖灭。
+  misconceptions:
+    - 用内焰加热，以为内焰温度最高，实际外焰温度最高。
+    - 用嘴吹灭酒精灯，容易引起灯内酒精燃烧。
+    - 加热时试管口对着人，可能喷出液体伤人。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:维生素
+  type: Concept
+  subject: 化学
+  title: 维生素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为维生素需要大量摄入，多多益善
+    - 能指出并纠正这一错误：认为维生素能在人体内合成，不需从食物获取
+  aliases: []
+  category: 营养物质
+  explanation: 维生素是20多种小分子化合物，人体需要量少但作用重要，多数不能在体内合成，需从食物中获取。
+  misconceptions:
+    - 误认为维生素需要大量摄入，多多益善
+    - 认为维生素能在人体内合成，不需从食物获取
+    - 认为维生素能提供能量，是人体主要能源物质
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:绿色环保理念
+  type: Concept
+  subject: 化学
+  title: 绿色环保理念
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为氢气有污染，实际氢气燃烧产物是水，无污染，是清洁燃料。
+    - 能指出并纠正这一错误：误认为绿色环保就是节约能源，实际强调的是无污染、无有害排放。
+  aliases:
+    - 清洁能源
+  category: 化学观念
+  explanation: 氢气燃烧产物是水，无污染，是理想的清洁燃料，体现绿色化学思想。
+  misconceptions:
+    - 认为氢气有污染，实际氢气燃烧产物是水，无污染，是清洁燃料。
+    - 误认为绿色环保就是节约能源，实际强调的是无污染、无有害排放。
+    - 认为氢气来源广泛且易得，但实际氢气制取成本高，目前未广泛应用。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:缓慢氧化
+  type: Concept
+  subject: 化学
+  title: 缓慢氧化
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为缓慢氧化不放出热量，错误地以为只有剧烈氧化才放热。
+    - 能指出并纠正这一错误：把呼吸作用排除在氧化反应之外，认为只有燃烧才是氧化。
+  aliases: []
+  category: 化学概念
+  explanation: 进行得比较缓慢的氧化反应，如金属生锈、呼吸作用等。
+  misconceptions:
+    - 认为缓慢氧化不放出热量，错误地以为只有剧烈氧化才放热。
+    - 把呼吸作用排除在氧化反应之外，认为只有燃烧才是氧化。
+    - 认为缓慢氧化一定发光，忽视其不发光的特点。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:置换反应
+  type: Concept
+  subject: 化学
+  title: 置换反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误将CO还原Fe2O3当作置换反应，实际CO不是单质
+    - 能指出并纠正这一错误：铁与硫酸铜溶液反应时生成Fe2(SO4)3，实际应生成FeSO4
+  aliases:
+    - 置换反应类型
+  category: 化学反应类型
+  explanation: 由一种单质与一种化合物反应，生成另一种单质与另一种化合物的反应。通式：A + BC → AC + B。
+  misconceptions:
+    - 误将CO还原Fe2O3当作置换反应，实际CO不是单质
+    - 铁与硫酸铜溶液反应时生成Fe2(SO4)3，实际应生成FeSO4
+    - 认为H2+Cl2=2HCl也是置换反应，实际反应物是两种单质
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:胃舒平
+  type: Concept
+  subject: 化学
+  title: 胃舒平
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为胃舒平有效成分是碳酸氢钠，导致反应生成二氧化碳。
+    - 能指出并纠正这一错误：误认为氢氧化铝是强碱，会腐蚀胃黏膜而不敢服用。
+  aliases: []
+  category: 化学药品
+  explanation: 胃舒平的有效成分是氢氧化铝，能中和胃酸，治疗胃酸过多。
+  misconceptions:
+    - 误认为胃舒平有效成分是碳酸氢钠，导致反应生成二氧化碳。
+    - 误认为氢氧化铝是强碱，会腐蚀胃黏膜而不敢服用。
+    - 配平写成Al(OH)3+2HCl=AlCl2+2H2O，忽略铝为+3价。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:能源
+  type: Concept
+  subject: 化学
+  title: 能源
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：将煤、石油、天然气归为可再生能源，忽略形成周期漫长。
+    - 能指出并纠正这一错误：把电能、氢能称为一次能源，未判断是否直接来自自然界。
+  aliases:
+    - 能量来源
+  category: 能源科学
+  explanation: 人类生产生活所需的能量来源，包括化石燃料、水能、核能、太阳能等。
+  misconceptions:
+    - 将煤、石油、天然气归为可再生能源，忽略形成周期漫长。
+    - 把电能、氢能称为一次能源，未判断是否直接来自自然界。
+    - 认为太阳能是二次能源，实际它可直接获取。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S3.md
+- id: concept:化学:膳食纤维
+  type: Concept
+  subject: 化学
+  title: 膳食纤维
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为膳食纤维能水解成葡萄糖为人体供能，实际不被消化。
+    - 能指出并纠正这一错误：误以为膳食纤维属于糖类所以有甜味，易与单糖混淆。
+  aliases:
+    - 植物纤维
+  category: 营养物质
+  explanation: 膳食纤维属于糖类，不能被人体消化吸收，但能促进肠道蠕动，有益健康。
+  misconceptions:
+    - 认为膳食纤维能水解成葡萄糖为人体供能，实际不被消化。
+    - 误以为膳食纤维属于糖类所以有甜味，易与单糖混淆。
+    - 认为多吃膳食纤维可替代蛋白质补充营养。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:自来水生产过程
+  type: Concept
+  subject: 化学
+  title: 自来水生产过程
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为加明矾是为了杀菌消毒，实际明矾是絮凝剂，用于吸附悬浮杂质。
+    - 能指出并纠正这一错误：认为过滤能除去自来水中的全部杂质，包括可溶性和微生物。
+  aliases: []
+  category: 化学应用
+  explanation: 包括取水、加絮凝剂、沉淀、过滤、吸附、消毒等步骤。
+  misconceptions:
+    - 认为加明矾是为了杀菌消毒，实际明矾是絮凝剂，用于吸附悬浮杂质。
+    - 认为过滤能除去自来水中的全部杂质，包括可溶性和微生物。
+    - 认为消毒应放在沉淀和过滤之前，导致顺序颠倒。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:自然界的碳循环和氧循环
+  type: Concept
+  subject: 化学
+  title: 自然界的碳循环和氧循环
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为动物呼吸产生氧气，植物呼吸不产生二氧化碳
+    - 能指出并纠正这一错误：把光合作用和呼吸作用的物质交换写反，光合作用吸收CO2放出O2误写成吸收O2
+  aliases:
+    - 碳循环
+    - 氧循环
+    - 自然界碳循环和氧循环
+  category: 生态
+  explanation: 碳元素在生物圈、大气圈、水圈、岩石圈之间循环，动植物呼吸和燃料燃烧产生二氧化碳，光合作用吸收二氧化碳放出氧气，维持碳氧平衡。
+  misconceptions:
+    - 认为动物呼吸产生氧气，植物呼吸不产生二氧化碳
+    - 把光合作用和呼吸作用的物质交换写反，光合作用吸收CO2放出O2误写成吸收O2
+    - 误认为碳循环中碳元素以单质形式迁移，忽略化合物形态
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S1.md
+- id: concept:化学:自燃
+  type: Concept
+  subject: 化学
+  title: 自燃
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为自燃是燃烧直接引起的，忽略缓慢氧化积累热量的过程。
+    - 能指出并纠正这一错误：认为自燃不需要氧气，与燃烧条件矛盾。
+  aliases:
+    - spontaneous ignition
+  category: 化学概念
+  explanation: 由缓慢氧化引起的自动燃烧，如堆积的秸秆自燃。
+  misconceptions:
+    - 认为自燃是燃烧直接引起的，忽略缓慢氧化积累热量的过程。
+    - 认为自燃不需要氧气，与燃烧条件矛盾。
+    - 误以为堆放煤炭自燃是煤炭自发燃烧，与缓慢氧化无关。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:节约用水
+  type: Concept
+  subject: 化学
+  title: 节约用水
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为地球表面大部分是水，所以水资源取之不尽，无需节约。
+    - 能指出并纠正这一错误：把节约用水狭义理解为少用水，忽略了提高重复利用率等措施。
+  aliases: []
+  category: 环保理念
+  explanation: 通过合理利用和减少浪费来保护水资源。
+  misconceptions:
+    - 认为地球表面大部分是水，所以水资源取之不尽，无需节约。
+    - 把节约用水狭义理解为少用水，忽略了提高重复利用率等措施。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:蒸发
+  type: Concept
+  subject: 化学
+  title: 蒸发
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：蒸发时未用玻璃棒搅拌，导致局部过热液滴飞溅
+    - 能指出并纠正这一错误：认为必须蒸干溶剂才停止加热，实际出现较多固体时就应停止
+  aliases: []
+  category: 化学操作
+  explanation: 蒸发是加热溶液使溶剂汽化，从而浓缩溶液或析出溶质的过程。
+  misconceptions:
+    - 蒸发时未用玻璃棒搅拌，导致局部过热液滴飞溅
+    - 认为必须蒸干溶剂才停止加热，实际出现较多固体时就应停止
+    - 认为蒸发时溶质会随溶剂一起汽化，导致质量减少
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:蒸发溶剂结晶法
+  type: Concept
+  subject: 化学
+  title: 蒸发溶剂结晶法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为此法适用于溶解度随温度变化大的物质，实际适用于变化小的
+    - 能指出并纠正这一错误：认为蒸发时一定要蒸干溶剂才能得到晶体，实际应剩余少量溶剂
+  aliases:
+    - 蒸发结晶
+  category: 化学方法
+  explanation: 对于溶解度随温度变化不大的物质，通过蒸发水分使溶液达到饱和并析出晶体的方法。
+  misconceptions:
+    - 误认为此法适用于溶解度随温度变化大的物质，实际适用于变化小的
+    - 认为蒸发时一定要蒸干溶剂才能得到晶体，实际应剩余少量溶剂
+    - 将蒸发溶剂结晶与降温结晶混为一谈，忽略适用条件
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:蒸发结晶
+  type: Concept
+  subject: 化学
+  title: 蒸发结晶
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为蒸发结晶是通过降低温度使溶质析出，实际是蒸发溶剂
+    - 能指出并纠正这一错误：认为蒸发结晶适用于溶解度随温度变化大的物质，实际适用于变化小的
+  aliases:
+    - 蒸发溶剂结晶法
+  category: 化学方法
+  explanation: 蒸发结晶是通过加热蒸发溶剂，使溶质因溶解度降低而析出晶体的方法，适用于溶解度随温度变化不大的物质。
+  misconceptions:
+    - 认为蒸发结晶是通过降低温度使溶质析出，实际是蒸发溶剂
+    - 认为蒸发结晶适用于溶解度随温度变化大的物质，实际适用于变化小的
+    - 蒸发结晶时蒸干溶剂，导致可溶性杂质混入晶体
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S4.md
+- id: concept:化学:蛋白质
+  type: Concept
+  subject: 化学
+  title: 蛋白质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为蛋白质水解最终产物是葡萄糖，实际是氨基酸。
+    - 能指出并纠正这一错误：认为蛋白质只含C、H、O元素，忽略N元素。
+  aliases: []
+  category: 营养物质
+  explanation: 蛋白质是由C、H、O、N等元素组成的天然有机高分子，是构成人体细胞的基础物质，在消化液中水解为氨基酸。
+  misconceptions:
+    - 误以为蛋白质水解最终产物是葡萄糖，实际是氨基酸。
+    - 认为蛋白质只含C、H、O元素，忽略N元素。
+    - 认为人体可直接吸收蛋白质，不需水解成氨基酸。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md
+- id: concept:化学:观察
+  type: Concept
+  subject: 化学
+  title: 观察
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：只观察实验后现象，忽略实验前和实验中的现象。
+    - 能指出并纠正这一错误：观察蜡烛燃烧时只看到发光，忽略烛蜡熔化等变化。
+  aliases: []
+  category: 科学方法
+  explanation: 观察是科学研究和化学学习中的重要方法，需要借助视觉、听觉、嗅觉、触觉等进行感知，通过观察实验前、实验中、实验后三个不同阶段的现象，搜集和获取证据。
+  misconceptions:
+    - 只观察实验后现象，忽略实验前和实验中的现象。
+    - 观察蜡烛燃烧时只看到发光，忽略烛蜡熔化等变化。
+    - 闻气体时直接凑到瓶口，应该用手扇闻。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:观察方法
+  type: Concept
+  subject: 化学
+  title: 观察方法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为观察只用眼睛看，不需要用耳听等。
+    - 能指出并纠正这一错误：把观察到的现象当作结论，比如把“放热”说成是化学变化。
+  aliases: []
+  category: 科学方法
+  explanation: 观察是科学研究和化学学习中的重要方法，需要借助感官感知，观察实验前、中、后三个阶段的现象，搜集证据并分析推理。
+  misconceptions:
+    - 认为观察只用眼睛看，不需要用耳听等。
+    - 把观察到的现象当作结论，比如把“放热”说成是化学变化。
+    - 观察没有顺序，丢三落四。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:质子
+  type: Concept
+  subject: 化学
+  title: 质子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为质子带负电，实际质子带正电且位于原子核内
+    - 能指出并纠正这一错误：认为元素种类由中子数决定，如碳-12和碳-14是不同元素
+  aliases: []
+  category: 微观粒子
+  explanation: 质子带一个单位正电荷，位于原子核内，质子数决定元素种类。
+  misconceptions:
+    - 误认为质子带负电，实际质子带正电且位于原子核内
+    - 认为元素种类由中子数决定，如碳-12和碳-14是不同元素
+    - 以为所有原子核内只有质子，忽略中子存在
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:质量守恒定律
+  type: Concept
+  subject: 化学
+  title: 质量守恒定律
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为反应前后分子总数不变，实际质量守恒但分子数目可能改变，如2H2+O2→2H2O中分子数从3变…
+    - 能指出并纠正这一错误：忽略气体参与反应时体积关系，用体积直接代替质量应用质量守恒定律。
+  aliases: []
+  category: 化学定律
+  explanation: 参加化学反应的各物质的质量总和等于反应后生成的各物质的质量总和。
+  misconceptions:
+    - 认为反应前后分子总数不变，实际质量守恒但分子数目可能改变，如2H2+O2→2H2O中分子数从3变2。
+    - 忽略气体参与反应时体积关系，用体积直接代替质量应用质量守恒定律。
+    - 将未参加反应的物质质量也算入总质量，如敞口容器中镁条燃烧后质量增加，误认为不守恒，实际是参加了氧气，体系总质量仍守恒。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:过氧化氢制取氧气
+  type: Concept
+  subject: 化学
+  title: 过氧化氢制取氧气
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：化学方程式未配平，如 H2O2 → H2O + O2 漏配平系数2。
+    - 能指出并纠正这一错误：误把二氧化锰当作反应物，写出 H2O2 + MnO2 → ...，忽略其催化作用。
+  aliases: []
+  category: 化学实验
+  explanation: 过氧化氢在二氧化锰催化下分解生成水和氧气，二氧化锰可重复使用。
+  misconceptions:
+    - 化学方程式未配平，如 H2O2 → H2O + O2 漏配平系数2。
+    - 误把二氧化锰当作反应物，写出 H2O2 + MnO2 → ...，忽略其催化作用。
+    - 忘记在氧气后标↑，或漏写催化剂二氧化锰。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:过滤
+  type: Concept
+  subject: 化学
+  title: 过滤
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：过滤时用玻璃棒在漏斗内搅拌，导致滤纸破损。
+    - 能指出并纠正这一错误：滤纸边缘高于漏斗边缘，液面高于滤纸边缘，使杂质进入滤液。
+  aliases: []
+  category: 化学操作
+  explanation: 利用物质溶解性差异，将不溶性固体与液体分离的方法。
+  misconceptions:
+    - 过滤时用玻璃棒在漏斗内搅拌，导致滤纸破损。
+    - 滤纸边缘高于漏斗边缘，液面高于滤纸边缘，使杂质进入滤液。
+    - 认为过滤能将溶解在水中的食盐分离出来（实际过滤仅分离不溶物）。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:过滤法
+  type: Concept
+  subject: 化学
+  title: 过滤法
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为过滤可以除去水中的色素和异味，实际需活性炭吸附。
+    - 能指出并纠正这一错误：操作时先倒上层清液再转移沉淀，忘了玻璃棒应靠在三层滤纸一侧。
+  aliases:
+    - 过滤
+  category: 化学方法
+  explanation: 过滤是利用溶解性差异将不溶性固体与液体分离的方法，操作要点为“一贴二低三靠”。
+  misconceptions:
+    - 误以为过滤可以除去水中的色素和异味，实际需活性炭吸附。
+    - 操作时先倒上层清液再转移沉淀，忘了玻璃棒应靠在三层滤纸一侧。
+    - 认为过滤后得到的滤液是纯水，忽略了溶解的杂质。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:道尔顿原子模型
+  type: Concept
+  subject: 化学
+  title: 道尔顿原子模型
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为道尔顿原子模型包含电子，实际道尔顿认为原子不可再分
+    - 能指出并纠正这一错误：将道尔顿模型理解成原子核居中、电子绕核运动
+  aliases: []
+  category: 科学史
+  explanation: 1808年道尔顿提出原子是不可再分的实心球体。
+  misconceptions:
+    - 误以为道尔顿原子模型包含电子，实际道尔顿认为原子不可再分
+    - 将道尔顿模型理解成原子核居中、电子绕核运动
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S1.md
+- id: concept:化学:配制一定溶质质量分数的溶液
+  type: Concept
+  subject: 化学
+  title: 配制一定溶质质量分数的溶液
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：称量时砝码和药品放反，若使用游码则称量质量偏小
+    - 能指出并纠正这一错误：量取水时俯视读数，实际水偏少，溶质质量分数偏大
+  aliases:
+    - 溶液配制
+  category: 实验技能
+  explanation: 通过计算、称量、溶解、装瓶等步骤配制指定质量分数的溶液。
+  misconceptions:
+    - 称量时砝码和药品放反，若使用游码则称量质量偏小
+    - 量取水时俯视读数，实际水偏少，溶质质量分数偏大
+    - 顺序错误：先溶解固体再称量，或忘记装瓶贴标签
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S3.md
+- id: concept:化学:酒精灯使用注意事项
+  type: Concept
+  subject: 化学
+  title: 酒精灯使用注意事项
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：向燃着的酒精灯添加酒精，易引起火灾。
+    - 能指出并纠正这一错误：用燃着的酒精灯引燃另一只酒精灯，会洒出酒精着火。
+  aliases: []
+  category: 实验操作
+  explanation: 使用酒精灯时禁止向燃着的酒精灯添加酒精，禁止用酒精灯引燃另一只酒精灯，添加酒精不超过容积的2/3，洒出酒精着火用湿布盖灭。
+  misconceptions:
+    - 向燃着的酒精灯添加酒精，易引起火灾。
+    - 用燃着的酒精灯引燃另一只酒精灯，会洒出酒精着火。
+    - 酒精洒出着火时用水浇，应该用湿布盖灭。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:酸、碱、盐、氧化物的分类
+  type: Concept
+  subject: 化学
+  title: 酸、碱、盐、氧化物的分类
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为含氧元素的化合物就是氧化物，把H2SO4、NaHCO3也当氧化物，忽略只含两种元素
+    - 能指出并纠正这一错误：认为盐中必须含金属离子，把NH4Cl排除在盐外，实际是铵盐
+  aliases: []
+  category: 化学概念
+  explanation: 根据物质的组成和性质，化合物可分为酸、碱、盐、氧化物等类别。
+  misconceptions:
+    - 误认为含氧元素的化合物就是氧化物，把H2SO4、NaHCO3也当氧化物，忽略只含两种元素
+    - 认为盐中必须含金属离子，把NH4Cl排除在盐外，实际是铵盐
+    - 根据电离产物判断物质类别，把NaHSO4当酸，把Cu2(OH)2CO3当碱，实际它们都是盐
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:酸与盐的反应
+  type: Concept
+  subject: 化学
+  title: 酸与盐的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为任意酸与盐都能发生复分解反应，如写H2SO4+NaNO3→Na2SO4+HNO3，实际无沉…
+    - 能指出并纠正这一错误：写CaCO3与稀盐酸反应时，产物直接写CaCl2+H2CO3，不标气体符号，未分解为CO2和H2…
+  aliases:
+    - 酸+盐→新盐+新酸
+  category: 化学性质
+  explanation: 酸与盐反应生成新盐和新酸，是酸的化学共性之一。
+  misconceptions:
+    - 误认为任意酸与盐都能发生复分解反应，如写H2SO4+NaNO3→Na2SO4+HNO3，实际无沉淀气体水生成
+    - 写CaCO3与稀盐酸反应时，产物直接写CaCl2+H2CO3，不标气体符号，未分解为CO2和H2O
+    - 忽略盐的溶解性，误写BaSO4+稀盐酸→BaCl2+H2SO4，实际BaSO4不溶于稀盐酸
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:酸和碱的解离
+  type: Concept
+  subject: 化学
+  title: 酸和碱的解离
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为电离出H⁺的化合物都是酸，把NaHSO4当酸，其阳离子还有Na⁺，属于盐
+    - 能指出并纠正这一错误：误认为NH3·H2O是碱？它电离出OH⁻，但NH3·H2O是弱碱，书写电离方程式时漏写可逆号
+  aliases:
+    - 电离
+  category: 化学概念
+  explanation: 酸在水中解离出氢离子，碱在水中解离出氢氧根离子，这是它们具有化学共性的原因。
+  misconceptions:
+    - 误认为电离出H⁺的化合物都是酸，把NaHSO4当酸，其阳离子还有Na⁺，属于盐
+    - 误认为NH3·H2O是碱？它电离出OH⁻，但NH3·H2O是弱碱，书写电离方程式时漏写可逆号
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:酸的通性
+  type: Concept
+  subject: 化学
+  title: 酸的通性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为酸能与所有金属反应生成氢气，如写Cu+2HCl→CuCl2+H2，实际铜不与稀盐酸反应
+    - 能指出并纠正这一错误：写铁与稀盐酸反应时生成FeCl3，忽略铁与酸反应生成亚铁盐，应为FeCl2
+  aliases:
+    - 稀酸的化学性质
+  category: 化学性质
+  explanation: 稀酸具有相似的化学性质，如能使紫色石蕊变红，能与较活泼金属、金属氧化物、盐等反应。
+  misconceptions:
+    - 误认为酸能与所有金属反应生成氢气，如写Cu+2HCl→CuCl2+H2，实际铜不与稀盐酸反应
+    - 写铁与稀盐酸反应时生成FeCl3，忽略铁与酸反应生成亚铁盐，应为FeCl2
+    - 把稀硝酸与金属反应也归纳为酸的通性生成H2，实际稀硝酸有强氧化性，生成NO等
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S2.md
+- id: concept:化学:酸碱指示剂
+  type: Concept
+  subject: 化学
+  title: 酸碱指示剂
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为将石蕊试液滴入酸中变红，滴入碱中变蓝，但酸和碱必须是溶液，固体的酸（如柠檬酸）不能直接变色
+    - 能指出并纠正这一错误：把酚酞遇中性溶液当成无色，遇酸性溶液也写成红色，实际酚酞遇酸无色，遇碱变红
+  aliases:
+    - 指示剂
+  category: 化学概念
+  explanation: 能跟酸性溶液或碱性溶液起作用而显不同颜色的物质，如石蕊、酚酞。
+  misconceptions:
+    - 误认为将石蕊试液滴入酸中变红，滴入碱中变蓝，但酸和碱必须是溶液，固体的酸（如柠檬酸）不能直接变色
+    - 把酚酞遇中性溶液当成无色，遇酸性溶液也写成红色，实际酚酞遇酸无色，遇碱变红
+    - 认为指示剂颜色变化属于物理变化，实际是化学变化，石蕊在酸碱中生成不同结构
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:酸雨
+  type: Concept
+  subject: 化学
+  title: 酸雨
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为pH<7的雨水就是酸雨，如把pH=6的雨水当酸雨，实际酸雨指pH<5.6
+    - 能指出并纠正这一错误：认为酸雨中只含硫酸，忽略还可能含硝酸，或认为酸雨是CO2溶于水形成的
+  aliases: []
+  category: 环境化学
+  explanation: pH小于5.6的雨水，主要由二氧化硫和氮氧化物排放形成。
+  misconceptions:
+    - 误认为pH<7的雨水就是酸雨，如把pH=6的雨水当酸雨，实际酸雨指pH<5.6
+    - 认为酸雨中只含硫酸，忽略还可能含硝酸，或认为酸雨是CO2溶于水形成的
+    - 误以为酸雨就是二氧化硫和氮氧化物单纯溶于水，忽略它们需被氧化成H2SO4和HNO3
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S3.md
+- id: concept:化学:金刚石的性质和用途
+  type: Concept
+  subject: 化学
+  title: 金刚石的性质和用途
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为金刚石能导电，误以为石墨和金刚石性质相同
+    - 能指出并纠正这一错误：误认为金刚石是碳的化合物，忽略它是碳单质
+  aliases: []
+  category: 物质性质
+  explanation: 金刚石是自然界最硬的物质，无色透明，用于切割玻璃、钻头、装饰品等。
+  misconceptions:
+    - 认为金刚石能导电，误以为石墨和金刚石性质相同
+    - 误认为金刚石是碳的化合物，忽略它是碳单质
+    - 认为金刚石硬度小，可做铅笔芯，混淆石墨用途
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S2.md
+- id: concept:化学:金属与氧气的反应
+  type: Concept
+  subject: 化学
+  title: 金属与氧气的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：铁丝在氧气中燃烧的产物写成Fe2O3，实际是Fe3O4
+    - 能指出并纠正这一错误：误认为镁条燃烧条件为加热，实际应写点燃
+  aliases:
+    - 金属的氧化反应
+  category: 化学性质
+  explanation: 多数金属都能与氧气发生氧化反应，生成金属氧化物。例如铁在氧气中燃烧生成四氧化三铁。
+  misconceptions:
+    - 铁丝在氧气中燃烧的产物写成Fe2O3，实际是Fe3O4
+    - 误认为镁条燃烧条件为加热，实际应写点燃
+    - 认为铝在常温下不能与氧气反应，实际会形成氧化铝薄膜
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:金属与盐溶液的反应
+  type: Concept
+  subject: 化学
+  title: 金属与盐溶液的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为钠能置换出硫酸铜溶液中的铜，实际钠先与水反应
+    - 能指出并纠正这一错误：铁与硫酸铜反应写成Fe2(SO4)3+Cu，实际生成FeSO4+Cu
+  aliases:
+    - 金属与盐溶液置换
+  category: 化学性质
+  explanation: 排在前面的较活泼金属能把排在后面的较不活泼金属从其化合物溶液中置换出来。例如铝和铁能把铜从硫酸铜溶液中置换出来。
+  misconceptions:
+    - 误认为钠能置换出硫酸铜溶液中的铜，实际钠先与水反应
+    - 铁与硫酸铜反应写成Fe2(SO4)3+Cu，实际生成FeSO4+Cu
+    - 认为铁能置换出氯化银中的银，忽略氯化银不溶于水
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:金属与稀酸的反应
+  type: Concept
+  subject: 化学
+  title: 金属与稀酸的反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为铜能与稀盐酸反应放出氢气，实际铜在氢后不反应
+    - 能指出并纠正这一错误：铁与稀硫酸反应生成Fe2(SO4)3，实际为FeSO4
+  aliases:
+    - 金属与酸反应
+  category: 化学性质
+  explanation: 排在氢之前的较活泼金属（如镁、铝、锌、铁）能与稀硫酸、稀盐酸等反应产生氢气，排在氢之后的金属（如铜、银、金）不能。
+  misconceptions:
+    - 误认为铜能与稀盐酸反应放出氢气，实际铜在氢后不反应
+    - 铁与稀硫酸反应生成Fe2(SO4)3，实际为FeSO4
+    - 误认为铝与稀盐酸反应需要加热，实际常温即可
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:金属冶炼
+  type: Concept
+  subject: 化学
+  title: 金属冶炼
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为高炉炼铁是焦炭直接还原Fe2O3，实际为CO还原
+    - 能指出并纠正这一错误：认为用碳可冶炼铝，实际铝需电解法冶炼
+  aliases:
+    - 冶炼金属
+  category: 化学工艺
+  explanation: 通过化学方法将矿物中的金属化合物转化为金属单质的过程。方法包括热还原法、电解法、热分解法等，选择方法与金属活动性有关。
+  misconceptions:
+    - 误认为高炉炼铁是焦炭直接还原Fe2O3，实际为CO还原
+    - 认为用碳可冶炼铝，实际铝需电解法冶炼
+    - 误认为银的冶炼需加还原剂，实际银以游离态存在
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:金属活动性顺序
+  type: Concept
+  subject: 化学
+  title: 金属活动性顺序
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误将铁与锡的位置记反，实际铁在锡前
+    - 能指出并纠正这一错误：误认为铁可置换硫酸锌中的锌，实际锌位置在铁之前
+  aliases:
+    - 金属活动性序列
+  category: 化学规律
+  explanation: 常见金属按活动性由强到弱排列的顺序：钾钙钠镁铝锌铁锡铅（氢）铜汞银铂金。位置越靠前，活动性越强，排在前面的金属能把后面的金属从其化合物溶液中置换出来。
+  misconceptions:
+    - 误将铁与锡的位置记反，实际铁在锡前
+    - 误认为铁可置换硫酸锌中的锌，实际锌位置在铁之前
+    - 误认为铜能置换出硫酸亚铁中的铁，实际铜不如铁活泼
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S2.md
+- id: concept:化学:金属的物理共性
+  type: Concept
+  subject: 化学
+  title: 金属的物理共性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有金属都是银白色，忽略铜呈紫红色、金呈黄色
+    - 能指出并纠正这一错误：误认为金属常温下都是固体，未记住汞是液体
+  aliases:
+    - 金属共性
+  category: 物理性质
+  explanation: 金属共有的物理性质包括金属光泽、导电性、导热性和延展性。
+  misconceptions:
+    - 误认为所有金属都是银白色，忽略铜呈紫红色、金呈黄色
+    - 误认为金属常温下都是固体，未记住汞是液体
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:金属的物理差异性
+  type: Concept
+  subject: 化学
+  title: 金属的物理差异性
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为密度最大的金属是铁，实际是锇
+    - 能指出并纠正这一错误：误认为熔点最低的金属是锡，实际是汞
+  aliases:
+    - 金属特性
+    - 金属的差异性
+  category: 物理性质
+  explanation: 不同金属在密度、熔点、硬度等物理性质上存在差异，如锇密度最大，汞熔点最低。
+  misconceptions:
+    - 误认为密度最大的金属是铁，实际是锇
+    - 误认为熔点最低的金属是锡，实际是汞
+    - 误认为导电性最好的是铜，实际是银
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:金属的物理性质
+  type: Concept
+  subject: 化学
+  title: 金属的物理性质
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为金属的硬度都很大，实际钠可以用小刀切开
+    - 能指出并纠正这一错误：误认为所有金属的密度、熔点相同，实际差异很大
+  aliases: []
+  category: 化学概念
+  explanation: 金属共有的物理性质包括光泽、导电性、导热性、延展性，但密度、硬度、熔点等差异较大。
+  misconceptions:
+    - 误认为金属的硬度都很大，实际钠可以用小刀切开
+    - 误认为所有金属的密度、熔点相同，实际差异很大
+    - 误认为所有金属都能被磁铁吸引，实际只有铁钴镍等少数有磁性
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:金属的用途与性质的关系
+  type: Concept
+  subject: 化学
+  title: 金属的用途与性质的关系
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为钨做灯丝是因为导电性好，实际是因为熔点高
+    - 能指出并纠正这一错误：误认为银比铜更适合做导线，实际银虽导电性好但价格昂贵，常用铜
+  aliases: []
+  category: 应用
+  explanation: 金属或合金的用途取决于其物理性质，如导电性、导热性、硬度、熔点等。
+  misconceptions:
+    - 误认为钨做灯丝是因为导电性好，实际是因为熔点高
+    - 误认为银比铜更适合做导线，实际银虽导电性好但价格昂贵，常用铜
+    - 误认为金做首饰是因为硬度大，实际金很软但延展性好且稳定
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:金属矿物
+  type: Concept
+  subject: 化学
+  title: 金属矿物
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误将赤铁矿化学式写成Fe3O4，磁铁矿写成Fe2O3
+    - 能指出并纠正这一错误：误认为铁在自然界中以单质形式存在，实际主要以化合物存在
+  aliases:
+    - 矿石
+  category: 化学概念
+  explanation: 金属在自然界中主要以化合物形态存在于矿物中，少数不活泼金属（如金、铂、银）以单质形态存在。常见矿物如赤铁矿（Fe₂O₃）、磁铁矿（Fe₃O₄）等。
+  misconceptions:
+    - 误将赤铁矿化学式写成Fe3O4，磁铁矿写成Fe2O3
+    - 误认为铁在自然界中以单质形式存在，实际主要以化合物存在
+    - 误认为金属矿物是纯净物，实际是含有杂质的混合物
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:钾肥
+  type: Concept
+  subject: 化学
+  title: 钾肥
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为钾肥能促进根系生长，实际是磷肥的作用，如将氯化钾当磷肥施用
+    - 能指出并纠正这一错误：认为草木灰不是钾肥，忽略其主要成分碳酸钾也含钾元素
+  aliases: []
+  category: 化学应用
+  explanation: 钾肥含钾元素，能增强作物抗倒伏能力，如氯化钾等。
+  misconceptions:
+    - 误认为钾肥能促进根系生长，实际是磷肥的作用，如将氯化钾当磷肥施用
+    - 认为草木灰不是钾肥，忽略其主要成分碳酸钾也含钾元素
+    - 将硝酸钾归为单一钾肥，未识别其为含氮和钾的复合肥
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:铁的冶炼
+  type: Concept
+  subject: 化学
+  title: 铁的冶炼
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为炼铁方程式无需高温，漏写反应条件
+    - 能指出并纠正这一错误：配平错误：Fe2O3+CO=2Fe+CO2，应配为Fe2O3+3CO=2Fe+3CO2
+  aliases:
+    - 炼铁原理
+    - 铁矿石炼铁原理
+    - 高炉炼铁
+  category: 化学原理
+  explanation: 工业炼铁利用一氧化碳在高温下还原铁矿石（如赤铁矿Fe2O3）得到铁，化学方程式为Fe2O3 + 3CO 高温 2Fe + 3CO2。
+  misconceptions:
+    - 误认为炼铁方程式无需高温，漏写反应条件
+    - 配平错误：Fe2O3+CO=2Fe+CO2，应配为Fe2O3+3CO=2Fe+3CO2
+    - 误认为高炉炼铁得到纯铁，实际得到含碳的生铁
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:铁锈的主要成分
+  type: Concept
+  subject: 化学
+  title: 铁锈的主要成分
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为铁锈是Fe3O4或FeO，实际铁锈主要成分是Fe2O3·xH2O
+    - 能指出并纠正这一错误：认为铁锈是致密保护层，能阻止内部铁继续被锈蚀
+  aliases:
+    - 氧化铁
+  category: 化学概念
+  explanation: 铁锈的主要成分是氧化铁，化学式可表示为Fe2O3·xH2O，初中阶段简写为Fe2O3。
+  misconceptions:
+    - 误以为铁锈是Fe3O4或FeO，实际铁锈主要成分是Fe2O3·xH2O
+    - 认为铁锈是致密保护层，能阻止内部铁继续被锈蚀
+    - 把铁锈当作纯净物，实际它是多种物质的混合物
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S4.md
+- id: concept:化学:铁锈蚀的条件
+  type: Concept
+  subject: 化学
+  title: 铁锈蚀的条件
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为铁生锈只需水或只需氧气，忽略了必须两者同时存在
+    - 能指出并纠正这一错误：误以为铁锈疏松多孔能保护内部铁，实际会不断向内锈蚀
+  aliases:
+    - 铁生锈的条件
+  category: 化学原理
+  explanation: 铁在氧气和水等物质存在的条件下发生复杂的化学反应，生成铁锈（主要成分是Fe2O3·xH2O）。铁锈疏松多孔，会继续向内渗透，直至铁全部锈蚀。
+  misconceptions:
+    - 认为铁生锈只需水或只需氧气，忽略了必须两者同时存在
+    - 误以为铁锈疏松多孔能保护内部铁，实际会不断向内锈蚀
+    - 忽视食盐等物质会加快锈蚀，只认为水与氧气就能解释实验现象
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S4.md
+- id: concept:化学:铜与氧气反应
+  type: Concept
+  subject: 化学
+  title: 铜与氧气反应
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为铜加热后表面变黑是附着了碳，实际是氧化铜。
+    - 能指出并纠正这一错误：文字表达式漏写加热条件，写成铜+氧气→氧化铜。
+  aliases:
+    - 铜的氧化
+  category: 化学事实
+  explanation: 铜在加热条件下与氧气反应生成黑色氧化铜，可用文字表达式表示：铜+氧气→氧化铜。
+  misconceptions:
+    - 认为铜加热后表面变黑是附着了碳，实际是氧化铜。
+    - 文字表达式漏写加热条件，写成铜+氧气→氧化铜。
+    - 把“加热”误写成“点燃”，认为铜会燃烧起来。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:铵态氮肥的检验
+  type: Concept
+  subject: 化学
+  title: 铵态氮肥的检验
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用蓝色石蕊试纸检验氨气，误以为氨气使蓝色变红
+    - 能指出并纠正这一错误：检验铵态氮肥时未加碱直接加热，认为铵盐自身分解产生氨气
+  aliases:
+    - 铵盐检验
+  category: 实验方法
+  explanation: 铵态氮肥与碱混合研磨或加热，产生有刺激性气味的氨气，氨气能使湿润的红色石蕊试纸变蓝。
+  misconceptions:
+    - 用蓝色石蕊试纸检验氨气，误以为氨气使蓝色变红
+    - 检验铵态氮肥时未加碱直接加热，认为铵盐自身分解产生氨气
+    - 将氨气通入干燥的红色石蕊试纸，观察不到变蓝，需用湿润的
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:铵盐
+  type: Concept
+  subject: 化学
+  title: 铵盐
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：书写铵盐与碱反应时漏写加热条件，如氯化铵与氢氧化钠反应未加热也写生成氨气
+    - 能指出并纠正这一错误：误认为所有铵盐受热都分解产生氨气，忽略硝酸铵受热可能爆炸
+  aliases: []
+  category: 物质分类
+  explanation: 铵盐是含有铵根离子（NH₄⁺）的盐，如氯化铵、碳酸氢铵等。
+  misconceptions:
+    - 书写铵盐与碱反应时漏写加热条件，如氯化铵与氢氧化钠反应未加热也写生成氨气
+    - 误认为所有铵盐受热都分解产生氨气，忽略硝酸铵受热可能爆炸
+    - 认为铵根离子与氢氧根离子能共存，忽略两者反应生成一水合氨
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S4.md
+- id: concept:化学:门捷列夫与元素周期律
+  type: Concept
+  subject: 化学
+  title: 门捷列夫与元素周期律
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为门捷列夫按原子序数排列元素，实际按相对原子质量排列
+    - 能指出并纠正这一错误：将元素周期律表述为随质子数递增周期变化，门捷列夫时代未发现质子
+  aliases:
+    - 门捷列夫
+  category: 化学史
+  explanation: 俄国化学家门捷列夫发现元素性质随相对原子质量增大呈周期性变化，并编制了元素周期表。
+  misconceptions:
+    - 误认为门捷列夫按原子序数排列元素，实际按相对原子质量排列
+    - 将元素周期律表述为随质子数递增周期变化，门捷列夫时代未发现质子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S3.md
+- id: concept:化学:防止铁锈蚀的方法
+  type: Concept
+  subject: 化学
+  title: 防止铁锈蚀的方法
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为涂油、喷漆只能防锈不能隔绝空气，实际是同时隔绝水和氧气
+    - 能指出并纠正这一错误：以为电镀层破损后铁依然完全被保护，实际破损处会继续生锈
+  aliases:
+    - 防锈方法
+  category: 化学应用
+  explanation: 防止铁锈蚀的主要原理是隔绝空气和水分，常用方法有涂油、喷漆、烧制搪瓷、电镀等。
+  misconceptions:
+    - 认为涂油、喷漆只能防锈不能隔绝空气，实际是同时隔绝水和氧气
+    - 以为电镀层破损后铁依然完全被保护，实际破损处会继续生锈
+    - 误认为永久保持干燥就能完全防锈，忽略了空气中水分无法绝对去除
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S4.md
+- id: concept:化学:阳离子
+  type: Concept
+  subject: 化学
+  title: 阳离子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为阳离子由原子得到电子形成，实际是失去电子形成
+    - 能指出并纠正这一错误：认为阳离子中质子数=电子数，实际质子数大于电子数
+  aliases: []
+  category: 微观粒子
+  explanation: 带正电荷的离子，由原子失去电子形成。
+  misconceptions:
+    - 误以为阳离子由原子得到电子形成，实际是失去电子形成
+    - 认为阳离子中质子数=电子数，实际质子数大于电子数
+    - 把镁离子Mg²⁺误写成得到2个电子，实际是失去2个电子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:阴离子
+  type: Concept
+  subject: 化学
+  title: 阴离子
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为阴离子由原子失去电子形成，实际是得到电子形成
+    - 能指出并纠正这一错误：认为阴离子中电子数小于质子数，实际电子数大于质子数
+  aliases: []
+  category: 微观粒子
+  explanation: 带负电荷的离子，由原子得到电子形成。
+  misconceptions:
+    - 误以为阴离子由原子失去电子形成，实际是得到电子形成
+    - 认为阴离子中电子数小于质子数，实际电子数大于质子数
+    - 将氟离子F⁻写成失去1个电子，实际是得到1个电子
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:阿伏伽德罗定律
+  type: Concept
+  subject: 化学
+  title: 阿伏伽德罗定律
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为同温同压下相同质量的气体体积相同，忽略分子数的决定作用
+    - 能指出并纠正这一错误：误认为同体积不同气体原子数也相同，忽略分子构成差异
+  aliases:
+    - 阿伏加德罗定律
+  category: 化学定律
+  explanation: 同温同压下，相同体积的任何气体含有相同的分子数。
+  misconceptions:
+    - 误认为同温同压下相同质量的气体体积相同，忽略分子数的决定作用
+    - 误认为同体积不同气体原子数也相同，忽略分子构成差异
+    - 忽视条件“同温同压”，在温度压强不同时也直接套用
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C5/sections/S4.md
+- id: concept:化学:除杂方法
+  type: Concept
+  subject: 化学
+  title: 除杂方法
+  conceptType: 应用型
+  masteryCriteria:
+    - 能指出并纠正这一错误：用点燃法除去CO₂中的O₂，忽略CO₂不支持燃烧，无法点燃
+    - 能指出并纠正这一错误：除水蒸气时选用NaOH固体，会同时吸收CO₂，导致原物质损失
+  aliases: []
+  category: 实验技能
+  explanation: 根据物质性质差异，选择合适方法除去杂质，如通过灼热铜网除氧气、浓硫酸除水蒸气等。
+  misconceptions:
+    - 用点燃法除去CO₂中的O₂，忽略CO₂不支持燃烧，无法点燃
+    - 除水蒸气时选用NaOH固体，会同时吸收CO₂，导致原物质损失
+    - 通过灼热铜网除O₂后未冷却就收集气体，热胀冷缩影响体积测量
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C3/sections/S5.md
+- id: concept:化学:青蒿素
+  type: Concept
+  subject: 化学
+  title: 青蒿素
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为青蒿素是混合物，因为青蒿素提取自青蒿这种植物。
+    - 能指出并纠正这一错误：误认为青蒿素含氮元素，根据分子式C15H22O5可知其只含C、H、O。
+  aliases: []
+  category: 化学药物
+  explanation: 青蒿素是治疗疟疾的有效药物，中国科学家屠呦呦因发现青蒿素获诺贝尔奖。
+  misconceptions:
+    - 误认为青蒿素是混合物，因为青蒿素提取自青蒿这种植物。
+    - 误认为青蒿素含氮元素，根据分子式C15H22O5可知其只含C、H、O。
+    - 误认为青蒿素是抗生素，实际是抗疟药，对细菌无效。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C1/sections/S1.md
+- id: concept:化学:饱和溶液
+  type: Concept
+  subject: 化学
+  title: 饱和溶液
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：认为饱和溶液一定是浓溶液，不饱和溶液一定是稀溶液
+    - 能指出并纠正这一错误：认为饱和溶液不能溶解任何物质，实际只是不能再溶解该溶质
+  aliases: []
+  category: 化学概念
+  explanation: 在一定温度下，一定量溶剂里不能再溶解某溶质的溶液。
+  misconceptions:
+    - 认为饱和溶液一定是浓溶液，不饱和溶液一定是稀溶液
+    - 认为饱和溶液不能溶解任何物质，实际只是不能再溶解该溶质
+    - 认为饱和溶液降温一定有晶体析出，未考虑溶解度随温度降低而增大的情况
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C2/sections/S2.md
+- id: concept:化学:高分子材料
+  type: Concept
+  subject: 化学
+  title: 高分子材料
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误以为高分子材料都是人工合成的，忽略蛋白质等天然高分子。
+    - 能指出并纠正这一错误：认为小分子聚合后相对分子质量仍很小，与普通物质相同。
+  aliases:
+    - 高分子
+  category: 化学概念
+  explanation: 由许多相对分子质量小的有机物聚合形成的高分子化合物，相对分子质量可达几万到几百万。
+  misconceptions:
+    - 误以为高分子材料都是人工合成的，忽略蛋白质等天然高分子。
+    - 认为小分子聚合后相对分子质量仍很小，与普通物质相同。
+    - 将高分子材料和合成材料混为一谈，说“就是有机合成材料”。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S2.md
+- id: concept:化学:高炉炼铁
+  type: Concept
+  subject: 化学
+  title: 高炉炼铁
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：写高炉炼铁化学方程式时忘记标高温条件，且生成物CO2漏标气体符号
+    - 能指出并纠正这一错误：误认为高炉中焦炭直接还原氧化铁，实际是CO作为还原剂
+  aliases:
+    - 炼铁高炉
+  category: 化学工艺
+  explanation: 工业炼铁的主要设备，将铁矿石、焦炭、石灰石加入高炉，通入热空气，利用一氧化碳还原铁矿石得到生铁。
+  misconceptions:
+    - 写高炉炼铁化学方程式时忘记标高温条件，且生成物CO2漏标气体符号
+    - 误认为高炉中焦炭直接还原氧化铁，实际是CO作为还原剂
+    - 以为高炉炼铁得到纯铁，实际生铁含碳等杂质
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C1/sections/S3.md
+- id: concept:化学:高锰酸钾制取氧气
+  type: Concept
+  subject: 化学
+  title: 高锰酸钾制取氧气
+  conceptType: 程序型
+  masteryCriteria:
+    - 能指出并纠正这一错误：先熄灭酒精灯再撤导管，导致水槽水倒流炸裂试管（正确应先将导管移出水面）。
+    - 能指出并纠正这一错误：试管口向上倾斜，冷凝水回流炸裂试管（应略向下倾斜）。
+  aliases: []
+  category: 化学实验
+  explanation: 加热高锰酸钾分解生成锰酸钾、二氧化锰和氧气，需注意试管口略向下倾斜、先撤导管后熄灯等操作。
+  misconceptions:
+    - 先熄灭酒精灯再撤导管，导致水槽水倒流炸裂试管（正确应先将导管移出水面）。
+    - 试管口向上倾斜，冷凝水回流炸裂试管（应略向下倾斜）。
+    - 高锰酸钾制氧气的化学方程式未配平，如 KMnO4→K2MnO4+MnO2+O2 需配平2、1、1、1。
+  sourceRef: content/九年级/上册/化学/KY-9-1-Chemistry/chapters/C3/sections/S1.md
+- id: concept:化学:麻黄碱
+  type: Concept
+  subject: 化学
+  title: 麻黄碱
+  conceptType: 概念型
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为麻黄碱是人工合成药物，不是天然提取物。
+    - 能指出并纠正这一错误：认为麻黄碱有镇静催眠作用，与拟交感神经作用相反。
+  aliases: []
+  category: 化学药品
+  explanation: 从麻黄中提取的化合物，具有拟交感神经作用，用于多种药品。
+  misconceptions:
+    - 误认为麻黄碱是人工合成药物，不是天然提取物。
+    - 认为麻黄碱有镇静催眠作用，与拟交感神经作用相反。
+    - 认为从植物提取的麻黄碱没有副作用，可随意服用。
+  sourceRef: content/九年级/下册/化学/KY-9-2-Chemistry/chapters/C4/sections/S4.md

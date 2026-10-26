@@ -1,0 +1,14 @@
+# tools/kg 的 Python 辅助脚本依赖
+#
+# 安装：pip install -r tools/kg/requirements.txt
+#
+# 注：仓库的图谱主链路（lint / build / test / sql 查询 / 六个 eval）全部是 TypeScript，
+# **不需要 Python**。下面这些只在跑「内容注入」与「结构重切」的 Python 脚本时才需要。
+
+# —— 所有 Python 脚本必需 ——
+pyyaml>=6.0            # 读写 graph/*.yaml、书级 front-matter（9 个脚本依赖，缺失即 ModuleNotFoundError）
+
+# —— 仅 OCR 相关脚本需要（reoutline_ocr / pdf_ocr_to_index）——
+pymupdf>=1.24          # import fitz，PDF 页面渲染
+rapidocr-onnxruntime>=1.3   # 本地 OCR 引擎
+openai>=1.30           # LLM 抽取与校准（需 AI_API_KEY / AI_MODEL，见 .env.example）

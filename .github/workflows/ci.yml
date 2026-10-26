@@ -1,0 +1,59 @@
+name: ci
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: python deps（Python 测试需要 pyyaml）
+        run: pip install pyyaml openai
+      - name: install & test（npm 方案，不引入 pnpm）
+        run: cd tools/kg && npm install && npm test
+      - name: lint
+        run: npx tsx src/lint.ts -- ../..
+        working-directory: tools/kg
+      - name: build
+        run: npx tsx src/build.ts -- ../..
+        working-directory: tools/kg
+      - name: open-source gate
+        run: bash tools/kg/scripts/check_open_source.sh
+
+  eval:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: golden-set eval（软门禁）
+        run: cd tools/kg && npm install && npx tsx src/eval.ts -- ../..
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: build dist
+        run: cd tools/kg && npm install && npx tsx src/build.ts -- ../..
+      - name: checksums
+        run: cd dist && sha256sum graph.json stats.json manifest.json > SHA256SUMS.txt
+      - name: attach release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/graph.json
+            dist/stats.json
+            dist/manifest.json
+            dist/SHA256SUMS.txt

@@ -1,0 +1,5144 @@
+- from: word:PEP-7-1-English:U1:goodbye
+  to: concept:英语:告别语
+- from: word:PEP-7-1-English:U1:bye
+  to: concept:英语:告别语
+- from: sentence:PEP-7-1-English:U1:s8
+  to: concept:英语:告别语
+- from: phrase:PEP-7-1-English:U10:make-a-wish
+  to: concept:英语:生日愿望
+- from: phrase:PEP-7-1-English:U10:blow-out-the-candles
+  to: concept:英语:生日愿望
+- from: phrase:PEP-7-1-English:U4:make-friends
+  to: concept:英语:交朋友
+- from: phrase:PEP-7-1-English:U7:favourite-subject
+  to: concept:英语:表达喜好和原因
+- from: word:PEP-7-1-English:U8:can-t
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s5
+  to: concept:英语:情态动词 can
+- from: phrase:PEP-7-1-English:U9:daily-routine
+  to: concept:英语:日常作息
+- from: phrase:PEP-7-1-English:U9:workday-routine
+  to: concept:英语:日常作息
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C1-S4:碣
+  to: concept:语文:观沧海
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C1-S4:涯
+  to: concept:语文:断肠
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C3-S1:鼎
+  to: concept:语文:人声鼎沸
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C3-S1:沸
+  to: concept:语文:人声鼎沸
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C3-S3:譬
+  to: concept:语文:比喻
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:佃
+  to: concept:语文:佃农
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:碌
+  to: concept:语文:劳碌
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:塾
+  to: concept:语文:私塾
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:济
+  to: concept:语文:周济
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:厚
+  to: concept:语文:宽厚
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:慈
+  to: concept:语文:仁慈
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:夜
+  to: concept:语文:连夜
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:勉
+  to: concept:语文:慰勉
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S2:辍
+  to: concept:语文:不辍
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S3:阎
+  to: concept:语文:阎罗
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S3:捷
+  to: concept:语文:捷报
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S3:腥
+  to: concept:语文:血雨腥风
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C4-S3:仁
+  to: concept:语文:取义成仁
+- from: character:PEP-7-1-Chinese:PEP-7-1-Chinese-C6-S4:杞
+  to: concept:语文:杞人忧天
+- from: character:PEP-7-2-Chinese-C1:元勋
+  to: concept:语文:邓稼先
+- from: character:PEP-7-2-Chinese-C1:锋芒
+  to: concept:语文:奥本海默
+- from: character:PEP-7-2-Chinese-C1:锋芒
+  to: concept:语文:锋芒毕露
+- from: character:PEP-7-2-Chinese-C1:可歌可泣
+  to: concept:语文:可歌可泣
+- from: character:PEP-7-2-Chinese-C1:鲜为人知
+  to: concept:语文:邓稼先
+- from: character:PEP-7-2-Chinese-C1:鲜为人知
+  to: concept:语文:鲜为人知
+- from: character:PEP-7-2-Chinese-C1:至死不懈
+  to: concept:语文:邓稼先
+- from: character:PEP-7-2-Chinese-C1:至死不懈
+  to: concept:语文:至死不懈
+- from: character:PEP-7-2-Chinese-C1:鞠躬尽瘁
+  to: concept:语文:鞠躬尽瘁，死而后已
+- from: character:PEP-7-2-Chinese-C1:当之无愧
+  to: concept:语文:当之无愧
+- from: character:PEP-7-2-Chinese-C1:家喻户晓
+  to: concept:语文:家喻户晓
+- from: character:PEP-7-2-Chinese-C1:锋芒毕露
+  to: concept:语文:奥本海默
+- from: character:PEP-7-2-Chinese-C1:锋芒毕露
+  to: concept:语文:锋芒毕露
+- from: character:PEP-7-2-Chinese-C1:妇孺皆知
+  to: concept:语文:妇孺皆知
+- from: character:PEP-7-2-Chinese-C1:卓越
+  to: concept:语文:闻一多
+- from: character:PEP-7-2-Chinese-C1:鹤立鸡群
+  to: concept:语文:比喻
+- from: character:PEP-7-2-Chinese-C1:才略
+  to: concept:语文:吴下阿蒙
+- from: character:PEP-7-2-Chinese-C1:吴下阿蒙
+  to: concept:语文:吴下阿蒙
+- from: character:PEP-7-2-Chinese-C1:刮目相待
+  to: concept:语文:刮目相待
+- from: character:PEP-7-2-Chinese-C1:刮目相待
+  to: concept:语文:士别三日
+- from: character:PEP-7-2-Chinese-C1:士别三日
+  to: concept:语文:刮目相待
+- from: character:PEP-7-2-Chinese-C1:士别三日
+  to: concept:语文:士别三日
+- from: character:PEP-7-2-Chinese-C4:心急如焚
+  to: concept:语文:黄文秀事迹
+- from: character:PEP-7-2-Chinese-C4:精神抖擞
+  to: concept:语文:黄文秀事迹
+- from: character:PEP-7-2-Chinese-C4:淤泥
+  to: concept:语文:出淤泥而不染
+- from: character:PEP-7-2-Chinese-C5:摇篮
+  to: concept:语文:比喻
+- from: character:PEP-7-2-Chinese-C6:板印
+  to: concept:语文:雕版印刷
+- from: character:PEP-7-2-Chinese-C6:布衣
+  to: concept:语文:活字印刷术
+- from: character:PEP-7-2-Chinese-C6:布衣
+  to: concept:语文:毕昇
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:劫
+  to: concept:语文:圆明园
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:掠
+  to: concept:语文:圆明园
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:秽
+  to: concept:语文:自惭形秽
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:濡
+  to: concept:语文:濡养
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:麾
+  to: concept:语文:麾下
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:坍
+  to: concept:语文:坍塌
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:棂
+  to: concept:语文:窗棂
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C2-S1:矗
+  to: concept:语文:矗立
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:觥
+  to: concept:语文:觥筹交错
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:筹
+  to: concept:语文:觥筹交错
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:沆
+  to: concept:语文:雾凇
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:沆
+  to: concept:语文:沆砀
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:砀
+  to: concept:语文:雾凇
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:砀
+  to: concept:语文:沆砀
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:痴
+  to: concept:语文:相公
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:更
+  to: concept:语文:更定
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:凇
+  to: concept:语文:雾凇
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:凇
+  to: concept:语文:沆砀
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:焉
+  to: concept:语文:焉得
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:白
+  to: concept:语文:三大白
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:客
+  to: concept:语文:客此
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:舟
+  to: concept:语文:舟子
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:柯
+  to: concept:语文:烂柯人
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:琼
+  to: concept:语文:琼楼玉宇
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:婵
+  to: concept:语文:婵娟
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:娟
+  to: concept:语文:婵娟
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:戍
+  to: concept:语文:戍鼓
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:栖
+  to: concept:语文:栖迟
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:迟
+  to: concept:语文:栖迟
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:瘴
+  to: concept:语文:瘴江边
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:瘴
+  to: concept:语文:好收吾骨瘴江边
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:铎
+  to: concept:语文:征铎
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C3-S1:凫
+  to: concept:语文:回塘
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C4-S1:膜
+  to: concept:语文:隔膜
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:嗔
+  to: concept:语文:杨志
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:怨
+  to: concept:语文:杨志
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:谒
+  to: concept:语文:拜谒
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:愧
+  to: concept:语文:愧赧
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:赧
+  to: concept:语文:愧赧
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:聋
+  to: concept:语文:如雷贯耳
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:贯
+  to: concept:语文:如雷贯耳
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:贤
+  to: concept:语文:思贤如渴
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:渴
+  to: concept:语文:思贤如渴
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:箪
+  to: concept:语文:箪食壶浆
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:浆
+  to: concept:语文:箪食壶浆
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:茅
+  to: concept:语文:顿开茅塞
+- from: character:PEP-9-1-Chinese:PEP-9-1-Chinese-C6-S1:塞
+  to: concept:语文:顿开茅塞
+- from: character:PEP-9-2-Chinese:PEP-9-2-Chinese-C2-S1:绰
+  to: concept:语文:绰号
+- from: character:PEP-9-2-Chinese:PEP-9-2-Chinese-C3-S1:戍
+  to: concept:语文:戍垒
+- from: character:PEP-9-2-Chinese:PEP-9-2-Chinese-C3-S1:垒
+  to: concept:语文:戍垒
+- from: phrase:PEP-9-0-English:U1:use-it-or-lose-it
+  to: concept:英语:使用或失去
+- from: phrase:PEP-9-0-English:U1:practice-makes-perfect
+  to: concept:英语:谚语：Practice makes perfect
+- from: phrase:PEP-9-0-English:U1:lifelong-journey
+  to: concept:英语:终身学习
+- from: sentence:PEP-9-0-English:U1:s24
+  to: concept:英语:学习习惯
+- from: sentence:PEP-9-0-English:U1:s27
+  to: concept:英语:谚语：Practice makes perfect
+- from: phrase:PEP-9-0-English:U10:be-supposed-to
+  to: concept:英语:be supposed to do
+- from: phrase:PEP-9-0-English:U10:be-supposed-to
+  to: concept:英语:be expected to do
+- from: phrase:PEP-9-0-English:U10:be-expected-to
+  to: concept:英语:be expected to do
+- from: phrase:PEP-9-0-English:U10:be-expected-to
+  to: concept:英语:be supposed to do
+- from: phrase:PEP-9-0-English:U10:be-important-to
+  to: concept:英语:be important to
+- from: phrase:PEP-9-0-English:U10:drop-by
+  to: concept:英语:drop by
+- from: phrase:PEP-9-0-English:U10:make-plans
+  to: concept:英语:make plans
+- from: phrase:PEP-9-0-English:U10:keep-others-waiting
+  to: concept:英语:keep others waiting
+- from: phrase:PEP-9-0-English:U10:go-out-of-one-s-way
+  to: concept:英语:go out of one's way
+- from: phrase:PEP-9-0-English:U10:be-comfortable-doing
+  to: concept:英语:be comfortable doing
+- from: phrase:PEP-9-0-English:U10:table-manners
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s5
+  to: concept:英语:impolite
+- from: sentence:PEP-9-0-English:U10:s13
+  to: concept:英语:impolite
+- from: sentence:PEP-9-0-English:U10:s16
+  to: concept:英语:impolite
+- from: sentence:PEP-9-0-English:U10:s18
+  to: concept:英语:be supposed to do
+- from: sentence:PEP-9-0-English:U10:s20
+  to: concept:英语:impolite
+- from: sentence:PEP-9-0-English:U10:s21
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s22
+  to: concept:英语:customs
+- from: phrase:PEP-9-0-English:U11:neither-nor
+  to: concept:英语:neither...nor...
+- from: phrase:PEP-9-0-English:U11:leave-out
+  to: concept:英语:leave out
+- from: word:PEP-9-0-English:U13:pollution
+  to: concept:英语:环境污染
+- from: phrase:PEP-9-0-English:U13:food-chain
+  to: concept:英语:食物链
+- from: sentence:PEP-9-0-English:U13:s7
+  to: concept:英语:环境污染
+- from: word:PEP-9-0-English:U14:caring
+  to: concept:英语:go off
+- from: phrase:PEP-9-0-English:U14:be-thirsty-for
+  to: concept:英语:be thirsty for
+- from: phrase:PEP-9-0-English:U14:set-out
+  to: concept:英语:set out
+- from: phrase:PEP-9-0-English:U14:be-responsible-for
+  to: concept:英语:be responsible for
+- from: phrase:PEP-9-0-English:U14:believe-in
+  to: concept:英语:believe in
+- from: phrase:PEP-9-0-English:U14:first-of-all
+  to: concept:英语:for one thing 首先
+- from: phrase:PEP-9-0-English:U14:be-thankful-to-sb
+  to: concept:英语:be thankful to sb.
+- from: sentence:PEP-9-0-English:U14:s14
+  to: concept:英语:times 表示“时光；时代”
+- from: sentence:PEP-9-0-English:U14:s26
+  to: concept:英语:times 表示“时光；时代”
+- from: sentence:PEP-9-0-English:U14:s27
+  to: concept:英语:情态动词might表推测
+- from: phrase:PEP-9-0-English:U2:spring-festival
+  to: concept:英语:家庭团聚与春节
+- from: sentence:PEP-9-0-English:U2:s10
+  to: concept:英语:母亲节
+- from: sentence:PEP-9-0-English:U2:s10
+  to: concept:英语:父亲节
+- from: word:PEP-9-0-English:U3:washroom
+  to: concept:英语:restroom的用法
+- from: word:PEP-9-0-English:U3:bathroom
+  to: concept:英语:restroom的用法
+- from: word:PEP-9-0-English:U3:toilet
+  to: concept:英语:restroom的用法
+- from: word:PEP-9-0-English:U4:influence
+  to: concept:英语:influence
+- from: word:PEP-9-0-English:U4:influence
+  to: concept:英语:have an influence on
+- from: phrase:PEP-9-0-English:U4:used-to-do
+  to: concept:英语:used to 结构
+- from: phrase:PEP-9-0-English:U4:be-afraid-of
+  to: concept:英语:be afraid of
+- from: phrase:PEP-9-0-English:U4:used-to-do-sth
+  to: concept:英语:used to 结构
+- from: phrase:PEP-9-0-English:U4:take-pride-in
+  to: concept:英语:take pride in
+- from: phrase:PEP-9-0-English:U4:take-pride-in
+  to: concept:英语:be proud of
+- from: phrase:PEP-9-0-English:U4:be-proud-of
+  to: concept:英语:take pride in
+- from: phrase:PEP-9-0-English:U4:be-proud-of
+  to: concept:英语:be proud of
+- from: phrase:PEP-9-0-English:U4:in-person
+  to: concept:英语:in person
+- from: phrase:PEP-9-0-English:U4:boarding-school
+  to: concept:英语:boarding school
+- from: phrase:PEP-9-0-English:U4:be-absent-from
+  to: concept:英语:absent from
+- from: phrase:PEP-9-0-English:U4:make-a-decision
+  to: concept:英语:make a decision
+- from: phrase:PEP-9-0-English:U4:look-after
+  to: concept:英语:look after
+- from: phrase:PEP-9-0-English:U4:look-after
+  to: concept:英语:take care of
+- from: phrase:PEP-9-0-English:U4:take-care-of
+  to: concept:英语:look after
+- from: phrase:PEP-9-0-English:U4:take-care-of
+  to: concept:英语:take care of
+- from: phrase:PEP-9-0-English:U4:be-there-for-sb
+  to: concept:英语:be there for sb.
+- from: phrase:PEP-9-0-English:U4:have-an-influence-on
+  to: concept:英语:influence
+- from: phrase:PEP-9-0-English:U4:have-an-influence-on
+  to: concept:英语:have an influence on
+- from: phrase:PEP-9-0-English:U5:be-made-of
+  to: concept:英语:be made of
+- from: phrase:PEP-9-0-English:U5:be-made-of
+  to: concept:英语:be made of/from
+- from: phrase:PEP-9-0-English:U5:be-made-from
+  to: concept:英语:be made of
+- from: phrase:PEP-9-0-English:U5:be-made-from
+  to: concept:英语:be made from
+- from: phrase:PEP-9-0-English:U5:be-made-from
+  to: concept:英语:be made of/from
+- from: phrase:PEP-9-0-English:U5:be-made-in
+  to: concept:英语:be made in
+- from: phrase:PEP-9-0-English:U5:be-famous-for
+  to: concept:英语:be famous for
+- from: phrase:PEP-9-0-English:U5:be-known-for
+  to: concept:英语:be known for
+- from: phrase:PEP-9-0-English:U5:be-produced-in
+  to: concept:英语:be produced
+- from: phrase:PEP-9-0-English:U5:be-produced-in
+  to: concept:英语:be produced in
+- from: phrase:PEP-9-0-English:U5:be-grown-on
+  to: concept:英语:be grown on
+- from: phrase:PEP-9-0-English:U5:be-grown-on
+  to: concept:英语:be grown
+- from: phrase:PEP-9-0-English:U5:be-picked-by-hand
+  to: concept:英语:be picked by hand
+- from: phrase:PEP-9-0-English:U5:be-sent-for-processing
+  to: concept:英语:be sent for processing
+- from: phrase:PEP-9-0-English:U5:be-held-in
+  to: concept:英语:be held in
+- from: phrase:PEP-9-0-English:U5:be-good-for
+  to: concept:英语:be good for
+- from: phrase:PEP-9-0-English:U5:be-good-at
+  to: concept:英语:be good at
+- from: phrase:PEP-9-0-English:U5:no-matter-what
+  to: concept:英语:no matter what
+- from: phrase:PEP-9-0-English:U5:even-though
+  to: concept:英语:even though
+- from: phrase:PEP-9-0-English:U5:avoid-doing-sth
+  to: concept:英语:avoid doing sth.
+- from: phrase:PEP-9-0-English:U5:find-it-adj-that从句
+  to: concept:英语:find it + adj. + that从句
+- from: phrase:PEP-9-0-English:U5:want-to-buy
+  to: concept:英语:want to buy
+- from: phrase:PEP-9-0-English:U5:have-to-do-sth
+  to: concept:英语:have to do sth.
+- from: phrase:PEP-9-0-English:U5:be-made-in-china
+  to: concept:英语:be made in
+- from: phrase:PEP-9-0-English:U5:be-made-in-china
+  to: concept:英语:be made in China
+- from: phrase:PEP-9-0-English:U5:high-technology-products
+  to: concept:英语:high-technology products
+- from: phrase:PEP-9-0-English:U5:everyday-things
+  to: concept:英语:everyday things
+- from: phrase:PEP-9-0-English:U5:all-parts-of-the-world
+  to: concept:英语:all parts of the world
+- from: phrase:PEP-9-0-English:U5:international-kite-festival
+  to: concept:英语:international kite festival
+- from: phrase:PEP-9-0-English:U5:folk-or-traditional-art
+  to: concept:英语:folk or traditional art
+- from: phrase:PEP-9-0-English:U5:folk-or-traditional-art
+  to: concept:英语:传统艺术形式
+- from: phrase:PEP-9-0-English:U5:paper-cutting
+  to: concept:英语:paper cutting
+- from: sentence:PEP-9-0-English:U5:s5
+  to: concept:英语:be produced
+- from: sentence:PEP-9-0-English:U5:s14
+  to: concept:英语:hardly
+- from: sentence:PEP-9-0-English:U5:s23
+  to: concept:英语:be produced
+- from: sentence:PEP-9-0-English:U5:s24
+  to: concept:英语:be produced
+- from: sentence:PEP-9-0-English:U5:s25
+  to: concept:英语:be produced
+- from: sentence:PEP-9-0-English:U6:s1
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s2
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s3
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s4
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s9
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s12
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s13
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s14
+  to: concept:英语:发明
+- from: sentence:PEP-9-0-English:U6:s18
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U7:be-allowed-to-do-sth
+  to: concept:英语:allow sb. to do sth.
+- from: phrase:PEP-9-0-English:U7:get-one-s-ears-pierced
+  to: concept:英语:get one's ears pierced
+- from: phrase:PEP-9-0-English:U7:talk-back
+  to: concept:英语:talk back
+- from: phrase:PEP-9-0-English:U7:keep-sb-from-danger
+  to: concept:英语:keep sb. from danger
+- from: phrase:PEP-9-0-English:U7:keep-sb-from-danger
+  to: concept:英语:keep away from
+- from: phrase:PEP-9-0-English:U7:regret-doing-sth
+  to: concept:英语:regret doing sth.
+- from: phrase:PEP-9-0-English:U7:get-in-the-way-of
+  to: concept:英语:get in the way of
+- from: phrase:PEP-9-0-English:U7:be-serious-about
+  to: concept:英语:be serious about
+- from: phrase:PEP-9-0-English:U7:have-nothing-against
+  to: concept:英语:have nothing against
+- from: phrase:PEP-9-0-English:U7:achieve-one-s-dream
+  to: concept:英语:achieve one's dream
+- from: phrase:PEP-9-0-English:U7:end-up-as
+  to: concept:英语:end up as
+- from: phrase:PEP-9-0-English:U7:care-about
+  to: concept:英语:care about
+- from: phrase:PEP-9-0-English:U7:spend-time-on
+  to: concept:英语:spend time on
+- from: phrase:PEP-9-0-English:U8:belong-to
+  to: concept:英语:belong to
+- from: sentence:PEP-9-0-English:U8:s2
+  to: concept:英语:must表肯定推测
+- from: sentence:PEP-9-0-English:U8:s3
+  to: concept:英语:can't表否定推测
+- from: sentence:PEP-9-0-English:U8:s5
+  to: concept:英语:belong to
+- from: sentence:PEP-9-0-English:U8:s6
+  to: concept:英语:must表肯定推测
+- from: sentence:PEP-9-0-English:U8:s12
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s14
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s15
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s15
+  to: concept:英语:can't表否定推测
+- from: sentence:PEP-9-0-English:U8:s16
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s21
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s21
+  to: concept:英语:must表肯定推测
+- from: sentence:PEP-9-0-English:U8:s24
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s25
+  to: concept:英语:must表肯定推测
+- from: sentence:PEP-9-0-English:U8:s27
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s28
+  to: concept:英语:Stonehenge
+- from: sentence:PEP-9-0-English:U8:s29
+  to: concept:英语:must表肯定推测
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C1-S5:镌
+  to: concept:语文:镌刻
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C1-S5:殚
+  to: concept:语文:殚精竭虑
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:严
+  to: concept:语文:严丝合缝
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:丝
+  to: concept:语文:严丝合缝
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:合
+  to: concept:语文:严丝合缝
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:缝
+  to: concept:语文:严丝合缝
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:瞠
+  to: concept:语文:瞠目结舌
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:结
+  to: concept:语文:瞠目结舌
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:舌
+  to: concept:语文:瞠目结舌
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:热
+  to: concept:语文:热泪盈眶
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:泪
+  to: concept:语文:热泪盈眶
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:盈
+  to: concept:语文:热泪盈眶
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:眶
+  to: concept:语文:热泪盈眶
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:一
+  to: concept:语文:一览无余
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:览
+  to: concept:语文:一览无余
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:无
+  to: concept:语文:一览无余
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:余
+  to: concept:语文:一览无余
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:朝
+  to: concept:语文:朝气蓬勃
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:气
+  to: concept:语文:朝气蓬勃
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:蓬
+  to: concept:语文:朝气蓬勃
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:勃
+  to: concept:语文:朝气蓬勃
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S4:镭
+  to: concept:语文:放射性
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S4:钋
+  to: concept:语文:放射性
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S4:钋
+  to: concept:语文:离析
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C3-S2:但
+  to: concept:语文:闲人
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C4:散文
+  to: concept:语文:散文
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C5-S3:瞻
+  to: concept:语文:瞻仰
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C5-S3:仰
+  to: concept:语文:瞻仰
+- from: character:PEP-8-1-Chinese:PEP-8-1-Chinese-C6-S7:浣
+  to: concept:语文:浣溪沙
+- from: word:PEP-8-2-English:U1:hobby
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U2:first-aid
+  to: concept:英语:急救知识
+- from: word:PEP-8-2-English:U3:angry
+  to: concept:英语:anger
+- from: word:PEP-8-2-English:U3:stranger
+  to: concept:英语:anger
+- from: word:PEP-8-2-English:U3:idiom
+  to: concept:英语:Idioms
+- from: word:PEP-8-2-English:U3:anger
+  to: concept:英语:anger
+- from: word:PEP-8-2-English:U3:relax
+  to: concept:英语:relax
+- from: sentence:PEP-8-2-English:U3:s1
+  to: concept:英语:although
+- from: sentence:PEP-8-2-English:U3:s1
+  to: concept:英语:until
+- from: sentence:PEP-8-2-English:U3:s2
+  to: concept:英语:until
+- from: sentence:PEP-8-2-English:U3:s4
+  to: concept:英语:if
+- from: sentence:PEP-8-2-English:U3:s5
+  to: concept:英语:if
+- from: sentence:PEP-8-2-English:U3:s7
+  to: concept:英语:although
+- from: sentence:PEP-8-2-English:U3:s9
+  to: concept:英语:if
+- from: sentence:PEP-8-2-English:U3:s11
+  to: concept:英语:although
+- from: sentence:PEP-8-2-English:U3:s11
+  to: concept:英语:anger
+- from: sentence:PEP-8-2-English:U3:s12
+  to: concept:英语:anger
+- from: sentence:PEP-8-2-English:U3:s15
+  to: concept:英语:anger
+- from: sentence:PEP-8-2-English:U3:s15
+  to: concept:英语:relax
+- from: sentence:PEP-8-2-English:U3:s17
+  to: concept:英语:anger
+- from: sentence:PEP-8-2-English:U3:s19
+  to: concept:英语:although
+- from: sentence:PEP-8-2-English:U3:s20
+  to: concept:英语:if
+- from: sentence:PEP-8-2-English:U3:s22
+  to: concept:英语:until
+- from: sentence:PEP-8-2-English:U3:s26
+  to: concept:英语:although
+- from: sentence:PEP-8-2-English:U3:s28
+  to: concept:英语:if
+- from: word:PEP-8-2-English:U4:superlative
+  to: concept:英语:形容词比较级和最高级
+- from: sentence:PEP-8-2-English:U4:s20
+  to: concept:英语:青海湖
+- from: sentence:PEP-8-2-English:U4:s21
+  to: concept:英语:亚马逊雨林
+- from: sentence:PEP-8-2-English:U4:s21
+  to: concept:英语:The Amazon Rainforest
+- from: word:PEP-8-2-English:U5:tsunami
+  to: concept:英语:海啸
+- from: phrase:PEP-8-2-English:U5:natural-disaster
+  to: concept:英语:自然灾害
+- from: sentence:PEP-8-2-English:U5:s29
+  to: concept:英语:海啸
+- from: word:PEP-8-2-English:U6:surprised
+  to: concept:英语:surprised vs surprising
+- from: word:PEP-8-2-English:U6:surprising
+  to: concept:英语:surprised vs surprising
+- from: word:PEP-8-2-English:U6:embarrassed
+  to: concept:英语:embarrassed vs embarrassing
+- from: word:PEP-8-2-English:U6:embarrassing
+  to: concept:英语:embarrassed vs embarrassing
+- from: phrase:PEP-8-2-English:U6:table-manners
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:as-soon-as
+  to: concept:英语:as soon as
+- from: phrase:PEP-8-2-English:U6:so-that
+  to: concept:英语:so...that...
+- from: phrase:PEP-8-2-English:U6:topic-sentence
+  to: concept:英语:topic sentence
+- from: sentence:PEP-8-2-English:U6:s3
+  to: concept:英语:unless
+- from: sentence:PEP-8-2-English:U6:s9
+  to: concept:英语:unless
+- from: sentence:PEP-8-2-English:U6:s13
+  to: concept:英语:unless
+- from: sentence:PEP-8-2-English:U6:s17
+  to: concept:英语:unless
+- from: phrase:PEP-8-2-English:U7:reading-log
+  to: concept:英语:阅读日志
+- from: word:PEP-8-2-English:U8:volunteer
+  to: concept:英语:Volunteer
+- from: word:PEP-8-2-English:U8:sneeze
+  to: concept:英语:Sneezing
+- from: word:PEP-8-2-English:U8:germ
+  to: concept:英语:Germs
+- from: word:PEP-8-2-English:U8:allergy
+  to: concept:英语:Allergy
+- from: word:PEP-8-2-English:U8:allergic
+  to: concept:英语:Allergy
+- from: word:PEP-8-2-English:U8:laugh
+  to: concept:英语:Laughter
+- from: word:PEP-8-2-English:U8:giggle
+  to: concept:英语:Laughter
+- from: word:PEP-8-2-English:U8:oxygen
+  to: concept:英语:Oxygen
+- from: word:PEP-8-2-English:U8:chemical
+  to: concept:英语:Chemicals
+- from: word:PEP-8-2-English:U8:adapt
+  to: concept:英语:Adaptation
+- from: word:PEP-8-2-English:U8:tornado
+  to: concept:英语:Tornado
+- from: word:PEP-8-2-English:U8:tornado
+  to: concept:英语:Dragon as a cultural symbol
+- from: word:PEP-8-2-English:U8:shoulder
+  to: concept:英语:should
+- from: word:PEP-8-2-English:U8:kid
+  to: concept:英语:Laughter
+- from: phrase:PEP-8-2-English:U8:volunteer-work
+  to: concept:英语:Volunteer
+- from: phrase:PEP-8-2-English:U8:volunteer-work
+  to: concept:英语:Volunteer Work
+- from: phrase:PEP-8-2-English:U8:make-a-difference
+  to: concept:英语:Making a Difference
+- from: phrase:PEP-8-2-English:U8:call-to-action
+  to: concept:英语:演讲的结构
+- from: phrase:PEP-8-2-English:U8:call-to-action
+  to: concept:英语:行动呼吁（call to action）
+- from: phrase:PEP-8-2-English:U8:be-allergic-to
+  to: concept:英语:Allergy
+- from: phrase:PEP-8-2-English:U8:laughing-group
+  to: concept:英语:Laughter
+- from: phrase:PEP-8-2-English:U8:adapt-to
+  to: concept:英语:Adaptation
+- from: phrase:PEP-8-2-English:U8:the-descendants-of-the-dragon
+  to: concept:英语:Dragon as a cultural symbol
+- from: phrase:PEP-8-2-English:U8:in-the-red
+  to: concept:英语:Red ink / in the red
+- from: phrase:PEP-8-2-English:U8:red-ink
+  to: concept:英语:Red ink / in the red
+- from: phrase:PEP-8-2-English:U8:therapy-dog
+  to: concept:英语:Therapy Dog
+- from: phrase:PEP-8-2-English:U8:the-sahara-desert
+  to: concept:英语:Sahara Desert
+- from: phrase:PEP-8-2-English:U8:all-smiles
+  to: concept:英语:Laughter
+- from: sentence:PEP-8-2-English:U8:s1
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s8
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s9
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s18
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s19
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s22
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s23
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s25
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s26
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s27
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s28
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s30
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s41
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s43
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s44
+  to: concept:英语:Volunteer
+- from: sentence:PEP-8-2-English:U8:s62
+  to: concept:英语:Sneezing
+- from: sentence:PEP-8-2-English:U8:s62
+  to: concept:英语:Germs
+- from: sentence:PEP-8-2-English:U8:s64
+  to: concept:英语:Germs
+- from: sentence:PEP-8-2-English:U8:s65
+  to: concept:英语:Sneezing
+- from: sentence:PEP-8-2-English:U8:s66
+  to: concept:英语:Laughter
+- from: sentence:PEP-8-2-English:U8:s67
+  to: concept:英语:Laughter
+- from: sentence:PEP-8-2-English:U8:s67
+  to: concept:英语:Oxygen
+- from: sentence:PEP-8-2-English:U8:s68
+  to: concept:英语:Laughter
+- from: sentence:PEP-8-2-English:U8:s69
+  to: concept:英语:Laughter
+- from: sentence:PEP-8-2-English:U8:s70
+  to: concept:英语:Sahara Desert
+- from: sentence:PEP-8-2-English:U8:s75
+  to: concept:英语:Tornado
+- from: sentence:PEP-8-2-English:U8:s75
+  to: concept:英语:Dragon as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s76
+  to: concept:英语:Tornado
+- from: sentence:PEP-8-2-English:U8:s76
+  to: concept:英语:Dragon as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s80
+  to: concept:英语:Dragon as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s81
+  to: concept:英语:Dragon as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s82
+  to: concept:英语:Red as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s83
+  to: concept:英语:Red as a cultural symbol
+- from: sentence:PEP-8-2-English:U8:s91
+  to: concept:英语:Lucky numbers
+- from: sentence:PEP-8-2-English:U8:s91
+  to: concept:英语:Lucky numbers in Chinese culture
+- from: sentence:PEP-8-2-English:U8:s104
+  to: concept:英语:should
+- from: sentence:PEP-8-2-English:U8:s105
+  to: concept:英语:should
+- from: sentence:PEP-8-2-English:U8:s105
+  to: concept:英语:shouldn't
+- from: sentence:PEP-8-2-English:U8:s106
+  to: concept:英语:should
+- from: sentence:PEP-8-2-English:U8:s107
+  to: concept:英语:should
+- from: sentence:PEP-8-2-English:U8:s114
+  to: concept:英语:should
+- from: sentence:PEP-8-2-English:U8:s125
+  to: concept:英语:演讲的结构
+- from: sentence:PEP-8-2-English:U8:s125
+  to: concept:英语:演讲的钩子（hook）
+- from: sentence:PEP-8-2-English:U8:s128
+  to: concept:英语:should
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:省
+  to: concept:语文:归省
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:撺
+  to: concept:语文:撺掇
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:掇
+  to: concept:语文:撺掇
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:凫
+  to: concept:语文:凫水
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:蕴
+  to: concept:语文:蕴藻
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:藻
+  to: concept:语文:蕴藻
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C1-S1:叉
+  to: concept:语文:叉港
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C5-S1:告诫
+  to: concept:语文:壶口瀑布
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C5-S3:筑
+  to: concept:语文:四方街
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C5-S3:霞
+  to: concept:语文:徐霞客
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C5-S3:客
+  to: concept:语文:徐霞客
+- from: character:PEP-8-2-Chinese:PEP-8-2-Chinese-C6-S1:濠
+  to: concept:语文:庄子
+- from: word:PEP-7-1-English:U1:hello
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:hi
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:good-morning
+  to: concept:英语:问候语
+- from: sentence:PEP-7-1-English:U1:s1
+  to: concept:英语:问候语
+- from: sentence:PEP-7-1-English:U1:s2
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:my-name-is
+  to: concept:英语:自我介绍
+- from: sentence:PEP-7-1-English:U1:s3
+  to: concept:英语:自我介绍
+- from: sentence:PEP-7-1-English:U1:s4
+  to: concept:英语:自我介绍
+- from: phrase:PEP-7-1-English:U1:what-s-your-name
+  to: concept:英语:询问姓名
+- from: sentence:PEP-7-1-English:U1:s5
+  to: concept:英语:询问姓名
+- from: phrase:PEP-7-1-English:U1:may-i-have-your-name
+  to: concept:英语:询问姓名
+- from: phrase:PEP-7-1-English:U1:how-do-you-spell-your-name
+  to: concept:英语:拼写姓名
+- from: word:PEP-7-1-English:U1:spell
+  to: concept:英语:拼写姓名
+- from: phrase:PEP-7-1-English:U1:nice-to-meet-you-too
+  to: concept:英语:问候语
+- from: sentence:PEP-7-1-English:U1:s6
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:how-are-you
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:i-m-fine-thank-you
+  to: concept:英语:问候语
+- from: sentence:PEP-7-1-English:U1:s7
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:name
+  to: concept:英语:自我介绍
+- from: word:PEP-7-1-English:U1:meet
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:nice
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:class
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:please
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:sit-down
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:down
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:everyone
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:what
+  to: concept:英语:询问姓名
+- from: word:PEP-7-1-English:U1:your
+  to: concept:英语:询问姓名
+- from: phrase:PEP-7-1-English:U1:i-m-fine-thank-you
+  to: concept:英语:自我介绍
+- from: word:PEP-7-1-English:U1:am
+  to: concept:英语:自我介绍
+- from: word:PEP-7-1-English:U1:you
+  to: concept:英语:询问姓名
+- from: word:PEP-7-1-English:U1:too
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:say-hi-to
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:each-other
+  to: concept:英语:问候语
+- from: phrase:PEP-7-1-English:U1:how-do-you-spell-your-name
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:are
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:fine
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:thank
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:call
+  to: concept:英语:自我介绍
+- from: word:PEP-7-1-English:U1:good
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U1:morning
+  to: concept:英语:问候语
+- from: word:PEP-7-1-English:U10:january
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:february
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:march
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:april
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:may
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:june
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:july
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:august
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:september
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:october
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:november
+  to: concept:英语:月份表达
+- from: word:PEP-7-1-English:U10:december
+  to: concept:英语:月份表达
+- from: phrase:PEP-7-1-English:U10:birthday-gift
+  to: concept:英语:生日庆祝活动
+- from: word:PEP-7-1-English:U10:cake
+  to: concept:英语:生日庆祝活动
+- from: word:PEP-7-1-English:U10:candle
+  to: concept:英语:生日庆祝活动
+- from: word:PEP-7-1-English:U10:gift
+  to: concept:英语:生日庆祝活动
+- from: word:PEP-7-1-English:U10:party
+  to: concept:英语:生日庆祝活动
+- from: word:PEP-7-1-English:U10:surprise
+  to: concept:英语:生日庆祝活动
+- from: phrase:PEP-7-1-English:U10:how-old-are-you
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:when
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:what
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:who
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:where
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:why
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:old
+  to: concept:英语:询问年龄
+- from: word:PEP-7-1-English:U10:many
+  to: concept:英语:特殊疑问词
+- from: word:PEP-7-1-English:U10:much
+  to: concept:英语:特殊疑问词
+- from: phrase:PEP-7-1-English:U10:how-old-are-you
+  to: concept:英语:询问年龄
+- from: phrase:PEP-7-1-English:U10:when-is-your-birthday
+  to: concept:英语:询问生日
+- from: phrase:PEP-7-1-English:U10:it-s-on
+  to: concept:英语:日期表达
+- from: phrase:PEP-7-1-English:U10:can-i-help-you
+  to: concept:英语:购物用语
+- from: phrase:PEP-7-1-English:U10:how-much-is-are
+  to: concept:英语:购物用语
+- from: phrase:PEP-7-1-English:U10:how-many-do-you-want
+  to: concept:英语:购物用语
+- from: phrase:PEP-7-1-English:U10:here-you-are
+  to: concept:英语:购物用语
+- from: phrase:PEP-7-1-English:U10:have-a-nice-day
+  to: concept:英语:购物用语
+- from: phrase:PEP-7-1-English:U10:surprise-party
+  to: concept:英语:生日庆祝活动
+- from: phrase:PEP-7-1-English:U10:birthday-cake
+  to: concept:英语:生日庆祝活动
+- from: phrase:PEP-7-1-English:U10:shopping-list
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s10
+  to: concept:英语:询问生日
+- from: sentence:PEP-7-1-English:U10:s2
+  to: concept:英语:日期表达
+- from: sentence:PEP-7-1-English:U10:s3
+  to: concept:英语:询问年龄
+- from: sentence:PEP-7-1-English:U10:s4
+  to: concept:英语:询问年龄
+- from: sentence:PEP-7-1-English:U10:s5
+  to: concept:英语:特殊疑问词
+- from: sentence:PEP-7-1-English:U10:s6
+  to: concept:英语:生日庆祝活动
+- from: sentence:PEP-7-1-English:U10:s7
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s8
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s9
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s10
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s11
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s12
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s13
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s14
+  to: concept:英语:生日庆祝活动
+- from: sentence:PEP-7-1-English:U10:s15
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s16
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s17
+  to: concept:英语:购物用语
+- from: sentence:PEP-7-1-English:U10:s18
+  to: concept:英语:购物用语
+- from: word:PEP-7-1-English:U10:meaningful
+  to: concept:英语:有意义的活动
+- from: word:PEP-7-1-English:U10:symbol
+  to: concept:英语:生日意义
+- from: word:PEP-7-1-English:U10:photo
+  to: concept:英语:有意义的活动
+- from: word:PEP-7-1-English:U10:plant
+  to: concept:英语:有意义的活动
+- from: word:PEP-7-1-English:U10:grow
+  to: concept:英语:有意义的活动
+- from: word:PEP-7-1-English:U10:favourite
+  to: concept:英语:有意义的活动
+- from: sentence:PEP-7-1-English:U2:s1
+  to: concept:英语:特殊疑问句 What do you have?
+- from: sentence:PEP-7-1-English:U2:s2
+  to: concept:英语:特殊疑问句 What do you have?
+- from: sentence:PEP-7-1-English:U2:s2
+  to: concept:英语:描述所有物的句型
+- from: sentence:PEP-7-1-English:U2:s3
+  to: concept:英语:Where 引导的特殊疑问句
+- from: sentence:PEP-7-1-English:U2:s4
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U2:s4
+  to: concept:英语:介词 in/on/under
+- from: sentence:PEP-7-1-English:U2:s5
+  to: concept:英语:介词 in/on/under
+- from: sentence:PEP-7-1-English:U2:s6
+  to: concept:英语:特殊疑问句 What colour is/are...?
+- from: sentence:PEP-7-1-English:U2:s6
+  to: concept:英语:询问颜色的句型
+- from: sentence:PEP-7-1-English:U2:s7
+  to: concept:英语:特殊疑问句 What colour is/are...?
+- from: sentence:PEP-7-1-English:U2:s7
+  to: concept:英语:询问颜色的句型
+- from: sentence:PEP-7-1-English:U2:s8
+  to: concept:英语:介词 in/on/under
+- from: sentence:PEP-7-1-English:U2:s8
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U2:s9
+  to: concept:英语:be动词的用法
+- from: phrase:PEP-7-1-English:U2:in-your-schoolbag
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:on-the-desk
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:under-the-bed
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:a-pair-of-socks
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U2:a-pair-of-socks
+  to: concept:英语:名词单复数
+- from: phrase:PEP-7-1-English:U2:keep-your-room-tidy
+  to: concept:英语:祈使句 Keep your room tidy.
+- from: word:PEP-7-1-English:U2:colour
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:brown
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:black
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:yellow
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:orange
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:green
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:blue
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:white
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:red
+  to: concept:英语:颜色词汇
+- from: word:PEP-7-1-English:U2:trousers
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U2:trousers
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:shoes
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U2:shoes
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:glasses
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U2:glasses
+  to: concept:英语:名词单复数
+- from: phrase:PEP-7-1-English:U2:on-your-head
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:on-the-chair
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:under-the-desk
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:in-the-schoolbag
+  to: concept:英语:介词 in/on/under
+- from: phrase:PEP-7-1-English:U2:a-pair-of
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U2:a-pair-of
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:where
+  to: concept:英语:Where 引导的特殊疑问句
+- from: word:PEP-7-1-English:U2:schoolbag
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:cap
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:bottle
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:ruler
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:eraser
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:pencil
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:key
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:bed
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:desk
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:chair
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:book
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:shoe
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:box
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:sock
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:bicycle
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:kite
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:bike
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:clock
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:plane
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:lake
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:rose
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:student
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:pupil
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:home
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:time
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:game
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:rice
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:music
+  to: concept:英语:名词单复数
+- from: word:PEP-7-1-English:U2:weather
+  to: concept:英语:名词单复数
+- from: sentence:PEP-7-1-English:U3:s1
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s2
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s3
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s4
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s5
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s6
+  to: concept:英语:指示代词 this/that 与 these/those
+- from: sentence:PEP-7-1-English:U3:s7
+  to: concept:英语:特殊疑问句 How many
+- from: sentence:PEP-7-1-English:U3:s7
+  to: concept:英语:基数词 1-20
+- from: sentence:PEP-7-1-English:U3:s8
+  to: concept:英语:特殊疑问句 How many
+- from: sentence:PEP-7-1-English:U3:s8
+  to: concept:英语:基数词 1-20
+- from: sentence:PEP-7-1-English:U3:s9
+  to: concept:英语:名词复数
+- from: sentence:PEP-7-1-English:U3:s10
+  to: concept:英语:名词复数
+- from: sentence:PEP-7-1-English:U3:s11
+  to: concept:英语:描述农场
+- from: sentence:PEP-7-1-English:U3:s12
+  to: concept:英语:特殊疑问句 What...? 与 How many...?
+- from: sentence:PEP-7-1-English:U3:s12
+  to: concept:英语:描述农场
+- from: phrase:PEP-7-1-English:U3:baby-chickens
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:tomato-plants
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:apple-trees
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:black-and-white-cows
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:brown-ducks
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:a-small-lake
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:white-horses
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:black-rabbits
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:white-sheep
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:a-red-house
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:big-trees
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:many-kinds-of
+  to: concept:英语:名词复数
+- from: phrase:PEP-7-1-English:U3:let-me-count
+  to: concept:英语:祈使句
+- from: phrase:PEP-7-1-English:U3:behind-the-big-tree
+  to: concept:英语:描述农场
+- from: phrase:PEP-7-1-English:U3:in-the-yard
+  to: concept:英语:描述农场
+- from: phrase:PEP-7-1-English:U3:on-the-farm
+  to: concept:英语:描述农场
+- from: word:PEP-7-1-English:U3:cat
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:bed
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:hot
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:cup
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:map
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:pet
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:sing
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:he
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:ten
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:name
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:these
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:not
+  to: concept:英语:元音字母的短音发音
+- from: word:PEP-7-1-English:U3:tube
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:note
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:joke
+  to: concept:英语:元音字母的长音发音
+- from: word:PEP-7-1-English:U3:dog
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:rabbit
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:tomato
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:plant
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:flower
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:apple
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:tree
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:yard
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:farm
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:cow
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:duck
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:horse
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:sheep
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:pig
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:goose
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:grass
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:lake
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:house
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:home
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:beautiful
+  to: concept:英语:描述农场
+- from: word:PEP-7-1-English:U3:green
+  to: concept:英语:颜色询问
+- from: phrase:PEP-7-1-English:U3:black-rabbits
+  to: concept:英语:颜色询问
+- from: phrase:PEP-7-1-English:U3:white-horses
+  to: concept:英语:颜色询问
+- from: phrase:PEP-7-1-English:U3:brown-ducks
+  to: concept:英语:颜色询问
+- from: word:PEP-7-1-English:U3:red
+  to: concept:英语:颜色询问
+- from: word:PEP-7-1-English:U3:pink
+  to: concept:英语:颜色询问
+- from: phrase:PEP-7-1-English:U3:big-trees
+  to: concept:英语:描述农场
+- from: word:PEP-7-1-English:U3:small
+  to: concept:英语:描述农场
+- from: word:PEP-7-1-English:U3:many
+  to: concept:英语:基数词 1-20
+- from: word:PEP-7-1-English:U3:kind
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:count
+  to: concept:英语:祈使句
+- from: word:PEP-7-1-English:U3:see
+  to: concept:英语:特殊疑问句 What...? 与 How many...?
+- from: word:PEP-7-1-English:U3:have
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U3:like
+  to: concept:英语:特殊疑问句 What...? 与 How many...?
+- from: word:PEP-7-1-English:U3:welcome
+  to: concept:英语:祈使句
+- from: word:PEP-7-1-English:U4:full
+  to: concept:英语:姓氏与名字
+- from: word:PEP-7-1-English:U4:name
+  to: concept:英语:询问个人信息
+- from: word:PEP-7-1-English:U4:name
+  to: concept:英语:姓氏与名字
+- from: word:PEP-7-1-English:U4:class
+  to: concept:英语:询问个人信息
+- from: word:PEP-7-1-English:U4:grade
+  to: concept:英语:询问个人信息
+- from: word:PEP-7-1-English:U4:last
+  to: concept:英语:姓氏与名字
+- from: phrase:PEP-7-1-English:U4:first-name
+  to: concept:英语:姓氏与名字
+- from: word:PEP-7-1-English:U4:teacher
+  to: concept:英语:自我介绍与介绍他人
+- from: word:PEP-7-1-English:U4:friend
+  to: concept:英语:交朋友
+- from: word:PEP-7-1-English:U4:classmate
+  to: concept:英语:自我介绍与介绍他人
+- from: word:PEP-7-1-English:U4:mistake
+  to: concept:英语:一般疑问句及其回答
+- from: phrase:PEP-7-1-English:U4:nice-to-meet-you
+  to: concept:英语:自我介绍与介绍他人
+- from: phrase:PEP-7-1-English:U4:nice-to-meet-you
+  to: concept:英语:交朋友
+- from: phrase:PEP-7-1-English:U4:may-i-have-your-name
+  to: concept:英语:询问个人信息
+- from: phrase:PEP-7-1-English:U4:how-do-you-spell-your-name
+  to: concept:英语:询问个人信息
+- from: phrase:PEP-7-1-English:U4:how-old-are-you
+  to: concept:英语:询问个人信息
+- from: phrase:PEP-7-1-English:U4:where-are-you-from
+  to: concept:英语:询问个人信息
+- from: phrase:PEP-7-1-English:U4:what-class-are-you-in
+  to: concept:英语:询问个人信息
+- from: phrase:PEP-7-1-English:U4:full-name
+  to: concept:英语:姓氏与名字
+- from: phrase:PEP-7-1-English:U4:last-name
+  to: concept:英语:姓氏与名字
+- from: phrase:PEP-7-1-English:U4:class-teacher
+  to: concept:英语:自我介绍与介绍他人
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:询问个人信息
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:特殊疑问句
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:缩略形式
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s1
+  to: concept:英语:简单现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:缩略形式
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s2
+  to: concept:英语:简单现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:询问个人信息
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s3
+  to: concept:英语:简单现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s4
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s4
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s4
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s4
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s4
+  to: concept:英语:简单现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s5
+  to: concept:英语:自我介绍与介绍他人
+- from: sentence:PEP-7-1-English:U4:s5
+  to: concept:英语:交朋友
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:询问个人信息
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:特殊疑问句
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s6
+  to: concept:英语:简单现在时（be动词）
+- from: word:PEP-7-1-English:U4:profile
+  to: concept:英语:自我介绍与介绍他人
+- from: word:PEP-7-1-English:U4:hobby
+  to: concept:英语:like/love+名词/动名词
+- from: phrase:PEP-7-1-English:U4:favourite-food
+  to: concept:英语:like/love+名词/动名词
+- from: word:PEP-7-1-English:U4:pet
+  to: concept:英语:like/love+名词/动名词
+- from: word:PEP-7-1-English:U4:band
+  to: concept:英语:like/love+名词/动名词
+- from: word:PEP-7-1-English:U4:guitar
+  to: concept:英语:like/love+名词/动名词
+- from: word:PEP-7-1-English:U4:weekend
+  to: concept:英语:一般现在时（be动词）
+- from: word:PEP-7-1-English:U4:introduce
+  to: concept:英语:自我介绍与介绍他人
+- from: phrase:PEP-7-1-English:U4:be-from
+  to: concept:英语:be动词的用法
+- from: phrase:PEP-7-1-English:U4:be-from
+  to: concept:英语:一般现在时（be动词）
+- from: phrase:PEP-7-1-English:U4:be-from
+  to: concept:英语:Present simple tense
+- from: phrase:PEP-7-1-English:U4:be-from
+  to: concept:英语:be动词（am/is/are）
+- from: phrase:PEP-7-1-English:U4:be-from
+  to: concept:英语:简单现在时（be动词）
+- from: phrase:PEP-7-1-English:U4:live-in
+  to: concept:英语:一般现在时（be动词）
+- from: phrase:PEP-7-1-English:U4:live-in
+  to: concept:英语:Present simple tense
+- from: phrase:PEP-7-1-English:U4:play-the-guitar
+  to: concept:英语:like/love+名词/动名词
+- from: phrase:PEP-7-1-English:U4:favourite-place
+  to: concept:英语:like/love+名词/动名词
+- from: phrase:PEP-7-1-English:U4:personal-profile
+  to: concept:英语:自我介绍与介绍他人
+- from: phrase:PEP-7-1-English:U4:would-like-to
+  to: concept:英语:一般现在时（be动词）
+- from: phrase:PEP-7-1-English:U4:would-like-to
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:交朋友
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:be动词的用法
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:be动词（am/is/are）
+- from: sentence:PEP-7-1-English:U4:s7
+  to: concept:英语:简单现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s8
+  to: concept:英语:一般现在时（be动词）
+- from: sentence:PEP-7-1-English:U4:s8
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U4:s8
+  to: concept:英语:like/love+名词/动名词
+- from: word:PEP-7-1-English:U5:grandmother
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:grandfather
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:cousin
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:aunt
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:uncle
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:sister
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:brother
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:family
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:grandpa
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:grandma
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:parent
+  to: concept:英语:家庭关系词汇
+- from: word:PEP-7-1-English:U5:grandchild
+  to: concept:英语:家庭关系词汇
+- from: sentence:PEP-7-1-English:U5:s19
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U5:s19
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s20
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U5:s20
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s3
+  to: concept:英语:特殊疑问句
+- from: sentence:PEP-7-1-English:U5:s3
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s4
+  to: concept:英语:特殊疑问句
+- from: sentence:PEP-7-1-English:U5:s4
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s5
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s5
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s6
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s6
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s7
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s7
+  to: concept:英语:询问和描述家庭成员的句型
+- from: sentence:PEP-7-1-English:U5:s8
+  to: concept:英语:特殊疑问词Whose
+- from: sentence:PEP-7-1-English:U5:s8
+  to: concept:英语:特殊疑问句
+- from: sentence:PEP-7-1-English:U5:s9
+  to: concept:英语:名词所有格
+- from: sentence:PEP-7-1-English:U5:s10
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s10
+  to: concept:英语:助动词do/does
+- from: sentence:PEP-7-1-English:U5:s10
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U5:s11
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s11
+  to: concept:英语:助动词do/does
+- from: sentence:PEP-7-1-English:U5:s12
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s12
+  to: concept:英语:助动词do/does
+- from: sentence:PEP-7-1-English:U5:s13
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s13
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s14
+  to: concept:英语:描述人物外貌和性格
+- from: sentence:PEP-7-1-English:U5:s14
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: sentence:PEP-7-1-English:U5:s15
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s15
+  to: concept:英语:动词第三人称单数形式
+- from: sentence:PEP-7-1-English:U5:s16
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s16
+  to: concept:英语:动词第三人称单数形式
+- from: sentence:PEP-7-1-English:U5:s17
+  to: concept:英语:一般现在时（do）
+- from: sentence:PEP-7-1-English:U5:s18
+  to: concept:英语:描述人物外貌和性格
+- from: sentence:PEP-7-1-English:U5:s18
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: sentence:PEP-7-1-English:U5:s19
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s20
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s21
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U5:s21
+  to: concept:英语:询问和描述家庭成员的句型
+- from: word:PEP-7-1-English:U5:funny
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:quiet
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:different
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:beautiful
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:handsome
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:kind
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-7-1-English:U5:laugh
+  to: concept:英语:描述人物外貌和性格
+- from: phrase:PEP-7-1-English:U5:make-sb-laugh
+  to: concept:英语:描述人物外貌和性格
+- from: phrase:PEP-7-1-English:U5:play-the-piano
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-basketball
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-the-erhu
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-tennis
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-the-violin
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-chess
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:play-ping-pong
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:every-day
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:every-week
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:spend-time-doing-sth
+  to: concept:英语:一般现在时（do）
+- from: phrase:PEP-7-1-English:U5:on-the-left
+  to: concept:英语:介绍家庭成员
+- from: phrase:PEP-7-1-English:U5:on-the-right
+  to: concept:英语:介绍家庭成员
+- from: phrase:PEP-7-1-English:U5:in-the-middle
+  to: concept:英语:介绍家庭成员
+- from: sentence:PEP-7-1-English:U6:s10
+  to: concept:英语:Where 引导的特殊疑问句
+- from: sentence:PEP-7-1-English:U6:s24
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s3
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U6:s3
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s3
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s4
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U6:s5
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s5
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s5
+  to: concept:英语:名词复数
+- from: sentence:PEP-7-1-English:U6:s6
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s7
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s7
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s7
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s8
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U6:s8
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s8
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s9
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U6:s10
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U6:s11
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s11
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s11
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s12
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s12
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s12
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s13
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s13
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s13
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s14
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s14
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s14
+  to: concept:英语:名词复数
+- from: sentence:PEP-7-1-English:U6:s15
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s16
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s16
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s16
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s17
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U6:s17
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s17
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s18
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U6:s18
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s19
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-7-1-English:U6:s19
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s19
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s19
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s20
+  to: concept:英语:一般疑问句及其回答
+- from: sentence:PEP-7-1-English:U6:s20
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s20
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s21
+  to: concept:英语:Where 引导的特殊疑问句
+- from: sentence:PEP-7-1-English:U6:s22
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s23
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s23
+  to: concept:英语:there be 句型
+- from: sentence:PEP-7-1-English:U6:s23
+  to: concept:英语:方位介词
+- from: sentence:PEP-7-1-English:U6:s23
+  to: concept:英语:形容词描述地点
+- from: sentence:PEP-7-1-English:U6:s24
+  to: concept:英语:there be 结构
+- from: sentence:PEP-7-1-English:U6:s24
+  to: concept:英语:there be 句型
+- from: word:PEP-7-1-English:U6:library
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:student-centre
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:gym
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:art-building
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:classroom-building
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:dining-hall
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:teachers-building
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:sports-field
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:school-hall
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:science-building
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:music-hall
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:office
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:blackboard
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:whiteboard
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:locker
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:desk
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:drawer
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:notice
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:large
+  to: concept:英语:形容词描述地点
+- from: word:PEP-7-1-English:U6:special
+  to: concept:英语:形容词描述地点
+- from: word:PEP-7-1-English:U6:important
+  to: concept:英语:形容词描述地点
+- from: word:PEP-7-1-English:U6:behind
+  to: concept:英语:方位介词
+- from: word:PEP-7-1-English:U6:between
+  to: concept:英语:方位介词
+- from: phrase:PEP-7-1-English:U6:across-from
+  to: concept:英语:方位介词
+- from: phrase:PEP-7-1-English:U6:next-to
+  to: concept:英语:方位介词
+- from: word:PEP-7-1-English:U6:in-front-of
+  to: concept:英语:方位介词
+- from: word:PEP-7-1-English:U6:smart-whiteboard
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:chair
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:clock
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:map
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:computer
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:plant
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:reading-corner
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:bookcase
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:window
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:picture
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:wall
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:screen
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:corner
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:table
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:flower
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:tree
+  to: concept:英语:名词复数
+- from: word:PEP-7-1-English:U6:famous
+  to: concept:英语:形容词描述地点
+- from: phrase:PEP-7-1-English:U6:under
+  to: concept:英语:方位介词
+- from: phrase:PEP-7-1-English:U6:on-the-wall
+  to: concept:英语:方位介词
+- from: phrase:PEP-7-1-English:U6:in-the-corner
+  to: concept:英语:方位介词
+- from: phrase:PEP-7-1-English:U6:there-be
+  to: concept:英语:there be 结构
+- from: phrase:PEP-7-1-English:U6:there-be
+  to: concept:英语:there be 句型
+- from: word:PEP-7-1-English:U7:subject
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:subject
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:favourite
+  to: concept:英语:表达喜好和原因
+- from: word:PEP-7-1-English:U7:favourite
+  to: concept:英语:Favourite Subject
+- from: word:PEP-7-1-English:U7:because
+  to: concept:英语:连词 because
+- from: word:PEP-7-1-English:U7:because
+  to: concept:英语:连词 and, but, because
+- from: word:PEP-7-1-English:U7:because
+  to: 'concept:英语:Conjunctions: and, but, because'
+- from: word:PEP-7-1-English:U7:because
+  to: concept:英语:because引导的原因状语从句
+- from: word:PEP-7-1-English:U7:because
+  to: concept:英语:Expressing Reasons
+- from: word:PEP-7-1-English:U7:interesting
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:interesting
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:boring
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:boring
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:difficult
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:difficult
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:easy
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:easy
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:useful
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:useful
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:exciting
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:exciting
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:history
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:history
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:geography
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:geography
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:biology
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:biology
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:maths
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:maths
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:art
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:art
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:music
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:music
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:pe
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:pe
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:it
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:it
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:chinese
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:chinese
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:english
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:english
+  to: concept:英语:School Subjects
+- from: phrase:PEP-7-1-English:U7:favourite-subject
+  to: concept:英语:Favourite Subject
+- from: phrase:PEP-7-1-English:U7:be-good-with
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:help-sb-with-sth
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:learn-about
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:get-up
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:be-late-for
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-7-1-English:U7:s1
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-7-1-English:U7:s1
+  to: concept:英语:Favourite Subject
+- from: sentence:PEP-7-1-English:U7:s2
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-7-1-English:U7:s2
+  to: concept:英语:Favourite Subject
+- from: sentence:PEP-7-1-English:U7:s3
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-7-1-English:U7:s3
+  to: concept:英语:Expressing Reasons
+- from: sentence:PEP-7-1-English:U7:s4
+  to: concept:英语:because引导的原因状语从句
+- from: sentence:PEP-7-1-English:U7:s4
+  to: concept:英语:连词 because
+- from: sentence:PEP-7-1-English:U7:s4
+  to: concept:英语:连词 and, but, because
+- from: sentence:PEP-7-1-English:U7:s4
+  to: 'concept:英语:Conjunctions: and, but, because'
+- from: sentence:PEP-7-1-English:U7:s4
+  to: concept:英语:Expressing Reasons
+- from: sentence:PEP-7-1-English:U7:s5
+  to: concept:英语:连词 and
+- from: sentence:PEP-7-1-English:U7:s5
+  to: concept:英语:连词 but
+- from: sentence:PEP-7-1-English:U7:s5
+  to: concept:英语:连词 and, but, because
+- from: sentence:PEP-7-1-English:U7:s5
+  to: 'concept:英语:Conjunctions: and, but, because'
+- from: sentence:PEP-7-1-English:U7:s5
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-7-1-English:U7:s6
+  to: concept:英语:连词 and
+- from: sentence:PEP-7-1-English:U7:s6
+  to: concept:英语:连词 and, but, because
+- from: sentence:PEP-7-1-English:U7:s6
+  to: 'concept:英语:Conjunctions: and, but, because'
+- from: sentence:PEP-7-1-English:U7:s6
+  to: concept:英语:Adjectives to Describe Subjects
+- from: sentence:PEP-7-1-English:U7:s6
+  to: concept:英语:形容词描述科目
+- from: sentence:PEP-7-1-English:U7:s7
+  to: concept:英语:表达喜好和原因
+- from: word:PEP-7-1-English:U7:important
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:important
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:fun
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:fun
+  to: concept:英语:形容词描述科目
+- from: phrase:PEP-7-1-English:U7:school-subjects
+  to: concept:英语:School Subjects
+- from: phrase:PEP-7-1-English:U7:school-subjects
+  to: concept:英语:学科词汇
+- from: phrase:PEP-7-1-English:U7:listen-to
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:pay-attention-to
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:role-play
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:be-good-at
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:listen-to-music
+  to: concept:英语:表达喜好和原因
+- from: phrase:PEP-7-1-English:U7:draw-pictures
+  to: concept:英语:表达喜好和原因
+- from: word:PEP-7-1-English:U7:french
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:french
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:science
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:science
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:gym
+  to: concept:英语:学科词汇
+- from: word:PEP-7-1-English:U7:gym
+  to: concept:英语:School Subjects
+- from: word:PEP-7-1-English:U7:excellent
+  to: concept:英语:Adjectives to Describe Subjects
+- from: word:PEP-7-1-English:U7:excellent
+  to: concept:英语:形容词描述科目
+- from: word:PEP-7-1-English:U7:singer
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U7:scientist
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U7:future
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U7:term
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U7:problem
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U7:magic
+  to: concept:英语:Future Career
+- from: phrase:PEP-7-1-English:U7:work-out
+  to: concept:英语:Future Career
+- from: phrase:PEP-7-1-English:U7:in-the-future
+  to: concept:英语:Future Career
+- from: phrase:PEP-7-1-English:U7:all-kinds-of
+  to: concept:英语:Future Career
+- from: phrase:PEP-7-1-English:U7:feel-like
+  to: concept:英语:Future Career
+- from: word:PEP-7-1-English:U8:club
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:join
+  to: concept:英语:询问和表达能力
+- from: word:PEP-7-1-English:U8:can
+  to: concept:英语:情态动词 can
+- from: word:PEP-7-1-English:U8:can
+  to: concept:英语:情态动词can表能力
+- from: word:PEP-7-1-English:U8:can-t
+  to: concept:英语:情态动词can表能力
+- from: phrase:PEP-7-1-English:U8:play-the-guitar
+  to: concept:英语:情态动词can表能力
+- from: word:PEP-7-1-English:U8:chess
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:paint
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:sing
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:dance
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:swim
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:run
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:read-with-feeling
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:instrument
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:guitar
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:violin
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:drum
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:music
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:art-club
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:science
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:drama
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:ping-pong
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:science-club
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:drama-club
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:music-club
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:chess-club
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:ping-pong-club
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:play-chess
+  to: concept:英语:情态动词can表能力
+- from: phrase:PEP-7-1-English:U8:play-the-violin
+  to: concept:英语:情态动词can表能力
+- from: phrase:PEP-7-1-English:U8:play-the-drums
+  to: concept:英语:情态动词can表能力
+- from: phrase:PEP-7-1-English:U8:join-a-club
+  to: concept:英语:询问和表达能力
+- from: phrase:PEP-7-1-English:U8:school-club
+  to: concept:英语:俱乐部名称
+- from: sentence:PEP-7-1-English:U8:s1
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s2
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s3
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s3
+  to: concept:英语:情态动词can表能力
+- from: sentence:PEP-7-1-English:U8:s3
+  to: concept:英语:一般疑问句Can you...?
+- from: sentence:PEP-7-1-English:U8:s3
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s4
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s4
+  to: concept:英语:情态动词can表能力
+- from: sentence:PEP-7-1-English:U8:s4
+  to: concept:英语:一般疑问句Can you...?
+- from: sentence:PEP-7-1-English:U8:s4
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s5
+  to: concept:英语:情态动词can表能力
+- from: sentence:PEP-7-1-English:U8:s5
+  to: concept:英语:一般疑问句Can you...?
+- from: sentence:PEP-7-1-English:U8:s5
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s6
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s6
+  to: concept:英语:情态动词can表能力
+- from: sentence:PEP-7-1-English:U8:s6
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s7
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s7
+  to: concept:英语:情态动词can表能力
+- from: sentence:PEP-7-1-English:U8:s7
+  to: concept:英语:询问和表达能力
+- from: sentence:PEP-7-1-English:U8:s8
+  to: concept:英语:海报制作要素
+- from: sentence:PEP-7-1-English:U8:s9
+  to: concept:英语:海报制作要素
+- from: word:PEP-7-1-English:U8:fast
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:musical
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:cook
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:nature
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:hiking
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:story
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:book
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:photo
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:collect-plants-and-insects
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:plant
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:insect
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:wildlife
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:discover
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:interest
+  to: concept:英语:表达兴趣和爱好
+- from: word:PEP-7-1-English:U8:talent
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:play-a-musical-instrument
+  to: concept:英语:情态动词can表能力
+- from: phrase:PEP-7-1-English:U8:be-good-at
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:be-interested-in
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:act-out
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:take-photos
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:fall-in-love-with
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:open-your-mind
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:under-your-nose
+  to: concept:英语:表达兴趣和爱好
+- from: sentence:PEP-7-1-English:U8:s10
+  to: concept:英语:情态动词 can
+- from: sentence:PEP-7-1-English:U8:s10
+  to: concept:英语:情态动词can表能力
+- from: word:PEP-7-1-English:U8:robotics
+  to: concept:英语:俱乐部名称
+- from: word:PEP-7-1-English:U8:member
+  to: concept:英语:俱乐部名称
+- from: phrase:PEP-7-1-English:U8:contact-information
+  to: concept:英语:海报制作要素
+- from: word:PEP-7-1-English:U8:interview
+  to: concept:英语:海报制作要素
+- from: word:PEP-7-1-English:U8:benefit
+  to: concept:英语:海报制作要素
+- from: phrase:PEP-7-1-English:U8:work-well-with-one-s-hands
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:think-up-new-ideas
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:work-as-a-team
+  to: concept:英语:表达兴趣和爱好
+- from: phrase:PEP-7-1-English:U8:set-up
+  to: concept:英语:海报制作要素
+- from: word:PEP-7-1-English:U9:routine
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:shower
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:dressed
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:teeth
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:breakfast
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:early
+  to: concept:英语:频率副词
+- from: word:PEP-7-1-English:U9:duty
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:usually
+  to: concept:英语:频率副词
+- from: word:PEP-7-1-English:U9:quarter
+  to: concept:英语:时间表达法
+- from: word:PEP-7-1-English:U9:past
+  to: concept:英语:时间表达法
+- from: word:PEP-7-1-English:U9:to
+  to: concept:英语:时间表达法
+- from: word:PEP-7-1-English:U9:o-clock
+  to: concept:英语:时间表达法
+- from: phrase:PEP-7-1-English:U9:half-past-four
+  to: concept:英语:时间表达法
+- from: word:PEP-7-1-English:U9:homework
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:dinner
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:bed
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:saying
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:rise
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:weekend
+  to: concept:英语:日常作息
+- from: phrase:PEP-7-1-English:U9:get-up
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:have-breakfast
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:go-to-school
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:take-a-shower
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:brush-one-s-teeth
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:get-dressed
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:go-home
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:do-homework
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:have-dinner
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:go-to-bed
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:play-basketball
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:play-football
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:play-the-guitar
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:watch-a-film
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:on-duty
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:do-some-reading
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:make-good-use-of
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:a-quarter-to-two
+  to: concept:英语:时间表达法
+- from: phrase:PEP-7-1-English:U9:a-quarter-past-six
+  to: concept:英语:时间表达法
+- from: phrase:PEP-7-1-English:U9:eight-o-clock
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s1
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s1
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s1
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s2
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s2
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s2
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s3
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s3
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s4
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s4
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s4
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s5
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s5
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s5
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s6
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s6
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s6
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s7
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s7
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s8
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s8
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s9
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s9
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s10
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s10
+  to: concept:英语:频率副词
+- from: sentence:PEP-7-1-English:U9:s11
+  to: concept:英语:询问具体时间
+- from: sentence:PEP-7-1-English:U9:s11
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s12
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-7-1-English:U9:s12
+  to: concept:英语:日常活动短语
+- from: sentence:PEP-7-1-English:U9:s13
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:helsinki
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:finland
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:news
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:finnish
+  to: concept:英语:日常作息
+- from: word:PEP-7-1-English:U9:home-economics
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:club
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:dark
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:prepare
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:schoolbag
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:listen-to
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:walk-to-school
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:a-10-minute-walk
+  to: concept:英语:时间表达法
+- from: phrase:PEP-7-1-English:U9:have-lunch
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:ice-hockey-club
+  to: concept:英语:日常活动短语
+- from: phrase:PEP-7-1-English:U9:get-home
+  to: concept:英语:日常活动短语
+- from: sentence:PEP-7-1-English:U9:s14
+  to: concept:英语:时间表达法
+- from: sentence:PEP-7-1-English:U9:s14
+  to: concept:英语:Present simple tense
+- from: word:PEP-7-1-English:U9:profession
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:interview
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:reporter
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:farmer
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:nurse
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:police
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:officer
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:bin
+  to: concept:英语:日常活动短语
+- from: word:PEP-7-1-English:U9:worker
+  to: concept:英语:日常活动短语
+- from: sentence:PEP-8-2-English:U1:s2
+  to: concept:英语:不定式作目的状语
+- from: sentence:PEP-8-2-English:U1:s3
+  to: concept:英语:不定式作目的状语
+- from: sentence:PEP-8-2-English:U1:s8
+  to: concept:英语:不定式作目的状语
+- from: sentence:PEP-8-2-English:U1:s4
+  to: concept:英语:不定式的否定形式
+- from: sentence:PEP-8-2-English:U1:s7
+  to: concept:英语:不定式的否定形式
+- from: sentence:PEP-8-2-English:U1:s5
+  to: concept:英语:不定式作宾语
+- from: sentence:PEP-8-2-English:U1:s6
+  to: concept:英语:不定式作主语补足语
+- from: sentence:PEP-8-2-English:U1:s9
+  to: concept:英语:不定式作宾语补足语
+- from: sentence:PEP-8-2-English:U1:s10
+  to: concept:英语:不定式作宾语补足语
+- from: sentence:PEP-8-2-English:U1:s12
+  to: concept:英语:不定式作宾语补足语
+- from: sentence:PEP-8-2-English:U1:s14
+  to: concept:英语:动词后接不定式或动名词的用法
+- from: sentence:PEP-8-2-English:U1:s16
+  to: concept:英语:表达爱好的常用句型
+- from: sentence:PEP-8-2-English:U1:s15
+  to: concept:英语:表达爱好的常用句型
+- from: sentence:PEP-8-2-English:U1:s17
+  to: concept:英语:表达爱好的常用句型
+- from: sentence:PEP-8-2-English:U1:s18
+  to: concept:英语:表达爱好的常用句型
+- from: sentence:PEP-8-2-English:U1:s19
+  to: concept:英语:表达爱好的常用句型
+- from: sentence:PEP-8-2-English:U1:s11
+  to: concept:英语:动词后接不定式或动名词的用法
+- from: sentence:PEP-8-2-English:U1:s13
+  to: concept:英语:事实与观点
+- from: phrase:PEP-8-2-English:U1:play-the-flute
+  to: concept:英语:动词短语
+- from: phrase:PEP-8-2-English:U1:do-calligraphy
+  to: concept:英语:动词短语
+- from: phrase:PEP-8-2-English:U1:go-hiking
+  to: concept:英语:动词短语
+- from: phrase:PEP-8-2-English:U1:ice-skating
+  to: concept:英语:动词短语
+- from: phrase:PEP-8-2-English:U1:give-up
+  to: concept:英语:短语动词
+- from: phrase:PEP-8-2-English:U1:get-over
+  to: concept:英语:短语动词
+- from: phrase:PEP-8-2-English:U1:take-up
+  to: concept:英语:短语动词
+- from: phrase:PEP-8-2-English:U1:calm-down
+  to: concept:英语:短语动词
+- from: phrase:PEP-8-2-English:U1:used-to
+  to: concept:英语:动词短语
+- from: phrase:PEP-8-2-English:U1:encourage-sb-to-do-sth
+  to: concept:英语:不定式作宾语补足语
+- from: phrase:PEP-8-2-English:U1:tell-sb-not-to-do-sth
+  to: concept:英语:不定式的否定形式
+- from: phrase:PEP-8-2-English:U1:decide-to-do-sth
+  to: concept:英语:不定式作宾语
+- from: phrase:PEP-8-2-English:U1:want-to-do-sth
+  to: concept:英语:不定式作宾语
+- from: phrase:PEP-8-2-English:U1:spend-time-doing-sth
+  to: concept:英语:动词后接不定式或动名词的用法
+- from: phrase:PEP-8-2-English:U1:dream-of-doing-sth
+  to: concept:英语:动词后接不定式或动名词的用法
+- from: phrase:PEP-8-2-English:U1:find-it-fun-to-do-sth
+  to: concept:英语:不定式作宾语补足语
+- from: phrase:PEP-8-2-English:U1:listening-to-music
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:playing-a-sport
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:watching-tv
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:playing-an-instrument
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:going-to-the-cinema
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:drawing-or-painting
+  to: concept:英语:动名词作主语
+- from: phrase:PEP-8-2-English:U1:in-one-s-free-time
+  to: concept:英语:表达爱好的常用句型
+- from: phrase:PEP-8-2-English:U1:free-time-activities
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:opinion
+  to: concept:英语:事实与观点
+- from: word:PEP-8-2-English:U1:fact
+  to: concept:英语:事实与观点
+- from: word:PEP-8-2-English:U1:encourage
+  to: concept:英语:表达鼓励的句型
+- from: phrase:PEP-8-2-English:U1:encourage-sb-to-do-sth
+  to: concept:英语:表达鼓励的句型
+- from: phrase:PEP-8-2-English:U1:reduce-stress
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U1:make-new-friends
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U1:try-new-things
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U1:keep-fit
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U1:pass-the-time
+  to: concept:英语:爱好
+- from: phrase:PEP-8-2-English:U1:sense-of-achievement
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:creative
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:achievement
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:collect
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:postcard
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:landscape
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:perform
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:chat
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:flute
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:calligraphy
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:painting
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:skiing
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:hiking
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:programming
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:challenge
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:fear
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:relax
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:stroke
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:ink
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:guitar
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:similarity
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:manage
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:stress
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:skill
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:instructor
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U1:ice-skate
+  to: concept:英语:爱好
+- from: word:PEP-8-2-English:U2:sore
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:throat
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:stomachache
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:headache
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:toothache
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:backache
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:cut
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:fever
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:nosebleed
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:cough
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:bruised
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:knee
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:runny
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:flu
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:virus
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:mask
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:medicine
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:energy
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:temperature
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:x-ray
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:pour
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:stove
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:flame
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:panic
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:extinguisher
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:burn
+  to: concept:英语:火灾安全知识
+- from: word:PEP-8-2-English:U2:injury
+  to: concept:英语:急救知识
+- from: word:PEP-8-2-English:U2:ache
+  to: concept:英语:词缀 -self/-selves, -less, -ache
+- from: word:PEP-8-2-English:U2:avoid
+  to: concept:英语:建议与忠告
+- from: word:PEP-8-2-English:U2:allergic
+  to: concept:英语:食物过敏
+- from: word:PEP-8-2-English:U2:peanut
+  to: concept:英语:食物过敏
+- from: word:PEP-8-2-English:U2:advice
+  to: concept:英语:建议与忠告
+- from: word:PEP-8-2-English:U2:ingredient
+  to: concept:英语:食物过敏
+- from: word:PEP-8-2-English:U2:brochure
+  to: concept:英语:health brochure
+- from: word:PEP-8-2-English:U2:strain
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:vision
+  to: concept:英语:健康问题词汇
+- from: word:PEP-8-2-English:U2:reduce
+  to: concept:英语:建议与忠告
+- from: word:PEP-8-2-English:U2:necessary
+  to: concept:英语:建议与忠告
+- from: phrase:PEP-8-2-English:U2:sore-throat
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-stomachache
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-headache
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-toothache
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-backache
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-fever
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-runny-nose
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:have-a-cough
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:bruised-knee
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:take-one-s-temperature
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:take-some-medicine
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:drink-enough-water
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:rest-at-home
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:wear-a-mask
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:pass-the-flu-virus
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:take-care-of
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:hurt-oneself
+  to: concept:英语:反身代词
+- from: phrase:PEP-8-2-English:U2:fall-off
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:get-an-x-ray
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:clean-the-area
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:press-down-on
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:put-something-warm-on
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:drink-some-water-with-honey
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:see-a-dentist
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:avoid-doing-sth
+  to: concept:英语:建议与忠告
+- from: phrase:PEP-8-2-English:U2:be-careful
+  to: concept:英语:建议与忠告
+- from: phrase:PEP-8-2-English:U2:take-a-seat
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:get-out-of-bed
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:hurt-one-s-throat
+  to: concept:英语:健康问题词汇
+- from: phrase:PEP-8-2-English:U2:look-at-something-far-away
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:change-the-screen-s-brightness
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:listen-to-music
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:send-messages
+  to: concept:英语:健康建议表达
+- from: phrase:PEP-8-2-English:U2:catch-fire
+  to: concept:英语:火灾安全知识
+- from: phrase:PEP-8-2-English:U2:put-out
+  to: concept:英语:火灾安全知识
+- from: phrase:PEP-8-2-English:U2:turn-off
+  to: concept:英语:火灾安全知识
+- from: phrase:PEP-8-2-English:U2:in-a-panic
+  to: concept:英语:火灾安全知识
+- from: phrase:PEP-8-2-English:U2:stop-short
+  to: concept:英语:火灾安全知识
+- from: phrase:PEP-8-2-English:U2:be-allergic-to
+  to: concept:英语:食物过敏
+- from: phrase:PEP-8-2-English:U2:jump-into-action
+  to: concept:英语:急救知识
+- from: phrase:PEP-8-2-English:U2:from-now-on
+  to: concept:英语:建议与忠告
+- from: phrase:PEP-8-2-English:U3:look-on-the-bright-side
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:compare-with
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:get-one-s-message-across
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:clear-the-air
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:put-oneself-in-someone-s-shoes
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:take-a-break
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:shut-oneself-away
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:take-care-of
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:a-heavy-heart
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:a-light-heart
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:feel-blue
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:feel-on-top-of-the-world
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:have-a-long-face
+  to: concept:英语:Idioms
+- from: phrase:PEP-8-2-English:U3:be-all-smiles
+  to: concept:英语:Idioms
+- from: word:PEP-8-2-English:U3:upset
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:excited
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:afraid
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:shy
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:angry
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:lonely
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:shocked
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:worried
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:stressful
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:stressed
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:loneliness
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:shock
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:worry
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:joyful
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:thankful
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:proud
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:calm
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:advice
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:advise
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:lonely
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:loneliness
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:angry
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:anger
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:worried
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:worry
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:shocked
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:shock
+  to: concept:英语:Adjective and Noun Forms
+- from: word:PEP-8-2-English:U3:stressful
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:stressed
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:joyful
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:thankful
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:careful
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:hurtful
+  to: concept:英语:Adjective Suffixes -ful and -less
+- from: word:PEP-8-2-English:U3:positive
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:negative
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:confident
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:encourage
+  to: concept:英语:Positive and Negative Emotions
+- from: word:PEP-8-2-English:U3:manage
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:realize
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:communicate
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:advise
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:apologize
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:forgive
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:clear
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:trust
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:suggestion
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U3:advice
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:take-a-break
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:clear-the-air
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:put-oneself-in-someone-s-shoes
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:get-one-s-message-across
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:compare-with
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:look-on-the-bright-side
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:take-care-of
+  to: concept:英语:problem-solving
+- from: phrase:PEP-8-2-English:U3:shut-oneself-away
+  to: concept:英语:problem-solving
+- from: word:PEP-8-2-English:U4:highest
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:highest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:highest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:highest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:largest
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:largest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:largest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:largest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:deepest
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:deepest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:deepest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:deepest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:lowest
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:lowest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:lowest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:lowest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:longest
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:longest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:longest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:longest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:farthest
+  to: concept:英语:副词比较级和最高级
+- from: word:PEP-8-2-English:U4:farthest
+  to: concept:英语:最高级比较
+- from: word:PEP-8-2-English:U4:farthest
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:farthest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:square
+  to: concept:英语:数字的英文表达
+- from: word:PEP-8-2-English:U4:square
+  to: concept:英语:大数字
+- from: word:PEP-8-2-English:U4:square
+  to: concept:英语:Large numbers
+- from: word:PEP-8-2-English:U4:kilometre
+  to: concept:英语:数字的英文表达
+- from: word:PEP-8-2-English:U4:kilometre
+  to: concept:英语:大数字
+- from: word:PEP-8-2-English:U4:kilometre
+  to: concept:英语:Large numbers
+- from: word:PEP-8-2-English:U4:metre
+  to: concept:英语:数字的英文表达
+- from: word:PEP-8-2-English:U4:metre
+  to: concept:英语:大数字
+- from: word:PEP-8-2-English:U4:metre
+  to: concept:英语:Large numbers
+- from: word:PEP-8-2-English:U4:below
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:below
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:below
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:below
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:sea-level
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:sea-level
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:sea-level
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:trench
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:trench
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:trench
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:desert
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:desert
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:desert
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:waterfall
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:waterfall
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:waterfall
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:river
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:river
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:river
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:civilization
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:civilization
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:civilization
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:protect
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:protect
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:submersible
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:submersible
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:submersible
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:dive
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:dive
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:dive
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:ability
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:ability
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:blind
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:create
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:create
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:rubbish
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:rubbish
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:ancient
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:ancient
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:ancient
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:develop
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:develop
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:important
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:important
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:magical
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:magical
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:experience
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:experience
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:survive
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:survive
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:condition
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:condition
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:thin
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:cliff
+  to: concept:英语:世界地理之最
+- from: word:PEP-8-2-English:U4:cliff
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:cliff
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:changeable
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:determined
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:shoulder
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:shoulder
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:ladder
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:ladder
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:measurement
+  to: concept:英语:数字的英文表达
+- from: word:PEP-8-2-English:U4:measurement
+  to: concept:英语:大数字
+- from: word:PEP-8-2-English:U4:measurement
+  to: concept:英语:Large numbers
+- from: word:PEP-8-2-English:U4:risk
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:risk
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:curiosity
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:curiosity
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:ambition
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:ambition
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:explorer
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:explorer
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:deep
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:surface
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:wonderful
+  to: concept:英语:自然奇观
+- from: word:PEP-8-2-English:U4:wonderful
+  to: concept:英语:Natural wonders
+- from: word:PEP-8-2-English:U4:common
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:northern
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:southern
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:risky
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:dead
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:living
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:above
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:top
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:bottom
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:highest
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:lowest
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:unusual
+  to: concept:英语:反义词
+- from: word:PEP-8-2-English:U4:coral
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:coral
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:turtle
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:turtle
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:shark
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:shark
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:wildlife
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:wildlife
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:photograph
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:photograph
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:island
+  to: concept:英语:大堡礁
+- from: word:PEP-8-2-English:U4:island
+  to: concept:英语:The Great Barrier Reef
+- from: word:PEP-8-2-English:U4:rainforest
+  to: concept:英语:亚马逊雨林
+- from: word:PEP-8-2-English:U4:rainforest
+  to: concept:英语:The Amazon Rainforest
+- from: word:PEP-8-2-English:U4:variety
+  to: concept:英语:亚马逊雨林
+- from: word:PEP-8-2-English:U4:variety
+  to: concept:英语:The Amazon Rainforest
+- from: word:PEP-8-2-English:U4:comparative
+  to: concept:英语:形容词比较级和最高级
+- from: word:PEP-8-2-English:U4:comparative
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:comparative
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U4:superlative
+  to: concept:英语:比较级和最高级
+- from: word:PEP-8-2-English:U4:superlative
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:the-highest-in-the-world
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-highest-in-the-world
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:the-highest-in-the-world
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-highest-in-the-world
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:the-largest-in-the-world
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-largest-in-the-world
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:the-largest-in-the-world
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-largest-in-the-world
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:the-lowest-place-on-earth
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-lowest-place-on-earth
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:the-lowest-place-on-earth
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-lowest-place-on-earth
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:the-deepest-in-the-ocean
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-deepest-in-the-ocean
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:the-deepest-in-the-ocean
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-deepest-in-the-ocean
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:below-sea-level
+  to: concept:英语:世界地理之最
+- from: phrase:PEP-8-2-English:U4:below-sea-level
+  to: concept:英语:自然奇观
+- from: phrase:PEP-8-2-English:U4:below-sea-level
+  to: concept:英语:Natural wonders
+- from: phrase:PEP-8-2-English:U4:in-size
+  to: concept:英语:数字的英文表达
+- from: phrase:PEP-8-2-English:U4:in-size
+  to: concept:英语:大数字
+- from: phrase:PEP-8-2-English:U4:in-size
+  to: concept:英语:Large numbers
+- from: phrase:PEP-8-2-English:U4:at-all-costs
+  to: concept:英语:自然奇观
+- from: phrase:PEP-8-2-English:U4:at-all-costs
+  to: concept:英语:Natural wonders
+- from: phrase:PEP-8-2-English:U4:as-well-as
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:as-well-as
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:one-of-the-greatest-wonders
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:one-of-the-greatest-wonders
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:one-of-the-greatest-wonders
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:one-of-the-greatest-wonders
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:travel-the-farthest
+  to: concept:英语:副词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:travel-the-farthest
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:travel-the-farthest
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:travel-the-farthest
+  to: concept:英语:Comparatives and superlatives
+- from: phrase:PEP-8-2-English:U4:the-second-longest
+  to: concept:英语:形容词比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-second-longest
+  to: concept:英语:最高级比较
+- from: phrase:PEP-8-2-English:U4:the-second-longest
+  to: concept:英语:比较级和最高级
+- from: phrase:PEP-8-2-English:U4:the-second-longest
+  to: concept:英语:Comparatives and superlatives
+- from: word:PEP-8-2-English:U5:earthquake
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:typhoon
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:wildfire
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:snowstorm
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:floodwater
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:drought
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:disaster
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:tsunami
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:tornado
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:storm
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:landslide
+  to: concept:英语:自然灾害词汇
+- from: phrase:PEP-8-2-English:U5:natural-disaster
+  to: concept:英语:自然灾害词汇
+- from: phrase:PEP-8-2-English:U5:during-a-typhoon
+  to: concept:英语:时间状语从句
+- from: phrase:PEP-8-2-English:U5:at-the-time-of
+  to: concept:英语:时间状语从句
+- from: phrase:PEP-8-2-English:U5:get-flooded
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:in-the-eye-of-a-typhoon
+  to: concept:英语:自然灾害词汇
+- from: phrase:PEP-8-2-English:U5:pay-attention-to
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:have-trouble
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:be-prepared-for
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:get-into-an-accident
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:cover-the-windows
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:move-things-off-the-floor
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:store-food-and-water
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:emergency-supplies
+  to: concept:英语:自然灾害词汇
+- from: phrase:PEP-8-2-English:U5:stay-inside
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:make-preparations
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:land-on-the-coast
+  to: concept:英语:动词搭配
+- from: phrase:PEP-8-2-English:U5:power-went-out
+  to: concept:英语:过去进行时
+- from: phrase:PEP-8-2-English:U5:power-went-out
+  to: concept:英语:时间状语从句
+- from: word:PEP-8-2-English:U5:prepare
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:preparation
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:supply
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:calm
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:awful
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:dangerous
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:cover
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:experience
+  to: concept:英语:故事时间线
+- from: word:PEP-8-2-English:U5:trouble
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:warn
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:advise
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:attention
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:pack
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:supplies
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:soundly
+  to: concept:英语:过去进行时
+- from: word:PEP-8-2-English:U5:cats-and-dogs
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:security
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:guard
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:panic
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:scream
+  to: concept:英语:过去进行时
+- from: word:PEP-8-2-English:U5:knowledge
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:floodwater
+  to: concept:英语:合成法
+- from: word:PEP-8-2-English:U5:manpower
+  to: concept:英语:合成法
+- from: word:PEP-8-2-English:U5:heartbeat
+  to: concept:英语:合成法
+- from: word:PEP-8-2-English:U5:safeguard
+  to: concept:英语:合成法
+- from: word:PEP-8-2-English:U5:refuse
+  to: concept:英语:动词搭配
+- from: word:PEP-8-2-English:U5:hit
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:alarm
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:pour
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:thunder
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:lightning
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:rescue
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U5:terrifying
+  to: concept:英语:自然灾害词汇
+- from: word:PEP-8-2-English:U6:greet
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:bow
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:hug
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:kiss
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:shake
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:manners
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:formal
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:informal
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:rude
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:polite
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:custom
+  to: concept:英语:Cultural customs
+- from: word:PEP-8-2-English:U6:culture-shock
+  to: concept:英语:Cultural customs
+- from: word:PEP-8-2-English:U6:confused
+  to: concept:英语:Adjectives ending in -ed and -ing
+- from: word:PEP-8-2-English:U6:confusing
+  to: concept:英语:Adjectives ending in -ed and -ing
+- from: word:PEP-8-2-English:U6:host
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:guest
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:knife
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:fork
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:chopsticks
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:delicious
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:offer-someone-something
+  to: concept:英语:礼貌用语
+- from: word:PEP-8-2-English:U6:press
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:palm
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:special
+  to: concept:英语:Cultural customs
+- from: word:PEP-8-2-English:U6:common
+  to: concept:英语:Cultural customs
+- from: word:PEP-8-2-English:U6:uncommon
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:patient
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:avoid
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:stick-chopsticks-into
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:bowl
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:rice
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:beef
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:dish
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:elbow
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:reach-for-food
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:pass-someone-the-dish
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:serving
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:spoon
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:shared
+  to: concept:英语:table manners
+- from: word:PEP-8-2-English:U6:advice
+  to: concept:英语:礼貌用语
+- from: word:PEP-8-2-English:U6:proper
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:improper
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:impolite
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:impatient
+  to: concept:英语:Negative prefixes un-, in-, im-
+- from: word:PEP-8-2-English:U6:excited
+  to: concept:英语:Adjectives ending in -ed and -ing
+- from: word:PEP-8-2-English:U6:exciting
+  to: concept:英语:Adjectives ending in -ed and -ing
+- from: word:PEP-8-2-English:U6:merci
+  to: concept:英语:greetings
+- from: word:PEP-8-2-English:U6:nervous
+  to: concept:英语:Adjectives ending in -ed and -ing
+- from: word:PEP-8-2-English:U6:impression
+  to: concept:英语:Cultural customs
+- from: phrase:PEP-8-2-English:U6:shake-hands
+  to: concept:英语:greetings
+- from: phrase:PEP-8-2-English:U6:bump-fists
+  to: concept:英语:greetings
+- from: phrase:PEP-8-2-English:U6:rub-noses
+  to: concept:英语:greetings
+- from: phrase:PEP-8-2-English:U6:kiss-on-the-cheek
+  to: concept:英语:greetings
+- from: phrase:PEP-8-2-English:U6:press-one-s-palms-together
+  to: concept:英语:greetings
+- from: phrase:PEP-8-2-English:U6:eat-with-a-knife-and-fork
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:take-off-one-s-shoes
+  to: concept:英语:Cultural customs
+- from: phrase:PEP-8-2-English:U6:be-late
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:be-on-time
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:wait-for-the-host-to-start
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:thank-the-host
+  to: concept:英语:礼貌用语
+- from: phrase:PEP-8-2-English:U6:enjoy-yourself
+  to: concept:英语:礼貌用语
+- from: phrase:PEP-8-2-English:U6:sit-up-straight
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:keep-your-elbows-off-the-table
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:use-serving-chopsticks
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:shared-dishes
+  to: concept:英语:table manners
+- from: phrase:PEP-8-2-English:U6:dress-code
+  to: concept:英语:Cultural customs
+- from: word:PEP-8-2-English:U7:fantasy
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:mystery
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:science-fiction
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:classic
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:novel
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:character
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:writer
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:adventure
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:idiom
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:punish
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:spoiled
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:selfish
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:uncle
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:seldom
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:crying
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:belong
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:painful
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:memory
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:lock
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:key
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:unlock
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:discover
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:secret
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:unfortunately
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:take-care-of
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:therefore
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:state
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:gardening
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:cousin
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:weak
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:illness
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:prove
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:fresh
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:alive
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:force
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:attack
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:report
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:base
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:naughty
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:gentle
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:lazy
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:quiet
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:hard-working
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:weakness
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:defeat
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:achieve
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:goal
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:recommendation
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:popular
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:fisherman
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:huge
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:fight
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:succeed
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:shark
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:bone
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:inspire
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:doubt
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:recommend
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:summary
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:tragic
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:survive
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:weight
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:shoulder
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:quote
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:volunteer
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U7:benefit
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:have-you-ever-read
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-you-ever-read
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-you-ever-read
+  to: concept:英语:现在完成时的标志词
+- from: phrase:PEP-8-2-English:U7:have-you-ever-read
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-heard-of
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-heard-of
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-heard-of
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-decided-on
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-decided-on
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-decided-on
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-just-finished
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-just-finished
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-just-finished
+  to: concept:英语:现在完成时的标志词
+- from: phrase:PEP-8-2-English:U7:have-just-finished
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-already-borrowed
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-already-borrowed
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-already-borrowed
+  to: concept:英语:现在完成时的标志词
+- from: phrase:PEP-8-2-English:U7:have-already-borrowed
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-never-read
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-never-read
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-never-read
+  to: concept:英语:现在完成时的标志词
+- from: phrase:PEP-8-2-English:U7:have-never-read
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-always-preferred
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-always-preferred
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-always-preferred
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:have-taught-me-a-lot
+  to: concept:英语:现在完成时
+- from: phrase:PEP-8-2-English:U7:have-taught-me-a-lot
+  to: concept:英语:现在完成时的构成
+- from: phrase:PEP-8-2-English:U7:have-taught-me-a-lot
+  to: concept:英语:现在完成时的用法
+- from: phrase:PEP-8-2-English:U7:pass-away
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:belong-to
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:take-care-of
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:in-a-bad-state
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:get-to-one-s-feet
+  to: concept:英语:书评要素
+- from: phrase:PEP-8-2-English:U7:day-by-day
+  to: concept:英语:书评要素
+- from: word:PEP-8-2-English:U8:cleanup
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:guide
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:visitor
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:elderly
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:direction
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:plant
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:sort
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:waste
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:volunteer
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:volunteer
+  to: concept:英语:Volunteer Work
+- from: word:PEP-8-2-English:U8:organization
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:interview
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:player
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:stadium
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:match
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:museum
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:exhibit
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:provide
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:information
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:university
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:bag
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:can
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:duty
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:shelter
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:feed
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:owner
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:pet
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:cage
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:train
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:donation
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:sick
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:walk
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:inspire
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:nursing
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:youth
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:lonely
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:chess
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:mobile
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:experience
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:share
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:since
+  to: concept:英语:for和since的用法
+- from: word:PEP-8-2-English:U8:since
+  to: concept:英语:现在完成时的时间状语
+- from: word:PEP-8-2-English:U8:since
+  to: concept:英语:Present Perfect Tense with since and for
+- from: word:PEP-8-2-English:U8:for
+  to: concept:英语:for和since的用法
+- from: word:PEP-8-2-English:U8:for
+  to: concept:英语:现在完成时的时间状语
+- from: word:PEP-8-2-English:U8:for
+  to: concept:英语:Present Perfect Tense with since and for
+- from: word:PEP-8-2-English:U8:rescue
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:emergency
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:injury
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:thankful
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:community
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:disaster
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:practical
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:teamwork
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:voluntary
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:ordinary
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:hero
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:worth
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:aid
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:search
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:typhoon
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:earthquake
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:successful
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:medical
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:advertisement
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:sign-up
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:international
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:expression
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:culture
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:familiar
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:calligraphy
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:talent
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:encourage
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:organize
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:activity
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:hobby
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:physical
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:stress
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:memory
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:concentration
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:blood-pressure
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:instrument
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:emotional
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-8-2-English:U8:well-being
+  to: concept:英语:志愿者活动词汇
+- from: word:PEP-9-0-English:U1:textbook
+  to: concept:英语:by + doing 结构
+- from: word:PEP-9-0-English:U1:conversation
+  to: concept:英语:动名词作宾语
+- from: word:PEP-9-0-English:U1:aloud
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:pronunciation
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:sentence
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:patient
+  to: concept:英语:学习习惯
+- from: word:PEP-9-0-English:U1:expression
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:discover
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:secret
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:grammar
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:repeat
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:note
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:pal
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:physics
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:chemistry
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:memorize
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:pattern
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:pronounce
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:increase
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:speed
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:spell
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:mistake
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:challenge
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:solution
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:partner
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:habit
+  to: concept:英语:学习习惯
+- from: word:PEP-9-0-English:U1:ability
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:active
+  to: concept:英语:学习习惯
+- from: word:PEP-9-0-English:U1:attention
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:connect
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:overnight
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:review
+  to: concept:英语:学习习惯
+- from: word:PEP-9-0-English:U1:knowledge
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:wisely
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:brain
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:practice
+  to: concept:英语:谚语：Practice makes perfect
+- from: word:PEP-9-0-English:U1:develop
+  to: concept:英语:学习习惯
+- from: word:PEP-9-0-English:U1:remember
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:prepare
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:until
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:worry
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U1:everything
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:by-working-with-friends
+  to: concept:英语:by + doing 结构
+- from: phrase:PEP-9-0-English:U1:by-making-word-cards
+  to: concept:英语:by + doing 结构
+- from: phrase:PEP-9-0-English:U1:by-reading-the-textbook
+  to: concept:英语:by + doing 结构
+- from: phrase:PEP-9-0-English:U1:by-listening-to-tapes
+  to: concept:英语:by + doing 结构
+- from: phrase:PEP-9-0-English:U1:by-asking-the-teacher-for-help
+  to: concept:英语:by + doing 结构
+- from: phrase:PEP-9-0-English:U1:study-for-a-test
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:work-with-a-group
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:watch-videos
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:have-conversations-with-friends
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:listen-to-tapes
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:read-aloud
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:practice-pronunciation
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:study-with-a-group
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:learn-a-lot
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:improve-speaking-skills
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:be-patient
+  to: concept:英语:学习习惯
+- from: phrase:PEP-9-0-English:U1:take-time
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:read-word-groups
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:guess-a-word-s-meaning
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:look-up-in-a-dictionary
+  to: concept:英语:使用字典
+- from: phrase:PEP-9-0-English:U1:fall-in-love-with
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:body-language
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:key-words
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:listen-for
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:a-piece-of-cake
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:serve-sb-right
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:take-notes
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:do-exercises
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:keep-a-diary
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:pen-pal
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:sentence-pattern
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:make-mistakes
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:get-the-pronunciation-right
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:from-time-to-time
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:join-an-english-club
+  to: concept:英语:语言学习策略
+- from: phrase:PEP-9-0-English:U1:find-a-pen-pal
+  to: concept:英语:语言学习策略
+- from: word:PEP-9-0-English:U10:bow
+  to: concept:英语:文化差异与问候礼仪
+- from: word:PEP-9-0-English:U10:kiss
+  to: concept:英语:文化差异与问候礼仪
+- from: word:PEP-9-0-English:U10:greet
+  to: concept:英语:文化差异与问候礼仪
+- from: word:PEP-9-0-English:U10:relaxed
+  to: concept:英语:be comfortable doing
+- from: word:PEP-9-0-English:U10:value
+  to: concept:英语:customs
+- from: word:PEP-9-0-English:U10:effort
+  to: concept:英语:go out of one's way
+- from: word:PEP-9-0-English:U10:mad
+  to: concept:英语:impolite
+- from: word:PEP-9-0-English:U10:capital
+  to: concept:英语:customs
+- from: word:PEP-9-0-English:U10:knock
+  to: concept:英语:drop by
+- from: word:PEP-9-0-English:U10:exchange
+  to: concept:英语:customs
+- from: word:PEP-9-0-English:U10:elbow
+  to: concept:英语:table manners
+- from: phrase:PEP-9-0-English:U10:shake-hands
+  to: concept:英语:文化差异与问候礼仪
+- from: phrase:PEP-9-0-English:U10:on-time
+  to: concept:英语:being on time
+- from: phrase:PEP-9-0-English:U10:make-an-effort
+  to: concept:英语:go out of one's way
+- from: phrase:PEP-9-0-English:U10:take-off
+  to: concept:英语:table manners
+- from: phrase:PEP-9-0-English:U10:hold-out
+  to: concept:英语:文化差异与问候礼仪
+- from: phrase:PEP-9-0-English:U10:stick-into
+  to: concept:英语:table manners
+- from: phrase:PEP-9-0-English:U10:point-at
+  to: concept:英语:table manners
+- from: phrase:PEP-9-0-English:U10:cut-up
+  to: concept:英语:table manners
+- from: phrase:PEP-9-0-English:U10:show-up
+  to: concept:英语:drop by
+- from: phrase:PEP-9-0-English:U10:look-forward-to
+  to: concept:英语:be expected to do
+- from: sentence:PEP-9-0-English:U10:s15
+  to: concept:英语:be supposed to do
+- from: sentence:PEP-9-0-English:U10:s15
+  to: concept:英语:文化差异与问候礼仪
+- from: sentence:PEP-9-0-English:U10:s3
+  to: concept:英语:be expected to do
+- from: sentence:PEP-9-0-English:U10:s3
+  to: concept:英语:文化差异与问候礼仪
+- from: sentence:PEP-9-0-English:U10:s4
+  to: concept:英语:be supposed to do
+- from: sentence:PEP-9-0-English:U10:s5
+  to: concept:英语:keep others waiting
+- from: sentence:PEP-9-0-English:U10:s5
+  to: concept:英语:It is impolite to do
+- from: sentence:PEP-9-0-English:U10:s6
+  to: concept:英语:drop by
+- from: sentence:PEP-9-0-English:U10:s7
+  to: concept:英语:make plans
+- from: sentence:PEP-9-0-English:U10:s8
+  to: concept:英语:being on time
+- from: sentence:PEP-9-0-English:U10:s8
+  to: concept:英语:be important to
+- from: sentence:PEP-9-0-English:U10:s9
+  to: concept:英语:being on time
+- from: sentence:PEP-9-0-English:U10:s10
+  to: concept:英语:drop by
+- from: sentence:PEP-9-0-English:U10:s11
+  to: concept:英语:be supposed to do
+- from: sentence:PEP-9-0-English:U10:s11
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s12
+  to: concept:英语:be not supposed to do
+- from: sentence:PEP-9-0-English:U10:s12
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s13
+  to: concept:英语:It is impolite to do
+- from: sentence:PEP-9-0-English:U10:s13
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s14
+  to: concept:英语:go out of one's way
+- from: sentence:PEP-9-0-English:U10:s15
+  to: concept:英语:gradually get used to
+- from: sentence:PEP-9-0-English:U10:s16
+  to: concept:英语:It is impolite to do
+- from: sentence:PEP-9-0-English:U10:s16
+  to: concept:英语:table manners
+- from: sentence:PEP-9-0-English:U10:s17
+  to: concept:英语:be supposed to do
+- from: sentence:PEP-9-0-English:U10:s19
+  to: concept:英语:be expected to do
+- from: sentence:PEP-9-0-English:U10:s20
+  to: concept:英语:drop by
+- from: sentence:PEP-9-0-English:U10:s20
+  to: concept:英语:It is impolite to do
+- from: sentence:PEP-9-0-English:U10:s21
+  to: concept:英语:be comfortable doing
+- from: sentence:PEP-9-0-English:U11:s1
+  to: concept:英语:make + 宾语 + 形容词/动词原形
+- from: sentence:PEP-9-0-English:U11:s1
+  to: concept:英语:make sb. + adj.
+- from: sentence:PEP-9-0-English:U11:s1
+  to: concept:英语:make + object + adjective
+- from: sentence:PEP-9-0-English:U11:s1
+  to: concept:英语:make + 宾语 + 宾语补足语
+- from: sentence:PEP-9-0-English:U11:s1
+  to: concept:英语:make sb. + 形容词
+- from: sentence:PEP-9-0-English:U11:s2
+  to: concept:英语:make + 宾语 + 形容词/动词原形
+- from: sentence:PEP-9-0-English:U11:s2
+  to: concept:英语:make sb. + adj.
+- from: sentence:PEP-9-0-English:U11:s2
+  to: concept:英语:make + object + adjective
+- from: sentence:PEP-9-0-English:U11:s2
+  to: concept:英语:make + 宾语 + 宾语补足语
+- from: sentence:PEP-9-0-English:U11:s2
+  to: concept:英语:make sb. + 形容词
+- from: sentence:PEP-9-0-English:U11:s3
+  to: concept:英语:make + 宾语 + 形容词/动词原形
+- from: sentence:PEP-9-0-English:U11:s3
+  to: concept:英语:make sb. + adj.
+- from: sentence:PEP-9-0-English:U11:s3
+  to: concept:英语:make + object + adjective
+- from: sentence:PEP-9-0-English:U11:s3
+  to: concept:英语:make + 宾语 + 宾语补足语
+- from: sentence:PEP-9-0-English:U11:s3
+  to: concept:英语:make sb. + 形容词
+- from: sentence:PEP-9-0-English:U11:s4
+  to: concept:英语:make + 宾语 + 形容词/动词原形
+- from: sentence:PEP-9-0-English:U11:s4
+  to: concept:英语:make sb. do sth.
+- from: sentence:PEP-9-0-English:U11:s4
+  to: concept:英语:make + object + verb (bare infinitive)
+- from: sentence:PEP-9-0-English:U11:s4
+  to: concept:英语:make + 宾语 + 宾语补足语
+- from: sentence:PEP-9-0-English:U11:s5
+  to: concept:英语:would rather do sth.
+- from: sentence:PEP-9-0-English:U11:s6
+  to: concept:英语:make + 宾语 + 形容词/动词原形
+- from: sentence:PEP-9-0-English:U11:s6
+  to: concept:英语:make sb. + adj.
+- from: sentence:PEP-9-0-English:U11:s6
+  to: concept:英语:make + object + adjective
+- from: sentence:PEP-9-0-English:U11:s6
+  to: concept:英语:make + 宾语 + 宾语补足语
+- from: sentence:PEP-9-0-English:U11:s6
+  to: concept:英语:make sb. + 形容词
+- from: sentence:PEP-9-0-English:U11:s7
+  to: concept:英语:drive sb. + adj.
+- from: phrase:PEP-9-0-English:U11:would-rather
+  to: concept:英语:would rather do sth.
+- from: phrase:PEP-9-0-English:U11:the-more-the-more
+  to: concept:英语:the more..., the more...
+- from: phrase:PEP-9-0-English:U11:pull-together
+  to: concept:英语:team spirit
+- from: sentence:PEP-9-0-English:U12:s11
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s11
+  to: concept:英语:by the time 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s2
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s3
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s3
+  to: concept:英语:by the time 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s4
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s4
+  to: concept:英语:before 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s5
+  to: concept:英语:be about to do 结构
+- from: sentence:PEP-9-0-English:U12:s6
+  to: concept:英语:过去进行时
+- from: sentence:PEP-9-0-English:U12:s7
+  to: concept:英语:过去进行时
+- from: sentence:PEP-9-0-English:U12:s8
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s9
+  to: concept:英语:动词短语
+- from: sentence:PEP-9-0-English:U12:s10
+  to: concept:英语:动词短语
+- from: sentence:PEP-9-0-English:U12:s11
+  to: concept:英语:动词短语
+- from: sentence:PEP-9-0-English:U12:s12
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s12
+  to: concept:英语:by the time 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s13
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s13
+  to: concept:英语:by the time 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s14
+  to: concept:英语:过去完成时的时间状语
+- from: sentence:PEP-9-0-English:U12:s15
+  to: concept:英语:before 引导的时间状语从句
+- from: sentence:PEP-9-0-English:U12:s16
+  to: concept:英语:by the time 引导的时间状语从句
+- from: phrase:PEP-9-0-English:U12:by-the-time
+  to: concept:英语:by the time 引导的时间状语从句
+- from: phrase:PEP-9-0-English:U12:be-about-to
+  to: concept:英语:be about to do 结构
+- from: phrase:PEP-9-0-English:U12:go-off
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:rush-out-of
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:give-sb-a-lift
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:in-disbelief
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:take-off
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:even-though
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:arrive-at
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:wait-in-line
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:stare-at
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:turn-into
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:show-up
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:end-up
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:stay-up
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:get-dressed
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:run-out-of
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:sell-out
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:lose-weight
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:find-out
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:in-the-middle-of
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:turn-around
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:lead-to
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:hand-in
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:start-working-on
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:take-a-shower
+  to: concept:英语:动词短语
+- from: phrase:PEP-9-0-English:U12:walk-home
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:oversleep
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:realize
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:stare
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:burn
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:announce
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:disappear
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:invite
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:call
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:change
+  to: concept:英语:动词短语
+- from: word:PEP-9-0-English:U12:cancel
+  to: concept:英语:动词短语
+- from: sentence:PEP-9-0-English:U13:s1
+  to: concept:英语:现在进行时
+- from: sentence:PEP-9-0-English:U13:s2
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U13:s3
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U13:s4
+  to: concept:英语:Present Perfect Tense with since and for
+- from: sentence:PEP-9-0-English:U13:s5
+  to: concept:英语:情态动词
+- from: sentence:PEP-9-0-English:U13:s6
+  to: concept:英语:情态动词
+- from: sentence:PEP-9-0-English:U13:s7
+  to: concept:英语:情态动词
+- from: sentence:PEP-9-0-English:U13:s8
+  to: concept:英语:Present simple tense
+- from: sentence:PEP-9-0-English:U13:s9
+  to: concept:英语:Present simple tense
+- from: word:PEP-9-0-English:U13:rubbish
+  to: concept:英语:环境污染
+- from: word:PEP-9-0-English:U13:litter
+  to: concept:英语:环境污染
+- from: word:PEP-9-0-English:U13:coal
+  to: concept:英语:环境污染
+- from: word:PEP-9-0-English:U13:environment
+  to: concept:英语:环境保护
+- from: word:PEP-9-0-English:U13:recycle
+  to: concept:英语:环保行动
+- from: word:PEP-9-0-English:U13:reuse
+  to: concept:英语:环保行动
+- from: word:PEP-9-0-English:U13:rethink
+  to: concept:英语:环保行动
+- from: word:PEP-9-0-English:U13:shark
+  to: concept:英语:鲨鱼鳍
+- from: word:PEP-9-0-English:U13:fin
+  to: concept:英语:鲨鱼鳍
+- from: word:PEP-9-0-English:U13:wooden
+  to: concept:英语:前缀和后缀
+- from: word:PEP-9-0-English:U13:plastic
+  to: concept:英语:前缀和后缀
+- from: word:PEP-9-0-English:U13:reusable
+  to: concept:英语:前缀和后缀
+- from: word:PEP-9-0-English:U13:creative
+  to: concept:英语:前缀和后缀
+- from: word:PEP-9-0-English:U13:action
+  to: concept:英语:noun and verb conversion
+- from: word:PEP-9-0-English:U13:improve
+  to: concept:英语:noun and verb conversion
+- from: word:PEP-9-0-English:U13:protect
+  to: concept:英语:noun and verb conversion
+- from: phrase:PEP-9-0-English:U13:take-action
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:clean-up
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:cut-down
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:throw-away
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:turn-into
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:make-a-difference
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:put-to-good-use
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:build-out-of
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:set-up
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:turn-off
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:use-public-transportation
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:recycle-books-and-paper
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:ride-a-bike
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:stop-doing
+  to: concept:英语:环保行动
+- from: phrase:PEP-9-0-English:U13:in-fact
+  to: concept:英语:used to 结构
+- from: phrase:PEP-9-0-English:U13:so-far
+  to: concept:英语:Present Perfect Tense with since and for
+- from: phrase:PEP-9-0-English:U13:not-only-but-also
+  to: concept:英语:前缀和后缀
+- from: word:PEP-9-0-English:U14:survey
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:standard
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:row
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:keyboard
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:method
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:instruction
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:double
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:graduate
+  to: concept:英语:毕业演讲
+- from: word:PEP-9-0-English:U14:caring
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:overcome
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:degree
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:manager
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:graduation
+  to: concept:英语:毕业演讲
+- from: word:PEP-9-0-English:U14:ceremony
+  to: concept:英语:毕业演讲
+- from: word:PEP-9-0-English:U14:congratulate
+  to: concept:英语:毕业演讲
+- from: word:PEP-9-0-English:U14:thirsty
+  to: concept:英语:be thirsty for
+- from: word:PEP-9-0-English:U14:thankful
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:task
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:responsible
+  to: concept:英语:识别文本类型和目的
+- from: word:PEP-9-0-English:U14:separate
+  to: concept:英语:识别文本类型和目的
+- from: sentence:PEP-9-0-English:U3:s10
+  to: concept:英语:礼貌地询问信息
+- from: sentence:PEP-9-0-English:U3:s10
+  to: concept:英语:礼貌请求
+- from: sentence:PEP-9-0-English:U3:s10
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s2
+  to: concept:英语:指路用语
+- from: sentence:PEP-9-0-English:U3:s3
+  to: concept:英语:指路用语
+- from: sentence:PEP-9-0-English:U3:s4
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s5
+  to: concept:英语:礼貌地询问信息
+- from: sentence:PEP-9-0-English:U3:s5
+  to: concept:英语:礼貌请求
+- from: sentence:PEP-9-0-English:U3:s5
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s6
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s7
+  to: concept:英语:礼貌请求
+- from: sentence:PEP-9-0-English:U3:s7
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s8
+  to: concept:英语:宾语从句（陈述句）
+- from: sentence:PEP-9-0-English:U3:s10
+  to: concept:英语:情境语言
+- from: sentence:PEP-9-0-English:U3:s12
+  to: concept:英语:情境语言
+- from: sentence:PEP-9-0-English:U3:s13
+  to: concept:英语:礼貌地询问信息
+- from: sentence:PEP-9-0-English:U3:s13
+  to: concept:英语:礼貌请求
+- from: sentence:PEP-9-0-English:U3:s13
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: sentence:PEP-9-0-English:U3:s14
+  to: concept:英语:礼貌地询问信息
+- from: sentence:PEP-9-0-English:U3:s14
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: word:PEP-9-0-English:U3:restroom
+  to: concept:英语:restroom的用法
+- from: phrase:PEP-9-0-English:U3:go-along
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:turn-left
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:turn-right
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:go-past
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:between-and
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:on-one-s-right
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:next-to
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:in-front-of
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:on-the-corner-of
+  to: concept:英语:指路用语
+- from: phrase:PEP-9-0-English:U3:excuse-me
+  to: concept:英语:礼貌请求
+- from: phrase:PEP-9-0-English:U3:could-you-please
+  to: concept:英语:礼貌请求
+- from: phrase:PEP-9-0-English:U3:do-you-know
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: phrase:PEP-9-0-English:U3:i-wonder
+  to: concept:英语:宾语从句（特殊疑问句）
+- from: phrase:PEP-9-0-English:U3:may-i-ask
+  to: concept:英语:礼貌请求
+- from: phrase:PEP-9-0-English:U3:i-wonder-if-you-can-help-me
+  to: concept:英语:宾语从句（一般疑问句）
+- from: phrase:PEP-9-0-English:U3:i-m-sorry-to-trouble-you
+  to: concept:英语:礼貌请求
+- from: phrase:PEP-9-0-English:U3:lead-into-a-request
+  to: concept:英语:礼貌请求
+- from: phrase:PEP-9-0-English:U3:ask-for-help
+  to: concept:英语:礼貌请求
+- from: word:PEP-9-0-English:U4:outgoing
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:silent
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:humorous
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:brave
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:helpful
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:active
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:shy
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: word:PEP-9-0-English:U4:popular
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: sentence:PEP-9-0-English:U4:s17
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s17
+  to: concept:英语:be afraid of
+- from: sentence:PEP-9-0-English:U4:s17
+  to: concept:英语:used to be afraid of the dark
+- from: sentence:PEP-9-0-English:U4:s21
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s21
+  to: concept:英语:反意疑问句
+- from: sentence:PEP-9-0-English:U4:s3
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s4
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s5
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s6
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s7
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s8
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s9
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s10
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s11
+  to: concept:英语:make a decision
+- from: sentence:PEP-9-0-English:U4:s12
+  to: concept:英语:influence
+- from: sentence:PEP-9-0-English:U4:s13
+  to: concept:英语:absent from
+- from: sentence:PEP-9-0-English:U4:s14
+  to: concept:英语:in person
+- from: sentence:PEP-9-0-English:U4:s15
+  to: concept:英语:take pride in
+- from: sentence:PEP-9-0-English:U4:s15
+  to: concept:英语:be proud of
+- from: sentence:PEP-9-0-English:U4:s16
+  to: concept:英语:be there for sb.
+- from: sentence:PEP-9-0-English:U4:s17
+  to: concept:英语:描述人物外貌和性格的形容词
+- from: sentence:PEP-9-0-English:U4:s18
+  to: concept:英语:be there for sb.
+- from: sentence:PEP-9-0-English:U4:s19
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s20
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s22
+  to: concept:英语:used to 结构
+- from: sentence:PEP-9-0-English:U4:s23
+  to: concept:英语:used to 结构
+- from: word:PEP-9-0-English:U5:chopsticks
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:chopsticks
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:coin
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:coin
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:fork
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:fork
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:blouse
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:blouse
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:silver
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:silver
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:cotton
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:cotton
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:steel
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:steel
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:produce
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:produce
+  to: concept:英语:一般现在时的被动语态
+- from: word:PEP-9-0-English:U5:produce
+  to: concept:英语:be produced in
+- from: word:PEP-9-0-English:U5:widely
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:process
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:process
+  to: concept:英语:be sent for processing
+- from: word:PEP-9-0-English:U5:product
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:brand
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:avoid
+  to: concept:英语:avoid doing sth.
+- from: word:PEP-9-0-English:U5:handbag
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:handbag
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:mobile
+  to: concept:英语:be made in China
+- from: word:PEP-9-0-English:U5:everyday
+  to: concept:英语:everyday things
+- from: word:PEP-9-0-English:U5:high-technology
+  to: concept:英语:high-technology products
+- from: word:PEP-9-0-English:U5:material
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:material
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:kite
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:kite
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:festival
+  to: concept:英语:international kite festival
+- from: word:PEP-9-0-English:U5:competitor
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:paint
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:colorful
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:traditional
+  to: concept:英语:folk or traditional art
+- from: word:PEP-9-0-English:U5:art
+  to: concept:英语:folk or traditional art
+- from: word:PEP-9-0-English:U5:cut
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:form
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:clay
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:clay
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:celebration
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:fold
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:scissors
+  to: concept:英语:be made of used wood and glass
+- from: word:PEP-9-0-English:U5:scissors
+  to: concept:英语:be made of/from
+- from: word:PEP-9-0-English:U5:polish
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:complete
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:fairy
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:historical
+  to: concept:英语:被动语态
+- from: word:PEP-9-0-English:U5:heat
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:be-made-of
+  to: concept:英语:be made of used wood and glass
+- from: phrase:PEP-9-0-English:U5:as-far-as-i-know
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:on-the-sides-of-mountains
+  to: concept:英语:be grown on
+- from: phrase:PEP-9-0-English:U5:by-hand
+  to: concept:英语:be picked by hand
+- from: phrase:PEP-9-0-English:U5:such-as
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:turn-into
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:send-out
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:cover-with
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:rise-into
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:put-on
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U5:be-used-for
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U5:s1
+  to: concept:英语:be made of used wood and glass
+- from: sentence:PEP-9-0-English:U5:s1
+  to: concept:英语:be made of/from
+- from: sentence:PEP-9-0-English:U5:s2
+  to: concept:英语:be made of used wood and glass
+- from: sentence:PEP-9-0-English:U5:s2
+  to: concept:英语:一般疑问句
+- from: sentence:PEP-9-0-English:U5:s2
+  to: concept:英语:be made of/from
+- from: sentence:PEP-9-0-English:U5:s3
+  to: concept:英语:be made in China
+- from: sentence:PEP-9-0-English:U5:s3
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U5:s4
+  to: concept:英语:be famous for
+- from: sentence:PEP-9-0-English:U5:s4
+  to: concept:英语:一般现在时的被动语态
+- from: sentence:PEP-9-0-English:U5:s5
+  to: concept:英语:be produced in
+- from: sentence:PEP-9-0-English:U5:s5
+  to: concept:英语:一般现在时的被动语态
+- from: sentence:PEP-9-0-English:U5:s6
+  to: concept:英语:be grown on
+- from: sentence:PEP-9-0-English:U5:s6
+  to: concept:英语:一般现在时的被动语态
+- from: sentence:PEP-9-0-English:U5:s7
+  to: concept:英语:be picked by hand
+- from: sentence:PEP-9-0-English:U5:s7
+  to: concept:英语:一般现在时的被动语态
+- from: sentence:PEP-9-0-English:U6:s1
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s1
+  to: concept:英语:被动语态的特殊疑问句
+- from: sentence:PEP-9-0-English:U6:s1
+  to: concept:英语:被动语态的疑问形式
+- from: sentence:PEP-9-0-English:U6:s2
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s2
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s3
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s3
+  to: concept:英语:被动语态的特殊疑问句
+- from: sentence:PEP-9-0-English:U6:s3
+  to: concept:英语:被动语态的疑问形式
+- from: sentence:PEP-9-0-English:U6:s4
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s4
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s5
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s5
+  to: concept:英语:被动语态的特殊疑问句
+- from: sentence:PEP-9-0-English:U6:s5
+  to: concept:英语:被动语态的疑问形式
+- from: sentence:PEP-9-0-English:U6:s6
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s6
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s7
+  to: concept:英语:被动语态的特殊疑问句
+- from: sentence:PEP-9-0-English:U6:s7
+  to: concept:英语:被动语态的疑问形式
+- from: sentence:PEP-9-0-English:U6:s8
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s9
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s9
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s10
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s10
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s11
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s12
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s12
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s13
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s13
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s14
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s14
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s15
+  to: concept:英语:一般过去时的被动语态
+- from: sentence:PEP-9-0-English:U6:s15
+  to: concept:英语:被动语态中 by 短语的使用
+- from: sentence:PEP-9-0-English:U6:s16
+  to: concept:英语:主动语态
+- from: sentence:PEP-9-0-English:U6:s17
+  to: concept:英语:主动语态
+- from: sentence:PEP-9-0-English:U6:s18
+  to: concept:英语:主动语态
+- from: sentence:PEP-9-0-English:U6:s19
+  to: concept:英语:主动语态
+- from: sentence:PEP-9-0-English:U6:s20
+  to: concept:英语:主动语态
+- from: word:PEP-9-0-English:U6:zipper
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:scoop
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:heel
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:style
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:project
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:pioneer
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:website
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:mention
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:boil
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:remain
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:sage
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:spread
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:popularity
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:national
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:trade
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:doubt
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:without-doubt
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U6:crispy
+  to: concept:英语:感官动词
+- from: word:PEP-9-0-English:U6:salty
+  to: concept:英语:感官动词
+- from: word:PEP-9-0-English:U6:sour
+  to: concept:英语:感官动词
+- from: word:PEP-9-0-English:U6:hero
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:by-accident
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:it-is-said-that
+  to: concept:英语:被动语态中动名词被动
+- from: phrase:PEP-9-0-English:U6:fall-into
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:the-sage-of-tea
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:take-place
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:in-our-daily-lives
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:have-a-point
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:think-about
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:be-used-for
+  to: concept:英语:被动语态中动名词被动
+- from: phrase:PEP-9-0-English:U6:by-mistake
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:look-up-to
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:come-up-with
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:lead-to
+  to: concept:英语:发明
+- from: phrase:PEP-9-0-English:U6:take-notes
+  to: concept:英语:发明
+- from: word:PEP-9-0-English:U7:allow
+  to: concept:英语:allow sb. to do sth.
+- from: word:PEP-9-0-English:U7:pierce
+  to: concept:英语:get one's ears pierced
+- from: word:PEP-9-0-English:U7:earring
+  to: concept:英语:get one's ears pierced
+- from: word:PEP-9-0-English:U7:regret
+  to: concept:英语:regret doing sth.
+- from: word:PEP-9-0-English:U7:achieve
+  to: concept:英语:achieve one's dream
+- from: word:PEP-9-0-English:U7:support
+  to: concept:英语:agree and disagree
+- from: word:PEP-9-0-English:U7:strict
+  to: concept:英语:agree and disagree
+- from: word:PEP-9-0-English:U7:unfair
+  to: concept:英语:agree and disagree
+- from: word:PEP-9-0-English:U7:succeed
+  to: concept:英语:achieve one's dream
+- from: word:PEP-9-0-English:U7:decision
+  to: concept:英语:make one's own decision
+- from: phrase:PEP-9-0-English:U7:be-allowed-to-do-sth
+  to: concept:英语:情态动词的被动语态
+- from: phrase:PEP-9-0-English:U7:be-allowed-to-do-sth
+  to: concept:英语:被动语态
+- from: phrase:PEP-9-0-English:U7:get-ears-pierced
+  to: concept:英语:get one's ears pierced
+- from: phrase:PEP-9-0-English:U7:achieve-my-dream
+  to: concept:英语:achieve one's dream
+- from: phrase:PEP-9-0-English:U7:make-a-choice
+  to: concept:英语:make one's own decision
+- from: sentence:PEP-9-0-English:U7:s1
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s1
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s1
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U7:s2
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s2
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s2
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U7:s3
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s3
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s3
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U7:s3
+  to: concept:英语:make one's own decision
+- from: sentence:PEP-9-0-English:U7:s4
+  to: concept:英语:regret doing sth.
+- from: sentence:PEP-9-0-English:U7:s4
+  to: concept:英语:talk back
+- from: sentence:PEP-9-0-English:U7:s6
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s6
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s6
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U7:s6
+  to: concept:英语:make one's own decision
+- from: sentence:PEP-9-0-English:U7:s8
+  to: concept:英语:be serious about
+- from: sentence:PEP-9-0-English:U7:s9
+  to: concept:英语:have nothing against
+- from: sentence:PEP-9-0-English:U7:s12
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s12
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s12
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U7:s13
+  to: concept:英语:allow sb. to do sth.
+- from: sentence:PEP-9-0-English:U7:s13
+  to: concept:英语:情态动词的被动语态
+- from: sentence:PEP-9-0-English:U7:s13
+  to: concept:英语:被动语态
+- from: sentence:PEP-9-0-English:U8:s1
+  to: concept:英语:情态动词表推测
+- from: sentence:PEP-9-0-English:U8:s4
+  to: concept:英语:might/could表推测
+- from: word:PEP-9-0-English:U9:prefer
+  to: concept:英语:prefer的用法
+- from: word:PEP-9-0-English:U9:prefer
+  to: concept:英语:表达偏好
+- from: word:PEP-9-0-English:U9:lyrics
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:smooth
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:relax
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:director
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:dialog
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:ending
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:documentary
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:drama
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:scary
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:superhero
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:spare-time
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:clearly
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:unusual
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:instrument
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:folk
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:erhu
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:move
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:sense
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:sadness
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:paint-a-picture-of
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:reflect
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:perform
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:pity
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:praise
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:recall
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:wound
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:treasure
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:humorous
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:experience
+  to: concept:英语:定语从句（关系代词that/who）
+- from: word:PEP-9-0-English:U9:excellent
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:sing-along-with
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:dance-to
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:cheer-up
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:shut-off
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:once-in-a-while
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:in-that-case
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:depend-on
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:stick-to
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:write-their-own-lyrics
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:the-kind-of-music
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:make-conversations
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:fill-in-the-chart
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:listen-to
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:be-known-for
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:not-only-but-also
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:live-on-the-streets
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:make-money
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:by-the-end-of
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:in-total
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:national-treasure
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:touch-the-hearts-of
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:plenty-of
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:spread-joy
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:loved-ones
+  to: concept:英语:定语从句（关系代词that/who）
+- from: phrase:PEP-9-0-English:U9:do-an-excellent-job
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:prefer的用法
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s2
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s2
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s2
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s3
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s3
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s3
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s4
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s4
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s4
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s5
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s5
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s5
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s6
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s6
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s6
+  to: concept:英语:表达喜好与厌恶
+- from: sentence:PEP-9-0-English:U9:s7
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s7
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s7
+  to: concept:英语:prefer的用法
+- from: sentence:PEP-9-0-English:U9:s7
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s8
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s8
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s8
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-9-0-English:U9:s9
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s9
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s9
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-9-0-English:U9:s10
+  to: concept:英语:表达喜好与厌恶
+- from: sentence:PEP-9-0-English:U9:s11
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s11
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s11
+  to: concept:英语:表达喜好与厌恶
+- from: sentence:PEP-9-0-English:U9:s12
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s12
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s12
+  to: concept:英语:阿炳（Abing）
+- from: sentence:PEP-9-0-English:U9:s12
+  to: concept:英语:《二泉映月》
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:阿炳（Abing）
+- from: sentence:PEP-9-0-English:U9:s13
+  to: concept:英语:《二泉映月》
+- from: sentence:PEP-9-0-English:U9:s14
+  to: concept:英语:阿炳（Abing）
+- from: sentence:PEP-9-0-English:U9:s14
+  to: concept:英语:《二泉映月》
+- from: sentence:PEP-9-0-English:U9:s15
+  to: concept:英语:阿炳（Abing）
+- from: sentence:PEP-9-0-English:U9:s15
+  to: concept:英语:《二泉映月》
+- from: sentence:PEP-9-0-English:U9:s16
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s16
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s16
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-9-0-English:U9:s17
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s17
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s17
+  to: concept:英语:prefer的用法
+- from: sentence:PEP-9-0-English:U9:s17
+  to: concept:英语:表达偏好
+- from: sentence:PEP-9-0-English:U9:s18
+  to: concept:英语:表达喜好和原因
+- from: sentence:PEP-9-0-English:U9:s19
+  to: concept:英语:定语从句（关系代词that/who）
+- from: sentence:PEP-9-0-English:U9:s19
+  to: concept:英语:关系代词that/which/who
+- from: sentence:PEP-9-0-English:U9:s19
+  to: concept:英语:表达喜好和原因

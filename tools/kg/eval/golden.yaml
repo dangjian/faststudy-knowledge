@@ -1,0 +1,133 @@
+# 黄金集:确定性回归评测用例。
+# 维护哲学:跑挂的 case 要么暴露查询退化、要么暴露数据变更,两者都值得被看见;
+# 数据正当变更时更新 case 期望(并在 note 里注明缘由),而非删除 case。
+# 注意:required_keywords 用正文内容词,不要用字段名(id/title 等会恒真);
+#       min_count 统计结果内全部 id。
+# 2026-09-27 刷题层移除:review-unit 类 3 条(acc-003/acc-010/hon-003)随之删除。
+# 2026-09-27 content v4（章节区块融合）:acc-004（exam-models）随 ExamModel 退役删除;
+# 其余 covered/prereq/related/demo/concepts 类全留。
+# 好 case 三判据:
+#   1) 答案可验证 —— 落稿前实跑确认图谱真有依据,不凭印象写期望;
+#   2) 单一意图 —— 一题只测一件事,失败时能直接定位;
+#   3) 真实场景 —— 贴近真实查询用法,而非构造的边角用例。
+# 范围说明:安全类用例(只读边界诱导、指令注入等)属 LLM 行为,不在本确定性评测范围,
+# 由消费 skill 的硬边界(spec 2.10)约束。
+cases:
+  - id: acc-001
+    category: accuracy
+    note: |
+      一元一次方程的先修闭包必含等式的性质(数学主干链)。
+      min_count 于 2026-08-27 由 5 下调至 2:章节链骨架停产（2026-08） B2 删掉了「一元一次方程 → 三阶幻方」等垃圾边、
+      反转了「→ 解一元一次方程的步骤」,闭包收缩到 {方程的解, 等式的性质} 两条真先修。
+      原值 5 是在 78% 不可信的存量边上定的,不是可信基线。章节链骨架停产（2026-08） 收尾时按最终数据复核本值。
+    query: { fn: prereq, arg: "concept:数学:一元一次方程" }
+    expect:
+      required_ids: ["concept:数学:等式的性质", "concept:数学:方程的解"]
+      min_count: 2
+  - id: acc-002
+    category: accuracy
+    note: 北师大七上数学 C1-S1（生活中的立体图形）的概念覆盖。
+      "棱柱"系列（棱柱/直棱柱与斜棱柱/正棱柱/棱柱的分类/棱柱的展开图）现归 C1-S2，不在本节。
+    query: { fn: concepts, arg: "BSDU-7-1-Math-C1-S1" }
+    expect:
+      required_ids: ["concept:数学:几何体", "concept:数学:点、线、面"]
+      min_count: 2
+  - id: acc-005
+    category: accuracy
+    note: |
+      苏科九上物理 C4(第十四章 欧姆定律)核心节 S3(三、欧姆定律)必覆盖章名概念欧姆定律。
+      2026-09-27 重判:原 case 指向 C4-S1 且要求覆盖 欧姆定律+电阻 ≥10,那是重切前粗抽取
+      (整章 21~22 概念全挂 S1)的产物;批次2/3 重切后 S1=一、电阻(8 条)、S3=三、欧姆定律,
+      欧姆定律的 covered_by 边曾被删未重挂(eval acc-006 暴露),已按新节重挂并同步 sourceRef。
+    query: { fn: concepts, arg: "SK-9-1-Physics-C4-S3" }
+    expect:
+      required_ids: ["concept:物理:欧姆定律"]
+      min_count: 1
+  - id: acc-006
+    category: accuracy
+    note: 欧姆定律被苏科九上物理 C4-S3(三、欧姆定律)覆盖(反查 covered_by 的主干锚点)。原期望 C4-S1 是重切前粗映射的旧节 id,重切后章内切分为 S1 电阻/S3 欧姆定律,重切时该边被删未重挂,已按新节补挂
+    query: { fn: covered, arg: "concept:物理:欧姆定律" }
+    expect:
+      required_ids: ["SK-9-1-Physics-C4-S3"]
+      min_count: 1
+  - id: acc-007
+    category: accuracy
+    note: 质量守恒定律的先修闭包必含化学方程式与反应物/生成物(陈述该定律的前置概念)。原下界 6 取自 全库先修复核（2026-08） 复核前的 22 条闭包,其中 化学方程式→具体反应 一族方向写反,X01 已按口径 B 反转,闭包缩到 4,故下界改为语义稳定的 3 项核心
+    query: { fn: prereq, arg: "concept:化学:质量守恒定律" }
+    expect:
+      required_ids: ["concept:化学:化学方程式", "concept:化学:反应物", "concept:化学:生成物"]
+      min_count: 3
+  - id: acc-008
+    category: accuracy
+    note: 质量守恒定律被科粤九上化学 C4-S2(4.2 质量守恒定律)覆盖。原期望 C4-S1 是重切前旧切分(整章一节)的 id,重切后 C4 三分(化学式/质量守恒定律/化学方程式),重切时该边被删未重挂,已按新节补挂
+    query: { fn: covered, arg: "concept:化学:质量守恒定律" }
+    expect:
+      required_ids: ["KY-9-1-Chemistry-C4-S2"]
+      min_count: 1
+  - id: acc-009
+    category: accuracy
+    note: |
+      科粤九上化学 C1-S3(1.3 物质的变化)必含学科起点概念化学变化。
+      2026-09-27 重判:原 case 指向 C1-S1 且 min_count 25,那是重切前旧切分(整单元一节,37 概念)
+      的口径;重切后 C1 四分,S1=1.1 身边的化学(7 条),化学变化归属 S3 物质的变化
+      (同节已有 物理变化/化学变化的基本特征),其边曾被删未重挂,已补挂并同步 sourceRef。
+      min_count 2 = 现有 3 条留 1 条缓冲。
+    query: { fn: concepts, arg: "KY-9-1-Chemistry-C1-S3" }
+    expect:
+      required_ids: ["concept:化学:化学变化"]
+      min_count: 2
+  - id: acc-011
+    category: accuracy
+    note: 英语"定语从句"有大量 word/phrase/sentence 例证(当前 69 个,留余量防增删)。
+      原用例取"一般过去时",该概念现存 0 条 demonstrates——那批词在词书迁入节区块时未回挂,
+      属数据缺口,已在 README 已知局限记录;评测改用有例证的概念。
+    query: { fn: demo, arg: "concept:英语:定语从句（关系代词that/who）" }
+    expect:
+      min_count: 30
+  - id: acc-012
+    category: accuracy
+    note: 英语"名词复数"有大量例证(取样时 79 个,含 trousers/shoes 等 word 与短语)
+    query: { fn: demo, arg: "concept:英语:名词复数" }
+    expect:
+      min_count: 30
+  - id: acc-013
+    category: accuracy
+    note: 语文成语"热泪盈眶"的例证是其四个汉字 Character(盈/眶为强锚点;id 前缀含节号,教材重组时更新 id)
+    query: { fn: demo, arg: "concept:语文:热泪盈眶" }
+    expect:
+      required_ids: ["character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:盈", "character:PEP-8-1-Chinese:PEP-8-1-Chinese-C2-S3:眶"]
+      min_count: 3
+  - id: rel-001
+    category: accuracy
+    note: 立方根的 related 双向邻居必含平方根/算术平方根(实跑 3 个,另有入边 无理数;避开 相关可疑边 可疑边)
+    query: { fn: related, arg: "concept:数学:立方根" }
+    expect:
+      required_ids: ["concept:数学:平方根", "concept:数学:算术平方根"]
+      min_count: 2
+  - id: rel-002
+    category: accuracy
+    note: 欧姆定律的 related 必含电阻(定律核心量,教材主干,语义最稳;实跑 2 个,另一邻居 伏安法测电阻 可能随边分类调整,故只锚电阻、min_count 保守取 1)
+    query: { fn: related, arg: "concept:物理:欧姆定律" }
+    expect:
+      required_ids: ["concept:物理:电阻"]
+      min_count: 1
+  - id: hon-001
+    category: honesty
+    note: 不存在的节必须返回空,不得模糊命中
+    query: { fn: concepts, arg: "BSDU-7-1-Math-C99-S1" }
+    expect: { must_be_empty: true }
+  - id: hon-002
+    category: honesty
+    note: 不存在的概念查先修必须返回空,不得按标题近似匹配
+    query: { fn: prereq, arg: "concept:数学:此概念不存在" }
+    expect: { must_be_empty: true }
+  - id: hon-004
+    category: honesty
+    note: 不存在的概念查例证必须返回空
+    query: { fn: demo, arg: "concept:英语:此概念不存在" }
+    expect: { must_be_empty: true }
+  - id: hon-005
+    category: honesty
+    note: 不存在的概念查 related 必须返回空,不得按标题近似匹配
+    query: { fn: related, arg: "concept:数学:此概念不存在" }
+    expect: { must_be_empty: true }

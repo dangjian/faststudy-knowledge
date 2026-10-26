@@ -1,0 +1,52 @@
+node_modules/
+/dist/
+
+# 教材源数据（原始 PDF / 页图 / OCR 中间产物），体积 ~8GB，永不入仓；脚本经 KG_SOURCE_DIR 或 source_data 相对路径消费
+/source_data/
+
+# OCR page / probe cache
+.ocr-cache/
+tools/kg/.ocr-cache/
+
+# Pipeline run artifacts (not source of truth)
+**/polish-batch-summary.json
+**/extract-summary.json
+**/*.polished.md
+**/*.polish-report.json
+**/*.repair-report.json
+**/*.format-report.json
+
+# Agent / local workspace data (not project source; never commit)
+.workbuddy/
+
+# 私密配置（API key 等），绝不入仓（本机 .env，参见 .env.example）
+.env
+
+# Misc temp / OS / python hygiene
+_extracted.txt
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+
+# tools/kg/state 白名单式：只保留 page_space.json、error-patterns/ 内容与各目录 .gitkeep
+# 注意：不能写 state/* + !state/**/.gitkeep——父目录被排除后 git 不再下探，
+# 子目录里的 .gitkeep 不会被纳管。
+tools/kg/state/**
+!tools/kg/state/**/
+!tools/kg/state/**/.gitkeep
+!tools/kg/state/page_space.json
+!tools/kg/state/error-patterns/**
+
+# 迁移目录占位（已迁空，保留 .gitkeep 以维持目录）
+tools/kg/migrations/**
+!tools/kg/migrations/.gitkeep
+tools/kg/src/migrate/**
+!tools/kg/src/migrate/.gitkeep
+
+# demo 数据（由 pnpm kg:demo 生成，不提交）
+demo/data/
+
+# 第三方渲染库（由 pnpm kg:demo 从 node_modules 拷入）
+demo/vendor/

@@ -1,0 +1,13 @@
+entity_types:
+  Concept: { layer: learning, storage: graph, properties: [subject, title, explanation, sourceRef] }
+  Textbook: { layer: structure, storage: derived, properties: [title, grade, term, subject, publisher, totalPages, standardEdition, sourceRef] }
+  Chapter: { layer: structure, storage: derived, properties: [textbookId, title, order, pageRange, sourceRef] }
+  Section: { layer: structure, storage: derived, properties: [chapterId, textbookId, title, order, pageRange, sourceRef] }
+  Word: { layer: content, storage: derived, properties: [word, meaning, sourceRef] }
+relation_types: [prerequisite, related, part_of, demonstrates, covered_by]
+relation_endpoints:
+  prerequisite: [Concept, Concept]
+  related: [Concept, Concept]
+  part_of: [Concept, Concept]
+  demonstrates: [Word, Concept]
+  covered_by: [Concept, Section]

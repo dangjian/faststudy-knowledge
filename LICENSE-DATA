@@ -1,0 +1,11 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+Full legal text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Scope（穷举，其余一切内容默认适用 LICENSE(MIT) 或 NOTICE）：
+- graph/                       —— 知识图谱实体/关系/本体（自编）
+- content/ 各节 md 文末的 `## 解题模型`/`## 笔记`/`## 总结`
+  与词书区块（`## 汉字`/`## 单词`/`## 短语`/`## 句子`）—— 自编标注
+
+content/ 的教材原文转写部分，版权归原出版社（见 NOTICE），不适用本许可。

@@ -1,0 +1,90 @@
+---
+chapterId: PEP-3-2-English-C8
+title: Appendix 1 Songs
+---
+
+# Appendix 1 Songs
+
+歌曲
+
+## Unit 1
+
+Where are you from?
+
+Nice to meet you. What's your name?
+What's your name? What's your name?
+Nice to meet you. What's your name?
+My name's Amy.
+
+I'm from China. Where are you from?
+Where are you from? Where are you from?
+I'm from China. Where are you from?
+I'm from the UK.
+
+## Unit 2
+
+Expressing yourself
+
+You have long legs and you know it. Make them dance.
+You have long legs and you know it. Make them dance.
+You have long legs and you know it, and you really want to show it.
+You have long legs and you know it. Make them dance.
+
+You are happy and you know it. Sing a song.
+You are happy and you know it. Sing a song.
+You are happy and you know it, and you really want to show it.
+You are happy and you know it. Sing a song.
+
+## Unit 3
+
+Can I use your pen?
+
+Can I use your pen? Can I use your pen? Can I use your pen?
+Yes, no problem. Yes, no problem. You can use my pen.
+That's kind. Thank you!
+
+Can I use your ruler? Can I use your ruler? Can I use your ruler?
+You can use it. You can use it. You can use my ruler.
+
+Here's a seat. Please sit down.
+Please sit down. Please sit down.
+Here's a seat. Please sit down.
+
+## Unit 4
+
+Would you like some bread?
+
+Would you like some bread? Would you like some bread? Would you like some bread?
+Yes, I'd like some bread. Yes, I'd like some bread.
+
+Would you like some fish? Would you like some fish?
+Yes, put it on my dish. Please, put it on my dish.
+
+Would you like some meat? Would you like some meat?
+Yes, I'd like some meat. Yes, I'd like some meat.
+
+Would you like some juice? Would you like some juice?
+Yes, pour it in my glass. Please, pour it in my glass.
+
+## Unit 5
+
+Giving old things new life
+
+Let's make new things. Let's use old things.
+What can you do? What can you do?
+I can use a blue car, I can use two blue cars, as my shoes, as my shoes.
+
+Let's make new things. Let's use old things.
+What can you do? What can you do?
+I can use a brown bag, I can use a brown bag, to hold my shoes, to hold my shoes.
+
+## Unit 6
+
+Let me count!
+
+How many people are there on the bus?
+There are nineteen on the bus. They all make a fuss, pull over, pull over.
+So the bus pulls over, and two get out. There are seventeen on the bus. They all make a fuss, pull over, pull over.
+So the bus pulls over, and three get out. There are fourteen on the bus. They all make a fuss, pull over, pull over.
+So the bus pulls over, and four get out.
+So the bus pulls over, now let me count.

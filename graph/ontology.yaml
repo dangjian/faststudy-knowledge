@@ -1,0 +1,87 @@
+# 知识图谱本体：实体类型 + 关系类型注册表
+# lint rule 1(schema) 与 rule 6(ontology-drift) 的校验依据
+# storage 声明实体的文件归属(被 lint 的 layer-placement 规则消费)：
+#   graph=graph/entities/ 下的实体(身份+我方标注)；derived=由 content md 派生,无独立源文件
+#   （2026-08-28 content 去 YAML 化：content/ 只放 md；2026-09-27 content v4 章节区块融合：
+#     词书四类由 sections/章 index 文末区块派生，Figure/ExamModel 与 applies_to 随之退役）
+entity_types:
+  Textbook:
+    layer: structure
+    storage: derived
+    # origin 区分原始教材与扩展知识（EXT- 前缀的虚拟教材），source 记扩展知识的来源出处
+    properties: [title, grade, term, subject, publisher, totalPages, standardEdition, origin, source, sourceRef]
+  Chapter:
+    layer: structure
+    storage: derived
+    properties: [textbookId, title, order, pageRange, sourceRef]
+  Section:
+    layer: structure
+    storage: derived
+    properties: [chapterId, textbookId, title, order, pageRange, sourceRef]
+  Concept:
+    layer: learning
+    storage: graph
+    properties: [subject, title, aliases, explanation, category, misconceptions, sourceRef, gradeRange, standards, centrality, conceptType, masteryCriteria]
+  Word:
+    layer: content
+    storage: derived
+    properties: [word, ipa, pos, meaning, sourceRef]
+  Phrase:
+    layer: content
+    storage: derived
+    properties: [en, cn, sourceRef]
+  Sentence:
+    layer: content
+    storage: derived
+    properties: [english, cn, sourceRef]
+  Character:
+    layer: content
+    storage: derived
+    properties: [char, pinyin, definition, example, sourceRef]
+relation_types:
+  - prerequisite   # Concept -> Concept（学习路径，DAG 无环）
+  - related         # Concept -> Concept（非方向）
+  - part_of         # Concept -> Concept（隶属）
+  - demonstrates    # Item -> Concept（学习项演示概念）
+  - covered_by      # Concept -> Section（概念在某节被覆盖）
+relation_endpoints:
+  prerequisite: [Concept, Concept]
+  related: [Concept, Concept]
+  part_of: [Concept, Concept]
+  demonstrates: [Word, Concept]   # from=Word|Phrase|Sentence|Character；英语核心，语/数可选
+  # covered_by 两级（2026-10-25）：节级 = 该节正文/标题讲了这个概念；章级 = 概念属于该章
+  # 的知识清单，但没有任何一节能举证（教材正文用叙述表达，概念名多是概括句）。
+  # 章级是**如实记录**，不是豁免：它明确表示"归章已定、落节未知"，避免把概念硬塞进某一节
+  # 制造"某节讲过它"的假陈述。
+  covered_by: [Concept, Section|Chapter]
+
+# ─────────────────────────────────────────────────────────────
+# 三个 Concept→Concept 关系的互斥判据（先修方向判据修订（2026-08） 阶段2 修订 2026-08-27；口径 B 修订 2026-08-28）
+# 判定顺序（对一条给定的 A→B 候选边，按顺序问，命中即停）：
+#   ① 整体—部分/上位—下位？ → part_of        ← 口径 B：含容优先，先问这个
+#   ② 跨话题的能力依赖？     → prerequisite（方向见下）
+#   ③ 并列相关？             → related
+#   ④ 都不成立               → 真删（这条边不该存在）
+# 口径 B（2026-08-28 定）：含容一旦成立就转 part_of，**哪怕能力依赖同时成立**。
+#   理由：子类边的能力依赖永远平凡成立（不讲「三角形」就讲不了「等腰三角形」），
+#   若让依赖反超，part_of 将永远为空、判定顺序形同虚设。prerequisite 只留「两端互不隶属」的真依赖。
+# 详见 仓外治理记录（不入公开仓）先修方向判据修订（2026-08）-prerequisite-direction/labeling_rubric.md 标注手册。
+# ─────────────────────────────────────────────────────────────
+relation_semantics:
+  prerequisite:
+    direction: "from 依赖 to，to 是 from 的先修（有向，DAG 无环）"
+    criterion: "跨话题的能力依赖：两端互不隶属，但不懂 to 就学不了 from"
+    test: "先确认 from、to 互不隶属（否则归 part_of）；再把 to 从课程里拿掉，from 的讲解是否无法进行？是 → prerequisite。"
+    counterexample: "'教材里先讲' 不是判据（实测 一元一次方程 C5-S1 → 等式的性质 C5-S4，教材顺序与先修关系相反）。"
+    exclude: "若两端存在含容（一方是另一方的组成部分/子类/实例/子话题）→ 一律 part_of，**即使能力依赖同时成立**（口径 B）。"
+    trust: "⚠️ 分两档，消费方必须区分。① 逐条复核：全库先修复核（2026-08） 按口径 B（含容优先）把 8441 条逐条重判完毕：仅 724 条（8.6%）原样成立，894 条（10.6%）反转后成立，1269+1379 条（31.3%）实为 part_of，1926 条（22.8%）实为 related，2249 条（26.6%）删除，结案时存量 1614 条；这档边标 `reviewed: audited`。② 仅抽样：其后的跨册先修批次新增一批 sampled 边（试点 5 本抽样 40 条、正确 36 条；数学/英语/语文/道法/科学各批无逐条判定），标 `reviewed: sampled`；期间另有 139 条已复核边被这些批次删除，需复核时应从结案快照（commit a2ca5589）取回。2026-10-25 P1 数据修正：数学 261 条 sampled 中 32 条含容转 part_of、1 条年级倒置删除，其余 228 条抽样 30 条审核全过后整批升档进 audited；现状 1829 条 = 1703 audited + 126 sampled（sampled 仅剩数学以外学科批次）。已知遗留（2026-10-25 换判据复核收口）：数学 audited 含 40 条「年级倒置」（先修锚定册次晚于后继）= 24 老（全库先修复核（2026-08） 结案范围）+ 16 新（升档批次）。以「含容双向/同册」替代年级先后作判据复核：16 新边零命中（全部跨学段跨册、无含容，依赖方向维持 P1-2 判定），数据零改动；年级倒置信号确认为主锚册次假象为主（概念跨多书时主锚选了初中/高册）。老边中 2 条含容（一次函数的图象←函数、平行四边形的定义←四边形，口径 B 属 part_of 候选）与 8 条「尺规作图(七上)←三角形全等家族(七下)」方向存疑边，已列为缺口工作流候选，逐条裁。下游应用侧的消费白名单 `TRUSTED_PREREQ_SUBJECTS` 已列全九科（数学/语文/历史/道德与法治/生物/英语/化学/地理/物理）且要求两端都在白名单内，但它按学科整体放行、挡不住批次差异，故 learner 先修闭包另加 `reviewed: audited` 闸；科学学科整体未进白名单。注意口径 B 下先修闭包比改前稀疏得多（含容关系全部搬去了 part_of），下游补救若要补全上位知识需同时上行 part_of。治理记录见 仓外治理记录（不入公开仓）（过程产物，不入公开仓）。"
+  part_of:
+    direction: "from 是 to 的组成部分/子类/实例（from 属于 to）"
+    criterion: "整体—部分 / 上位—下位 / 子话题（判定顺序中最先问的一档）"
+    test: "能否说 'from 是 to 的一种 / 一部分 / 一个实例 / 一个子话题'？是 → part_of。"
+    exclude: "无。含容成立即 part_of，不因'能力依赖也成立'而让位给 prerequisite（口径 B，2026-08-28）。仅当两端互不隶属时才轮到 prerequisite / related。"
+  related:
+    direction: "无向，并列/主题相关"
+    criterion: "并列/主题相关：有关联但既无依赖也无包含"
+    test: "两者同章并列或主题相关，但既不是 '一个是另一个的一部分'（非 part_of）、也不是 '拿掉一个另一个讲不了'（非 prerequisite）→ related。"
+    exclude: "整体—部分 → part_of（先问）；跨话题能力依赖 → prerequisite。"

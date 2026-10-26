@@ -1,0 +1,4534 @@
+# part_of 层级金标（人工判定，2026-10-26）
+#
+# 用途：验证「A 属于 B」这一层语义。lint 只能校验端点类型与无环，回答不了
+# 「A 到底是不是 B 的一种/一部分」。这是 5,163 条关系里唯一没有任何语义验证的一块。
+#
+# 抽样：分层确定性抽 100 条（FNV-1a 哈希）
+#   A 标题含容 40（A、B 标题互相包含，最容易出事）
+#   B 跨章      40（同科不同章）
+#   C 同章      20
+#
+# 判定方式：先由独立 agent 盲判（不给任何既有结论），再由人工逐条核对 wrong/unsure 与
+# 可疑 correct，修订 8 条（6 条 correct/unsure 上调、2 条 correct 下调）。
+#
+# verdict: correct=A 是 B 的一种/一部分 / wrong=并列、无隶属或方向反了 / unsure=需语境
+# 第五轮（2026-10-26，另抽 100 条）：correct 82 / wrong 16 / unsure 2 → 可判定 83.7%
+#   累计 500 条：correct 398 / wrong 88 / unsure 14 → 可判定 81.9%
+# 第四轮（2026-10-26，另抽 100 条）：correct 85 / wrong 12 / unsure 3 → 可判定 87.6%
+#   累计 400 条：correct 316 / wrong 72 / unsure 12 → 可判定 81.4%
+# 第三轮（2026-10-26，另抽 100 条）：correct 82 / wrong 17 / unsure 1 → 可判定 82.8%
+#   累计 300 条：correct 231 / wrong 60 / unsure 9 → 可判定 79.4%
+# 第二轮（2026-10-26，另抽 100 条，排除已判）：correct 75 / wrong 19 / unsure 6 → 可判定 79.8%
+#   累计 200 条：correct 149 / wrong 43 / unsure 8 → 可判定 77.6%
+# 实测基线（第一轮 100 条）：correct 74 / wrong 24 / unsure 2
+#   → 可判定 98 条中正确率 75.5%
+#   按 5,163 条总量外推，约 1,2xx 条层级关系存疑——这是当前图谱最大的单点语义风险。
+#
+# 已知错误形态（可用于批量筛查）：
+#   1. 定义 ↔ 定理 并列（「三角形外角的定义」→「三角形外角定理」）
+#   2. 近义表述（「至死不懈」→「鞠躬尽瘁，死而后已」）
+#   3. 专名/书名 → 体裁或课文（「《山海经》」→「阿长与《山海经》」）
+#   4. 并列职权/并列分类（立法权→监督权、优弧→半圆）
+#   5. 陈述句被当作概念（「…的共同祖先是古猿」→「共同祖先」）
+#
+items:
+- from: concept:语文:《儒林外史》的正面理想人物
+  to: concept:语文:讽刺作品
+  fromTitle: "《儒林外史》的正面理想人物"
+  toTitle: "讽刺作品"
+  subject: 语文
+  stratum: B
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: wrong
+  note: "正面人物属作品，不属讽刺作品体裁"
+- from: concept:生物:糖类
+  to: concept:生物:食物中的营养物质
+  fromTitle: "糖类"
+  toTitle: "食物中的营养物质"
+  subject: 生物
+  stratum: C
+  grades: "七年级/下册/生物 → 七年级/下册/生物"
+  verdict: correct
+  note: "糖类是六类营养物质之一"
+- from: concept:英语:被动语态的用法
+  to: concept:英语:被动语态
+  fromTitle: "被动语态的用法"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "用法是语法项目的组成部分"
+- from: concept:数学:绝对值
+  to: concept:数学:有理数
+  fromTitle: "绝对值"
+  toTitle: "有理数"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "绝对值是有理数章的子概念"
+- from: concept:英语:过去完成时的时间状语
+  to: concept:英语:过去完成时
+  fromTitle: "过去完成时的时间状语"
+  toTitle: "过去完成时"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "时间状语为时态用法子知识点"
+- from: concept:英语:字母组合 ar 的发音
+  to: concept:英语:字母与发音的对应
+  fromTitle: "字母组合ar的发音"
+  toTitle: "字母与发音的对应"
+  subject: 英语
+  stratum: B
+  grades: "四年级/下册/英语 → 三年级/上册/英语"
+  verdict: correct
+  note: "ar发音属字母发音对应之一例"
+- from: concept:生物:血液的组成
+  to: concept:生物:血液的组成与功能
+  fromTitle: "血液的组成"
+  toTitle: "血液的组成与功能"
+  subject: 生物
+  stratum: A
+  grades: "七年级/下册/生物 → 七年级/下册/生物"
+  verdict: correct
+  note: "组成是组成与功能的一部分"
+- from: concept:数学:变量与自变量、因变量
+  to: concept:数学:变量之间的关系
+  fromTitle: "变量与自变量、因变量"
+  toTitle: "变量之间的关系"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "变量概念属变量关系的子内容"
+- from: concept:数学:棱柱的展开图
+  to: concept:数学:展开图
+  fromTitle: "棱柱的展开图"
+  toTitle: "展开图"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "棱柱展开图是展开图的一种"
+- from: concept:历史:上海世博会
+  to: concept:历史:全面建设小康社会目标
+  fromTitle: "上海世博会"
+  toTitle: "全面建设小康社会目标"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "世博会是事件，非目标组成部分"
+- from: concept:数学:二次根式的化简
+  to: concept:数学:二次根式的运算
+  fromTitle: "二次根式的化简"
+  toTitle: "二次根式的运算"
+  subject: 数学
+  stratum: C
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "化简属二次根式运算的一部分"
+- from: concept:道德与法治:自尊
+  to: concept:道德与法治:尊重自己
+  fromTitle: "自尊"
+  toTitle: "尊重自己"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 六年级/下册/道德与法治"
+  verdict: correct
+  note: "自尊是尊重自己的一个方面"
+- from: concept:物理:声波具有能量
+  to: concept:物理:声波
+  fromTitle: "声波具有能量"
+  toTitle: "声波"
+  subject: 物理
+  stratum: A
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: correct
+  note: "声波具能量是声波的子知识点"
+- from: concept:数学:k值对函数图象的影响
+  to: concept:数学:一次函数的图象
+  fromTitle: "k值对函数图象的影响"
+  toTitle: "一次函数的图象"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "k的影响属一次函数图象子点"
+- from: concept:生物:环节动物
+  to: concept:生物:无脊椎动物
+  fromTitle: "环节动物"
+  toTitle: "无脊椎动物"
+  subject: 生物
+  stratum: C
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "环节动物是无脊椎动物一类"
+- from: concept:化学:水的净化方法
+  to: concept:化学:水的净化
+  fromTitle: "水的净化方法"
+  toTitle: "水的净化"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "方法是净化技术的内容部分"
+- from: concept:历史:1917年墨西哥宪法
+  to: concept:历史:墨西哥资产阶级革命
+  fromTitle: "1917年墨西哥宪法"
+  toTitle: "墨西哥资产阶级革命"
+  subject: 历史
+  stratum: B
+  grades: "九年级/下册/历史 → 九年级/下册/历史"
+  verdict: correct
+  note: "1917年宪法是革命成果之一"
+- from: concept:语文:至死不懈
+  to: concept:语文:鞠躬尽瘁，死而后已
+  fromTitle: "至死不懈"
+  toTitle: "鞠躬尽瘁，死而后已"
+  subject: 语文
+  stratum: C
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: wrong
+  note: "两句为近义表述，无隶属关系"
+- from: concept:英语:shouldn't
+  to: concept:英语:should/shouldn't 用法
+  fromTitle: "shouldn't"
+  toTitle: "should/shouldn't用法"
+  subject: 英语
+  stratum: A
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "shouldn't属should用法内容"
+- from: concept:数学:三角形外角的定义
+  to: concept:数学:三角形外角定理
+  fromTitle: "三角形外角的定义"
+  toTitle: "三角形外角定理"
+  subject: 数学
+  stratum: B
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: wrong
+  note: "定义与定理并列，非上下包含"
+- from: concept:语文:话剧
+  to: concept:语文:戏剧冲突
+  fromTitle: "话剧"
+  toTitle: "戏剧冲突"
+  subject: 语文
+  stratum: C
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: wrong
+  note: "话剧与戏剧冲突分属不同维度"
+- from: concept:语文:事件通讯
+  to: concept:语文:通讯
+  fromTitle: "事件通讯"
+  toTitle: "通讯"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "事件通讯是通讯的一种"
+- from: concept:语文:心理描写
+  to: concept:语文:人物描写方法
+  fromTitle: "心理描写"
+  toTitle: "人物描写方法"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "心理描写是人物描写方法之一"
+- from: concept:生物:生态系统的稳定性
+  to: concept:生物:生态系统
+  fromTitle: "生态系统的稳定性"
+  toTitle: "生态系统"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "稳定性是生态系统内容子点"
+- from: concept:地理:风向与风力
+  to: concept:地理:气候
+  fromTitle: "风向与风力"
+  toTitle: "气候"
+  subject: 地理
+  stratum: C
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: wrong
+  note: "风向风力属天气，不属气候"
+- from: concept:化学:甲烷的燃烧
+  to: concept:化学:甲烷
+  fromTitle: "甲烷的燃烧"
+  toTitle: "甲烷"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "燃烧属甲烷化学性质子点"
+- from: concept:道德与法治:生活实践
+  to: concept:道德与法治:正确认识自己
+  fromTitle: "生活实践"
+  toTitle: "正确认识自己"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/上册/道德与法治 → 七年级/上册/道德与法治"
+  verdict: correct
+  note: "生活实践是认识自己的途径"
+- from: concept:语文:世界遗产青少年教育
+  to: concept:语文:世界遗产
+  fromTitle: "世界遗产青少年教育"
+  toTitle: "世界遗产"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "审计：世界遗产青少年教育是世界遗产教育体系的一部分"
+- from: concept:道德与法治:改革开放
+  to: concept:道德与法治:强国富民
+  fromTitle: "改革开放"
+  toTitle: "强国富民"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: wrong
+  note: "审计：改革开放是手段、强国富民是目标，二者非隶属"
+- from: concept:物理:速度单位
+  to: concept:物理:速度
+  fromTitle: "速度单位"
+  toTitle: "速度"
+  subject: 物理
+  stratum: A
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: correct
+  note: "单位是速度概念的组成部分"
+- from: concept:道德与法治:民主监督
+  to: concept:道德与法治:新型民主
+  fromTitle: "民主监督"
+  toTitle: "新型民主"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "民主监督是新型民主环节之一"
+- from: concept:物理:影响压力作用效果的因素
+  to: concept:物理:压强
+  fromTitle: "影响压力作用效果的因素"
+  toTitle: "压强"
+  subject: 物理
+  stratum: C
+  grades: "八年级/下册/物理 → 八年级/下册/物理"
+  verdict: correct
+  note: "探究因素是压强内容子点"
+- from: concept:数学:整式的加减
+  to: concept:数学:整式
+  fromTitle: "整式的加减"
+  toTitle: "整式"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "整式的加减属整式运算内容"
+- from: concept:道德与法治:执法全过程记录制度
+  to: concept:道德与法治:厉行法治
+  fromTitle: "执法全过程记录制度"
+  toTitle: "厉行法治"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "该制度属厉行法治的执法要求"
+- from: concept:地理:本初子午线
+  to: concept:地理:经线
+  fromTitle: "本初子午线"
+  toTitle: "经线"
+  subject: 地理
+  stratum: C
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: correct
+  note: "本初子午线是0度经线一种"
+- from: concept:英语:现在完成时与一般过去时的区别
+  to: concept:英语:现在完成时
+  fromTitle: "现在完成时与一般过去时的区别"
+  toTitle: "现在完成时"
+  subject: 英语
+  stratum: A
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "区别辨析属现在完成时子点"
+- from: concept:数学:角是轴对称图形
+  to: concept:数学:轴对称图形
+  fromTitle: "角是轴对称图形"
+  toTitle: "轴对称图形"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "角是轴对称图形的实例"
+- from: concept:地理:四川省的生态保护
+  to: concept:地理:四川省的自然灾害
+  fromTitle: "四川省的生态保护"
+  toTitle: "四川省的自然灾害"
+  subject: 地理
+  stratum: B
+  grades: "七年级/下册/地理 → 七年级/下册/地理"
+  verdict: wrong
+  note: "生态保护与自然灾害并列无隶属"
+- from: concept:物理:磁性
+  to: concept:物理:磁体
+  fromTitle: "磁性"
+  toTitle: "磁体"
+  subject: 物理
+  stratum: C
+  grades: "九年级/下册/物理 → 九年级/下册/物理"
+  verdict: correct
+  note: "磁性是磁体属性知识子点"
+- from: concept:道德与法治:宪法监督
+  to: concept:道德与法治:宪法规范国家权力
+  fromTitle: "宪法监督"
+  toTitle: "宪法规范国家权力"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: wrong
+  note: "二者分属不同课，无包含关系"
+- from: concept:生物:刺胞动物
+  to: concept:生物:无脊椎动物
+  fromTitle: "刺胞动物"
+  toTitle: "无脊椎动物"
+  subject: 生物
+  stratum: C
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "刺胞动物是无脊椎动物一类"
+- from: concept:数学:一次函数中k的实际意义
+  to: concept:数学:一次函数
+  fromTitle: "一次函数中k的实际意义"
+  toTitle: "一次函数"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "k的意义属一次函数子点"
+- from: concept:生物:草履虫的结构与功能
+  to: concept:生物:单细胞生物
+  fromTitle: "草履虫的结构与功能"
+  toTitle: "单细胞生物"
+  subject: 生物
+  stratum: B
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "草履虫结构属单细胞生物内容"
+- from: concept:数学:代数式求值
+  to: concept:数学:代数式
+  fromTitle: "代数式求值"
+  toTitle: "代数式"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "求值属代数式内容子点"
+- from: concept:地理:国际航空运输
+  to: concept:地理:国际交通运输方式
+  fromTitle: "国际航空运输"
+  toTitle: "国际交通运输方式"
+  subject: 地理
+  stratum: B
+  grades: "七年级/下册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "国际航空运输是运输方式一种"
+- from: concept:英语:情态动词can表能力
+  to: concept:英语:情态动词 can
+  fromTitle: "情态动词can表能力"
+  toTitle: "情态动词can"
+  subject: 英语
+  stratum: A
+  grades: "七年级/上册/英语 → 七年级/下册/英语"
+  verdict: correct
+  note: "can表能力属can用法之一"
+- from: concept:语文:比喻论证
+  to: concept:语文:论证方法
+  fromTitle: "比喻论证"
+  toTitle: "论证方法"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "比喻论证是论证方法的一种"
+- from: concept:数学:二元一次方程组的应用
+  to: concept:数学:二元一次方程组
+  fromTitle: "二元一次方程组的应用"
+  toTitle: "二元一次方程组"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "应用属方程组内容子点"
+- from: concept:道德与法治:重民本
+  to: concept:道德与法治:中华优秀传统文化
+  fromTitle: "重民本"
+  toTitle: "中华优秀传统文化"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "重民本是传统文化核心理念之一"
+- from: concept:英语:there be 句型的过去式
+  to: concept:英语:there be 句型
+  fromTitle: "therebe句型的过去式"
+  toTitle: "therebe句型"
+  subject: 英语
+  stratum: A
+  grades: "六年级/下册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "过去式属therebe句型内容"
+- from: concept:英语:中秋节传说
+  to: concept:英语:中国传统节日
+  fromTitle: "中秋节传说"
+  toTitle: "中国传统节日"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: wrong
+  note: "传说不属于节日，二者无隶属"
+- from: concept:化学:放热现象
+  to: concept:化学:溶解时的吸热或放热现象
+  fromTitle: "放热现象"
+  toTitle: "溶解时的吸热或放热现象"
+  subject: 化学
+  stratum: A
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "放热现象是溶解时现象之一"
+- from: concept:语文:赵州桥
+  to: concept:语文:石拱桥
+  fromTitle: "赵州桥"
+  toTitle: "石拱桥"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "赵州桥是石拱桥的一个实例"
+- from: concept:生物:非条件反射
+  to: concept:生物:神经中枢
+  fromTitle: "非条件反射"
+  toTitle: "神经中枢"
+  subject: 生物
+  stratum: C
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: wrong
+  note: "反射与神经中枢概念不同类"
+- from: concept:历史:两个一百年奋斗目标
+  to: concept:历史:习近平新时代中国特色社会主义思想
+  fromTitle: "两个一百年奋斗目标"
+  toTitle: "习近平新时代中国特色社会主义思想"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "审计：两个一百年奋斗目标是该思想的组成部分"
+- from: concept:数学:优弧
+  to: concept:数学:半圆
+  fromTitle: "优弧"
+  toTitle: "半圆"
+  subject: 数学
+  stratum: C
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: wrong
+  note: "优弧与半圆是并列的弧分类"
+- from: concept:数学:二次函数的对称轴
+  to: concept:数学:二次函数
+  fromTitle: "二次函数的对称轴"
+  toTitle: "二次函数"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "对称轴是二次函数图象的要素"
+- from: concept:科学:解决垃圾问题的方法
+  to: concept:科学:保护地球的行动
+  fromTitle: "解决垃圾问题的方法"
+  toTitle: "保护地球的行动"
+  subject: 科学
+  stratum: B
+  grades: "五年级/下册/科学 → 三年级/下册/科学"
+  verdict: correct
+  note: "解决方法属保护地球行动之一"
+- from: concept:语文:《山海经》
+  to: concept:语文:阿长与《山海经》
+  fromTitle: "《山海经》"
+  toTitle: "阿长与《山海经》"
+  subject: 语文
+  stratum: A
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: wrong
+  note: "书名与课文名，无隶属关系"
+- from: concept:语文:设问
+  to: concept:语文:演讲的语言技巧
+  fromTitle: "设问"
+  toTitle: "演讲的语言技巧"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "审计：设问属演讲语言技巧之一"
+- from: concept:历史:奏折制度
+  to: concept:历史:清朝君主专制的强化
+  fromTitle: "奏折制度"
+  toTitle: "清朝君主专制的强化"
+  subject: 历史
+  stratum: C
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "奏折制度是专制强化措施之一"
+- from: concept:地理:饮食习俗
+  to: concept:地理:习俗
+  fromTitle: "饮食习俗"
+  toTitle: "习俗"
+  subject: 地理
+  stratum: A
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "教材明确习俗包括饮食习俗"
+- from: concept:道德与法治:人民代表大会的立法权
+  to: concept:道德与法治:人民代表大会的监督权
+  fromTitle: "人民代表大会的立法权"
+  toTitle: "人民代表大会的监督权"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: wrong
+  note: "立法权与监督权是并列职权"
+- from: concept:数学:一次函数图象与正比例函数图象的关系
+  to: concept:数学:一次函数
+  fromTitle: "一次函数图象与正比例函数图象的关系"
+  toTitle: "一次函数"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "该关系是一次函数章节知识点"
+- from: concept:数学:随机调查
+  to: concept:数学:收集数据的方法
+  fromTitle: "随机调查"
+  toTitle: "收集数据的方法"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 三年级/上册/数学"
+  verdict: correct
+  note: "随机调查是收集数据方法之一"
+- from: concept:生物:隐性遗传病
+  to: concept:生物:遗传
+  fromTitle: "隐性遗传病"
+  toTitle: "遗传"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: wrong
+  note: "遗传病不是遗传现象的种类"
+- from: concept:生物:结核病
+  to: concept:生物:病原体
+  fromTitle: "结核病"
+  toTitle: "病原体"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: wrong
+  note: "结核病是疾病，非病原体"
+- from: concept:生物:人类和现代类人猿的共同祖先是古猿
+  to: concept:生物:共同祖先
+  fromTitle: "人类和现代类人猿的共同祖先是古猿"
+  toTitle: "共同祖先"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: wrong
+  note: "审计：A 是完整陈述句（…祖先是古猿），不是「共同祖先」的子概念"
+- from: concept:数学:配方法
+  to: concept:数学:一元二次方程的解法
+  fromTitle: "配方法"
+  toTitle: "一元二次方程的解法"
+  subject: 数学
+  stratum: B
+  grades: "九年级/下册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "配方法是解法之一"
+- from: concept:道德与法治:总体国家安全观
+  to: concept:道德与法治:国家安全
+  fromTitle: "总体国家安全观"
+  toTitle: "国家安全"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: unsure
+  note: "观念与国家安全归属需教材语境"
+- from: concept:地理:以色列节水农业
+  to: concept:地理:中东农业类型
+  fromTitle: "以色列节水农业"
+  toTitle: "中东农业类型"
+  subject: 地理
+  stratum: B
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "以色列节水农业属中东农业类型"
+- from: concept:生物:淡水生态系统
+  to: concept:生物:生态系统
+  fromTitle: "淡水生态系统"
+  toTitle: "生态系统"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "淡水生态系统是生态系统的一种"
+- from: concept:语文:时间顺序
+  to: concept:语文:说明顺序
+  fromTitle: "时间顺序"
+  toTitle: "说明顺序"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "时间顺序是说明顺序之一"
+- from: concept:语文:闻一多与《最后一次讲演》
+  to: concept:语文:演讲词
+  fromTitle: "闻一多与《最后一次讲演》"
+  toTitle: "演讲词"
+  subject: 语文
+  stratum: C
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "该讲演是演讲词篇目之一"
+- from: concept:数学:概率的古典定义
+  to: concept:数学:概率
+  fromTitle: "概率的古典定义"
+  toTitle: "概率"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "古典定义是概率的一种定义"
+- from: concept:历史:文化专制政策
+  to: concept:历史:清朝对全国的统治
+  fromTitle: "文化专制政策"
+  toTitle: "清朝对全国的统治"
+  subject: 历史
+  stratum: B
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "文化专制是清朝统治措施之一"
+- from: concept:语文:采访提纲
+  to: concept:语文:采访方案
+  fromTitle: "采访提纲"
+  toTitle: "采访方案"
+  subject: 语文
+  stratum: C
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "提纲是采访方案的组成部分"
+- from: concept:地理:海洋生态环境保护
+  to: concept:地理:生态环境保护
+  fromTitle: "海洋生态环境保护"
+  toTitle: "生态环境保护"
+  subject: 地理
+  stratum: A
+  grades: "七年级/下册/地理 → 七年级/下册/地理"
+  verdict: correct
+  note: "海洋生态环保是生态环保的一种"
+- from: concept:英语:Climate change
+  to: concept:英语:Making a Difference
+  fromTitle: "Climatechange"
+  toTitle: "MakingaDifference"
+  subject: 英语
+  stratum: C
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "气候变化是该单元的话题内容"
+- from: concept:数学:一元二次方程的一般形式
+  to: concept:数学:一元二次方程
+  fromTitle: "一元二次方程的一般形式"
+  toTitle: "一元二次方程"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "一般形式是一元二次方程的要素"
+- from: concept:语文:智取生辰纲
+  to: concept:语文:英雄传奇
+  fromTitle: "智取生辰纲"
+  toTitle: "英雄传奇"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "智取生辰纲出自英雄传奇水浒"
+- from: concept:物理:费力杠杆
+  to: concept:物理:杠杆
+  fromTitle: "费力杠杆"
+  toTitle: "杠杆"
+  subject: 物理
+  stratum: A
+  grades: "九年级/上册/物理 → 九年级/上册/物理"
+  verdict: correct
+  note: "费力杠杆是杠杆的一种"
+- from: concept:化学:煤气
+  to: concept:化学:化石燃料
+  fromTitle: "煤气"
+  toTitle: "化石燃料"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: wrong
+  note: "煤气为煤加工产物，非化石燃料"
+- from: concept:地理:东南亚的华人和华侨
+  to: concept:地理:东南亚
+  fromTitle: "东南亚的华人和华侨"
+  toTitle: "东南亚"
+  subject: 地理
+  stratum: A
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "该阅读是东南亚章节的子内容"
+- from: concept:英语:词缀 -self/-selves, -less, -ache
+  to: concept:英语:Adjective Suffixes -ful and -less
+  fromTitle: "词缀-self/-selves,-less,-ache"
+  toTitle: "AdjectiveSuffixes-fuland-less"
+  subject: 英语
+  stratum: B
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: wrong
+  note: "含非形容词后缀，与B不匹配"
+- from: concept:历史:联合国安全理事会
+  to: concept:历史:联合国
+  fromTitle: "联合国安全理事会"
+  toTitle: "联合国"
+  subject: 历史
+  stratum: A
+  grades: "九年级/下册/历史 → 九年级/下册/历史"
+  verdict: correct
+  note: "安理会是联合国主要机构之一"
+- from: concept:道德与法治:儒家伦理道德思想
+  to: concept:道德与法治:中华优秀传统文化
+  fromTitle: "儒家伦理道德思想"
+  toTitle: "中华优秀传统文化"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "儒家思想是中华优秀传统文化部分"
+- from: concept:英语:特殊疑问句 What...? 与 How many...?
+  to: concept:英语:特殊疑问句
+  fromTitle: "特殊疑问句What...?与Howmany...?"
+  toTitle: "特殊疑问句"
+  subject: 英语
+  stratum: A
+  grades: "七年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "具体句型属特殊疑问句的一类"
+- from: concept:语文:经度对物候的影响
+  to: concept:语文:物候学的研究意义
+  fromTitle: "经度对物候的影响"
+  toTitle: "物候学的研究意义"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: wrong
+  note: "经度影响属因素，非研究意义"
+- from: concept:英语:be grown
+  to: concept:英语:be grown on
+  fromTitle: "begrown"
+  toTitle: "begrownon"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: wrong
+  note: "短语片段与其扩展形式无隶属"
+- from: concept:历史:保甲法
+  to: concept:历史:王安石变法
+  fromTitle: "保甲法"
+  toTitle: "王安石变法"
+  subject: 历史
+  stratum: B
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "保甲法是王安石变法的措施之一"
+- from: concept:生物:健康的生活方式
+  to: concept:生物:生活方式
+  fromTitle: "健康的生活方式"
+  toTitle: "生活方式"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "健康生活方式是生活方式的一种"
+- from: concept:数学:数轴
+  to: concept:数学:有理数大小比较
+  fromTitle: "数轴"
+  toTitle: "有理数大小比较"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: wrong
+  note: "数轴与有理数大小比较并列"
+- from: concept:道德与法治:全民国家安全教育日
+  to: concept:道德与法治:国家安全
+  fromTitle: "全民国家安全教育日"
+  toTitle: "国家安全"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: wrong
+  note: "教育日与国家安全无隶属关系"
+- from: concept:语文:教科书插图与书法
+  to: concept:语文:教科书编写修订
+  fromTitle: "教科书插图与书法"
+  toTitle: "教科书编写修订"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: unsure
+  note: "插图书法归属需教材语境确认"
+- from: concept:道德与法治:人身权
+  to: concept:道德与法治:民法典
+  fromTitle: "人身权"
+  toTitle: "民法典"
+  subject: 道德与法治
+  stratum: C
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "人身权是民法典规定内容之一"
+- from: concept:道德与法治:人民当家作主
+  to: concept:道德与法治:人民民主
+  fromTitle: "人民当家作主"
+  toTitle: "人民民主"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "审计：人民当家作主是人民民主的本质内容"
+- from: concept:化学:吸附法
+  to: concept:化学:混合物分离的一般思路与方法
+  fromTitle: "吸附法"
+  toTitle: "混合物分离的一般思路与方法"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "吸附法是混合物分离方法之一"
+- from: concept:数学:垂线段最短
+  to: concept:数学:垂线
+  fromTitle: "垂线段最短"
+  toTitle: "垂线"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "垂线段最短是垂线性质内容"
+- from: concept:道德与法治:网络促进人际交往
+  to: concept:道德与法治:网络促进社会进步
+  fromTitle: "网络促进人际交往"
+  toTitle: "网络促进社会进步"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: wrong
+  note: "人际交往属日常生活，非社会进步"
+- from: concept:数学:长方体的展开图
+  to: concept:数学:展开图
+  fromTitle: "长方体的展开图"
+  toTitle: "展开图"
+  subject: 数学
+  stratum: A
+  grades: "三年级/下册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "长方体展开图是展开图的一种"
+- from: concept:生物:裸子植物
+  to: concept:生物:藻类植物
+  fromTitle: "裸子植物"
+  toTitle: "藻类植物"
+  subject: 生物
+  stratum: C
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: wrong
+  note: "裸子植物与藻类植物并列"
+- from: concept:英语:embarrassed vs embarrassing
+  to: concept:英语:Adjectives ending in -ed and -ing
+  fromTitle: "embarrassedvsembarrassing"
+  toTitle: "Adjectivesendingin-edand-ing"
+  subject: 英语
+  stratum: B
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "embarrassed属-ed/-ing形容词"
+- from: concept:语文:吴用
+  to: concept:语文:《水浒传》
+  fromTitle: "吴用"
+  toTitle: "《水浒传》"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "吴用是《水浒传》人物"
+- from: concept:历史:台儿庄大捷
+  to: concept:历史:七七事变
+  fromTitle: "台儿庄大捷"
+  toTitle: "七七事变"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: wrong
+  note: "两次事件并列，无隶属"
+- from: concept:地理:俄罗斯的森林资源
+  to: concept:地理:俄罗斯的自然资源
+  fromTitle: "俄罗斯的森林资源"
+  toTitle: "俄罗斯的自然资源"
+  subject: 地理
+  stratum: B
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "森林资源是自然资源一类"
+- from: concept:英语:急救知识
+  to: concept:英语:健康建议表达
+  fromTitle: "急救知识"
+  toTitle: "健康建议表达"
+  subject: 英语
+  stratum: B
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: unsure
+  note: "审计：急救知识与「健康建议表达」分属内容与语言功能，但教材可能同节呈现"
+- from: concept:历史:中国共产党是全民族抗战的中流砥柱
+  to: concept:历史:全民族抗战
+  fromTitle: "中国共产党是全民族抗战的中流砥柱"
+  toTitle: "全民族抗战"
+  subject: 历史
+  stratum: A
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "该论断属全民族抗战话题"
+- from: concept:化学:化学课学习内容
+  to: concept:化学:化学
+  fromTitle: "化学课学习内容"
+  toTitle: "化学"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "学习内容是化学的子话题"
+- from: concept:化学:蒸发结晶
+  to: concept:化学:结晶
+  fromTitle: "蒸发结晶"
+  toTitle: "结晶"
+  subject: 化学
+  stratum: A
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "蒸发结晶是结晶的一种"
+- from: concept:生物:常染色体
+  to: concept:生物:染色体
+  fromTitle: "常染色体"
+  toTitle: "染色体"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "常染色体属染色体类别"
+- from: concept:语文:世界遗产
+  to: concept:语文:文化遗产
+  fromTitle: "世界遗产"
+  toTitle: "文化遗产"
+  subject: 语文
+  stratum: C
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: wrong
+  note: "方向反了，世界遗产更大"
+- from: concept:语文:闻王昌龄左迁龙标遥有此寄
+  to: concept:语文:古代诗歌四首
+  fromTitle: "闻王昌龄左迁龙标遥有此寄"
+  toTitle: "古代诗歌四首"
+  subject: 语文
+  stratum: C
+  grades: "七年级/上册/语文 → 七年级/上册/语文"
+  verdict: correct
+  note: "该诗收入古代诗歌四首"
+- from: concept:语文:孙犁
+  to: concept:语文:晋察冀抗日根据地
+  fromTitle: "孙犁"
+  toTitle: "晋察冀抗日根据地"
+  subject: 语文
+  stratum: B
+  grades: "七年级/下册/语文 → 七年级/上册/语文"
+  verdict: wrong
+  note: "人物与地点，无隶属"
+- from: concept:地理:欧洲联盟
+  to: concept:地理:区域性组织
+  fromTitle: "欧洲联盟"
+  toTitle: "区域性组织"
+  subject: 地理
+  stratum: C
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "欧盟是区域性组织之一"
+- from: concept:英语:颜色词汇
+  to: concept:英语:询问颜色的句型
+  fromTitle: "颜色词汇"
+  toTitle: "询问颜色的句型"
+  subject: 英语
+  stratum: B
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: wrong
+  note: "词汇与句型并列，非隶属"
+- from: concept:道德与法治:调解
+  to: concept:道德与法治:权利救济方式
+  fromTitle: "调解"
+  toTitle: "权利救济方式"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "调解是权利救济方式之一"
+- from: concept:数学:列方程解应用题
+  to: concept:数学:一元一次方程的应用
+  fromTitle: "列方程解应用题"
+  toTitle: "一元一次方程的应用"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "属一元一次方程应用"
+- from: concept:语文:明暗双线结构
+  to: concept:语文:双线结构
+  fromTitle: "明暗双线结构"
+  toTitle: "双线结构"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "明暗双线是双线结构一种"
+- from: concept:数学:一元一次不等式组的应用
+  to: concept:数学:一元一次不等式组
+  fromTitle: "一元一次不等式组的应用"
+  toTitle: "一元一次不等式组"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "应用是不等式组的子话题"
+- from: concept:数学:分式有意义的条件
+  to: concept:数学:分式
+  fromTitle: "分式有意义的条件"
+  toTitle: "分式"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "有意义的条件属分式内容"
+- from: concept:数学:解方程
+  to: concept:数学:方程
+  fromTitle: "解方程"
+  toTitle: "方程"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "解方程是方程的下位内容"
+- from: concept:数学:全等三角形的表示
+  to: concept:数学:全等三角形
+  fromTitle: "全等三角形的表示"
+  toTitle: "全等三角形"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "表示法属全等三角形内容"
+- from: concept:地理:北美洲
+  to: concept:地理:七大洲
+  fromTitle: "北美洲"
+  toTitle: "七大洲"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "北美洲是七大洲之一"
+- from: concept:英语:be动词的用法
+  to: concept:英语:Present simple tense
+  fromTitle: "be动词的用法"
+  toTitle: "Presentsimpletense"
+  subject: 英语
+  stratum: B
+  grades: "七年级/上册/英语 → 八年级/下册/英语"
+  verdict: unsure
+  note: "be动词用法未必属现在时"
+- from: concept:生物:藻类植物
+  to: concept:生物:植物的分类
+  fromTitle: "藻类植物"
+  toTitle: "植物的分类"
+  subject: 生物
+  stratum: B
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "藻类植物属植物分类内容"
+- from: concept:数学:从三个方向观察几何体
+  to: concept:数学:从不同位置观察物体
+  fromTitle: "从三个方向观察几何体"
+  toTitle: "从不同位置观察物体"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 三年级/上册/数学"
+  verdict: correct
+  note: "三方向观察属多位置观察"
+- from: concept:历史:《通商章程善后条约》
+  to: concept:历史:《南京条约》
+  fromTitle: "《通商章程善后条约》"
+  toTitle: "《南京条约》"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: wrong
+  note: "两个不同条约，并列关系"
+- from: concept:语文:说明文语言特点
+  to: concept:语文:说明文
+  fromTitle: "说明文语言特点"
+  toTitle: "说明文"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "语言特点是说明文子话题"
+- from: concept:历史:“文化大革命”
+  to: concept:历史:社会主义建设道路的探索
+  fromTitle: "“文化大革命”"
+  toTitle: "社会主义建设道路的探索"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "文革属该探索阶段内容"
+- from: concept:道德与法治:总体国家安全观的核心要义
+  to: concept:道德与法治:国家安全
+  fromTitle: "总体国家安全观的核心要义"
+  toTitle: "国家安全"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "核心要义属国家安全话题"
+- from: concept:数学:矩形
+  to: concept:数学:平行四边形、菱形、矩形、正方形之间的关系
+  fromTitle: "矩形"
+  toTitle: "平行四边形、菱形、矩形、正方形之间的关系"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: unsure
+  note: "矩形是关系对象，非子类"
+- from: concept:语文:缩小的夸张
+  to: concept:语文:夸张
+  fromTitle: "缩小的夸张"
+  toTitle: "夸张"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "缩小夸张是夸张的一种"
+- from: concept:化学:热还原法
+  to: concept:化学:金属冶炼
+  fromTitle: "热还原法"
+  toTitle: "金属冶炼"
+  subject: 化学
+  stratum: C
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "热还原法是金属冶炼方法"
+- from: concept:化学:沉淀法
+  to: concept:化学:水的净化方法
+  fromTitle: "沉淀法"
+  toTitle: "水的净化方法"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "沉淀法是净水方法之一"
+- from: concept:数学:反比例函数中k的几何意义
+  to: concept:数学:反比例函数的性质
+  fromTitle: "反比例函数中k的几何意义"
+  toTitle: "反比例函数的性质"
+  subject: 数学
+  stratum: B
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "k的几何意义属函数性质"
+- from: concept:数学:解一元一次不等式组
+  to: concept:数学:解不等式组
+  fromTitle: "解一元一次不等式组"
+  toTitle: "解不等式组"
+  subject: 数学
+  stratum: B
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "是解不等式组的特例"
+- from: concept:英语:用 can 请求许可
+  to: concept:英语:礼貌请求
+  fromTitle: "用can请求许可"
+  toTitle: "礼貌请求"
+  subject: 英语
+  stratum: B
+  grades: "四年级/下册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "用can请求许可是礼貌请求"
+- from: concept:数学:平行于坐标轴的线段上的点的坐标特征
+  to: concept:数学:平面直角坐标系
+  fromTitle: "平行于坐标轴的线段上的点的坐标特征"
+  toTitle: "平面直角坐标系"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "坐标特征属坐标系内容"
+- from: concept:道德与法治:法治观念
+  to: concept:道德与法治:法律
+  fromTitle: "法治观念"
+  toTitle: "法律"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/上册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: wrong
+  note: "法治观念不属于法律范畴"
+- from: concept:英语:被动语态的否定形式
+  to: concept:英语:被动语态
+  fromTitle: "被动语态的否定形式"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "否定形式属被动语态"
+- from: concept:语文:《伊索寓言》
+  to: concept:语文:寓言
+  fromTitle: "《伊索寓言》"
+  toTitle: "寓言"
+  subject: 语文
+  stratum: A
+  grades: "七年级/上册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "《伊索寓言》属寓言"
+- from: concept:数学:尺规作图：过直线外一点作已知直线的垂线
+  to: concept:数学:尺规作图
+  fromTitle: "尺规作图：过直线外一点作已知直线的垂线"
+  toTitle: "尺规作图"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "该作图是尺规作图一种"
+- from: concept:数学:一元一次不等式与一次函数的关系
+  to: concept:数学:一元一次不等式
+  fromTitle: "一元一次不等式与一次函数的关系"
+  toTitle: "一元一次不等式"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "两者关系属不等式内容"
+- from: concept:语文:叙述视角
+  to: concept:语文:小说三要素
+  fromTitle: "叙述视角"
+  toTitle: "小说三要素"
+  subject: 语文
+  stratum: C
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: wrong
+  note: "叙述视角不属小说三要素"
+- from: concept:地理:大洋洲
+  to: concept:地理:七大洲
+  fromTitle: "大洋洲"
+  toTitle: "七大洲"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "大洋洲是七大洲之一"
+- from: concept:英语:元音字母的短音发音
+  to: concept:英语:元音字母的发音规则
+  fromTitle: "元音字母的短音发音"
+  toTitle: "元音字母的发音规则"
+  subject: 英语
+  stratum: B
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "短音发音属元音发音规则"
+- from: concept:语文:新闻特写与消息的区别
+  to: concept:语文:新闻体裁
+  fromTitle: "新闻特写与消息的区别"
+  toTitle: "新闻体裁"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "体裁区别属新闻体裁话题"
+- from: concept:历史:小康目标
+  to: concept:历史:三步走发展战略
+  fromTitle: "小康目标"
+  toTitle: "三步走发展战略"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "小康目标属三步走战略"
+- from: concept:数学:分母有理化
+  to: concept:数学:二次根式的运算
+  fromTitle: "分母有理化"
+  toTitle: "二次根式的运算"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "分母有理化属根式运算"
+- from: concept:数学:根的判别式
+  to: concept:数学:一元二次方程根的判别式
+  fromTitle: "根的判别式"
+  toTitle: "一元二次方程根的判别式"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "根的判别式即指一元二次方程判别式"
+- from: concept:数学:二次函数图象与x轴的交点情况
+  to: concept:数学:二次函数
+  fromTitle: "二次函数图象与x轴的交点情况"
+  toTitle: "二次函数"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "图象与x轴交点情况是二次函数子话题"
+- from: concept:生物:线粒体是能量转换器
+  to: concept:生物:能量转换器
+  fromTitle: "线粒体是能量转换器"
+  toTitle: "能量转换器"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "线粒体属能量转换器的具体实例"
+- from: concept:数学:二次根式的运算
+  to: concept:数学:二次根式
+  fromTitle: "二次根式的运算"
+  toTitle: "二次根式"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "运算为二次根式的下位内容"
+- from: concept:科学:动物分类的依据
+  to: concept:科学:分类
+  fromTitle: "动物分类的依据"
+  toTitle: "分类"
+  subject: 科学
+  stratum: A
+  grades: "三年级/下册/科学 → 一年级/下册/科学"
+  verdict: correct
+  note: "分类依据属分类主题的一部分"
+- from: concept:历史:金的建立
+  to: concept:历史:金灭辽及北宋
+  fromTitle: "金的建立"
+  toTitle: "金灭辽及北宋"
+  subject: 历史
+  stratum: C
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: wrong
+  note: "金灭辽及北宋属金的建立，方向反了"
+- from: concept:英语:频率副词
+  to: concept:英语:频度表达
+  fromTitle: "频率副词"
+  toTitle: "频度表达"
+  subject: 英语
+  stratum: C
+  grades: "七年级/下册/英语 → 七年级/下册/英语"
+  verdict: correct
+  note: "频率副词是频度表达的一种手段"
+- from: concept:数学:坐标轴上的点的坐标特征
+  to: concept:数学:平面直角坐标系
+  fromTitle: "坐标轴上的点的坐标特征"
+  toTitle: "平面直角坐标系"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "坐标轴上的点特征属坐标系内容"
+- from: concept:语文:灵旗
+  to: concept:语文:别云间
+  fromTitle: "灵旗"
+  toTitle: "别云间"
+  subject: 语文
+  stratum: B
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "灵旗为《别云间》诗句意象"
+- from: concept:历史:爱国者治港
+  to: concept:历史:香港国安法
+  fromTitle: "爱国者治港"
+  toTitle: "香港国安法"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "爱国者治港与香港国安法并列"
+- from: concept:英语:embarrassed 尴尬的
+  to: concept:英语:表达情绪和感受
+  fromTitle: "embarrassed尴尬的"
+  toTitle: "表达情绪和感受"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 五年级/上册/英语"
+  verdict: correct
+  note: "embarrassed属情绪词汇子项"
+- from: concept:道德与法治:文以载道、以文化人的教化思想
+  to: concept:道德与法治:中华传统美德
+  fromTitle: "文以载道、以文化人的教化思想"
+  toTitle: "中华传统美德"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: wrong
+  note: "教化思想属人文精神，非传统美德"
+- from: concept:数学:分式的基本性质
+  to: concept:数学:分式
+  fromTitle: "分式的基本性质"
+  toTitle: "分式"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "分式基本性质是分式子话题"
+- from: concept:物理:单位
+  to: concept:物理:国际单位制
+  fromTitle: "单位"
+  toTitle: "国际单位制"
+  subject: 物理
+  stratum: A
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: wrong
+  note: "单位更宽泛，方向反了"
+- from: concept:数学:仰角
+  to: concept:数学:仰角与俯角
+  fromTitle: "仰角"
+  toTitle: "仰角与俯角"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "仰角为仰角与俯角的一部分"
+- from: concept:英语:情态动词的被动语态
+  to: concept:英语:被动语态
+  fromTitle: "情态动词的被动语态"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "情态动词被动语态属被动语态"
+- from: concept:生物:肌腹
+  to: concept:生物:骨骼肌
+  fromTitle: "肌腹"
+  toTitle: "骨骼肌"
+  subject: 生物
+  stratum: C
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "肌腹是骨骼肌的组成部分"
+- from: concept:生物:细菌
+  to: concept:生物:原核生物
+  fromTitle: "细菌"
+  toTitle: "原核生物"
+  subject: 生物
+  stratum: C
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "细菌属于原核生物"
+- from: concept:化学:氧气的化学性质
+  to: concept:化学:氧气的用途
+  fromTitle: "氧气的化学性质"
+  toTitle: "氧气的用途"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: wrong
+  note: "化学性质与用途并列，无隶属"
+- from: concept:数学:长方形的特征
+  to: concept:数学:四边形
+  fromTitle: "长方形的特征"
+  toTitle: "四边形"
+  subject: 数学
+  stratum: B
+  grades: "三年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "长方形特征属四边形子话题"
+- from: concept:道德与法治:节约资源和保护环境的基本国策
+  to: concept:道德与法治:可持续发展
+  fromTitle: "节约资源和保护环境的基本国策"
+  toTitle: "可持续发展"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/下册/道德与法治"
+  verdict: wrong
+  note: "基本国策与可持续发展并列"
+- from: concept:化学:过滤
+  to: concept:化学:物质分离的一般思路
+  fromTitle: "过滤"
+  toTitle: "物质分离的一般思路"
+  subject: 化学
+  stratum: B
+  grades: "九年级/上册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "过滤是物质分离思路的具体方法"
+- from: concept:语文:创作科幻故事
+  to: concept:语文:科幻小说
+  fromTitle: "创作科幻故事"
+  toTitle: "科幻小说"
+  subject: 语文
+  stratum: B
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: unsure
+  note: "写作实践与文体关系需看单元语境"
+- from: concept:物理:分子动理论
+  to: concept:物理:分子
+  fromTitle: "分子动理论"
+  toTitle: "分子"
+  subject: 物理
+  stratum: A
+  grades: "八年级/下册/物理 → 八年级/下册/物理"
+  verdict: wrong
+  note: "分子动理论与分子概念并列"
+- from: concept:生物:不遗传的变异
+  to: concept:生物:变异
+  fromTitle: "不遗传的变异"
+  toTitle: "变异"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: correct
+  note: "不遗传的变异是变异的一种"
+- from: concept:生物:有性生殖的意义
+  to: concept:生物:有性生殖
+  fromTitle: "有性生殖的意义"
+  toTitle: "有性生殖"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: correct
+  note: "有性生殖意义为其子话题"
+- from: concept:道德与法治:国家宪法日
+  to: concept:道德与法治:宪法
+  fromTitle: "国家宪法日"
+  toTitle: "宪法"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "国家宪法日属宪法意识教育内容"
+- from: concept:物理:速度公式
+  to: concept:物理:速度
+  fromTitle: "速度公式"
+  toTitle: "速度"
+  subject: 物理
+  stratum: A
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: correct
+  note: "速度公式是速度的下位知识点"
+- from: concept:英语:make + 宾语 + 形容词/动词原形
+  to: concept:英语:make + 宾语 + 宾语补足语
+  fromTitle: "make+宾语+形容词/动词原形"
+  toTitle: "make+宾语+宾语补足语"
+  subject: 英语
+  stratum: C
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "属make+宾语+宾补的一种结构"
+- from: concept:历史:两个确立
+  to: concept:历史:两个维护
+  fromTitle: "两个确立"
+  toTitle: "两个维护"
+  subject: 历史
+  stratum: C
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "两个确立与两个维护并列"
+- from: concept:英语:简单将来时
+  to: concept:英语:一般将来时
+  fromTitle: "简单将来时"
+  toTitle: "一般将来时"
+  subject: 英语
+  stratum: B
+  grades: "八年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "简单将来时即一般将来时"
+- from: concept:道德与法治:优秀家风蕴含的传统美德
+  to: concept:道德与法治:中华优秀传统文化
+  fromTitle: "优秀家风蕴含的传统美德"
+  toTitle: "中华优秀传统文化"
+  subject: 道德与法治
+  stratum: B
+  grades: "五年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "家风美德属中华优秀传统文化"
+- from: concept:数学:尺规作图：过直线外一点作已知直线的垂线
+  to: concept:数学:线段垂直平分线的性质定理
+  fromTitle: "尺规作图：过直线外一点作已知直线的垂线"
+  toTitle: "线段垂直平分线的性质定理"
+  subject: 数学
+  stratum: B
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: wrong
+  note: "作图任务与性质定理无隶属"
+- from: concept:英语:大堡礁
+  to: concept:英语:Natural wonders
+  fromTitle: "大堡礁"
+  toTitle: "Naturalwonders"
+  subject: 英语
+  stratum: B
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "大堡礁是自然奇观的一个实例"
+- from: concept:语文:整本书阅读方法
+  to: concept:语文:《经典常谈》
+  fromTitle: "整本书阅读方法"
+  toTitle: "《经典常谈》"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: unsure
+  note: "阅读方法与名著关系需看单元"
+- from: concept:生物:呼吸道对空气的处理
+  to: concept:生物:呼吸道
+  fromTitle: "呼吸道对空气的处理"
+  toTitle: "呼吸道"
+  subject: 生物
+  stratum: A
+  grades: "七年级/下册/生物 → 七年级/下册/生物"
+  verdict: correct
+  note: "呼吸道对空气处理是其功能"
+- from: concept:道德与法治:多种分配方式并存
+  to: concept:道德与法治:按劳分配为主体、多种分配方式并存
+  fromTitle: "多种分配方式并存"
+  toTitle: "按劳分配为主体、多种分配方式并存"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "多种分配方式为完整表述一部分"
+- from: concept:数学:k值相同的两个一次函数图象平行
+  to: concept:数学:一次函数
+  fromTitle: "k值相同的两个一次函数图象平行"
+  toTitle: "一次函数"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "平行结论属一次函数性质子项"
+- from: concept:地理:中东水资源分布
+  to: concept:地理:中东
+  fromTitle: "中东水资源分布"
+  toTitle: "中东"
+  subject: 地理
+  stratum: A
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "水资源分布是中东区域要素"
+- from: concept:英语:短语动词的被动语态
+  to: concept:英语:主动语态与被动语态的转换
+  fromTitle: "短语动词的被动语态"
+  toTitle: "主动语态与被动语态的转换"
+  subject: 英语
+  stratum: C
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: unsure
+  note: "审计：短语动词的被动语态是否为「主动↔被动转换」的子话题存疑，证据不足"
+- from: concept:道德与法治:宗教信仰自由
+  to: concept:道德与法治:政治权利
+  fromTitle: "宗教信仰自由"
+  toTitle: "政治权利"
+  subject: 道德与法治
+  stratum: C
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: wrong
+  note: "宗教信仰自由不属政治权利"
+- from: concept:语文:礼貌用语
+  to: concept:语文:表达得体
+  fromTitle: "礼貌用语"
+  toTitle: "表达得体"
+  subject: 语文
+  stratum: C
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "礼貌用语是表达得体的手段"
+- from: concept:地理:二分二至日
+  to: concept:地理:四季更替
+  fromTitle: "二分二至日"
+  toTitle: "四季更替"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "二分二至是四季更替的关键节点"
+- from: concept:数学:增长率问题
+  to: concept:数学:一元二次方程的应用
+  fromTitle: "增长率问题"
+  toTitle: "一元二次方程的应用"
+  subject: 数学
+  stratum: B
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "增长率问题是方程应用的实例"
+- from: concept:地理:纬度位置对气温的影响
+  to: concept:地理:纬度因素对气温的影响
+  fromTitle: "纬度位置对气温的影响"
+  toTitle: "纬度因素对气温的影响"
+  subject: 地理
+  stratum: B
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "两种表述同义，同一概念"
+- from: concept:语文:文言实词“致远”
+  to: concept:语文:文言文朗读节奏
+  fromTitle: "文言实词“致远”"
+  toTitle: "文言文朗读节奏"
+  subject: 语文
+  stratum: B
+  grades: "七年级/上册/语文 → 七年级/上册/语文"
+  verdict: wrong
+  note: "实词释义与朗读节奏无隶属"
+- from: concept:道德与法治:民法典基本原则
+  to: concept:道德与法治:民法典
+  fromTitle: "民法典基本原则"
+  toTitle: "民法典"
+  subject: 道德与法治
+  stratum: A
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "基本原则属民法典内容"
+- from: concept:数学:一次函数的图象
+  to: concept:数学:一次函数的图象与性质
+  fromTitle: "一次函数的图象"
+  toTitle: "一次函数的图象与性质"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "图象是图象与性质的一部分"
+- from: concept:英语:现在完成时（since/for）
+  to: concept:英语:现在完成时
+  fromTitle: "现在完成时（since/for）"
+  toTitle: "现在完成时"
+  subject: 英语
+  stratum: A
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "since/for属现在完成时科目"
+- from: concept:语文:恐龙灭绝的火山说
+  to: concept:语文:火山说
+  fromTitle: "恐龙灭绝的火山说"
+  toTitle: "火山说"
+  subject: 语文
+  stratum: A
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "火山说是恐龙灭绝假说之一"
+- from: concept:英语:规则动词过去式
+  to: concept:英语:一般过去时
+  fromTitle: "规则动词过去式"
+  toTitle: "一般过去时"
+  subject: 英语
+  stratum: B
+  grades: "七年级/下册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "规则动词过去式是一般过去时的构成部分"
+- from: concept:数学:半径
+  to: concept:数学:圆心
+  fromTitle: "半径"
+  toTitle: "圆心"
+  subject: 数学
+  stratum: C
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: wrong
+  note: "半径与圆心同为圆的要素，并列"
+- from: concept:生物:两栖动物与人类生活的关系
+  to: concept:生物:两栖动物
+  fromTitle: "两栖动物与人类生活的关系"
+  toTitle: "两栖动物"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "属两栖动物主题下的子话题"
+- from: concept:生物:真菌的寄生性
+  to: concept:生物:真菌的繁殖方式
+  fromTitle: "真菌的寄生性"
+  toTitle: "真菌的繁殖方式"
+  subject: 生物
+  stratum: B
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: wrong
+  note: "寄生性与繁殖方式并列，无隶属"
+- from: concept:化学:碳纤维复合材料
+  to: concept:化学:复合材料
+  fromTitle: "碳纤维复合材料"
+  toTitle: "复合材料"
+  subject: 化学
+  stratum: A
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "碳纤维复合材料是复合材料的一种"
+- from: concept:地理:地震
+  to: concept:地理:地质灾害
+  fromTitle: "地震"
+  toTitle: "地质灾害"
+  subject: 地理
+  stratum: B
+  grades: "八年级/上册/地理 → 七年级/下册/地理"
+  verdict: correct
+  note: "地震是地质灾害的一种"
+- from: concept:道德与法治:情绪的影响因素
+  to: concept:道德与法治:情绪
+  fromTitle: "情绪的影响因素"
+  toTitle: "情绪"
+  subject: 道德与法治
+  stratum: A
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "情绪影响因素是情绪主题的子话题"
+- from: concept:数学:正多边形面积
+  to: concept:数学:正多边形的中心、半径、中心角、边心距
+  fromTitle: "正多边形面积"
+  toTitle: "正多边形的中心、半径、中心角、边心距"
+  subject: 数学
+  stratum: B
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: wrong
+  note: "面积与各几何要素并列，不隶属"
+- from: concept:道德与法治:社会主义核心价值观的基本内容
+  to: concept:道德与法治:社会主义核心价值观
+  fromTitle: "社会主义核心价值观的基本内容"
+  toTitle: "社会主义核心价值观"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "基本内容是核心价值观的组成部分"
+- from: concept:数学:代入消元法
+  to: concept:数学:消元思想
+  fromTitle: "代入消元法"
+  toTitle: "消元思想"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "代入消元法是消元思想的具体方法"
+- from: concept:道德与法治:中华文明在交流互鉴中发展
+  to: concept:道德与法治:文明交流互鉴
+  fromTitle: "中华文明在交流互鉴中发展"
+  toTitle: "文明交流互鉴"
+  subject: 道德与法治
+  stratum: C
+  grades: "九年级/下册/道德与法治 → 九年级/下册/道德与法治"
+  verdict: correct
+  note: "属文明交流互鉴主题的子话题"
+- from: concept:英语:it 作形式主语
+  to: concept:英语:主语从句
+  fromTitle: "it作形式主语"
+  toTitle: "主语从句"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: wrong
+  note: "it作形式主语与主语从句并列相关"
+- from: concept:地理:乡村景观特征
+  to: concept:地理:乡村
+  fromTitle: "乡村景观特征"
+  toTitle: "乡村"
+  subject: 地理
+  stratum: A
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "乡村景观特征是乡村主题的子话题"
+- from: concept:道德与法治:节约粮食
+  to: concept:道德与法治:节俭的做法
+  fromTitle: "节约粮食"
+  toTitle: "节俭的做法"
+  subject: 道德与法治
+  stratum: B
+  grades: "四年级/下册/道德与法治 → 二年级/下册/道德与法治"
+  verdict: correct
+  note: "节约粮食是节俭做法的具体体现"
+- from: concept:语文:施耐庵
+  to: concept:语文:智取生辰纲
+  fromTitle: "施耐庵"
+  toTitle: "智取生辰纲"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: wrong
+  note: "施耐庵是作者，非作品组成部分"
+- from: concept:历史:人民解放战争胜利的原因
+  to: concept:历史:人民解放战争
+  fromTitle: "人民解放战争胜利的原因"
+  toTitle: "人民解放战争"
+  subject: 历史
+  stratum: A
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "胜利原因是该战争的子话题"
+- from: concept:数学:方位角
+  to: concept:数学:方向角
+  fromTitle: "方位角"
+  toTitle: "方向角"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: wrong
+  note: "方位角与方向角为并列或同一概念"
+- from: concept:道德与法治:全面建成社会主义现代化强国
+  to: concept:道德与法治:四个全面战略布局
+  fromTitle: "全面建成社会主义现代化强国"
+  toTitle: "四个全面战略布局"
+  subject: 道德与法治
+  stratum: C
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "全面建成现代化强国是四个全面之一"
+- from: concept:数学:开方运算与乘方运算的联系
+  to: concept:数学:开方运算
+  fromTitle: "开方运算与乘方运算的联系"
+  toTitle: "开方运算"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "与乘方的联系属开方运算子话题"
+- from: concept:历史:护法运动
+  to: concept:历史:袁世凯复辟帝制
+  fromTitle: "护法运动"
+  toTitle: "袁世凯复辟帝制"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: wrong
+  note: "护法运动与袁世凯复辟并列不同史事"
+- from: concept:英语:生日庆祝活动
+  to: concept:英语:特殊生日
+  fromTitle: "生日庆祝活动"
+  toTitle: "特殊生日"
+  subject: 英语
+  stratum: C
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: wrong
+  note: "方向疑反，庆祝活动是上位概念"
+- from: concept:语文:递进复句
+  to: concept:语文:复句
+  fromTitle: "递进复句"
+  toTitle: "复句"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "递进复句是复句的一种"
+- from: concept:道德与法治:爱慕虚荣
+  to: concept:道德与法治:过度维护自己
+  fromTitle: "爱慕虚荣"
+  toTitle: "过度维护自己"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 六年级/下册/道德与法治"
+  verdict: correct
+  note: "爱慕虚荣是过度维护自己的表现"
+- from: concept:数学:等可能事件概率计算
+  to: concept:数学:等可能事件
+  fromTitle: "等可能事件概率计算"
+  toTitle: "等可能事件"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "概率计算属等可能事件子话题"
+- from: concept:化学:电子云模型
+  to: concept:化学:原子结构
+  fromTitle: "电子云模型"
+  toTitle: "原子结构"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "电子云模型是原子结构理论的一部分"
+- from: concept:道德与法治:法治中国建设
+  to: concept:道德与法治:法治
+  fromTitle: "法治中国建设"
+  toTitle: "法治"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "法治中国建设属法治主题子话题"
+- from: concept:道德与法治:民主决策
+  to: concept:道德与法治:公民参与
+  fromTitle: "民主决策"
+  toTitle: "公民参与"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "民主决策是公民参与的一种途径"
+- from: concept:生物:特异性免疫
+  to: concept:生物:免疫
+  fromTitle: "特异性免疫"
+  toTitle: "免疫"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "特异性免疫是免疫的一种"
+- from: concept:道德与法治:爱国主义
+  to: concept:道德与法治:民族精神
+  fromTitle: "爱国主义"
+  toTitle: "民族精神"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "爱国主义是民族精神的核心组成"
+- from: concept:数学:切线的性质与判定
+  to: concept:数学:切线
+  fromTitle: "切线的性质与判定"
+  toTitle: "切线"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "性质与判定属切线子话题"
+- from: concept:语文:演讲稿的开头技巧
+  to: concept:语文:演讲词
+  fromTitle: "演讲稿的开头技巧"
+  toTitle: "演讲词"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "开头技巧属演讲词写作子话题"
+- from: concept:语文:神舟九号与天宫一号对接
+  to: concept:语文:载人航天
+  fromTitle: "神舟九号与天宫一号对接"
+  toTitle: "载人航天"
+  subject: 语文
+  stratum: C
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: correct
+  note: "对接事件属载人航天的实例"
+- from: concept:英语:被动语态的特殊疑问句
+  to: concept:英语:被动语态
+  fromTitle: "被动语态的特殊疑问句"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "被动语态特殊疑问句是其句式之一"
+- from: concept:生物:血液传播
+  to: concept:生物:传染病流行的基本环节
+  fromTitle: "血液传播"
+  toTitle: "传染病流行的基本环节"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "血液传播属传播途径，归于基本环节"
+- from: concept:英语:特殊疑问句 What colour is/are...?
+  to: concept:英语:询问颜色的句型
+  fromTitle: "特殊疑问句Whatcolouris/are...?"
+  toTitle: "询问颜色的句型"
+  subject: 英语
+  stratum: C
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "该句型属询问颜色句型"
+- from: concept:化学:分子由原子构成
+  to: concept:化学:分子
+  fromTitle: "分子由原子构成"
+  toTitle: "分子"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "分子由原子构成属分子子话题"
+- from: concept:道德与法治:创新精神
+  to: concept:道德与法治:创新
+  fromTitle: "创新精神"
+  toTitle: "创新"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "创新精神属创新主题子话题"
+- from: concept:语文:生辰纲
+  to: concept:语文:《水浒传》
+  fromTitle: "生辰纲"
+  toTitle: "《水浒传》"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "生辰纲是《水浒传》故事要素"
+- from: concept:语文:闻笛赋
+  to: concept:语文:长沙过贾谊宅
+  fromTitle: "闻笛赋"
+  toTitle: "长沙过贾谊宅"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: wrong
+  note: "闻笛赋出自《酬乐天》而非该诗"
+- from: concept:英语:情态动词 must 表推测
+  to: concept:英语:情态动词表推测
+  fromTitle: "情态动词must表推测"
+  toTitle: "情态动词表推测"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "must表推测属情态动词表推测"
+- from: concept:道德与法治:中国特色社会主义道路
+  to: concept:道德与法治:中国自信
+  fromTitle: "中国特色社会主义道路"
+  toTitle: "中国自信"
+  subject: 道德与法治
+  stratum: C
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "该道路属中国自信内容"
+- from: concept:英语:when和while引导的时间状语从句
+  to: concept:英语:状语从句
+  fromTitle: "when和while引导的时间状语从句"
+  toTitle: "状语从句"
+  subject: 英语
+  stratum: A
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "时间状语从句是状语从句的一种"
+- from: concept:物理:光的三原色
+  to: concept:物理:问题
+  fromTitle: "光的三原色"
+  toTitle: "问题"
+  subject: 物理
+  stratum: B
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: unsure
+  note: "B“问题”过于笼统，语境不足"
+- from: concept:数学:垂径定理的推论
+  to: concept:数学:垂径定理
+  fromTitle: "垂径定理的推论"
+  toTitle: "垂径定理"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "推论属垂径定理的衍生内容"
+- from: concept:历史:民族地区文化教育发展
+  to: concept:历史:民族区域自治制度
+  fromTitle: "民族地区文化教育发展"
+  toTitle: "民族区域自治制度"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "文化教育发展与民族区域自治并列"
+- from: concept:数学:旋转对称图形
+  to: concept:数学:旋转
+  fromTitle: "旋转对称图形"
+  toTitle: "旋转"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "旋转对称图形属旋转主题内容"
+- from: concept:数学:10个一千是一万
+  to: concept:数学:计数单位
+  fromTitle: "10个一千是一万"
+  toTitle: "计数单位"
+  subject: 数学
+  stratum: B
+  grades: "二年级/下册/数学 → 四年级/上册/数学"
+  verdict: correct
+  note: "进率实例属计数单位子话题"
+- from: concept:英语:be nervous about 对……感到紧张
+  to: concept:英语:be nervous about
+  fromTitle: "benervousabout对……感到紧张"
+  toTitle: "benervousabout"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "同一知识点的中文释义"
+- from: concept:道德与法治:转变发展方式
+  to: concept:道德与法治:绿色发展道路
+  fromTitle: "转变发展方式"
+  toTitle: "绿色发展道路"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: wrong
+  note: "转变发展方式与绿色发展道路并列"
+- from: concept:地理:美国经济发展
+  to: concept:地理:美国经济
+  fromTitle: "美国经济发展"
+  toTitle: "美国经济"
+  subject: 地理
+  stratum: A
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "美国经济发展属美国经济子话题"
+- from: concept:数学:直角三角形中30°角所对的直角边等于斜边的一半
+  to: concept:数学:直角三角形的两个锐角互余
+  fromTitle: "直角三角形中30°角所对的直角边等于斜边的一半"
+  toTitle: "直角三角形的两个锐角互余"
+  subject: 数学
+  stratum: B
+  grades: "八年级/下册/数学 → 七年级/下册/数学"
+  verdict: wrong
+  note: "两定理并列，均为直角三角形性质"
+- from: concept:生物:遗传学之父
+  to: concept:生物:遗传学
+  fromTitle: "遗传学之父"
+  toTitle: "遗传学"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: wrong
+  note: "人物称号并非学科组成部分"
+- from: concept:数学:收集数据的方法
+  to: concept:数学:统计过程
+  fromTitle: "收集数据的方法"
+  toTitle: "统计过程"
+  subject: 数学
+  stratum: B
+  grades: "三年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "收集数据属统计过程环节"
+- from: concept:地理:印度洋
+  to: concept:地理:四大洋
+  fromTitle: "印度洋"
+  toTitle: "四大洋"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "印度洋是四大洋之一"
+- from: concept:道德与法治:文明购物
+  to: concept:道德与法治:文明有礼
+  fromTitle: "文明购物"
+  toTitle: "文明有礼"
+  subject: 道德与法治
+  stratum: B
+  grades: "四年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "文明购物是文明有礼的具体表现"
+- from: concept:数学:中心对称
+  to: concept:数学:旋转对称图形
+  fromTitle: "中心对称"
+  toTitle: "旋转对称图形"
+  subject: 数学
+  stratum: C
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "中心对称是旋转对称的特殊情形"
+- from: concept:生物:关节腔
+  to: concept:生物:关节
+  fromTitle: "关节腔"
+  toTitle: "关节"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "关节腔是关节的组成结构"
+- from: concept:语文:观点要明确
+  to: concept:语文:议论性文章
+  fromTitle: "观点要明确"
+  toTitle: "议论性文章"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "属议论性文章的写作要求"
+- from: concept:道德与法治:宪法宣誓制度
+  to: concept:道德与法治:宪法
+  fromTitle: "宪法宣誓制度"
+  toTitle: "宪法"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "该制度依宪法确立，属宪法主题"
+- from: concept:道德与法治:一国两制
+  to: concept:道德与法治:中国特色社会主义道路
+  fromTitle: "一国两制"
+  toTitle: "中国特色社会主义道路"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "一国两制属中国特色社会主义范畴"
+- from: concept:语文:栖迟
+  to: concept:语文:长沙过贾谊宅
+  fromTitle: "栖迟"
+  toTitle: "长沙过贾谊宅"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "栖迟为本诗首句词语"
+- from: concept:语文:方位名词
+  to: concept:语文:名词
+  fromTitle: "方位名词"
+  toTitle: "名词"
+  subject: 语文
+  stratum: A
+  grades: "七年级/上册/语文 → 七年级/上册/语文"
+  verdict: correct
+  note: "方位名词是名词的次类"
+- from: concept:生物:处方药
+  to: concept:生物:合理用药
+  fromTitle: "处方药"
+  toTitle: "合理用药"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "处方药属合理用药内容"
+- from: concept:科学:垃圾分类
+  to: concept:科学:分类
+  fromTitle: "垃圾分类"
+  toTitle: "分类"
+  subject: 科学
+  stratum: A
+  grades: "五年级/下册/科学 → 一年级/下册/科学"
+  verdict: correct
+  note: "垃圾分类是分类的具体应用"
+- from: concept:数学:等弧
+  to: concept:数学:圆弧
+  fromTitle: "等弧"
+  toTitle: "圆弧"
+  subject: 数学
+  stratum: B
+  grades: "九年级/下册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "等弧是弧的相关子概念"
+- from: concept:化学:化学方程式的配平
+  to: concept:化学:化学方程式
+  fromTitle: "化学方程式的配平"
+  toTitle: "化学方程式"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "配平属化学方程式内容"
+- from: concept:语文:回忆性散文
+  to: concept:语文:《朝花夕拾》
+  fromTitle: "回忆性散文"
+  toTitle: "《朝花夕拾》"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: wrong
+  note: "方向反了，该集才是回忆性散文"
+- from: concept:生物:静脉瓣
+  to: concept:生物:静脉
+  fromTitle: "静脉瓣"
+  toTitle: "静脉"
+  subject: 生物
+  stratum: A
+  grades: "七年级/下册/生物 → 七年级/下册/生物"
+  verdict: correct
+  note: "静脉瓣是静脉内结构"
+- from: concept:生物:药物不良反应
+  to: concept:生物:安全用药
+  fromTitle: "药物不良反应"
+  toTitle: "安全用药"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "不良反应属安全用药议题"
+- from: concept:道德与法治:法律
+  to: concept:道德与法治:道德和法律是两种主要社会规则
+  fromTitle: "法律"
+  toTitle: "道德和法律是两种主要社会规则"
+  subject: 道德与法治
+  stratum: A
+  grades: "七年级/下册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "法律是两类规则之一，属该主题"
+- from: concept:语文:驳论
+  to: concept:语文:论证
+  fromTitle: "驳论"
+  toTitle: "论证"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "驳论是论证方式之一"
+- from: concept:道德与法治:维护国家安全的义务
+  to: concept:道德与法治:国家安全
+  fromTitle: "维护国家安全的义务"
+  toTitle: "国家安全"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "属国家安全中的公民义务"
+- from: concept:数学:三角形三边垂直平分线的性质
+  to: concept:数学:定理
+  fromTitle: "三角形三边垂直平分线的性质"
+  toTitle: "定理"
+  subject: 数学
+  stratum: B
+  grades: "八年级/下册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "该性质是一条定理，为实例"
+- from: concept:语文:佃农
+  to: concept:语文:回忆我的母亲
+  fromTitle: "佃农"
+  toTitle: "回忆我的母亲"
+  subject: 语文
+  stratum: C
+  grades: "七年级/上册/语文 → 七年级/上册/语文"
+  verdict: correct
+  note: "佃农为本课词语知识点"
+- from: concept:数学:30°、45°、60°角的三角函数值
+  to: concept:数学:三角函数
+  fromTitle: "30°、45°、60°角的三角函数值"
+  toTitle: "三角函数"
+  subject: 数学
+  stratum: A
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "属三角函数值子内容"
+- from: concept:数学:必然事件
+  to: concept:数学:随机事件
+  fromTitle: "必然事件"
+  toTitle: "随机事件"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: wrong
+  note: "必然事件与随机事件并列"
+- from: concept:地理:高原、高山气候
+  to: concept:地理:世界气候类型分布
+  fromTitle: "高原、高山气候"
+  toTitle: "世界气候类型分布"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "是气候类型之一"
+- from: concept:数学:反比例函数中k的几何意义
+  to: concept:数学:反比例函数
+  fromTitle: "反比例函数中k的几何意义"
+  toTitle: "反比例函数"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "属反比例函数子话题"
+- from: concept:生物:山水林田湖草沙一体化保护与修复
+  to: concept:生物:生态保护与修复
+  fromTitle: "山水林田湖草沙一体化保护与修复"
+  toTitle: "生态保护与修复"
+  subject: 生物
+  stratum: C
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "一体化修复属其具体形态"
+- from: concept:数学:等边三角形的性质
+  to: concept:数学:等边三角形
+  fromTitle: "等边三角形的性质"
+  toTitle: "等边三角形"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "性质属等边三角形内容"
+- from: concept:语文:衔接过渡
+  to: concept:语文:语言连贯
+  fromTitle: "衔接过渡"
+  toTitle: "语言连贯"
+  subject: 语文
+  stratum: C
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "衔接过渡是连贯的要求"
+- from: concept:道德与法治:珍视自由
+  to: concept:道德与法治:自由
+  fromTitle: "珍视自由"
+  toTitle: "自由"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "珍视自由是自由的子话题"
+- from: concept:语文:多感官描写
+  to: concept:语文:多角度观察与描写
+  fromTitle: "多感官描写"
+  toTitle: "多角度观察与描写"
+  subject: 语文
+  stratum: C
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "多感官为多角度描写之一"
+- from: concept:语文:大观园
+  to: concept:语文:刘姥姥进大观园
+  fromTitle: "大观园"
+  toTitle: "刘姥姥进大观园"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "大观园为本课场景内容"
+- from: concept:地理:中国南极昆仑站
+  to: concept:地理:中国南极科考站
+  fromTitle: "中国南极昆仑站"
+  toTitle: "中国南极科考站"
+  subject: 地理
+  stratum: B
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "昆仑站是南极科考站之一"
+- from: concept:数学:列方程解应用题
+  to: concept:数学:方程
+  fromTitle: "列方程解应用题"
+  toTitle: "方程"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "属方程应用子话题"
+- from: concept:化学:卢瑟福原子模型
+  to: concept:化学:原子结构
+  fromTitle: "卢瑟福原子模型"
+  toTitle: "原子结构"
+  subject: 化学
+  stratum: B
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "卢瑟福模型属原子结构"
+- from: concept:语文:文言文诵读
+  to: concept:语文:诵读
+  fromTitle: "文言文诵读"
+  toTitle: "诵读"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "文言文诵读是诵读的一类"
+- from: concept:历史:世袭制取代禅让制
+  to: concept:历史:夏朝的建立
+  fromTitle: "世袭制取代禅让制"
+  toTitle: "夏朝的建立"
+  subject: 历史
+  stratum: B
+  grades: "七年级/上册/历史 → 七年级/上册/历史"
+  verdict: correct
+  note: "属夏朝建立的内容"
+- from: concept:英语:how 引导的感叹句
+  to: concept:英语:感叹句
+  fromTitle: "how引导的感叹句"
+  toTitle: "感叹句"
+  subject: 英语
+  stratum: A
+  grades: "八年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "how感叹句是感叹句一类"
+- from: concept:历史:两个务必
+  to: concept:历史:中共七届二中全会
+  fromTitle: "两个务必"
+  toTitle: "中共七届二中全会"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "两个务必出自该会议"
+- from: concept:物理:平均速度
+  to: concept:物理:速度
+  fromTitle: "平均速度"
+  toTitle: "速度"
+  subject: 物理
+  stratum: A
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: correct
+  note: "平均速度属速度相关概念"
+- from: concept:道德与法治:辨别网络谣言的方法
+  to: concept:道德与法治:理性参与网络生活
+  fromTitle: "辨别网络谣言的方法"
+  toTitle: "理性参与网络生活"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "属理性参与网络生活的方法"
+- from: concept:数学:正方形的周长公式
+  to: concept:数学:周长
+  fromTitle: "正方形的周长公式"
+  toTitle: "周长"
+  subject: 数学
+  stratum: A
+  grades: "三年级/下册/数学 → 三年级/下册/数学"
+  verdict: correct
+  note: "属周长计算公式之一"
+- from: concept:物理:大爆炸理论
+  to: concept:物理:宇宙
+  fromTitle: "大爆炸理论"
+  toTitle: "宇宙"
+  subject: 物理
+  stratum: B
+  grades: "八年级/下册/物理 → 八年级/下册/物理"
+  verdict: correct
+  note: "属宇宙起源子话题"
+- from: concept:物理:电流的热效应
+  to: concept:物理:电热
+  fromTitle: "电流的热效应"
+  toTitle: "电热"
+  subject: 物理
+  stratum: C
+  grades: "九年级/下册/物理 → 九年级/下册/物理"
+  verdict: correct
+  note: "属电热相关子话题"
+- from: concept:道德与法治:崇德向善、见贤思齐
+  to: concept:道德与法治:儒家伦理道德思想
+  fromTitle: "崇德向善、见贤思齐"
+  toTitle: "儒家伦理道德思想"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "见贤思齐源于儒家思想"
+- from: concept:历史:《中华人民共和国土地改革法》
+  to: concept:历史:三大改造
+  fromTitle: "《中华人民共和国土地改革法》"
+  toTitle: "三大改造"
+  subject: 历史
+  stratum: C
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "土地改革与三大改造并列"
+- from: concept:数学:正方形
+  to: concept:数学:平行四边形、菱形、矩形、正方形之间的关系
+  fromTitle: "正方形"
+  toTitle: "平行四边形、菱形、矩形、正方形之间的关系"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "正方形是该关系中的一员"
+- from: concept:道德与法治:自强不息
+  to: concept:道德与法治:核心思想理念
+  fromTitle: "自强不息"
+  toTitle: "核心思想理念"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: wrong
+  note: "自强不息属传统美德非核心理念"
+- from: concept:数学:列代数式
+  to: concept:数学:代数式
+  fromTitle: "列代数式"
+  toTitle: "代数式"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "代数式章节含列代数式"
+- from: concept:生物:叶绿体是能量转换器
+  to: concept:生物:能量转换器
+  fromTitle: "叶绿体是能量转换器"
+  toTitle: "能量转换器"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "叶绿体属于能量转换器"
+- from: concept:数学:旋转作图
+  to: concept:数学:旋转
+  fromTitle: "旋转作图"
+  toTitle: "旋转"
+  subject: 数学
+  stratum: A
+  grades: "八年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "旋转作图是旋转的应用"
+- from: concept:历史:中共十四大
+  to: concept:历史:社会主义市场经济体制
+  fromTitle: "中共十四大"
+  toTitle: "社会主义市场经济体制"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "十四大与体制非隶属关系"
+- from: concept:物理:哈勃定律
+  to: concept:物理:宇宙
+  fromTitle: "哈勃定律"
+  toTitle: "宇宙"
+  subject: 物理
+  stratum: B
+  grades: "八年级/下册/物理 → 八年级/下册/物理"
+  verdict: correct
+  note: "哈勃定律属宇宙主题内容"
+- from: concept:语文:论证方法
+  to: concept:语文:论证
+  fromTitle: "论证方法"
+  toTitle: "论证"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "论证方法是论证的子类"
+- from: concept:生物:真菌与人类的关系
+  to: concept:生物:细菌和真菌与人类的关系
+  fromTitle: "真菌与人类的关系"
+  toTitle: "细菌和真菌与人类的关系"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "真菌关系为并列子项之一"
+- from: concept:数学:最简二次根式
+  to: concept:数学:二次根式
+  fromTitle: "最简二次根式"
+  toTitle: "二次根式"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "最简二次根式属二次根式"
+- from: concept:生物:生物因素
+  to: concept:生物:生态因素
+  fromTitle: "生物因素"
+  toTitle: "生态因素"
+  subject: 生物
+  stratum: C
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "生物因素属生态因素"
+- from: concept:道德与法治:依法办事能力
+  to: concept:道德与法治:尊法学法守法用法
+  fromTitle: "依法办事能力"
+  toTitle: "尊法学法守法用法"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "依法办事属尊法守法用法"
+- from: concept:英语:must表肯定推测
+  to: concept:英语:情态动词表推测
+  fromTitle: "must表肯定推测"
+  toTitle: "情态动词表推测"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "must推测属情态动词推测"
+- from: concept:科学:单细胞生物
+  to: concept:科学:生物
+  fromTitle: "单细胞生物"
+  toTitle: "生物"
+  subject: 科学
+  stratum: A
+  grades: "五年级/上册/科学 → 一年级/下册/科学"
+  verdict: correct
+  note: "单细胞生物属生物"
+- from: concept:道德与法治:依法治国
+  to: concept:道德与法治:法治
+  fromTitle: "依法治国"
+  toTitle: "法治"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "依法治国是法治核心内容"
+- from: concept:化学:化学方程式的书写
+  to: concept:化学:化学方程式
+  fromTitle: "化学方程式的书写"
+  toTitle: "化学方程式"
+  subject: 化学
+  stratum: A
+  grades: "九年级/下册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "书写属化学方程式子话题"
+- from: concept:历史:南昌起义
+  to: concept:历史:农村包围城市、武装夺取政权
+  fromTitle: "南昌起义"
+  toTitle: "农村包围城市、武装夺取政权"
+  subject: 历史
+  stratum: C
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "南昌起义为道路探索一环"
+- from: concept:道德与法治:国家尊重和保障人权
+  to: concept:道德与法治:宪法
+  fromTitle: "国家尊重和保障人权"
+  toTitle: "宪法"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "人权原则属宪法内容"
+- from: concept:英语:描述恶劣天气
+  to: concept:英语:描述天气的形容词
+  fromTitle: "描述恶劣天气"
+  toTitle: "描述天气的形容词"
+  subject: 英语
+  stratum: B
+  grades: "五年级/上册/英语 → 七年级/下册/英语"
+  verdict: wrong
+  note: "表达活动与形容词非隶属"
+- from: concept:数学:正比例函数的增减性
+  to: concept:数学:函数
+  fromTitle: "正比例函数的增减性"
+  toTitle: "函数"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "增减性属函数子话题"
+- from: concept:生物:生态系统的营养结构
+  to: concept:生物:生态系统
+  fromTitle: "生态系统的营养结构"
+  toTitle: "生态系统"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "营养结构属生态系统"
+- from: concept:数学:等边三角形的对称轴
+  to: concept:数学:等边三角形
+  fromTitle: "等边三角形的对称轴"
+  toTitle: "等边三角形"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "对称轴属等边三角形内容"
+- from: concept:道德与法治:中国特色社会主义新时代
+  to: concept:道德与法治:中国式现代化
+  fromTitle: "中国特色社会主义新时代"
+  toTitle: "中国式现代化"
+  subject: 道德与法治
+  stratum: C
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: wrong
+  note: "新时代与中国式现代化并列"
+- from: concept:道德与法治:孝老爱亲
+  to: concept:道德与法治:孝悌忠信、礼义廉耻
+  fromTitle: "孝老爱亲"
+  toTitle: "孝悌忠信、礼义廉耻"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "孝老爱亲属孝悌范畴"
+- from: concept:道德与法治:基层群众自治制度
+  to: concept:道德与法治:人民民主
+  fromTitle: "基层群众自治制度"
+  toTitle: "人民民主"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "基层自治属人民民主制度"
+- from: concept:历史:民族交融
+  to: concept:历史:元朝的统治
+  fromTitle: "民族交融"
+  toTitle: "元朝的统治"
+  subject: 历史
+  stratum: B
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "民族交融属元朝统治内容"
+- from: concept:化学:合成纤维
+  to: concept:化学:高分子材料
+  fromTitle: "合成纤维"
+  toTitle: "高分子材料"
+  subject: 化学
+  stratum: C
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "合成纤维属高分子材料"
+- from: concept:语文:对仗
+  to: concept:语文:骈文
+  fromTitle: "对仗"
+  toTitle: "骈文"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: wrong
+  note: "对仗是骈文特点非子类"
+- from: concept:物理:电热器
+  to: concept:物理:电热
+  fromTitle: "电热器"
+  toTitle: "电热"
+  subject: 物理
+  stratum: A
+  grades: "九年级/下册/物理 → 九年级/下册/物理"
+  verdict: correct
+  note: "电热器属电热话题"
+- from: concept:数学:二次根式的除法法则
+  to: concept:数学:二次根式的乘除法则
+  fromTitle: "二次根式的除法法则"
+  toTitle: "二次根式的乘除法则"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "除法法则是乘除法一部分"
+- from: concept:数学:用树状图求概率
+  to: concept:数学:概率
+  fromTitle: "用树状图求概率"
+  toTitle: "概率"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "树状图求概率属概率"
+- from: concept:数学:等可能事件的概率公式
+  to: concept:数学:概率
+  fromTitle: "等可能事件的概率公式"
+  toTitle: "概率"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "概率公式属概率"
+- from: concept:地理:欧元区
+  to: concept:地理:欧洲联盟
+  fromTitle: "欧元区"
+  toTitle: "欧洲联盟"
+  subject: 地理
+  stratum: C
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "欧元区属欧盟一部分"
+- from: concept:英语:元音字母的长音发音
+  to: concept:英语:元音字母的发音规则
+  fromTitle: "元音字母的长音发音"
+  toTitle: "元音字母的发音规则"
+  subject: 英语
+  stratum: B
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "长音发音属元音发音规则"
+- from: concept:历史:佛教的创立与传播
+  to: concept:历史:古代印度文明
+  fromTitle: "佛教的创立与传播"
+  toTitle: "古代印度文明"
+  subject: 历史
+  stratum: B
+  grades: "九年级/上册/历史 → 九年级/上册/历史"
+  verdict: correct
+  note: "佛教属古印度文明内容"
+- from: concept:英语:连词 and
+  to: concept:英语:连词 and, but, because
+  fromTitle: "连词and"
+  toTitle: "连词and,but,because"
+  subject: 英语
+  stratum: A
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "and属该连词组"
+- from: concept:生物:古人类化石
+  to: concept:生物:化石
+  fromTitle: "古人类化石"
+  toTitle: "化石"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: correct
+  note: "古人类化石属化石"
+- from: concept:生物:菌落
+  to: concept:生物:细菌
+  fromTitle: "菌落"
+  toTitle: "细菌"
+  subject: 生物
+  stratum: C
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "菌落属细菌话题"
+- from: concept:历史:炎帝
+  to: concept:历史:炎帝和黄帝
+  fromTitle: "炎帝"
+  toTitle: "炎帝和黄帝"
+  subject: 历史
+  stratum: A
+  grades: "七年级/上册/历史 → 七年级/上册/历史"
+  verdict: correct
+  note: "炎帝是并列词组一部分"
+- from: concept:化学:液体试剂的取用
+  to: concept:化学:化学实验常用仪器
+  fromTitle: "液体试剂的取用"
+  toTitle: "化学实验常用仪器"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: wrong
+  note: "取用操作不属常用仪器"
+- from: concept:语文:司马迁
+  to: concept:语文:《史记》
+  fromTitle: "司马迁"
+  toTitle: "《史记》"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 九年级/下册/语文"
+  verdict: wrong
+  note: "司马迁与史记非隶属"
+- from: concept:道德与法治:环保倡议书
+  to: concept:道德与法治:生态文明建设
+  fromTitle: "环保倡议书"
+  toTitle: "生态文明建设"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: wrong
+  note: "倡议书与生态文明非隶属"
+- from: concept:语文:现实主义诗歌
+  to: concept:语文:现实主义
+  fromTitle: "现实主义诗歌"
+  toTitle: "现实主义"
+  subject: 语文
+  stratum: A
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "现实主义诗歌属现实主义"
+- from: concept:道德与法治:民事诉讼
+  to: concept:道德与法治:诉讼
+  fromTitle: "民事诉讼"
+  toTitle: "诉讼"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "民事诉讼属诉讼"
+- from: concept:化学:科学探究的一般过程
+  to: concept:化学:科学探究
+  fromTitle: "科学探究的一般过程"
+  toTitle: "科学探究"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "一般过程属科学探究"
+- from: concept:历史:国家安全委员会
+  to: concept:历史:总体国家安全观
+  fromTitle: "国家安全委员会"
+  toTitle: "总体国家安全观"
+  subject: 历史
+  stratum: C
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "机构不属总体安全观"
+- from: concept:历史:城市自治
+  to: concept:历史:中世纪
+  fromTitle: "城市自治"
+  toTitle: "中世纪"
+  subject: 历史
+  stratum: B
+  grades: "九年级/上册/历史 → 九年级/上册/历史"
+  verdict: correct
+  note: "城市自治属中世纪内容"
+- from: concept:道德与法治:制度型开放
+  to: concept:道德与法治:更高水平开放型经济新体制
+  fromTitle: "制度型开放"
+  toTitle: "更高水平开放型经济新体制"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/下册/道德与法治 → 九年级/下册/道德与法治"
+  verdict: correct
+  note: "制度型开放属新体制内容"
+- from: concept:语文:新闻特写
+  to: concept:语文:新闻
+  fromTitle: "新闻特写"
+  toTitle: "新闻"
+  subject: 语文
+  stratum: A
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "新闻特写属新闻体裁"
+- from: concept:道德与法治:认同宪法
+  to: concept:道德与法治:宪法
+  fromTitle: "认同宪法"
+  toTitle: "宪法"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "认同宪法属宪法教育"
+- from: concept:历史:大和政权统一日本
+  to: concept:历史:大化改新
+  fromTitle: "大和政权统一日本"
+  toTitle: "大化改新"
+  subject: 历史
+  stratum: C
+  grades: "九年级/上册/历史 → 九年级/上册/历史"
+  verdict: correct
+  note: "大和统一为大化改新背景"
+- from: concept:英语:字母组合 sh 的发音
+  to: concept:英语:音标 /h/ /w/ /θ/ /ð/ /k/ /kw/ /ʃ/ /ʒ/
+  fromTitle: "字母组合sh的发音"
+  toTitle: "音标/h//w//θ//ð//k//kw//ʃ//ʒ/"
+  subject: 英语
+  stratum: B
+  grades: "四年级/上册/英语 → 八年级/上册/英语"
+  verdict: wrong
+  note: "字母发音与音标表非隶属"
+- from: concept:英语:月份表达
+  to: concept:英语:月份词汇
+  fromTitle: "月份表达"
+  toTitle: "月份词汇"
+  subject: 英语
+  stratum: B
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "月份表达属月份词汇话题"
+- from: concept:语文:伯乐相马
+  to: concept:语文:伯乐
+  fromTitle: "伯乐相马"
+  toTitle: "伯乐"
+  subject: 语文
+  stratum: A
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "伯乐相马典故含于该话题"
+- from: concept:英语:被动语态中使役动词的处理
+  to: concept:英语:被动语态
+  fromTitle: "被动语态中使役动词的处理"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "使役动词被动处理属被动语态"
+- from: concept:历史:西部大开发战略
+  to: concept:历史:全面建设小康社会目标
+  fromTitle: "西部大开发战略"
+  toTitle: "全面建设小康社会目标"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: unsure
+  note: "战略与目标分属不同课目"
+- from: concept:数学:认识东南西北
+  to: concept:数学:认识八个方向
+  fromTitle: "认识东南西北"
+  toTitle: "认识八个方向"
+  subject: 数学
+  stratum: B
+  grades: "二年级/上册/数学 → 三年级/上册/数学"
+  verdict: correct
+  note: "东南西北是八个方向中的四个"
+- from: concept:数学:三角形的高
+  to: concept:数学:三角形
+  fromTitle: "三角形的高"
+  toTitle: "三角形"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "三角形的高是三角形要素"
+- from: concept:英语:宾语从句（一般疑问句）
+  to: concept:英语:宾语从句
+  fromTitle: "宾语从句（一般疑问句）"
+  toTitle: "宾语从句"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "一般疑问句宾语从句是宾语从句一种"
+- from: concept:地理:气温年变化
+  to: concept:地理:气候
+  fromTitle: "气温年变化"
+  toTitle: "气候"
+  subject: 地理
+  stratum: C
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: correct
+  note: "气温年变化属气候要素"
+- from: concept:语文:直抒胸臆
+  to: concept:语文:直接抒情
+  fromTitle: "直抒胸臆"
+  toTitle: "直接抒情"
+  subject: 语文
+  stratum: B
+  grades: "七年级/下册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "直抒胸臆与直接抒情同义"
+- from: concept:科学:比较磁力大小的方法
+  to: concept:科学:比较的方法
+  fromTitle: "比较磁力大小的方法"
+  toTitle: "比较的方法"
+  subject: 科学
+  stratum: B
+  grades: "二年级/下册/科学 → 一年级/上册/科学"
+  verdict: correct
+  note: "比较磁力大小属比较方法"
+- from: concept:历史:隋炀帝的暴政
+  to: concept:历史:隋朝的灭亡
+  fromTitle: "隋炀帝的暴政"
+  toTitle: "隋朝的灭亡"
+  subject: 历史
+  stratum: B
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "隋炀帝暴政属隋朝灭亡内容"
+- from: concept:英语:自然灾害词汇
+  to: concept:英语:自然灾害
+  fromTitle: "自然灾害词汇"
+  toTitle: "自然灾害"
+  subject: 英语
+  stratum: A
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "自然灾害词汇属该话题词汇子项"
+- from: concept:道德与法治:权利义务平等
+  to: concept:道德与法治:平等
+  fromTitle: "权利义务平等"
+  toTitle: "平等"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "权利义务平等属平等原则表现"
+- from: concept:数学:解一元一次方程的步骤
+  to: concept:数学:解方程
+  fromTitle: "解一元一次方程的步骤"
+  toTitle: "解方程"
+  subject: 数学
+  stratum: C
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "解一元一次方程步骤属解方程"
+- from: concept:历史:洋务派
+  to: concept:历史:洋务运动
+  fromTitle: "洋务派"
+  toTitle: "洋务运动"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "洋务派属洋务运动主体"
+- from: concept:数学:两直线平行，同旁内角互补
+  to: concept:数学:平行线的性质定理
+  fromTitle: "两直线平行，同旁内角互补"
+  toTitle: "平行线的性质定理"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "该定理是平行线性质定理之一"
+- from: concept:地理:北回归线
+  to: concept:地理:南北半球分界线
+  fromTitle: "北回归线"
+  toTitle: "南北半球分界线"
+  subject: 地理
+  stratum: B
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: wrong
+  note: "北回归线划分热带与北温带"
+- from: concept:地理:气候类型复杂多样
+  to: concept:地理:气候类型
+  fromTitle: "气候类型复杂多样"
+  toTitle: "气候类型"
+  subject: 地理
+  stratum: A
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: correct
+  note: "气候类型多样性属该话题子项"
+- from: concept:道德与法治:劳动者是平等的
+  to: concept:道德与法治:平等
+  fromTitle: "劳动者是平等的"
+  toTitle: "平等"
+  subject: 道德与法治
+  stratum: A
+  grades: "四年级/下册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "劳动者平等属平等原则表现"
+- from: concept:地理:大陆坡
+  to: concept:地理:大洋底
+  fromTitle: "大陆坡"
+  toTitle: "大洋底"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: wrong
+  note: "大陆坡属大陆边缘，不属大洋底"
+- from: concept:地理:应急避难场所
+  to: concept:地理:防灾减灾体系
+  fromTitle: "应急避难场所"
+  toTitle: "防灾减灾体系"
+  subject: 地理
+  stratum: C
+  grades: "七年级/下册/地理 → 七年级/下册/地理"
+  verdict: correct
+  note: "应急避难场所属防灾减灾体系"
+- from: concept:道德与法治:惠民利民、安民富民
+  to: concept:道德与法治:中华传统美德
+  fromTitle: "惠民利民、安民富民"
+  toTitle: "中华传统美德"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "惠民利民安民富民属传统美德表现"
+- from: concept:历史:《尼布楚条约》
+  to: concept:历史:雅克萨之战
+  fromTitle: "《尼布楚条约》"
+  toTitle: "雅克萨之战"
+  subject: 历史
+  stratum: B
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "尼布楚条约属雅克萨之战内容"
+- from: concept:生物:基因在亲子代间的传递
+  to: concept:生物:遗传
+  fromTitle: "基因在亲子代间的传递"
+  toTitle: "遗传"
+  subject: 生物
+  stratum: C
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: correct
+  note: "基因在亲子代间传递属遗传"
+- from: concept:英语:知识源于提问
+  to: concept:英语:谚语：Knowledge comes from questioning
+  fromTitle: "知识源于提问"
+  toTitle: "谚语：Knowledgecomesfromquestioning"
+  subject: 英语
+  stratum: C
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "同一谚语的中英文表述"
+- from: concept:数学:一次函数表达式中k和b的实际意义
+  to: concept:数学:一次函数
+  fromTitle: "一次函数表达式中k和b的实际意义"
+  toTitle: "一次函数"
+  subject: 数学
+  stratum: A
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "k、b的实际意义属一次函数"
+- from: concept:生物:显性基因
+  to: concept:生物:基因
+  fromTitle: "显性基因"
+  toTitle: "基因"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 八年级/下册/生物"
+  verdict: correct
+  note: "显性基因是基因的一种"
+- from: concept:数学:利用关系式求值
+  to: concept:数学:关系式
+  fromTitle: "利用关系式求值"
+  toTitle: "关系式"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "利用关系式求值属关系式应用"
+- from: concept:道德与法治:中华传统美德的表现
+  to: concept:道德与法治:中华传统美德
+  fromTitle: "中华传统美德的表现"
+  toTitle: "中华传统美德"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "美德表现属中华传统美德子话题"
+- from: concept:英语:make + object + adjective
+  to: concept:英语:make + 宾语 + 宾语补足语
+  fromTitle: "make+object+adjective"
+  toTitle: "make+宾语+宾语补足语"
+  subject: 英语
+  stratum: C
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "形容词作宾补属宾语补足语一种"
+- from: concept:道德与法治:绿水青山就是金山银山
+  to: concept:道德与法治:绿色发展道路
+  fromTitle: "绿水青山就是金山银山"
+  toTitle: "绿色发展道路"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "该理念属绿色发展道路内容"
+- from: concept:数学:10个十是一百
+  to: concept:数学:计数单位
+  fromTitle: "10个十是一百"
+  toTitle: "计数单位"
+  subject: 数学
+  stratum: B
+  grades: "一年级/下册/数学 → 四年级/上册/数学"
+  verdict: correct
+  note: "该结论说明计数单位十进关系"
+- from: concept:道德与法治:中华优秀传统法律文化
+  to: concept:道德与法治:中华优秀传统文化
+  fromTitle: "中华优秀传统法律文化"
+  toTitle: "中华优秀传统文化"
+  subject: 道德与法治
+  stratum: B
+  grades: "八年级/上册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "传统法律文化属传统文化组成"
+- from: concept:历史:一带一路倡议
+  to: concept:历史:一带一路
+  fromTitle: "一带一路倡议"
+  toTitle: "一带一路"
+  subject: 历史
+  stratum: A
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "一带一路倡议与一带一路同一表述"
+- from: concept:生物:免疫器官
+  to: concept:生物:免疫
+  fromTitle: "免疫器官"
+  toTitle: "免疫"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "免疫器官属免疫系统组成"
+- from: concept:道德与法治:公民基本义务
+  to: concept:道德与法治:公民的基本权利与义务
+  fromTitle: "公民基本义务"
+  toTitle: "公民的基本权利与义务"
+  subject: 道德与法治
+  stratum: C
+  grades: "八年级/下册/道德与法治 → 八年级/下册/道德与法治"
+  verdict: correct
+  note: "基本义务属权利义务内容"
+- from: concept:英语:how 引导的感叹句
+  to: concept:英语:感叹句（What/How）
+  fromTitle: "how引导的感叹句"
+  toTitle: "感叹句（What/How）"
+  subject: 英语
+  stratum: B
+  grades: "八年级/上册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "how引导感叹句属感叹句一种"
+- from: concept:道德与法治:革命烈士的奉献精神
+  to: concept:道德与法治:共产主义道德
+  fromTitle: "革命烈士的奉献精神"
+  toTitle: "共产主义道德"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: unsure
+  note: "奉献精神归属需语境"
+- from: concept:道德与法治:自觉排队
+  to: concept:道德与法治:维护公共秩序
+  fromTitle: "自觉排队"
+  toTitle: "维护公共秩序"
+  subject: 道德与法治
+  stratum: B
+  grades: "一年级/上册/道德与法治 → 三年级/上册/道德与法治"
+  verdict: correct
+  note: "自觉排队属维护公共秩序"
+- from: concept:数学:概率计算公式
+  to: concept:数学:概率
+  fromTitle: "概率计算公式"
+  toTitle: "概率"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "概率计算公式属概率"
+- from: concept:生物:细菌与人类的关系
+  to: concept:生物:细菌
+  fromTitle: "细菌与人类的关系"
+  toTitle: "细菌"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "细菌与人类关系属细菌话题"
+- from: concept:道德与法治:守法光荣、违法可耻
+  to: concept:道德与法治:法治观念
+  fromTitle: "守法光荣、违法可耻"
+  toTitle: "法治观念"
+  subject: 道德与法治
+  stratum: C
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "该观念是法治观念表现之一"
+- from: concept:语文:分裂说
+  to: concept:语文:月球起源假说
+  fromTitle: "分裂说"
+  toTitle: "月球起源假说"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "分裂说是月球起源假说之一"
+- from: concept:道德与法治:求同存异的外交方针
+  to: concept:道德与法治:求同存异、和而不同
+  fromTitle: "求同存异的外交方针"
+  toTitle: "求同存异、和而不同"
+  subject: 道德与法治
+  stratum: B
+  grades: "五年级/上册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "外交方针属求同存异理念运用"
+- from: concept:数学:幂的乘方
+  to: concept:数学:整式的乘法
+  fromTitle: "幂的乘方"
+  toTitle: "整式的乘法"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "幂的乘方属整式乘法章节内容"
+- from: concept:地理:四川省的自然灾害
+  to: concept:地理:自然灾害
+  fromTitle: "四川省的自然灾害"
+  toTitle: "自然灾害"
+  subject: 地理
+  stratum: A
+  grades: "七年级/下册/地理 → 七年级/下册/地理"
+  verdict: correct
+  note: "四川省自然灾害属自然灾害"
+- from: concept:物理:光纤通信
+  to: concept:物理:光导纤维
+  fromTitle: "光纤通信"
+  toTitle: "光导纤维"
+  subject: 物理
+  stratum: C
+  grades: "九年级/下册/物理 → 九年级/下册/物理"
+  verdict: wrong
+  note: "光导纤维是光纤通信的载体，方向反了"
+- from: concept:道德与法治:中华传统美德的践行
+  to: concept:道德与法治:中华优秀传统文化
+  fromTitle: "中华传统美德的践行"
+  toTitle: "中华优秀传统文化"
+  subject: 道德与法治
+  stratum: B
+  grades: "七年级/下册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "美德践行属中华优秀传统文化"
+- from: concept:化学:质子
+  to: concept:化学:玻尔原子模型
+  fromTitle: "质子"
+  toTitle: "玻尔原子模型"
+  subject: 化学
+  stratum: B
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: unsure
+  note: "质子属原子核结构，关系待语境"
+- from: concept:物理:熔断器
+  to: concept:物理:家庭电路
+  fromTitle: "熔断器"
+  toTitle: "家庭电路"
+  subject: 物理
+  stratum: C
+  grades: "九年级/下册/物理 → 九年级/下册/物理"
+  verdict: correct
+  note: "熔断器是家庭电路组成部件"
+- from: concept:历史:洋务运动的局限性
+  to: concept:历史:洋务运动
+  fromTitle: "洋务运动的局限性"
+  toTitle: "洋务运动"
+  subject: 历史
+  stratum: A
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "局限性子话题"
+- from: concept:英语:字母组合 ai/ay 的发音
+  to: concept:英语:元音字母组合发音
+  fromTitle: "字母组合ai/ay的发音"
+  toTitle: "元音字母组合发音"
+  subject: 英语
+  stratum: B
+  grades: "五年级/上册/英语 → 七年级/下册/英语"
+  verdict: correct
+  note: "ai/ay属元音字母组合"
+- from: concept:历史:半殖民地化程度进一步加深
+  to: concept:历史:半殖民地半封建社会
+  fromTitle: "半殖民地化程度进一步加深"
+  toTitle: "半殖民地半封建社会"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "半殖民地化深化阶段"
+- from: concept:语文:先天下之忧而忧，后天下之乐而乐
+  to: concept:语文:岳阳楼记
+  fromTitle: "先天下之忧而忧，后天下之乐而乐"
+  toTitle: "岳阳楼记"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "名句出自岳阳楼记"
+- from: concept:历史:公私合营
+  to: concept:历史:三大改造
+  fromTitle: "公私合营"
+  toTitle: "三大改造"
+  subject: 历史
+  stratum: C
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "资本主义工商业改造环节"
+- from: concept:道德与法治:国家安全的重要性
+  to: concept:道德与法治:国家安全
+  fromTitle: "国家安全的重要性"
+  toTitle: "国家安全"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "子话题"
+- from: concept:英语:there be 句型的一般将来时
+  to: concept:英语:一般将来时
+  fromTitle: "therebe句型的一般将来时"
+  toTitle: "一般将来时"
+  subject: 英语
+  stratum: A
+  grades: "八年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "therebe将来时属一般将来时"
+- from: concept:历史:人民游击战争
+  to: concept:历史:中国共产党是全民族抗战的中流砥柱
+  fromTitle: "人民游击战争"
+  toTitle: "中国共产党是全民族抗战的中流砥柱"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: unsure
+  note: "需视中流砥柱节点范围"
+- from: concept:语文:浣溪沙
+  to: concept:语文:词牌名
+  fromTitle: "浣溪沙"
+  toTitle: "词牌名"
+  subject: 语文
+  stratum: B
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "词牌名之一"
+- from: concept:数学:余角
+  to: concept:数学:余角与补角
+  fromTitle: "余角"
+  toTitle: "余角与补角"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "子话题"
+- from: concept:数学:乘法交换律
+  to: concept:数学:运算律
+  fromTitle: "乘法交换律"
+  toTitle: "运算律"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 四年级/上册/数学"
+  verdict: correct
+  note: "交换律为运算律一种"
+- from: concept:化学:沉淀
+  to: concept:化学:水的净化
+  fromTitle: "沉淀"
+  toTitle: "水的净化"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "净化方法之一"
+- from: concept:历史:珍珠港事件
+  to: concept:历史:第二次世界大战
+  fromTitle: "珍珠港事件"
+  toTitle: "第二次世界大战"
+  subject: 历史
+  stratum: C
+  grades: "九年级/下册/历史 → 九年级/下册/历史"
+  verdict: correct
+  note: "二战事件"
+- from: concept:数学:正投影
+  to: concept:数学:投影
+  fromTitle: "正投影"
+  toTitle: "投影"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "投影的一种"
+- from: concept:化学:蒸发溶剂结晶法
+  to: concept:化学:结晶
+  fromTitle: "蒸发溶剂结晶法"
+  toTitle: "结晶"
+  subject: 化学
+  stratum: A
+  grades: "九年级/下册/化学 → 九年级/下册/化学"
+  verdict: correct
+  note: "结晶方法一种"
+- from: concept:道德与法治:共享发展机遇
+  to: concept:道德与法治:互利共赢的开放战略
+  fromTitle: "共享发展机遇"
+  toTitle: "互利共赢的开放战略"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/下册/道德与法治 → 九年级/下册/道德与法治"
+  verdict: wrong
+  note: "方向反，战略属共享机遇内容"
+- from: concept:道德与法治:塞罕坝精神
+  to: concept:道德与法治:中华民族精神
+  fromTitle: "塞罕坝精神"
+  toTitle: "中华民族精神"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "民族精神具体体现"
+- from: concept:英语:询问和描述家庭成员的句型
+  to: concept:英语:介绍家庭成员
+  fromTitle: "询问和描述家庭成员的句型"
+  toTitle: "介绍家庭成员"
+  subject: 英语
+  stratum: C
+  grades: "七年级/上册/英语 → 七年级/上册/英语"
+  verdict: correct
+  note: "介绍家庭成员的子话题"
+- from: concept:英语:字母组合 al/au/aw 的发音
+  to: concept:英语:元音字母组合发音
+  fromTitle: "字母组合al/au/aw的发音"
+  toTitle: "元音字母组合发音"
+  subject: 英语
+  stratum: B
+  grades: "五年级/上册/英语 → 七年级/下册/英语"
+  verdict: correct
+  note: "元音字母组合之一"
+- from: concept:语文:写景顺序
+  to: concept:语文:三峡
+  fromTitle: "写景顺序"
+  toTitle: "三峡"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "三峡写景特色子目"
+- from: concept:历史:军机处
+  to: concept:历史:清朝君主专制的强化
+  fromTitle: "军机处"
+  toTitle: "清朝君主专制的强化"
+  subject: 历史
+  stratum: C
+  grades: "七年级/下册/历史 → 七年级/下册/历史"
+  verdict: correct
+  note: "强化君主专制措施"
+- from: concept:英语:被动语态中不定式符号 to 的保留
+  to: concept:英语:被动语态
+  fromTitle: "被动语态中不定式符号to的保留"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "被动语态子项"
+- from: concept:语文:故乡的变迁
+  to: concept:语文:故乡
+  fromTitle: "故乡的变迁"
+  toTitle: "故乡"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "小说主题子话题"
+- from: concept:化学:化学变化的基本特征
+  to: concept:化学:化学变化
+  fromTitle: "化学变化的基本特征"
+  toTitle: "化学变化"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "基本特征属其内容"
+- from: concept:语文:比喻
+  to: concept:语文:表达方式
+  fromTitle: "比喻"
+  toTitle: "表达方式"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: wrong
+  note: "比喻属修辞，非表达方式"
+- from: concept:历史:经济特区
+  to: concept:历史:全方位多层次宽领域对外开放格局
+  fromTitle: "经济特区"
+  toTitle: "全方位多层次宽领域对外开放格局"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "格局组成部分"
+- from: concept:数学:射线
+  to: concept:数学:直线
+  fromTitle: "射线"
+  toTitle: "直线"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 四年级/上册/数学"
+  verdict: wrong
+  note: "射线与直线并列，无隶属"
+- from: concept:英语:形容词 awake
+  to: concept:英语:形容词作表语
+  fromTitle: "形容词awake"
+  toTitle: "形容词作表语"
+  subject: 英语
+  stratum: C
+  grades: "八年级/下册/英语 → 八年级/下册/英语"
+  verdict: correct
+  note: "表语形容词实例"
+- from: concept:数学:全等三角形的对应边相等
+  to: concept:数学:全等三角形
+  fromTitle: "全等三角形的对应边相等"
+  toTitle: "全等三角形"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "全等三角形性质"
+- from: concept:地理:北极地区生物
+  to: concept:地理:北极地区
+  fromTitle: "北极地区生物"
+  toTitle: "北极地区"
+  subject: 地理
+  stratum: A
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "区域子话题"
+- from: concept:道德与法治:共建“一带一路”倡议
+  to: concept:道德与法治:共享发展机遇
+  fromTitle: "共建“一带一路”倡议"
+  toTitle: "共享发展机遇"
+  subject: 道德与法治
+  stratum: B
+  grades: "九年级/下册/道德与法治 → 九年级/下册/道德与法治"
+  verdict: correct
+  note: "属共享发展机遇内容"
+- from: concept:英语:不规则动词过去式
+  to: concept:英语:动词过去式
+  fromTitle: "不规则动词过去式"
+  toTitle: "动词过去式"
+  subject: 英语
+  stratum: A
+  grades: "七年级/下册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "过去式子类"
+- from: concept:物理:串联电路电流特点
+  to: concept:物理:串联电路
+  fromTitle: "串联电路电流特点"
+  toTitle: "串联电路"
+  subject: 物理
+  stratum: A
+  grades: "九年级/上册/物理 → 九年级/上册/物理"
+  verdict: correct
+  note: "串联电路特点"
+- from: concept:语文:泉路
+  to: concept:语文:别云间
+  fromTitle: "泉路"
+  toTitle: "别云间"
+  subject: 语文
+  stratum: B
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "诗中词语"
+- from: concept:数学:点、线、面
+  to: concept:数学:几何体
+  fromTitle: "点、线、面"
+  toTitle: "几何体"
+  subject: 数学
+  stratum: C
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: unsure
+  note: "可为构成要素也可为并列主题"
+- from: concept:历史:两岸三通
+  to: concept:历史:一国两制
+  fromTitle: "两岸三通"
+  toTitle: "一国两制"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: wrong
+  note: "属海峡两岸交往，非一国两制"
+- from: concept:地理:经度
+  to: concept:地理:经纬网
+  fromTitle: "经度"
+  toTitle: "经纬网"
+  subject: 地理
+  stratum: C
+  grades: "七年级/上册/地理 → 七年级/上册/地理"
+  verdict: correct
+  note: "经纬网组成"
+- from: concept:道德与法治:积极的人生态度
+  to: concept:道德与法治:人生态度
+  fromTitle: "积极的人生态度"
+  toTitle: "人生态度"
+  subject: 道德与法治
+  stratum: A
+  grades: "七年级/上册/道德与法治 → 七年级/上册/道德与法治"
+  verdict: correct
+  note: "人生态度一种"
+- from: concept:地理:极地生态系统脆弱性
+  to: concept:地理:极地地区
+  fromTitle: "极地生态系统脆弱性"
+  toTitle: "极地地区"
+  subject: 地理
+  stratum: B
+  grades: "八年级/下册/地理 → 八年级/下册/地理"
+  verdict: correct
+  note: "极地地区子话题"
+- from: concept:英语:will 的特殊疑问句
+  to: concept:英语:一般将来时
+  fromTitle: "will的特殊疑问句"
+  toTitle: "一般将来时"
+  subject: 英语
+  stratum: B
+  grades: "八年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "一般将来时句式"
+- from: concept:道德与法治:家庭中的男女平等
+  to: concept:道德与法治:平等
+  fromTitle: "家庭中的男女平等"
+  toTitle: "平等"
+  subject: 道德与法治
+  stratum: A
+  grades: "三年级/下册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "平等子话题"
+- from: concept:地理:纬度因素对气温的影响
+  to: concept:地理:世界气温分布规律
+  fromTitle: "纬度因素对气温的影响"
+  toTitle: "世界气温分布规律"
+  subject: 地理
+  stratum: B
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "气温分布规律成因"
+- from: concept:历史:中国式现代化
+  to: concept:历史:习近平新时代中国特色社会主义思想
+  fromTitle: "中国式现代化"
+  toTitle: "习近平新时代中国特色社会主义思想"
+  subject: 历史
+  stratum: B
+  grades: "八年级/下册/历史 → 八年级/下册/历史"
+  verdict: correct
+  note: "新时代思想重要内容"
+- from: concept:历史:伟大建党精神
+  to: concept:历史:中国共产党成立
+  fromTitle: "伟大建党精神"
+  toTitle: "中国共产党成立"
+  subject: 历史
+  stratum: C
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "中共成立一课子目"
+- from: concept:英语:被动语态中将来时被动
+  to: concept:英语:被动语态
+  fromTitle: "被动语态中将来时被动"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "被动语态子类"
+- from: concept:生物:生态系统的自我调节能力
+  to: concept:生物:生态系统
+  fromTitle: "生态系统的自我调节能力"
+  toTitle: "生态系统"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "生态系统子话题"
+- from: concept:历史:尊崇儒术
+  to: concept:历史:察举制
+  fromTitle: "尊崇儒术"
+  toTitle: "察举制"
+  subject: 历史
+  stratum: B
+  grades: "七年级/上册/历史 → 七年级/上册/历史"
+  verdict: wrong
+  note: "与察举制并列，均汉武帝措施"
+- from: concept:数学:待定系数法
+  to: concept:数学:一次函数
+  fromTitle: "待定系数法"
+  toTitle: "一次函数"
+  subject: 数学
+  stratum: B
+  grades: "八年级/上册/数学 → 八年级/上册/数学"
+  verdict: correct
+  note: "求一次函数解析式方法"
+- from: concept:数学:一元二次方程的求根公式
+  to: concept:数学:一元二次方程
+  fromTitle: "一元二次方程的求根公式"
+  toTitle: "一元二次方程"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 九年级/上册/数学"
+  verdict: correct
+  note: "一元二次方程子话题"
+- from: concept:英语:反意疑问句
+  to: concept:英语:构词法
+  fromTitle: "反意疑问句"
+  toTitle: "构词法"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: wrong
+  note: "属句式，与构词法无关"
+- from: concept:语文:《关雎》
+  to: concept:语文:《诗经》
+  fromTitle: "《关雎》"
+  toTitle: "《诗经》"
+  subject: 语文
+  stratum: C
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "《关雎》是《诗经》首篇"
+- from: concept:生物:国家免疫规划疫苗儿童免疫程序表
+  to: concept:生物:免疫规划
+  fromTitle: "国家免疫规划疫苗儿童免疫程序表"
+  toTitle: "免疫规划"
+  subject: 生物
+  stratum: A
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "该表是免疫规划具体内容"
+- from: concept:道德与法治:法治思维和法治方式
+  to: concept:道德与法治:法治
+  fromTitle: "法治思维和法治方式"
+  toTitle: "法治"
+  subject: 道德与法治
+  stratum: A
+  grades: "九年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "法治思维属法治范畴"
+- from: concept:生物:真菌与人类的关系
+  to: concept:生物:真菌
+  fromTitle: "真菌与人类的关系"
+  toTitle: "真菌"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "真菌主题下子话题"
+- from: concept:道德与法治:尊重他人的权利
+  to: concept:道德与法治:尊重他人
+  fromTitle: "尊重他人的权利"
+  toTitle: "尊重他人"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 七年级/下册/道德与法治"
+  verdict: correct
+  note: "尊重权利是尊重他人一方面"
+- from: concept:英语:被动语态的疑问形式
+  to: concept:英语:被动语态的用法
+  fromTitle: "被动语态的疑问形式"
+  toTitle: "被动语态的用法"
+  subject: 英语
+  stratum: B
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "疑问形式是被动用法之一"
+- from: concept:道德与法治:对自己负责
+  to: concept:道德与法治:责任
+  fromTitle: "对自己负责"
+  toTitle: "责任"
+  subject: 道德与法治
+  stratum: C
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "对自己负责属责任范畴"
+- from: concept:数学:多项式乘多项式法则
+  to: concept:数学:整式的乘法
+  fromTitle: "多项式乘多项式法则"
+  toTitle: "整式的乘法"
+  subject: 数学
+  stratum: B
+  grades: "七年级/下册/数学 → 八年级/下册/数学"
+  verdict: correct
+  note: "该法则属整式乘法内容"
+- from: concept:英语:不规则动词过去式
+  to: concept:英语:一般过去时
+  fromTitle: "不规则动词过去式"
+  toTitle: "一般过去时"
+  subject: 英语
+  stratum: B
+  grades: "七年级/下册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "不规则动词属一般过去时考点"
+- from: concept:物理:电子
+  to: concept:物理:原子核
+  fromTitle: "电子"
+  toTitle: "原子核"
+  subject: 物理
+  stratum: C
+  grades: "八年级/下册/物理 → 八年级/下册/物理"
+  verdict: wrong
+  note: "电子在核外，与原子核并列"
+- from: concept:化学:原子结构示意图
+  to: concept:化学:原子结构
+  fromTitle: "原子结构示意图"
+  toTitle: "原子结构"
+  subject: 化学
+  stratum: A
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "示意图是原子结构的表示法"
+- from: concept:语文:举例论证
+  to: concept:语文:类比论证
+  fromTitle: "举例论证"
+  toTitle: "类比论证"
+  subject: 语文
+  stratum: B
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: wrong
+  note: "两种论证方法并列"
+- from: concept:英语:被动语态中动名词被动
+  to: concept:英语:被动语态
+  fromTitle: "被动语态中动名词被动"
+  toTitle: "被动语态"
+  subject: 英语
+  stratum: A
+  grades: "九年级/全一册/英语 → 九年级/全一册/英语"
+  verdict: correct
+  note: "动名词被动属被动语态一类"
+- from: concept:生物:细胞核是细胞的控制中心
+  to: concept:生物:细胞核
+  fromTitle: "细胞核是细胞的控制中心"
+  toTitle: "细胞核"
+  subject: 生物
+  stratum: A
+  grades: "七年级/上册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "该结论是细胞核功能要点"
+- from: concept:生物:AED（自动体外除颤器）
+  to: concept:生物:出血和止血
+  fromTitle: "AED（自动体外除颤器）"
+  toTitle: "出血和止血"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: wrong
+  note: "AED属心肺复苏，与止血并列"
+- from: concept:道德与法治:伟大抗战精神
+  to: concept:道德与法治:中华民族精神
+  fromTitle: "伟大抗战精神"
+  toTitle: "中华民族精神"
+  subject: 道德与法治
+  stratum: B
+  grades: "五年级/上册/道德与法治 → 九年级/上册/道德与法治"
+  verdict: correct
+  note: "抗战精神是民族精神具体体现"
+- from: concept:道德与法治:宪法法律至上
+  to: concept:道德与法治:法治观念
+  fromTitle: "宪法法律至上"
+  toTitle: "法治观念"
+  subject: 道德与法治
+  stratum: C
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "宪法法律至上是法治观念内容"
+- from: concept:语文:京味话剧
+  to: concept:语文:话剧
+  fromTitle: "京味话剧"
+  toTitle: "话剧"
+  subject: 语文
+  stratum: A
+  grades: "九年级/下册/语文 → 九年级/下册/语文"
+  verdict: correct
+  note: "京味话剧是话剧的一种"
+- from: concept:道德与法治:怎样做到诚信
+  to: concept:道德与法治:诚信
+  fromTitle: "怎样做到诚信"
+  toTitle: "诚信"
+  subject: 道德与法治
+  stratum: A
+  grades: "二年级/下册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "怎样诚信是诚信的子话题"
+- from: concept:历史:三十税一
+  to: concept:历史:休养生息政策
+  fromTitle: "三十税一"
+  toTitle: "休养生息政策"
+  subject: 历史
+  stratum: B
+  grades: "七年级/上册/历史 → 七年级/上册/历史"
+  verdict: correct
+  note: "三十税一为休养生息措施"
+- from: concept:语文:写观察日记
+  to: concept:语文:日记
+  fromTitle: "写观察日记"
+  toTitle: "日记"
+  subject: 语文
+  stratum: A
+  grades: "四年级/上册/语文 → 二年级/下册/语文"
+  verdict: correct
+  note: "写观察日记是日记的一种"
+- from: concept:语文:联想
+  to: concept:语文:联想和想象的关系
+  fromTitle: "联想"
+  toTitle: "联想和想象的关系"
+  subject: 语文
+  stratum: A
+  grades: "八年级/下册/语文 → 七年级/上册/语文"
+  verdict: wrong
+  note: "联想是关系一方，非该关系子类"
+- from: concept:化学:木炭的吸附性
+  to: concept:化学:无定形碳的吸附性
+  fromTitle: "木炭的吸附性"
+  toTitle: "无定形碳的吸附性"
+  subject: 化学
+  stratum: B
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "木炭属无定形碳"
+- from: concept:物理:噪声
+  to: concept:物理:声音的三要素
+  fromTitle: "噪声"
+  toTitle: "声音的三要素"
+  subject: 物理
+  stratum: C
+  grades: "八年级/上册/物理 → 八年级/上册/物理"
+  verdict: wrong
+  note: "噪声不属于声音三要素"
+- from: concept:生物:肾上腺素
+  to: concept:生物:激素调节
+  fromTitle: "肾上腺素"
+  toTitle: "激素调节"
+  subject: 生物
+  stratum: C
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "肾上腺素属激素调节内容"
+- from: concept:道德与法治:维护公平
+  to: concept:道德与法治:公平
+  fromTitle: "维护公平"
+  toTitle: "公平"
+  subject: 道德与法治
+  stratum: A
+  grades: "八年级/上册/道德与法治 → 八年级/上册/道德与法治"
+  verdict: correct
+  note: "维护公平是公平的下位"
+- from: concept:数学:用频率估计概率
+  to: concept:数学:概率
+  fromTitle: "用频率估计概率"
+  toTitle: "概率"
+  subject: 数学
+  stratum: A
+  grades: "九年级/上册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "该方法是概率的子话题"
+- from: concept:语文:新闻特写与消息的区别
+  to: concept:语文:新闻体裁比较
+  fromTitle: "新闻特写与消息的区别"
+  toTitle: "新闻体裁比较"
+  subject: 语文
+  stratum: B
+  grades: "八年级/上册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "属新闻体裁比较"
+- from: concept:数学:乘法分配律
+  to: concept:数学:运算律
+  fromTitle: "乘法分配律"
+  toTitle: "运算律"
+  subject: 数学
+  stratum: B
+  grades: "七年级/上册/数学 → 四年级/上册/数学"
+  verdict: correct
+  note: "分配律是运算律之一"
+- from: concept:数学:除以一个数等于乘这个数的倒数
+  to: concept:数学:倒数
+  fromTitle: "除以一个数等于乘这个数的倒数"
+  toTitle: "倒数"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: wrong
+  note: "该法则属除法运算，与倒数并列"
+- from: concept:生物:沙眼衣原体
+  to: concept:生物:病原体
+  fromTitle: "沙眼衣原体"
+  toTitle: "病原体"
+  subject: 生物
+  stratum: B
+  grades: "八年级/上册/生物 → 八年级/上册/生物"
+  verdict: correct
+  note: "沙眼衣原体是病原体之一"
+- from: concept:历史:海防与塞防之争
+  to: concept:历史:左宗棠收复新疆
+  fromTitle: "海防与塞防之争"
+  toTitle: "左宗棠收复新疆"
+  subject: 历史
+  stratum: B
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: wrong
+  note: "争论是背景，非收复新疆子类"
+- from: concept:历史:华北自治运动
+  to: concept:历史:局部抗战
+  fromTitle: "华北自治运动"
+  toTitle: "局部抗战"
+  subject: 历史
+  stratum: C
+  grades: "八年级/上册/历史 → 八年级/上册/历史"
+  verdict: correct
+  note: "华北自治运动属局部抗战时期"
+- from: concept:生物:性染色体
+  to: concept:生物:染色体
+  fromTitle: "性染色体"
+  toTitle: "染色体"
+  subject: 生物
+  stratum: A
+  grades: "八年级/下册/生物 → 七年级/上册/生物"
+  verdict: correct
+  note: "性染色体是染色体的一种"
+- from: concept:语文:载人航天返回流程
+  to: concept:语文:载人航天
+  fromTitle: "载人航天返回流程"
+  toTitle: "载人航天"
+  subject: 语文
+  stratum: A
+  grades: "七年级/下册/语文 → 七年级/下册/语文"
+  verdict: correct
+  note: "返回流程是载人航天一部分"
+- from: concept:语文:词类活用：形容词作动词
+  to: concept:语文:词类活用
+  fromTitle: "词类活用：形容词作动词"
+  toTitle: "词类活用"
+  subject: 语文
+  stratum: A
+  grades: "七年级/下册/语文 → 八年级/上册/语文"
+  verdict: correct
+  note: "形容词作动词属词类活用"
+- from: concept:地理:海洋矿产资源
+  to: concept:地理:海底地形类型
+  fromTitle: "海洋矿产资源"
+  toTitle: "海底地形类型"
+  subject: 地理
+  stratum: B
+  grades: "七年级/下册/地理 → 八年级/上册/地理"
+  verdict: wrong
+  note: "海洋矿产与海底地形并列"
+- from: concept:语文:精神小屋
+  to: concept:语文:麾下
+  fromTitle: "精神小屋"
+  toTitle: "麾下"
+  subject: 语文
+  stratum: B
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: wrong
+  note: "二者无关，分属不同篇目词语"
+- from: concept:语文:省略句
+  to: concept:语文:古文
+  fromTitle: "省略句"
+  toTitle: "古文"
+  subject: 语文
+  stratum: B
+  grades: "八年级/下册/语文 → 八年级/下册/语文"
+  verdict: correct
+  note: "省略句属古文句式知识"
+- from: concept:语文:醉翁之意不在酒
+  to: concept:语文:醉翁亭记
+  fromTitle: "醉翁之意不在酒"
+  toTitle: "醉翁亭记"
+  subject: 语文
+  stratum: C
+  grades: "九年级/上册/语文 → 九年级/上册/语文"
+  verdict: correct
+  note: "名句出自醉翁亭记"
+- from: concept:英语:what 引导的感叹句
+  to: concept:英语:感叹句
+  fromTitle: "what引导的感叹句"
+  toTitle: "感叹句"
+  subject: 英语
+  stratum: A
+  grades: "八年级/上册/英语 → 八年级/上册/英语"
+  verdict: correct
+  note: "what感叹句是感叹句一类"
+- from: concept:历史:新航路开辟的影响
+  to: concept:历史:新航路开辟
+  fromTitle: "新航路开辟的影响"
+  toTitle: "新航路开辟"
+  subject: 历史
+  stratum: A
+  grades: "九年级/上册/历史 → 九年级/上册/历史"
+  verdict: correct
+  note: "影响是新航路开辟子话题"
+- from: concept:数学:内错角
+  to: concept:数学:同位角、内错角、同旁内角
+  fromTitle: "内错角"
+  toTitle: "同位角、内错角、同旁内角"
+  subject: 数学
+  stratum: A
+  grades: "七年级/下册/数学 → 七年级/下册/数学"
+  verdict: correct
+  note: "内错角是该三线八角概念之一"
+- from: concept:语文:左迁
+  to: concept:语文:闻王昌龄左迁龙标遥有此寄
+  fromTitle: "左迁"
+  toTitle: "闻王昌龄左迁龙标遥有此寄"
+  subject: 语文
+  stratum: A
+  grades: "九年级/上册/语文 → 七年级/上册/语文"
+  verdict: correct
+  note: "左迁为该诗字词理解内容"
+- from: concept:英语:语音：字母组合ck, c, g, x的发音
+  to: concept:英语:语音：元音音素
+  fromTitle: "语音：字母组合ck,c,g,x的发音"
+  toTitle: "语音：元音音素"
+  subject: 英语
+  stratum: B
+  grades: "七年级/下册/英语 → 八年级/上册/英语"
+  verdict: wrong
+  note: "字母组合发音与元音音素并列"
+- from: concept:化学:空气质量指数
+  to: concept:化学:空气质量日报
+  fromTitle: "空气质量指数"
+  toTitle: "空气质量日报"
+  subject: 化学
+  stratum: C
+  grades: "九年级/上册/化学 → 九年级/上册/化学"
+  verdict: correct
+  note: "空气质量指数是日报内容之一"
+- from: concept:地理:亚洲与欧洲的分界线
+  to: concept:地理:大洲分界线
+  fromTitle: "亚洲与欧洲的分界线"
+  toTitle: "大洲分界线"
+  subject: 地理
+  stratum: B
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "亚欧界线属大洲分界线"
+- from: concept:地理:法语
+  to: concept:地理:联合国工作语言
+  fromTitle: "法语"
+  toTitle: "联合国工作语言"
+  subject: 地理
+  stratum: C
+  grades: "八年级/上册/地理 → 八年级/上册/地理"
+  verdict: correct
+  note: "法语是联合国工作语言之一"
+- from: concept:数学:比较线段的长短
+  to: concept:数学:线段
+  fromTitle: "比较线段的长短"
+  toTitle: "线段"
+  subject: 数学
+  stratum: A
+  grades: "七年级/上册/数学 → 七年级/上册/数学"
+  verdict: correct
+  note: "比较长短属线段相关知识"
+- from: concept:数学:切线
+  to: concept:数学:圆的性质
+  fromTitle: "切线"
+  toTitle: "圆的性质"
+  subject: 数学
+  stratum: B
+  grades: "九年级/下册/数学 → 九年级/下册/数学"
+  verdict: correct
+  note: "切线性质属圆的性质内容"

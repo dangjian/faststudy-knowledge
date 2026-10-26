@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中小学教材知识库 · 树状浏览</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <b>中小学教材知识库</b>
+    <span id="stats" class="muted"></span>
+  </div>
+  <input id="q" type="search" placeholder="搜概念 / 章节 / 教材（如：光合作用、二次函数）" autocomplete="off">
+  <div id="crumbs" class="crumbs"></div>
+</header>
+
+<main>
+  <aside id="tree" class="tree"><div class="loading">加载树…</div></aside>
+  <section id="detail" class="detail">
+    <div class="empty">
+      <h1>从左边点一个节点开始</h1>
+      <p class="muted">教材 → 章 → 节 → 概念，逐层展开。也可以直接在上面搜索。</p>
+      <p class="muted small">数据由 <code>pnpm kg:demo</code> 从图谱生成，与 <code>graph/</code> 同源。</p>
+    </div>
+  </section>
+</main>
+
+<script src="mdview.js"></script>
+<script src="net.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

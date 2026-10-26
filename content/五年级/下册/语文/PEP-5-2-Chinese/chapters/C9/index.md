@@ -1,0 +1,102 @@
+---
+chapterId: PEP-5-2-Chinese-C9
+title: 识字表
+---
+
+# 识字表
+
+（按课文序号分组；加粗的字为表中蓝色的字——多音字，不计入生字总数。）
+
+## 1
+
+昼 zhòu、耘 yún、**供** gòng、稚 zhì、漪 yī
+
+## 2
+
+蚱 zhà、啃 kěn、樱 yīng、蚌 bàng、割 gē、嘟 dū、倭 wō、拴 shuān、啰 luō、逛 guàng
+
+## 3
+
+徘 pái、徊 huái、渺 miǎo、篝 gōu、萌 méng、澄 chéng、澈 chè、旖 yǐ、旎 nǐ、瑞 ruì、莱 lái、垠 yín、顷 qǐng、峨 è、**燕** yān、缀 zhuì
+
+## 4
+
+腮 sāi、虬 qiú、玷 diàn、郑 zhèng、秉 bǐng、飕 sōu、码 mǎ、撩 liáo、绢 juàn、侨 qiáo、眷 juàn
+
+## 5
+
+瑜 yú、忌 jì、督 dū、幔 màn、翎 líng、寨 zhài、擂 léi、呐 nà、弩 nǔ、丞 chéng
+
+## 6
+
+倚 yǐ、箸 zhù、碟 dié、斤 jīn、俺 ǎn、**绰** chāo、擒 qín、勿 wù、笠 lì、肋 lèi、踉 liàng、跄 qiàng、胯 kuǎ、霹 pī、雳 lì、咆 páo、哮 xiào、锤 chuí、**泊** pō
+
+## 7
+
+芝 zhī、遂 suì、迸 bèng、涧 jiàn、獐 zhāng、猕 mí、猿 yuán、耶 yé、挈 qiè、瞑 míng、窍 qiào、碣 jié、楷 kǎi、镌 juān、挠 náo、劣 liè、**阿** ā
+
+## 8
+
+屉 tì、嫣 yān、讳 huì、黛 dài、晦 huì、墩 dūn、钗 chāi、雯 wén、袭 xí、垫 diàn、豁 huò、喇 lǎ
+
+## 9
+
+仞 rèn、岳 yuè、蓟 jì、涕 tì、**裳** cháng、襄 xiāng
+
+## 10
+
+彭 péng、拟 nǐ、谋 móu、赴 fù、殊 shū、踌 chóu、躇 chú、黯 àn、革 gé
+
+## 11
+
+沃 wò、匪 fěi、绷 bēng、衷 zhōng、堪 kān
+
+## 12
+
+筹 chóu、矜 jīn、俘 fú、镯 zhuó、**吓** hè、褂 guà、企 qǐ、彼 bǐ、坞 wù
+
+## 13
+
+嘎 gā、绊 bàn、揪 jiū、扳 bān、腕 wàn、铸 zhù、颧 quán、疤 bā、**监** jiàn、侄 zhí、痰 tán、揩 kāi
+
+## 14
+
+傅 fù、袱 fú、蘸 zhàn、圣 shèng、馅 xiàn、诈 zhà、怔 zhèng
+
+## 15
+
+吾 wú、弗 fú、**夫** fú
+
+## 16
+
+策 cè、荐 jiàn
+
+## 17
+
+肆 sì、桅 wéi、撕 sī、唬 hǔ、龇 zī、咧 liè、瞄 miáo
+
+## 18
+
+尼 ní、艄 shāo、翘 qiào、姆 mǔ、祷 dǎo、雇 gù、哗 huá
+
+## 19
+
+毡 zhān、犊 dú、眺 tiào、膘 biāo、爵 jué、噜 lū、吆 yāo、哞 mōu、畜 chù
+
+## 20
+
+译 yì、愧 kuì、熠 yì、遐 xiá、黏 nián、埃 āi、滥 làn、淤 yū、湛 zhàn
+
+## 21
+
+诣 yì、禽 qín
+
+## 22
+
+拇 mǔ、弦 xián、揿 qìn、搔 sāo、窈 yǎo、窕 tiǎo、秽 huì、轧 yà、拧 nǐng、纽 niǔ、仓 cāng、庸 yōng、憎 zēng
+
+## 23
+
+胚 pēi、祸 huò、患 huàn、赋 fù、痴 chī、绞 jiǎo、嘿 hēi、伊 yī、娜 nà、窘 jiǒng
+
+（共 200 个生字）

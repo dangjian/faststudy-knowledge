@@ -1,0 +1,933 @@
+# 义务教育课程标准（2022版 / 2011版）课程内容主题登记
+# =============================================================================
+# 字段说明：
+#   id              - 标准唯一 ID（subject-edition-主题缩写），用于章节/概念对齐
+#   subject         - 学科（中文），与 Textbook.subject 对齐
+#   subjectEn       - 学科英文键（与 Textbook.subject 一致）
+#   edition         - '2022版' 或 '2011版'
+#   gradeBand       - 学段范围，如 '7-9' / '8-9' / '9'
+#   theme           - 主题/学习主题（一级）
+#   shortCode       - 主题简短英文缩写，便于引用
+#   contentRequirement - 内容要求简述（来自 MOE 课程标准）
+#   sourceUrl       - MOE 官方原文链接
+# =============================================================================
+
+# ========================= 数学 2022版 =========================
+- id: std-math-2022-DA
+  subject: 数学
+  subjectEn: Math
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 数与代数
+  shortCode: DA
+  contentRequirement: |
+    数与运算、式与方程、函数；数感、符号意识、运算能力、推理能力、模型思想。
+    第三学段要求：实数、代数式、方程与不等式、函数（一次/反比例/二次）。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386498.pdf
+
+- id: std-math-2022-GG
+  subject: 数学
+  subjectEn: Math
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 图形与几何
+  shortCode: GG
+  contentRequirement: |
+    图形的性质（三角形、四边形、圆）、图形的变化（平移/旋转/轴对称/相似/投影/位似）、
+    图形与坐标。空间观念、几何直观、推理能力。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386498.pdf
+
+- id: std-math-2022-SP
+  subject: 数学
+  subjectEn: Math
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 统计与概率
+  shortCode: SP
+  contentRequirement: |
+    数据收集整理、描述分析（平均数/中位数/众数/方差）、随机事件概率、
+    抽样与推断。数据分析观念。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386498.pdf
+
+- id: std-math-2022-IP
+  subject: 数学
+  subjectEn: Math
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 综合与实践
+  shortCode: IP
+  contentRequirement: |
+    跨学科主题学习与项目式学习，每学期至少一次；综合运用数与代数、
+    图形与几何、统计与概率知识解决真实问题。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386498.pdf
+
+# ========================= 数学 2011版 =========================
+- id: std-math-2011-DA
+  subject: 数学
+  subjectEn: Math
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 数与代数
+  shortCode: DA
+  contentRequirement: |
+    数的认识与运算、式与方程、函数（一次/反比例/二次）；数感、符号意识、
+    运算能力、推理能力、模型思想、应用意识与创新意识。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030426.pdf
+
+- id: std-math-2011-GG
+  subject: 数学
+  subjectEn: Math
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 图形与几何
+  shortCode: GG
+  contentRequirement: |
+    空间与平面基本图形、图形性质与分类、图形的平移/旋转/轴对称/相似/投影、
+    平面图形基本性质的证明、用坐标描述图形的位置与运动。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030426.pdf
+
+- id: std-math-2011-SP
+  subject: 数学
+  subjectEn: Math
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 统计与概率
+  shortCode: SP
+  contentRequirement: |
+    收集整理与描述数据（抽样/统计图表）、处理数据（平均数/中位数/众数/方差）、
+    从数据中提取信息并推断、简单随机事件及其概率。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030426.pdf
+
+- id: std-math-2011-IP
+  subject: 数学
+  subjectEn: Math
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 综合与实践
+  shortCode: IP
+  contentRequirement: |
+    以问题为载体、以学生自主参与为主，每学期至少一次，可课内外结合；
+    综合运用数与代数、图形与几何、统计与概率。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030426.pdf
+
+# ========================= 语文 2022版 =========================
+- id: std-chinese-2022-LL
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 语言文字积累与梳理
+  shortCode: LL
+  contentRequirement: |
+    汉字积累、词语理解、语感培养；语言文字规律的认识与梳理。
+    第三学段强调在阅读与表达中主动积累、梳理语言材料。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+- id: std-chinese-2022-PR
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 实用性阅读与交流
+  shortCode: PR
+  contentRequirement: |
+    围绕"拥抱大千世界""创造美好生活""科学家的故事""数字时代的生活"等
+    主题，阅读实用文本，学习日常生活与跨媒介语言运用。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+- id: std-chinese-2022-LR
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 文学阅读与创意表达
+  shortCode: LR
+  contentRequirement: |
+    文学作品的整体感知、联想想象、欣赏评价；尝试创作，表达独特体验。
+    革命文化、社会主义先进文化、中华优秀传统文化作品阅读。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+- id: std-chinese-2022-SR
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 思辨性阅读与表达
+  shortCode: SR
+  contentRequirement: |
+    比较、推断、质疑、批判；学习理性表达，发展思辨能力，
+    就社会、生活、文本问题发表见解。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+- id: std-chinese-2022-BR
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 整本书阅读
+  shortCode: BR
+  contentRequirement: |
+    长篇小说、学术著作、文化论著等的整本书阅读；通读、研读、专题研讨。
+    第三学段阅读总量与篇幅要求逐级提升。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+- id: std-chinese-2022-CS
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 跨学科学习
+  shortCode: CS
+  contentRequirement: |
+    综合运用多学科知识，围绕"家乡文化探究"等主题开展跨学科项目学习。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf
+
+# ========================= 语文 2011版 =========================
+- id: std-chinese-2011-LL
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 识字与写字
+  shortCode: LL
+  contentRequirement: |
+    识字、写字、汉语拼音、汉字硬笔书写与行款；能正确使用常用汉字与工具书。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382027887.pdf
+
+- id: std-chinese-2011-RD
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 阅读
+  shortCode: RD
+  contentRequirement: |
+    现代文阅读、文言文阅读、课外阅读；理解、品味、欣赏文学作品，
+    培养语感与阅读策略。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382027887.pdf
+
+- id: std-chinese-2011-WR
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 写作
+  shortCode: WR
+  contentRequirement: |
+    写作（书面表达）：记叙文、说明文、议论文、应用文；中心明确、内容具体、
+    结构合理、语言通顺。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382027887.pdf
+
+- id: std-chinese-2011-OS
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 口语交际
+  shortCode: OS
+  contentRequirement: |
+    倾听、表达、应对；课堂讨论、演讲、辩论；尊重他人，文明得体交流。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382027887.pdf
+
+- id: std-chinese-2011-CS
+  subject: 语文
+  subjectEn: Chinese
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 综合性学习
+  shortCode: CS
+  contentRequirement: |
+    语文综合性学习活动；整合听说读写、跨学科内容，合作探究、
+    解决问题、形成成果。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382027887.pdf
+
+# ========================= 英语 2022版 =========================
+- id: std-english-2022-TH
+  subject: 英语
+  subjectEn: English
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 主题范畴
+  shortCode: TH
+  contentRequirement: |
+    三大主题范畴：人与自我（生活/学习/未来）、人与社会（人际/历史/文化）、
+    人与自然（自然/生态/环境/科技）。围绕主题组织语言学习活动。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388614.pdf
+
+- id: std-english-2022-LS
+  subject: 英语
+  subjectEn: English
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 语言能力
+  shortCode: LS
+  contentRequirement: |
+    听、说、读、看、写综合语言运用能力；语音、词汇、语法、语篇、语用知识。
+    第三学段侧重篇章阅读、书面表达与跨文化沟通。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388614.pdf
+
+# ========================= 英语 2011版 =========================
+- id: std-english-2011-TH
+  subject: 英语
+  subjectEn: English
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 话题与功能
+  shortCode: TH
+  contentRequirement: |
+    话题范围：个人情况、家庭朋友、周围环境、日常活动、学校生活、
+    兴趣与爱好、健康、情感、人际关系、节日、饮食、服饰、旅游与交通、
+    科技、自然与环境、历史与社会、世间故事等。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+- id: std-english-2011-LS
+  subject: 英语
+  subjectEn: English
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 语言知识与技能
+  shortCode: LS
+  contentRequirement: |
+    语言知识（语音/词汇/语法/功能/话题）、语言技能（听/说/读/写）、
+    学习策略；分级目标（5级/6级/7级）。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+# ========================= 物理 2022版 =========================
+- id: std-physics-2022-MA
+  subject: 物理
+  subjectEn: Physics
+  edition: '2022版'
+  gradeBand: '8-9'
+  theme: 物质
+  shortCode: MA
+  contentRequirement: |
+    物质的形态、属性与结构；密度、压强、浮力；物质的状态变化与微观结构。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-physics-2022-MI
+  subject: 物理
+  subjectEn: Physics
+  edition: '2022版'
+  gradeBand: '8-9'
+  theme: 运动和相互作用
+  shortCode: MI
+  contentRequirement: |
+    机械运动（参照物/速度/力/惯性/牛顿定律）、声（声波/乐音/噪声）、
+    光（反射/折射/成像/眼睛与眼镜）、简单机械（杠杆/滑轮/斜面）。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-physics-2022-EN
+  subject: 物理
+  subjectEn: Physics
+  edition: '2022版'
+  gradeBand: '8-9'
+  theme: 能量
+  shortCode: EN
+  contentRequirement: |
+    机械能（动能/势能）、内能（分子动理论/比热容）、电磁能（电路/欧姆定律/
+    电功电功率）、能量守恒与转化。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-physics-2022-EX
+  subject: 物理
+  subjectEn: Physics
+  edition: '2022版'
+  gradeBand: '8-9'
+  theme: 实验探究
+  shortCode: EX
+  contentRequirement: |
+    学生必做实验：测量密度、探究液体压强、探究浮力、探究杠杆、测滑轮组
+    机械效率、探究电流电压电阻关系、测量小灯泡电功率等。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-physics-2022-IT
+  subject: 物理
+  subjectEn: Physics
+  edition: '2022版'
+  gradeBand: '8-9'
+  theme: 跨学科实践
+  shortCode: IT
+  contentRequirement: |
+    物理学与日常生活、工程实践、社会发展联系的项目化学习。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+# ========================= 化学 2022版 =========================
+- id: std-chemistry-2022-SE
+  subject: 化学
+  subjectEn: Chemistry
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 科学探究与化学实验
+  shortCode: SE
+  contentRequirement: |
+    化学实验基本操作、科学探究方法（提出问题/猜想假设/设计实验/收集证据/
+    得出结论）、必做实验。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388251.pdf
+
+- id: std-chemistry-2022-PP
+  subject: 化学
+  subjectEn: Chemistry
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 物质的性质与应用
+  shortCode: PP
+  contentRequirement: |
+    空气、氧气、水、金属、溶液、酸碱盐、有机物的性质与应用。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388251.pdf
+
+- id: std-chemistry-2022-CS
+  subject: 化学
+  subjectEn: Chemistry
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 物质的组成与结构
+  shortCode: CS
+  contentRequirement: |
+    元素、原子结构、分子、离子、化学式、相对原子质量；化学键初步。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388251.pdf
+
+- id: std-chemistry-2022-CC
+  subject: 化学
+  subjectEn: Chemistry
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 物质的化学变化
+  shortCode: CC
+  contentRequirement: |
+    化学反应基本特征、质量守恒定律、化学方程式、常见化学反应类型、
+    金属活动性顺序。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388251.pdf
+
+- id: std-chemistry-2022-SO
+  subject: 化学
+  subjectEn: Chemistry
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 化学与社会·跨学科实践
+  shortCode: SO
+  contentRequirement: |
+    化学与健康、材料、能源、环境的关系；跨学科主题学习活动。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388251.pdf
+
+# ========================= 生物 2022版 =========================
+- id: std-biology-2022-ST
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 生物体的结构层次
+  shortCode: ST
+  contentRequirement: |
+    细胞是生物体结构和功能的基本单位；组织的形成；器官、系统；
+    生物体的结构层次（细胞→组织→器官→系统→个体）。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-DV
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 生物的多样性
+  shortCode: DV
+  contentRequirement: |
+    生物分类、生物圈中的绿色植物、动物、微生物；生物多样性保护。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-EN
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 生物与环境
+  shortCode: EN
+  contentRequirement: |
+    生态系统、生物与环境的相互作用、生态平衡、人与生物圈。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-PL
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 植物的生活
+  shortCode: PL
+  contentRequirement: |
+    植物的光合作用、呼吸作用、蒸腾作用、运输作用；植物的一生。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-PH
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 人体生理与健康
+  shortCode: PH
+  contentRequirement: |
+    人体各大系统（消化/呼吸/循环/泌尿/神经/内分泌/生殖）、健康生活方式、
+    传染病与免疫。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-GE
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 遗传与进化
+  shortCode: GE
+  contentRequirement: |
+    遗传的物质基础、性状的传递、生物的进化、生命起源的探索。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+- id: std-biology-2022-IT
+  subject: 生物
+  subjectEn: Biology
+  edition: '2022版'
+  gradeBand: '7-8'
+  theme: 生物学与社会·跨学科实践
+  shortCode: IT
+  contentRequirement: |
+    生物技术、农业、医疗、健康议题；跨学科主题学习活动。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388451.pdf
+
+# ========================= 历史 2022版 =========================
+- id: std-history-2022-CA
+  subject: 历史
+  subjectEn: History
+  edition: '2022版'
+  gradeBand: '7'
+  theme: 中国古代史
+  shortCode: CA
+  contentRequirement: |
+    史前时期、夏商周、秦汉、三国两晋南北朝、隋唐五代、宋元明清（前期）；
+    中华文明的起源与发展、统一多民族国家的形成与发展。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388498.pdf
+
+- id: std-history-2022-CN
+  subject: 历史
+  subjectEn: History
+  edition: '2022版'
+  gradeBand: '8'
+  theme: 中国近代史
+  shortCode: CN
+  contentRequirement: |
+    1840年鸦片战争至1949年中华人民共和国成立；列强侵略、近代化探索、
+    新民主主义革命、抗日战争、解放战争。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388498.pdf
+
+- id: std-history-2022-CM
+  subject: 历史
+  subjectEn: History
+  edition: '2022版'
+  gradeBand: '8'
+  theme: 中国现代史
+  shortCode: CM
+  contentRequirement: |
+    中华人民共和国成立、社会主义制度确立、改革开放与现代化建设、
+    中国特色社会主义进入新时代。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388498.pdf
+
+- id: std-history-2022-WH
+  subject: 历史
+  subjectEn: History
+  edition: '2022版'
+  gradeBand: '9'
+  theme: 世界历史
+  shortCode: WH
+  contentRequirement: |
+    古代文明、中世纪、近代早期、工业革命、两次世界大战、冷战与当代世界；
+    多元文明交流互鉴，全球视野。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388498.pdf
+
+# ========================= 历史 2011版 =========================
+- id: std-history-2011-CA
+  subject: 历史
+  subjectEn: History
+  edition: '2011版'
+  gradeBand: '7'
+  theme: 中国古代史
+  shortCode: CA
+  contentRequirement: |
+    中华文明的起源与发展、统一多民族国家的建立与巩固、社会经济与文化、
+    民族关系与对外交流、清朝前期。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-history-2011-CN
+  subject: 历史
+  subjectEn: History
+  edition: '2011版'
+  gradeBand: '8'
+  theme: 中国近代史
+  shortCode: CN
+  contentRequirement: |
+    列强侵略与中国人民的抗争、近代化探索、新民主主义革命的兴起与发展。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-history-2011-CM
+  subject: 历史
+  subjectEn: History
+  edition: '2011版'
+  gradeBand: '8'
+  theme: 中国现代史
+  shortCode: CM
+  contentRequirement: |
+    中华人民共和国的成立与巩固、社会主义建设道路的探索、
+    建设中国特色社会主义。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-history-2011-WH
+  subject: 历史
+  subjectEn: History
+  edition: '2011版'
+  gradeBand: '9'
+  theme: 世界历史
+  shortCode: WH
+  contentRequirement: |
+    亚非欧古代文明、中世纪西欧、文艺复兴、新航路开辟、工业革命、
+    两次世界大战、世界格局的演变。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+# ========================= 地理 2022版 =========================
+- id: std-geography-2022-EM
+  subject: 地理
+  subjectEn: Geography
+  edition: '2022版'
+  gradeBand: '7'
+  theme: 地球与地图
+  shortCode: EM
+  contentRequirement: |
+    地球的宇宙环境、地球的运动、地球的圈层结构；地图三要素、地图应用。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388421.pdf
+
+- id: std-geography-2022-WG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2022版'
+  gradeBand: '7'
+  theme: 世界地理
+  shortCode: WG
+  contentRequirement: |
+    全球概况、亚洲（地区/国家）、邻近地区（东南亚/中亚/西亚/南亚）、
+    撒哈拉以南非洲、欧洲西部与东部、西亚与北非、美洲、大洋洲与极地。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388421.pdf
+
+- id: std-geography-2022-CG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2022版'
+  gradeBand: '8'
+  theme: 中国地理
+  shortCode: CG
+  contentRequirement: |
+    中国的疆域与人口、自然环境（地形/气候/河流）、自然资源、经济与文化、
+    四大地理区域（南方/北方/西北/青藏）、省级行政区与跨省区域。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388421.pdf
+
+- id: std-geography-2022-HG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2022版'
+  gradeBand: '8'
+  theme: 乡土地理
+  shortCode: HG
+  contentRequirement: |
+    本县/本市/本省地理特征、产业结构、文化特色、发展成就；
+    家乡可持续发展与跨学科实践。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388421.pdf
+
+# ========================= 地理 2011版 =========================
+- id: std-geography-2011-EM
+  subject: 地理
+  subjectEn: Geography
+  edition: '2011版'
+  gradeBand: '7'
+  theme: 地球与地图
+  shortCode: EM
+  contentRequirement: |
+    地球的形状与大小、经纬网、地球运动、自转与公转、地图三要素与运用。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-geography-2011-WG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2011版'
+  gradeBand: '7'
+  theme: 世界地理
+  shortCode: WG
+  contentRequirement: |
+    海陆分布、气候类型、人种与语言、宗教、聚落、发展中国家与发达国家、
+    亚洲（地区/国家）、邻近地区、其他大洲。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-geography-2011-CG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2011版'
+  gradeBand: '8'
+  theme: 中国地理
+  shortCode: CG
+  contentRequirement: |
+    从世界看中国（疆域/人口/民族）、自然环境、自然资源、经济发展、
+    文化特色、四大地理区域（北方/南方/西北/青藏）。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+- id: std-geography-2011-HG
+  subject: 地理
+  subjectEn: Geography
+  edition: '2011版'
+  gradeBand: '8'
+  theme: 乡土地理
+  shortCode: HG
+  contentRequirement: |
+    本县/本市的地理位置、自然条件、社会经济发展状况、生态环境与可持续发展。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030427.pdf
+
+# ========================= 道德与法治 2022版 =========================
+- id: std-politics-2022-MH
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 心理健康
+  shortCode: MH
+  contentRequirement: |
+    认识自我、人际交往、情绪管理、意志品质、生命教育、性心理与性别平等。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388523.pdf
+
+- id: std-politics-2022-MR
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 道德修养
+  shortCode: MR
+  contentRequirement: |
+    社会公德、职业道德、家庭美德、个人品德；中华传统美德、时代精神。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388523.pdf
+
+- id: std-politics-2022-LR
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 法治观念
+  shortCode: LR
+  contentRequirement: |
+    法律基础、宪法、民法典、刑法、未成年保护法、预防犯罪、依法维权。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388523.pdf
+
+- id: std-politics-2022-NL
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 国情教育
+  shortCode: NL
+  contentRequirement: |
+    中国特色社会主义、政治制度（人大/政协/民族区域自治/基层民主）、
+    经济制度、科教兴国、人才强国、创新驱动发展、生态文明、
+    民族团结、国家安全。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388523.pdf
+
+- id: std-politics-2022-IV
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2022版'
+  gradeBand: '7-9'
+  theme: 国际视野
+  shortCode: IV
+  contentRequirement: |
+    世界多极化、经济全球化、和平与发展、人类命运共同体、可持续发展、
+    中国与国际组织。
+  sourceUrl: https://hudong.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345388523.pdf
+
+# ========================= 道德与法治 2011版 =========================
+- id: std-politics-2011-MH
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 心理健康
+  shortCode: MH
+  contentRequirement: |
+    认识自我、自尊自信、情绪调控、坚强意志、人际交往、青春期心理。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+- id: std-politics-2011-MR
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 道德修养
+  shortCode: MR
+  contentRequirement: |
+    孝敬父母、尊敬师长、诚实守信、团结友爱、自立自强、遵纪守法、
+    爱护环境、热爱劳动。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+- id: std-politics-2011-LR
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 法治观念
+  shortCode: LR
+  contentRequirement: |
+    法律初步、未成年人保护法、预防未成年人犯罪法、依法治国、宪法基本制度。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+- id: std-politics-2011-NL
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 国情教育
+  shortCode: NL
+  contentRequirement: |
+    中国特色社会主义、党的领导、政治制度、市场经济、科教兴国、
+    民族团结、国家统一、可持续发展。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+
+- id: std-politics-2011-WG
+  subject: 道德与法治
+  subjectEn: Politics
+  edition: '2011版'
+  gradeBand: '7-9'
+  theme: 世界与世界和平
+  shortCode: WG
+  contentRequirement: |
+    世界政治格局、经济全球化、和平与发展、中国在世界上的作用。
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/201112/W020220418401382030376.pdf
+# ========================= 科学 2022版 =========================
+# 依据《义务教育科学课程标准（2022年版）》课程内容四大领域
+- id: std-science-2022-PS
+  subject: 科学
+  subjectEn: Science
+  edition: 2022版
+  gradeBand: 1-9
+  theme: 物质科学
+  shortCode: PS
+  contentRequirement: 物质的形态与变化、物质的结构与性质、物质的运动与相互作用、能量与能量转化
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-science-2022-LS
+  subject: 科学
+  subjectEn: Science
+  edition: 2022版
+  gradeBand: 1-9
+  theme: 生命科学
+  shortCode: LS
+  contentRequirement: 生命系统的构成层次、生物体的稳态与调节、生物与环境的相互关系、生命的延续与进化
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-science-2022-ES
+  subject: 科学
+  subjectEn: Science
+  edition: 2022版
+  gradeBand: 1-9
+  theme: 地球与宇宙科学
+  shortCode: ES
+  contentRequirement: 地球系统、地球上的水与大气、地球与月球、太阳系与宇宙
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-science-2022-TE
+  subject: 科学
+  subjectEn: Science
+  edition: 2022版
+  gradeBand: 1-9
+  theme: 技术与工程
+  shortCode: TE
+  contentRequirement: 技术、工程与社会，工程设计与物化
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+
+# ========================= 英语 2022版 · 主题群 =========================
+# 依据《义务教育英语课程标准（2022年版）》三级主题内容要求
+# 人与自我
+- id: std-english-2022-SELF-LL
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自我·生活与学习
+  shortCode: SELF-LL
+  contentRequirement: 个人生活、学校生活、学习习惯与策略、时间管理
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-SELF-BD
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自我·做人与做事
+  shortCode: SELF-BD
+  contentRequirement: 自我认识、情绪与感受、规则意识、责任与规划
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+# 人与社会
+- id: std-english-2022-SOCI-SC
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与社会·社会服务与人际沟通
+  shortCode: SOCI-SC
+  contentRequirement: 家庭与朋友、社区服务、交往礼仪、合作与互助
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-SOCI-LA
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与社会·文学、艺术与体育
+  shortCode: SOCI-LA
+  contentRequirement: 文学阅读与表达、音乐美术影视、体育与健康生活
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-SOCI-HC
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与社会·历史、社会与文化
+  shortCode: SOCI-HC
+  contentRequirement: 节日与习俗、历史人物与事件、中外文化比较
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-SOCI-ST
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与社会·科学与技术
+  shortCode: SOCI-ST
+  contentRequirement: 科技发明、数码与网络、科学探究
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+# 人与自然
+- id: std-english-2022-NAT-NE
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自然·自然生态
+  shortCode: NAT-NE
+  contentRequirement: 动物植物、天气季节、山川水体、生态关系
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-NAT-EP
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自然·环境保护
+  shortCode: NAT-EP
+  contentRequirement: 环境问题、资源节约、绿色生活
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-NAT-DP
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自然·灾害防范
+  shortCode: NAT-DP
+  contentRequirement: 自然灾害与安全防护、应急与自救
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+- id: std-english-2022-NAT-UE
+  subject: 英语
+  subjectEn: English
+  edition: 2022版
+  gradeBand: 3-9
+  theme: 人与自然·宇宙探索
+  shortCode: NAT-UE
+  contentRequirement: 地球与宇宙、航天探索
+  sourceUrl: http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html

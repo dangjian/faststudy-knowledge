@@ -1,0 +1,256 @@
+---
+chapterId: PEP-6-2-English-C3
+title: Unit 3 Where did you go?
+---
+
+# Unit 3 Where did you go?
+
+
+## Part A
+
+### 单元主情景图
+
+（配图：公园里孩子们骑自行车，John 摔倒坐在地上；下面两格为 John 在家打电话的场景）
+
+- You didn't come to school. What happened?
+- I fell off my bike and hurt my foot.
+- Oh dear! Are you all right?
+- Yes, I'm OK. Thanks.
+- Can I come and visit you?
+- Sure! You can see my photos from the Labour Day holiday.
+
+### 主情景对话
+
+**Where did you go?**
+
+（配图：新疆旅行照片场景，孩子们看照片聊天）
+
+- Did you go to Turpan?
+- Yes, I did. I saw lots of grapes and ate lots of mutton kebabs. They were delicious.
+- Who did you go with?
+- My parents and my uncle.
+
+### Let's try
+
+John answered a phone call from Amy. Listen and tick or cross.
+
+1. The second class is beginning.
+2. John is at home.
+3. John hurt his foot.
+
+### Let's talk
+
+Amy: What happened?
+
+John: I fell off my bike last Saturday and hurt my foot.
+
+Amy: That's too bad! Are you all right?
+
+John: I'm OK now. Come and look at my photos from the Labour Day holiday.
+
+Amy: Where did you go?
+
+John: Mt. Tianshan, Xinjiang. I rode a horse. Look, it's very small!
+
+Amy: Oh, yes. It looks like a mule! Did you go to Turpan?
+
+John: Yes, we did. We saw lots of grapes there, but we couldn't eat them. They won't be ready till August.
+
+- Where did John go over his holiday? What did he do?
+
+Where did you go?
+
+What did you do?
+
+### Let's learn
+
+（配图：微博风格页面，John 发的两条博文（Tuesday May 1st 18:30、Saturday May 12th 15:30），配图为假期活动照片，词汇：rode a horse / rode a bike / went camping / hurt my foot / went fishing）
+
+Where did you go last Saturday?
+
+I went to a forest park.
+
+What did you do there?
+
+I rode a bike.
+
+### Listen, answer and write
+
+What did they do yesterday?
+
+（配图：三个人物：Carl、Meimei、Mr Guo）
+
+- He ______ and ______.
+- He ______ and ______.
+- She ______ and ______.
+
+---
+
+
+## Part B
+
+### Let's try
+
+Wu Binbin and Amy meet Sarah at school. Listen and circle.
+
+1. What are they talking about?
+   A. School.　　B. Holidays.
+2. Who did Sarah buy gifts for?
+   A. Amy and John.　　B. Wu Binbin and Amy.
+
+### Let's talk
+
+Sarah: Where did you go over the winter holiday?
+
+Amy: My family and I went to Sanya.
+
+Wu Binbin: Really? Did you like it?
+
+Amy: Yes, it was so warm.
+
+Sarah: Hainan is far from here. How did you go there?
+
+Amy: We went there by plane.
+
+Wu Binbin: How was the beach? What did you do there?
+
+Amy: It was beautiful. I took lots of pictures, and I also went swimming.
+
+Sarah: Sounds great! Can I see your pictures sometime?
+
+Amy: Sure.
+
+- Where did Amy go last winter holiday?
+- How did she go there? What did she do?
+
+Talk about your winter holiday.
+
+（配图：三亚行程小册子，Day 1 / Day 2 / Day 3，地点：北京—三亚）
+
+### Let's learn
+
+（配图：假期活动照片，词汇：ate fresh food / went swimming / took pictures / bought gifts）
+
+Amy: How was your summer holiday, Binbin?
+
+Wu Binbin: It was good. I went swimming every weekend and took lots of pictures.
+
+### Look and say
+
+Last summer holiday, Andy ate ...
+
+He went ...
+
+He took pictures of ...
+
+He bought ...
+
+（配图：机器人商店场景）
+
+- How much is this?
+- Sorry. You can't buy him. He's my friend! Robin is not for sale!
+- Oops!
+
+### Read and write
+
+Discuss with your partner. How did Wu Binbin meet Max? What will happen next?
+
+（配图：Wu Binbin 一家遇见小狗 Max 的连环画）
+
+- Hello, Max!
+- What's your name?
+- How about "Max"?
+
+**Saturday, April 23rd**
+
+Today was a sunny day. In the morning, we rode a bike for three people. Max sat in a basket on the front of the bike. That was fun! We took pictures of the beautiful countryside. We bought some gifts and ate some delicious food.
+
+In the afternoon, Mum ate some bad fruit and didn't feel well. So we stayed in the hotel. Dad and I wanted to make her happy. We dressed up and made a funny play. Robin played the part of a dog. He was so cute. Max liked him so much. He jumped on him and licked him. Of course, Robin didn't like it. We laughed and laughed.
+
+It was a bad day but also a good day!
+
+Number the pictures.
+
+What happened to Wu Binbin's family?
+
+Bad: ______
+
+Good: ______
+
+Now write about your bad but good day.
+
+Today was a bad but good day for me.
+
+First, it was a bad day. ______
+
+But what did I do then? ______
+
+So it was also a good day.
+
+As the saying goes, "Bad luck often brings good luck."
+
+### Let's check
+
+Listen and write T (true) or F (false).
+
+Listen again and answer the questions.
+
+1. What did Mike do last weekend?
+2. Why did Sarah think her weekend was great?
+3. Why did Amy go to school by car today?
+4. What did Zhang Peng do in Harbin?
+
+### Let's wrap it up
+
+Look at the pictures. Choose words to fill in the blanks.
+
+am/is → was　　are → were　　eat → ate　　drink → drank　　run → ran
+
+（配图：恐龙图片）
+
+There ______ lots of dinosaurs many years ago. Some of them ______ plants. Some of them ______ faster, so they could eat other smaller dinosaurs. But we can only see dinosaurs in museums now.
+
+### Story time
+
+（配图：Zoom 坐飞船上月球的梦）
+
+Zip: How was your holiday?
+
+Zoom: It was fun.
+
+Zip: Where did you go?
+
+Zoom: I went to the moon.
+
+Zip: How did you go there?
+
+Zoom: By spaceship.
+
+Zip: What did you see?
+
+Zoom: I saw Chang'e, the rabbit and the tree.
+
+Zip: Did you take any pictures?
+
+Zoom: Yes, I did. Oops, where did I put the pictures?
+
+Zoom: Am I now on the moon? I can't believe it! She must be Chang'e. Oh, there is the rabbit.
+
+Zoom: It's time to go. Good! Here comes a spaceship.
+
+Zoom: Oh, it was a dream.
+
+## 插图
+
+| id | figType | render | description |
+| --- | --- | --- | --- |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:公园里孩子们骑自行车John摔倒坐在地上 | illustration |  | 公园里孩子们骑自行车，John 摔倒坐在地上；下面两格为 John 在家打电话的场景 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:新疆旅行照片场景孩子们看照片聊天 | illustration |  | 新疆旅行照片场景，孩子们看照片聊天 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:微博风格页面John发的两条博文Tues | illustration |  | 微博风格页面，John 发的两条博文（Tuesday May 1st 18:30、Saturday May 12th 15:30），配图为假期活动照片，词汇：rode a horse / rode a bike / went camping / hurt my foot / went fishing |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:三个人物CarlMeimeiMrGuo | illustration |  | 三个人物：Carl、Meimei、Mr Guo |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:三亚行程小册子Day1Day2Day3地 | illustration |  | 三亚行程小册子，Day 1 / Day 2 / Day 3，地点：北京—三亚 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:假期活动照片词汇atefreshfood | illustration |  | 假期活动照片，词汇：ate fresh food / went swimming / took pictures / bought gifts |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:机器人商店场景 | illustration |  | 机器人商店场景 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:WuBinbin一家遇见小狗Max的连环 | illustration |  | Wu Binbin 一家遇见小狗 Max 的连环画 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:恐龙图片 | illustration |  | 恐龙图片 |
+| fig:PEP-6-2-English:PEP-6-2-English-C3:Zoom坐飞船上月球的梦 | illustration |  | Zoom 坐飞船上月球的梦 |

@@ -1,0 +1,129 @@
+# 掌握标准（masteryCriteria）金标：30 条
+#
+# 用途：验收「从易错点反推掌握标准」的质量。每条是一条真实生成的 criterion + 人工盲判结论。
+# 判据（见 rubric-cases.md 第十四节）：① 可观察（能对应一次作答或判断）② 属于该概念 ③ 有区分度。
+# 抽样：M2 pilot 的 30 个概念各取第 2 条（易错点反推式），由独立 agent 盲评。
+# 结果：29 pass / 1 fail = 96.7%。唯一 fail 的易错点是「认为物理学只是背公式」——属态度信念，
+#   不是可纠正的具体错误，说明该模板对「信念型易错点」不适用。
+
+items:
+  - concept: concept:地理:世界三大人种
+    title: 世界三大人种
+    text: 能指出并纠正这一错误：认为人种只靠肤色区分，忽略头发、眼睛、鼻子等特征差异
+    verdict: pass
+  - concept: concept:物理:测量液体密度
+    title: 测量液体密度
+    text: 能指出并纠正这一错误：先测空杯质量，再测总质量，最后倒入量筒测体积，烧杯残留使体积偏小，密度偏大
+    verdict: pass
+  - concept: concept:物理:信息
+    title: 信息
+    text: 能指出并纠正这一错误：认为信息就是文字、图像或声音本身，混淆了信息与载体
+    verdict: pass
+  - concept: concept:历史:开国大典
+    title: 开国大典
+    text: 能指出并纠正这一错误：误认为毛泽东宣告“中华人民共和国成立了”，实际宣告“中华人民共和国中央人民政府今天成立了”。
+    verdict: pass
+  - concept: concept:物理:物理学
+    title: 物理学
+    text: 能指出并纠正这一错误：认为物理学只是背公式解题，与日常生活现象毫无关联
+    verdict: fail
+  - concept: concept:语文:法天象地
+    title: 法天象地
+    text: 能指出并纠正这一错误：将“法天象地”误写成“法天像地”，弄混“象”与“像”。
+    verdict: pass
+  - concept: concept:数学:有理数加减混合运算
+    title: 有理数加减混合运算
+    text: 能指出并纠正这一错误：统一成加法时漏改减数符号：7-3+2 写成7+3+2 错。
+    verdict: pass
+  - concept: concept:数学:尺规作角
+    title: 尺规作角
+    text: 能指出并纠正这一错误：作一个角等于已知角时，直接用量角器量度数后画角，而非用尺规作图，失去尺规作图的含义。
+    verdict: pass
+  - concept: concept:数学:k值对函数图象的影响
+    title: k值对函数图象的影响
+    text: 能指出并纠正这一错误：混淆k的符号与陡峭，如认为k=-2比k=1平缓且下降，实际k=-2更陡。
+    verdict: pass
+  - concept: concept:物理:托盘天平的使用
+    title: 托盘天平的使用
+    text: 能指出并纠正这一错误：测量前游码未归零就开始调平衡螺母，导致测量起点错误
+    verdict: pass
+  - concept: concept:英语:现在完成时（since/for）
+    title: 现在完成时（since/for）
+    text: 能指出并纠正这一错误：混淆for和since，如“I have lived here since five years…
+    verdict: pass
+  - concept: concept:道德与法治:新发展理念
+    title: 新发展理念
+    text: 能指出并纠正这一错误：将新发展理念记成‘创新、协调、绿色、改革、共享’，漏掉‘开放’。
+    verdict: pass
+  - concept: concept:数学:列方程解应用题
+    title: 列方程解应用题
+    text: 能指出并纠正这一错误：设未知数时不带单位，如设时间为x，实际x小时却当成分钟代入方程。
+    verdict: pass
+  - concept: concept:历史:班超经营西域
+    title: 班超经营西域
+    text: 能指出并纠正这一错误：误把班超经营西域的时间混同于西汉张骞时期。
+    verdict: pass
+  - concept: concept:语文:白话小说
+    title: 白话小说
+    text: 能指出并纠正这一错误：认为白话小说就是用现代白话写的小说，如把鲁迅《呐喊》归入古代白话小说
+    verdict: pass
+  - concept: concept:生物:植物细胞临时装片的制作
+    title: 植物细胞临时装片的制作
+    text: 能指出并纠正这一错误：制作时先取材后滴清水，导致细胞失水变形。
+    verdict: pass
+  - concept: concept:化学:实验室安全规则
+    title: 实验室安全规则
+    text: 能指出并纠正这一错误：给酒精灯添加酒精时没熄火，直接往燃着的灯里倒。
+    verdict: pass
+  - concept: concept:英语:使用或失去
+    title: 使用或失去
+    text: 能指出并纠正这一错误：拼写错误：把lose写成loose，如“Use it or loose it”。
+    verdict: pass
+  - concept: concept:英语:拼写姓名
+    title: 拼写姓名
+    text: 能指出并纠正这一错误：用 How to spell your name? 问拼写，漏掉助动词 do，直接按中文语序硬译
+    verdict: pass
+  - concept: concept:历史:时事溯源
+    title: 时事溯源
+    text: 能指出并纠正这一错误：把时事与历史简单类比，忽略时代背景差异，导致得出错误结论
+    verdict: pass
+  - concept: concept:地理:美国多元文化
+    title: 美国多元文化
+    text: 能指出并纠正这一错误：认为美国文化就是欧洲白人文化，无视非洲、亚洲等文化的影响
+    verdict: pass
+  - concept: concept:语文:形象思维
+    title: 形象思维
+    text: 能指出并纠正这一错误：认为“柳树像小姑娘”就是形象思维，却分不清比喻和联想。
+    verdict: pass
+  - concept: concept:历史:华北自治运动
+    title: 华北自治运动
+    text: 能指出并纠正这一错误：将华北自治运动与九一八事变混淆，认为前者是日军直接军事占领
+    verdict: pass
+  - concept: concept:语文:为探索者画像
+    title: 为探索者画像
+    text: 能指出并纠正这一错误：把“画像”理解成外貌描写，满篇写长相五官，忽略科技工作者的事迹与精神。
+    verdict: pass
+  - concept: concept:化学:化学实验基本操作
+    title: 化学实验基本操作
+    text: 能指出并纠正这一错误：取用药品后，将剩余药品倒回原瓶。
+    verdict: pass
+  - concept: concept:历史:统计图表解读
+    title: 统计图表解读
+    text: 能指出并纠正这一错误：只看图表数据上升就断言“经济持续增长”，忽略标题和背景，可能把其他指标误读为经济。
+    verdict: pass
+  - concept: concept:语文:负责任地表达
+    title: 负责任地表达
+    text: 能指出并纠正这一错误：表述观点时爱用“肯定”“必须”，如“他这样做肯定是错的”。
+    verdict: pass
+  - concept: concept:生物:非特异性免疫
+    title: 非特异性免疫
+    text: 能指出并纠正这一错误：认为非特异性免疫包括第三道防线，混淆所有免疫防线
+    verdict: pass
+  - concept: concept:英语:扫读策略
+    title: 扫读策略
+    text: 能指出并纠正这一错误：扫读时逐字阅读，导致速度慢找不到信息。
+    verdict: pass
+  - concept: concept:道德与法治:公开审判
+    title: 公开审判
+    text: 能指出并纠正这一错误：认为人民法院所有案件都必须公开审理，不知涉及国家秘密、个人隐私等例外。
+    verdict: pass

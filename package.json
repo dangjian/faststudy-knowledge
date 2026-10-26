@@ -1,0 +1,33 @@
+{
+  "name": "faststudy-knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FastStudy 知识库：content prose + graph 知识图谱 + tools/kg 工具链（knowledge-as-code）",
+  "scripts": {
+    "kg:lint": "cd tools/kg && pnpm lint -- ../..",
+    "kg:build": "cd tools/kg && pnpm build -- ../..",
+    "kg:test": "cd tools/kg && pnpm test",
+    "kg:book:propose": "cd tools/kg && pnpm book:propose -- --root ../..",
+    "kg:book:apply": "cd tools/kg && pnpm book:apply -- --root ../..",
+    "kg:reoutline:propose": "cd tools/kg && pnpm reoutline:propose",
+    "kg:reoutline:ocr": "cd tools/kg && pnpm reoutline:ocr",
+    "kg:reoutline:apply": "cd tools/kg && pnpm reoutline:apply",
+    "kg:ingest": "cd tools/kg && pnpm ingest -- ../..",
+    "kg:fix:covered": "cd tools/kg && pnpm fix:covered -- ../..",
+    "kg:fix:orphans": "cd tools/kg && pnpm fix:orphans -- ../..",
+    "kg:infer": "cd tools/kg && pnpm infer -- ../..",
+    "kg:ask": "cd tools/kg && pnpm ask",
+    "kg:eval": "cd tools/kg && pnpm eval -- ../..",
+    "kg:repair": "python3 tools/kg/scripts/repair.py",
+    "kg:eval:covered": "cd tools/kg && pnpm eval:covered",
+    "kg:eval:prereq": "cd tools/kg && pnpm eval:prereq",
+    "kg:eval:partof": "cd tools/kg && pnpm eval:partof",
+    "kg:eval:type": "cd tools/kg && pnpm eval:type",
+    "kg:eval:mastery": "cd tools/kg && pnpm eval:mastery",
+    "kg:eval:strength": "cd tools/kg && pnpm eval:strength",
+    "kg:demo": "cd tools/kg && pnpm demo"
+  },
+  "devDependencies": {
+    "katex": "^0.19.1"
+  }
+}

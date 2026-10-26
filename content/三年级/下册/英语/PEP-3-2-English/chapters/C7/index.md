@@ -1,0 +1,110 @@
+---
+chapterId: PEP-3-2-English-C7
+title: Revision Going to a school fair
+---
+
+# Revision Going to a school fair
+
+（配图：校园集市海报——SCHOOL FAIR：★ Old things sale　★ Fun fruit plate show　★ Sing & dance　★ Bounce house　★ Ice cream van）
+
+## Read aloud
+
+Amy: Mum, can we go?
+
+Mum: Sounds fun! Let's go after breakfast.
+
+Amy: OK. I'd like some bread and milk.
+
+Mum: Sure. Here you are.
+
+Mum: Honey, would you like some fruit?
+
+Amy: Yes, please. Oh! We can make some fun fruit plates for the fair!
+
+Mum: Good idea!
+
+## Listen, tick or cross
+
+（配图：听音判断图——数字 11、20）
+
+## Cross out the words that don't belong
+
+School things：books　~~cars~~　erasers　paper　pencils　pens　rulers　bags
+
+Toys：balls　boats　caps　~~cars~~　dolls　maps
+
+## Choose and role-play
+
+1. What's your name?　——　Hi! I'm Li Ming. / My name is Amy Green.
+2. Where are you from?　——　I'm from the UK.
+3. Who's that man?　——　That's my father.
+4. Can I use your pen?　——　Sure. Here you are.
+5. Do you often draw pictures?　——　Yes. I draw pictures every day.
+6. It has a long body and short legs.　——　Your dog is cute. / Thank you.
+
+## Read, write and discuss
+
+Mike: How much is this pencil box?
+
+Amy: It's four yuan.
+
+Mike: OK, I'll take it. How much is this book?
+
+Amy: It's three yuan. I have five more.
+
+Mike: Thanks. I just want this one. Oh, what's this? Is it a crab?
+
+Amy: Yes, it is. These are apples, oranges and grapes.
+
+Mike: Great! How much is it?
+
+Amy: Five yuan, or three for thirteen yuan.
+
+Mike: OK. I'll take three for my family.
+
+How much is each thing?
+
+- The pencil box is ______ yuan.
+- The book is ______ yuan.
+- One fruit plate is ______ yuan.
+- Mike spends ______ yuan.
+
+Is Mike a good buyer? What else can you tell about Mike?
+
+## Listen and chant
+
+（配图：校园集市插图——The School Fair 校园集市）
+
+We like the cat! It's cute. It's cute.
+It has milk and cake for the fair.
+The rose on the cake is red. It's red.
+Let's get some cake over there!
+
+## Make your to-do list for a school fair
+
+（配图：待办清单模板——My to-do list）
+
+Sell things.
+- Do I have old things at home?
+- My toys: ______
+- My school things: ______
+
+Buy things.
+- What are they? ______
+- How many do I need? ______
+- How much is it? ______
+- I have ______ yuan. I need ______.
+
+Have fun.
+- Meet old and new friends.
+- See fun things.
+- Sing and dance.
+
+## 插图
+
+| id | figType | render | description |
+| --- | --- | --- | --- |
+| fig:PEP-3-2-English:PEP-3-2-English-C7:校园集市海报SCHOOLFAIROldt | illustration |  | 校园集市海报——SCHOOL FAIR：★ Old things sale　★ Fun fruit plate show　★ Sing & dance　★ Bounce house　★ Ice cream van |
+| fig:PEP-3-2-English:PEP-3-2-English-C7:听音判断图数字1120 | illustration |  | 听音判断图——数字 11、20 |
+| fig:PEP-3-2-English:PEP-3-2-English-C7:校园集市插图TheSchoolFair校 | illustration |  | 校园集市插图——The School Fair 校园集市 |
+| fig:PEP-3-2-English:PEP-3-2-English-C7:待办清单模板Mytodolist | illustration |  | 待办清单模板——My to-do list |

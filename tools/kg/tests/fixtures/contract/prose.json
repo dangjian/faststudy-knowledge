@@ -1,0 +1,43 @@
+{
+  "_comment": "resolveProse 的跨仓契约 fixture。knowledge 侧 tools/kg/src/prose.ts 与应用侧同名服务（kg-content.service）各有一份手抄实现（CLAUDE.md 3.2 的已知例外，与 reviewUnit 同）。两侧各把 files 写进一个临时目录当知识库根，逐条跑 cases，输出必须等于同一份 expected。改动任一侧的解析逻辑都要让另一侧的契约测试变红。",
+  "files": {
+    "content/测试/上册/历史/T-1/chapters/C1/sections/S1.md": "---\nsectionId: T-1-C1-S1\npageRange:\n  - 4\n  - 8\n---\n\n# 第1单元 史前时期\n\n距今约170万年 元谋人\n\n## 小节\n\n农业兴起。\n",
+    "content/测试/上册/历史/T-1/items/C1-S1.md": "---\nsectionId: T-1-C1-S1\n---\n\n## 习题\n\n### E1 {#exercise:T-1-1-S1-E1}\n\n第一题的题干。\n\n分两段。\n\n### E2 {#exercise:T-1-1-S1-E2}\n\n第二题的题干。\n\n## 插图\n\n| id | figType | description |\n|---|---|---|\n| fig:T-1:x | illustration | 一张图 |\n",
+    "content/测试/无front-matter.md": "# 光杆标题\n\n没有 front-matter 的正文。\n"
+  },
+  "cases": [
+    {
+      "name": "无锚点：返回剥掉 front-matter 的全文，title 取第一个标题",
+      "sourceRef": "content/测试/上册/历史/T-1/chapters/C1/sections/S1.md",
+      "expected": {
+        "title": "第1单元 史前时期",
+        "body": "# 第1单元 史前时期\n\n距今约170万年 元谋人\n\n## 小节\n\n农业兴起。"
+      }
+    },
+    {
+      "name": "有锚点：只返回该锚点段落，止于下一个同级标题",
+      "sourceRef": "content/测试/上册/历史/T-1/items/C1-S1.md#exercise:T-1-1-S1-E1",
+      "expected": { "title": "E1", "body": "第一题的题干。\n\n分两段。" }
+    },
+    {
+      "name": "有锚点：止于更高级标题（## 插图）而不是把表格吞进来",
+      "sourceRef": "content/测试/上册/历史/T-1/items/C1-S1.md#exercise:T-1-1-S1-E2",
+      "expected": { "title": "E2", "body": "第二题的题干。" }
+    },
+    {
+      "name": "front-matter 缺失：整篇当正文，不报错",
+      "sourceRef": "content/测试/无front-matter.md",
+      "expected": { "title": "光杆标题", "body": "# 光杆标题\n\n没有 front-matter 的正文。" }
+    },
+    {
+      "name": "锚点不存在：必须抛，不得返回空串（返回空串会把图谱与 content 的不同步藏起来）",
+      "sourceRef": "content/测试/上册/历史/T-1/items/C1-S1.md#exercise:T-1-1-S1-E99",
+      "expectedErrorPattern": "锚点不存在"
+    },
+    {
+      "name": "路径越界：必须抛",
+      "sourceRef": "../../etc/passwd",
+      "expectedErrorPattern": "越界"
+    }
+  ]
+}

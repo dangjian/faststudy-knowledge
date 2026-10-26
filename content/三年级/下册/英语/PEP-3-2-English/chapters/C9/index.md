@@ -1,0 +1,154 @@
+---
+chapterId: PEP-3-2-English-C9
+title: Appendix 2 Words in each unit
+---
+
+# Appendix 2 Words in each unit
+
+单元词汇表
+
+注：加 * 的词为《义务教育英语课程标准（2022 年版）》中的二级词；黑体词要求理解、运用，白体词只要求在语境中理解。
+
+## Unit 1
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| *where | /weə(r)/ | 在哪里；到哪里 | p. 4 |
+| *from | /frɒm/ | （表示来源）来自，从……来 | p. 4 |
+| UK |  | 英国 | p. 4 |
+| *China | /ˈtʃaɪnə/ | 中国 | p. 4 |
+| *about | /əˈbaʊt/ | 大约；左右 | p. 4 |
+| *today | /təˈdeɪ/ | 今天 | p. 5 |
+| Canada | /ˈkænədə/ | 加拿大 | p. 5 |
+| USA |  | 美国 | p. 5 |
+| *teacher | /ˈtiːtʃə(r)/ | 教师 | p. 5 |
+| *student | /ˈstjuːdnt/ | 学生 | p. 5 |
+| *after | /ˈɑːftə(r)/ | 在后面 | p. 7 |
+| *who | /huː/ | 谁；什么人 | p. 7 |
+| *girl | /ɡɜːl/ | 女孩 | p. 7 |
+| neighbour | /ˈneɪbə(r)/ | 邻居 | p. 7 |
+| *boy | /bɔɪ/ | 男孩 | p. 8 |
+| *woman | /ˈwʊmən/ | 成年女子；妇女 | p. 8 |
+| *man | /mæn/ | 成年男子；男人 | p. 8 |
+| *Mr | /ˈmɪstə(r)/ | （用于男子的姓氏或姓名前）先生 | p. 8 |
+| classmate | /ˈklɑːsmeɪt/ | 同班同学 | p. 9 |
+| *he | /hiː/ | 他 | p. 9 |
+| *English | /ˈɪŋɡlɪʃ/ | 英语的；英语 | p. 9 |
+| *she | /ʃiː/ | 她 | p. 9 |
+| *very | /ˈveri/ | 很；非常；十分 | p. 9 |
+
+## Unit 2
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| *has | /hæz/ | （have 的第三人称单数形式）具有（某种外表、特性或特征） | p. 16 |
+| *long | /lɒŋ/ | （长度或距离）长的 | p. 16 |
+| *body | /ˈbɒdi/ | 身体 | p. 16 |
+| *short | /ʃɔːt/ | 短的；个子矮的 | p. 16 |
+| *leg | /leɡ/ | 腿 | p. 16 |
+| *right | /raɪt/ | （意见或判断）准确，确切，恰当 | p. 16 |
+| fat | /fæt/ | 肥的；肥胖的 | p. 17 |
+| *thin | /θɪn/ | 瘦的 | p. 17 |
+| *slow | /sləʊ/ | 缓慢的；慢的 | p. 17 |
+| *love | /lʌv/ | 喜爱；爱 | p. 17 |
+| *tail | /teɪl/ | 尾；尾巴 | p. 17 |
+| *her | /hɜː(r)/ | 她；她的 | p. 19 |
+| *gift | /ɡɪft/ | 礼物 | p. 19 |
+| *picture | /ˈpɪktʃə(r)/ | 图画；绘画 | p. 20 |
+| *card | /kɑːd/ | 贺卡；慰问卡；卡片 | p. 20 |
+| *sing | /sɪŋ/ | 唱（歌）；演唱 | p. 20 |
+| *dance | /dɑːns/ | 跳舞 | p. 20 |
+| *face | /feɪs/ | 脸；面孔 | p. 21 |
+| *all | /ɔːl/ | 所有；全部 | p. 21 |
+| *so | /səʊ/ | （表示大小或数量）这么，那么 | p. 21 |
+| *talk | /tɔːk/ | （用某种语言）讲，说；说话 | p. 21 |
+| *song | /sɒŋ/ | 歌；歌曲 | p. 21 |
+| *or | /ɔː(r)/ | 或；或者；还是 | p. 21 |
+| *much | /mʌtʃ/ | 许多；大量 | p. 21 |
+
+## Unit 3
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| eraser | /ɪˈreɪzə(r)/ | 橡皮 | p. 28 |
+| *find | /faɪnd/ | 找到；找回 | p. 28 |
+| *ruler | /ˈruːlə(r)/ | 直尺 | p. 28 |
+| *pen | /pen/ | 钢笔 | p. 29 |
+| *pencil | /ˈpensl/ | 铅笔 | p. 29 |
+| *book | /bʊk/ | 书；书籍 | p. 29 |
+| *bag | /bæɡ/ | 包；袋 | p. 29 |
+| *paper | /ˈpeɪpə(r)/ | 纸 | p. 29 |
+| *these | /ðiːz/ | 这些 | p. 31 |
+| *see | /siː/ | 看见 | p. 32 |
+| smell | /smel/ | 闻（气味） | p. 32 |
+| taste | /teɪst/ | 尝（味道） | p. 32 |
+| *hear | /hɪə(r)/ | 听见；听到 | p. 32 |
+| touch | /tʌtʃ/ | 触摸；碰 | p. 32 |
+| *learn | /lɜːn/ | 学；学习 | p. 33 |
+| *nose | /nəʊz/ | 鼻；鼻子 | p. 33 |
+| tongue | /tʌŋ/ | 舌；舌头 | p. 33 |
+| *class | /klɑːs/ | 课；班级 | p. 33 |
+| in class |  | 在课堂上 | p. 33 |
+| *computer | /kəmˈpjuːtə(r)/ | 计算机；电脑 | p. 33 |
+
+## Unit 4
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| *breakfast | /ˈbrekfəst/ | 早餐；早饭 | p. 40 |
+| *in | /ɪn/ | 在……里；在……中 | p. 40 |
+| *time | /taɪm/ | 时间 | p. 40 |
+| *bread | /bred/ | 面包 | p. 40 |
+| *egg | /eɡ/ | （作食物用的）蛋；鸡蛋 | p. 40 |
+| *milk | /mɪlk/ | （牛或羊等的）奶 | p. 40 |
+| *noodle | /ˈnuːdl/ | （常用复数）面条 | p. 41 |
+| *juice | /dʒuːs/ | 果汁 | p. 41 |
+| *rice | /raɪs/ | 大米 | p. 43 |
+| *meat | /miːt/ | 肉 | p. 43 |
+| *vegetable | /ˈvedʒtəbl/ | 蔬菜 | p. 43 |
+| *healthy | /ˈhelθi/ | 健康的 | p. 44 |
+| plate | /pleɪt/ | 盘子 | p. 44 |
+| *soup | /suːp/ | 汤 | p. 44 |
+| *fruit | /fruːt/ | 水果 | p. 44 |
+| colourful | /ˈkʌləfl/ | 五彩缤纷的 | p. 45 |
+| *candy | /ˈkændi/ | 糖果 | p. 45 |
+| yummy | /ˈjʌmi/ | 很好吃的 | p. 45 |
+
+## Unit 5
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| *at | /æt/ | 在（某处） | p. 52 |
+| *boat | /bəʊt/ | 小船；舟 | p. 52 |
+| *cool | /kuːl/ | （因时髦、漂亮且与众不同而）酷的，绝妙的 | p. 52 |
+| *keep | /kiːp/ | 保有；留着 | p. 52 |
+| *home | /həʊm/ | 家；住所 | p. 53 |
+| *ball | /bɔːl/ | 球 | p. 53 |
+| *doll | /dɒl/ | 玩偶；玩具娃娃 | p. 53 |
+| *car | /kɑː(r)/ | 小汽车；轿车 | p. 53 |
+| *on | /ɒn/ | （覆盖、附着）在上 | p. 55 |
+| shelf | /ʃelf/ | （复数 shelves /ʃelvz/）架子 | p. 55 |
+| *box | /bɒks/ | 盒子 | p. 55 |
+| *cap | /kæp/ | 帽子 | p. 55 |
+| *map | /mæp/ | 地图 | p. 56 |
+| *under | /ˈʌndə(r)/ | 在（或到、通过）……下面 | p. 56 |
+| still | /stɪl/ | 还是；仍然 | p. 57 |
+| *put | /pʊt/ | 放；安置 | p. 57 |
+
+## Unit 6
+
+| 单词 | 音标 | 词义 | 页码 |
+|------|------|------|------|
+| fifteen | /ˌfɪfˈtiːn/ | 十五 | p. 64 |
+| twelve | /twelv/ | 十二 | p. 64 |
+| fourteen | /ˌfɔːˈtiːn/ | 十四 | p. 65 |
+| thirteen | /ˌθɜːˈtiːn/ | 十三 | p. 65 |
+| eleven | /ɪˈlevn/ | 十一 | p. 65 |
+| twenty | /ˈtwenti/ | 二十 | p. 67 |
+| seventeen | /ˌsevnˈtiːn/ | 十七 | p. 67 |
+| sixteen | /ˌsɪksˈtiːn/ | 十六 | p. 67 |
+| eighteen | /ˌeɪˈtiːn/ | 十八 | p. 68 |
+| nineteen | /ˌnaɪnˈtiːn/ | 十九 | p. 68 |
+| piggy bank | /ˈpɪɡi bæŋk/ | 猪形储钱罐 | p. 69 |
+| pay | /peɪ/ | 付费 | p. 69 |
+| *back | /bæk/ | 回到原处 | p. 69 |

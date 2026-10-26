@@ -1,0 +1,4885 @@
+- chapterId: PEP-7-1-History-C1
+  textbookId: PEP-7-1-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: PEP-7-1-History-C2
+  textbookId: PEP-7-1-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: PEP-7-1-History-C3
+  textbookId: PEP-7-1-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: PEP-7-1-History-C4
+  textbookId: PEP-7-1-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: ZTB-7-1-Geography-C1
+  textbookId: ZTB-7-1-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-EM
+
+- chapterId: ZTB-7-1-Geography-C2
+  textbookId: ZTB-7-1-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-EM
+
+- chapterId: ZTB-7-1-Geography-C3
+  textbookId: ZTB-7-1-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-7-1-Geography-C4
+  textbookId: ZTB-7-1-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: BSDU-7-1-Math-C1
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+    - std-math-2022-GG
+    - std-math-2022-SP
+    - std-math-2022-IP
+
+- chapterId: BSDU-7-1-Math-C2
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-7-1-Math-C3
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-7-1-Math-C4
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-7-1-Math-C5
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-7-1-Math-C6
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+
+- chapterId: BSDU-7-1-Math-C7
+  textbookId: BSDU-7-1-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+
+- chapterId: PEP-7-1-Biology-C2
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+
+- chapterId: PEP-7-1-Biology-C3
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-ST
+
+- chapterId: PEP-7-1-Biology-C4
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-ST
+
+- chapterId: PEP-7-1-Biology-C6
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+    - std-biology-2022-PL
+
+- chapterId: PEP-7-1-Biology-C7
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+
+- chapterId: PEP-7-1-Biology-C8
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+
+- chapterId: PEP-7-1-Biology-C9
+  textbookId: PEP-7-1-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+
+- chapterId: PEP-7-1-English-C1
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C2
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C3
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C4
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C5
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C6
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C7
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C8
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C9
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-English-C10
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-1-Chinese-C1
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Chinese-C2
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Chinese-C3
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Chinese-C4
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Chinese-C5
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Chinese-C6
+  textbookId: PEP-7-1-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-1-Politics-C1
+  textbookId: PEP-7-1-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-1-Politics-C2
+  textbookId: PEP-7-1-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-1-Politics-C3
+  textbookId: PEP-7-1-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-1-Politics-C4
+  textbookId: PEP-7-1-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-2-History-C1
+  textbookId: PEP-7-2-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: PEP-7-2-History-C2
+  textbookId: PEP-7-2-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: PEP-7-2-History-C3
+  textbookId: PEP-7-2-History
+  subject: 历史
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-history-2022-CA
+
+- chapterId: ZTB-7-2-Geography-C5
+  textbookId: ZTB-7-2-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-7-2-Geography-C6
+  textbookId: ZTB-7-2-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-7-2-Geography-C7
+  textbookId: ZTB-7-2-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-7-2-Geography-C8
+  textbookId: ZTB-7-2-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-EM
+    - std-geography-2022-WG
+
+- chapterId: ZTB-7-2-Geography-C9
+  textbookId: ZTB-7-2-Geography
+  subject: 地理
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-geography-2022-EM
+    - std-geography-2022-WG
+
+- chapterId: BSDU-7-2-Math-C1
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-7-2-Math-C2
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-7-2-Math-C3
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+
+- chapterId: BSDU-7-2-Math-C4
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-7-2-Math-C5
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-7-2-Math-C6
+  textbookId: BSDU-7-2-Math
+  subject: 数学
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+    - std-math-2022-GG
+    - std-math-2022-SP
+    - std-math-2022-IP
+
+- chapterId: PEP-7-2-Biology-C1
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PL
+
+- chapterId: PEP-7-2-Biology-C2
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PL
+
+- chapterId: PEP-7-2-Biology-C3
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PL
+
+- chapterId: PEP-7-2-Biology-C4
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-Biology-C5
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-Biology-C6
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-Biology-C7
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-Biology-C8
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-Biology-C9
+  textbookId: PEP-7-2-Biology
+  subject: 生物
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-7-2-English-C1
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C2
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C3
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C4
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C5
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C6
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C7
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-English-C8
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-7-2-Chinese-C1
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-2-Chinese-C2
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-2-Chinese-C3
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-2-Chinese-C4
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-2-Chinese-C5
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-7-2-Politics-C1
+  textbookId: PEP-7-2-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-2-Politics-C2
+  textbookId: PEP-7-2-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+
+- chapterId: PEP-7-2-Politics-C3
+  textbookId: PEP-7-2-Politics
+  subject: 道德与法治
+  grade: 7
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+
+- chapterId: KY-9-1-Chemistry-C1
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-SE
+
+- chapterId: KY-9-1-Chemistry-C2
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+    - std-chemistry-2022-CS
+
+- chapterId: KY-9-1-Chemistry-C3
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+
+- chapterId: KY-9-1-Chemistry-C4
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-CS
+    - std-chemistry-2022-CC
+
+- chapterId: KY-9-1-Chemistry-C5
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+
+- chapterId: KY-9-1-Chemistry-C6
+  textbookId: KY-9-1-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-SE
+    - std-chemistry-2022-PP
+    - std-chemistry-2022-CS
+    - std-chemistry-2022-CC
+    - std-chemistry-2022-SO
+
+- chapterId: PEP-9-1-History-C2
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C1
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C3
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C4
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C6
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C5
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-1-History-C7
+  textbookId: PEP-9-1-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: BSDU-9-1-Math-C1
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-GG
+
+- chapterId: BSDU-9-1-Math-C2
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-DA
+
+- chapterId: BSDU-9-1-Math-C3
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-SP
+
+- chapterId: BSDU-9-1-Math-C4
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-GG
+
+- chapterId: BSDU-9-1-Math-C5
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-GG
+
+- chapterId: BSDU-9-1-Math-C6
+  textbookId: BSDU-9-1-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-DA
+
+- chapterId: SK-9-1-Physics-C1
+  textbookId: SK-9-1-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-9-1-Physics-C2
+  textbookId: SK-9-1-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+    - std-physics-2022-MA
+
+- chapterId: SK-9-1-Physics-C3
+  textbookId: SK-9-1-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-EN
+
+- chapterId: SK-9-1-Physics-C4
+  textbookId: SK-9-1-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-EN
+
+- chapterId: PEP-9-1-Chinese-C1
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C2
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C3
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C4
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C5
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C6
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C7
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Chinese-C8
+  textbookId: PEP-9-1-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-1-Politics-C1
+  textbookId: PEP-9-1-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: PEP-9-1-Politics-C2
+  textbookId: PEP-9-1-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: PEP-9-1-Politics-C3
+  textbookId: PEP-9-1-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: PEP-9-1-Politics-C4
+  textbookId: PEP-9-1-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: KY-9-2-Chemistry-C1
+  textbookId: KY-9-2-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+    - std-chemistry-2022-SO
+
+- chapterId: KY-9-2-Chemistry-C2
+  textbookId: KY-9-2-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+
+- chapterId: KY-9-2-Chemistry-C3
+  textbookId: KY-9-2-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-PP
+
+- chapterId: KY-9-2-Chemistry-C4
+  textbookId: KY-9-2-Chemistry
+  subject: 化学
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-chemistry-2022-SE
+    - std-chemistry-2022-PP
+    - std-chemistry-2022-CS
+    - std-chemistry-2022-CC
+    - std-chemistry-2022-SO
+
+- chapterId: PEP-9-2-History-C1
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-2-History-C2
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-2-History-C3
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-2-History-C4
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-2-History-C5
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: PEP-9-2-History-C6
+  textbookId: PEP-9-2-History
+  subject: 历史
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-history-2011-WH
+
+- chapterId: BSDU-9-2-Math-C1
+  textbookId: BSDU-9-2-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-GG
+
+- chapterId: BSDU-9-2-Math-C2
+  textbookId: BSDU-9-2-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-DA
+
+- chapterId: BSDU-9-2-Math-C3
+  textbookId: BSDU-9-2-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-GG
+
+- chapterId: BSDU-9-2-Math-C4
+  textbookId: BSDU-9-2-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-IP
+
+- chapterId: BSDU-9-2-Math-C5
+  textbookId: BSDU-9-2-Math
+  subject: 数学
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-math-2011-DA
+    - std-math-2011-GG
+    - std-math-2011-SP
+    - std-math-2011-IP
+
+- chapterId: SK-9-2-Physics-C1
+  textbookId: SK-9-2-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+    - std-physics-2022-EN
+
+- chapterId: SK-9-2-Physics-C2
+  textbookId: SK-9-2-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-EN
+
+- chapterId: SK-9-2-Physics-C3
+  textbookId: SK-9-2-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-EN
+
+- chapterId: SK-9-2-Physics-C4
+  textbookId: SK-9-2-Physics
+  subject: 物理
+  grade: 9
+  edition: 2022版
+  standards:
+    - std-physics-2022-EN
+
+- chapterId: PEP-9-2-Chinese-C1
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C2
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C3
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C4
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C5
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C6
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Chinese-C7
+  textbookId: PEP-9-2-Chinese
+  subject: 语文
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-chinese-2011-LL
+    - std-chinese-2011-RD
+    - std-chinese-2011-WR
+    - std-chinese-2011-OS
+    - std-chinese-2011-CS
+
+- chapterId: PEP-9-2-Politics-C1
+  textbookId: PEP-9-2-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: PEP-9-2-Politics-C2
+  textbookId: PEP-9-2-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+    - std-politics-2011-MR
+    - std-politics-2011-LR
+    - std-politics-2011-NL
+    - std-politics-2011-WG
+
+- chapterId: PEP-9-2-Politics-C3
+  textbookId: PEP-9-2-Politics
+  subject: 道德与法治
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-politics-2011-MH
+
+- chapterId: PEP-9-0-English-C1
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C2
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C3
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C4
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C5
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C6
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C7
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C8
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C9
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C10
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C11
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C12
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C13
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C14
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C15
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C16
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C17
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C18
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-9-0-English-C19
+  textbookId: PEP-9-0-English
+  subject: 英语
+  grade: 9
+  edition: 2011版
+  standards:
+    - std-english-2011-TH
+    - std-english-2011-LS
+
+- chapterId: PEP-8-1-History-C1
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C2
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C3
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C6
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C5
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C4
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C8
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-1-History-C7
+  textbookId: PEP-8-1-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: ZTB-8-1-Geography-C1
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-8-1-Geography-C2
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-8-1-Geography-C3
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-8-1-Geography-C4
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-8-1-Geography-C5
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+
+- chapterId: ZTB-8-1-Geography-C6
+  textbookId: ZTB-8-1-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+    - std-geography-2022-HG
+
+- chapterId: BSDU-8-1-Math-C1
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-1-Math-C2
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-1-Math-C3
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-1-Math-C4
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-1-Math-C5
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-1-Math-C6
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+
+- chapterId: BSDU-8-1-Math-C7
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-1-Math-C8
+  textbookId: BSDU-8-1-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+
+- chapterId: SK-8-1-Physics-C1
+  textbookId: SK-8-1-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-1-Physics-C2
+  textbookId: SK-8-1-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-1-Physics-C3
+  textbookId: SK-8-1-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-1-Physics-C4
+  textbookId: SK-8-1-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MA
+
+- chapterId: SK-8-1-Physics-C5
+  textbookId: SK-8-1-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: PEP-8-1-Biology-C2
+  textbookId: PEP-8-1-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-8-1-Biology-C3
+  textbookId: PEP-8-1-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-8-1-Biology-C5
+  textbookId: PEP-8-1-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-8-1-Biology-C6
+  textbookId: PEP-8-1-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-PH
+
+- chapterId: PEP-8-1-English-C1
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C2
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C3
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C4
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C5
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C6
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C7
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C8
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C9
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C10
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C11
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-English-C12
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-1-Chinese-C1
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Chinese-C2
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Chinese-C3
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Chinese-C4
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Chinese-C5
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Chinese-C6
+  textbookId: PEP-8-1-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-1-Politics-C1
+  textbookId: PEP-8-1-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+    - std-politics-2022-MR
+    - std-politics-2022-LR
+    - std-politics-2022-NL
+    - std-politics-2022-IV
+
+- chapterId: PEP-8-1-Politics-C2
+  textbookId: PEP-8-1-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+
+- chapterId: PEP-8-1-Politics-C3
+  textbookId: PEP-8-1-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+
+- chapterId: PEP-8-1-Politics-C4
+  textbookId: PEP-8-1-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+
+- chapterId: PEP-8-2-History-C1
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C2
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C3
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C4
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C5
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C6
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C8
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: PEP-8-2-History-C7
+  textbookId: PEP-8-2-History
+  subject: 历史
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-history-2022-CN
+    - std-history-2022-CM
+
+- chapterId: ZTB-8-2-Geography-C1
+  textbookId: ZTB-8-2-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+    - std-geography-2022-HG
+
+- chapterId: ZTB-8-2-Geography-C2
+  textbookId: ZTB-8-2-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-WG
+
+- chapterId: ZTB-8-2-Geography-C3
+  textbookId: ZTB-8-2-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-WG
+
+- chapterId: ZTB-8-2-Geography-C4
+  textbookId: ZTB-8-2-Geography
+  subject: 地理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-geography-2022-CG
+    - std-geography-2022-HG
+
+- chapterId: BSDU-8-2-Math-C1
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-2-Math-C2
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-2-Math-C3
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-2-Math-C4
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-2-Math-C5
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+
+- chapterId: BSDU-8-2-Math-C6
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+
+- chapterId: BSDU-8-2-Math-C7
+  textbookId: BSDU-8-2-Math
+  subject: 数学
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+
+- chapterId: SK-8-2-Physics-C1
+  textbookId: SK-8-2-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MA
+
+- chapterId: SK-8-2-Physics-C2
+  textbookId: SK-8-2-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-2-Physics-C3
+  textbookId: SK-8-2-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-2-Physics-C4
+  textbookId: SK-8-2-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MI
+
+- chapterId: SK-8-2-Physics-C5
+  textbookId: SK-8-2-Physics
+  subject: 物理
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-physics-2022-MA
+    - std-physics-2022-MI
+    - std-physics-2022-EN
+    - std-physics-2022-EX
+    - std-physics-2022-IT
+
+- chapterId: PEP-8-2-Biology-C2
+  textbookId: PEP-8-2-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-GE
+
+- chapterId: PEP-8-2-Biology-C3
+  textbookId: PEP-8-2-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-GE
+
+- chapterId: PEP-8-2-Biology-C4
+  textbookId: PEP-8-2-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+    - std-biology-2022-EN
+
+- chapterId: PEP-8-2-Biology-C5
+  textbookId: PEP-8-2-Biology
+  subject: 生物
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-biology-2022-DV
+    - std-biology-2022-EN
+
+- chapterId: PEP-8-2-English-C1
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C2
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C3
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C4
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C5
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C6
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C7
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C8
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C9
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C10
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-English-C11
+  textbookId: PEP-8-2-English
+  subject: 英语
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-english-2022-TH
+    - std-english-2022-LS
+
+- chapterId: PEP-8-2-Chinese-C1
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Chinese-C2
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Chinese-C3
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Chinese-C4
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Chinese-C5
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Chinese-C6
+  textbookId: PEP-8-2-Chinese
+  subject: 语文
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+    - std-chinese-2022-LR
+    - std-chinese-2022-SR
+    - std-chinese-2022-BR
+    - std-chinese-2022-CS
+
+- chapterId: PEP-8-2-Politics-C1
+  textbookId: PEP-8-2-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+
+- chapterId: PEP-8-2-Politics-C2
+  textbookId: PEP-8-2-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+
+- chapterId: PEP-8-2-Politics-C3
+  textbookId: PEP-8-2-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+
+- chapterId: PEP-8-2-Politics-C4
+  textbookId: PEP-8-2-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+
+- chapterId: PEP-8-2-Politics-C5
+  textbookId: PEP-8-2-Politics
+  subject: 道德与法治
+  grade: 8
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+    - std-politics-2022-MR
+    - std-politics-2022-LR
+    - std-politics-2022-NL
+    - std-politics-2022-IV
+
+
+- chapterId: BSDU-1-1-Math-C2
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-1-Math-C3
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-1-Math-C4
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-1-1-Math-C5
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-1-1-Math-C6
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-1-Math-C8
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-1-1-Math-C9
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-1-1-Science-C1
+  textbookId: ES-1-1-Science
+  subject: 科学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-1-1-Science-C2
+  textbookId: ES-1-1-Science
+  subject: 科学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: PEP-1-1-Chinese-C2
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C6
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-1-Chinese-C7
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C8
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-1-Chinese-C9
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-1-2-Math-C1
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-2-Math-C2
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-1-2-Math-C3
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-1-2-Math-C4
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-2-Math-C5
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-2-Math-C7
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-1-2-Math-C8
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-1-2-Math-C9
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-1-2-Science-C1
+  textbookId: ES-1-2-Science
+  subject: 科学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-1-2-Science-C2
+  textbookId: ES-1-2-Science
+  subject: 科学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: PEP-1-2-Chinese-C1
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-2-Chinese-C2
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C3
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C4
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C5
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-2-Chinese-C6
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C7
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C8
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-3-1-Math-C1
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-1-Math-C2
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-3-1-Math-C3
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-3-1-Math-C4
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-1-Math-C6
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-3-1-Math-C8
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-1-Math-C9
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-1-Math-C10
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-3-1-Math-C11
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-3-1-Science-C1
+  textbookId: ES-3-1-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-3-1-Science-C2
+  textbookId: ES-3-1-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-3-1-Science-C3
+  textbookId: ES-3-1-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: PEP-3-1-Chinese-C2
+  textbookId: PEP-3-1-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-3-1-Chinese-C7
+  textbookId: PEP-3-1-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-3-2-Math-C1
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-2-Math-C2
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-3-2-Math-C3
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-3-2-Math-C4
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-3-2-Math-C5
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-3-2-Math-C9
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-3-2-Math-C10
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-3-2-Science-C1
+  textbookId: ES-3-2-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-3-2-Science-C2
+  textbookId: ES-3-2-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-3-2-Science-C3
+  textbookId: ES-3-2-Science
+  subject: 科学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: PEP-3-2-Chinese-C1
+  textbookId: PEP-3-2-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-3-2-Chinese-C4
+  textbookId: PEP-3-2-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+    - std-chinese-2022-CS
+- chapterId: BSDU-2-1-Math-C1
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-2-1-Math-C3
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-2-1-Math-C4
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-1-Math-C5
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-1-Math-C6
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-2-1-Math-C7
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-1-Math-C8
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-2-1-Math-C9
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-1-Math-C10
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-1-Math-C11
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-2-1-Science-C1
+  textbookId: ES-2-1-Science
+  subject: 科学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-science-2022-TE
+- chapterId: ES-2-1-Science-C2
+  textbookId: ES-2-1-Science
+  subject: 科学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: PEP-2-1-Chinese-C1
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C2
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C3
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C4
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C5
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C6
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C7
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C8
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-2-2-Math-C1
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-2-Math-C2
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-2-2-Math-C3
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-2-Math-C4
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-2-2-Math-C6
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-2-2-Math-C8
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-2-2-Math-C9
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-2-2-Math-C10
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-2-2-Science-C1
+  textbookId: ES-2-2-Science
+  subject: 科学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-2-2-Science-C2
+  textbookId: ES-2-2-Science
+  subject: 科学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: PEP-2-2-Chinese-C1
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C2
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C3
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C4
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C5
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C6
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C7
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-2-2-Chinese-C8
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-5-1-Math-C1
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-1-Math-C2
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-5-1-Math-C3
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-5-1-Math-C4
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-1-Math-C6
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-5-1-Math-C8
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-5-1-Math-C11
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-5-1-Science-C1
+  textbookId: ES-5-1-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-5-1-Science-C2
+  textbookId: ES-5-1-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-TE
+- chapterId: ES-5-1-Science-C3
+  textbookId: ES-5-1-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-5-1-Science-C4
+  textbookId: ES-5-1-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: PEP-5-1-Chinese-C4
+  textbookId: PEP-5-1-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-5-1-Chinese-C7
+  textbookId: PEP-5-1-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-5-2-Math-C1
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-2-Math-C2
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-5-2-Math-C3
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-2-Math-C4
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-2-Math-C6
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-2-Math-C7
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-5-2-Math-C8
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-2-Math-C10
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: ES-5-2-Science-C1
+  textbookId: ES-5-2-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-5-2-Science-C2
+  textbookId: ES-5-2-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-TE
+- chapterId: ES-5-2-Science-C3
+  textbookId: ES-5-2-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-5-2-Science-C4
+  textbookId: ES-5-2-Science
+  subject: 科学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: PEP-5-2-Chinese-C1
+  textbookId: PEP-5-2-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-5-2-Chinese-C3
+  textbookId: PEP-5-2-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-CS
+- chapterId: PEP-5-2-Chinese-C4
+  textbookId: PEP-5-2-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-6-1-Math-C1
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-6-1-Math-C2
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-1-Math-C3
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-1-Math-C4
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-6-1-Math-C5
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-6-1-Math-C7
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-1-Math-C9
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-6-1-Math-C10
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-1-Math-C11
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-6-1-Math-C12
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-6-1-Science-C1
+  textbookId: ES-6-1-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-6-1-Science-C2
+  textbookId: ES-6-1-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-6-1-Science-C3
+  textbookId: ES-6-1-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-6-1-Science-C4
+  textbookId: ES-6-1-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-TE
+- chapterId: PEP-6-1-Chinese-C1
+  textbookId: PEP-6-1-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-6-1-Chinese-C2
+  textbookId: PEP-6-1-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-SR
+- chapterId: PEP-6-1-Chinese-C6
+  textbookId: PEP-6-1-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-6-1-Chinese-C7
+  textbookId: PEP-6-1-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-6-2-Math-C1
+  textbookId: BSDU-6-2-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-2-Math-C2
+  textbookId: BSDU-6-2-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-6-2-Math-C3
+  textbookId: BSDU-6-2-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: ES-6-2-Science-C1
+  textbookId: ES-6-2-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-TE
+- chapterId: ES-6-2-Science-C2
+  textbookId: ES-6-2-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-6-2-Science-C3
+  textbookId: ES-6-2-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: ES-6-2-Science-C4
+  textbookId: ES-6-2-Science
+  subject: 科学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: PEP-6-2-Chinese-C1
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-6-2-Chinese-C2
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LR
+- chapterId: PEP-6-2-Chinese-C4
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+    - std-chinese-2022-CS
+- chapterId: PEP-6-2-Chinese-C5
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+    - std-chinese-2022-SR
+- chapterId: PEP-6-2-Chinese-C6
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-CS
+    - std-chinese-2022-PR
+- chapterId: PEP-6-2-Chinese-C7
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-4-1-Math-C2
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-4-1-Math-C3
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-4-1-Math-C4
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-4-1-Math-C6
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-4-1-Math-C7
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-4-1-Math-C8
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-4-1-Math-C10
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: BSDU-4-1-Math-C11
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: ES-4-1-Science-C1
+  textbookId: ES-4-1-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-4-1-Science-C2
+  textbookId: ES-4-1-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-4-1-Science-C3
+  textbookId: ES-4-1-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: PEP-4-1-Chinese-C3
+  textbookId: PEP-4-1-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-4-1-Chinese-C8
+  textbookId: PEP-4-1-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: BSDU-4-2-Math-C1
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-4-2-Math-C2
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-4-2-Math-C3
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-4-2-Math-C5
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-4-2-Math-C6
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-4-2-Math-C8
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+- chapterId: ES-4-2-Science-C1
+  textbookId: ES-4-2-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-LS
+- chapterId: ES-4-2-Science-C2
+  textbookId: ES-4-2-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-PS
+- chapterId: ES-4-2-Science-C3
+  textbookId: ES-4-2-Science
+  subject: 科学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-science-2022-ES
+- chapterId: PEP-4-2-Chinese-C1
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-4-2-Chinese-C3
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-CS
+    - std-chinese-2022-PR
+- chapterId: PEP-4-2-Chinese-C6
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+- chapterId: PEP-4-2-Chinese-C7
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-PR
+
+- chapterId: PEP-1-1-Politics-C4
+  textbookId: PEP-1-1-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-7-2-Politics-C4
+  textbookId: PEP-7-2-Politics
+  subject: 道德与法治
+  grade: "7"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-3-1-Politics-C1
+  textbookId: PEP-3-1-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-3-1-Politics-C3
+  textbookId: PEP-3-1-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-3-1-Politics-C4
+  textbookId: PEP-3-1-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-3-2-Politics-C3
+  textbookId: PEP-3-2-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-3-2-Politics-C4
+  textbookId: PEP-3-2-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-2-1-Politics-C2
+  textbookId: PEP-2-1-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-2-2-Politics-C3
+  textbookId: PEP-2-2-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-5-1-Politics-C3
+  textbookId: PEP-5-1-Politics
+  subject: 道德与法治
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-5-2-Politics-C3
+  textbookId: PEP-5-2-Politics
+  subject: 道德与法治
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-politics-2022-IV
+- chapterId: PEP-6-1-Politics-C1
+  textbookId: PEP-6-1-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-6-1-Politics-C2
+  textbookId: PEP-6-1-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-6-1-Politics-C3
+  textbookId: PEP-6-1-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-6-1-Politics-C4
+  textbookId: PEP-6-1-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-LR
+- chapterId: PEP-6-2-Politics-C1
+  textbookId: PEP-6-2-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-6-2-Politics-C2
+  textbookId: PEP-6-2-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-6-2-Politics-C3
+  textbookId: PEP-6-2-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-6-2-Politics-C4
+  textbookId: PEP-6-2-Politics
+  subject: 道德与法治
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-politics-2022-IV
+- chapterId: PEP-4-1-Politics-C2
+  textbookId: PEP-4-1-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-4-1-Politics-C3
+  textbookId: PEP-4-1-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-IV
+- chapterId: PEP-4-1-Politics-C4
+  textbookId: PEP-4-1-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-4-2-Politics-C1
+  textbookId: PEP-4-2-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-4-2-Politics-C4
+  textbookId: PEP-4-2-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+
+- chapterId: PEP-7-1-English-C1
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-7-1-English-C2
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-7-1-English-C3
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-7-1-English-C4
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-7-1-English-C5
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-7-1-English-C6
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-7-1-English-C7
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-7-1-English-C8
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-LA
+- chapterId: PEP-7-1-English-C9
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-7-1-English-C10
+  textbookId: PEP-7-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-HC
+- chapterId: PEP-7-2-English-C1
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-7-2-English-C2
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-7-2-English-C3
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-7-2-English-C4
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-7-2-English-C5
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-7-2-English-C6
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-7-2-English-C7
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-7-2-English-C8
+  textbookId: PEP-7-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-LA
+- chapterId: PEP-3-1-English-C1
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-3-1-English-C2
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-3-1-English-C3
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-3-1-English-C4
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-3-1-English-C5
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-3-1-English-C6
+  textbookId: PEP-3-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-3-2-English-C1
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-3-2-English-C2
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-3-2-English-C3
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-3-2-English-C4
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-3-2-English-C5
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-3-2-English-C6
+  textbookId: PEP-3-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-5-1-English-C1
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-5-1-English-C2
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-5-1-English-C3
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-5-1-English-C4
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-5-1-English-C5
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-5-1-English-C6
+  textbookId: PEP-5-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-EP
+- chapterId: PEP-5-2-English-C1
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-5-2-English-C2
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-5-2-English-C3
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-5-2-English-C5
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-LA
+- chapterId: PEP-5-2-English-C6
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-5-2-English-C7
+  textbookId: PEP-5-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-8-1-English-C1
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-HC
+- chapterId: PEP-8-1-English-C2
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-8-1-English-C3
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-8-1-English-C4
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-8-1-English-C5
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-8-1-English-C6
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-8-1-English-C7
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-8-1-English-C8
+  textbookId: PEP-8-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-6-1-English-C1
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-6-1-English-C2
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-6-1-English-C3
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-6-1-English-C4
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-6-1-English-C5
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-UE
+- chapterId: PEP-6-1-English-C6
+  textbookId: PEP-6-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-EP
+- chapterId: PEP-6-2-English-C1
+  textbookId: PEP-6-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-6-2-English-C2
+  textbookId: PEP-6-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-6-2-English-C3
+  textbookId: PEP-6-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-HC
+- chapterId: PEP-6-2-English-C4
+  textbookId: PEP-6-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-HC
+- chapterId: PEP-4-1-English-C1
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-4-1-English-C2
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-4-1-English-C3
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-HC
+- chapterId: PEP-4-1-English-C4
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-4-1-English-C5
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-4-1-English-C6
+  textbookId: PEP-4-1-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-4-2-English-C1
+  textbookId: PEP-4-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-BD
+- chapterId: PEP-4-2-English-C2
+  textbookId: PEP-4-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SOCI-SC
+- chapterId: PEP-4-2-English-C3
+  textbookId: PEP-4-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-SELF-LL
+- chapterId: PEP-4-2-English-C5
+  textbookId: PEP-4-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+- chapterId: PEP-4-2-English-C6
+  textbookId: PEP-4-2-English
+  subject: 英语
+  grade: ""
+  edition: 2022版
+  standards:
+    - std-english-2022-NAT-NE
+
+- chapterId: BSDU-1-1-Math-C7
+  textbookId: BSDU-1-1-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-1-1-Chinese-C1
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C3
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C4
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C5
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C10
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C11
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Politics-C1
+  textbookId: PEP-1-1-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-1-1-Politics-C2
+  textbookId: PEP-1-1-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-1-1-Politics-C3
+  textbookId: PEP-1-1-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: BSDU-1-2-Math-C6
+  textbookId: BSDU-1-2-Math
+  subject: 数学
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-1-2-Chinese-C9
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Chinese-C10
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: PEP-1-2-Politics-C1
+  textbookId: PEP-1-2-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-1-2-Politics-C2
+  textbookId: PEP-1-2-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-1-2-Politics-C3
+  textbookId: PEP-1-2-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-1-2-Politics-C4
+  textbookId: PEP-1-2-Politics
+  subject: 道德与法治
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: BSDU-3-1-Math-C5
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: BSDU-3-1-Math-C7
+  textbookId: BSDU-3-1-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-3-1-Chinese-C9
+  textbookId: PEP-3-1-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-3-1-Chinese-C10
+  textbookId: PEP-3-1-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-3-1-Politics-C2
+  textbookId: PEP-3-1-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: BSDU-3-2-Math-C6
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-3-2-Math-C7
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: BSDU-3-2-Math-C8
+  textbookId: BSDU-3-2-Math
+  subject: 数学
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: PEP-3-2-Chinese-C9
+  textbookId: PEP-3-2-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-3-2-Chinese-C10
+  textbookId: PEP-3-2-Chinese
+  subject: 语文
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-3-2-Politics-C1
+  textbookId: PEP-3-2-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: BSDU-2-1-Math-C2
+  textbookId: BSDU-2-1-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-2-1-Chinese-C9
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: PEP-2-1-Chinese-C10
+  textbookId: PEP-2-1-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+    - std-chinese-2022-PR
+- chapterId: BSDU-2-2-Math-C7
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-2-2-Chinese-C9
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-2-2-Chinese-C10
+  textbookId: PEP-2-2-Chinese
+  subject: 语文
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: BSDU-5-1-Math-C7
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-5-1-Chinese-C9
+  textbookId: PEP-5-1-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-5-1-Chinese-C10
+  textbookId: PEP-5-1-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: BSDU-5-2-Math-C9
+  textbookId: BSDU-5-2-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-5-2-Chinese-C9
+  textbookId: PEP-5-2-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-5-2-Chinese-C10
+  textbookId: PEP-5-2-Chinese
+  subject: 语文
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-5-2-Politics-C1
+  textbookId: PEP-5-2-Politics
+  subject: 道德与法治
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: BSDU-6-1-Math-C8
+  textbookId: BSDU-6-1-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-6-1-Chinese-C9
+  textbookId: PEP-6-1-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: BSDU-6-2-Math-C5
+  textbookId: BSDU-6-2-Math
+  subject: 数学
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-6-2-Chinese-C8
+  textbookId: PEP-6-2-Chinese
+  subject: 语文
+  grade: "6"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: BSDU-4-1-Math-C5
+  textbookId: BSDU-4-1-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-GG
+- chapterId: PEP-4-1-Chinese-C9
+  textbookId: PEP-4-1-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-4-1-Chinese-C10
+  textbookId: PEP-4-1-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: BSDU-4-2-Math-C7
+  textbookId: BSDU-4-2-Math
+  subject: 数学
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-math-2022-IP
+- chapterId: PEP-4-2-Chinese-C9
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-4-2-Chinese-C10
+  textbookId: PEP-4-2-Chinese
+  subject: 语文
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-4-2-Politics-C3
+  textbookId: PEP-4-2-Politics
+  subject: 道德与法治
+  grade: "4"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+
+- chapterId: PEP-1-1-Chinese-C12
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-1-Chinese-C13
+  textbookId: PEP-1-1-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-1-2-Chinese-C11
+  textbookId: PEP-1-2-Chinese
+  subject: 语文
+  grade: "1"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-LL
+- chapterId: PEP-7-2-Chinese-C6
+  textbookId: PEP-7-2-Chinese
+  subject: 语文
+  grade: "7"
+  edition: 2022版
+  standards:
+    - std-chinese-2022-CS
+- chapterId: BSDU-2-2-Math-C5
+  textbookId: BSDU-2-2-Math
+  subject: 数学
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-1-Math-C5
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-1-Math-C9
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-DA
+- chapterId: BSDU-5-1-Math-C10
+  textbookId: BSDU-5-1-Math
+  subject: 数学
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-math-2022-SP
+
+- chapterId: PEP-3-2-Politics-C2
+  textbookId: PEP-3-2-Politics
+  subject: 道德与法治
+  grade: "3"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MR
+- chapterId: PEP-2-1-Politics-C1
+  textbookId: PEP-2-1-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-2-1-Politics-C3
+  textbookId: PEP-2-1-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-2-1-Politics-C4
+  textbookId: PEP-2-1-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-2-2-Politics-C1
+  textbookId: PEP-2-2-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-2-2-Politics-C2
+  textbookId: PEP-2-2-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-2-2-Politics-C4
+  textbookId: PEP-2-2-Politics
+  subject: 道德与法治
+  grade: "2"
+  edition: 2022版
+  standards:
+    - std-politics-2022-MH
+- chapterId: PEP-5-1-Politics-C1
+  textbookId: PEP-5-1-Politics
+  subject: 道德与法治
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL
+- chapterId: PEP-5-1-Politics-C2
+  textbookId: PEP-5-1-Politics
+  subject: 道德与法治
+  grade: "5"
+  edition: 2022版
+  standards:
+    - std-politics-2022-NL

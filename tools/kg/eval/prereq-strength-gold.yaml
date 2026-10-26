@@ -1,0 +1,1203 @@
+# prerequisite 强度金标：198 条（hard / soft）
+#
+# 判据（见 rubric-cases.md 第十五节）：
+#   hard = 不会 B 就学不下去 A——A 的推导或操作**直接调用** B
+#   soft = 有帮助但非门槛——只是顺序在前、同领域、背景相关
+#
+# 抽样：按学科分层（数学 55 / 物理 26 / 历史 24 / 地理 20 / 英语 18 / 化学 16 /
+#   语文 16 / 生物 10 / 科学 8 / 道法 5），确定性哈希取序；由独立 agent 盲判，不给既有结论。
+# 结果：hard 135（68.2%）/ soft 63（31.8%）。
+#
+# 已知：两条便宜规则都远不达标，故不得用规则批量填——
+#   「跨年级=hard」一致率 40.9%（同年级里仍有 95 条 hard）
+#   「B 出现在 A 释义/正文=hard」一致率 56.6%
+
+items:
+  - from: concept:英语:一般疑问句
+    to: concept:英语:简单现在时（be动词）
+    subject: 英语
+    fromTitle: 一般疑问句
+    toTitle: 简单现在时（be动词）
+    verdict: hard
+  - from: concept:生物:贫血
+    to: concept:生物:红细胞
+    subject: 生物
+    fromTitle: 贫血
+    toTitle: 红细胞
+    verdict: hard
+  - from: concept:历史:台湾人民的抗日武装斗争
+    to: concept:历史:《马关条约》
+    subject: 历史
+    fromTitle: 台湾人民的抗日武装斗争
+    toTitle: 《马关条约》
+    verdict: hard
+  - from: concept:科学:用自然物辨别方向
+    to: concept:科学:太阳东升西落
+    subject: 科学
+    fromTitle: 用自然物辨别方向
+    toTitle: 太阳东升西落
+    verdict: hard
+  - from: concept:物理:光的反射定律
+    to: concept:物理:光的反射
+    subject: 物理
+    fromTitle: 光的反射定律
+    toTitle: 光的反射
+    verdict: soft
+  - from: concept:数学:图形分类
+    to: concept:数学:认识平面图形
+    subject: 数学
+    fromTitle: 图形分类
+    toTitle: 认识平面图形
+    verdict: hard
+  - from: concept:英语:礼貌请求
+    to: concept:英语:情态动词 can
+    subject: 英语
+    fromTitle: 礼貌请求
+    toTitle: 情态动词 can
+    verdict: hard
+  - from: concept:数学:合并同类项
+    to: concept:数学:乘法分配律
+    subject: 数学
+    fromTitle: 合并同类项
+    toTitle: 乘法分配律
+    verdict: hard
+  - from: concept:物理:做功改变物体内能
+    to: concept:物理:内能
+    subject: 物理
+    fromTitle: 做功改变物体内能
+    toTitle: 内能
+    verdict: hard
+  - from: concept:英语:一般疑问句及其回答
+    to: concept:英语:there be 结构
+    subject: 英语
+    fromTitle: 一般疑问句及其回答
+    toTitle: there be 结构
+    verdict: hard
+  - from: concept:数学:公式法因式分解
+    to: concept:数学:完全平方公式
+    subject: 数学
+    fromTitle: 公式法因式分解
+    toTitle: 完全平方公式
+    verdict: hard
+  - from: concept:生物:接种
+    to: concept:生物:培养基
+    subject: 生物
+    fromTitle: 接种
+    toTitle: 培养基
+    verdict: hard
+  - from: concept:历史:墨西哥资产阶级革命
+    to: concept:历史:迪亚斯独裁统治
+    subject: 历史
+    fromTitle: 墨西哥资产阶级革命
+    toTitle: 迪亚斯独裁统治
+    verdict: hard
+  - from: concept:科学:分类
+    to: concept:科学:物体的特征
+    subject: 科学
+    fromTitle: 分类
+    toTitle: 物体的特征
+    verdict: hard
+  - from: concept:地理:欧洲西部旅游业
+    to: concept:地理:欧洲西部位置与范围
+    subject: 地理
+    fromTitle: 欧洲西部旅游业
+    toTitle: 欧洲西部位置与范围
+    verdict: soft
+  - from: concept:数学:两位数加减一位数
+    to: concept:数学:10以内加减法
+    subject: 数学
+    fromTitle: 两位数加减一位数
+    toTitle: 10以内加减法
+    verdict: hard
+  - from: concept:数学:角角边（AAS）判定定理
+    to: concept:数学:角边角（ASA）判定定理
+    subject: 数学
+    fromTitle: 角角边（AAS）判定定理
+    toTitle: 角边角（ASA）判定定理
+    verdict: soft
+  - from: concept:语文:伯乐相马
+    to: concept:语文:伯乐
+    subject: 语文
+    fromTitle: 伯乐相马
+    toTitle: 伯乐
+    verdict: soft
+  - from: concept:物理:磁感线
+    to: concept:物理:磁场方向
+    subject: 物理
+    fromTitle: 磁感线
+    toTitle: 磁场方向
+    verdict: hard
+  - from: concept:数学:圆的中心对称性
+    to: concept:数学:圆心
+    subject: 数学
+    fromTitle: 圆的中心对称性
+    toTitle: 圆心
+    verdict: soft
+  - from: concept:英语:询问未来职业的句型
+    to: concept:英语:职业词汇
+    subject: 英语
+    fromTitle: 询问未来职业的句型
+    toTitle: 职业词汇
+    verdict: soft
+  - from: concept:数学:整式的乘法
+    to: concept:数学:乘法分配律
+    subject: 数学
+    fromTitle: 整式的乘法
+    toTitle: 乘法分配律
+    verdict: hard
+  - from: concept:生物:自然选择
+    to: concept:生物:变异
+    subject: 生物
+    fromTitle: 自然选择
+    toTitle: 变异
+    verdict: hard
+  - from: concept:历史:东晋
+    to: concept:历史:西晋灭亡
+    subject: 历史
+    fromTitle: 东晋
+    toTitle: 西晋灭亡
+    verdict: hard
+  - from: concept:数学:统计过程
+    to: concept:数学:总体
+    subject: 数学
+    fromTitle: 统计过程
+    toTitle: 总体
+    verdict: soft
+  - from: concept:化学:铁锈蚀的条件
+    to: concept:化学:铁锈的主要成分
+    subject: 化学
+    fromTitle: 铁锈蚀的条件
+    toTitle: 铁锈的主要成分
+    verdict: soft
+  - from: concept:语文:《式微》
+    to: concept:语文:比兴手法
+    subject: 语文
+    fromTitle: 《式微》
+    toTitle: 比兴手法
+    verdict: soft
+  - from: concept:历史:元谋人
+    to: concept:历史:化石
+    subject: 历史
+    fromTitle: 元谋人
+    toTitle: 化石
+    verdict: hard
+  - from: concept:科学:地球生命的生存条件
+    to: concept:科学:动物生存需要的条件
+    subject: 科学
+    fromTitle: 地球生命的生存条件
+    toTitle: 动物生存需要的条件
+    verdict: soft
+  - from: concept:物理:平均速度
+    to: concept:物理:变速直线运动
+    subject: 物理
+    fromTitle: 平均速度
+    toTitle: 变速直线运动
+    verdict: hard
+  - from: concept:数学:底和高
+    to: concept:数学:垂直
+    subject: 数学
+    fromTitle: 底和高
+    toTitle: 垂直
+    verdict: hard
+  - from: concept:英语:烹饪步骤表达
+    to: concept:英语:表示顺序的副词
+    subject: 英语
+    fromTitle: 烹饪步骤表达
+    toTitle: 表示顺序的副词
+    verdict: soft
+  - from: concept:数学:平行线的判定定理
+    to: concept:数学:平行线
+    subject: 数学
+    fromTitle: 平行线的判定定理
+    toTitle: 平行线
+    verdict: hard
+  - from: concept:历史:《马关条约》
+    to: concept:历史:甲午中日战争
+    subject: 历史
+    fromTitle: 《马关条约》
+    toTitle: 甲午中日战争
+    verdict: hard
+  - from: concept:英语:频率副词
+    to: concept:英语:谈论周末活动
+    subject: 英语
+    fromTitle: 频率副词
+    toTitle: 谈论周末活动
+    verdict: soft
+  - from: concept:数学:分式方程的应用
+    to: concept:数学:解分式方程
+    subject: 数学
+    fromTitle: 分式方程的应用
+    toTitle: 解分式方程
+    verdict: hard
+  - from: concept:生物:过敏原
+    to: concept:生物:过敏反应
+    subject: 生物
+    fromTitle: 过敏原
+    toTitle: 过敏反应
+    verdict: hard
+  - from: concept:历史:《辛丑条约》
+    to: concept:历史:半殖民地半封建社会
+    subject: 历史
+    fromTitle: 《辛丑条约》
+    toTitle: 半殖民地半封建社会
+    verdict: hard
+  - from: concept:科学:弹力
+    to: concept:科学:力使物体的形状改变
+    subject: 科学
+    fromTitle: 弹力
+    toTitle: 力使物体的形状改变
+    verdict: soft
+  - from: concept:物理:夸克
+    to: concept:物理:原子结构
+    subject: 物理
+    fromTitle: 夸克
+    toTitle: 原子结构
+    verdict: soft
+  - from: concept:数学:两位数乘一位数口算
+    to: concept:数学:拆数推算乘法
+    subject: 数学
+    fromTitle: 两位数乘一位数口算
+    toTitle: 拆数推算乘法
+    verdict: hard
+  - from: concept:数学:除法的验算
+    to: concept:数学:乘除法的互逆关系
+    subject: 数学
+    fromTitle: 除法的验算
+    toTitle: 乘除法的互逆关系
+    verdict: hard
+  - from: concept:物理:额定功率
+    to: concept:物理:电功率
+    subject: 物理
+    fromTitle: 额定功率
+    toTitle: 电功率
+    verdict: hard
+  - from: concept:数学:频率与概率的关系
+    to: concept:数学:频率
+    subject: 数学
+    fromTitle: 频率与概率的关系
+    toTitle: 频率
+    verdict: hard
+  - from: concept:英语:过去完成时
+    to: concept:英语:一般过去时
+    subject: 英语
+    fromTitle: 过去完成时
+    toTitle: 一般过去时
+    verdict: soft
+  - from: concept:数学:认识十万
+    to: concept:数学:10个一千是一万
+    subject: 数学
+    fromTitle: 认识十万
+    toTitle: 10个一千是一万
+    verdict: hard
+  - from: concept:生物:基因控制生物的性状
+    to: concept:生物:性状
+    subject: 生物
+    fromTitle: 基因控制生物的性状
+    toTitle: 性状
+    verdict: hard
+  - from: concept:历史:占城稻
+    to: concept:历史:经济重心南移
+    subject: 历史
+    fromTitle: 占城稻
+    toTitle: 经济重心南移
+    verdict: soft
+  - from: concept:物理:变速直线运动
+    to: concept:物理:匀速直线运动
+    subject: 物理
+    fromTitle: 变速直线运动
+    toTitle: 匀速直线运动
+    verdict: hard
+  - from: concept:数学:三角形外角定理
+    to: concept:数学:三角形外角的定义
+    subject: 数学
+    fromTitle: 三角形外角定理
+    toTitle: 三角形外角的定义
+    verdict: hard
+  - from: concept:语文:情节梳理
+    to: concept:语文:情节结构
+    subject: 语文
+    fromTitle: 情节梳理
+    toTitle: 情节结构
+    verdict: soft
+  - from: concept:地理:气象灾害预警级别
+    to: concept:地理:气象灾害
+    subject: 地理
+    fromTitle: 气象灾害预警级别
+    toTitle: 气象灾害
+    verdict: soft
+  - from: concept:物理:测量物质的密度
+    to: concept:物理:托盘天平的使用
+    subject: 物理
+    fromTitle: 测量物质的密度
+    toTitle: 托盘天平的使用
+    verdict: hard
+  - from: concept:数学:频数直方图
+    to: concept:数学:频数
+    subject: 数学
+    fromTitle: 频数直方图
+    toTitle: 频数
+    verdict: hard
+  - from: concept:英语:短语动词的被动语态
+    to: concept:英语:短语动词
+    subject: 英语
+    fromTitle: 短语动词的被动语态
+    toTitle: 短语动词
+    verdict: hard
+  - from: concept:数学:平行四边形的对边相等
+    to: concept:数学:平行四边形的定义
+    subject: 数学
+    fromTitle: 平行四边形的对边相等
+    toTitle: 平行四边形的定义
+    verdict: hard
+  - from: concept:历史:定居生活
+    to: concept:历史:原始农业
+    subject: 历史
+    fromTitle: 定居生活
+    toTitle: 原始农业
+    verdict: soft
+  - from: concept:化学:溶液的酸碱性与pH
+    to: concept:化学:酸碱指示剂
+    subject: 化学
+    fromTitle: 溶液的酸碱性与pH
+    toTitle: 酸碱指示剂
+    verdict: soft
+  - from: concept:数学:三角形的外接圆
+    to: concept:数学:确定圆的条件
+    subject: 数学
+    fromTitle: 三角形的外接圆
+    toTitle: 确定圆的条件
+    verdict: hard
+  - from: concept:语文:《子衿》
+    to: concept:语文:重章叠句
+    subject: 语文
+    fromTitle: 《子衿》
+    toTitle: 重章叠句
+    verdict: soft
+  - from: concept:地理:陆半球和水半球
+    to: concept:地理:海陆面积比例
+    subject: 地理
+    fromTitle: 陆半球和水半球
+    toTitle: 海陆面积比例
+    verdict: soft
+  - from: concept:物理:光的直线传播
+    to: concept:物理:光源
+    subject: 物理
+    fromTitle: 光的直线传播
+    toTitle: 光源
+    verdict: soft
+  - from: concept:数学:复式折线统计图
+    to: concept:数学:复式条形统计图
+    subject: 数学
+    fromTitle: 复式折线统计图
+    toTitle: 复式条形统计图
+    verdict: soft
+  - from: concept:英语:健康饮食习惯
+    to: concept:英语:食物与饮料词汇
+    subject: 英语
+    fromTitle: 健康饮食习惯
+    toTitle: 食物与饮料词汇
+    verdict: soft
+  - from: concept:数学:竖式计算
+    to: concept:数学:相同数位上的数相加减
+    subject: 数学
+    fromTitle: 竖式计算
+    toTitle: 相同数位上的数相加减
+    verdict: hard
+  - from: concept:物理:凹面镜
+    to: concept:物理:光的反射
+    subject: 物理
+    fromTitle: 凹面镜
+    toTitle: 光的反射
+    verdict: hard
+  - from: concept:化学:溶解速率的影响因素
+    to: concept:化学:溶解
+    subject: 化学
+    fromTitle: 溶解速率的影响因素
+    toTitle: 溶解
+    verdict: hard
+  - from: concept:数学:整十整百数除以一位数
+    to: concept:数学:用乘法口诀求商
+    subject: 数学
+    fromTitle: 整十整百数除以一位数
+    toTitle: 用乘法口诀求商
+    verdict: hard
+  - from: concept:语文:《聊斋志异》
+    to: concept:语文:文言实词
+    subject: 语文
+    fromTitle: 《聊斋志异》
+    toTitle: 文言实词
+    verdict: soft
+  - from: concept:地理:宗教建筑特色
+    to: concept:地理:伊斯兰教
+    subject: 地理
+    fromTitle: 宗教建筑特色
+    toTitle: 伊斯兰教
+    verdict: soft
+  - from: concept:物理:同名磁极相互排斥，异名磁极相互吸引
+    to: concept:物理:磁体
+    subject: 物理
+    fromTitle: 同名磁极相互排斥，异名磁极相互吸引
+    toTitle: 磁体
+    verdict: hard
+  - from: concept:数学:平行四边形的判定
+    to: concept:数学:平行四边形的定义
+    subject: 数学
+    fromTitle: 平行四边形的判定
+    toTitle: 平行四边形的定义
+    verdict: hard
+  - from: concept:语文:列夫·托尔斯泰
+    to: concept:语文:欲扬先抑
+    subject: 语文
+    fromTitle: 列夫·托尔斯泰
+    toTitle: 欲扬先抑
+    verdict: soft
+  - from: concept:物理:凸透镜成像规律
+    to: concept:物理:焦点
+    subject: 物理
+    fromTitle: 凸透镜成像规律
+    toTitle: 焦点
+    verdict: hard
+  - from: concept:数学:二次函数的最值
+    to: concept:数学:二次函数的顶点式
+    subject: 数学
+    fromTitle: 二次函数的最值
+    toTitle: 二次函数的顶点式
+    verdict: hard
+  - from: concept:英语:how many 与 how much
+    to: concept:英语:可数名词与不可数名词
+    subject: 英语
+    fromTitle: how many 与 how much
+    toTitle: 可数名词与不可数名词
+    verdict: hard
+  - from: concept:数学:减法的性质
+    to: concept:数学:三位数连减
+    subject: 数学
+    fromTitle: 减法的性质
+    toTitle: 三位数连减
+    verdict: soft
+  - from: concept:语文:新闻特写与通讯的区别
+    to: concept:语文:新闻
+    subject: 语文
+    fromTitle: 新闻特写与通讯的区别
+    toTitle: 新闻
+    verdict: soft
+  - from: concept:历史:人民生活总体达到小康
+    to: concept:历史:社会主义市场经济体制
+    subject: 历史
+    fromTitle: 人民生活总体达到小康
+    toTitle: 社会主义市场经济体制
+    verdict: soft
+  - from: concept:数学:同位角相等，两直线平行
+    to: concept:数学:同位角
+    subject: 数学
+    fromTitle: 同位角相等，两直线平行
+    toTitle: 同位角
+    verdict: hard
+  - from: concept:化学:粗盐提纯
+    to: concept:化学:蒸发
+    subject: 化学
+    fromTitle: 粗盐提纯
+    toTitle: 蒸发
+    verdict: soft
+  - from: concept:语文:《儒林外史》的批判精神
+    to: concept:语文:儒林
+    subject: 语文
+    fromTitle: 《儒林外史》的批判精神
+    toTitle: 儒林
+    verdict: soft
+  - from: concept:地理:五带的划分
+    to: concept:地理:南回归线
+    subject: 地理
+    fromTitle: 五带的划分
+    toTitle: 南回归线
+    verdict: hard
+  - from: concept:物理:裂变
+    to: concept:物理:核能
+    subject: 物理
+    fromTitle: 裂变
+    toTitle: 核能
+    verdict: hard
+  - from: concept:数学:旋转作图
+    to: concept:数学:旋转角
+    subject: 数学
+    fromTitle: 旋转作图
+    toTitle: 旋转角
+    verdict: hard
+  - from: concept:英语:主动语态与被动语态的转换
+    to: concept:英语:被动语态
+    subject: 英语
+    fromTitle: 主动语态与被动语态的转换
+    toTitle: 被动语态
+    verdict: hard
+  - from: concept:数学:解比例
+    to: concept:数学:比例的意义
+    subject: 数学
+    fromTitle: 解比例
+    toTitle: 比例的意义
+    verdict: hard
+  - from: concept:化学:化学性质
+    to: concept:化学:化学变化
+    subject: 化学
+    fromTitle: 化学性质
+    toTitle: 化学变化
+    verdict: hard
+  - from: concept:历史:战略相持阶段
+    to: concept:历史:武汉会战
+    subject: 历史
+    fromTitle: 战略相持阶段
+    toTitle: 武汉会战
+    verdict: hard
+  - from: concept:语文:新闻体裁比较
+    to: concept:语文:新闻
+    subject: 语文
+    fromTitle: 新闻体裁比较
+    toTitle: 新闻
+    verdict: soft
+  - from: concept:地理:尊重世界文化多样性
+    to: concept:地理:文化多样性
+    subject: 地理
+    fromTitle: 尊重世界文化多样性
+    toTitle: 文化多样性
+    verdict: hard
+  - from: concept:物理:热量
+    to: concept:物理:内能
+    subject: 物理
+    fromTitle: 热量
+    toTitle: 内能
+    verdict: hard
+  - from: concept:数学:证明
+    to: concept:数学:等量代换
+    subject: 数学
+    fromTitle: 证明
+    toTitle: 等量代换
+    verdict: soft
+  - from: concept:数学:完全平方公式
+    to: concept:数学:单项式乘多项式法则
+    subject: 数学
+    fromTitle: 完全平方公式
+    toTitle: 单项式乘多项式法则
+    verdict: hard
+  - from: concept:道德与法治:社会主义基本经济制度
+    to: concept:道德与法治:改革开放
+    subject: 道德与法治
+    fromTitle: 社会主义基本经济制度
+    toTitle: 改革开放
+    verdict: soft
+  - from: concept:物理:标准大气压
+    to: concept:物理:托里拆利实验
+    subject: 物理
+    fromTitle: 标准大气压
+    toTitle: 托里拆利实验
+    verdict: hard
+  - from: concept:数学:一次函数的增减性
+    to: concept:数学:正比例函数的增减性
+    subject: 数学
+    fromTitle: 一次函数的增减性
+    toTitle: 正比例函数的增减性
+    verdict: hard
+  - from: concept:化学:爆炸极限
+    to: concept:化学:爆炸
+    subject: 化学
+    fromTitle: 爆炸极限
+    toTitle: 爆炸
+    verdict: hard
+  - from: concept:历史:辽与北宋的和战
+    to: concept:历史:燕云十六州
+    subject: 历史
+    fromTitle: 辽与北宋的和战
+    toTitle: 燕云十六州
+    verdict: hard
+  - from: concept:语文:孙权劝学
+    to: concept:语文:古代汉语称谓
+    subject: 语文
+    fromTitle: 孙权劝学
+    toTitle: 古代汉语称谓
+    verdict: hard
+  - from: concept:地理:四川省的交通
+    to: concept:地理:四川省的地理位置
+    subject: 地理
+    fromTitle: 四川省的交通
+    toTitle: 四川省的地理位置
+    verdict: soft
+  - from: concept:数学:内错角相等，两直线平行
+    to: concept:数学:内错角
+    subject: 数学
+    fromTitle: 内错角相等，两直线平行
+    toTitle: 内错角
+    verdict: hard
+  - from: concept:语文:一丈青大娘
+    to: concept:语文:人物描写方法
+    subject: 语文
+    fromTitle: 一丈青大娘
+    toTitle: 人物描写方法
+    verdict: hard
+  - from: concept:地理:四川省的自然灾害
+    to: concept:地理:四川省的气候
+    subject: 地理
+    fromTitle: 四川省的自然灾害
+    toTitle: 四川省的气候
+    verdict: soft
+  - from: concept:物理:测量固体密度
+    to: concept:物理:密度公式
+    subject: 物理
+    fromTitle: 测量固体密度
+    toTitle: 密度公式
+    verdict: hard
+  - from: concept:数学:正多边形
+    to: concept:数学:多边形的顶点、边、内角
+    subject: 数学
+    fromTitle: 正多边形
+    toTitle: 多边形的顶点、边、内角
+    verdict: hard
+  - from: concept:化学:氧气的实验室制法
+    to: concept:化学:分解反应
+    subject: 化学
+    fromTitle: 氧气的实验室制法
+    toTitle: 分解反应
+    verdict: soft
+  - from: concept:数学:等可能事件
+    to: concept:数学:概率
+    subject: 数学
+    fromTitle: 等可能事件
+    toTitle: 概率
+    verdict: hard
+  - from: concept:地理:亚洲的地理分区
+    to: concept:地理:亚洲的地理位置
+    subject: 地理
+    fromTitle: 亚洲的地理分区
+    toTitle: 亚洲的地理位置
+    verdict: soft
+  - from: concept:化学:金属活动性顺序
+    to: concept:化学:金属与盐溶液的反应
+    subject: 化学
+    fromTitle: 金属活动性顺序
+    toTitle: 金属与盐溶液的反应
+    verdict: hard
+  - from: concept:历史:南北矛盾
+    to: concept:历史:西进运动
+    subject: 历史
+    fromTitle: 南北矛盾
+    toTitle: 西进运动
+    verdict: soft
+  - from: concept:语文:倡议书
+    to: concept:语文:应用场合
+    subject: 语文
+    fromTitle: 倡议书
+    toTitle: 应用场合
+    verdict: soft
+  - from: concept:地理:四川省的自然灾害
+    to: concept:地理:四川省的地形
+    subject: 地理
+    fromTitle: 四川省的自然灾害
+    toTitle: 四川省的地形
+    verdict: soft
+  - from: concept:物理:力的测量
+    to: concept:物理:形变
+    subject: 物理
+    fromTitle: 力的测量
+    toTitle: 形变
+    verdict: hard
+  - from: concept:数学:比例的基本性质
+    to: concept:数学:比例的意义
+    subject: 数学
+    fromTitle: 比例的基本性质
+    toTitle: 比例的意义
+    verdict: hard
+  - from: concept:数学:小数的性质
+    to: concept:数学:认识0.1和0.01
+    subject: 数学
+    fromTitle: 小数的性质
+    toTitle: 认识0.1和0.01
+    verdict: hard
+  - from: concept:英语:一般疑问句及其回答
+    to: concept:英语:be动词（am/is/are）
+    subject: 英语
+    fromTitle: 一般疑问句及其回答
+    toTitle: be动词（am/is/are）
+    verdict: hard
+  - from: concept:化学:过氧化氢制取氧气
+    to: concept:化学:催化作用
+    subject: 化学
+    fromTitle: 过氧化氢制取氧气
+    toTitle: 催化作用
+    verdict: hard
+  - from: concept:历史:海峡两岸经济合作框架协议
+    to: concept:历史:九二共识
+    subject: 历史
+    fromTitle: 海峡两岸经济合作框架协议
+    toTitle: 九二共识
+    verdict: soft
+  - from: concept:语文:活字印刷术
+    to: concept:语文:雕版印刷
+    subject: 语文
+    fromTitle: 活字印刷术
+    toTitle: 雕版印刷
+    verdict: hard
+  - from: concept:地理:地球的形状和大小
+    to: concept:地理:盖天说
+    subject: 地理
+    fromTitle: 地球的形状和大小
+    toTitle: 盖天说
+    verdict: soft
+  - from: concept:物理:螺线管
+    to: concept:物理:磁场
+    subject: 物理
+    fromTitle: 螺线管
+    toTitle: 磁场
+    verdict: hard
+  - from: concept:数学:整除规律
+    to: concept:数学:用代数式表示规律
+    subject: 数学
+    fromTitle: 整除规律
+    toTitle: 用代数式表示规律
+    verdict: hard
+  - from: concept:道德与法治:社会规则
+    to: concept:道德与法治:社会秩序
+    subject: 道德与法治
+    fromTitle: 社会规则
+    toTitle: 社会秩序
+    verdict: hard
+  - from: concept:地理:我国冬季气温分布规律
+    to: concept:地理:等温线
+    subject: 地理
+    fromTitle: 我国冬季气温分布规律
+    toTitle: 等温线
+    verdict: hard
+  - from: concept:物理:汽油机的工作循环
+    to: concept:物理:内燃机
+    subject: 物理
+    fromTitle: 汽油机的工作循环
+    toTitle: 内燃机
+    verdict: hard
+  - from: concept:数学:积的乘方
+    to: concept:数学:同底数幂的乘法
+    subject: 数学
+    fromTitle: 积的乘方
+    toTitle: 同底数幂的乘法
+    verdict: soft
+  - from: concept:化学:化学实验基本操作
+    to: concept:化学:化学实验常用仪器
+    subject: 化学
+    fromTitle: 化学实验基本操作
+    toTitle: 化学实验常用仪器
+    verdict: hard
+  - from: concept:历史:唐玄宗的改革措施
+    to: concept:历史:武则天的统治
+    subject: 历史
+    fromTitle: 唐玄宗的改革措施
+    toTitle: 武则天的统治
+    verdict: soft
+  - from: concept:语文:倡议书
+    to: concept:语文:读者对象
+    subject: 语文
+    fromTitle: 倡议书
+    toTitle: 读者对象
+    verdict: soft
+  - from: concept:地理:板块交界地带
+    to: concept:地理:板块构造学说
+    subject: 地理
+    fromTitle: 板块交界地带
+    toTitle: 板块构造学说
+    verdict: hard
+  - from: concept:生物:肾小球的滤过作用
+    to: concept:生物:肾单位
+    subject: 生物
+    fromTitle: 肾小球的滤过作用
+    toTitle: 肾单位
+    verdict: hard
+  - from: concept:道德与法治:习近平新时代中国特色社会主义思想
+    to: concept:道德与法治:中国特色社会主义新时代
+    subject: 道德与法治
+    fromTitle: 习近平新时代中国特色社会主义思想
+    toTitle: 中国特色社会主义新时代
+    verdict: hard
+  - from: concept:地理:城镇
+    to: concept:地理:聚落
+    subject: 地理
+    fromTitle: 城镇
+    toTitle: 聚落
+    verdict: hard
+  - from: concept:数学:一元一次不等式
+    to: concept:数学:不等式的解
+    subject: 数学
+    fromTitle: 一元一次不等式
+    toTitle: 不等式的解
+    verdict: soft
+  - from: concept:物理:潜艇的浮沉原理
+    to: concept:物理:物体的浮沉条件
+    subject: 物理
+    fromTitle: 潜艇的浮沉原理
+    toTitle: 物体的浮沉条件
+    verdict: hard
+  - from: concept:数学:百分数、分数、小数互化
+    to: concept:数学:分数与小数的互化
+    subject: 数学
+    fromTitle: 百分数、分数、小数互化
+    toTitle: 分数与小数的互化
+    verdict: hard
+  - from: concept:化学:金属活动性顺序
+    to: concept:化学:置换反应
+    subject: 化学
+    fromTitle: 金属活动性顺序
+    toTitle: 置换反应
+    verdict: soft
+  - from: concept:历史:飞机
+    to: concept:历史:内燃机
+    subject: 历史
+    fromTitle: 飞机
+    toTitle: 内燃机
+    verdict: soft
+  - from: concept:英语:日期表达
+    to: concept:英语:序数词
+    subject: 英语
+    fromTitle: 日期表达
+    toTitle: 序数词
+    verdict: hard
+  - from: concept:化学:浓硫酸的稀释方法
+    to: concept:化学:浓硫酸的特性
+    subject: 化学
+    fromTitle: 浓硫酸的稀释方法
+    toTitle: 浓硫酸的特性
+    verdict: hard
+  - from: concept:历史:国共合作宣言
+    to: concept:历史:七七事变
+    subject: 历史
+    fromTitle: 国共合作宣言
+    toTitle: 七七事变
+    verdict: hard
+  - from: concept:语文:无言之美
+    to: concept:语文:言不尽意
+    subject: 语文
+    fromTitle: 无言之美
+    toTitle: 言不尽意
+    verdict: hard
+  - from: concept:地理:海水淡化
+    to: concept:地理:中东的水资源
+    subject: 地理
+    fromTitle: 海水淡化
+    toTitle: 中东的水资源
+    verdict: hard
+  - from: concept:数学:两位数乘两位数
+    to: concept:数学:两位数乘一位数口算
+    subject: 数学
+    fromTitle: 两位数乘两位数
+    toTitle: 两位数乘一位数口算
+    verdict: hard
+  - from: concept:物理:温度-时间图像
+    to: concept:物理:温度
+    subject: 物理
+    fromTitle: 温度-时间图像
+    toTitle: 温度
+    verdict: hard
+  - from: concept:数学:用分小棒算除法
+    to: concept:数学:平均分
+    subject: 数学
+    fromTitle: 用分小棒算除法
+    toTitle: 平均分
+    verdict: hard
+  - from: concept:科学:群落
+    to: concept:科学:生物
+    subject: 科学
+    fromTitle: 群落
+    toTitle: 生物
+    verdict: soft
+  - from: concept:英语:宾语从句（特殊疑问句）
+    to: concept:英语:特殊疑问词
+    subject: 英语
+    fromTitle: 宾语从句（特殊疑问句）
+    toTitle: 特殊疑问词
+    verdict: hard
+  - from: concept:数学:画函数图象的一般步骤
+    to: concept:数学:函数
+    subject: 数学
+    fromTitle: 画函数图象的一般步骤
+    toTitle: 函数
+    verdict: hard
+  - from: concept:化学:化学式的写法
+    to: concept:化学:化合价
+    subject: 化学
+    fromTitle: 化学式的写法
+    toTitle: 化合价
+    verdict: hard
+  - from: concept:历史:抗日战争胜利
+    to: concept:历史:七七事变
+    subject: 历史
+    fromTitle: 抗日战争胜利
+    toTitle: 七七事变
+    verdict: soft
+  - from: concept:语文:蒲柳人家
+    to: concept:语文:人物塑造方法
+    subject: 语文
+    fromTitle: 蒲柳人家
+    toTitle: 人物塑造方法
+    verdict: hard
+  - from: concept:地理:二分二至日
+    to: concept:地理:公转方向
+    subject: 地理
+    fromTitle: 二分二至日
+    toTitle: 公转方向
+    verdict: soft
+  - from: concept:数学:勾股数组的规律
+    to: concept:数学:勾股定理
+    subject: 数学
+    fromTitle: 勾股数组的规律
+    toTitle: 勾股定理
+    verdict: hard
+  - from: concept:生物:肺与外界的气体交换
+    to: concept:生物:膈肌
+    subject: 生物
+    fromTitle: 肺与外界的气体交换
+    toTitle: 膈肌
+    verdict: hard
+  - from: concept:科学:月球车的设计
+    to: concept:科学:月球表面的特点
+    subject: 科学
+    fromTitle: 月球车的设计
+    toTitle: 月球表面的特点
+    verdict: hard
+  - from: concept:物理:影响滑动摩擦力大小的因素
+    to: concept:物理:摩擦力
+    subject: 物理
+    fromTitle: 影响滑动摩擦力大小的因素
+    toTitle: 摩擦力
+    verdict: hard
+  - from: concept:数学:用乘法口诀试商
+    to: concept:数学:用乘法口诀求商
+    subject: 数学
+    fromTitle: 用乘法口诀试商
+    toTitle: 用乘法口诀求商
+    verdict: hard
+  - from: concept:英语:给出建议的句型
+    to: concept:英语:should/could/shouldn't 情态动词用法
+    subject: 英语
+    fromTitle: 给出建议的句型
+    toTitle: should/could/shouldn't 情态动词用法
+    verdict: hard
+  - from: concept:数学:用关系式表示变量之间的关系
+    to: concept:数学:因变量
+    subject: 数学
+    fromTitle: 用关系式表示变量之间的关系
+    toTitle: 因变量
+    verdict: hard
+  - from: concept:化学:燃烧条件
+    to: concept:化学:氧化反应
+    subject: 化学
+    fromTitle: 燃烧条件
+    toTitle: 氧化反应
+    verdict: soft
+  - from: concept:历史:唐朝灭亡
+    to: concept:历史:黄巢起义
+    subject: 历史
+    fromTitle: 唐朝灭亡
+    toTitle: 黄巢起义
+    verdict: hard
+  - from: concept:地理:三股势力
+    to: concept:地理:上海合作组织
+    subject: 地理
+    fromTitle: 三股势力
+    toTitle: 上海合作组织
+    verdict: hard
+  - from: concept:生物:从猿到人的进化
+    to: concept:生物:人类和现代类人猿的共同祖先是古猿
+    subject: 生物
+    fromTitle: 从猿到人的进化
+    toTitle: 人类和现代类人猿的共同祖先是古猿
+    verdict: hard
+  - from: concept:历史:拨乱反正
+    to: concept:历史:中共十一届三中全会
+    subject: 历史
+    fromTitle: 拨乱反正
+    toTitle: 中共十一届三中全会
+    verdict: hard
+  - from: concept:道德与法治:制订行动方案
+    to: concept:道德与法治:确定个人发展目标
+    subject: 道德与法治
+    fromTitle: 制订行动方案
+    toTitle: 确定个人发展目标
+    verdict: hard
+  - from: concept:地理:海陆位置对气温的影响
+    to: concept:地理:气温
+    subject: 地理
+    fromTitle: 海陆位置对气温的影响
+    toTitle: 气温
+    verdict: hard
+  - from: concept:数学:对应顶点、对应边、对应角
+    to: concept:数学:三角形
+    subject: 数学
+    fromTitle: 对应顶点、对应边、对应角
+    toTitle: 三角形
+    verdict: hard
+  - from: concept:物理:光的直线传播
+    to: concept:物理:光线
+    subject: 物理
+    fromTitle: 光的直线传播
+    toTitle: 光线
+    verdict: hard
+  - from: concept:数学:一次函数
+    to: concept:数学:平面直角坐标系
+    subject: 数学
+    fromTitle: 一次函数
+    toTitle: 平面直角坐标系
+    verdict: hard
+  - from: concept:历史:法西斯政权
+    to: concept:历史:经济大危机
+    subject: 历史
+    fromTitle: 法西斯政权
+    toTitle: 经济大危机
+    verdict: hard
+  - from: concept:英语:一般疑问句
+    to: concept:英语:一般现在时（do）
+    subject: 英语
+    fromTitle: 一般疑问句
+    toTitle: 一般现在时（do）
+    verdict: hard
+  - from: concept:数学:匀速运动
+    to: concept:数学:速度
+    subject: 数学
+    fromTitle: 匀速运动
+    toTitle: 速度
+    verdict: hard
+  - from: concept:生物:反射
+    to: concept:生物:神经系统
+    subject: 生物
+    fromTitle: 反射
+    toTitle: 神经系统
+    verdict: hard
+  - from: concept:历史:平型关大捷
+    to: concept:历史:七七事变
+    subject: 历史
+    fromTitle: 平型关大捷
+    toTitle: 七七事变
+    verdict: soft
+  - from: concept:道德与法治:敬畏生命
+    to: concept:道德与法治:生命是独特的
+    subject: 道德与法治
+    fromTitle: 敬畏生命
+    toTitle: 生命是独特的
+    verdict: soft
+  - from: concept:地理:四川省的生态保护
+    to: concept:地理:四川省的气候
+    subject: 地理
+    fromTitle: 四川省的生态保护
+    toTitle: 四川省的气候
+    verdict: soft
+  - from: concept:数学:单项式除以单项式
+    to: concept:数学:同底数幂的乘法
+    subject: 数学
+    fromTitle: 单项式除以单项式
+    toTitle: 同底数幂的乘法
+    verdict: soft
+  - from: concept:物理:串联电路电压特点
+    to: concept:物理:电压
+    subject: 物理
+    fromTitle: 串联电路电压特点
+    toTitle: 电压
+    verdict: hard
+  - from: concept:数学:因变量
+    to: concept:数学:自变量
+    subject: 数学
+    fromTitle: 因变量
+    toTitle: 自变量
+    verdict: hard
+  - from: concept:科学:遗传
+    to: concept:科学:动物的繁殖
+    subject: 科学
+    fromTitle: 遗传
+    toTitle: 动物的繁殖
+    verdict: soft
+  - from: concept:物理:通电螺线管的磁场
+    to: concept:物理:安培定则
+    subject: 物理
+    fromTitle: 通电螺线管的磁场
+    toTitle: 安培定则
+    verdict: hard
+  - from: concept:英语:语音：-ed的发音规则
+    to: concept:英语:规则动词过去式
+    subject: 英语
+    fromTitle: 语音：-ed的发音规则
+    toTitle: 规则动词过去式
+    verdict: hard
+  - from: concept:数学:乘方
+    to: concept:数学:有理数乘法法则
+    subject: 数学
+    fromTitle: 乘方
+    toTitle: 有理数乘法法则
+    verdict: hard
+  - from: concept:化学:节约用水
+    to: concept:化学:水资源
+    subject: 化学
+    fromTitle: 节约用水
+    toTitle: 水资源
+    verdict: soft
+  - from: concept:历史:摊丁入亩
+    to: concept:历史:滋生人丁，永不加赋
+    subject: 历史
+    fromTitle: 摊丁入亩
+    toTitle: 滋生人丁，永不加赋
+    verdict: hard
+  - from: concept:地理:气候
+    to: concept:地理:天气
+    subject: 地理
+    fromTitle: 气候
+    toTitle: 天气
+    verdict: hard
+  - from: concept:数学:利用三角形全等测距离
+    to: concept:数学:三角形全等的判定
+    subject: 数学
+    fromTitle: 利用三角形全等测距离
+    toTitle: 三角形全等的判定
+    verdict: hard
+  - from: concept:生物:抗原
+    to: concept:生物:抗体
+    subject: 生物
+    fromTitle: 抗原
+    toTitle: 抗体
+    verdict: hard
+  - from: concept:历史:马克思主义的传播
+    to: concept:历史:民主与科学
+    subject: 历史
+    fromTitle: 马克思主义的传播
+    toTitle: 民主与科学
+    verdict: soft
+  - from: concept:科学:用太阳辨认方向
+    to: concept:科学:太阳东升西落
+    subject: 科学
+    fromTitle: 用太阳辨认方向
+    toTitle: 太阳东升西落
+    verdict: hard
+  - from: concept:物理:力与运动的关系
+    to: concept:物理:力的作用效果
+    subject: 物理
+    fromTitle: 力与运动的关系
+    toTitle: 力的作用效果
+    verdict: hard
+  - from: concept:数学:两三位数乘一位数竖式
+    to: concept:数学:乘法的初步认识
+    subject: 数学
+    fromTitle: 两三位数乘一位数竖式
+    toTitle: 乘法的初步认识
+    verdict: hard
+  - from: concept:英语:have an influence on
+    to: concept:英语:influence
+    subject: 英语
+    fromTitle: have an influence on
+    toTitle: influence
+    verdict: hard
+  - from: concept:数学:一元二次方程的解法
+    to: concept:数学:一元二次方程的一般形式
+    subject: 数学
+    fromTitle: 一元二次方程的解法
+    toTitle: 一元二次方程的一般形式
+    verdict: hard
+  - from: concept:化学:化肥的施用
+    to: concept:化学:化学肥料
+    subject: 化学
+    fromTitle: 化肥的施用
+    toTitle: 化学肥料
+    verdict: hard
+  - from: concept:历史:武则天的统治
+    to: concept:历史:唐朝的建立
+    subject: 历史
+    fromTitle: 武则天的统治
+    toTitle: 唐朝的建立
+    verdict: soft

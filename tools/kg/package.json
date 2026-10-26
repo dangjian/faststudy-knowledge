@@ -1,0 +1,43 @@
+{
+  "name": "@faststudy/kg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "FastStudy 知识图谱工具链：ingest/build/query/lint",
+  "scripts": {
+    "lint": "tsx src/lint.ts",
+    "build": "tsx src/build.ts",
+    "ingest": "tsx src/ingest.ts",
+    "book:propose": "python3 src/book_propose.py",
+    "book:apply": "python3 src/book_apply.py",
+    "reoutline:propose": "python3 src/reoutline_propose.py",
+    "reoutline:ocr": "python3 src/reoutline_ocr.py",
+    "reoutline:apply": "python3 src/reoutline_apply.py",
+    "fix:covered": "tsx src/fix_covered_by.ts",
+    "fix:orphans": "tsx src/link_orphans_by_title.ts",
+    "infer": "tsx src/infer_relations.ts",
+    "ask": "tsx src/kg_ask.ts",
+    "eval": "tsx src/eval.ts",
+    "test": "node --import tsx --test tests/*.test.ts && npm run test:py",
+    "test:py": "python3 src/test_book_pipeline.py && python3 src/test_reoutline.py && python3 src/test_primary_onboarding.py && python3 src/test_build_chapter_standards.py && python3 src/test_llm_extract_graph.py",
+    "query": "tsx src/query.ts",
+    "eval:covered": "tsx src/eval_covered.ts ../..",
+    "eval:prereq": "tsx src/eval_prereq.ts ../..",
+    "eval:partof": "tsx src/eval_partof.ts ../..",
+    "eval:type": "tsx src/eval_type.ts ../..",
+    "eval:mastery": "tsx src/eval_mastery.ts ../..",
+    "eval:strength": "tsx src/eval_strength.ts ../..",
+    "demo": "tsx src/build_demo.ts ../.."
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "yaml": "^2.7.0",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "katex": "^0.16.11"
+  }
+}

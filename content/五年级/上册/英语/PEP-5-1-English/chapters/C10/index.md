@@ -1,0 +1,129 @@
+---
+chapterId: PEP-5-1-English-C10
+title: Appendix 3 Vocabulary
+---
+
+# Appendix 3 Vocabulary 词汇表
+
+注：加 \* 的词为《义务教育英语课程标准（2022 年版）》中的二级词；黑体词要求理解、运用，白体词仅要求在语境中理解。（因 OCR 音标存在噪声，本表未收录音标，词条后页码为教材页码。）
+
+- \*afraid —— 担心；害怕　p.19
+- agree —— 同意；赞成　p.16
+- \*angry —— 愤怒的；生气的　p.17
+- \*answer —— 答复；回答　p.33
+- \*ask —— 问；询问　p.20
+- Australia —— 澳大利亚　p.4
+- \*because —— 因为　p.28
+- beef —— 牛肉　p.52
+- \*before —— 在……之前　p.69
+- both —— 两者　p.16
+- \*bring —— 带……到某处；带来；取来　p.69
+- brush —— （用刷子）刷净，刷亮，刷平顺　p.44
+- centre —— 中心　p.16
+- check —— 查看；查明　p.44
+- chess —— 国际象棋　p.8
+- \*clever —— 聪明的；聪颖的　p.5
+- \*close —— 关；关闭；闭上　p.67
+- coconut —— 椰子　p.55
+- dangerous —— 有危险的；不安全的　p.67
+- different —— 不同的；有区别的；有差异的　p.57
+- dumpling —— 饺子；汤圆　p.53
+- \*easy —— 容易的；轻易的　p.9
+- else —— 其他的；别的　p.40
+- enough —— 足够的；充足的；充分的　p.40
+- \*evening —— 晚上；傍晚　p.32
+- everything —— 每件事；所有事物；一切　p.64
+- \*excited —— 激动的；兴奋的　p.17
+- \*exercise —— 锻炼；训练；操练　p.40
+- \*famous —— 著名的；出名的　p.64
+- \*fine —— 晴朗的　p.67
+- finish —— 完成；做好　p.16
+- \*fire —— 火；火灾　p.68
+- flood —— 洪水；水灾　p.68
+- flu —— 流行性感冒；流感　p.40
+- fog —— 雾　p.68
+- forest —— 森林；林区　p.64
+- \*free —— 没有安排活动的；空闲的　p.45
+- Friday —— 星期五　p.28
+- \*front —— 前部　p.9
+- go hiking —— 徒步旅行　p.69
+- grandparent —— 祖父；祖母；外祖父；外祖母　p.33
+- habit —— 习惯　p.41
+- hamburger —— 汉堡包；汉堡牛肉饼　p.53
+- hard-working —— 工作努力的；辛勤的　p.5
+- \*heavy —— 程度大的；严重的　p.67
+- \*him —— 他　p.4
+- hotel —— 旅馆；旅社　p.67
+- \*hour —— 小时　p.45
+- \*house —— 房子　p.43
+- \*hungry —— 感到饿的　p.55
+- \*ice cream —— （一份）冰激凌　p.52
+- if —— 如果；假若；倘若　p.40
+- \*interesting —— 有趣的；有吸引力的　p.55
+- \*jump —— 跳；跃　p.8
+- \*know —— 知道；了解　p.69
+- \*lake —— 湖；湖泊　p.57
+- laugh —— 笑　p.21
+- less —— （与不可数名词连用）较少的，更少的　p.44
+- \*lesson —— 课；一节课　p.31
+- \*little —— 少许；一点　p.52
+- lotus —— 莲属植物　p.57
+- \*lovely —— 美丽的；优美的　p.5
+- matter —— 事情；问题　p.16
+- Monday —— 星期一　p.29
+- mountain —— 高山；山岳　p.64
+- \*move —— 搬家；移动　p.21
+- \*Mrs —— （用于女子的姓氏或姓名前）太太，夫人　p.55
+- nature —— 自然界；大自然　p.64
+- \*night —— 夜；夜晚　p.33
+- \*parent —— 父亲；母亲　p.20
+- \*phone —— 电话；电话机　p.43
+- \*piano —— 钢琴　p.8
+- \*ping-pong —— 乒乓球　p.33
+- player —— 运动员；参赛选手　p.4
+- project —— 项目；方案　p.16
+- pull —— 拔出；抽出　p.56
+- raincoat —— 雨衣　p.67
+- rest —— 休息；放松　p.43
+- \*river —— 河；江　p.64
+- \*robot —— 机器人　p.7
+- root —— 根；根茎　p.56
+- rope —— 绳；粗绳　p.8
+- round —— 圆形的；环形的；球形的　p.57
+- \*sad —— 悲哀的；难过的　p.16
+- Saturday —— 星期六　p.31
+- \*science —— 科学；自然科学　p.7
+- seed —— 种子；籽　p.56
+- \*should —— （提出或征询建议）该，可以　p.40
+- \*show —— （电视或广播）节目　p.43
+- \*sometimes —— 有时；间或　p.31
+- \*star —— 歌唱（或表演）明星　p.9
+- start —— 开始　p.29
+- stay —— 待；保持；继续是　p.40
+- stem —— （花草的）茎；（花或叶的）梗，柄　p.56
+- \*subject —— 科目；学科　p.28
+- Sunday —— 星期日　p.31
+- take care of —— 爱护；照顾　p.44
+- \*tea —— 茶叶；茶；茶水　p.53
+- team —— （游戏或运动的）队；（一起工作的）组，班　p.4
+- \*then —— 那么；因此；既然如此　p.43
+- Thursday —— 星期四　p.29
+- tooth —— （复数 teeth）牙；齿　p.44
+- trip —— （尤指短程往返的）旅行，旅游，出行　p.67
+- Tuesday —— 星期二　p.28
+- twice —— 两次；两遍　p.44
+- \*umbrella —— 伞；雨伞　p.67
+- usually —— 通常地；经常地　p.31
+- \*visit —— 看望；拜访；参观　p.33
+- waterfall —— 瀑布　p.64
+- \*way —— 方法；手段；途径；方式　p.57
+- Wednesday —— 星期三　p.28
+- weekend —— 周末　p.31
+- wind —— 风；气流　p.67
+- \*wonderful —— 令人赞叹的；精彩的；绝妙的　p.9
+- \*world —— 世界；地球；天下　p.57
+- worried —— 担心的；担忧的　p.16
+- \*worry —— 担心；担忧；发愁　p.67
+- \*wrong —— 错误的　p.17
+- yours —— 您的（用于书信结尾的签名前）　p.21
+- \*young —— 幼小的；年轻的　p.5
