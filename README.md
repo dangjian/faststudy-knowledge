@@ -185,9 +185,12 @@ pnpm kg:ask tree     'BSDU-7-1-Math'
 ```bash
 pnpm install              # Node ≥ 22；无 pnpm 时：cd tools/kg && npm install
 pnpm kg:lint              # 图谱校验：22 条规则，0 error 才允许构建
-pnpm kg:test              # 工具链测试（156 例）
+pnpm kg:test              # 工具链测试（TS 168 例 + Python 5 套）
 pnpm kg:build             # 编译 dist/（stats/manifest，供外部消费）
 ```
+
+不想装 Node？直接下 [Release 产物](https://github.com/dangjian/faststudy-knowledge/releases/latest)，
+`graph.json` 就是完整图谱。用法见 [从 Release 直接下载](#从-release-直接下载不装-node)。
 
 Agent 查图谱走的是 YAML 源文件（按需读切片），不需要 dist；`dist/` 的用途见下方「`dist/` 什么时候用」。
 
@@ -244,6 +247,36 @@ tools/skills/                     kg-* skill（查询/摄入/复核），唯一�
 | `graph.json`（11.7 MB） | `{ nodes, edges }` 运行时视图，18,542 节点 / 33,549 边 | 不在仓库里跑的消费者 |
 | `stats.json` | 建库口径计数（投影前） | 监控、报表、回归对比 |
 | `manifest.json` | 版本、契约、字段白名单、**每个文件的 SHA-256** | 缓存失效判断、契约校验 |
+
+### 从 Release 直接下载（不装 Node）
+
+每次打 tag 会把 `dist/` 挂到 Release，给"只想拿数据、不想跑构建"的场景：
+
+| 文件 | 用途 |
+|---|---|
+| `graph.json`（11.7 MB） | 完整图谱：18,542 节点 / 33,549 边，结构是 `{ nodes, edges }` |
+| `stats.json` | 建库口径计数（投影前），做报表或回归对比时用 |
+| `manifest.json` | 版本、契约、字段白名单、每个文件的 SHA-256——缓存失效判断靠它 |
+| `SHA256SUMS.txt` | 校验下载完整性 |
+
+```js
+// Node
+const { nodes, edges } = require('./graph.json')
+const concepts = nodes.filter(n => n.type === 'Concept')
+```
+
+```python
+# Python
+import json
+g = json.load(open('graph.json'))
+concepts = [n for n in g['nodes'] if n['type'] == 'Concept']
+```
+
+读之前要知道三件事：
+
+- **节点与边分离**：边用 `from` / `to` 存 id，没有内联对象，需要自己 join
+- **两个派生字段只在这里有**：`concept.standards`（课标主题码）与 `gradeRange`（年级区间）由 build 计算，YAML 源里不存在
+- **不含正文**：`graph.json` 只有 id 与 `sourceRef`，教材原文要回仓库按路径取
 
 ### 该用 dist 的四种场景
 
