@@ -1,5 +1,16 @@
 name: ci
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - 'docs/**'
+      - 'demo/**'
+      - 'CONTRIBUTING.md'
+  pull_request:
+    paths-ignore:
+      - 'docs/**'
+      - 'demo/**'
+      - 'CONTRIBUTING.md'
+  workflow_dispatch:
 
 jobs:
   check:

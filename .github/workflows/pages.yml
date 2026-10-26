@@ -3,6 +3,11 @@ name: pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - 'CONTRIBUTING.md'
+      - 'LICENSE*'
+      - 'NOTICE'
   workflow_dispatch:
 
 permissions:
