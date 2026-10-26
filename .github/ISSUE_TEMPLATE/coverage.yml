@@ -1,0 +1,16 @@
+name: 教材覆盖
+description: 某册 / 某章缺概念，或某学科想加教材
+labels: [coverage]
+body:
+  - type: input
+    id: scope
+    attributes:
+      label: 范围
+      description: 哪册哪章，例如「人教版八年级上册 数学 第三章」
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 现状与期望
+      description: 现在抽出了哪些概念、缺哪些；如有同类教材可对照，请附来源

@@ -1,0 +1,38 @@
+name: 数据错误
+description: 某条概念、关系、页码或归属不对
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        三项都要填。缺依据的反馈无法处理——本项目所有关系边都要求可回溯到原文。
+  - type: input
+    id: target
+    attributes:
+      label: 对象 ID
+      description: 概念用 `concept:学科:名称`，章节用 `BSDU-7-1-Math-C1-S1` 这种
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 错误类型
+      options:
+        - 关系方向错（先修 / 上位）
+        - 概念归属错（不在这一节 / 少了这一节）
+        - 页码错
+        - 释义或易错点错
+        - 其它
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 依据
+      description: 教材第几页的哪句话，或课标哪一条。没有依据的请先自行核对教材。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你认为正确的样子
