@@ -43,6 +43,7 @@ $ python3 -m http.server 8765
 
 | 结合 | 我们提供 | 产出 |
 |---|---|---|
+| **直接生成 HTML**（canvas / three.js） | 概念、页码、易错点 | 一个自包含网页：拖滑块看效果，侧栏标「教材 p.x–y」，双击即用 |
 | [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) / [DeepTutor](https://github.com/HKUDS/DeepTutor) | 章节结构、概念清单、先修与易错点 | agent 驱动的互动课堂或个性化辅导，每页可标「教材 p.x–y」 |
 | [EduLab](https://github.com/wy51ai/edulab) | 概念、易错点、教材页码 | 一道题 → 可操作的分步解题页，侧栏挂「教材 p.29–37」 |
 | Manim / Slidev | 章节结构、概念清单 | 一节课的微课片段或讲义，页脚可回链教材 |
