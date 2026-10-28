@@ -198,8 +198,6 @@
   to: concept:化学:金属冶炼
 - from: concept:化学:电解法
   to: concept:化学:金属冶炼
-- from: concept:化学:不饱和溶液
-  to: concept:化学:溶解度
 - from: concept:化学:固体物质的溶解度
   to: concept:化学:溶解度
 - from: concept:化学:均一性
@@ -446,8 +444,6 @@
   to: concept:历史:南宋建立
 - from: concept:历史:杂剧
   to: concept:历史:宋词
-- from: concept:历史:李清照
-  to: concept:历史:宋词
 - from: concept:历史:杯酒释兵权
   to: concept:历史:崇文抑武方针
 - from: concept:历史:榷场
@@ -466,8 +462,6 @@
   to: concept:历史:摊丁入亩
 - from: concept:历史:明清时期农业的发展
   to: concept:历史:明清时期人口的增长
-- from: concept:历史:明清时期手工业的发展
-  to: concept:历史:明清时期商业的发展
 - from: concept:历史:设置伊犁将军
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:设置驻藏办事大臣
@@ -478,8 +472,6 @@
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:议政王大臣会议
   to: concept:历史:清朝君主专制的强化
-- from: concept:历史:白莲教起义
-  to: concept:历史:社会矛盾加剧
 - from: concept:历史:满洲兴起
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:郑成功收复台湾
@@ -722,8 +714,6 @@
   to: concept:历史:中共七届二中全会
 - from: concept:历史:中共七届二中全会
   to: concept:历史:新民主主义革命的胜利
-- from: concept:历史:1954年宪法
-  to: concept:历史:《中华人民共和国宪法》
 - from: concept:历史:《中苏友好同盟互助条约》
   to: concept:历史:一边倒
 - from: concept:历史:《义勇军进行曲》
@@ -838,8 +828,6 @@
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:邓小平理论
   to: concept:历史:中国特色社会主义理论体系
-- from: concept:历史:香港回归
-  to: concept:历史:一国两制
 - from: concept:历史:澳门回归
   to: concept:历史:一国两制
 - from: concept:历史:两免一补
@@ -1100,8 +1088,6 @@
   to: concept:地理:南北半球分界线
 - from: concept:地理:南极圈
   to: concept:地理:南北半球分界线
-- from: concept:地理:北极和南极
-  to: concept:地理:南北半球分界线
 - from: concept:地理:图例
   to: concept:地理:地图三要素
 - from: concept:地理:地图
@@ -1304,8 +1290,6 @@
   to: concept:地理:气候与人类活动的关系
 - from: concept:地理:全球气候变暖
   to: concept:地理:气候异常
-- from: concept:地理:低碳生活
-  to: concept:地理:人类活动对气候的影响
 - from: concept:地理:热带沙漠气候
   to: concept:地理:热带气候类型
 - from: concept:地理:热带草原气候
@@ -1332,8 +1316,6 @@
   to: concept:地理:气候异常
 - from: concept:地理:温带大陆性气候
   to: concept:地理:温带草原和荒漠
-- from: concept:地理:温带季风气候
-  to: concept:地理:温带落叶阔叶林
 - from: concept:地理:热带季风气候
   to: concept:地理:热带气候类型
 - from: concept:地理:猴面包树
@@ -1800,8 +1782,6 @@
   to: concept:数学:勾股定理
 - from: concept:数学:二次根式的乘法公式
   to: concept:数学:二次根式的乘法法则
-- from: concept:数学:二次根式的加减运算
-  to: concept:数学:二次根式的加减法则
 - from: concept:数学:二次根式的混合运算
   to: concept:数学:二次根式的运算
 - from: concept:数学:二次根式的乘除法则
@@ -2020,8 +2000,6 @@
   to: concept:数学:方差
 - from: concept:数学:百分位数
   to: concept:数学:四分位数
-- from: concept:数学:箱线图
-  to: concept:数学:百分位数
 - from: concept:数学:直角三角形全等的判定（HL）
   to: concept:数学:三角形全等的判定
 - from: concept:数学:正多边形内角计算
@@ -2530,8 +2508,6 @@
   to: concept:物理:二力平衡
 - from: concept:物理:平衡状态
   to: concept:物理:二力平衡
-- from: concept:物理:力的三要素
-  to: concept:物理:力是物体对物体的作用
 - from: concept:物理:力的示意图
   to: concept:物理:力是物体对物体的作用
 - from: concept:物理:力的作用是相互的
@@ -2692,8 +2668,6 @@
   to: concept:物理:电路
 - from: concept:物理:断路
   to: concept:物理:电路
-- from: concept:物理:通路
-  to: concept:物理:电路
 - from: concept:物理:半导体
   to: concept:物理:导体和绝缘体
 - from: concept:物理:伏安法测电阻
@@ -2830,8 +2804,6 @@
   to: concept:生物:叶绿体
 - from: concept:生物:叶绿体是能量转换器
   to: concept:生物:叶绿体
-- from: concept:生物:光学显微镜
-  to: concept:生物:显微镜的发展史
 - from: concept:生物:显微镜的使用方法
   to: concept:生物:光学显微镜
 - from: concept:生物:显微镜的放大倍数
@@ -2916,8 +2888,6 @@
   to: concept:生物:动脉
 - from: concept:生物:鸟适于飞行的形态结构特点
   to: concept:生物:鸟的主要特征
-- from: concept:生物:幼根的生长
-  to: concept:生物:根尖的结构
 - from: concept:生物:芽的发育
   to: concept:生物:根尖的结构
 - from: concept:生物:种子萌发的环境条件
@@ -2974,8 +2944,6 @@
   to: concept:生物:细菌
 - from: concept:生物:荚膜
   to: concept:生物:细菌
-- from: concept:生物:菌丝
-  to: concept:生物:真菌的繁殖方式
 - from: concept:生物:菌落
   to: concept:生物:细菌
 - from: concept:生物:苔藓植物
@@ -3021,8 +2989,6 @@
 - from: concept:生物:脂质
   to: concept:生物:营养物质的吸收
 - from: concept:生物:蛋白质
-  to: concept:生物:营养物质的吸收
-- from: concept:生物:膳食纤维
   to: concept:生物:营养物质的吸收
 - from: concept:生物:膈肌
   to: concept:生物:肺循环
@@ -3314,8 +3280,6 @@
   to: concept:生物:有性生殖
 - from: concept:生物:体外受精
   to: concept:生物:有性生殖
-- from: concept:生物:出芽生殖
-  to: concept:生物:营养生殖
 - from: concept:生物:分裂生殖
   to: concept:生物:营养生殖
 - from: concept:生物:嫁接
@@ -3472,8 +3436,6 @@
   to: concept:英语:字母表
 - from: concept:英语:键盘字母位置
   to: concept:英语:字母表
-- from: concept:英语:告别语
-  to: concept:英语:问候语
 - from: concept:英语:自我介绍
   to: concept:英语:询问姓名
 - from: concept:英语:月份表达
@@ -3568,8 +3530,6 @@
   to: concept:英语:语音：句子节奏
 - from: concept:英语:直接引语
   to: concept:英语:一般疑问句
-- from: concept:英语:简单过去时
-  to: concept:英语:一般过去时
 - from: concept:英语:动词过去式
   to: concept:英语:一般过去时
 - from: concept:英语:副词比较级
@@ -3654,8 +3614,6 @@
   to: concept:英语:Natural wonders
 - from: concept:英语:大堡礁
   to: concept:英语:Natural wonders
-- from: concept:英语:形容词比较级和最高级
-  to: concept:英语:Comparatives and superlatives
 - from: concept:英语:副词比较级和最高级
   to: concept:英语:Comparatives and superlatives
 - from: concept:英语:大数字
@@ -3748,8 +3706,6 @@
   to: concept:英语:健康与急救
 - from: concept:英语:Adaptation
   to: concept:英语:Making a Difference
-- from: concept:英语:Allergy
-  to: concept:英语:Germs
 - from: concept:英语:Benefits of laughter
   to: concept:英语:Laughter
 - from: concept:英语:Chemicals
@@ -3900,8 +3856,6 @@
   to: concept:英语:感官动词 + 宾语 + 宾语补足语
 - from: concept:英语:感官动词 feel 的用法
   to: concept:英语:感官动词 + 宾语 + 宾语补足语
-- from: concept:英语:短语学习
-  to: concept:英语:短语搭配
 - from: concept:英语:缩写和简写
   to: concept:英语:口语中的省略
 - from: concept:英语:be produced
@@ -3988,8 +3942,6 @@
   to: concept:语文:多义词
 - from: concept:语文:比喻义
   to: concept:语文:多义词
-- from: concept:语文:敬辞与谦辞
-  to: concept:语文:语境
 - from: concept:语文:对称句式
   to: concept:语文:朗读技巧
 - from: concept:语文:景物描写
@@ -4382,11 +4334,7 @@
   to: concept:语文:唐诗
 - from: concept:语文:咏物诗
   to: concept:语文:唐诗
-- from: concept:语文:建安风骨
-  to: concept:语文:唐诗
 - from: concept:语文:山水游记
-  to: concept:语文:文言句式
-- from: concept:语文:名词作状语
   to: concept:语文:文言句式
 - from: concept:语文:形容词作动词
   to: concept:语文:文言句式
@@ -4961,8 +4909,6 @@
 - from: concept:语文:越剧
   to: concept:语文:戏剧冲突
 - from: concept:语文:黄梅戏
-  to: concept:语文:戏剧冲突
-- from: concept:语文:独白
   to: concept:语文:戏剧冲突
 - from: concept:语文:舞台说明
   to: concept:语文:戏剧冲突
@@ -5582,8 +5528,6 @@
   to: concept:道德与法治:中国特色社会主义道路
 - from: concept:道德与法治:三步走战略
   to: concept:道德与法治:中国式现代化
-- from: concept:道德与法治:两岸三通
-  to: concept:道德与法治:一国两制
 - from: concept:道德与法治:中华民族共同体意识
   to: concept:道德与法治:中华民族伟大复兴
 - from: concept:道德与法治:中国力量
@@ -6380,8 +6324,6 @@
   to: concept:语文:语言连贯
 - from: concept:语文:疑问句
   to: concept:语文:句子语气
-- from: concept:语文:感叹句
-  to: concept:语文:句子语气
 - from: concept:语文:祈使句
   to: concept:语文:句子语气
 - from: concept:语文:口语化表达
@@ -6442,8 +6384,6 @@
   to: concept:语文:孙权劝学
 - from: concept:语文:士别三日
   to: concept:语文:孙权劝学
-- from: concept:语文:对仗
-  to: concept:语文:对偶句
 - from: concept:语文:引用资料
   to: concept:语文:说明方法
 - from: concept:语文:正对
@@ -7505,8 +7445,6 @@
 - from: concept:历史:垄断组织
   to: concept:历史:第二次工业革命
 - from: concept:历史:城市化
-  to: concept:历史:第二次工业革命
-- from: concept:历史:环境污染
   to: concept:历史:第二次工业革命
 - from: concept:历史:贫富分化加剧
   to: concept:历史:第二次工业革命
@@ -9050,8 +8988,6 @@
   to: concept:地理:世界地形分布大势
 - from: concept:地理:南北纵列的三大地形单元
   to: concept:地理:世界地形分布大势
-- from: concept:地理:南极大陆海拔最高
-  to: concept:地理:世界地形分布大势
 - from: concept:地理:六大板块
   to: concept:地理:板块构造学说
 - from: concept:地理:海陆因素对气温的影响
@@ -9464,8 +9400,6 @@
   to: concept:数学:分式的基本性质
 - from: concept:数学:分数的通分
   to: concept:数学:分式的通分
-- from: concept:数学:异分母分数加减法
-  to: concept:数学:异分母分式的加减法法则
 - from: concept:数学:分数乘分数
   to: concept:数学:分式的乘法法则
 - from: concept:数学:除以一个数等于乘这个数的倒数
@@ -10056,8 +9990,6 @@
   to: concept:科学:保护地球的行动
 - from: concept:科学:二歧分类法
   to: concept:科学:分类
-- from: concept:科学:日食
-  to: concept:科学:影子的形成
 - from: concept:科学:食物中的能量
   to: concept:科学:食物中的营养物质
 - from: concept:英语:字母组合 ce 与 ge 的发音
