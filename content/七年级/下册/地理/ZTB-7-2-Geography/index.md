@@ -7,7 +7,7 @@ subject: 地理
 publisher: ZTB
 standardEdition: 2022版
 totalPages: 138
-imageOffset: 3
+imageOffset: 4
 origin: textbook
 outlineSource: catalog-toc
 chapters:
