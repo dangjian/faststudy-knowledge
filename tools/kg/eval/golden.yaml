@@ -78,12 +78,12 @@ cases:
       min_count: 2
   - id: acc-011
     category: accuracy
-    note: 英语"定语从句"有大量 word/phrase/sentence 例证(当前 69 个,留余量防增删)。
-      原用例取"一般过去时",该概念现存 0 条 demonstrates——那批词在词书迁入节区块时未回挂,
-      属数据缺口,已在 README 已知局限记录;评测改用有例证的概念。
-    query: { fn: demo, arg: "concept:英语:定语从句（关系代词that/who）" }
+    note: 英语"一般过去时"的例证此前为 0——语法类概念的字面不会出现在词条文本里，
+      infer 的「标题包含」规则天然匹配不到。已按教材单元补 19 条（八上 U1 过去时叙述 13 条
+      + 外单元确证 6 条），其余现在时句子不连边。min_count 取 12，留出增删余量。
+    query: { fn: demo, arg: "concept:英语:一般过去时" }
     expect:
-      min_count: 30
+      min_count: 12
   - id: acc-012
     category: accuracy
     note: 英语"名词复数"有大量例证(取样时 79 个,含 trousers/shoes 等 word 与短语)
