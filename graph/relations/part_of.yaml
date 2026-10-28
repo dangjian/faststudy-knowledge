@@ -1680,20 +1680,10 @@
   to: concept:物理:凸透镜成像规律
 - from: concept:物理:焦距
   to: concept:物理:焦点
-- from: concept:物理:镜面反射
-  to: concept:物理:反射角
 - from: concept:物理:沸腾
   to: concept:物理:汽化
 - from: concept:物理:蒸发
   to: concept:物理:汽化
-- from: concept:物理:音色
-  to: concept:物理:问题
-- from: concept:物理:音调
-  to: concept:物理:问题
-- from: concept:物理:频率
-  to: concept:物理:问题
-- from: concept:物理:超声波
-  to: concept:物理:问题
 - from: concept:物理:熔点
   to: concept:物理:晶体
 - from: concept:物理:水的状态变化
@@ -1926,8 +1916,6 @@
   to: concept:物理:电热
 - from: concept:物理:实际功率
   to: concept:物理:电功率
-- from: concept:物理:磁性
-  to: concept:物理:磁体
 - from: concept:物理:直流电动机的原理
   to: concept:物理:直流电动机
 - from: concept:物理:通电螺线管的磁场
@@ -2016,10 +2004,6 @@
   to: concept:生物:玻片标本的类型
 - from: concept:生物:DNA
   to: concept:生物:分子
-- from: concept:生物:无机物
-  to: concept:生物:分子
-- from: concept:生物:有机物
-  to: concept:生物:分子
 - from: concept:生物:生物的生活需要营养
   to: concept:生物:生物的特征
 - from: concept:生物:生物能对外界刺激作出反应
@@ -2052,10 +2036,6 @@
   to: concept:生物:无脊椎动物
 - from: concept:生物:棘皮动物
   to: concept:生物:无脊椎动物
-- from: concept:生物:爬行动物的主要特征
-  to: concept:生物:爬行动物与人类生活的关系
-- from: concept:生物:爬行动物的生殖发育
-  to: concept:生物:爬行动物与人类生活的关系
 - from: concept:生物:生物分类的方法
   to: concept:生物:生物分类
 - from: concept:生物:真菌的有益应用
@@ -2064,12 +2044,8 @@
   to: concept:生物:细菌和真菌与人类的关系
 - from: concept:生物:真菌与人类的关系
   to: concept:生物:细菌和真菌与人类的关系
-- from: concept:生物:哺乳动物与人类生活的关系
-  to: concept:生物:哺乳动物的主要特征
 - from: concept:生物:哺乳动物的牙齿分化
   to: concept:生物:哺乳动物的主要特征
-- from: concept:生物:单子叶植物
-  to: concept:生物:双子叶植物
 - from: concept:生物:无脊椎动物
   to: concept:生物:动物的分类
 - from: concept:生物:刺胞动物
@@ -2084,8 +2060,6 @@
   to: concept:生物:女性生殖系统
 - from: concept:生物:唾液淀粉酶
   to: concept:生物:唾液腺
-- from: concept:生物:小肠绒毛
-  to: concept:生物:小肠是吸收营养物质的主要器官
 - from: concept:生物:呼吸道对空气的处理
   to: concept:生物:呼吸道
 - from: concept:生物:动脉血和静脉血
@@ -2100,10 +2074,6 @@
   to: concept:生物:种子萌发的过程
 - from: concept:生物:唾液腺
   to: concept:生物:消化腺
-- from: concept:生物:心脏的结构
-  to: concept:生物:心脏工作过程
-- from: concept:生物:毛细血管
-  to: concept:生物:心脏的结构
 - from: concept:生物:消化腺
   to: concept:生物:消化系统
 - from: concept:生物:男性生殖系统
@@ -2216,14 +2186,8 @@
   to: concept:生物:神经元
 - from: concept:生物:神经胶质细胞
   to: concept:生物:神经元
-- from: concept:生物:感受器
-  to: concept:生物:神经元
-- from: concept:生物:效应器
-  to: concept:生物:神经元
 - from: concept:生物:视网膜
   to: concept:生物:眼球的结构
-- from: concept:生物:条件反射
-  to: concept:生物:神经中枢
 - from: concept:生物:膝跳反射
   to: concept:生物:非条件反射
 - from: concept:生物:肾单位
@@ -2240,15 +2204,11 @@
   to: concept:生物:反射弧
 - from: concept:生物:反射弧
   to: concept:生物:反射
-- from: concept:生物:听觉的形成过程
-  to: concept:生物:保护耳和听力的措施
 - from: concept:生物:眼球的结构
   to: concept:生物:凸透镜和凹透镜
 - from: concept:生物:瞳孔的调节
   to: concept:生物:眼球的结构
 - from: concept:生物:白内障
-  to: concept:生物:眼球的结构
-- from: concept:生物:人工角膜
   to: concept:生物:眼球的结构
 - from: concept:生物:近视的矫正
   to: concept:生物:近视
@@ -2260,10 +2220,6 @@
   to: concept:生物:关节
 - from: concept:生物:关节面
   to: concept:生物:关节
-- from: concept:生物:呆小症
-  to: concept:生物:内分泌腺
-- from: concept:生物:侏儒症
-  to: concept:生物:垂体
 - from: concept:生物:滑液
   to: concept:生物:关节
 - from: concept:生物:内分泌腺
@@ -2278,8 +2234,6 @@
   to: concept:生物:激素
 - from: concept:生物:甲状腺激素
   to: concept:生物:激素
-- from: concept:生物:巨人症
-  to: concept:生物:生长激素
 - from: concept:生物:激素调节
   to: concept:生物:激素调节与神经调节的关系
 - from: concept:生物:神经调节
@@ -2310,8 +2264,6 @@
   to: concept:生物:病原体
 - from: concept:生物:飞沫传播
   to: concept:生物:病原体
-- from: concept:生物:沙眼衣原体
-  to: concept:生物:汤飞凡
 - from: concept:生物:牛痘接种法
   to: concept:生物:疫苗
 - from: concept:生物:第一道防线
@@ -2334,12 +2286,6 @@
   to: concept:生物:药品说明书
 - from: concept:生物:过敏原
   to: concept:生物:过敏反应
-- from: concept:生物:动脉出血
-  to: concept:生物:医疗救护员
-- from: concept:生物:人工呼吸
-  to: concept:生物:医疗救护员
-- from: concept:生物:溺水自救
-  to: concept:生物:紧急呼救
 - from: concept:生物:免疫器官
   to: concept:生物:免疫
 - from: concept:生物:免疫细胞
@@ -2360,8 +2306,6 @@
   to: concept:生物:合理用药
 - from: concept:生物:安全用药
   to: concept:生物:合理用药
-- from: concept:生物:心肺复苏
-  to: concept:生物:出血和止血
 - from: concept:生物:骨骼肌
   to: concept:生物:运动系统
 - from: concept:生物:人体的三道防线
@@ -2372,14 +2316,8 @@
   to: concept:生物:传染病的预防措施
 - from: concept:生物:脂肪性肝炎
   to: concept:生物:传染病
-- from: concept:生物:HIV
-  to: concept:生物:艾滋病
 - from: concept:生物:人痘接种法
   to: concept:生物:免疫规划
-- from: concept:生物:合理用药
-  to: concept:生物:运动损伤的预防与处理
-- from: concept:生物:毛细血管出血
-  to: concept:生物:止血方法
 - from: concept:生物:静脉出血
   to: concept:生物:止血方法
 - from: concept:生物:螺旋形包扎法
@@ -2392,10 +2330,6 @@
   to: concept:生物:饮酒的危害
 - from: concept:生物:生活方式病
   to: concept:生物:生活方式
-- from: concept:生物:沉迷手机的危害
-  to: concept:生物:生活方式病
-- from: concept:生物:毒品的危害
-  to: concept:生物:生活方式病
 - from: concept:生物:调节情绪的方法
   to: concept:生物:生活方式
 - from: concept:生物:运动
@@ -2410,8 +2344,6 @@
   to: concept:生物:急救方法
 - from: concept:生物:合理膳食
   to: concept:生物:健康的生活方式
-- from: concept:生物:吸烟的危害
-  to: concept:生物:吸毒的危害
 - from: concept:生物:吸毒的危害
   to: concept:生物:毒品的危害
 - from: concept:生物:心理健康的核心
@@ -2464,18 +2396,10 @@
   to: concept:生物:生态系统
 - from: concept:生物:大气圈
   to: concept:生物:生物圈
-- from: concept:生物:岩石圈
-  to: concept:生物:生物圈
 - from: concept:生物:水圈
   to: concept:生物:生物圈
 - from: concept:生物:生物圈的范围
   to: concept:生物:生物圈
-- from: concept:生物:海洋生态系统
-  to: concept:生物:生态系统是统一的整体
-- from: concept:生物:淡水生态系统
-  to: concept:生物:生态系统是统一的整体
-- from: concept:生物:湿地生态系统
-  to: concept:生物:生态系统是统一的整体
 - from: concept:生物:生态系统的自我调节能力有限度
   to: concept:生物:生态系统的自我调节能力
 - from: concept:生物:退耕还林还草
@@ -2484,8 +2408,6 @@
   to: concept:生物:有性生殖
 - from: concept:生物:体外受精
   to: concept:生物:有性生殖
-- from: concept:生物:分裂生殖
-  to: concept:生物:营养生殖
 - from: concept:生物:嫁接
   to: concept:生物:营养生殖
 - from: concept:生物:扦插
@@ -2496,8 +2418,6 @@
   to: concept:生物:鸟卵的结构
 - from: concept:生物:胚盘
   to: concept:生物:鸟卵的结构
-- from: concept:生物:爬行动物的卵
-  to: concept:生物:卵生
 - from: concept:生物:相对性状
   to: concept:生物:性状
 - from: concept:生物:Y染色体上的性别决定基因
@@ -2514,10 +2434,6 @@
   to: concept:生物:变异
 - from: concept:生物:不遗传的变异
   to: concept:生物:变异
-- from: concept:生物:常染色体
-  to: concept:生物:性染色体
-- from: concept:生物:杂交育种
-  to: concept:生物:基因工程育种
 - from: concept:生物:性染色体
   to: concept:生物:染色体
 - from: concept:生物:纯合子
@@ -2540,8 +2456,6 @@
   to: concept:生物:化石
 - from: concept:生物:古猿
   to: concept:生物:共同祖先
-- from: concept:生物:物种多样性
-  to: concept:生物:生态系统多样性
 - from: concept:生物:直立人
   to: concept:生物:古人类化石
 - from: concept:生物:直立行走
@@ -2562,8 +2476,6 @@
   to: concept:生物:生物多样性
 - from: concept:生物:外来物种入侵
   to: concept:生物:外来入侵物种
-- from: concept:生物:就地保护
-  to: concept:生物:生物多样性保护法律
 - from: concept:生物:麦芽糖
   to: concept:生物:食物中的营养物质
 - from: concept:生物:食物的消化
@@ -2572,8 +2484,6 @@
   to: concept:生物:人体的呼吸
 - from: concept:生物:肺与外界的气体交换
   to: concept:生物:人体的呼吸
-- from: concept:生物:心脏的瓣膜
-  to: concept:生物:静脉
 - from: concept:生物:血浆
   to: concept:生物:静脉
 - from: concept:生物:土地沙化
@@ -2594,8 +2504,6 @@
   to: concept:生物:碳中和
 - from: concept:生物:碳捕集、利用与封存技术
   to: concept:生物:碳中和
-- from: concept:生物:生态系统的组成成分
-  to: concept:生物:生态系统的类型
 - from: concept:生物:食物链和食物网
   to: concept:生物:生态系统的组成成分
 - from: concept:生物:能量流动和物质循环
@@ -2606,8 +2514,6 @@
   to: concept:生物:全球性生态环境问题
 - from: concept:生物:酸雨
   to: concept:生物:全球性生态环境问题
-- from: concept:生物:生态保护与修复
-  to: concept:生物:生态保护红线
 - from: concept:生物:退田还湖还湿
   to: concept:生物:生态保护与修复
 - from: concept:生物:生态旅游
@@ -7280,8 +7186,6 @@
   to: concept:生物:动物的分类
 - from: concept:生物:脊椎动物
   to: concept:生物:动物的分类
-- from: concept:生物:品种
-  to: concept:生物:生物分类
 - from: concept:生物:发酵食品制作
   to: concept:生物:真菌的有益应用
 - from: concept:生物:发酵食品制作
@@ -7320,8 +7224,6 @@
   to: concept:生物:输血与血型
 - from: concept:生物:《中华人民共和国食品安全法》
   to: concept:生物:食品安全
-- from: concept:生物:《中国居民膳食指南（2022）》
-  to: concept:生物:合理营养
 - from: concept:生物:平衡膳食宝塔
   to: concept:生物:合理营养
 - from: concept:生物:空气质量与健康
@@ -7464,8 +7366,6 @@
   to: concept:生物:淀粉的消化
 - from: concept:生物:心脏的瓣膜
   to: concept:生物:心脏的结构
-- from: concept:生物:排尿的意义
-  to: concept:生物:排泄
 - from: concept:生物:生长激素
   to: concept:生物:激素调节
 - from: concept:生物:甲状腺激素
@@ -7652,8 +7552,6 @@
   to: concept:生物:生物因素
 - from: concept:生物:草原生态系统
   to: concept:生物:生态系统
-- from: concept:生物:DDT
-  to: concept:生物:生物富集
 - from: concept:生物:不遗传的变异
   to: concept:生物:生物的变异
 - from: concept:生物:可遗传的变异
@@ -8190,8 +8088,6 @@
   to: concept:物理:家庭电路的组成
 - from: concept:物理:空气断路器
   to: concept:物理:家庭电路的组成
-- from: concept:物理:静电现象
-  to: concept:物理:摩擦起电
 - from: concept:物理:电子
   to: concept:物理:原子结构
 - from: concept:物理:质子
@@ -9100,3 +8996,5 @@
   to: concept:数学:一次函数
 - from: concept:物理:哈勃定律
   to: concept:物理:宇宙
+- from: concept:物理:磁性
+  to: concept:物理:磁体
