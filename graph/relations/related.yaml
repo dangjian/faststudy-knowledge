@@ -28742,3 +28742,25 @@
   to: concept:数学:异分母分式的加减法法则
 - from: concept:科学:日食
   to: concept:科学:影子的形成
+- from: concept:化学:原子
+  to: concept:化学:元素
+- from: concept:化学:分子
+  to: concept:化学:化合物
+- from: concept:化学:单质
+  to: concept:化学:元素
+- from: concept:化学:化合物
+  to: concept:化学:元素
+- from: concept:化学:化学变化的微观实质
+  to: concept:化学:化学变化中元素种类不变
+- from: concept:化学:化学变化前后元素种类不变
+  to: concept:化学:化学变化中元素种类不变
+- from: concept:化学:催化作用
+  to: concept:化学:催化剂
+- from: concept:化学:低碳生活
+  to: concept:化学:绿色环保理念
+- from: concept:化学:化肥对环境的影响
+  to: concept:化学:化肥的施用
+- from: concept:化学:二氧化硅与氢氧化钠反应
+  to: concept:化学:化学方程式的书写
+- from: concept:化学:保护金属资源的措施
+  to: concept:化学:防止铁锈蚀的方法

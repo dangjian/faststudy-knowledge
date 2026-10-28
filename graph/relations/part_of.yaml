@@ -48,14 +48,6 @@
   to: concept:化学:物质由微观粒子构成
 - from: concept:化学:中子
   to: concept:化学:原子核
-- from: concept:化学:原子
-  to: concept:化学:元素
-- from: concept:化学:分子
-  to: concept:化学:化合物
-- from: concept:化学:单质
-  to: concept:化学:元素
-- from: concept:化学:化合物
-  to: concept:化学:元素
 - from: concept:化学:元素符号
   to: concept:化学:元素
 - from: concept:化学:分子模型
@@ -66,10 +58,6 @@
   to: concept:化学:原子
 - from: concept:化学:地壳中元素含量
   to: concept:化学:元素
-- from: concept:化学:化学变化的微观实质
-  to: concept:化学:化学变化中元素种类不变
-- from: concept:化学:化学变化前后元素种类不变
-  to: concept:化学:化学变化中元素种类不变
 - from: concept:化学:质子
   to: concept:化学:玻尔原子模型
 - from: concept:化学:阳离子
@@ -80,8 +68,6 @@
   to: concept:化学:空气污染与防治
 - from: concept:化学:空气质量指数
   to: concept:化学:空气质量日报
-- from: concept:化学:催化作用
-  to: concept:化学:催化剂
 - from: concept:化学:化学式的写法
   to: concept:化学:化学式
 - from: concept:化学:排水法收集氧气
@@ -142,8 +128,6 @@
   to: concept:化学:二氧化碳的化学性质
 - from: concept:化学:二氧化碳与水反应
   to: concept:化学:二氧化碳的化学性质
-- from: concept:化学:低碳生活
-  to: concept:化学:绿色环保理念
 - from: concept:化学:木炭的吸附性
   to: concept:化学:无定形碳的吸附性
 - from: concept:化学:金刚石的性质和用途
@@ -228,8 +212,6 @@
   to: concept:化学:溶质的质量分数
 - from: concept:化学:化肥的合理施用
   to: concept:化学:化肥的施用
-- from: concept:化学:化肥对环境的影响
-  to: concept:化学:化肥的施用
 - from: concept:化学:铁的冶炼
   to: concept:化学:金属冶炼
 - from: concept:化学:高炉炼铁
@@ -238,8 +220,6 @@
   to: concept:化学:四种基本反应类型
 - from: concept:化学:中和反应
   to: concept:化学:复分解反应
-- from: concept:化学:二氧化硅与氢氧化钠反应
-  to: concept:化学:化学方程式的书写
 - from: concept:化学:氢氧化钠的变质
   to: concept:化学:氢氧化钠
 - from: concept:化学:浓硫酸的稀释方法
@@ -8956,8 +8936,6 @@
   to: concept:化学:水的净化方法
 - from: concept:化学:碳与二氧化碳的反应
   to: concept:化学:二氧化碳的化学性质
-- from: concept:化学:保护金属资源的措施
-  to: concept:化学:防止铁锈蚀的方法
 - from: concept:化学:过滤
   to: concept:化学:物质分离的一般思路
 - from: concept:化学:碱与盐的反应
