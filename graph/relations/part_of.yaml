@@ -2824,8 +2824,6 @@
   to: concept:语文:古代诗歌四首
 - from: concept:语文:次北固山下
   to: concept:语文:古代诗歌四首
-- from: concept:语文:左迁
-  to: concept:语文:李白
 - from: concept:语文:断肠
   to: concept:语文:天净沙·秋思
 - from: concept:语文:星汉
@@ -2838,12 +2836,8 @@
   to: concept:语文:李白
 - from: concept:语文:咏雪
   to: concept:语文:《世说新语》
-- from: concept:语文:单义词
-  to: concept:语文:多义词
 - from: concept:语文:比喻义
   to: concept:语文:多义词
-- from: concept:语文:对称句式
-  to: concept:语文:朗读技巧
 - from: concept:语文:景物描写
   to: concept:语文:情感表达
 - from: concept:语文:感情基调
@@ -2876,8 +2870,6 @@
   to: concept:语文:回忆我的母亲
 - from: concept:语文:取义成仁
   to: concept:语文:回忆我的母亲
-- from: concept:语文:慰勉
-  to: concept:语文:宽厚
 - from: concept:语文:文言实词“淡泊”
   to: concept:语文:文言实词“明志”
 - from: concept:语文:文言实词“淫慢”
@@ -2894,14 +2886,10 @@
   to: concept:语文:记事
 - from: concept:语文:《论语》
   to: concept:语文:四书
-- from: concept:语文:孔子
-  to: concept:语文:《论语》
 - from: concept:语文:安妮·曼斯菲尔德·莎莉文
   to: concept:语文:再塑生命的人
 - from: concept:语文:百草园
   to: concept:语文:三味书屋
-- from: concept:语文:宿儒
-  to: concept:语文:私塾
 - from: concept:语文:人声鼎沸
   to: concept:语文:成语
 - from: concept:语文:人迹罕至
@@ -2910,11 +2898,7 @@
   to: concept:语文:《论语》
 - from: concept:语文:学习之道
   to: concept:语文:《论语》
-- from: concept:语文:同义词
-  to: concept:语文:语境
 - from: concept:语文:猜读法
-  to: concept:语文:语境
-- from: concept:语文:形象思维
   to: concept:语文:语境
 - from: concept:语文:梅岭三章
   to: concept:语文:陈毅
@@ -2936,8 +2920,6 @@
   to: concept:语文:《西游记》
 - from: concept:语文:孙悟空
   to: concept:语文:《西游记》
-- from: concept:语文:吴承恩
-  to: concept:语文:《西游记》
 - from: concept:语文:女娲造人
   to: concept:语文:神话
 - from: concept:语文:杞人忧天
@@ -2950,8 +2932,6 @@
   to: concept:语文:寓言
 - from: concept:语文:《吕氏春秋》
   to: concept:语文:寓言
-- from: concept:语文:快速阅读
-  to: concept:语文:精读和跳读
 - from: concept:语文:想象
   to: concept:语文:想象与夸张
 - from: concept:语文:文言句式“将复何及”
@@ -2988,10 +2968,6 @@
   to: concept:语文:讽刺
 - from: concept:语文:赫耳墨斯和雕像者
   to: concept:语文:讽刺
-- from: concept:语文:刮目相待
-  to: concept:语文:吴下阿蒙
-- from: concept:语文:可歌可泣
-  to: concept:语文:任人宰割
 - from: concept:语文:锋芒毕露
   to: concept:语文:鞠躬尽瘁，死而后已
 - from: concept:语文:鲜为人知
@@ -3028,14 +3004,6 @@
   to: concept:语文:抒情方式
 - from: concept:语文:松骨峰战斗
   to: concept:语文:抗美援朝战争
-- from: concept:语文:古今异义
-  to: concept:语文:文言实词“尔”的用法
-- from: concept:语文:复述课文
-  to: concept:语文:概括人物：人+事+品格
-- from: concept:语文:小说主题理解
-  to: concept:语文:小说三要素
-- from: concept:语文:悲剧命运
-  to: concept:语文:祥子
 - from: concept:语文:文言句式：倒装句
   to: concept:语文:文言虚词“之”的用法
 - from: concept:语文:文言句式：判断句
@@ -3080,8 +3048,6 @@
   to: concept:语文:议论性散文
 - from: concept:语文:结构助词
   to: concept:语文:语气助词
-- from: concept:语文:感动中国年度人物
-  to: concept:语文:黄文秀事迹
 - from: concept:语文:驿路梨花
   to: concept:语文:长篇小说
 - from: concept:语文:保尔·柯察金
@@ -3152,8 +3118,6 @@
   to: concept:语文:科技成就
 - from: concept:语文:马里亚纳海沟
   to: concept:语文:蛟龙号载人潜水器
-- from: concept:语文:国家公祭日
-  to: concept:语文:历史不容否认
 - from: concept:语文:消息
   to: concept:语文:新闻写作
 - from: concept:语文:新闻评论
@@ -3192,10 +3156,6 @@
   to: concept:语文:采访方案
 - from: concept:语文:正面描写
   to: concept:语文:表达方式
-- from: concept:语文:夸张
-  to: concept:语文:表达方式
-- from: concept:语文:反语
-  to: concept:语文:表达方式
 - from: concept:语文:诺贝尔奖
   to: concept:语文:诺贝尔
 - from: concept:语文:扩大的夸张
@@ -3220,10 +3180,6 @@
   to: concept:语文:唐诗
 - from: concept:语文:咏物诗
   to: concept:语文:唐诗
-- from: concept:语文:山水游记
-  to: concept:语文:文言句式
-- from: concept:语文:形容词作动词
-  to: concept:语文:文言句式
 - from: concept:语文:托物言志
   to: concept:语文:咏物诗
 - from: concept:语文:情景交融
@@ -3232,14 +3188,8 @@
   to: concept:语文:律诗
 - from: concept:语文:三峡
   to: concept:语文:《水经注》
-- from: concept:语文:吴均三书
-  to: concept:语文:《水经注》
-- from: concept:语文:刘桢
-  to: concept:语文:唐诗
 - from: concept:语文:三杯吐然诺，五岳倒为轻
   to: concept:语文:唐诗
-- from: concept:语文:商鞅立木
-  to: concept:语文:儒有不宝金玉，而忠信以为宝
 - from: concept:语文:文言实词一词多义
   to: concept:语文:文言实词
 - from: concept:语文:词类活用
@@ -3290,14 +3240,8 @@
   to: concept:语文:文化遗产保护
 - from: concept:语文:浮雕
   to: concept:语文:人民英雄纪念碑
-- from: concept:语文:手卷
-  to: concept:语文:图案画与美术画
-- from: concept:语文:古体诗
-  to: concept:语文:如梦令
 - from: concept:语文:如梦令
   to: concept:语文:小令
-- from: concept:语文:婉约派
-  to: concept:语文:如梦令
 - from: concept:语文:天时不如地利，地利不如人和
   to: concept:语文:得道多助，失道寡助
 - from: concept:语文:晏殊
@@ -3326,8 +3270,6 @@
   to: concept:语文:箭扣长城修缮
 - from: concept:语文:周亚夫
   to: concept:语文:《史记》
-- from: concept:语文:孟子
-  to: concept:语文:天时不如地利，地利不如人和
 - from: concept:语文:采桑子
   to: concept:语文:词牌
 - from: concept:语文:近体诗
@@ -3416,8 +3358,6 @@
   to: concept:语文:可持续发展
 - from: concept:语文:古今差异对物候的影响
   to: concept:语文:古今差异
-- from: concept:语文:分裂说
-  to: concept:语文:俘获说
 - from: concept:语文:高下差异对物候的影响
   to: concept:语文:物候学的研究意义
 - from: concept:语文:《关雎》
@@ -3500,20 +3440,12 @@
   to: concept:语文:新乐府
 - from: concept:语文:三吏三别
   to: concept:语文:现实主义诗歌
-- from: concept:语文:安史之乱
-  to: concept:语文:三吏三别
 - from: concept:语文:宫市
   to: concept:语文:卖炭翁
 - from: concept:语文:大同社会
   to: concept:语文:《礼运》
 - from: concept:语文:教学相长
   to: concept:语文:《礼运》
-- from: concept:语文:和而不同
-  to: concept:语文:和为贵
-- from: concept:语文:寓言说理
-  to: concept:语文:庄子
-- from: concept:语文:托物寓意
-  to: concept:语文:伯乐相马
 - from: concept:语文:想象雄奇瑰丽
   to: concept:语文:庄子
 - from: concept:语文:承接复句
@@ -3530,16 +3462,8 @@
   to: concept:语文:丽江古城
 - from: concept:语文:玉龙雪山
   to: concept:语文:丽江古城
-- from: concept:语文:壶口瀑布
-  to: concept:语文:游记散文
-- from: concept:语文:勃朗峰
-  to: concept:语文:游记散文
-- from: concept:语文:各拉丹冬
-  to: concept:语文:游记散文
 - from: concept:语文:移步换景
   to: concept:语文:游记散文
-- from: concept:语文:小说笔法
-  to: concept:语文:散文笔法
 - from: concept:语文:英法联军火烧圆明园
   to: concept:语文:英法联军远征中国
 - from: concept:语文:论点
@@ -3554,8 +3478,6 @@
   to: concept:语文:月夜忆舍弟
 - from: concept:语文:月夜忆舍弟
   to: concept:语文:羁旅之思
-- from: concept:语文:政通人和
-  to: concept:语文:气象万千
 - from: concept:语文:气象万千
   to: concept:语文:范仲淹
 - from: concept:语文:水落石出
@@ -3626,14 +3548,10 @@
   to: concept:语文:《三国演义》
 - from: concept:语文:刘姥姥进大观园
   to: concept:语文:《红楼梦》
-- from: concept:语文:古代白话小说
-  to: concept:语文:《水浒传》
 - from: concept:语文:刘备
   to: concept:语文:《三国演义》
 - from: concept:语文:刘姥姥
   to: concept:语文:《红楼梦》
-- from: concept:语文:双关
-  to: concept:语文:论证
 - from: concept:语文:关联词语的使用
   to: concept:语文:关联词语
 - from: concept:语文:明暗双线结构
@@ -3674,10 +3592,6 @@
   to: concept:语文:对比衬托
 - from: concept:语文:飞蛾扑火
   to: concept:语文:象征意义
-- from: concept:语文:奥楚蔑洛夫
-  to: concept:语文:人物塑造方法
-- from: concept:语文:变色龙
-  to: concept:语文:小说人物形象塑造
 - from: concept:语文:小说人物形象塑造
   to: concept:语文:人物塑造方法
 - from: concept:语文:叙事视角
@@ -3716,8 +3630,6 @@
   to: concept:语文:四方街
 - from: concept:语文:马帮
   to: concept:语文:四方街
-- from: concept:语文:徐霞客
-  to: concept:语文:游记散文
 - from: concept:语文:马克·吐温
   to: concept:语文:游记散文
 - from: concept:语文:《礼运》
@@ -3770,8 +3682,6 @@
   to: concept:语文:戏剧冲突
 - from: concept:语文:山坡羊·骊山怀古
   to: concept:语文:山坡羊
-- from: concept:语文:南安军
-  to: concept:语文:别云间
 - from: concept:语文:南冠
   to: concept:语文:别云间
 - from: concept:语文:简·爱形象
@@ -5172,8 +5082,6 @@
   to: concept:语文:演讲的语言技巧
 - from: concept:语文:口语化表达
   to: concept:语文:演讲稿的语言锤炼
-- from: concept:语文:反语
-  to: concept:语文:讽刺
 - from: concept:语文:刘姥姥
   to: concept:语文:刘姥姥进大观园
 - from: concept:语文:大观园
@@ -5216,8 +5124,6 @@
   to: concept:语文:南安军
 - from: concept:语文:汗青
   to: concept:语文:南安军
-- from: concept:语文:多感官描写
-  to: concept:语文:写景散文
 - from: concept:语文:《西游记》
   to: concept:语文:小说
 - from: concept:语文:刮目相待
@@ -5350,16 +5256,12 @@
   to: concept:语文:旧体诗
 - from: concept:语文:自由体诗
   to: concept:语文:新诗
-- from: concept:语文:南安军
-  to: concept:语文:文天祥
 - from: concept:语文:暗喻
   to: concept:语文:比喻
 - from: concept:语文:观沧海
   to: concept:语文:曹操
 - from: concept:语文:次北固山下
   to: concept:语文:王湾
-- from: concept:语文:回忆我的母亲
-  to: concept:语文:朱德
 - from: concept:语文:用典
   to: concept:语文:修辞手法
 - from: concept:语文:欧阳修
@@ -5457,8 +5359,6 @@
 - from: concept:语文:何大学问
   to: concept:语文:蒲柳人家
 - from: concept:语文:何满子
-  to: concept:语文:蒲柳人家
-- from: concept:语文:小说语言特色
   to: concept:语文:蒲柳人家
 - from: concept:语文:舞台说明
   to: concept:语文:剧本阅读策略
