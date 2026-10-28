@@ -7,6 +7,8 @@
     - 气温变化规律
   category: 现象
   explanation: 一天中气温会不断变化：早晚比较凉，中午到午后气温最高。按时测量同一地点的气温，就能发现这个规律。
+  misconceptions:
+    - 误认为中午 12 点气温最高，实际最高气温出现在中午到午后。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:三角形结构
   type: Concept
@@ -16,6 +18,8 @@
   aliases: []
   category: 概念
   explanation: 三角形比较稳固、不易变形，在塔台等建筑中多用三角形结构可以让工程更结实。
+  misconceptions:
+    - 误认为四边形结构和三角形一样稳固，实际四边形受力容易变形，三角形不易变形。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:乐器声音的变化
   type: Concept
@@ -26,6 +30,8 @@
     - 乐器的发声原理
   category: 概念
   explanation: 乐器靠改变发声部分的振动来改变声音：琴弦的粗细、长短、松紧不同，声音高低就不同；弹拨的力度不同，声音强弱就不同。
+  misconceptions:
+    - 误认为弹拨力度越大声音越高，实际力度改变的是声音强弱，音高由振动部分的粗细、长短、松紧决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:二十四节气
   type: Concept
@@ -35,6 +41,8 @@
   aliases: []
   category: 文化常识
   explanation: 我国古人长期观察太阳运行规律，在四季基础上细分出二十四节气，用来指导农业生产。
+  misconceptions:
+    - 误认为二十四节气是按农历划分的，实际是按太阳运行规律在四季基础上细分出来的。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:二歧分类法
   type: Concept
@@ -45,6 +53,8 @@
     - 二歧分类
   category: 方法
   explanation: 确定一个标准把生物分成两类，每类下再确定新标准继续分，直到不能再分为止的分类方法。
+  misconceptions:
+    - 误认为分类时可以把几个标准一起用，实际每一步只能用一个标准分成两类。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:云量
   type: Concept
@@ -54,6 +64,8 @@
   aliases: []
   category: 概念
   explanation: 云量指天空中云的多少。云很少、阳光充足是晴；云比较多、偶尔能看到太阳是多云；云多而密、看不到太阳是阴。
+  misconceptions:
+    - 误认为云比较多、偶尔能看到太阳就是阴天，实际这是多云，看不到太阳才是阴。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:人体器官的协作
   type: Concept
@@ -64,6 +76,8 @@
     - 人体是一个统一的整体
   category: 概念
   explanation: 人体是一个系统，各器官的结构和功能不同，活动时却密切配合。比如剧烈运动时呼吸、心跳都加快，把更多氧气和养分送给肌肉。人体是一个统一的整体。
+  misconceptions:
+    - 误认为各器官各自独立工作，实际剧烈运动时呼吸与心跳会协同加快，把更多氧气和养料送到需要的地方。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S10.md
 - id: concept:科学:人类对地球的探索
   type: Concept
@@ -112,6 +126,8 @@
   aliases: []
   category: 概念
   explanation: 经过人们加工做出来的材料叫人造物，比如砖、玻璃和金属。人们常用多种材料一起盖房子。
+  misconceptions:
+    - 误认为玻璃、金属是自然物，实际它们经过人工加工，属于人造物。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:会开花和不开花的植物
   type: Concept
@@ -122,6 +138,8 @@
     - 多样的植物
   category: 概念
   explanation: 植物的样子多种多样，有的植物会开花，有的植物不会开花。比如兰花会开花，蕨类植物就不开花。
+  misconceptions:
+    - 误认为所有植物都会开花，实际蕨类等植物不会开花。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:传染病的预防
   type: Concept
@@ -131,6 +149,8 @@
   aliases: []
   category: 方法
   explanation: 传染病是由病毒、细菌等引起的能传播的疾病。预防传染病要控制传染源、切断传播途径、保护易感染者，平时要勤洗手、常通风、多锻炼。
+  misconceptions:
+    - 误认为勤洗手是在控制传染源，实际它属于切断传播途径。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:传粉
   type: Concept
@@ -159,6 +179,8 @@
   aliases: []
   category: 概念
   explanation: 流水、风力、波浪等外力在运动状态下改变地表岩石及其风化物的过程叫侵蚀作用，比如雨水冲刷会把坡地的泥土冲走。
+  misconceptions:
+    - 误认为侵蚀就是岩石自己风化破碎，实际是流水、风力、波浪等外力在运动中改变地表岩石及其风化物。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:保护动物
   type: Concept
@@ -169,6 +191,8 @@
     - 动物是我们的朋友
   category: 观点
   explanation: 很多动物能帮助我们，比如导盲犬帮盲人、蚯蚓松土。要保护动物和它们生活的环境。
+  misconceptions:
+    - 误认为保护动物只要保护动物本身，实际还要保护它们生活的环境。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:保护听力
   type: Concept
@@ -273,6 +297,8 @@
   aliases: []
   category: 方法
   explanation: 通过确定健康目标、明确要养成的习惯、安排每天具体的实践并记录执行效果，来改善自己的健康。
+  misconceptions:
+    - 误认为计划写下目标就够了，实际要明确要养成的习惯、安排每天的具体实践并记录效果。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:充足的睡眠
   type: Concept
@@ -319,6 +345,8 @@
   aliases: []
   category: 方法
   explanation: 使用光学显微镜要先安放、对光，再把玻片标本放到载物台上，慢慢转动调节旋钮调焦，直到看清楚图像，最后边观察边记录。
+  misconceptions:
+    - 误认为应先放玻片再对光，实际要先安放、对光，再把玻片标本放到载物台上调焦。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:光沿直线传播
   type: Concept
@@ -397,6 +425,8 @@
   aliases: []
   category: 方法
   explanation: 分析一个环境问题要先收集资料、弄清原因，再从不同人群的角度看问题、提出解决办法，最后协调平衡各方利益，找出可行的方案。
+  misconceptions:
+    - 误认为只从一个角度就能给出解决办法，实际要站在不同人群的角度看问题并协调平衡各方利益。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:分类
   type: Concept
@@ -417,6 +447,8 @@
     - 制作标本的方法
   category: 方法
   explanation: 制作岩石和矿物标本时，先给采集到的标本编号，再对照图鉴识别名称，然后贴上写有编号、名称、采集地点和时间的标签，最后按顺序放进标本盒保存。
+  misconceptions:
+    - 误认为标本上只写名称就行，实际还要写编号、采集地点和时间。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:制作模型的方法
   type: Concept
@@ -427,6 +459,8 @@
     - 制作恐龙模型
   category: 方法
   explanation: 先制订方案，选好合适的材料，再动手做模型，做好后进行展示和修改。做模型能让看不出原样的东西变得更直观。
+  misconceptions:
+    - 误认为直接动手做就行，实际要先制订方案、选好材料，做完后展示并修改。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:制作水钟
   type: Concept
@@ -446,6 +480,8 @@
     - 科普海报
   category: 方法
   explanation: 制作科普海报要先确定主题，搜集相关的图文资料，再设计版面、制作装饰，最后检查内容是否准确并展示交流。
+  misconceptions:
+    - 误认为先做装饰再定主题，实际要先确定主题、搜集图文资料，再设计版面。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:制作简易开关
   type: Concept
@@ -456,6 +492,8 @@
     - 回形针开关
   category: 方法
   explanation: 可以用小木板、回形针和图钉做一个简易开关：按下回形针一端接通电路，抬起来就断开电路。开关的材料要一部分能导电、一部分能绝缘。
+  misconceptions:
+    - 误认为开关用一块金属就能做，实际要一部分能导电、一部分不能导电，才能接通和断开。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:力使物体的形状改变
   type: Concept
@@ -465,6 +503,8 @@
   aliases: []
   category: 性质
   explanation: 用力按压或拉伸弹簧，弹簧的形状会发生变化。力可以使物体的形状改变。
+  misconceptions:
+    - 误认为力只能让物体运动起来，实际力也可以改变物体的形状。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:力改变物体的运动状态
   type: Concept
@@ -1041,6 +1081,8 @@
   aliases: []
   category: 方法
   explanation: 天气预报发布前要经过收集数据、科学计算、预报员作出预报、天气会商等阶段，再通过电视、广播等发布出来。
+  misconceptions:
+    - 误认为天气预报由仪器自动得出，实际要经过收集数据、科学计算、预报员作出预报、天气会商等阶段。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:太阳东升西落
   type: Concept
@@ -1108,6 +1150,8 @@
   aliases: []
   category: 方法
   explanation: 照图拿好剪刀，上下移动大拇指让剪刀开合，沿着画好的线剪，另一只手要离剪刀远一点。
+  misconceptions:
+    - 误认为另一只手靠近刀口扶纸更稳，实际另一只手要离剪刀远一点。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:安全用电
   type: Concept
@@ -1744,6 +1788,8 @@
     - 推测
   category: 方法
   explanation: 不能直接看到的东西，可以靠留下的痕迹去推测它的样子。比如根据恐龙骨骼化石，再参考现在的动物，推测恐龙原来的模样。
+  misconceptions:
+    - 误认为推测可以凭想象，实际要根据留下的痕迹（如化石）并参考现在的动物来推断。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:根的作用
   type: Concept
@@ -1828,6 +1874,8 @@
     - 模拟实验法
   category: 方法
   explanation: 用细沙模拟月壤，用大小不同的球撞击沙面，模拟出大小、深浅不同的“环形山”。借助模拟实验可以研究看不清或去不了的地方。
+  misconceptions:
+    - 误认为模拟实验的结果就是真实情况，实际它只是借助模型研究看不清或去不了的对象。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:次声波
   type: Concept
@@ -1846,6 +1894,8 @@
   aliases: []
   category: 方法
   explanation: 让水和食用油同时开始流动，流动时间一样，看谁流得更远更快。水比食用油流得快。
+  misconceptions:
+    - 误认为黏稠的液体流得快，实际水比食用油流得快。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:比较溶解能力
   type: Concept
@@ -1866,6 +1916,8 @@
     - 称一称
   category: 方法
   explanation: 可以先猜一猜，再用手掂一掂，最后用天平称一称。称一称的结果最准确。
+  misconceptions:
+    - 误认为用手掂一掂最准确，实际用天平称一称的结果最准确。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:比较的方法
   type: Concept
@@ -3248,6 +3300,8 @@
   aliases: []
   category: 方法
   explanation: 做事情前先想清楚需要什么工具，再按正确、安全的方法使用它。比如挖掘时要戴护目镜，用锤子时力量先小后大。
+  misconceptions:
+    - 误认为随手拿一个工具就行，实际要先想清楚需要什么工具，再按正确、安全的方法使用。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:透明、半透明和不透明
   type: Concept
