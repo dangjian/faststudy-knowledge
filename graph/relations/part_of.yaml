@@ -234,8 +234,6 @@
   to: concept:历史:分封制
 - from: concept:历史:老子
   to: concept:历史:道家学派
-- from: concept:历史:韩非
-  to: concept:历史:道家学派
 - from: concept:历史:三十税一
   to: concept:历史:休养生息政策
 - from: concept:历史:以农为本
@@ -252,8 +250,6 @@
   to: concept:历史:西晋的短暂统一
 - from: concept:历史:隋朝建立
   to: concept:历史:隋朝的统一
-- from: concept:历史:隋炀帝的暴政
-  to: concept:历史:隋朝的灭亡
 - from: concept:历史:隋朝经济恢复措施
   to: concept:历史:隋朝的统一
 - from: concept:历史:元朝建立
@@ -306,14 +302,6 @@
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:钓鱼岛及其附属岛屿
   to: concept:历史:清朝疆域
-- from: concept:历史:靖难之役
-  to: concept:历史:郑和下西洋
-- from: concept:历史:顾炎武的思想
-  to: concept:历史:郑和下西洋
-- from: concept:历史:马戛尔尼使团来华
-  to: concept:历史:郑和下西洋
-- from: concept:历史:黄宗羲的思想
-  to: concept:历史:郑和下西洋
 - from: concept:历史:北伐和西征
   to: concept:历史:太平天国运动
 - from: concept:历史:天京事变
@@ -350,12 +338,6 @@
   to: concept:历史:辛亥革命
 - from: concept:历史:徐锡麟
   to: concept:历史:安庆起义
-- from: concept:历史:黄兴
-  to: concept:历史:黄花岗起义
-- from: concept:历史:黄花岗七十二烈士
-  to: concept:历史:黄花岗起义
-- from: concept:历史:黎元洪
-  to: concept:历史:湖北军政府
 - from: concept:历史:袁世凯窃取辛亥革命果实
   to: concept:历史:辛亥革命
 - from: concept:历史:中国共产党第一个纲领
@@ -376,8 +358,6 @@
   to: concept:历史:新文化运动
 - from: concept:历史:民主与科学
   to: concept:历史:新文化运动
-- from: concept:历史:马克思主义与中国工人运动相结合
-  to: concept:历史:马克思主义的传播
 - from: concept:历史:威海卫战役
   to: concept:历史:甲午中日战争
 - from: concept:历史:平壤战役
@@ -642,8 +622,6 @@
   to: concept:地理:经纬网
 - from: concept:地理:赤道
   to: concept:地理:纬线
-- from: concept:地理:中国的民族
-  to: concept:地理:中国的疆域
 - from: concept:地理:中国的行政区划
   to: concept:地理:中国的疆域
 - from: concept:地理:中国的邻国
@@ -654,12 +632,6 @@
   to: concept:地理:中国的民族
 - from: concept:地理:省级行政区的简称和行政中心
   to: concept:地理:中国的行政区划
-- from: concept:地理:三大丘陵
-  to: concept:地理:四大高原
-- from: concept:地理:三大平原
-  to: concept:地理:四大高原
-- from: concept:地理:四大盆地
-  to: concept:地理:四大高原
 - from: concept:地理:地月系
   to: concept:地理:天体系统
 - from: concept:地理:太阳系
@@ -670,22 +642,8 @@
   to: concept:地理:宇宙
 - from: concept:地理:太阳系八颗行星
   to: concept:地理:太阳系
-- from: concept:地理:地球的普通性
-  to: concept:地理:地球的特殊性
-- from: concept:地理:东西半球分界线
-  to: concept:地理:南北半球分界线
-- from: concept:地理:南回归线
-  to: concept:地理:南北半球分界线
-- from: concept:地理:北极圈
-  to: concept:地理:南北半球分界线
-- from: concept:地理:南极圈
-  to: concept:地理:南北半球分界线
 - from: concept:地理:图例
   to: concept:地理:地图三要素
-- from: concept:地理:地图
-  to: concept:地理:地图三要素
-- from: concept:地理:南北半球分界线
-  to: concept:地理:赤道
 - from: concept:地理:比例尺
   to: concept:地理:地图三要素
 - from: concept:地理:地图上的方向
@@ -700,12 +658,6 @@
   to: concept:地理:工业环境污染与治理
 - from: concept:地理:工业环境污染
   to: concept:地理:工业环境污染与治理
-- from: concept:地理:水污染
-  to: concept:地理:海洋污染
-- from: concept:地理:海洋化学资源
-  to: concept:地理:海洋空间资源
-- from: concept:地理:海洋旅游资源
-  to: concept:地理:海洋空间资源
 - from: concept:地理:长江不同河段的名称
   to: concept:地理:长江概况
 - from: concept:地理:长江水能资源
@@ -714,14 +666,6 @@
   to: concept:地理:长江概况
 - from: concept:地理:交通运输分布特征
   to: concept:地理:交通运输
-- from: concept:地理:山区
-  to: concept:地理:气候类型复杂多样
-- from: concept:地理:山脉走向
-  to: concept:地理:气候类型复杂多样
-- from: concept:地理:我国冬季气温分布规律
-  to: concept:地理:气温年变化
-- from: concept:地理:我国夏季气温分布规律
-  to: concept:地理:气温年变化
 - from: concept:地理:我国年降水量空间分布规律
   to: concept:地理:气候
 - from: concept:地理:气候类型
@@ -730,10 +674,6 @@
   to: concept:地理:气候
 - from: concept:地理:气温年变化曲线图
   to: concept:地理:气温年变化
-- from: concept:地理:气温日变化
-  to: concept:地理:气温年变化
-- from: concept:地理:温度带
-  to: concept:地理:气候类型复杂多样
 - from: concept:地理:秦岭—淮河线
   to: concept:地理:温度带
 - from: concept:地理:等温线
@@ -786,24 +726,14 @@
   to: concept:地理:北京的历史文化传统
 - from: concept:地理:防灾减灾体系
   to: concept:地理:自然灾害
-- from: concept:地理:北京的气候
-  to: concept:地理:北京的地理位置
-- from: concept:地理:北京的水系
-  to: concept:地理:北京的地理位置
 - from: concept:地理:四川省的交通
   to: concept:地理:四川省的经济
-- from: concept:地理:四川省的地形
-  to: concept:地理:四川省的地理位置
-- from: concept:地理:四川省的气候
-  to: concept:地理:四川省的地理位置
 - from: concept:地理:四川省的经济发展差异
   to: concept:地理:四川省的经济
 - from: concept:地理:四川省的自然灾害
   to: concept:地理:自然灾害
 - from: concept:地理:雄安新区
   to: concept:地理:北京市域空间结构
-- from: concept:地理:七大洲
-  to: concept:地理:世界地形分布大势
 - from: concept:地理:世界第一大洲
   to: concept:地理:七大洲
 - from: concept:地理:北冰洋
@@ -822,27 +752,15 @@
   to: concept:地理:大洋底
 - from: concept:地理:洋中脊
   to: concept:地理:大洋底
-- from: concept:地理:板块交界地带
-  to: concept:地理:板块交界处
 - from: concept:地理:板块内部
   to: concept:地理:板块构造学说
 - from: concept:地理:板块交界处
   to: concept:地理:板块构造学说
-- from: concept:地理:泛大陆
-  to: concept:地理:大陆漂移说
 - from: concept:地理:泛大洋
   to: concept:地理:大陆漂移说
-- from: concept:地理:欧洲
-  to: concept:地理:海陆分布特点
 - from: concept:地理:非洲
   to: concept:地理:海陆分布特点
-- from: concept:地理:巴拿马运河
-  to: concept:地理:海陆分布特点
 - from: concept:地理:苏伊士运河
-  to: concept:地理:海陆分布特点
-- from: concept:地理:海峡
-  to: concept:地理:海陆分布特点
-- from: concept:地理:海底地形类型
   to: concept:地理:海陆分布特点
 - from: concept:地理:陆地地形类型
   to: concept:地理:海陆分布特点
@@ -850,24 +768,12 @@
   to: concept:地理:海陆分布特点
 - from: concept:地理:陆半球和水半球
   to: concept:地理:海陆分布特点
-- from: concept:地理:太阳直射点
-  to: concept:地理:昼夜长短变化
 - from: concept:地理:极昼和极夜
   to: concept:地理:昼夜长短变化
-- from: concept:地理:昼夜更替
-  to: concept:地理:时间差异
 - from: concept:地理:六大板块
   to: concept:地理:地壳运动
-- from: concept:地理:海洋生物资源
-  to: concept:地理:海底地形类型
-- from: concept:地理:海沟
-  to: concept:地理:海底地形分布规律
-- from: concept:地理:海盆
-  to: concept:地理:海底地形分布规律
 - from: concept:地理:纬度位置对气温的影响
   to: concept:地理:纬度因素对气温的影响
-- from: concept:地理:海陆位置对气温的影响
-  to: concept:地理:海陆因素对气温的影响
 - from: concept:地理:亚热带季风和亚热带湿润气候
   to: concept:地理:世界气候类型分布
 - from: concept:地理:地中海气候
@@ -906,12 +812,8 @@
   to: concept:地理:影响气候的因素
 - from: concept:地理:气候异常与灾害
   to: concept:地理:气候异常
-- from: concept:地理:温带大陆性气候
-  to: concept:地理:温带草原和荒漠
 - from: concept:地理:热带季风气候
   to: concept:地理:热带气候类型
-- from: concept:地理:猴面包树
-  to: concept:地理:热带草原气候
 - from: concept:地理:板状根
   to: concept:地理:热带雨林气候
 - from: concept:地理:国际公路运输
@@ -924,10 +826,6 @@
   to: concept:地理:国际交通运输方式
 - from: concept:地理:国际铁路运输
   to: concept:地理:国际交通运输方式
-- from: concept:地理:发展中国家
-  to: concept:地理:南南合作
-- from: concept:地理:发达国家
-  to: concept:地理:南北对话
 - from: concept:地理:汉语
   to: concept:地理:联合国工作语言
 - from: concept:地理:法语
@@ -946,12 +844,6 @@
   to: concept:地理:文化多样性
 - from: concept:地理:饮食习俗
   to: concept:地理:文化多样性
-- from: concept:地理:亚洲的人口特征
-  to: concept:地理:亚洲的人口老龄化
-- from: concept:地理:亚洲的季风气候
-  to: concept:地理:高原、高山气候
-- from: concept:地理:亚洲的人口老龄化
-  to: concept:地理:人口年龄结构
 - from: concept:地理:亚洲的区域经济合作
   to: concept:地理:区域经济合作
 - from: concept:地理:亚洲的温带大陆性气候
@@ -994,8 +886,6 @@
   to: concept:地理:中东
 - from: concept:地理:中国北极科考站
   to: concept:地理:中国的北极政策
-- from: concept:地理:欧洲联盟
-  to: concept:地理:欧盟
 - from: concept:地理:马来群岛的地形特征
   to: concept:地理:马来群岛
 - from: concept:地理:俄罗斯的地理位置
@@ -1006,26 +896,16 @@
   to: concept:地理:俄罗斯的自然资源
 - from: concept:地理:埃及农业分布
   to: concept:地理:埃及农业
-- from: concept:地理:埃及人口分布
-  to: concept:地理:埃及经济
 - from: concept:地理:南极地区生物
   to: concept:地理:南极地区
 - from: concept:地理:南极洲冰盖
-  to: concept:地理:南极地区
-- from: concept:地理:南极洲地形剖面
   to: concept:地理:南极地区
 - from: concept:地理:南极洲淡水资源
   to: concept:地理:南极地区
 - from: concept:地理:昆仑站
   to: concept:地理:南极地区
-- from: concept:地理:欧洲西部经济
-  to: concept:地理:欧洲西部旅游业
 - from: concept:地理:欧元区
   to: concept:地理:欧盟
-- from: concept:地理:巴西主要城市
-  to: concept:地理:巴西经济
-- from: concept:地理:巴西人口分布
-  to: concept:地理:巴西经济
 - from: concept:地理:巴西农业
   to: concept:地理:巴西经济
 - from: concept:地理:巴西地形
@@ -1040,16 +920,10 @@
   to: concept:地理:巴西自然环境
 - from: concept:地理:巴西矿产资源
   to: concept:地理:巴西经济
-- from: concept:地理:巴西种族构成
-  to: concept:地理:巴西人口分布
 - from: concept:地理:日本多火山地震
   to: concept:地理:日本的地形特点
 - from: concept:地理:日本工业的分布
   to: concept:地理:日本的工业特点
-- from: concept:地理:日本的地形特点
-  to: concept:地理:日本的地理位置
-- from: concept:地理:日本的森林资源
-  to: concept:地理:日本的地形特点
 - from: concept:地理:日本的领土组成
   to: concept:地理:日本的地理位置
 - from: concept:地理:美国经济发展
@@ -1064,15 +938,9 @@
   to: concept:地理:七大洲
 - from: concept:地理:亚洲与欧洲的分界线
   to: concept:地理:亚洲
-- from: concept:地理:亚欧大陆地形特点
-  to: concept:地理:亚洲
 - from: concept:地理:南北纵列的三大地形单元
   to: concept:地理:北美洲
 - from: concept:地理:二分二至日
-  to: concept:地理:四季更替
-- from: concept:地理:公转方向
-  to: concept:地理:公转周期
-- from: concept:地理:公转周期
   to: concept:地理:四季更替
 - from: concept:地理:五带的划分
   to: concept:地理:四季更替
@@ -6660,8 +6528,6 @@
   to: concept:历史:一国两制
 - from: concept:历史:澳门回归
   to: concept:历史:和平统一、一国两制
-- from: concept:历史:香港回归
-  to: concept:历史:和平统一、一国两制
 - from: concept:历史:四个全面战略布局
   to: concept:历史:习近平新时代中国特色社会主义思想
 - from: concept:历史:北斗三号全球卫星导航系统
@@ -6870,8 +6736,6 @@
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:闭关政策
   to: concept:历史:清朝对全国的统治
-- from: concept:历史:马戛尔尼使团来华
-  to: concept:历史:清朝对全国的统治
 - from: concept:历史:琉球事件
   to: concept:历史:边疆危机
 - from: concept:历史:黄海海战
@@ -6948,8 +6812,6 @@
   to: concept:历史:第二次工业革命
 - from: concept:历史:汽车
   to: concept:历史:第二次工业革命
-- from: concept:历史:飞机
-  to: concept:历史:第二次工业革命
 - from: concept:历史:流水线生产
   to: concept:历史:第二次工业革命
 - from: concept:历史:凡尔登战役
@@ -6984,14 +6846,6 @@
   to: concept:历史:辽与北宋的和战
 - from: concept:历史:《尼布楚条约》
   to: concept:历史:雅克萨之战
-- from: concept:历史:马戛尔尼使团来华
-  to: concept:历史:闭关政策
-- from: concept:历史:黄兴
-  to: concept:历史:中国同盟会
-- from: concept:历史:黄花岗起义
-  to: concept:历史:中国同盟会
-- from: concept:历史:黎元洪
-  to: concept:历史:武昌起义
 - from: concept:历史:黄埔军校
   to: concept:历史:国民革命
 - from: concept:历史:谢晋元
@@ -8480,8 +8334,6 @@
   to: concept:地理:世界气温分布规律
 - from: concept:地理:纬度位置对气温的影响
   to: concept:地理:世界气温分布规律
-- from: concept:地理:地形对降水的影响
-  to: concept:地理:世界降水分布规律
 - from: concept:地理:海陆位置对降水的影响
   to: concept:地理:世界降水分布规律
 - from: concept:地理:纬度位置对降水的影响
@@ -8498,8 +8350,6 @@
   to: concept:地理:世界气候类型分布
 - from: concept:地理:基督教
   to: concept:地理:世界三大宗教
-- from: concept:地理:上海精神
-  to: concept:地理:上海合作组织
 - from: concept:地理:亚洲的季风气候
   to: concept:地理:亚洲的气候特征
 - from: concept:地理:亚洲的降水空间分布
@@ -8540,14 +8390,6 @@
   to: concept:地理:大洲分界线
 - from: concept:地理:苏伊士运河
   to: concept:地理:大洲分界线
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:大洋底
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:大陆坡
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:大陆架
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:岛弧
 - from: concept:地理:人类活动对气候的影响
   to: concept:地理:影响气候的因素
 - from: concept:地理:南北对话
@@ -8584,8 +8426,6 @@
   to: concept:地理:长江三峡水利枢纽工程
 - from: concept:地理:洪涝灾害
   to: concept:地理:自然灾害
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:洋中脊
 - from: concept:地理:海陆变迁的证据
   to: concept:地理:海陆变迁
 - from: concept:地理:气候对农业生产的影响
@@ -9540,3 +9380,5 @@
   to: concept:历史:大化改新
 - from: concept:历史:半殖民地化程度进一步加深
   to: concept:历史:半殖民地半封建社会
+- from: concept:历史:隋炀帝的暴政
+  to: concept:历史:隋朝的灭亡
