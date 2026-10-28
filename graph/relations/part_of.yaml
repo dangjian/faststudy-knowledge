@@ -942,8 +942,6 @@
   to: concept:数学:圆心
 - from: concept:数学:相反数
   to: concept:数学:正数和负数
-- from: concept:数学:绝对值
-  to: concept:数学:正数和负数
 - from: concept:数学:代数式的值
   to: concept:数学:代数式
 - from: concept:数学:列代数式
@@ -968,8 +966,6 @@
   to: concept:数学:乘方
 - from: concept:数学:除以一个数等于乘这个数的倒数
   to: concept:数学:有理数除法法则
-- from: concept:数学:近似数
-  to: concept:数学:有理数的混合运算
 - from: concept:数学:代数式求值
   to: concept:数学:代数式
 - from: concept:数学:从三个方向观察几何体
@@ -1000,14 +996,6 @@
   to: concept:数学:线段
 - from: concept:数学:比较线段的长短
   to: concept:数学:线段
-- from: concept:数学:角的和差
-  to: concept:数学:角的大小比较
-- from: concept:数学:角的度量单位
-  to: concept:数学:角的大小比较
-- from: concept:数学:角的表示方法
-  to: concept:数学:角的大小比较
-- from: concept:数学:钟表上的角度
-  to: concept:数学:角的大小比较
 - from: concept:数学:一元一次方程
   to: concept:数学:一元方程
 - from: concept:数学:一元一次方程的应用
@@ -1042,13 +1030,9 @@
   to: concept:数学:统计过程
 - from: concept:数学:随机调查
   to: concept:数学:统计过程
-- from: concept:数学:频数
-  to: concept:数学:数据
 - from: concept:数学:频数直方图
   to: concept:数学:数据
 - from: concept:数学:平方差公式
-  to: concept:数学:整式的乘法
-- from: concept:数学:负整数指数幂
   to: concept:数学:整式的乘法
 - from: concept:数学:零指数幂
   to: concept:数学:整式的乘法
@@ -1114,12 +1098,6 @@
   to: concept:数学:全等三角形
 - from: concept:数学:边角边（SAS）判定定理
   to: concept:数学:全等三角形
-- from: concept:数学:钝角三角形
-  to: concept:数学:三角形内角和定理
-- from: concept:数学:锐角三角形
-  to: concept:数学:三角形内角和定理
-- from: concept:数学:等边三角形
-  to: concept:数学:三角形内角和定理
 - from: concept:数学:等腰三角形的三线合一
   to: concept:数学:等腰三角形的性质定理
 - from: concept:数学:等腰三角形的轴对称性
@@ -1234,8 +1212,6 @@
   to: concept:数学:开方运算
 - from: concept:数学:无理数的估算
   to: concept:数学:无理数
-- from: concept:数学:秦九韶公式
-  to: concept:数学:实数
 - from: concept:数学:方程的解
   to: concept:数学:方程
 - from: concept:数学:解方程
@@ -1376,8 +1352,6 @@
   to: concept:数学:等腰三角形的判定
 - from: concept:数学:一元一次不等式与一元一次方程的联系
   to: concept:数学:一元一次不等式
-- from: concept:数学:角平分线的判定定理
-  to: concept:数学:角平分线的性质定理
 - from: concept:数学:一元一次不等式
   to: concept:数学:不等式
 - from: concept:数学:一元一次不等式组
@@ -1480,8 +1454,6 @@
   to: concept:数学:等腰梯形
 - from: concept:数学:正方形的判定定理
   to: concept:数学:正方形
-- from: concept:数学:过直线外一点有且只有一条直线与这条直线平行
-  to: concept:数学:定理
 - from: concept:数学:直角三角形中30°角所对的直角边等于斜边的一半
   to: concept:数学:定理
 - from: concept:数学:三个角都相等的三角形是等边三角形
@@ -1536,8 +1508,6 @@
   to: concept:数学:相似多边形
 - from: concept:数学:相似比
   to: concept:数学:相似多边形
-- from: concept:数学:黄金矩形
-  to: concept:数学:黄金分割
 - from: concept:数学:中心投影
   to: concept:数学:投影
 - from: concept:数学:平行投影
@@ -1678,14 +1648,8 @@
   to: concept:物理:声音的产生
 - from: concept:物理:振幅
   to: concept:物理:响度
-- from: concept:物理:声强级
-  to: concept:物理:响度
 - from: concept:物理:介质
   to: concept:物理:声音的传播
-- from: concept:物理:日食
-  to: concept:物理:平面镜成像特点
-- from: concept:物理:月食
-  to: concept:物理:平面镜成像特点
 - from: concept:物理:光的反射定律
   to: concept:物理:光的反射
 - from: concept:物理:入射角
@@ -1706,15 +1670,9 @@
   to: concept:物理:凸透镜
 - from: concept:物理:光心
   to: concept:物理:凸透镜
-- from: concept:物理:实像
-  to: concept:物理:凸透镜
 - from: concept:物理:凸透镜
   to: concept:物理:透镜
 - from: concept:物理:凹透镜
-  to: concept:物理:透镜
-- from: concept:物理:凸面镜
-  to: concept:物理:透镜
-- from: concept:物理:凹面镜
   to: concept:物理:透镜
 - from: concept:物理:虚像
   to: concept:物理:凸透镜成像规律
@@ -1724,57 +1682,19 @@
   to: concept:物理:焦点
 - from: concept:物理:镜面反射
   to: concept:物理:反射角
-- from: concept:物理:漫反射
-  to: concept:物理:反射角
-- from: concept:物理:显微镜
-  to: concept:物理:望远镜
 - from: concept:物理:沸腾
   to: concept:物理:汽化
 - from: concept:物理:蒸发
   to: concept:物理:汽化
-- from: concept:物理:液体温度计
-  to: concept:物理:温度计的使用方法
-- from: concept:物理:氯氟碳化合物
-  to: concept:物理:臭氧层
-- from: concept:物理:温室效应
-  to: concept:物理:臭氧层
 - from: concept:物理:音色
   to: concept:物理:问题
 - from: concept:物理:音调
   to: concept:物理:问题
 - from: concept:物理:频率
   to: concept:物理:问题
-- from: concept:物理:可听声波
-  to: concept:物理:问题
-- from: concept:物理:声呐
-  to: concept:物理:问题
-- from: concept:物理:次声波
-  to: concept:物理:问题
 - from: concept:物理:超声波
   to: concept:物理:问题
-- from: concept:物理:光源
-  to: concept:物理:问题
-- from: concept:物理:光的三原色
-  to: concept:物理:问题
-- from: concept:物理:光的直线传播
-  to: concept:物理:问题
-- from: concept:物理:光的色散
-  to: concept:物理:问题
-- from: concept:物理:光线
-  to: concept:物理:问题
-- from: concept:物理:光能
-  to: concept:物理:问题
-- from: concept:物理:光速
-  to: concept:物理:问题
-- from: concept:物理:小孔成像
-  to: concept:物理:问题
-- from: concept:物理:平面镜成像特点
-  to: concept:物理:问题
 - from: concept:物理:熔点
-  to: concept:物理:晶体
-- from: concept:物理:凝固点
-  to: concept:物理:晶体
-- from: concept:物理:沸点
   to: concept:物理:晶体
 - from: concept:物理:水的状态变化
   to: concept:物理:水循环
@@ -1856,8 +1776,6 @@
   to: concept:物理:压强
 - from: concept:物理:影响压力作用效果的因素
   to: concept:物理:压强
-- from: concept:物理:制动距离
-  to: concept:物理:反应距离
 - from: concept:物理:力的作用效果
   to: concept:物理:力是物体对物体的作用
 - from: concept:物理:压强公式
@@ -1876,8 +1794,6 @@
   to: concept:物理:大气压强
 - from: concept:物理:气压计
   to: concept:物理:大气压的测量
-- from: concept:物理:沸点与气压的关系
-  to: concept:物理:大气压的变化
 - from: concept:物理:中子
   to: concept:物理:原子核
 - from: concept:物理:夸克
@@ -1888,8 +1804,6 @@
   to: concept:物理:两种电荷
 - from: concept:物理:摩擦起电的原因
   to: concept:物理:摩擦起电
-- from: concept:物理:地心说
-  to: concept:物理:日心说
 - from: concept:物理:太阳系
   to: concept:物理:宇宙结构层次
 - from: concept:物理:恒星
@@ -1898,14 +1812,8 @@
   to: concept:物理:太阳系
 - from: concept:物理:卫星
   to: concept:物理:太阳系
-- from: concept:物理:火星探测工程
-  to: concept:物理:太阳系
 - from: concept:物理:大爆炸理论
   to: concept:物理:宇宙
-- from: concept:物理:哈勃定律
-  to: concept:物理:宇宙
-- from: concept:物理:固体、液体、气体的分子模型
-  to: concept:物理:分子间存在引力
 - from: concept:物理:大气压的变化
   to: concept:物理:大气压强
 - from: concept:物理:马德堡半球实验
@@ -1918,12 +1826,8 @@
   to: concept:物理:浮力
 - from: concept:物理:物体的浮沉条件
   to: concept:物理:浮力
-- from: concept:物理:潜艇的浮沉原理
-  to: concept:物理:物体的浮沉条件
 - from: concept:物理:阿基米德原理
   to: concept:物理:浮力
-- from: concept:物理:两种电荷
-  to: concept:物理:万有引力理论
 - from: concept:物理:动滑轮
   to: concept:物理:滑轮组
 - from: concept:物理:定滑轮
@@ -1941,8 +1845,6 @@
 - from: concept:物理:动能
   to: concept:物理:机械能
 - from: concept:物理:动能和势能的相互转化
-  to: concept:物理:机械能
-- from: concept:物理:内能
   to: concept:物理:机械能
 - from: concept:物理:热传递改变物体内能
   to: concept:物理:热传递
@@ -1986,8 +1888,6 @@
   to: concept:物理:电池与环境保护
 - from: concept:物理:蓄电池
   to: concept:物理:电池与环境保护
-- from: concept:物理:短路
-  to: concept:物理:电路
 - from: concept:物理:断路
   to: concept:物理:电路
 - from: concept:物理:半导体
@@ -2006,16 +1906,8 @@
   to: concept:物理:磁体
 - from: concept:物理:地磁场
   to: concept:物理:磁场
-- from: concept:物理:感应电流
-  to: concept:物理:产生感应电流的条件
 - from: concept:物理:感应电流的方向
   to: concept:物理:感应电流
-- from: concept:物理:发电机
-  to: concept:物理:感应电流
-- from: concept:物理:换向器
-  to: concept:物理:发电机
-- from: concept:物理:受控电路
-  to: concept:物理:控制电路
 - from: concept:物理:家庭电路的组成
   to: concept:物理:家庭电路
 - from: concept:物理:火线和零线
@@ -2046,10 +1938,6 @@
   to: concept:物理:电磁铁
 - from: concept:物理:磁场对电流的作用
   to: concept:物理:直流电动机的原理
-- from: concept:物理:光缆
-  to: concept:物理:光导纤维
-- from: concept:物理:声音的三要素
-  to: concept:物理:声音的产生
 - from: concept:物理:磁感线
   to: concept:物理:通电螺线管的磁场
 - from: concept:物理:莫尔斯电码
@@ -2064,8 +1952,6 @@
   to: concept:物理:通信
 - from: concept:物理:地球静止轨道卫星
   to: concept:物理:卫星通信
-- from: concept:物理:机械波
-  to: concept:物理:电磁波
 - from: concept:物理:波长
   to: concept:物理:机械波
 - from: concept:物理:波速
@@ -2074,10 +1960,6 @@
   to: concept:物理:机械波
 - from: concept:物理:电磁波谱
   to: concept:物理:电磁波
-- from: concept:物理:不可再生能源
-  to: concept:物理:非清洁能源
-- from: concept:物理:可再生能源
-  to: concept:物理:清洁能源
 - from: concept:物理:太阳能
   to: concept:物理:可再生能源
 - from: concept:物理:光电转换
@@ -8402,8 +8284,6 @@
   to: concept:数学:除以一个数等于乘这个数的倒数
 - from: concept:数学:随机调查
   to: concept:数学:收集数据的方法
-- from: concept:数学:频数直方图
-  to: concept:数学:条形统计图
 - from: concept:语文:边读边想象画面
   to: concept:语文:想象
 - from: concept:语文:写观察日记
@@ -9190,8 +9070,6 @@
   to: concept:数学:垂直
 - from: concept:数学:线段垂直平分线的判定定理
   to: concept:数学:垂直
-- from: concept:数学:角角边（AAS）判定定理
-  to: concept:数学:三角形
 - from: concept:数学:三角形全等的判定条件SSS
   to: concept:数学:三角形
 - from: concept:数学:关于x轴对称的点的坐标特征
@@ -9220,3 +9098,5 @@
   to: concept:地理:世界气温分布规律
 - from: concept:数学:待定系数法
   to: concept:数学:一次函数
+- from: concept:物理:哈勃定律
+  to: concept:物理:宇宙
