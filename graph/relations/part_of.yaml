@@ -234,10 +234,6 @@
   to: concept:历史:早期国家
 - from: concept:历史:世袭制取代禅让制
   to: concept:历史:早期国家
-- from: concept:历史:二里头遗址
-  to: concept:历史:陶器
-- from: concept:历史:三星堆遗址
-  to: concept:历史:陶器
 - from: concept:历史:商朝的建立
   to: concept:历史:商朝的统治
 - from: concept:历史:分封制瓦解
@@ -253,8 +249,6 @@
 - from: concept:历史:铁制农具和牛耕
   to: concept:历史:铁器牛耕
 - from: concept:历史:三十税一
-  to: concept:历史:休养生息政策
-- from: concept:历史:五铢钱
   to: concept:历史:休养生息政策
 - from: concept:历史:以农为本
   to: concept:历史:休养生息政策
@@ -398,8 +392,6 @@
   to: concept:历史:郑和下西洋
 - from: concept:历史:黄宗羲的思想
   to: concept:历史:郑和下西洋
-- from: concept:历史:亚罗号事件
-  to: concept:历史:《天津条约》
 - from: concept:历史:农民阶级的局限性
   to: concept:历史:太平天国运动
 - from: concept:历史:北伐和西征
@@ -423,8 +415,6 @@
 - from: concept:历史:谭嗣同
   to: concept:历史:维新运动
 - from: concept:历史:三民主义
-  to: concept:历史:中国同盟会
-- from: concept:历史:中华民国成立
   to: concept:历史:中国同盟会
 - from: concept:历史:安庆起义
   to: concept:历史:辛亥革命
@@ -458,16 +448,8 @@
   to: concept:历史:湖北军政府
 - from: concept:历史:袁世凯窃取辛亥革命果实
   to: concept:历史:辛亥革命
-- from: concept:历史:中国共产党第一次全国代表大会
-  to: concept:历史:中国共产党成立
 - from: concept:历史:中国共产党第一个纲领
   to: concept:历史:中国共产党第一次全国代表大会
-- from: concept:历史:中国共产党早期组织
-  to: concept:历史:中国共产党成立
-- from: concept:历史:中国共产党成立
-  to: concept:历史:中国共产党诞生
-- from: concept:历史:中国共产党成立的历史意义
-  to: concept:历史:中国共产党诞生
 - from: concept:历史:五四运动的历史意义
   to: concept:历史:五四运动
 - from: concept:历史:五四运动直接目标
@@ -494,8 +476,6 @@
   to: concept:历史:新文化运动
 - from: concept:历史:马克思主义与中国工人运动相结合
   to: concept:历史:马克思主义的传播
-- from: concept:历史:中法《越南条款》
-  to: concept:历史:中法战争
 - from: concept:历史:威海卫战役
   to: concept:历史:甲午中日战争
 - from: concept:历史:平壤战役
@@ -504,11 +484,7 @@
   to: concept:历史:甲午中日战争
 - from: concept:历史:台湾人民的抗日武装斗争
   to: concept:历史:甲午中日战争
-- from: concept:历史:《马关条约》的影响
-  to: concept:历史:甲午中日战争
 - from: concept:历史:公车上书
-  to: concept:历史:戊戌六君子
-- from: concept:历史:京师大学堂
   to: concept:历史:戊戌六君子
 - from: concept:历史:新式海军
   to: concept:历史:洋务运动
@@ -518,20 +494,12 @@
   to: concept:历史:中法战争
 - from: concept:历史:列强瓜分中国狂潮
   to: concept:历史:八国联军侵华战争
-- from: concept:历史:义和团运动
-  to: concept:历史:八国联军侵华战争
 - from: concept:历史:实业救国
   to: concept:历史:民族资本主义的初步发展
-- from: concept:历史:中共二大
-  to: concept:历史:中国共产党对革命同盟的认识
-- from: concept:历史:中共三大
-  to: concept:历史:中国共产党对革命同盟的认识
 - from: concept:历史:南昌起义
   to: concept:历史:农村包围城市、武装夺取政权
 - from: concept:历史:井冈山革命根据地
   to: concept:历史:农村包围城市、武装夺取政权
-- from: concept:历史:井冈山会师
-  to: concept:历史:井冈山革命根据地
 - from: concept:历史:四一二反革命政变
   to: concept:历史:七一五反革命政变
 - from: concept:历史:国民党一大
@@ -540,8 +508,6 @@
   to: concept:历史:国民革命
 - from: concept:历史:南京国民政府
   to: concept:历史:宁汉合流
-- from: concept:历史:中华苏维埃共和国临时中央政府
-  to: concept:历史:农村包围城市、武装夺取政权
 - from: concept:历史:湘江战役
   to: concept:历史:红军长征
 - from: concept:历史:第五次反“围剿”
@@ -557,8 +523,6 @@
 - from: concept:历史:九一八事变
   to: concept:历史:局部抗战
 - from: concept:历史:华北自治运动
-  to: concept:历史:局部抗战
-- from: concept:历史:七七事变
   to: concept:历史:局部抗战
 - from: concept:历史:国共合作宣言
   to: concept:历史:七七事变
@@ -620,8 +584,6 @@
   to: concept:历史:一边倒
 - from: concept:历史:《共同纲领》
   to: concept:历史:中国人民政治协商会议
-- from: concept:历史:万隆会议
-  to: concept:历史:和平共处五项原则
 - from: concept:历史:上甘岭战役
   to: concept:历史:抗美援朝战争
 - from: concept:历史:中国人民志愿军
@@ -632,10 +594,6 @@
   to: concept:历史:中华人民共和国成立的历史意义
 - from: concept:历史:抗美援朝精神
   to: concept:历史:抗美援朝战争
-- from: concept:历史:两弹一星功勋奖章
-  to: concept:历史:“两弹一星”
-- from: concept:历史:两弹一星精神
-  to: concept:历史:“两弹一星”
 - from: concept:历史:八字方针
   to: concept:历史:“调整、巩固、充实、提高”方针
 - from: concept:历史:华东军区海军
@@ -676,12 +634,8 @@
   to: concept:历史:人民生活总体达到小康
 - from: concept:历史:上海精神
   to: concept:历史:上海合作组织
-- from: concept:历史:中共十五大
-  to: concept:历史:依法治国
 - from: concept:历史:中国参与联合国维和行动
   to: concept:历史:全方位外交
-- from: concept:历史:中国特色军事变革
-  to: concept:历史:中国参与联合国维和行动
 - from: concept:历史:五个一工程
   to: concept:历史:社会主义精神文明建设
 - from: concept:历史:依法治国
@@ -724,16 +678,6 @@
   to: concept:历史:中国特色社会主义理论体系
 - from: concept:历史:澳门回归
   to: concept:历史:一国两制
-- from: concept:历史:两免一补
-  to: concept:历史:全面建设小康社会目标
-- from: concept:历史:中国—东盟自由贸易区
-  to: concept:历史:全面建设小康社会目标
-- from: concept:历史:中国特色现代化武器装备体系
-  to: concept:历史:军事战略方针
-- from: concept:历史:中非新型战略伙伴关系
-  to: concept:历史:全面建设小康社会目标
-- from: concept:历史:京津城际铁路
-  to: concept:历史:全面建设小康社会目标
 - from: concept:历史:公共文化服务体系
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:脱贫攻坚战全面胜利
@@ -868,8 +812,6 @@
   to: concept:历史:达尔文
 - from: concept:历史:凡尔赛体系
   to: concept:历史:凡尔赛—华盛顿体系
-- from: concept:历史:三国同盟
-  to: concept:历史:三国协约
 - from: concept:历史:亚洲战争策源地
   to: concept:历史:法西斯同盟
 - from: concept:历史:欧洲战争策源地
@@ -916,8 +858,6 @@
   to: concept:历史:社会主义力量壮大
 - from: concept:历史:欧洲共同体
   to: concept:历史:欧洲联盟
-- from: concept:历史:万隆精神
-  to: concept:历史:求同存异方针
 - from: concept:地理:北方地区
   to: concept:地理:四大地理区域
 - from: concept:地理:南方地区
@@ -6684,12 +6624,8 @@
   to: concept:语文:隆中对
 - from: concept:语文:屏人促席
   to: concept:语文:隆中对
-- from: concept:历史:世袭制取代禅让制
-  to: concept:历史:夏朝的建立
 - from: concept:历史:《兰亭集序》
   to: concept:历史:书法艺术
-- from: concept:历史:《金刚经》
-  to: concept:历史:雕版印刷术
 - from: concept:历史:一条鞭法
   to: concept:历史:张居正改革
 - from: concept:历史:《马关条约》的影响
@@ -6702,8 +6638,6 @@
   to: concept:历史:三民主义
 - from: concept:历史:民生主义
   to: concept:历史:三民主义
-- from: concept:历史:中华民国成立
-  to: concept:历史:辛亥革命
 - from: concept:历史:中国共产党第一个纲领
   to: concept:历史:中国共产党成立
 - from: concept:历史:伟大建党精神
@@ -6712,8 +6646,6 @@
   to: concept:历史:马克思主义的传播
 - from: concept:历史:民主革命纲领
   to: concept:历史:中共二大
-- from: concept:历史:中国劳动组合书记部
-  to: concept:历史:第一次工人运动高潮
 - from: concept:历史:三湾改编
   to: concept:历史:井冈山革命根据地
 - from: concept:历史:三大纪律八项注意
@@ -6739,12 +6671,8 @@
 - from: concept:历史:两个一百年奋斗目标
   to: concept:历史:中国梦
 - from: concept:历史:两个一百年奋斗目标
-  to: concept:历史:习近平新时代中国特色社会主义思想
-- from: concept:历史:两个一百年奋斗目标
   to: concept:历史:四个全面战略布局
 - from: concept:历史:两个一百年奋斗目标
-  to: concept:历史:中共十八大
-- from: concept:历史:五位一体总体布局
   to: concept:历史:中共十八大
 - from: concept:历史:全面依法治国
   to: concept:历史:中共十八届四中全会
@@ -6766,8 +6694,6 @@
   to: concept:历史:中世纪
 - from: concept:历史:大学的兴起
   to: concept:历史:中世纪
-- from: concept:历史:三角贸易
-  to: concept:历史:资本原始积累
 - from: concept:历史:《共产党宣言》
   to: concept:历史:马克思主义
 - from: concept:历史:《五条誓文》
@@ -6836,8 +6762,6 @@
   to: concept:历史:百日维新
 - from: concept:历史:京师同文馆
   to: concept:历史:洋务运动
-- from: concept:历史:《辛丑条约》
-  to: concept:历史:八国联军侵华战争
 - from: concept:历史:光复会
   to: concept:历史:中国同盟会
 - from: concept:历史:兴中会
@@ -6850,8 +6774,6 @@
   to: concept:历史:军阀割据
 - from: concept:历史:五四运动
   to: concept:历史:新民主主义革命
-- from: concept:历史:二七惨案
-  to: concept:历史:京汉铁路工人大罢工
 - from: concept:历史:京汉铁路工人大罢工
   to: concept:历史:第一次工人运动高潮
 - from: concept:历史:八路军
@@ -6894,38 +6816,28 @@
   to: concept:历史:中国特色社会主义理论体系
 - from: concept:历史:中国梦
   to: concept:历史:习近平新时代中国特色社会主义思想
-- from: concept:历史:中国特色社会主义制度
-  to: concept:历史:习近平新时代中国特色社会主义思想
 - from: concept:历史:社会主要矛盾
   to: concept:历史:中国特色社会主义新时代
 - from: concept:历史:社会主要矛盾
   to: concept:历史:习近平新时代中国特色社会主义思想
 - from: concept:历史:五大战区
   to: concept:历史:强军之路
-- from: concept:历史:亚太经合组织
-  to: concept:历史:中国特色大国外交
 - from: concept:历史:人类命运共同体
   to: concept:历史:中国特色大国外交
 - from: concept:历史:全民国家安全教育日
   to: concept:历史:总体国家安全观
 - from: concept:历史:全面从严治党
   to: concept:历史:四个全面战略布局
-- from: concept:历史:两个确立
-  to: concept:历史:习近平新时代中国特色社会主义思想
 - from: concept:历史:中国式现代化
   to: concept:历史:习近平新时代中国特色社会主义思想
 - from: concept:历史:习近平新时代中国特色社会主义思想
   to: concept:历史:马克思主义中国化时代化
 - from: concept:历史:全面建成小康社会
   to: concept:历史:新时代十年的伟大变革
-- from: concept:历史:中国式现代化
-  to: concept:历史:中共二十大
 - from: concept:历史:伯里克利改革
   to: concept:历史:雅典民主政治
 - from: concept:历史:亚洲战争策源地
   to: concept:历史:第二次世界大战
-- from: concept:历史:世界反法西斯战争的东方主战场
-  to: concept:历史:第二次世界大战的胜利
 - from: concept:历史:半地穴式房屋
   to: concept:历史:半坡遗址
 - from: concept:历史:夏朝的建立
@@ -7144,8 +7056,6 @@
   to: concept:历史:河姆渡遗址
 - from: concept:历史:贫富分化
   to: concept:历史:氏族社会
-- from: concept:历史:人文初祖
-  to: concept:历史:炎帝和黄帝
 - from: concept:历史:王室衰微
   to: concept:历史:春秋时期
 - from: concept:历史:法家学派
@@ -7250,8 +7160,6 @@
   to: concept:历史:经济特区
 - from: concept:历史:港珠澳大桥
   to: concept:历史:粤港澳大湾区
-- from: concept:历史:世界市场
-  to: concept:历史:新航路开辟
 - from: concept:历史:三角贸易
   to: concept:历史:早期殖民掠夺
 - from: concept:历史:资本原始积累
@@ -7302,8 +7210,6 @@
   to: concept:历史:武汉会战
 - from: concept:历史:皖南事变
   to: concept:历史:抗日民族统一战线
-- from: concept:历史:三步走发展战略
-  to: concept:历史:社会主义初级阶段理论
 - from: concept:历史:西电东送工程
   to: concept:历史:西部大开发战略
 - from: concept:历史:构建社会主义和谐社会
@@ -7335,8 +7241,6 @@
 - from: concept:历史:凡尔登战役
   to: concept:历史:第一次世界大战
 - from: concept:历史:巴黎和会
-  to: concept:历史:第一次世界大战
-- from: concept:历史:二月革命
   to: concept:历史:第一次世界大战
 - from: concept:历史:萨拉热窝事件
   to: concept:历史:第一次世界大战
