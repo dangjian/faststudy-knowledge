@@ -27,7 +27,8 @@
     "eval:type": "tsx src/eval_type.ts ../..",
     "eval:mastery": "tsx src/eval_mastery.ts ../..",
     "eval:strength": "tsx src/eval_strength.ts ../..",
-    "demo": "tsx src/build_demo.ts ../.."
+    "demo": "tsx src/build_demo.ts ../..",
+    "pages": "python3 scripts/check_pages.py"
   },
   "dependencies": {
     "glob": "^11.0.0",

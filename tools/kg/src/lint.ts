@@ -402,6 +402,41 @@ function checkPageRangeRequired(g: LoadedGraph, report: LintReport): void {
   }
 }
 
+// rule 18 pageRange-bounds: 页码不得越出书本身。
+//
+// 语义（2026-10 实测确认）：pageRange 是**印刷页码**，PDF/页图页序 = 印刷页码 + imageOffset。
+//
+// 只做一件事：印刷页码不得超过书级 totalPages。**不加 offset**——因为 totalPages 各册语义不统一
+// （PEP-1-1-Chinese 记的是 PDF 页数 118，BSDU-7-1-Math 记的是印刷页数 202 而 PDF 有 208 页），
+// 加上 offset 再比会造出成批误报（试过，18 条全是假的）。
+//
+// 真正的「页码越界」需要打开 PDF 才能判，交给 tools/kg/scripts/check_pages.py：
+// 它按 pageRange[1] + imageOffset 与 PDF 实际页数比对，物理八下 C5 的 [109,138] 就是它发现的。
+function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
+  const books = new Map<string, { totalPages?: number; offset: number }>()
+  for (const e of g.entities) {
+    if (e.type !== 'Textbook') continue
+    const t = e as { totalPages?: number; imageOffset?: number }
+    books.set(e.id, { totalPages: t.totalPages, offset: t.imageOffset ?? 0 })
+  }
+  for (const e of g.entities) {
+    if (e.type !== 'Chapter' && e.type !== 'Section') continue
+    const node = e as { id: string; textbookId: string; pageRange?: [number, number] }
+    const r = node.pageRange
+    if (!r) continue
+    const b = books.get(node.textbookId)
+    if (!b?.totalPages) continue
+    if (r[0] < 1 || r[1] < r[0]) {
+      report.errors.push(finding('pageRange-bounds', 'error', `页码区间非法 [${r[0]}, ${r[1]}]`, node.id))
+      continue
+    }
+    if (r[1] > b.totalPages) {
+      report.errors.push(finding('pageRange-bounds', 'error',
+        `印刷页码 p.${r[1]} 超过全书 ${b.totalPages} 页`, node.id))
+    }
+  }
+}
+
 // rule 19 section-toc-agree: 已重切书（outlineSource: catalog-toc）节标题须与目录快照宽容一致（warning，灰度）
 // （原 rule 18 duplicate-exercise-body 随 2026-09-27 刷题层移除删除，rule 19 编号保持不变）
 export function checkSectionTocAgree(g: LoadedGraph, report: LintReport, snapPathOverride?: string): void {
@@ -446,6 +481,7 @@ export function lint(g: LoadedGraph, suspended?: Set<string>): LintReport {
   checkBookFrontmatter(g, report)
   checkBookIndexRequired(g, report)
   checkPageRangeRequired(g, report)
+  checkPageRangeBounds(g, report)
   checkSectionTocAgree(g, report)
   checkSectionProseMin(g, report)
   checkSectionConceptMin(g, report)

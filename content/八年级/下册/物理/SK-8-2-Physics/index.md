@@ -158,14 +158,14 @@ chapters:
   order: 5
   pageRange:
   - 109
-  - 138
+  - 126
   sections:
   - id: S1
     title: 第5单元 第十章 从粒子到宇宙
     order: 1
     pageRange:
     - 109
-    - 138
+    - 126
 ---
 
 # （根据2022年版课程标准修订）义务教育教科书·物理八年级下册
