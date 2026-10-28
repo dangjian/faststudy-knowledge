@@ -1958,8 +1958,6 @@
   to: concept:生物:能量转换器
 - from: concept:生物:线粒体是能量转换器
   to: concept:生物:能量转换器
-- from: concept:生物:组织
-  to: concept:生物:细胞
 - from: concept:生物:细胞分化
   to: concept:生物:细胞分裂和分化
 - from: concept:生物:细胞分裂
@@ -1968,8 +1966,6 @@
   to: concept:生物:细胞
 - from: concept:生物:细胞核
   to: concept:生物:细胞
-- from: concept:生物:细胞液
-  to: concept:生物:细胞质
 - from: concept:生物:细胞膜
   to: concept:生物:细胞
 - from: concept:生物:细胞质
@@ -2018,8 +2014,6 @@
   to: concept:生物:植物细胞的基本结构
 - from: concept:生物:神经组织
   to: concept:生物:组织
-- from: concept:生物:系统
-  to: concept:生物:植物体结构层次
 - from: concept:生物:细胞膜控制物质进出
   to: concept:生物:细胞膜
 - from: concept:生物:两栖动物的主要特征
@@ -2028,8 +2022,6 @@
   to: concept:生物:两栖动物
 - from: concept:生物:两栖动物与人类生活的关系
   to: concept:生物:两栖动物
-- from: concept:生物:输导组织
-  to: concept:生物:薄壁组织
 - from: concept:生物:扁形动物
   to: concept:生物:无脊椎动物
 - from: concept:生物:环节动物
@@ -2066,8 +2058,6 @@
   to: concept:生物:动脉
 - from: concept:生物:鸟适于飞行的形态结构特点
   to: concept:生物:鸟的主要特征
-- from: concept:生物:芽的发育
-  to: concept:生物:根尖的结构
 - from: concept:生物:种子萌发的环境条件
   to: concept:生物:种子萌发的过程
 - from: concept:生物:种子萌发的自身条件
@@ -2082,46 +2072,22 @@
   to: concept:生物:生殖系统
 - from: concept:生物:营养菌丝
   to: concept:生物:霉菌
-- from: concept:生物:蕨类植物
-  to: concept:生物:藻类植物
 - from: concept:生物:藻类
   to: concept:生物:藻类植物
-- from: concept:生物:蘑菇
-  to: concept:生物:霉菌
-- from: concept:生物:被子植物
-  to: concept:生物:藻类植物
-- from: concept:生物:超级细菌
-  to: concept:生物:菌落
-- from: concept:生物:酵母菌
-  to: concept:生物:菌落
-- from: concept:生物:霉菌
-  to: concept:生物:菌落
-- from: concept:生物:鞭毛
-  to: concept:生物:超级细菌
-- from: concept:生物:鱼的主要特征
-  to: concept:生物:鱼与人类生活的关系
 - from: concept:生物:鱼的体形与运动
   to: concept:生物:鱼的主要特征
 - from: concept:生物:鱼的呼吸器官——鳃
   to: concept:生物:鱼的主要特征
-- from: concept:生物:鸟的主要特征
-  to: concept:生物:鸟与人类生活的关系
 - from: concept:生物:植株生长需要的无机盐
   to: concept:生物:水和无机盐
 - from: concept:生物:种子的结构
   to: concept:生物:种子植物
-- from: concept:生物:细菌
-  to: concept:生物:细菌和真菌与人类的关系
-- from: concept:生物:细菌和真菌在自然界中的作用
-  to: concept:生物:细菌和真菌与人类的关系
 - from: concept:生物:芽孢
   to: concept:生物:细菌
 - from: concept:生物:荚膜
   to: concept:生物:细菌
 - from: concept:生物:菌落
   to: concept:生物:细菌
-- from: concept:生物:苔藓植物
-  to: concept:生物:藻类植物
 - from: concept:生物:血小板
   to: concept:生物:血细胞
 - from: concept:生物:血细胞
@@ -2132,46 +2098,24 @@
   to: concept:生物:血液的组成与功能
 - from: concept:生物:血红蛋白
   to: concept:生物:血细胞
-- from: concept:生物:造血干细胞
-  to: concept:生物:血细胞
 - from: concept:生物:静脉瓣
   to: concept:生物:静脉
 - from: concept:生物:青春期发育特点
   to: concept:生物:青春期
 - from: concept:生物:青春期卫生保健
   to: concept:生物:青春期
-- from: concept:生物:肺循环
-  to: concept:生物:血液的组成与功能
-- from: concept:生物:肺泡
-  to: concept:生物:肺循环
 - from: concept:生物:肺泡与血液的气体交换
   to: concept:生物:肺泡
 - from: concept:生物:肾小球的滤过作用
   to: concept:生物:肾的功能
-- from: concept:生物:肾衰竭
-  to: concept:生物:肾的功能
-- from: concept:生物:血液透析
-  to: concept:生物:肾衰竭
-- from: concept:生物:肾移植
-  to: concept:生物:肾衰竭
-- from: concept:生物:胃蛋白酶
-  to: concept:生物:蛋白质
 - from: concept:生物:胎盘
   to: concept:生物:胚胎发育
 - from: concept:生物:脐带
   to: concept:生物:胚胎发育
-- from: concept:生物:脂质
-  to: concept:生物:营养物质的吸收
 - from: concept:生物:蛋白质
   to: concept:生物:营养物质的吸收
-- from: concept:生物:膈肌
-  to: concept:生物:肺循环
 - from: concept:生物:血液
   to: concept:生物:血液的组成与功能
-- from: concept:生物:血量
-  to: concept:生物:血液的组成与功能
-- from: concept:生物:贫血
-  to: concept:生物:血液的功能
 - from: concept:生物:大脑
   to: concept:生物:神经系统
 - from: concept:生物:小脑
@@ -2184,18 +2128,12 @@
   to: concept:生物:神经系统
 - from: concept:生物:神经纤维
   to: concept:生物:神经元
-- from: concept:生物:神经胶质细胞
-  to: concept:生物:神经元
 - from: concept:生物:视网膜
   to: concept:生物:眼球的结构
 - from: concept:生物:膝跳反射
   to: concept:生物:非条件反射
 - from: concept:生物:肾单位
   to: concept:生物:泌尿系统的组成
-- from: concept:生物:肾小球的滤过作用
-  to: concept:生物:肾单位
-- from: concept:生物:肾小管的重吸收作用
-  to: concept:生物:肾单位
 - from: concept:生物:传入神经
   to: concept:生物:反射弧
 - from: concept:生物:传出神经
@@ -2204,11 +2142,7 @@
   to: concept:生物:反射弧
 - from: concept:生物:反射弧
   to: concept:生物:反射
-- from: concept:生物:眼球的结构
-  to: concept:生物:凸透镜和凹透镜
 - from: concept:生物:瞳孔的调节
-  to: concept:生物:眼球的结构
-- from: concept:生物:白内障
   to: concept:生物:眼球的结构
 - from: concept:生物:近视的矫正
   to: concept:生物:近视
@@ -2254,16 +2188,6 @@
   to: concept:生物:运动需要多个系统的配合
 - from: concept:生物:运动损伤的预防与处理
   to: concept:生物:运动系统
-- from: concept:生物:病毒性肝炎
-  to: concept:生物:病原体
-- from: concept:生物:艾滋病
-  to: concept:生物:病原体
-- from: concept:生物:血吸虫病
-  to: concept:生物:病原体
-- from: concept:生物:血液传播
-  to: concept:生物:病原体
-- from: concept:生物:飞沫传播
-  to: concept:生物:病原体
 - from: concept:生物:牛痘接种法
   to: concept:生物:疫苗
 - from: concept:生物:第一道防线
@@ -2280,10 +2204,6 @@
   to: concept:生物:传染病预防
 - from: concept:生物:综合措施与重点措施相结合
   to: concept:生物:传染病预防
-- from: concept:生物:非处方药
-  to: concept:生物:药品说明书
-- from: concept:生物:药物误用和滥用
-  to: concept:生物:药品说明书
 - from: concept:生物:过敏原
   to: concept:生物:过敏反应
 - from: concept:生物:免疫器官
@@ -2314,15 +2234,9 @@
   to: concept:生物:传染病的预防措施
 - from: concept:生物:保护易感人群
   to: concept:生物:传染病的预防措施
-- from: concept:生物:脂肪性肝炎
-  to: concept:生物:传染病
 - from: concept:生物:人痘接种法
   to: concept:生物:免疫规划
-- from: concept:生物:静脉出血
-  to: concept:生物:止血方法
 - from: concept:生物:螺旋形包扎法
-  to: concept:生物:止血方法
-- from: concept:生物:胸外按压
   to: concept:生物:止血方法
 - from: concept:生物:酒精中毒
   to: concept:生物:酒精对健康的危害
@@ -2334,8 +2248,6 @@
   to: concept:生物:生活方式
 - from: concept:生物:运动
   to: concept:生物:生活方式
-- from: concept:生物:药物不良反应
-  to: concept:生物:生活方式病
 - from: concept:生物:预防接种证
   to: concept:生物:传染病预防
 - from: concept:生物:开放气道
@@ -2456,10 +2368,6 @@
   to: concept:生物:化石
 - from: concept:生物:古猿
   to: concept:生物:共同祖先
-- from: concept:生物:直立人
-  to: concept:生物:古人类化石
-- from: concept:生物:直立行走
-  to: concept:生物:直立人
 - from: concept:生物:有利变异
   to: concept:生物:自然选择
 - from: concept:生物:过度繁殖
@@ -2478,14 +2386,10 @@
   to: concept:生物:外来入侵物种
 - from: concept:生物:麦芽糖
   to: concept:生物:食物中的营养物质
-- from: concept:生物:食物的消化
-  to: concept:生物:食物中的营养物质
 - from: concept:生物:呼吸系统的组成
   to: concept:生物:人体的呼吸
 - from: concept:生物:肺与外界的气体交换
   to: concept:生物:人体的呼吸
-- from: concept:生物:血浆
-  to: concept:生物:静脉
 - from: concept:生物:土地沙化
   to: concept:生物:生态环境问题
 - from: concept:生物:水土流失
@@ -2504,10 +2408,6 @@
   to: concept:生物:碳中和
 - from: concept:生物:碳捕集、利用与封存技术
   to: concept:生物:碳中和
-- from: concept:生物:食物链和食物网
-  to: concept:生物:生态系统的组成成分
-- from: concept:生物:能量流动和物质循环
-  to: concept:生物:生态系统的组成成分
 - from: concept:生物:生态系统的自我调节能力
   to: concept:生物:生态系统的稳定性
 - from: concept:生物:全球变暖
@@ -7238,8 +7138,6 @@
   to: concept:生物:内分泌腺
 - from: concept:生物:胰岛
   to: concept:生物:内分泌腺
-- from: concept:生物:病原体
-  to: concept:生物:传染病
 - from: concept:生物:病毒性肝炎
   to: concept:生物:传染病
 - from: concept:生物:结核病
@@ -7458,8 +7356,6 @@
   to: concept:生物:细胞学说
 - from: concept:生物:细胞核是细胞的控制中心
   to: concept:生物:细胞核
-- from: concept:生物:细胞质
-  to: concept:生物:细胞的生活是物质、能量和信息的统一
 - from: concept:生物:组织
   to: concept:生物:动物体结构层次
 - from: concept:生物:组织
@@ -7516,8 +7412,6 @@
   to: concept:生物:血液的组成
 - from: concept:生物:血液的功能
   to: concept:生物:血液
-- from: concept:生物:血量
-  to: concept:生物:血液
 - from: concept:生物:血红蛋白
   to: concept:生物:红细胞
 - from: concept:生物:体循环
@@ -7560,8 +7454,6 @@
   to: concept:生物:近亲结婚
 - from: concept:生物:直立人
   to: concept:生物:从猿到人的进化
-- from: concept:生物:米勒实验
-  to: concept:生物:生命起源的化学进化说
 - from: concept:生物:外来物种入侵
   to: concept:生物:生物多样性面临的威胁
 - from: concept:生物:外来入侵物种
