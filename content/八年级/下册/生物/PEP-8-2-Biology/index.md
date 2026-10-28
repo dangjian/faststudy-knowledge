@@ -6,7 +6,7 @@ term: '2'
 subject: 生物
 publisher: PEP
 standardEdition: 2022版
-totalPages: 101
+totalPages: 106
 imageOffset: 5
 origin: textbook
 outlineSource: catalog-toc

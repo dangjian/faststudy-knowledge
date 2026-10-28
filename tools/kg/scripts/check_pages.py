@@ -15,6 +15,7 @@
 前缀而重复拼接，导致 md 恒为空、对位检查一条未跑，却报出「0 处不符」。
 现在 md 路径直接用 sourceRef，并把 PDF 页换算写成显式公式。
 """
+import glob
 import json
 import os
 import re
@@ -25,9 +26,8 @@ PDF_DIR = os.path.join(ROOT, 'source_data/pdf_sources')
 
 try:
     import pymupdf
-except ImportError:
-    print('需要 pymupdf：pip3 install --user --break-system-packages pymupdf')
-    sys.exit(1)
+except ImportError:  # 无 PDF 库时仍做元数据一致性检查
+    pymupdf = None
 
 
 def norm(s):
@@ -50,7 +50,45 @@ def section_body(sec):
     return norm(s)[:10]
 
 
+def check_book_meta():
+    """书级 index.md 的 totalPages / imageOffset 必须与 source_data/<book>/metadata.json 一致。
+
+    totalPages 一旦漂移，rule 18 的判据就失效（曾出现 6 册被改成「印刷页数」或
+    「最后一节结束页」），而 demo 又会把它当作「全书共 N 页」展示给读者。
+    """
+    problems = []
+    for meta_path in sorted(glob.glob(os.path.join(ROOT, 'source_data/*/metadata.json'))):
+        bid = os.path.basename(os.path.dirname(meta_path))
+        try:
+            meta = json.load(open(meta_path, encoding='utf-8'))
+        except (OSError, json.JSONDecodeError):
+            continue
+        idx = glob.glob(os.path.join(ROOT, 'content/**/', bid, 'index.md'), recursive=True)
+        if not idx:
+            continue
+        s = open(idx[0], encoding='utf-8').read()[:600]
+        m_tp = re.search(r'totalPages:\s*(\d+)', s)
+        m_io = re.search(r'imageOffset:\s*(\d+)', s)
+        if not m_tp:
+            problems.append(f'{bid}: index.md 缺 totalPages')
+            continue
+        if int(m_tp.group(1)) != meta.get('totalPages'):
+            problems.append(f"{bid}: totalPages index={m_tp.group(1)} ≠ metadata={meta.get('totalPages')}")
+        if m_io and meta.get('imageOffset') is not None and int(m_io.group(1)) != meta['imageOffset']:
+            problems.append(f"{bid}: imageOffset index={m_io.group(1)} ≠ metadata={meta['imageOffset']}")
+    return problems
+
+
 def main():
+    drift = check_book_meta()
+    print(f'元数据一致性（index.md vs metadata.json）：{"✓ 全部一致" if not drift else f"✗ {len(drift)} 处不一致"}')
+    for d in drift[:8]:
+        print('   ' + d)
+
+    if pymupdf is None:
+        print('未安装 pymupdf，跳过 PDF 核对：pip3 install --user --break-system-packages pymupdf')
+        return 1 if drift else 0
+
     g = json.load(open(os.path.join(ROOT, 'dist/graph.json'), encoding='utf-8'))
     books = {n['id']: n for n in g['nodes'] if n['type'] == 'Textbook'}
     secs = {}
@@ -100,7 +138,8 @@ def main():
         print(f'   不符: {x[0]} {x[1]} 印刷 p.{x[2]} → PDF {x[3]} | md 开头 {x[4]}')
     if empty:
         print(f'抽到无文本层页 {empty} 处（扫描件，无法自动核对）')
+    return 1 if (drift or oob) else 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

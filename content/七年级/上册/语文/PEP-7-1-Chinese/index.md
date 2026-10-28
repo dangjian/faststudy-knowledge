@@ -6,7 +6,7 @@ term: '1'
 subject: 语文
 publisher: PEP
 standardEdition: 2022版
-totalPages: 156
+totalPages: 166
 imageOffset: 7
 origin: textbook
 outlineSource: catalog-toc

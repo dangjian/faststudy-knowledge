@@ -6,7 +6,7 @@ term: '1'
 subject: 历史
 publisher: PEP
 standardEdition: 2022版
-totalPages: 125
+totalPages: 134
 imageOffset: 5
 origin: textbook
 outlineSource: catalog-toc

@@ -6,7 +6,7 @@ term: '1'
 subject: 数学
 publisher: BSDU
 standardEdition: 2022版
-totalPages: 202
+totalPages: 208
 imageOffset: 6
 origin: textbook
 outlineSource: catalog-toc

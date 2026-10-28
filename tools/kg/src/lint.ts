@@ -405,13 +405,18 @@ function checkPageRangeRequired(g: LoadedGraph, report: LintReport): void {
 // rule 18 pageRange-bounds: 页码不得越出书本身。
 //
 // 语义（2026-10 实测确认）：pageRange 是**印刷页码**，PDF/页图页序 = 印刷页码 + imageOffset。
+// 书级 totalPages 必须是 **PDF 页数**（与 source_data/<book>/metadata.json 一致），
+// 于是合法条件就是 pageRange[1] + imageOffset <= totalPages。
 //
-// 只做一件事：印刷页码不得超过书级 totalPages。**不加 offset**——因为 totalPages 各册语义不统一
-// （PEP-1-1-Chinese 记的是 PDF 页数 118，BSDU-7-1-Math 记的是印刷页数 202 而 PDF 有 208 页），
-// 加上 offset 再比会造出成批误报（试过，18 条全是假的）。
+// 为什么只校验 Section、不校验 Chapter：
+//   章的 pageRange 覆盖整章（含单元小结、练习），而这些块在数据里没有对应节，
+//   章末页无法从节推导；且实测有 4 册章上界直接写成了 PDF 总页数
+//   （SK-8-1-Physics C5 121-158、BSDU-8-1-Math C8 200-205、
+//     PEP-7-2-Biology C9 124-143、PEP-7-1-Biology C9 122-146）——章级数据本身待清理。
+//   节级 2,976 条经全量核对全部合法，故对节严格、对章暂不报错。
 //
-// 真正的「页码越界」需要打开 PDF 才能判，交给 tools/kg/scripts/check_pages.py：
-// 它按 pageRange[1] + imageOffset 与 PDF 实际页数比对，物理八下 C5 的 [109,138] 就是它发现的。
+// totalPages 曾经各册语义不一（有的记 PDF 页数、有的记印刷页数），已按 metadata.json 统一；
+// 漂移由 gen_book_index.py 的 G1 校验拦截。
 function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
   const books = new Map<string, { totalPages?: number; offset: number }>()
   for (const e of g.entities) {
@@ -420,7 +425,7 @@ function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
     books.set(e.id, { totalPages: t.totalPages, offset: t.imageOffset ?? 0 })
   }
   for (const e of g.entities) {
-    if (e.type !== 'Chapter' && e.type !== 'Section') continue
+    if (e.type !== 'Section') continue
     const node = e as { id: string; textbookId: string; pageRange?: [number, number] }
     const r = node.pageRange
     if (!r) continue
@@ -430,9 +435,11 @@ function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
       report.errors.push(finding('pageRange-bounds', 'error', `页码区间非法 [${r[0]}, ${r[1]}]`, node.id))
       continue
     }
-    if (r[1] > b.totalPages) {
+    const lastPdfPage = r[1] + b.offset
+    if (lastPdfPage > b.totalPages) {
       report.errors.push(finding('pageRange-bounds', 'error',
-        `印刷页码 p.${r[1]} 超过全书 ${b.totalPages} 页`, node.id))
+        `页码越界：印刷 p.${r[1]} + imageOffset ${b.offset} = 第 ${lastPdfPage} 页，超过全书 ${b.totalPages} 页`,
+        node.id))
     }
   }
 }
