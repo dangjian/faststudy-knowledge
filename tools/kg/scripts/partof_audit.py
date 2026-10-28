@@ -32,13 +32,32 @@ def norm(s):
     return (s or '').replace(' ', '').replace('\u3000', '')
 
 
+def yaml_edges():
+    """直接从 part_of.yaml 读边，而不是读 dist 快照。
+
+    为什么：apply 只改 yaml，dist 要等 kg:build 才更新。若这里读 dist，
+    apply 之后立刻 stat/next 拿到的是旧图，offset 切片会重叠或漏判
+    （第 13 轮就因此把「待判」算成了 -44）。
+    """
+    out = []
+    lines = open(os.path.join(ROOT, 'graph/relations/part_of.yaml'), encoding='utf-8').read().split('\n')
+    i = 0
+    while i < len(lines):
+        if lines[i].startswith('- from:') and i + 1 < len(lines) and lines[i + 1].startswith('  to:'):
+            out.append({'type': 'part_of',
+                        'from': lines[i].split(': ', 1)[1].strip(),
+                        'to': lines[i + 1].split(': ', 1)[1].strip()})
+            i += 2
+            continue
+        i += 1
+    return out
+
+
 def candidates(g):
     """非「标题含容」的 part_of 边，按 id 排序保证顺序稳定。"""
     by_id = {n['id']: n for n in g['nodes']}
     out = []
-    for e in g['edges']:
-        if e['type'] != 'part_of':
-            continue
+    for e in yaml_edges():
         c, p = by_id.get(e['from']), by_id.get(e['to'])
         if not c or not p:
             continue
@@ -104,7 +123,8 @@ def cmd_stat():
     cands, _ = candidates(g)
     done = ledger()
     wrong = sum(1 for v in done.values() if v.startswith('wrong'))
-    print(f'非含容边 {len(cands)} | 已判 {len(done)} | 判错 {wrong} | 待判 {len(cands) - len(done)}')
+    todo = sum(1 for e in cands if f"{e['from']}|{e['to']}" not in done)
+    print(f'非含容边 {len(cands)} | 台账 {len(done)} 条（含已移走的边）| 判错 {wrong} | 待判 {todo}')
     if done:
         print(f'样本精度 {(len(done) - wrong) / len(done) * 100:.1f}%')
 
