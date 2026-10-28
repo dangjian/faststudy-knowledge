@@ -9,6 +9,8 @@
   explanation: 一天中气温会不断变化：早晚比较凉，中午到午后气温最高。按时测量同一地点的气温，就能发现这个规律。
   misconceptions:
     - 误认为中午 12 点气温最高，实际最高气温出现在中午到午后。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为中午 12 点气温最高，实际最高气温出现在中午到午后。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:三角形结构
   type: Concept
@@ -20,6 +22,8 @@
   explanation: 三角形比较稳固、不易变形，在塔台等建筑中多用三角形结构可以让工程更结实。
   misconceptions:
     - 误认为四边形结构和三角形一样稳固，实际四边形受力容易变形，三角形不易变形。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为四边形结构和三角形一样稳固，实际四边形受力容易变形，三角形不易变形。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:乐器声音的变化
   type: Concept
@@ -32,6 +36,8 @@
   explanation: 乐器靠改变发声部分的振动来改变声音：琴弦的粗细、长短、松紧不同，声音高低就不同；弹拨的力度不同，声音强弱就不同。
   misconceptions:
     - 误认为弹拨力度越大声音越高，实际力度改变的是声音强弱，音高由振动部分的粗细、长短、松紧决定。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为弹拨力度越大声音越高，实际力度改变的是声音强弱，音高由振动部分的粗细、长短、松紧决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:二十四节气
   type: Concept
@@ -43,6 +49,8 @@
   explanation: 我国古人长期观察太阳运行规律，在四季基础上细分出二十四节气，用来指导农业生产。
   misconceptions:
     - 误认为二十四节气是按农历划分的，实际是按太阳运行规律在四季基础上细分出来的。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为二十四节气是按农历划分的，实际是按太阳运行规律在四季基础上细分出来的。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:二歧分类法
   type: Concept
@@ -55,6 +63,8 @@
   explanation: 确定一个标准把生物分成两类，每类下再确定新标准继续分，直到不能再分为止的分类方法。
   misconceptions:
     - 误认为分类时可以把几个标准一起用，实际每一步只能用一个标准分成两类。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为分类时可以把几个标准一起用，实际每一步只能用一个标准分成两类。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:云量
   type: Concept
@@ -66,6 +76,8 @@
   explanation: 云量指天空中云的多少。云很少、阳光充足是晴；云比较多、偶尔能看到太阳是多云；云多而密、看不到太阳是阴。
   misconceptions:
     - 误认为云比较多、偶尔能看到太阳就是阴天，实际这是多云，看不到太阳才是阴。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为云比较多、偶尔能看到太阳就是阴天，实际这是多云，看不到太阳才是阴。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:人体器官的协作
   type: Concept
@@ -78,6 +90,8 @@
   explanation: 人体是一个系统，各器官的结构和功能不同，活动时却密切配合。比如剧烈运动时呼吸、心跳都加快，把更多氧气和养分送给肌肉。人体是一个统一的整体。
   misconceptions:
     - 误认为各器官各自独立工作，实际剧烈运动时呼吸与心跳会协同加快，把更多氧气和养料送到需要的地方。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为各器官各自独立工作，实际剧烈运动时呼吸与心跳会协同加快，把更多氧气和养料送到需要的地方。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S10.md
 - id: concept:科学:人类对地球的探索
   type: Concept
@@ -90,6 +104,8 @@
   explanation: 地球上还有很多动植物没被发现，地球内部和历史也还没有完全弄清楚。科学家每天都在研究地球，不断发现它更多的秘密。
   misconceptions:
     - 误认为地球已被完全探明，实际还有很多动植物未被发现，地球内部和历史也没有完全弄清楚。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球已被完全探明，实际还有很多动植物未被发现，地球内部和历史也没有完全弄清楚。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S11.md
 - id: concept:科学:人类探索宇宙的历程
   type: Concept
@@ -102,6 +118,8 @@
   explanation: 人类从古代观测记录天象，到发明望远镜观测太空，再到用火箭把卫星、探测器送入太空、建设空间站，一步步探索宇宙。
   misconceptions:
     - 误认为一开始就用火箭探测太空，实际先有观测记录天象、发明望远镜，之后才用火箭送卫星和探测器。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为一开始就用火箭探测太空，实际先有观测记录天象、发明望远镜，之后才用火箭送卫星和探测器。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:人类活动对地球的影响
   type: Concept
@@ -113,6 +131,8 @@
   explanation: 人类砍伐森林、建设城市、捕捞鱼类等活动，压缩了动植物的生存空间，还造成环境污染和全球变暖，改变着地球的环境。
   misconceptions:
     - 误认为只有砍伐森林会破坏环境，实际建设城市、捕捞鱼类同样压缩动植物生存空间并造成污染。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有砍伐森林会破坏环境，实际建设城市、捕捞鱼类同样压缩动植物生存空间并造成污染。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S10.md
 - id: concept:科学:人耳的结构
   type: Concept
@@ -125,6 +145,8 @@
   explanation: 耳朵由耳郭、外耳道、鼓膜、耳蜗等组成。声音经过外耳道这条"隧道"到达鼓膜，引起鼓膜振动，我们才能听到声音。
   misconceptions:
     - 误认为耳朵只是一个听声音的孔，实际耳郭、外耳道、鼓膜、耳蜗分工，鼓膜振动才让我们听到声音。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为耳朵只是一个听声音的孔，实际耳郭、外耳道、鼓膜、耳蜗分工，鼓膜振动才让我们听到声音。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:人造物
   type: Concept
@@ -136,6 +158,8 @@
   explanation: 经过人们加工做出来的材料叫人造物，比如砖、玻璃和金属。人们常用多种材料一起盖房子。
   misconceptions:
     - 误认为玻璃、金属是自然物，实际它们经过人工加工，属于人造物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为玻璃、金属是自然物，实际它们经过人工加工，属于人造物。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:会开花和不开花的植物
   type: Concept
@@ -148,6 +172,8 @@
   explanation: 植物的样子多种多样，有的植物会开花，有的植物不会开花。比如兰花会开花，蕨类植物就不开花。
   misconceptions:
     - 误认为所有植物都会开花，实际蕨类等植物不会开花。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有植物都会开花，实际蕨类等植物不会开花。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:传染病的预防
   type: Concept
@@ -159,6 +185,8 @@
   explanation: 传染病是由病毒、细菌等引起的能传播的疾病。预防传染病要控制传染源、切断传播途径、保护易感染者，平时要勤洗手、常通风、多锻炼。
   misconceptions:
     - 误认为勤洗手是在控制传染源，实际它属于切断传播途径。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为勤洗手是在控制传染源，实际它属于切断传播途径。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:传粉
   type: Concept
@@ -171,6 +199,8 @@
   explanation: 雄蕊上的花粉传到雌蕊上的过程叫传粉。植物只有完成传粉，花才能发育成果实；蜜蜂等昆虫可以帮助植物传粉。
   misconceptions:
     - 误认为花开了就会结果，实际只有完成传粉，花才能发育成果实。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为花开了就会结果，实际只有完成传粉，花才能发育成果实。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:住房的结构和系统
   type: Concept
@@ -182,6 +212,8 @@
   explanation: 住房由基础、墙体、门窗等结构组成，还需要供水、供电、供暖等系统来满足居住需要。
   misconceptions:
     - 误认为住房只需墙和门窗，实际还需要供水、供电、供暖等系统才满足居住需要。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为住房只需墙和门窗，实际还需要供水、供电、供暖等系统才满足居住需要。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:侵蚀作用
   type: Concept
@@ -193,6 +225,8 @@
   explanation: 流水、风力、波浪等外力在运动状态下改变地表岩石及其风化物的过程叫侵蚀作用，比如雨水冲刷会把坡地的泥土冲走。
   misconceptions:
     - 误认为侵蚀就是岩石自己风化破碎，实际是流水、风力、波浪等外力在运动中改变地表岩石及其风化物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为侵蚀就是岩石自己风化破碎，实际是流水、风力、波浪等外力在运动中改变地表岩石及其风化物。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:保护动物
   type: Concept
@@ -205,6 +239,8 @@
   explanation: 很多动物能帮助我们，比如导盲犬帮盲人、蚯蚓松土。要保护动物和它们生活的环境。
   misconceptions:
     - 误认为保护动物只要保护动物本身，实际还要保护它们生活的环境。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为保护动物只要保护动物本身，实际还要保护它们生活的环境。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:保护听力
   type: Concept
@@ -217,6 +253,8 @@
   explanation: 长时间待在大音量的环境里听力会受到伤害。不要让强声音直接刺激耳朵，必要时戴上耳罩，在公共场所要轻声说话。
   misconceptions:
     - 误认为只有巨响才伤听力，实际长时间待在大音量环境里听力同样会受损。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有巨响才伤听力，实际长时间待在大音量环境里听力同样会受损。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:保护呼吸器官和消化器官
   type: Concept
@@ -228,6 +266,8 @@
   explanation: 要养成良好生活习惯：科学佩戴口罩、勤洗手、常通风来预防呼吸道疾病；饭前便后勤洗手、不吃变质不洁的食物来保护胃肠。
   misconceptions:
     - 误认为戴口罩只为挡灰尘，实际它与勤洗手、常通风一起用于预防呼吸道疾病。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为戴口罩只为挡灰尘，实际它与勤洗手、常通风一起用于预防呼吸道疾病。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:保护地球的行动
   type: Concept
@@ -240,6 +280,8 @@
   explanation: 人们设立生态保护区，利用太阳能、风力发电，回收处理垃圾等，用这些行动减少污染、保护地球环境。
   misconceptions:
     - 误认为保护地球只能少用资源，实际设立生态保护区、用太阳能风能、回收垃圾都是具体行动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为保护地球只能少用资源，实际设立生态保护区、用太阳能风能、回收垃圾都是具体行动。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S10.md
 - id: concept:科学:保护岩石和土壤
   type: Concept
@@ -252,6 +294,8 @@
   explanation: 岩石和矿物被开采后不能再生，我们要合理利用它们；人类生存离不开土壤，要珍惜土壤，防止土壤被污染和浪费。
   misconceptions:
     - 误认为岩石和矿物取之不尽，实际开采后不能再生，要合理利用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石和矿物取之不尽，实际开采后不能再生，要合理利用。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:保护感觉器官
   type: Concept
@@ -263,6 +307,8 @@
   explanation: 感觉器官很容易受到伤害。不看强光、不揉眼睛、不掏耳朵、不长时间戴耳机，要好好保护它们。
   misconceptions:
     - 误认为感觉器官不需要特别保护，实际强光、掏耳朵、长时间戴耳机都会伤害它们。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为感觉器官不需要特别保护，实际强光、掏耳朵、长时间戴耳机都会伤害它们。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:保护水资源
   type: Concept
@@ -275,6 +321,8 @@
   explanation: 水被污染后会变得又黑又臭，让鱼和植物死去，也危害我们。要节约用水，不往河里扔垃圾。
   misconceptions:
     - 误认为水被污染只是变脏，实际会让鱼和植物死去，也危害人的健康。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水被污染只是变脏，实际会让鱼和植物死去，也危害人的健康。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S9.md
 - id: concept:科学:保护生物多样性
   type: Concept
@@ -286,6 +334,8 @@
   explanation: 每个物种都是独一无二的，生物多样性关系到人类的健康和生存，应该与自然和谐相处、加以保护。
   misconceptions:
     - 误认为保护生物多样性只是保护稀有动物，实际每个物种都独一无二，关系到人类的健康和生存。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为保护生物多样性只是保护稀有动物，实际每个物种都独一无二，关系到人类的健康和生存。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:保温的方法
   type: Concept
@@ -298,6 +348,8 @@
   explanation: 用导热慢的材料包裹杯子、加盖密封、留出真空夹层等办法，都能减慢热量的传递，让热水凉得更慢，比如制作保温杯和保温瓶。
   misconceptions:
     - 误认为保温就是持续加热，实际是用导热慢的材料、加盖密封、留真空夹层来减慢热量传递。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为保温就是持续加热，实际是用导热慢的材料、加盖密封、留真空夹层来减慢热量传递。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S7.md
 - id: concept:科学:健康呼吸
   type: Concept
@@ -309,6 +361,8 @@
   explanation: 用鼻子呼吸、经常深呼吸有助于健康；长期用嘴呼吸对身体不好。室内常通风、远离二手烟、人多场所戴口罩，都是保护呼吸的好习惯。
   misconceptions:
     - 误认为用嘴呼吸更省力，实际长期用嘴呼吸对身体不好，应该用鼻子呼吸。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为用嘴呼吸更省力，实际长期用嘴呼吸对身体不好，应该用鼻子呼吸。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S10.md
 - id: concept:科学:健康生活
   type: Concept
@@ -320,6 +374,8 @@
   explanation: 健康生活既包括平衡膳食、充足睡眠、合理运动等生理健康，也包括认识和管理情绪等心理健康，还要有合理的目标和可行的计划。
   misconceptions:
     - 误认为健康就是不生病，实际还包括平衡膳食、充足睡眠、合理运动以及管理情绪。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为健康就是不生病，实际还包括平衡膳食、充足睡眠、合理运动以及管理情绪。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:健康生活计划
   type: Concept
@@ -331,6 +387,8 @@
   explanation: 通过确定健康目标、明确要养成的习惯、安排每天具体的实践并记录执行效果，来改善自己的健康。
   misconceptions:
     - 误认为计划写下目标就够了，实际要明确要养成的习惯、安排每天的具体实践并记录效果。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为计划写下目标就够了，实际要明确要养成的习惯、安排每天的具体实践并记录效果。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:充足的睡眠
   type: Concept
@@ -343,6 +401,8 @@
   explanation: 小学生每天应睡够 10 小时左右，长期睡眠不足会使记忆力、注意力下降，影响学习效果。
   misconceptions:
     - 误认为睡得少可以白天补回来，实际小学生每天应睡够约 10 小时，不足会降低记忆力和注意力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为睡得少可以白天补回来，实际小学生每天应睡够约 10 小时，不足会降低记忆力和注意力。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:光与视觉
   type: Concept
@@ -354,6 +414,8 @@
   explanation: 外界物体发出或反射的光进入眼睛引起视觉；视网膜上的视杆细胞帮助我们在暗处看清轮廓，视锥细胞帮助我们分辨颜色。
   misconceptions:
     - 误认为眼睛自己发光才能看见物体，实际是物体发出或反射的光进入眼睛引起视觉。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为眼睛自己发光才能看见物体，实际是物体发出或反射的光进入眼睛引起视觉。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:光合作用
   type: Concept
@@ -365,6 +427,8 @@
   explanation: 在光照下，植物吸收空气中的二氧化碳和水分，在绿叶里制造出生长需要的养料，同时放出氧气。
   misconceptions:
     - 误认为植物只吸收氧气，实际它在光照下吸收二氧化碳和水分制造养料，同时放出氧气。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物只吸收氧气，实际它在光照下吸收二氧化碳和水分制造养料，同时放出氧气。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:光学仪器
   type: Concept
@@ -376,6 +440,8 @@
   explanation: 利用光的各种特性制造的、用于观察、显示、测量等用途的仪器，如投影仪、显微镜、望远镜和照相机。
   misconceptions:
     - 误认为光学仪器只是把物体放大，实际它们是利用光的各种特性做观察、显示和测量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为光学仪器只是把物体放大，实际它们是利用光的各种特性做观察、显示和测量。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:光学显微镜的使用方法
   type: Concept
@@ -387,6 +453,8 @@
   explanation: 使用光学显微镜要先安放、对光，再把玻片标本放到载物台上，慢慢转动调节旋钮调焦，直到看清楚图像，最后边观察边记录。
   misconceptions:
     - 误认为应先放玻片再对光，实际要先安放、对光，再把玻片标本放到载物台上调焦。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为应先放玻片再对光，实际要先安放、对光，再把玻片标本放到载物台上调焦。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:光沿直线传播
   type: Concept
@@ -399,6 +467,8 @@
   explanation: 光在空气中沿直线传播，排队看齐、林间光束、影子的形成都可以用这一特点解释。
   misconceptions:
     - 误认为光会绕过障碍拐弯，实际光在空气中沿直线传播，影子和林间光束就是证据。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为光会绕过障碍拐弯，实际光在空气中沿直线传播，影子和林间光束就是证据。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:光源
   type: Concept
@@ -410,6 +480,8 @@
   explanation: 太阳、电灯等本身能发光的物体叫光源。月球、镜子本身不会发光，只是反射别的物体的光，所以不是光源。
   misconceptions:
     - 误认为月亮也是光源，实际它只反射太阳光，本身不发光。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为月亮也是光源，实际它只反射太阳光，本身不发光。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:光的反射
   type: Concept
@@ -422,6 +494,8 @@
   explanation: 光遇到物体表面会被反射回去，我们能看到不发光的物体，就是因为它们把光反射进了我们的眼睛。
   misconceptions:
     - 误认为看见物体是眼睛发出光，实际是物体表面把光反射进了眼睛。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为看见物体是眼睛发出光，实际是物体表面把光反射进了眼睛。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:光的色散
   type: Concept
@@ -435,6 +509,8 @@
   explanation: 太阳光看上去是白色的，实际由多种色光组成，通过三棱镜或水和镜子后会分散成红、橙、黄、绿、蓝、靛、紫的彩色光带，彩虹就是这样形成的。
   misconceptions:
     - 误认为太阳光是单一的白光，实际它由多种色光组成，经三棱镜会分散成红橙黄绿蓝靛紫。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳光是单一的白光，实际它由多种色光组成，经三棱镜会分散成红橙黄绿蓝靛紫。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:冬眠
   type: Concept
@@ -447,6 +523,8 @@
   explanation: 一些动物在冬天不吃、不喝、不动，体温下降，用这种方式熬过严寒，这叫冬眠。蛇、刺猬、蝙蝠等很多动物都会冬眠。
   misconceptions:
     - 误认为冬眠只是睡得久，实际是不吃、不喝、不动且体温下降，用来熬过严寒。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冬眠只是睡得久，实际是不吃、不喝、不动且体温下降，用来熬过严寒。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S10.md
 - id: concept:科学:冰川和海浪的侵蚀
   type: Concept
@@ -458,6 +536,8 @@
   explanation: 在地表缓慢移动的大冰体叫冰川，它像推土机一样磨蚀岩层，形成 U 形谷、角峰等地形；海浪不断拍打磨蚀岸边岩石，会形成海蚀拱桥、海蚀洞穴等地形。
   misconceptions:
     - 误认为只有流水会侵蚀地表，实际冰川磨蚀岩层、海浪拍打海岸同样改变地形。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有流水会侵蚀地表，实际冰川磨蚀岩层、海浪拍打海岸同样改变地形。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S9.md
 - id: concept:科学:凝结
   type: Concept
@@ -470,6 +550,8 @@
   explanation: 空气中的水蒸气遇到冷的物体，会变成小水珠，这种现象叫凝结。冰镇饮料罐外壁出现的水珠，就是空气中的水蒸气遇冷凝结成的。
   misconceptions:
     - 误认为冰镇饮料罐外的水珠是从罐里渗出来的，实际是空气中的水蒸气遇冷凝结成小水珠。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冰镇饮料罐外的水珠是从罐里渗出来的，实际是空气中的水蒸气遇冷凝结成小水珠。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:分析环境问题的方法
   type: Concept
@@ -481,6 +563,8 @@
   explanation: 分析一个环境问题要先收集资料、弄清原因，再从不同人群的角度看问题、提出解决办法，最后协调平衡各方利益，找出可行的方案。
   misconceptions:
     - 误认为只从一个角度就能给出解决办法，实际要站在不同人群的角度看问题并协调平衡各方利益。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只从一个角度就能给出解决办法，实际要站在不同人群的角度看问题并协调平衡各方利益。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:分类
   type: Concept
@@ -493,6 +577,8 @@
   explanation: 按照物体的一个特征，把它们分成几类，就叫分类。同一个特征分类结果一样，选不同特征会有不同的分法。
   misconceptions:
     - 误认为分类结果只有一种，实际按不同特征分类会得到不同的结果。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为分类结果只有一种，实际按不同特征分类会得到不同的结果。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:制作岩石矿物标本
   type: Concept
@@ -505,6 +591,8 @@
   explanation: 制作岩石和矿物标本时，先给采集到的标本编号，再对照图鉴识别名称，然后贴上写有编号、名称、采集地点和时间的标签，最后按顺序放进标本盒保存。
   misconceptions:
     - 误认为标本上只写名称就行，实际还要写编号、采集地点和时间。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为标本上只写名称就行，实际还要写编号、采集地点和时间。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:制作模型的方法
   type: Concept
@@ -517,6 +605,8 @@
   explanation: 先制订方案，选好合适的材料，再动手做模型，做好后进行展示和修改。做模型能让看不出原样的东西变得更直观。
   misconceptions:
     - 误认为直接动手做就行，实际要先制订方案、选好材料，做完后展示并修改。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为直接动手做就行，实际要先制订方案、选好材料，做完后展示并修改。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:制作水钟
   type: Concept
@@ -528,6 +618,8 @@
   explanation: 设计并制作能匀速滴漏的水钟，用秒表在接水容器上标出均匀的时间刻度，并测试计时的误差。
   misconceptions:
     - 误认为容器越大计时越准，实际要在接水容器上标出均匀的时间刻度并测试计时误差。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为容器越大计时越准，实际要在接水容器上标出均匀的时间刻度并测试计时误差。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S3.md
 - id: concept:科学:制作科普海报
   type: Concept
@@ -540,6 +632,8 @@
   explanation: 制作科普海报要先确定主题，搜集相关的图文资料，再设计版面、制作装饰，最后检查内容是否准确并展示交流。
   misconceptions:
     - 误认为先做装饰再定主题，实际要先确定主题、搜集图文资料，再设计版面。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为先做装饰再定主题，实际要先确定主题、搜集图文资料，再设计版面。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:制作简易开关
   type: Concept
@@ -552,6 +646,8 @@
   explanation: 可以用小木板、回形针和图钉做一个简易开关：按下回形针一端接通电路，抬起来就断开电路。开关的材料要一部分能导电、一部分能绝缘。
   misconceptions:
     - 误认为开关用一块金属就能做，实际要一部分能导电、一部分不能导电，才能接通和断开。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为开关用一块金属就能做，实际要一部分能导电、一部分不能导电，才能接通和断开。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:力使物体的形状改变
   type: Concept
@@ -563,6 +659,8 @@
   explanation: 用力按压或拉伸弹簧，弹簧的形状会发生变化。力可以使物体的形状改变。
   misconceptions:
     - 误认为力只能让物体运动起来，实际力也可以改变物体的形状。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为力只能让物体运动起来，实际力也可以改变物体的形状。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:力改变物体的运动状态
   type: Concept
@@ -574,6 +672,8 @@
   explanation: 物体的动静、快慢、方向等运动状态，在重力、弹力、摩擦力等力的作用下会发生改变，力是改变物体运动状态的原因。
   misconceptions:
     - 误认为只有推和拉能改变运动，实际重力、弹力、摩擦力都能改变物体的快慢和方向。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有推和拉能改变运动，实际重力、弹力、摩擦力都能改变物体的快慢和方向。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:力的单位牛顿
   type: Concept
@@ -587,6 +687,8 @@
   explanation: 力的单位是牛顿，简称牛，用符号 N 表示，是以物理学家牛顿的名字命名的。
   misconceptions:
     - 误认为力的单位是千克，实际力的单位是牛顿，符号 N。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为力的单位是千克，实际力的单位是牛顿，符号 N。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:加快溶解的方法
   type: Concept
@@ -599,6 +701,8 @@
   explanation: 搅拌、用热水、把物质研碎成小颗粒，都能加快物质在水中的溶解。做比较实验时，其他条件要一样才公平。
   misconceptions:
     - 误认为搅拌能让水里溶解更多物质，实际搅拌只加快溶解速度，不改变能溶解的量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为搅拌能让水里溶解更多物质，实际搅拌只加快溶解速度，不改变能溶解的量。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:动滑轮
   type: Concept
@@ -610,6 +714,8 @@
   explanation: 像塔吊的吊钩那样，可以随重物一起移动的滑轮叫动滑轮。用动滑轮提升重物能省力。
   misconceptions:
     - 误认为动滑轮只能改变用力方向，实际它随重物一起移动，能省力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动滑轮只能改变用力方向，实际它随重物一起移动，能省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:动物分类的依据
   type: Concept
@@ -621,6 +727,8 @@
   explanation: 给动物分类要找依据，比如身体里有没有脊柱、吃什么食物、怎样运动。依据不同，分出来的类别也不同。
   misconceptions:
     - 误认为动物分类有唯一标准，实际按有无脊柱、吃什么、怎样运动分出来的类别并不相同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动物分类有唯一标准，实际按有无脊柱、吃什么、怎样运动分出来的类别并不相同。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:动物生存需要的条件
   type: Concept
@@ -633,6 +741,8 @@
   explanation: 动物生存和生长都需要食物、空气、水和适宜的温度等条件。满足这些条件，动物才能正常生活和繁殖后代。
   misconceptions:
     - 误认为动物有食物就能活，实际还需要空气、水和适宜的温度。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动物有食物就能活，实际还需要空气、水和适宜的温度。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S9.md
 - id: concept:科学:动物的生命周期
   type: Concept
@@ -645,6 +755,8 @@
   explanation: 所有动物都会经历出生、生长、繁殖、死亡的过程，这就是动物的生命周期。不同的动物生命周期不一样，比如蝌蚪会变成蛙。
   misconceptions:
     - 误认为只有人会经历生长与死亡，实际动物都要经历出生、生长、繁殖、死亡的过程。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有人会经历生长与死亡，实际动物都要经历出生、生长、繁殖、死亡的过程。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:动物的生活环境
   type: Concept
@@ -657,6 +769,8 @@
   explanation: 动物生活的地方就是它的家，比如蜗牛喜欢阴湿的地方。养小动物要给它合适的家，有食物、有水，还要保持干净。
   misconceptions:
     - 误认为给动物一个容器就算安家，实际要有食物、有水，还要有适合它的环境。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为给动物一个容器就算安家，实际要有食物、有水，还要有适合它的环境。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:动物的繁殖
   type: Concept
@@ -668,6 +782,8 @@
   explanation: 动物生出小宝宝、繁殖后代的现象叫动物的繁殖。动物繁殖后代需要筑巢、孵卵、喂食等很多行为。
   misconceptions:
     - 误认为生下后代就完成了繁殖，实际还要筑巢、孵卵、喂食等许多行为。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生下后代就完成了繁殖，实际还要筑巢、孵卵、喂食等许多行为。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:动物的食物
   type: Concept
@@ -679,6 +795,8 @@
   explanation: 动物都要吃食物，但不同动物吃的东西不一样，吃的方式也不同，比如蜗牛吃菜叶，蜜蜂吸花蜜。
   misconceptions:
     - 误认为所有动物吃同一种食物，实际不同动物吃的东西和吃的方式都不一样。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有动物吃同一种食物，实际不同动物吃的东西和吃的方式都不一样。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:动物适应环境变化的行为
   type: Concept
@@ -690,6 +808,8 @@
   explanation: 环境发生改变时，动物会用特殊的行为来适应，比如青蛙冬天钻进泥土冬眠、丹顶鹤秋天迁往温暖的南方越冬。
   misconceptions:
     - 误认为动物遇到环境变化只能被动受害，实际会通过冬眠、迁徙等行为来适应。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动物遇到环境变化只能被动受害，实际会通过冬眠、迁徙等行为来适应。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:动物需要适宜的环境
   type: Concept
@@ -702,6 +822,8 @@
   explanation: 通过实验发现蚯蚓喜欢黑暗、潮湿的环境，说明动物都生活在适合自己生存的环境里，和植物一样对环境有要求。
   misconceptions:
     - 误认为蚯蚓随便放在哪里都能活，实际它喜欢黑暗、潮湿的环境。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蚯蚓随便放在哪里都能活，实际它喜欢黑暗、潮湿的环境。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:化学变化
   type: Concept
@@ -713,6 +835,8 @@
   explanation: 产生了新物质的变化叫化学变化，如食物变质、铁锅生锈。
   misconceptions:
     - 误认为颜色变了就是化学变化，实际要看是否产生了新物质，比如铁锅生锈、食物变质。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为颜色变了就是化学变化，实际要看是否产生了新物质，比如铁锅生锈、食物变质。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S1.md
 - id: concept:科学:化学变化伴随的现象
   type: Concept
@@ -725,6 +849,8 @@
   explanation: 化学变化常伴随发光发热、改变颜色、产生气体、生成沉淀等现象，可以借助这些现象来判断物质发生了什么变化。
   misconceptions:
     - 误认为只要发光发热就是化学变化，实际要结合颜色改变、产生气体、生成沉淀等现象判断是否有新物质。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只要发光发热就是化学变化，实际要结合颜色改变、产生气体、生成沉淀等现象判断是否有新物质。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S4.md
 - id: concept:科学:化石
   type: Concept
@@ -737,6 +863,8 @@
   explanation: 化石是存留在岩石中的古生物遗体、遗物或遗迹，能帮助科学家复原古代生物的样子和生活环境。
   misconceptions:
     - 误认为化石就是动物骨头本身，实际是保存在岩石中的古生物遗体、遗物或遗迹。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为化石就是动物骨头本身，实际是保存在岩石中的古生物遗体、遗物或遗迹。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:北极星
   type: Concept
@@ -748,6 +876,8 @@
   explanation: 北极星位于地球自转轴北极指向的延长线上，人们习惯用它辨认方向；因地轴指向缓慢变化，北极星会慢慢更换。
   misconceptions:
     - 误认为北极星永远固定在同一个位置，实际地轴指向缓慢变化，北极星也会慢慢更换。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为北极星永远固定在同一个位置，实际地轴指向缓慢变化，北极星也会慢慢更换。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S9.md
 - id: concept:科学:单细胞生物
   type: Concept
@@ -759,6 +889,8 @@
   explanation: 大多数生物由许多细胞构成，但有些生物全身只有一个细胞，叫单细胞生物，如草履虫、变形虫、眼虫等。
   misconceptions:
     - 误认为生物都由许多细胞构成，实际草履虫、变形虫等全身只有一个细胞。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生物都由许多细胞构成，实际草履虫、变形虫等全身只有一个细胞。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:卵生和胎生
   type: Concept
@@ -772,6 +904,8 @@
   explanation: 像鸡、金鱼那样通过产卵繁殖后代的方式叫卵生；像猫、狗那样直接生小动物的方式叫胎生。动物的繁殖方式主要分为卵生和胎生。
   misconceptions:
     - 误认为所有动物都直接生小动物，实际鸡、金鱼等通过产卵繁殖后代，属于卵生。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有动物都直接生小动物，实际鸡、金鱼等通过产卵繁殖后代，属于卵生。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:变异
   type: Concept
@@ -783,6 +917,8 @@
   explanation: 生物的后代和亲代之间、后代个体之间也会有一些细微的不同，这种现象叫变异。
   misconceptions:
     - 误认为后代一定和亲代完全一样，实际后代与亲代之间、后代个体之间都有细微不同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为后代一定和亲代完全一样，实际后代与亲代之间、后代个体之间都有细微不同。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:变温动物和恒温动物
   type: Concept
@@ -796,6 +932,8 @@
   explanation: 体温会随环境温度变化的动物叫变温动物，比如蛙、蛇；体温保持稳定的动物叫恒温动物，比如鸟类和人类。变温动物天冷时常常要冬眠。
   misconceptions:
     - 误认为所有动物体温都保持稳定，实际蛙、蛇的体温会随环境温度变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有动物体温都保持稳定，实际蛙、蛇的体温会随环境温度变化。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S10.md
 - id: concept:科学:口腔的消化作用
   type: Concept
@@ -808,6 +946,8 @@
   explanation: 口腔是消化的第一站：牙齿嚼碎食物，舌搅拌食物，唾液润湿并初步消化食物，使食物变成柔软的小块再咽下去。
   misconceptions:
     - 误认为口腔只负责把食物嚼碎，实际唾液还会润湿并初步消化食物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为口腔只负责把食物嚼碎，实际唾液还会润湿并初步消化食物。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:古人计时的方法
   type: Concept
@@ -819,6 +959,8 @@
   explanation: 古人利用自然现象计时：根据太阳和日影制作日晷、圭表，还用燃香、蜡烛燃烧的长短来计算时间。
   misconceptions:
     - 误认为古人只靠看太阳判断时间，实际还用日晷、圭表和燃香、蜡烛燃烧的长短来计时。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为古人只靠看太阳判断时间，实际还用日晷、圭表和燃香、蜡烛燃烧的长短来计时。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:可再生能源和不可再生能源
   type: Concept
@@ -831,6 +973,8 @@
   explanation: 煤、石油、天然气用一点少一点，是不可再生能源；太阳能、风能、地热能、海洋能可以源源不断地获得，是可再生能源。我们要节约能源、开发新能源。
   misconceptions:
     - 误认为煤、石油永远用不完，实际它们用一点少一点，只有太阳能、风能等可以源源不断获得。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为煤、石油永远用不完，实际它们用一点少一点，只有太阳能、风能等可以源源不断获得。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:叶在茎上的分布
   type: Concept
@@ -842,6 +986,8 @@
   explanation: 植物的叶在茎上是交叉生长的，叶子平展伸展，能让每片叶子都尽可能多地晒到阳光。
   misconceptions:
     - 误认为叶子随意生长，实际叶在茎上交叉生长、平展伸展，让每片叶都尽可能多晒到阳光。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为叶子随意生长，实际叶在茎上交叉生长、平展伸展，让每片叶都尽可能多晒到阳光。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:叶的作用
   type: Concept
@@ -855,6 +1001,8 @@
   explanation: 叶能吸收阳光，为植物生长提供能量；还能通过蒸腾作用散失水分，促进根不断地吸收水分。
   misconceptions:
     - 误认为叶只起观赏作用，实际它吸收阳光为植物提供能量，还通过蒸腾作用促进根吸水。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为叶只起观赏作用，实际它吸收阳光为植物提供能量，还通过蒸腾作用促进根吸水。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:呼吸与消化
   type: Concept
@@ -866,6 +1014,8 @@
   explanation: 呼吸让人体每时每刻获得氧气、排出废气，消化把吃进的食物变成身体能吸收的营养。它们共同维持我们的生命活动。
   misconceptions:
     - 误认为呼吸和消化互不相关，实际一个供氧、一个供营养，共同维持身体活动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为呼吸和消化互不相关，实际一个供氧、一个供营养，共同维持身体活动。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:呼吸器官
   type: Concept
@@ -878,6 +1028,8 @@
   explanation: 参与呼吸的器官有鼻腔、气管和肺等。吸气时空气从鼻腔进入，经过气管到达肺；呼气时气体沿原路排出体外。
   misconceptions:
     - 误认为呼吸只靠肺完成，实际空气要先经过鼻腔、气管才能到达肺。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为呼吸只靠肺完成，实际空气要先经过鼻腔、气管才能到达肺。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:土壤的形成
   type: Concept
@@ -889,6 +1041,8 @@
   explanation: 土壤的形成是一个极其漫长的过程，形成很薄的一层土壤可能需要几百到数万年时间，所以我们要珍惜土壤。
   misconceptions:
     - 误认为土壤是短时间内形成的，实际形成很薄的一层土壤可能需要几百到数万年。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为土壤是短时间内形成的，实际形成很薄的一层土壤可能需要几百到数万年。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:土壤的成分
   type: Concept
@@ -901,6 +1055,8 @@
   explanation: 土壤里有沙砾、沙、粉沙、黏土等颗粒，还有水、空气、动植物遗体等。把土壤倒进水里搅拌静置后，颗粒会按大小分层沉降。
   misconceptions:
     - 误认为土壤里只有土，实际还有沙砾、沙、粉沙、黏土、水、空气和动植物遗体。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为土壤里只有土，实际还有沙砾、沙、粉沙、黏土、水、空气和动植物遗体。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:土壤的类型
   type: Concept
@@ -914,6 +1070,8 @@
   explanation: 根据成分含量不同，土壤分为沙质土、壤土和黏质土。含沙多的沙质土渗水快、黏性差；含黏土多的黏质土渗水慢、黏性强；壤土介于两者之间，适合多种植物生长。
   misconceptions:
     - 误认为所有土壤都一样，实际按成分含量分为沙质土、壤土和黏质土，渗水性与黏性各不相同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有土壤都一样，实际按成分含量分为沙质土、壤土和黏质土，渗水性与黏性各不相同。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:土壤颗粒的大小
   type: Concept
@@ -926,6 +1084,8 @@
   explanation: 按颗粒从大到小给土壤微粒分类：最大的是沙砾（小石子），其次是沙，再小的是粉沙，最小的是黏土，黏土微粒小到肉眼几乎看不清。
   misconceptions:
     - 误认为沙比沙砾大，实际从大到小依次是沙砾、沙、粉沙、黏土。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为沙比沙砾大，实际从大到小依次是沙砾、沙、粉沙、黏土。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:圭表
   type: Concept
@@ -937,6 +1097,8 @@
   explanation: 我国古代测量正午日影的仪器，直立的“表”挡出影子，带刻度的“圭”读出影长，可以用来测定节气和一年时间的长短。
   misconceptions:
     - 误认为圭表是用来计时的钟，实际它是我国古代测量正午日影长度的仪器。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为圭表是用来计时的钟，实际它是我国古代测量正午日影长度的仪器。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:地形图
   type: Concept
@@ -948,6 +1110,8 @@
   explanation: 地形图是认识地形的重要工具，展示地球表面的海陆分布和高低起伏，图中暖色调代表海拔高，冷色调代表海拔低。
   misconceptions:
     - 误认为地形图只标注地名，实际用颜色表示海拔高低与海陆分布。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地形图只标注地名，实际用颜色表示海拔高低与海陆分布。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地球上的水体
   type: Concept
@@ -960,6 +1124,8 @@
   explanation: 地球上分布着很多水，常见的有江、河、湖、海，还有冰川和地下水等，它们都是水体。
   misconceptions:
     - 误认为水只存在于江河湖海，实际还有冰川和地下水等水体。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水只存在于江河湖海，实际还有冰川和地下水等水体。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:地球公转
   type: Concept
@@ -972,6 +1138,8 @@
   explanation: 地球在自转的同时还围绕太阳自西向东转动叫公转，公转一周约一年，公转时地轴倾斜的方向基本保持不变。
   misconceptions:
     - 误认为公转一周是一天，实际公转一周约一年，且地轴倾斜方向保持不变。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为公转一周是一天，实际公转一周约一年，且地轴倾斜方向保持不变。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:地球家园
   type: Concept
@@ -983,6 +1151,8 @@
   explanation: 地球是人类和动植物共同生活的家园，上面有陆地、海洋、空气和各种各样的生物。
   misconceptions:
     - 误认为地球只属于人类，实际它是人类和动植物共同生活的家园。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球只属于人类，实际它是人类和动植物共同生活的家园。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:地球模型
   type: Concept
@@ -995,6 +1165,8 @@
   explanation: 地球太大难以直接研究，人们用地球仪等模型来模拟地球，研究昼夜交替、四季变化等问题。
   misconceptions:
     - 误认为地球仪只是摆件，实际人们用它模拟地球来研究昼夜交替和四季变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球仪只是摆件，实际人们用它模拟地球来研究昼夜交替和四季变化。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球生命的生存条件
   type: Concept
@@ -1007,6 +1179,8 @@
   explanation: 地球有适宜的温度、大量氧气、液态水和岩石土壤等条件，正好适合生命生存，所以我们要珍惜这颗独特的星球。
   misconceptions:
     - 误认为有氧气就有生命，实际还需要适宜的温度、液态水和岩石土壤。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为有氧气就有生命，实际还需要适宜的温度、液态水和岩石土壤。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球的内部结构
   type: Concept
@@ -1018,6 +1192,8 @@
   explanation: 地球内部从外到内分为地壳、地幔和地核三层。火山喷出的岩浆说明地球内部是温度很高、压力很大的炽热状态。
   misconceptions:
     - 误认为地球内部是均匀的实心球，实际分为地壳、地幔、地核，内部温度很高。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球内部是均匀的实心球，实际分为地壳、地幔、地核，内部温度很高。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:地球的圈层结构
   type: Concept
@@ -1029,6 +1205,8 @@
   explanation: 地球外部由大气圈、水圈、生物圈等圈层组成，内部包括地壳、地幔和地核，地壳和地幔的一部分组成岩石圈。
   misconceptions:
     - 误认为圈层只指地球外部，实际外部有大气圈、水圈、生物圈，内部有地壳、地幔、地核。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为圈层只指地球外部，实际外部有大气圈、水圈、生物圈，内部有地壳、地幔、地核。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地球的特点
   type: Concept
@@ -1041,6 +1219,8 @@
   explanation: 地球是一个球体，是太阳系的行星之一。地表由陆地和海洋组成，外面有大气圈包裹，上面生活着许多生物，平均温度约15℃。
   misconceptions:
     - 误认为地球是太阳系的中心，实际它是绕太阳运行的行星之一。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球是太阳系的中心，实际它是绕太阳运行的行星之一。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球磁场
   type: Concept
@@ -1053,6 +1233,8 @@
   explanation: 地球周围存在着看不见的磁场，它像一道天然屏障，替地球挡住了太阳吹来的带电粒子，保护着地球上的生命。
   misconceptions:
     - 误认为磁场是能看见的东西，实际它看不见，却能挡住太阳吹来的带电粒子。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁场是能看见的东西，实际它看不见，却能挡住太阳吹来的带电粒子。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S10.md
 - id: concept:科学:地球自转
   type: Concept
@@ -1065,6 +1247,8 @@
   explanation: 地球绕着穿过自身的地轴不停地旋转叫自转，自转的方向和周期可以用地球模型做模拟实验来研究。
   misconceptions:
     - 误认为自转一周是一年，实际自转是绕地轴旋转，周期约一天。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为自转一周是一年，实际自转是绕地轴旋转，周期约一天。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:地球自转的方向
   type: Concept
@@ -1076,6 +1260,8 @@
   explanation: 地球自西向东自转，所以东边的北京比西边的乌鲁木齐先迎来黎明，太阳看起来才东升西落。
   misconceptions:
     - 误认为太阳绕着地球转，实际是地球自西向东自转，东边的地方先迎来黎明。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳绕着地球转，实际是地球自西向东自转，东边的地方先迎来黎明。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:地球表面的地形
   type: Concept
@@ -1087,6 +1273,8 @@
   explanation: 地球表面大约 71% 被海洋覆盖，其余是高低起伏、形态多样的陆地，有平原、山地、峡谷等不同的地形地貌。
   misconceptions:
     - 误认为地球表面大部分是陆地，实际约 71% 被海洋覆盖。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球表面大部分是陆地，实际约 71% 被海洋覆盖。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地表变化的原因
   type: Concept
@@ -1098,6 +1286,8 @@
   explanation: 地球表面的形态是地球内部和外部因素共同作用的结果。地震、火山喷发等内部力量使地表剧烈改变，水、风等外部力量的作用则缓慢而漫长。
   misconceptions:
     - 误认为地表变化只由外力造成，实际是地震、火山等内部力量与外部力量共同作用的结果。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地表变化只由外力造成，实际是地震、火山等内部力量与外部力量共同作用的结果。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S8.md
 - id: concept:科学:地震
   type: Concept
@@ -1109,6 +1299,8 @@
   explanation: 地震主要是由地下深处岩层挤压、弯曲直至断裂错动引起的，会使地面出现裂缝、塌陷，造成房屋倒塌等灾害。
   misconceptions:
     - 误认为地震是地面自己抖动，实际是地下深处岩层挤压、弯曲直至断裂错动引起的。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地震是地面自己抖动，实际是地下深处岩层挤压、弯曲直至断裂错动引起的。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S3.md
 - id: concept:科学:垃圾分类
   type: Concept
@@ -1121,6 +1313,8 @@
   explanation: 生活垃圾一般分为可回收物、有害垃圾、厨余垃圾和其他垃圾四类。分类投放便于回收利用和处理，能减轻垃圾对环境的危害。
   misconceptions:
     - 误认为垃圾只分可回收和不可回收两类，实际分为可回收物、有害垃圾、厨余垃圾和其他垃圾四类。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为垃圾只分可回收和不可回收两类，实际分为可回收物、有害垃圾、厨余垃圾和其他垃圾四类。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:声音的产生
   type: Concept
@@ -1133,6 +1327,8 @@
   explanation: 声音是由物体振动产生的。物体发声时都在振动，振动停止，声音也跟着停止。
   misconceptions:
     - 误认为声音靠敲击产生，实际声音由物体振动产生，振动停止声音也停止。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为声音靠敲击产生，实际声音由物体振动产生，振动停止声音也停止。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:声音的传播
   type: Concept
@@ -1145,6 +1341,8 @@
   explanation: 声音向四面八方传播，需要借助固体、液体或气体。玻璃罩里的空气被抽走后，闹钟的声音就听不见了，说明声音传播离不开这些物质。
   misconceptions:
     - 误认为声音在真空中也能传播，实际它需要借助固体、液体或气体。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为声音在真空中也能传播，实际它需要借助固体、液体或气体。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:声音的强弱
   type: Concept
@@ -1158,6 +1356,8 @@
   explanation: 声音的大小、轻重都指声音的强弱，也叫音量。用力越大，物体振动的幅度越大，声音就越强；用力越小，声音就越弱。
   misconceptions:
     - 误认为用力越大声音越高，实际用力影响的是振动幅度即强弱，音高由振动快慢决定。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为用力越大声音越高，实际用力影响的是振动幅度即强弱，音高由振动快慢决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:声音的高低
   type: Concept
@@ -1170,6 +1370,8 @@
   explanation: 声音的高低叫音调。物体振动得越快，声音越高；振动得越慢，声音越低。比如尺子伸出桌面越长，振动越慢，声音越低。
   misconceptions:
     - 误认为声音高低由用力大小决定，实际由物体振动的快慢决定。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为声音高低由用力大小决定，实际由物体振动的快慢决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:多种多样的动物
   type: Concept
@@ -1182,6 +1384,8 @@
   explanation: 我们周围生活着很多动物，比如麻雀、蝴蝶、蚂蚁、蚯蚓。它们生活在不同的地方，种类多种多样。
   misconceptions:
     - 误认为动物都生活在同一种环境里，实际它们生活在不同地方，种类多种多样。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动物都生活在同一种环境里，实际它们生活在不同地方，种类多种多样。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:大气圈
   type: Concept
@@ -1193,6 +1397,8 @@
   explanation: 地球被一层厚厚的大气包围着，里面有氮气、氧气、水汽等，这层大气叫大气圈。风、云、雨、雪等天气现象都发生在靠近地面的大气里。
   misconceptions:
     - 误认为空气不属于地球的一部分，实际地球被大气圈包围，风、云都发生在这一层。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为空气不属于地球的一部分，实际地球被大气圈包围，风、云都发生在这一层。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:天气对农业的影响
   type: Concept
@@ -1204,6 +1410,8 @@
   explanation: 天气对农业生产很重要。适量的雨水和适宜的气温有利于庄稼生长，而干旱、暴雨、霜冻、冰雹等灾害天气会让农作物减产。
   misconceptions:
     - 误认为雨水越多越有利于庄稼，实际要适量，干旱、暴雨、霜冻都会造成损害。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为雨水越多越有利于庄稼，实际要适量，干旱、暴雨、霜冻都会造成损害。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:天气对生活的影响
   type: Concept
@@ -1215,6 +1423,8 @@
   explanation: 天气会影响人们的生活、学习和生产劳动。我们要根据天气预报提前做好准备，比如下雨带雨具、高温注意防暑，不同的人对天气的感受也不一样。
   misconceptions:
     - 误认为天气只影响穿什么，实际还影响出行、学习和生产劳动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为天气只影响穿什么，实际还影响出行、学习和生产劳动。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:天气现象
   type: Concept
@@ -1226,6 +1436,8 @@
   explanation: 天气现象是发生在大气中的阴、晴、雨、雪、风等情况。天气一直在变化，我们可以用词语和句子来描述它。
   misconceptions:
     - 误认为天气一旦形成就不再变化，实际天气一直在变，可以用阴、晴、雨、雪、风等词语描述。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为天气一旦形成就不再变化，实际天气一直在变，可以用阴、晴、雨、雪、风等词语描述。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:天气符号
   type: Concept
@@ -1237,6 +1449,8 @@
   explanation: 天气符号是天气预报中用图形表示天气现象的符号，比如晴、小雨、大雪、台风等，认识符号才能看懂天气预报。
   misconceptions:
     - 误认为天气符号只是图形装饰，实际它用来表示晴、小雨、大雪、台风等天气现象。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为天气符号只是图形装饰，实际它用来表示晴、小雨、大雪、台风等天气现象。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:天气预报
   type: Concept
@@ -1248,6 +1462,8 @@
   explanation: 天气预报告诉我们未来一段时间的天气情况，内容包括最高气温、最低气温、晴转多云、风向风力等信息。可以通过广播、电视、手机查询。
   misconceptions:
     - 误认为预报只说明下不下雨，实际还包括最高最低气温、风力、晴转多云等内容。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为预报只说明下不下雨，实际还包括最高最低气温、风力、晴转多云等内容。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:天气预报的制作过程
   type: Concept
@@ -1259,6 +1475,8 @@
   explanation: 天气预报发布前要经过收集数据、科学计算、预报员作出预报、天气会商等阶段，再通过电视、广播等发布出来。
   misconceptions:
     - 误认为天气预报由仪器自动得出，实际要经过收集数据、科学计算、预报员作出预报、天气会商等阶段。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为天气预报由仪器自动得出，实际要经过收集数据、科学计算、预报员作出预报、天气会商等阶段。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:太阳东升西落
   type: Concept
@@ -1270,6 +1488,8 @@
   explanation: 一天中，太阳在天空中的位置不断变化，早晨从东方升起，傍晚向西落下。
   misconceptions:
     - 误认为太阳绕着地球转，实际这是地球自转造成的视运动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳绕着地球转，实际这是地球自转造成的视运动。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:太阳是恒星
   type: Concept
@@ -1282,6 +1502,8 @@
   explanation: 太阳是太阳系的中心天体，是一颗能自己发光发热的恒星，表面温度约6000℃。它给地球带来光明和温暖，是地球重要的能量来源。
   misconceptions:
     - 误认为太阳是行星，实际它是太阳系的中心天体，是一颗能自己发光发热的恒星。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳是行星，实际它是太阳系的中心天体，是一颗能自己发光发热的恒星。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:太阳系
   type: Concept
@@ -1293,6 +1515,8 @@
   explanation: 太阳系是以太阳为中心的天体系统，太阳的质量约占整个太阳系的 99.86%，行星、卫星、小行星、彗星等都围绕太阳运行。
   misconceptions:
     - 误认为太阳系只有太阳和地球，实际包括行星、卫星、小行星等，太阳质量约占整个太阳系的 99.86%。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳系只有太阳和地球，实际包括行星、卫星、小行星等，太阳质量约占整个太阳系的 99.86%。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:太阳系的八颗行星
   type: Concept
@@ -1306,6 +1530,8 @@
   explanation: 围绕太阳转动的行星有八颗，地球是其中一颗。按离太阳由近到远依次是水星、金星、地球、火星、木星、土星、天王星、海王星，它们大小和特点各不相同。
   misconceptions:
     - 误认为地球离太阳最近，实际由近到远依次是水星、金星、地球、火星等八颗。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为地球离太阳最近，实际由近到远依次是水星、金星、地球、火星等八颗。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:太阳风
   type: Concept
@@ -1317,6 +1543,8 @@
   explanation: 太阳会不停地向四面八方喷出带电的粒子流，就像吹不停的风，这就是太阳风。大部分太阳风都被地球磁场推开了。
   misconceptions:
     - 误认为太阳风是空气流动形成的风，实际它是太阳喷出的带电粒子流。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为太阳风是空气流动形成的风，实际它是太阳喷出的带电粒子流。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S10.md
 - id: concept:科学:季节变化
   type: Concept
@@ -1329,6 +1557,8 @@
   explanation: 一年有春、夏、秋、冬四个季节，不同季节里动植物的样子和人们的生活都不一样。
   misconceptions:
     - 误认为季节变化只影响气温，实际动植物的样子和人们的生活都会随之改变。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为季节变化只影响气温，实际动植物的样子和人们的生活都会随之改变。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:安全剪刀的使用方法
   type: Concept
@@ -1340,6 +1570,8 @@
   explanation: 照图拿好剪刀，上下移动大拇指让剪刀开合，沿着画好的线剪，另一只手要离剪刀远一点。
   misconceptions:
     - 误认为另一只手靠近刀口扶纸更稳，实际另一只手要离剪刀远一点。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为另一只手靠近刀口扶纸更稳，实际另一只手要离剪刀远一点。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:安全用电
   type: Concept
@@ -1352,6 +1584,8 @@
   explanation: 插座里的电来自发电厂，触碰会引发事故甚至危及生命，千万不能直接触摸，也不能用插座里的电做实验。实验时只能用干电池，看到断开或裸露的电线要马上报告大人。
   misconceptions:
     - 误认为插座里的电很弱不会伤人，实际直接触摸会引发事故甚至危及生命。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为插座里的电很弱不会伤人，实际直接触摸会引发事故甚至危及生命。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:安装照明电路
   type: Concept
@@ -1365,6 +1599,8 @@
   explanation: 安装照明电路要先设计方案：在平面图上标出电灯和开关的位置，画出电路图；再按图组装电路，最后检测电流能否通过、开关能否控制电灯、有没有短路。设计要合理，检测后还要改进。
   misconceptions:
     - 误认为把灯接亮就行，实际要先设计方案、画出电路图，再按图组装。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为把灯接亮就行，实际要先设计方案、画出电路图，再按图组装。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:定滑轮
   type: Concept
@@ -1376,6 +1612,8 @@
   explanation: 固定在一个位置转动而不移动的滑轮叫定滑轮，比如旗杆顶部的滑轮。用定滑轮提升重物不省力，但可以改变用力的方向。
   misconceptions:
     - 误认为定滑轮能省力，实际它固定在一处转动，只改变用力方向而不省力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为定滑轮能省力，实际它固定在一处转动，只改变用力方向而不省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:对比实验
   type: Concept
@@ -1388,6 +1626,8 @@
   explanation: 研究一个条件的作用时，只改变这个条件，其他条件都保持一样，把两组结果放在一起比较。这样看到的差别才能确定是这个条件造成的。
   misconceptions:
     - 误认为可以同时改变几个条件，实际只改变要研究的那个条件，其他条件都保持一样。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为可以同时改变几个条件，实际只改变要研究的那个条件，其他条件都保持一样。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:导体和绝缘体
   type: Concept
@@ -1400,6 +1640,8 @@
   explanation: 容易让电流通过的物体叫导体，像金属、人体、大地等；不容易让电流通过的物体叫绝缘体，像塑料、橡胶、干木头等。导线的芯用金属做导体，外面包塑料做绝缘体，这样用电才安全。
   misconceptions:
     - 误认为人体不导电，实际金属、人体、大地都容易让电流通过，属于导体。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为人体不导电，实际金属、人体、大地都容易让电流通过，属于导体。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:小孔成像
   type: Concept
@@ -1411,6 +1653,8 @@
   explanation: 光沿直线穿过小孔，会在后面的屏上形成倒立的像，《墨经》中就记录了这个实验。
   misconceptions:
     - 误认为小孔成的是正立的像，实际光沿直线穿过小孔会形成倒立的像。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为小孔成的是正立的像，实际光沿直线穿过小孔会形成倒立的像。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:小灯泡的结构
   type: Concept
@@ -1423,6 +1667,8 @@
   explanation: 小灯泡由玻璃泡、金属架、灯丝和两个连接点组成。电流从灯丝通过时，小灯泡就会发光。
   misconceptions:
     - 误认为灯泡只要装上就发光，实际要电流通过灯丝并经两个连接点形成回路才会亮。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为灯泡只要装上就发光，实际要电流通过灯丝并经两个连接点形成回路才会亮。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:小肠的消化作用
   type: Concept
@@ -1434,6 +1680,8 @@
   explanation: 小肠又长又有很多皱褶，能和食物充分接触。它是消化食物和吸收营养的主要场所。
   misconceptions:
     - 误认为胃是吸收营养的主要场所，实际小肠才是消化食物和吸收营养的主要场所。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为胃是吸收营养的主要场所，实际小肠才是消化食物和吸收营养的主要场所。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:小苏打和白醋的反应
   type: Concept
@@ -1446,6 +1694,8 @@
   explanation: 小苏打和白醋混合会产生二氧化碳气体，这是产生了新物质的化学变化。
   misconceptions:
     - 误认为冒气泡只是混合没有新物质，实际产生了二氧化碳，是化学变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冒气泡只是混合没有新物质，实际产生了二氧化碳，是化学变化。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S2.md
 - id: concept:科学:小车的结构
   type: Concept
@@ -1457,6 +1707,8 @@
   explanation: 小车一般由车架、车轮、电池等部分组成，电池驱动小电动机产生动力。拆解小车模型可以认识各部分的结构和作用。
   misconceptions:
     - 误认为小车靠轮子自己转动前进，实际由电池驱动小电动机产生动力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为小车靠轮子自己转动前进，实际由电池驱动小电动机产生动力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:就地取材建造房屋
   type: Concept
@@ -1468,6 +1720,8 @@
   explanation: 各地人们用当地容易找到的材料盖房子，比如北极的冰屋、云南的竹楼和黄土高原的窑洞。
   misconceptions:
     - 误认为各地房屋样式是随意选择的，实际是用当地容易找到的材料，如冰屋、竹楼、窑洞。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为各地房屋样式是随意选择的，实际是用当地容易找到的材料，如冰屋、竹楼、窑洞。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:岩石、沙和黏土的特征
   type: Concept
@@ -1480,6 +1734,8 @@
   explanation: 大块岩石碎裂会形成沙和黏土。岩石颗粒大而坚硬；沙颗粒较大，不能黏成团；黏土颗粒最小，摸起来滑腻，潮湿时黏性强，能团成小球。
   misconceptions:
     - 误认为沙和黏土是同一种东西，实际沙颗粒较大不能黏成团，黏土颗粒最小能黏成团。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为沙和黏土是同一种东西，实际沙颗粒较大不能黏成团，黏土颗粒最小能黏成团。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:岩石和土壤的用途
   type: Concept
@@ -1491,6 +1747,8 @@
   explanation: 岩石和土壤是地球上的重要资源，用途很广：岩石可以铺路、建房、造雕塑，煤是重要的能源矿产，计算机芯片用的硅来自石英等矿物，植物从土壤中获得养分。
   misconceptions:
     - 误认为岩石只是没用的石头，实际可以铺路、建房、造雕塑，煤还是重要的能源。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石只是没用的石头，实际可以铺路、建房、造雕塑，煤还是重要的能源。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:岩石和土壤记录地球历史
   type: Concept
@@ -1503,6 +1761,8 @@
   explanation: 岩石和土壤是天然形成的，形成过程非常漫长，上面留下了大自然的痕迹。岩石中的生物痕迹能告诉我们过去有什么生物，岩石的化学成分能告诉我们地球的年龄，喜马拉雅山发现菊石化石说明那里几亿年前曾是海洋。
   misconceptions:
     - 误认为岩石只是静止不动的物体，实际上面留有生物痕迹，记录着地球的历史。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石只是静止不动的物体，实际上面留有生物痕迹，记录着地球的历史。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:岩石由矿物组成
   type: Concept
@@ -1515,6 +1775,8 @@
   explanation: 所有的岩石都是由矿物组成的。花岗岩就是由石英、长石、云母三种矿物组成的，有的岩石只由一种矿物组成。
   misconceptions:
     - 误认为岩石是单一物质，实际所有岩石都由矿物组成，如花岗岩由石英、长石、云母组成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石是单一物质，实际所有岩石都由矿物组成，如花岗岩由石英、长石、云母组成。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:岩石的分类
   type: Concept
@@ -1526,6 +1788,8 @@
   explanation: 地质学家按形成原因把岩石分为岩浆岩、沉积岩和变质岩三大类：岩浆冷却形成岩浆岩，沉积物压实固结形成沉积岩，岩石在高温高压下变成变质岩。
   misconceptions:
     - 误认为岩石只按颜色分类，实际地质学家按形成原因分为岩浆岩、沉积岩和变质岩。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石只按颜色分类，实际地质学家按形成原因分为岩浆岩、沉积岩和变质岩。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:岩石的风化
   type: Concept
@@ -1537,6 +1801,8 @@
   explanation: 裸露在地表的岩石长期受到温度变化、水等自然因素的影响，会慢慢破碎、改变模样，冷热反复作用就能使岩石产生碎渣。
   misconceptions:
     - 误认为风化是瞬间碎裂，实际是长期受温度变化、水等自然因素影响慢慢破碎。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风化是瞬间碎裂，实际是长期受温度变化、水等自然因素影响慢慢破碎。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:岩石软硬的判别标准
   type: Concept
@@ -1548,6 +1814,8 @@
   explanation: 能用指甲刻画出痕迹的是软；指甲刻不动但铜钥匙能刻动的是较软；铜钥匙刻不动但小刀能刻动的是较硬；小刀也刻不动的是硬。
   misconceptions:
     - 误认为用手掰一下就能判断软硬，实际按指甲、铜钥匙、小刀能否刻动来分级。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为用手掰一下就能判断软硬，实际按指甲、铜钥匙、小刀能否刻动来分级。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:工具与技术的关系
   type: Concept
@@ -1559,6 +1827,8 @@
   explanation: 任何技术的背后都有科学原理支撑，工具和技术的发展是相互促进的，它们的不断改进共同推动着社会的发展。
   misconceptions:
     - 误认为技术只靠经验积累，实际任何技术背后都有科学原理支撑，工具与技术相互促进。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为技术只靠经验积累，实际任何技术背后都有科学原理支撑，工具与技术相互促进。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:工具的发展变化
   type: Concept
@@ -1570,6 +1840,8 @@
   explanation: 从古至今，工具在不断发展和改进，比如从毛笔到钢笔、从扁担背篼到手推车。不同的工具材料和作用不同，适用于不同的场景。
   misconceptions:
     - 误认为工具从古到今基本一样，实际从毛笔到钢笔、从扁担背篼到手推车，用途不同工具也不同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为工具从古到今基本一样，实际从毛笔到钢笔、从扁担背篼到手推车，用途不同工具也不同。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:工程的限制条件
   type: Concept
@@ -1582,6 +1854,8 @@
   explanation: 工程要在时间、费用、材料、环境等条件的限制下完成，设计时要同时满足这些要求和约束。
   misconceptions:
     - 误认为工程只要做出来就算成功，实际要在时间、费用、材料、环境等限制下同时满足要求。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为工程只要做出来就算成功，实际要在时间、费用、材料、环境等限制下同时满足要求。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:工程要考虑的因素
   type: Concept
@@ -1593,6 +1867,8 @@
   explanation: 设计一项工程要考虑建在哪里、用什么材料、成本多少、是否安全稳固等因素，要兼顾实用和节省。
   misconceptions:
     - 误认为只要结实就行，实际还要考虑建在哪里、用什么材料、成本多少、是否安全稳固。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只要结实就行，实际还要考虑建在哪里、用什么材料、成本多少、是否安全稳固。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:工程设计的基本步骤
   type: Concept
@@ -1604,6 +1880,8 @@
   explanation: 完成一项工程任务的基本步骤是：明确任务、制订方案、实施方案、测试与改进、展示与交流。根据测试结果要不断调整改进作品。
   misconceptions:
     - 误认为直接动手做即可，实际要按明确任务、制订方案、实施方案、测试与改进、展示的顺序进行。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为直接动手做即可，实际要按明确任务、制订方案、实施方案、测试与改进、展示的顺序进行。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:常见材料
   type: Concept
@@ -1615,6 +1893,8 @@
   explanation: 我们身边的物品常用金属、塑料、玻璃、布、纸、木、陶瓷等材料做成，有的物品还组合了几种材料。
   misconceptions:
     - 误认为一件物品只用一种材料，实际常常同时用到金属、塑料、玻璃、布、纸、木、陶瓷等多种材料。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为一件物品只用一种材料，实际常常同时用到金属、塑料、玻璃、布、纸、木、陶瓷等多种材料。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:常见的岩石
   type: Concept
@@ -1627,6 +1907,8 @@
   explanation: 花岗岩、砂岩和大理岩是三种常见的岩石。它们在颜色、颗粒、光泽、软硬等特征上各不相同，观察这些特征就能区分和描述岩石。
   misconceptions:
     - 误认为岩石都差不多，实际花岗岩、砂岩、大理岩在颜色、颗粒、光泽和软硬上各不相同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为岩石都差不多，实际花岗岩、砂岩、大理岩在颜色、颗粒、光泽和软硬上各不相同。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:平衡膳食
   type: Concept
@@ -1639,6 +1921,8 @@
   explanation: 每天要参照平衡膳食宝塔合理搭配食物，谷类、蔬菜水果、肉蛋奶等按合适的比例食用，营养才均衡。
   misconceptions:
     - 误认为多吃肉更有营养，实际要参照平衡膳食宝塔的比例搭配谷类、蔬菜水果和肉蛋奶。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为多吃肉更有营养，实际要参照平衡膳食宝塔的比例搭配谷类、蔬菜水果和肉蛋奶。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:开关的作用
   type: Concept
@@ -1650,6 +1934,8 @@
   explanation: 开关连在电路里，可以控制电流的通和断：接通开关，电流通过，用电器工作；断开开关，电流中断，用电器停止工作。
   misconceptions:
     - 误认为开关只是配件，实际它控制电流的通与断，断开时用电器就停止工作。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为开关只是配件，实际它控制电流的通与断，断开时用电器就停止工作。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:弹力
   type: Concept
@@ -1661,6 +1947,8 @@
   explanation: 物体受到外力时形状会发生改变，这时它会产生一个要恢复原来形状的力，这个力叫弹力。橡皮筋缠绕圈数越多，拉伸越长，弹力越大。
   misconceptions:
     - 误认为只有弹簧才有弹力，实际物体受力变形后要恢复原来形状时都会产生弹力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有弹簧才有弹力，实际物体受力变形后要恢复原来形状时都会产生弹力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:弹簧测力计
   type: Concept
@@ -1672,6 +1960,8 @@
   explanation: 弹簧测力计是测量力的大小的工具，由提环、弹簧、指针和刻度组成。拉力越大，弹簧伸得越长，指针示数越大，但用力不能超过它的测量范围。
   misconceptions:
     - 误认为刻度是随意标定的，实际拉力越大弹簧伸得越长，据此读出力的大小。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为刻度是随意标定的，实际拉力越大弹簧伸得越长，据此读出力的大小。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:影响摆动快慢的因素
   type: Concept
@@ -1683,6 +1973,8 @@
   explanation: 摆的快慢与摆绳长度有关，摆绳越长摆动越慢、越短越快；与摆锤质量无关。可以据此调试出 1 分钟摆动 60 次的摆。
   misconceptions:
     - 误认为摆锤越重摆得越快，实际摆的快慢只与摆绳长度有关，与摆锤质量无关。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为摆锤越重摆得越快，实际摆的快慢只与摆绳长度有关，与摆锤质量无关。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:影响生长发育的因素
   type: Concept
@@ -1694,6 +1986,8 @@
   explanation: 遗传、饮食习惯、运动、睡眠等都会影响我们的生长发育。
   misconceptions:
     - 误认为身高只由遗传决定，实际饮食习惯、运动、睡眠同样影响生长发育。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为身高只由遗传决定，实际饮食习惯、运动、睡眠同样影响生长发育。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:影子的变化规律
   type: Concept
@@ -1706,6 +2000,8 @@
   explanation: 一天中，太阳的位置在不断变化，阳光下物体的影子也会跟着变化：影子总是在背着太阳的一侧，方向和长短都随时间有规律地改变。
   misconceptions:
     - 误认为影子固定不动，实际太阳位置变化影子也随之变化，且总在背光的一侧。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为影子固定不动，实际太阳位置变化影子也随之变化，且总在背光的一侧。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:影子的形成
   type: Concept
@@ -1718,6 +2014,8 @@
   explanation: 光照射到不透明的物体上，光被挡住，物体背光的一侧就会形成影子。产生影子需要光、物体和挡住光的条件。
   misconceptions:
     - 误认为有光就有影子，实际需要光被不透明物体挡住才会形成影子。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为有光就有影子，实际需要光被不透明物体挡住才会形成影子。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:影长的四季变化
   type: Concept
@@ -1729,6 +2027,8 @@
   explanation: 一年中正午影长有规律地变化：夏至太阳最高、影长最短，冬至太阳最低、影长最长，与太阳高度有关。
   misconceptions:
     - 误认为一年中正午影长不变，实际夏至最短、冬至最长，春秋居中。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为一年中正午影长不变，实际夏至最短、冬至最长，春秋居中。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:微生物
   type: Concept
@@ -1740,6 +2040,8 @@
   explanation: 微生物是个体非常微小、要用显微镜才能看到的生物，包括酵母菌、霉菌、细菌、病毒等。有些微生物能帮我们制造食品、处理垃圾，有些却会让食物霉变、引起疾病。
   misconceptions:
     - 误认为微生物都是有害的细菌，实际包括酵母菌、霉菌、细菌、病毒等，要用显微镜才能看到。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为微生物都是有害的细菌，实际包括酵母菌、霉菌、细菌、病毒等，要用显微镜才能看到。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:恐龙化石
   type: Concept
@@ -1752,6 +2054,8 @@
   explanation: 恐龙化石是很久以前留下的恐龙骨骼或足迹，被大自然保存下来。科学家通过研究化石，可以知道恐龙的样子、怎么走路、怎么生活。
   misconceptions:
     - 误认为化石是完整的恐龙遗骸，实际多是骨骼或足迹，科学家据此推测恐龙的样貌和生活。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为化石是完整的恐龙遗骸，实际多是骨骼或足迹，科学家据此推测恐龙的样貌和生活。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S9.md
 - id: concept:科学:情绪
   type: Concept
@@ -1763,6 +2067,8 @@
   explanation: 人有快乐、愤怒、悲伤、恐惧等情绪，情绪会影响健康；遇到过度紧张等情绪问题时，要学会调节并向他人求助。
   misconceptions:
     - 误认为情绪与健康无关，实际情绪会影响健康，遇到过度紧张等问题需要及时调节。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为情绪与健康无关，实际情绪会影响健康，遇到过度紧张等问题需要及时调节。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:感觉器官
   type: Concept
@@ -1775,6 +2081,8 @@
   explanation: 眼睛、耳朵、鼻子、舌头和皮肤是我们的感觉器官。在玩游戏时，它们帮助我们看、听、闻、摸，作出反应。
   misconceptions:
     - 误认为感觉全靠大脑，实际眼睛、耳朵、鼻子、舌头和皮肤才是感觉器官。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为感觉全靠大脑，实际眼睛、耳朵、鼻子、舌头和皮肤才是感觉器官。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:我国农具的发展
   type: Concept
@@ -1786,6 +2094,8 @@
   explanation: 我国农具从原始的石斧、木棒，发展到磨制的石镰，再到铁制农具和牛耕，如今有了先进的农业机械。农具的改进让农业生产效率不断提高。
   misconceptions:
     - 误认为农具一直是铁制的，实际从石斧、木棒到石镰、铁制农具和牛耕，如今已有现代农业机械。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为农具一直是铁制的，实际从石斧、木棒到石镰、铁制农具和牛耕，如今已有现代农业机械。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:拉力
   type: Concept
@@ -1797,6 +2107,8 @@
   explanation: 朝自己身边方向用力叫拉力，比如拉动小车、拉开门。
   misconceptions:
     - 误认为推和拉是同一种力，实际朝自己身边方向用力叫拉力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为推和拉是同一种力，实际朝自己身边方向用力叫拉力。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:拼接化石的方法
   type: Concept
@@ -1808,6 +2120,8 @@
   explanation: 先按形状给骨骼化石分类，想一想它属于身体的哪个部位，再对照图片把骨骼拼起来，拼好后还要检查和调整。
   misconceptions:
     - 误认为把骨骼随便拼起来就行，实际要先按形状分类、判断属于身体哪个部位，再对照图片拼装。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为把骨骼随便拼起来就行，实际要先按形状分类、判断属于身体哪个部位，再对照图片拼装。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:指南针的使用方法
   type: Concept
@@ -1819,6 +2133,8 @@
   explanation: 把指南针放平，等磁针静止后，转动刻度盘让南北方向和磁针一致，刻度盘上的方向就是实际的方向。红色磁针一端指北，白色一端指南。
   misconceptions:
     - 误认为拿起来就能读数，实际要放平、等磁针静止，再转动刻度盘让南北方向与磁针一致。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为拿起来就能读数，实际要放平、等磁针静止，再转动刻度盘让南北方向与磁针一致。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S8.md
 - id: concept:科学:振动
   type: Concept
@@ -1831,6 +2147,8 @@
   explanation: 振动是物体不断重复做往复运动的状态。拨动的橡皮筋、敲响的鼓面都在振动。
   misconceptions:
     - 误认为振动就是整体晃动，实际是物体不断重复做往复运动，如拨动的橡皮筋、敲响的鼓面。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为振动就是整体晃动，实际是物体不断重复做往复运动，如拨动的橡皮筋、敲响的鼓面。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:推力
   type: Concept
@@ -1842,6 +2160,8 @@
   explanation: 把物体往外推出去的力叫推力，比如推动小车、推开门。
   misconceptions:
     - 误认为推力是往自己方向用力，实际把物体往外推出去的力叫推力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为推力是往自己方向用力，实际把物体往外推出去的力叫推力。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:摄氏度
   type: Concept
@@ -1854,6 +2174,8 @@
   explanation: 摄氏度是常用的温度单位，用符号℃表示。比如38℃读作三十八摄氏度，-4℃读作零下四摄氏度。
   misconceptions:
     - 误认为 0℃ 表示没有温度，实际摄氏度是温度单位，-4℃ 表示零下四摄氏度。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为 0℃ 表示没有温度，实际摄氏度是温度单位，-4℃ 表示零下四摄氏度。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:摆的等时性
   type: Concept
@@ -1866,6 +2188,8 @@
   explanation: 同一个摆来回摆动一次所用的时间相同；摆长越长周期越长，与摆球的质量无关。伽利略发现了这一规律，为摆钟的发明奠定了基础。
   misconceptions:
     - 误认为摆锤越重摆得越慢，实际同一个摆来回摆动一次的时间相同，与摆球质量无关。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为摆锤越重摆得越慢，实际同一个摆来回摆动一次的时间相同，与摆球质量无关。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S9.md
 - id: concept:科学:摆的运动特点
   type: Concept
@@ -1878,6 +2202,8 @@
   explanation: 摆由摆绳和摆锤组成，同一个摆在相同时间内摆动的次数相同；摆幅会慢慢变小，但摆动的快慢不变。
   misconceptions:
     - 误认为摆幅变小后摆动会越来越快，实际同一时间内摆动次数不变，只是摆幅逐渐变小。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为摆幅变小后摆动会越来越快，实际同一时间内摆动次数不变，只是摆幅逐渐变小。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:摩擦力
   type: Concept
@@ -1889,6 +2215,8 @@
   explanation: 一个物体在另一个物体表面运动时，接触面会阻碍物体的运动，这种力叫摩擦力。接触面越粗糙、物体越重，摩擦力越大。
   misconceptions:
     - 误认为摩擦力总是有害，实际接触面粗糙程度不同摩擦力不同，有时恰恰需要增大摩擦力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为摩擦力总是有害，实际接触面粗糙程度不同摩擦力不同，有时恰恰需要增大摩擦力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:放大镜的放大原理
   type: Concept
@@ -1900,6 +2228,8 @@
   explanation: 放大镜的镜片是凸透镜，中央厚、边缘薄，能把物体的图像放大，让我们看清人眼不容易看清的细微之处。
   misconceptions:
     - 误认为任何玻璃都能放大，实际放大镜是中央厚、边缘薄的凸透镜。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为任何玻璃都能放大，实际放大镜是中央厚、边缘薄的凸透镜。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:斜面
   type: Concept
@@ -1911,6 +2241,8 @@
   explanation: 斜面是像搭在货车上的长木板那样的简单机械，沿斜面把重物推上高处比直接提升省力。坡度越缓越省力，斜面越长坡度越缓。
   misconceptions:
     - 误认为直接把重物提上去更省力，实际沿斜面把重物推上高处比直接提升省力。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为直接把重物提上去更省力，实际沿斜面把重物推上高处比直接提升省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:日食
   type: Concept
@@ -1923,6 +2255,8 @@
   explanation: 月球运行到太阳和地球之间，挡住太阳射向地球的光，就形成了日食。
   misconceptions:
     - 误认为日食是地球挡住了太阳，实际是月球运行到太阳和地球之间挡住了射向地球的阳光。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为日食是地球挡住了太阳，实际是月球运行到太阳和地球之间挡住了射向地球的阳光。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:昆虫的特征
   type: Concept
@@ -1935,6 +2269,8 @@
   explanation: 昆虫的身体分为头、胸、腹三部分，头部长有触角，胸部长有三对足。蚕蛾、蝴蝶、蚂蚁、蜻蜓都是昆虫，蜘蛛不是。
   misconceptions:
     - 误认为有翅膀的就是昆虫，实际昆虫身体要分头、胸、腹三部分，胸部有三对足和触角。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为有翅膀的就是昆虫，实际昆虫身体要分头、胸、腹三部分，胸部有三对足和触角。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:星座
   type: Concept
@@ -1946,6 +2282,8 @@
   explanation: 人们把天空划分成不同的区域，根据星星的形态想象成形并命名，这些区域就是星座，全天共划分为 88 个星座。
   misconceptions:
     - 误认为同一星座的星星彼此靠得很近，实际只是从地球看去在同一区域，人们据此划分并命名。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为同一星座的星星彼此靠得很近，实际只是从地球看去在同一区域，人们据此划分并命名。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:昼夜交替
   type: Concept
@@ -1957,6 +2295,8 @@
   explanation: 白昼和黑夜交替出现，可以提出不同的假说来解释，并借助地球模型做模拟实验来验证。
   misconceptions:
     - 误认为昼夜交替是太阳绕地球转造成的，实际可以用地球模型模拟自转来解释并验证。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为昼夜交替是太阳绕地球转造成的，实际可以用地球模型模拟自转来解释并验证。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:显微镜的放大原理
   type: Concept
@@ -1968,6 +2308,8 @@
   explanation: 一个凸透镜的放大倍数有限，把两个凸透镜平行重叠组合起来，可以把物体的图像放得更大更清晰，这就是显微镜的基本原理。
   misconceptions:
     - 误认为一个凸透镜就能把物体放得很大，实际要把两个凸透镜平行重叠组合才能放得更大。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为一个凸透镜就能把物体放得很大，实际要把两个凸透镜平行重叠组合才能放得更大。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:暴雨预警
   type: Concept
@@ -1980,6 +2322,8 @@
   explanation: 暴雨到来之前，气象部门会发出预警，分为蓝色、黄色、橙色、红色四级，级别越高雨越大。收到预警要少外出，注意安全。
   misconceptions:
     - 误认为预警只有一种级别，实际分为蓝、黄、橙、红四级，级别越高雨势越强。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为预警只有一种级别，实际分为蓝、黄、橙、红四级，级别越高雨势越强。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:曲线运动
   type: Concept
@@ -1991,6 +2335,8 @@
   explanation: 物体沿着弯曲路径的运动叫曲线运动，比如汽车转弯、荡秋千时的运动。
   misconceptions:
     - 误认为物体运动只能是直线，实际沿弯曲路径的运动叫曲线运动，如汽车转弯、荡秋千。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物体运动只能是直线，实际沿弯曲路径的运动叫曲线运动，如汽车转弯、荡秋千。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月亮形状的变化
   type: Concept
@@ -2003,6 +2349,8 @@
   explanation: 月亮的形状每天都在变化，有时圆、有时弯，不是每天都能看见月亮。
   misconceptions:
     - 误认为月亮自己会变形，实际是月相变化，有时圆、有时弯，也不是每天都能看见。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为月亮自己会变形，实际是月相变化，有时圆、有时弯，也不是每天都能看见。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:月球是地球的卫星
   type: Concept
@@ -2015,6 +2363,8 @@
   explanation: 月球围绕着地球转动，是地球唯一的天然卫星。它自己不会发光，我们看到的月光是它反射的太阳光。
   misconceptions:
     - 误认为月球自己会发光，实际它围绕地球转动，是地球唯一的天然卫星，月光是它反射的太阳光。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为月球自己会发光，实际它围绕地球转动，是地球唯一的天然卫星，月光是它反射的太阳光。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月球表面的特点
   type: Concept
@@ -2027,6 +2377,8 @@
   explanation: 月球表面没有水和大气，也没有生物，昼夜温差很大。表面有明有暗，暗色的斑块叫月海，其实是低洼的平原，并不是海。
   misconceptions:
     - 误认为月球和地球一样有水和空气，实际那里没有水和大气、没有生物，昼夜温差很大。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为月球和地球一样有水和空气，实际那里没有水和大气、没有生物，昼夜温差很大。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月球车的设计
   type: Concept
@@ -2038,6 +2390,8 @@
   explanation: 月球车的设计要适应月球的环境：轮子材料要耐高温抗低温，太阳翼能发电也能保温，还要防月尘、能爬坡越障。探月任务决定了月球车的模样。
   misconceptions:
     - 误认为月球车和普通车差不多，实际轮子材料要耐高温抗低温，太阳翼既能发电也能保温。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为月球车和普通车差不多，实际轮子材料要耐高温抗低温，太阳翼既能发电也能保温。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:木质茎和草质茎
   type: Concept
@@ -2051,6 +2405,8 @@
   explanation: 茎秆坚硬、大部分由木质部组成的叫木质茎，如油松；茎柔软易折断、常呈绿色的叫草质茎，如狗尾草。
   misconceptions:
     - 误认为植物的茎都坚硬，实际油松等茎秆坚硬属木质茎，柔软易折断、常呈绿色的属草质茎。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物的茎都坚硬，实际油松等茎秆坚硬属木质茎，柔软易折断、常呈绿色的属草质茎。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:材料
   type: Concept
@@ -2062,6 +2418,8 @@
   explanation: 用来建造东西或做物品的东西叫材料，比如干草、泥、砖和木头。动物和人都用材料建造自己的家。
   misconceptions:
     - 误认为材料只指金属，实际干草、泥、砖和木头都是材料。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为材料只指金属，实际干草、泥、砖和木头都是材料。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:材料的导热性能
   type: Concept
@@ -2074,6 +2432,8 @@
   explanation: 不同材料传热的快慢不同：金属传热快，木头、塑料传热慢。传热快慢不同的材料在生活中有不同的用途，比如锅身用金属、锅柄用塑料。
   misconceptions:
     - 误认为所有材料传热一样快，实际金属传热快，木头和塑料传热慢。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有材料传热一样快，实际金属传热快，木头和塑料传热慢。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S6.md
 - id: concept:科学:杠杆
   type: Concept
@@ -2086,6 +2446,8 @@
   explanation: 像撬杠这样能绕固定点转动的棍子就是杠杆。杠杆上有三个重要位置：支撑转动的支点、用力的用力点和阻碍转动的阻力点，用力点离支点越远往往越省力。
   misconceptions:
     - 误认为杠杆只是一根棍子，实际它要能绕固定点转动，有支点、用力点和阻力点三个重要位置。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为杠杆只是一根棍子，实际它要能绕固定点转动，有支点、用力点和阻力点三个重要位置。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:果实的结构
   type: Concept
@@ -2098,6 +2460,8 @@
   explanation: 果实由果皮和种子组成。果皮保护里面的种子，有的果皮还能帮助种子传播；种子落在适宜的环境里能长成新的植物。
   misconceptions:
     - 误认为果实只有果皮，实际由果皮和种子组成，果皮保护种子并帮助种子传播。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为果实只有果皮，实际由果皮和种子组成，果皮保护种子并帮助种子传播。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:根据证据推测
   type: Concept
@@ -2110,6 +2474,8 @@
   explanation: 不能直接看到的东西，可以靠留下的痕迹去推测它的样子。比如根据恐龙骨骼化石，再参考现在的动物，推测恐龙原来的模样。
   misconceptions:
     - 误认为推测可以凭想象，实际要根据留下的痕迹（如化石）并参考现在的动物来推断。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为推测可以凭想象，实际要根据留下的痕迹（如化石）并参考现在的动物来推断。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:根的作用
   type: Concept
@@ -2122,6 +2488,8 @@
   explanation: 根能吸收土壤里的水分和养料，还能把植物固定在土壤里，使植物不容易倒下或被风吹走。
   misconceptions:
     - 误认为根只用来固定植物，实际它还能吸收土壤里的水分和养料。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为根只用来固定植物，实际它还能吸收土壤里的水分和养料。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:检验食物营养的方法
   type: Concept
@@ -2133,6 +2501,8 @@
   explanation: 把食物涂在纸上留下不会消失的油迹，说明含有脂肪；在食物上滴碘酒变蓝紫色，说明含有淀粉。
   misconceptions:
     - 误认为尝一尝就能判断营养，实际要用纸上油迹检验脂肪、滴碘酒变蓝紫色检验淀粉。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为尝一尝就能判断营养，实际要用纸上油迹检验脂肪、滴碘酒变蓝紫色检验淀粉。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:植物开花与阳光
   type: Concept
@@ -2144,6 +2514,8 @@
   explanation: 许多植物开花受阳光的“指挥”，菊花要等秋天白天变短了才开花。
   misconceptions:
     - 误认为开花只与温度有关，实际许多植物开花受日照长短指挥，如菊花要等秋天白天变短才开。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为开花只与温度有关，实际许多植物开花受日照长短指挥，如菊花要等秋天白天变短才开。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:植物生长的地方
   type: Concept
@@ -2155,6 +2527,8 @@
   explanation: 植物大多长在土壤里，土壤能固定植物，还能提供水分和养分。有的植物也能长在水里。
   misconceptions:
     - 误认为植物只能长在土壤里，实际有的植物也能长在水里。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物只能长在土壤里，实际有的植物也能长在水里。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:植物生长需要阳光
   type: Concept
@@ -2166,6 +2540,8 @@
   explanation: 把绿豆苗分别种在阳光充足和黑暗的地方，阳光下的苗长得高、茎粗、叶绿。说明植物的生长离不开阳光。
   misconceptions:
     - 误认为只要浇水就能长好，实际阳光下的绿豆苗长得更高、茎更粗、叶更绿。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只要浇水就能长好，实际阳光下的绿豆苗长得更高、茎更粗、叶更绿。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:植物的变化
   type: Concept
@@ -2177,6 +2553,8 @@
   explanation: 植物在生长过程中会慢慢长大、长出叶子、开花结果。把植物的变化记录下来，就能发现它每天都在变。
   misconceptions:
     - 误认为植物长成后就不再变化，实际会慢慢长大、长叶、开花结果，记录才能发现规律。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物长成后就不再变化，实际会慢慢长大、长叶、开花结果，记录才能发现规律。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:植物的生命周期
   type: Concept
@@ -2189,6 +2567,8 @@
   explanation: 凤仙花从播种、发芽、长出茎叶、开花、结果，到果实开裂结出新的种子，最后枯死，完成一个生命周期。整理生长记录就能发现植物生长变化的规律。
   misconceptions:
     - 误认为植物不会死亡，实际凤仙花从播种、发芽、开花结果，到结出新种子后枯死。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物不会死亡，实际凤仙花从播种、发芽、开花结果，到结出新种子后枯死。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S8.md
 - id: concept:科学:植物的需要
   type: Concept
@@ -2200,6 +2580,8 @@
   explanation: 植物生长需要水、阳光和空气。我们要按时给植物浇水，让它晒到太阳。
   misconceptions:
     - 误认为植物只需要水，实际还需要阳光和空气。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物只需要水，实际还需要阳光和空气。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:模拟实验
   type: Concept
@@ -2212,6 +2594,8 @@
   explanation: 用细沙模拟月壤，用大小不同的球撞击沙面，模拟出大小、深浅不同的“环形山”。借助模拟实验可以研究看不清或去不了的地方。
   misconceptions:
     - 误认为模拟实验的结果就是真实情况，实际它只是借助模型研究看不清或去不了的对象。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为模拟实验的结果就是真实情况，实际它只是借助模型研究看不清或去不了的对象。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:次声波
   type: Concept
@@ -2223,6 +2607,8 @@
   explanation: 每秒振动低于 20 次的声音叫次声波，人耳也听不到。它传播距离比较远，可以用来预测地质灾害。
   misconceptions:
     - 误认为人耳能听到所有声音，实际每秒振动低于 20 次的次声波人耳听不到，但它传播得更远。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为人耳能听到所有声音，实际每秒振动低于 20 次的次声波人耳听不到，但它传播得更远。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S10.md
 - id: concept:科学:比较液体流动快慢
   type: Concept
@@ -2234,6 +2620,8 @@
   explanation: 让水和食用油同时开始流动，流动时间一样，看谁流得更远更快。水比食用油流得快。
   misconceptions:
     - 误认为黏稠的液体流得快，实际水比食用油流得快。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为黏稠的液体流得快，实际水比食用油流得快。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:比较溶解能力
   type: Concept
@@ -2245,6 +2633,8 @@
   explanation: 要用同样多的水，把不同物质一份一份地加入，等前一份完全溶解再加下一份，直到加不进去为止，就能比较它们的溶解能力。
   misconceptions:
     - 误认为把物质一次全倒进去就能比出溶解能力，实际要一份一份加入，等前一份完全溶解再加下一份。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为把物质一次全倒进去就能比出溶解能力，实际要一份一份加入，等前一份完全溶解再加下一份。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:比较物体轻重
   type: Concept
@@ -2258,6 +2648,8 @@
   explanation: 可以先猜一猜，再用手掂一掂，最后用天平称一称。称一称的结果最准确。
   misconceptions:
     - 误认为用手掂一掂最准确，实际用天平称一称的结果最准确。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为用手掂一掂最准确，实际用天平称一称的结果最准确。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:比较的方法
   type: Concept
@@ -2269,6 +2661,8 @@
   explanation: 比较是把事物按同一个标准排一排、对照看一看。比如按颜色深浅给三杯酱油水排序，就知道哪杯酱油多。
   misconceptions:
     - 误认为比较只要随意看看，实际要按同一个标准排一排、对照看一看。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为比较只要随意看看，实际要按同一个标准排一排、对照看一看。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:比较磁力大小的方法
   type: Concept
@@ -2281,6 +2675,8 @@
   explanation: 可以让不同的磁铁吸引大头针或垫圈，谁吸的数量多，谁的力量就大；也可以用磁铁吸弹簧，看弹簧被拉得多长来比较。
   misconceptions:
     - 误认为磁铁越大磁力越强，实际要比它吸引大头针或垫圈的数量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁越大磁力越强，实际要比它吸引大头针或垫圈的数量。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:气体交换
   type: Concept
@@ -2292,6 +2688,8 @@
   explanation: 呼吸其实是在进行气体交换：空气中的氧气进入血液，身体产生的二氧化碳被排出去。气体交换主要在肺里进行。
   misconceptions:
     - 误认为呼吸只是把空气吸进肺里，实际是空气中的氧气进入血液、身体产生的二氧化碳被排出。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为呼吸只是把空气吸进肺里，实际是空气中的氧气进入血液、身体产生的二氧化碳被排出。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:气温计
   type: Concept
@@ -2304,6 +2702,8 @@
   explanation: 气温计是用来测量气温的工具，由刻度、液柱和玻璃泡组成。用它测量气温，能比人的感觉更准确。
   misconceptions:
     - 误认为气温计和体温计用法一样，实际气温计由刻度、液柱和玻璃泡组成，专门用来测气温。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为气温计和体温计用法一样，实际气温计由刻度、液柱和玻璃泡组成，专门用来测气温。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:气温计的使用方法
   type: Concept
@@ -2315,6 +2715,8 @@
   explanation: 测量气温时，要把气温计放在阳光照不到、空气流通、离地面约1.5米的地方，不要用手摸玻璃泡，等液柱稳定后再平视读数。
   misconceptions:
     - 误认为放在哪儿都能测准，实际要放在阳光照不到、空气流通、离地面约 1.5 米的地方。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为放在哪儿都能测准，实际要放在阳光照不到、空气流通、离地面约 1.5 米的地方。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:气温计读数
   type: Concept
@@ -2326,6 +2728,8 @@
   explanation: 读气温计时，眼睛要平视液柱顶端，先看液柱指在0℃以上还是以下，再正确读出和记录温度。
   misconceptions:
     - 误认为可以斜着看读数，实际眼睛要平视液柱顶端，先判断在 0℃ 以上还是以下再读。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为可以斜着看读数，实际眼睛要平视液柱顶端，先判断在 0℃ 以上还是以下再读。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:水循环
   type: Concept
@@ -2338,6 +2742,8 @@
   explanation: 水在固态、液态和气态之间不断循环变化：水蒸发变成水汽升上天空，再通过降雨、降雪回到地面。比如青藏高原的冰川、河流就这样循环着。
   misconceptions:
     - 误认为水用完就消失了，实际水在固态、液态、气态之间不断循环。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水用完就消失了，实际水在固态、液态、气态之间不断循环。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:水的三态变化
   type: Concept
@@ -2350,6 +2756,8 @@
   explanation: 水有固态、液态、气态三种状态，它们是同一种物质，可以互相转化：水在0℃结冰，加热到100℃沸腾变成水蒸气，又能变回液态的水。
   misconceptions:
     - 误认为冰、水、水蒸气是三种不同物质，实际它们是同一种物质的三种状态，可以互相转化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冰、水、水蒸气是三种不同物质，实际它们是同一种物质的三种状态，可以互相转化。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:水的特征
   type: Concept
@@ -2361,6 +2769,8 @@
   explanation: 水没有颜色、没有气味，也没有固定的形状，放进什么容器就是什么形状。水还会流动。
   misconceptions:
     - 误认为水有固定形状，实际水没有颜色和气味，也没有固定形状，装进什么容器就是什么形状。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水有固定形状，实际水没有颜色和气味，也没有固定形状，装进什么容器就是什么形状。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:水的阻力
   type: Concept
@@ -2372,6 +2782,8 @@
   explanation: 船在水中行驶时会受到水的阻力，阻力越小船走得越快。流线型的船体受到的阻力比较小。
   misconceptions:
     - 误认为船的快慢只由动力决定，实际水有阻力，流线型船体阻力更小、船走得更快。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为船的快慢只由动力决定，实际水有阻力，流线型船体阻力更小、船走得更快。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:水结冰
   type: Concept
@@ -2384,6 +2796,8 @@
   explanation: 水的温度降到0℃时会结冰，从液态变成固态。冰是固体，有固定的形状，不能流动。
   misconceptions:
     - 误认为水结冰后还能流动，实际温度降到 0℃ 时水从液态变为固态，冰有固定形状。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水结冰后还能流动，实际温度降到 0℃ 时水从液态变为固态，冰有固定形状。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:水钟
   type: Concept
@@ -2398,6 +2812,8 @@
   explanation: 利用水流计时的工具叫水钟，关键是让水匀速滴漏，分为记录水漏完时间的泄水型和记录水装满时间的受水型两种。
   misconceptions:
     - 误认为水钟靠容器里水的多少计时，实际关键是让水匀速滴漏，分泄水型和受水型两类。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水钟靠容器里水的多少计时，实际关键是让水匀速滴漏，分泄水型和受水型两类。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:沉积作用
   type: Concept
@@ -2410,6 +2826,8 @@
   explanation: 被侵蚀的泥沙等物质被流水带到下游，流速变慢后堆积下来，这个过程叫沉积作用，也叫堆积作用，河流中下游的沙洲就是这样形成的。
   misconceptions:
     - 误认为泥沙被冲走就消失了，实际流水速度变慢后泥沙会堆积下来，形成沉积作用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为泥沙被冲走就消失了，实际流水速度变慢后泥沙会堆积下来，形成沉积作用。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:河外星系
   type: Concept
@@ -2422,6 +2840,8 @@
   explanation: 银河系以外还有许多像银河系一样庞大的恒星集团，如仙女座星系，它们大小不一、形状各异，都在高速运动。
   misconceptions:
     - 误认为银河系就是整个宇宙，实际银河系之外还有许多庞大的恒星集团，如仙女座星系。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为银河系就是整个宇宙，实际银河系之外还有许多庞大的恒星集团，如仙女座星系。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:沸腾
   type: Concept
@@ -2434,6 +2854,8 @@
   explanation: 水加热到100℃左右时会不停地翻滚冒泡，温度不再升高，这种现象叫沸腾。沸腾时产生的大量"白气"，是水蒸气遇冷变成的小水珠。
   misconceptions:
     - 误认为水沸腾后温度会继续升高，实际水在 100℃ 左右沸腾时温度不再上升。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水沸腾后温度会继续升高，实际水在 100℃ 左右沸腾时温度不再上升。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:测试和改进
   type: Concept
@@ -2446,6 +2868,8 @@
   explanation: 作品做好后，要照着要求测试一下，看看有没有达到目标，再找出问题、想办法改进，让它做得更好。
   misconceptions:
     - 误认为作品做好就结束了，实际要按目标测试、找出问题再改进。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为作品做好就结束了，实际要按目标测试、找出问题再改进。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:浮力
   type: Concept
@@ -2457,6 +2881,8 @@
   explanation: 像橡皮泥这样会下沉的材料，做成船形后在水里受到的浮力增大了，所以也能漂浮。浮力是水托起物体向上的力。
   misconceptions:
     - 误认为会下沉的材料做成船一定沉，实际橡皮泥做成船形后受到的浮力增大，也能漂浮。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为会下沉的材料做成船一定沉，实际橡皮泥做成船形后受到的浮力增大，也能漂浮。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:海洋和陆地的面积
   type: Concept
@@ -2469,6 +2895,8 @@
   explanation: 地球表面大部分是海洋，海洋的面积比陆地大得多，约占地球表面的71%。淡水资源却很少，我们要节约用水。
   misconceptions:
     - 误认为陆地比海洋面积大，实际海洋约占地球表面的 71%，比陆地大得多。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为陆地比海洋面积大，实际海洋约占地球表面的 71%，比陆地大得多。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:消化器官
   type: Concept
@@ -2480,6 +2908,8 @@
   explanation: 牙齿、口腔、食管、胃、小肠、大肠都是消化器官，它们分工合作，把食物消化成营养并吸收，把废物排出体外。
   misconceptions:
     - 误认为消化只发生在胃里，实际牙齿、口腔、食管、胃、小肠、大肠分工合作完成消化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为消化只发生在胃里，实际牙齿、口腔、食管、胃、小肠、大肠分工合作完成消化。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:温室效应
   type: Concept
@@ -2492,6 +2922,8 @@
   explanation: 人类大量燃烧煤、石油和天然气，使大气中二氧化碳增多，地表附近的气温随之上升，这种增温效果就像栽培植物的温室。
   misconceptions:
     - 误认为温室效应完全是自然现象，实际大量燃烧煤、石油和天然气使大气中二氧化碳增多，地表气温上升。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为温室效应完全是自然现象，实际大量燃烧煤、石油和天然气使大气中二氧化碳增多，地表气温上升。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:溶解
   type: Concept
@@ -2504,6 +2936,8 @@
   explanation: 把食盐等物质放进水里搅拌，它会均匀地分散在水里看不见了，这就是溶解。不同的物质在水里的溶解量不一样。
   misconceptions:
     - 误认为物质看不见了就是消失了，实际它均匀分散在水里，而且不同物质的溶解能力不同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物质看不见了就是消失了，实际它均匀分散在水里，而且不同物质的溶解能力不同。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:潜望镜的原理
   type: Concept
@@ -2515,6 +2949,8 @@
   explanation: 在“之”形通道的两个转角处各放一块平面镜，光经过两次反射实现“拐弯”，就能看到遮挡物另一侧的物体。
   misconceptions:
     - 误认为潜望镜靠透镜放大，实际是在“之”形通道的两个转角各放一块平面镜，经两次反射让光拐弯。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为潜望镜靠透镜放大，实际是在“之”形通道的两个转角各放一块平面镜，经两次反射让光拐弯。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:火山喷发
   type: Concept
@@ -2526,6 +2962,8 @@
   explanation: 火山喷发是地球内部炽热的岩浆等物质从地壳薄弱处喷出地面的自然现象，它会剧烈地改变地表，形成火山锥、火山口湖等地貌。
   misconceptions:
     - 误认为火山喷发只是冒烟，实际是地球内部炽热的岩浆从地壳薄弱处喷出，会剧烈改变地形。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为火山喷发只是冒烟，实际是地球内部炽热的岩浆从地壳薄弱处喷出，会剧烈改变地形。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:点亮小灯泡的方法
   type: Concept
@@ -2538,6 +2976,8 @@
   explanation: 用导线把电池和小灯泡的两个连接点连起来，让电流从电池正极出发经过灯丝流回负极，小灯泡才能亮起来。
   misconceptions:
     - 误认为接上一根导线灯泡就会亮，实际要用导线把电池和灯泡的两个连接点连成回路。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为接上一根导线灯泡就会亮，实际要用导线把电池和灯泡的两个连接点连成回路。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:热传导
   type: Concept
@@ -2550,6 +2990,8 @@
   explanation: 热沿着物体从温度高的部分传到温度低的部分，比如加热金属条中部，两端的蜡会先后熔化。金属是容易传热的材料。
   misconceptions:
     - 误认为热只能向下传递，实际热沿着物体从温度高的部分传向温度低的部分。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为热只能向下传递，实际热沿着物体从温度高的部分传向温度低的部分。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S4.md
 - id: concept:科学:热传递
   type: Concept
@@ -2561,6 +3003,8 @@
   explanation: 温度不同的物体相互接触时，热量总是从温度高的物体传向温度低的物体，直到两者的温度相同为止，比如凉牛奶浸在热水里会变热。
   misconceptions:
     - 误认为热量可以从冷处传到热处，实际总是从温度高的物体传向温度低的，直到两者温度相同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为热量可以从冷处传到热处，实际总是从温度高的物体传向温度低的，直到两者温度相同。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S3.md
 - id: concept:科学:热对流
   type: Concept
@@ -2573,6 +3017,8 @@
   explanation: 给水底部加热时，受热的水变轻向上流，较冷的水流下来补充，水循环流动把热传到各处。房间里的空气变暖也是这个道理。
   misconceptions:
     - 误认为水静止也能把热传开，实际底部受热的水变轻上升、较冷的水下降补充，靠循环流动传热。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水静止也能把热传开，实际底部受热的水变轻上升、较冷的水下降补充，靠循环流动传热。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S5.md
 - id: concept:科学:热空气会上升
   type: Concept
@@ -2585,6 +3031,8 @@
   explanation: 空气受热后会变轻并上升。用蜡烛加热塑料袋里的空气，袋子感觉到要上升时松手，它就能像热气球一样升起来。
   misconceptions:
     - 误认为热空气会下沉，实际空气受热后变轻上升，纸袋和孔明灯因此会升空。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为热空气会下沉，实际空气受热后变轻上升，纸袋和孔明灯因此会升空。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:热胀冷缩
   type: Concept
@@ -2596,6 +3044,8 @@
   explanation: 很多物体受热时体积会变大，遇冷时体积会变小，这种现象叫热胀冷缩。比如温度计的液柱受热上升、遇冷下降。
   misconceptions:
     - 误认为物体受热体积不变，实际很多物体受热体积变大、遇冷体积变小。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物体受热体积不变，实际很多物体受热体积变大、遇冷体积变小。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:煤的形成
   type: Concept
@@ -2608,6 +3058,8 @@
   explanation: 远古的植物大量堆积，被泥沙层层掩埋，在地底高温高压的环境下经过亿万年慢慢变成了煤。
   misconceptions:
     - 误认为煤是石头变的，实际是远古植物大量堆积、被泥沙掩埋后在地下高温高压下经亿万年形成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为煤是石头变的，实际是远古植物大量堆积、被泥沙掩埋后在地下高温高压下经亿万年形成。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S5.md
 - id: concept:科学:熔化
   type: Concept
@@ -2620,6 +3072,8 @@
   explanation: 冰受热后从固体变成液体，变成水，这个过程叫熔化。给冰加热、用手捂、吹热气都能让冰熔化。
   misconceptions:
     - 误认为冰化成水产生了新物质，实际只是从固态变成液态，物质本身没有改变。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为冰化成水产生了新物质，实际只是从固态变成液态，物质本身没有改变。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:牙齿的种类和作用
   type: Concept
@@ -2634,6 +3088,8 @@
   explanation: 按形状分，牙齿有门齿、犬齿和臼齿：门齿切断食物，犬齿撕裂食物，臼齿研磨食物。它们分工合作，把食物嚼碎。
   misconceptions:
     - 误认为所有牙齿作用都一样，实际门齿切断食物、犬齿撕裂食物、臼齿研磨食物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有牙齿作用都一样，实际门齿切断食物、犬齿撕裂食物、臼齿研磨食物。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:物体的形状与滚动
   type: Concept
@@ -2645,6 +3101,8 @@
   explanation: 物体形状不同，能不能滚动也不一样。圆的物体容易滚动，方的物体容易叠放稳当。
   misconceptions:
     - 误认为所有物体都能滚动，实际圆的物体容易滚动，方的物体更容易叠放稳当。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有物体都能滚动，实际圆的物体容易滚动，方的物体更容易叠放稳当。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:物体的特征
   type: Concept
@@ -2656,6 +3114,8 @@
   explanation: 每个物体都有自己的特征，比如颜色、形状、大小、软硬、光滑还是粗糙。观察物体就是找出它的这些特点。
   misconceptions:
     - 误认为物体只有颜色和形状，实际还包括大小、软硬、光滑还是粗糙等特征。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物体只有颜色和形状，实际还包括大小、软硬、光滑还是粗糙等特征。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:物理变化
   type: Concept
@@ -2667,6 +3127,8 @@
   explanation: 没有产生新物质的变化叫物理变化，如白砂糖、食盐溶在水里，物质本身没有变成别的物质。
   misconceptions:
     - 误认为物质形态改变就是产生了新物质，实际糖和盐溶解在水里只是物理变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物质形态改变就是产生了新物质，实际糖和盐溶解在水里只是物理变化。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S2.md
 - id: concept:科学:物质的变化
   type: Concept
@@ -2678,6 +3140,8 @@
   explanation: 物质总是在不断地变化，有些变化只改变物质的大小、形态，有些变化会产生新物质。
   misconceptions:
     - 误认为物质的所有变化都会产生新物质，实际有些只改变大小和形态。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物质的所有变化都会产生新物质，实际有些只改变大小和形态。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S1.md
 - id: concept:科学:环境问题
   type: Concept
@@ -2689,6 +3153,8 @@
   explanation: 大气污染、水污染、固体废弃物污染、噪声污染等都是地球面临的环境问题，其中很多是人类不合理的活动造成的，会危害生物和人类健康。
   misconceptions:
     - 误认为环境问题只有雾霾，实际还包括水污染、固体废弃物污染、噪声污染等。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为环境问题只有雾霾，实际还包括水污染、固体废弃物污染、噪声污染等。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:环形山
   type: Concept
@@ -2701,6 +3167,8 @@
   explanation: 月球表面有许多大大小小的圆形坑，叫环形山。它们大多数是由太空中的石块撞击月面形成的。
   misconceptions:
     - 误认为环形山是月球上的火山造成，实际大多数由太空中的石块撞击形成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为环形山是月球上的火山造成，实际大多数由太空中的石块撞击形成。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:生态系统
   type: Concept
@@ -2712,6 +3180,8 @@
   explanation: 群落里的生物和环境中的水、土壤、阳光等非生物相互联系、相互影响，构成一个整体，这就是生态系统。生态瓶就是模拟的小型生态系统。
   misconceptions:
     - 误认为生态系统只包括生物，实际生物还要与环境中的水、土壤、阳光等非生物相互联系。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生态系统只包括生物，实际生物还要与环境中的水、土壤、阳光等非生物相互联系。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:生物
   type: Concept
@@ -2723,6 +3193,8 @@
   explanation: 动物、植物和我们人都有生命，都要吃食物、会长大，这样的东西叫生物。
   misconceptions:
     - 误认为只有动物才算生物，实际动物、植物和人都有生命、要吃食物、会长大，都是生物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有动物才算生物，实际动物、植物和人都有生命、要吃食物、会长大，都是生物。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:生物多样性
   type: Concept
@@ -2734,6 +3206,8 @@
   explanation: 一个区域内动植物种类的丰富程度叫生物多样性，种类越多说明生物越丰富。
   misconceptions:
     - 误认为生物多样性就是动物种类多，实际是一个区域内动植物种类的丰富程度。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生物多样性就是动物种类多，实际是一个区域内动植物种类的丰富程度。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:生物多样性的调查方法
   type: Concept
@@ -2746,6 +3220,8 @@
   explanation: 调查生物多样性可以先按环境划分区域，再分小组统计每个区域内生物的种类和数量，并做好记录。
   misconceptions:
     - 误认为随便走走看看就能统计，实际要先按环境划分区域，再分小组统计每个区域内生物的种类和数量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为随便走走看看就能统计，实际要先按环境划分区域，再分小组统计每个区域内生物的种类和数量。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:生物时钟
   type: Concept
@@ -2758,6 +3234,8 @@
   explanation: 生物体上会留下时间的痕迹，如树木年轮、贝壳和珊瑚化石的生长纹、龟甲环纹，可以用来推测生物的年龄和地球的历史。
   misconceptions:
     - 误认为时间只能靠钟表记录，实际树木年轮、贝壳和珊瑚化石的生长纹也留下了时间痕迹。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为时间只能靠钟表记录，实际树木年轮、贝壳和珊瑚化石的生长纹也留下了时间痕迹。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S7.md
 - id: concept:科学:生长发育的信息
   type: Concept
@@ -2769,6 +3247,8 @@
   explanation: 通过身高、体重、肺活量、视力等数据，可以了解自己这些年身体的生长变化情况。
   misconceptions:
     - 误认为身高就能说明生长发育，实际还要看体重、肺活量、视力等数据。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为身高就能说明生长发育，实际还要看体重、肺活量、视力等数据。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:生长的证据
   type: Concept
@@ -2781,6 +3261,8 @@
   explanation: 个子变高、体重变重、换牙齿、旧衣服变小等，都能证明我们在长大。这些就是长大的证据。
   misconceptions:
     - 误认为只有个子变高才算长大，实际换牙、体重变重、旧衣服变小也都是证据。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有个子变高才算长大，实际换牙、体重变重、旧衣服变小也都是证据。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:用太阳辨认方向
   type: Concept
@@ -2792,6 +3274,8 @@
   explanation: 早晨起来面向太阳，前面是东，后面是西，左面是北，右面是南。
   misconceptions:
     - 误认为面向太阳就能随口说方位，实际早晨面向太阳时前面是东、后面是西、左面是北、右面是南。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为面向太阳就能随口说方位，实际早晨面向太阳时前面是东、后面是西、左面是北、右面是南。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:用工具测量长度
   type: Concept
@@ -2804,6 +3288,8 @@
   explanation: 可以用软尺直接量物体的长度，也可以借助绳子或身体来量弯曲的、不好量的地方，然后把结果记下来。
   misconceptions:
     - 误认为尺子只能量直的东西，实际弯曲或不好量的地方可以借助绳子、身体来量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为尺子只能量直的东西，实际弯曲或不好量的地方可以借助绳子、身体来量。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:用方向和距离描述位置
   type: Concept
@@ -2815,6 +3301,8 @@
   explanation: 描述一个物体的位置，要说清方向和距离。方向可以用前、后、左、右、上、下表示，距离可以用米、厘米或步数来估计。
   misconceptions:
     - 误认为说“在那边”就能说清位置，实际要说清方向和距离。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为说“在那边”就能说清位置，实际要说清方向和距离。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:用气味辨别物品
   type: Concept
@@ -2826,6 +3314,8 @@
   explanation: 鼻子闻一闻气味，可以分辨不同的物品。但要注意，不能随便闻陌生或刺鼻的东西。
   misconceptions:
     - 误认为闻气味很安全，实际不能随便闻陌生或刺鼻的东西。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为闻气味很安全，实际不能随便闻陌生或刺鼻的东西。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:用水分离物质
   type: Concept
@@ -2838,6 +3328,8 @@
   explanation: 利用水能溶解食盐又能蒸发的方法可以分离沙子和食盐：先溶解、再过滤去掉沙子、最后把水蒸干，就得到盐了。
   misconceptions:
     - 误认为沙子和食盐混在一起就分不开，实际先溶解再过滤去掉沙子，就能分离。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为沙子和食盐混在一起就分不开，实际先溶解再过滤去掉沙子，就能分离。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:用浮的材料造船
   type: Concept
@@ -2851,6 +3343,8 @@
   explanation: 像竹筏、木排那样，用能漂浮的材料加大在水面的接触面积，比独木舟更稳定、能装更多货物，但要注意捆扎牢固、防止进水。
   misconceptions:
     - 误认为材料越重船越稳，实际要加大与水面的接触面积，船才更稳定、载重更多。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为材料越重船越稳，实际要加大与水面的接触面积，船才更稳定、载重更多。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:用磁铁辨别方向
   type: Concept
@@ -2863,6 +3357,8 @@
   explanation: 让磁铁悬挂起来或浮在水面上，它能水平自由旋转，静止后一端指南、一端指北，我们就能据此确定方向。
   misconceptions:
     - 误认为磁铁放在桌上就能指南北，实际要让它在水平方向自由旋转，静止后一端指南一端指北。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁放在桌上就能指南北，实际要让它在水平方向自由旋转，静止后一端指南一端指北。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:用自然物辨别方向
   type: Concept
@@ -2875,6 +3371,8 @@
   explanation: 太阳有规律地运动，影响身边的事物：向阳面树叶多、雪化得快，苔藓喜欢长在阴暗潮湿的地方。观察这些自然物的特点，就能大致判断南北方向。
   misconceptions:
     - 误认为向阳面和背阴面没差别，实际向阳面树叶多、雪化得快，苔藓喜欢长在阴湿处。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为向阳面和背阴面没差别，实际向阳面树叶多、雪化得快，苔藓喜欢长在阴湿处。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:电源
   type: Concept
@@ -2887,6 +3385,8 @@
   explanation: 生活中使用的电都是由电源提供的。电灯、洗衣机等由发电厂通过电网供电，手机、石英钟等由电池供电。
   misconceptions:
     - 误认为电可以凭空产生，实际生活中的电都由电源提供，如发电厂通过电网供电、手机用电池。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为电可以凭空产生，实际生活中的电都由电源提供，如发电厂通过电网供电、手机用电池。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:电路检测器
   type: Concept
@@ -2899,6 +3399,8 @@
   explanation: 把简易电路中的开关拆掉，就做成了一个电路检测器。用它接触电路的各个部分，看小灯泡亮不亮，就能找出电路的故障在哪里。它只能检测干电池电路，不能检测家用电路。
   misconceptions:
     - 误认为电路检测器能测电压，实际它就是拆掉开关的简易电路，用来看电路各部分是否接通。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为电路检测器能测电压，实际它就是拆掉开关的简易电路，用来看电路各部分是否接通。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:电路的组成
   type: Concept
@@ -2912,6 +3414,8 @@
   explanation: 一个能正常工作的电路由电源、导线、小灯泡等用电器和开关组成。电流从电池一端流出，经过小灯泡回到电池另一端，形成一个闭合的回路。
   misconceptions:
     - 误认为有电池和灯泡就能发光，实际还需要导线和开关，组成完整的回路。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为有电池和灯泡就能发光，实际还需要导线和开关，组成完整的回路。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:画植物记录的方法
   type: Concept
@@ -2924,6 +3428,8 @@
   explanation: 给植物画像时要写出它的名称，画出它长在哪里、长什么样子。这样画出的记录别人才能认出来。
   misconceptions:
     - 误认为画得像就够了，实际要写出名称，并画出它长在哪里、长什么样子。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为画得像就够了，实际要写出名称，并画出它长在哪里、长什么样子。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:疫苗
   type: Concept
@@ -2935,6 +3441,8 @@
   explanation: 疫苗是用特殊微生物制成的免疫制剂，接种后能激活免疫系统。当病原体再次入侵时，有记忆能力的免疫系统会迅速识别并清除它。
   misconceptions:
     - 误认为疫苗能直接杀死病原体，实际它是用特殊微生物制成的免疫制剂，接种后激活免疫系统，病原体再来时能迅速识别。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为疫苗能直接杀死病原体，实际它是用特殊微生物制成的免疫制剂，接种后激活免疫系统，病原体再来时能迅速识别。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:病毒
   type: Concept
@@ -2946,6 +3454,8 @@
   explanation: 病毒比细菌更小，没有细胞结构，不能独立生存，必须寄生在其他生物的活细胞内，一旦离开活细胞就很容易死亡。
   misconceptions:
     - 误认为病毒是一种细菌，实际它比细菌更小、没有细胞结构，必须寄生在其他生物的活细胞里才能生存。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为病毒是一种细菌，实际它比细菌更小、没有细胞结构，必须寄生在其他生物的活细胞里才能生存。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:百叶箱
   type: Concept
@@ -2957,6 +3467,8 @@
   explanation: 百叶箱是安放气温计的白色箱子，放在通风良好、不受阳光直射的草坪上，这样测出的气温更准确。
   misconceptions:
     - 误认为把气温计直接晒在太阳下测得准，实际要放在通风良好、不受阳光直射的白色百叶箱里。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为把气温计直接晒在太阳下测得准，实际要放在通风良好、不受阳光直射的白色百叶箱里。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:皮肤的作用
   type: Concept
@@ -2968,6 +3480,8 @@
   explanation: 皮肤能感受到冷、热、痛、痒，还会把这些信息告诉大脑。它像保护罩一样保护身体，还能靠出汗调节体温。
   misconceptions:
     - 误认为皮肤只是一层外皮，实际它能感受冷、热、痛、痒并把信息告诉大脑，还起保护作用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为皮肤只是一层外皮，实际它能感受冷、热、痛、痒并把信息告诉大脑，还起保护作用。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:直根系和须根系
   type: Concept
@@ -2980,6 +3494,8 @@
   explanation: 像凤仙花那样有一条明显主根、主根上长出侧根的，叫直根系；像葱那样由许多粗细差不多的根组成的，叫须根系。
   misconceptions:
     - 误认为所有植物的根都长一个样，实际凤仙花有明显主根属直根系，葱由许多细根组成属须根系。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为所有植物的根都长一个样，实际凤仙花有明显主根属直根系，葱由许多细根组成属须根系。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:直线运动
   type: Concept
@@ -2991,6 +3507,8 @@
   explanation: 物体沿着直线路径的运动叫直线运动，比如汽车直行、小钢珠沿直线滚动。
   misconceptions:
     - 误认为物体运动都是直线的，实际沿直线路径的才叫直线运动，转弯属于曲线运动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物体运动都是直线的，实际沿直线路径的才叫直线运动，转弯属于曲线运动。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:相同时间比快慢
   type: Concept
@@ -3002,6 +3520,8 @@
   explanation: 运动相同的时间时，谁走过的距离长谁就快。让两个物体同时出发、同时停止，量出各自的距离就能比较。
   misconceptions:
     - 误认为先到达的物体一定更快，实际运动相同时间时，走过距离长的才更快。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为先到达的物体一定更快，实际运动相同时间时，走过距离长的才更快。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:相同距离比快慢
   type: Concept
@@ -3013,6 +3533,8 @@
   explanation: 运动相同的距离时，谁用的时间短谁就快。可以用秒表测量物体运动相同距离所花的时间来比较。
   misconceptions:
     - 误认为跑得远的物体更快，实际运动相同距离时，用时短的那一个更快。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为跑得远的物体更快，实际运动相同距离时，用时短的那一个更快。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:眼睛看到物体的原理
   type: Concept
@@ -3025,6 +3547,8 @@
   explanation: 物体发出或反射的光进入眼睛，在视网膜上成像并传给大脑，我们就能看到物体；没有光就看不到物体。
   misconceptions:
     - 误认为眼睛发出光才能看见物体，实际是物体发出或反射的光进入眼睛，在视网膜上成像并传给大脑。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为眼睛发出光才能看见物体，实际是物体发出或反射的光进入眼睛，在视网膜上成像并传给大脑。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:短路
   type: Concept
@@ -3036,6 +3560,8 @@
   explanation: 导线不经过小灯泡，直接连接电池的正极和负极，就会造成短路。短路时电池里的电很快消耗完，电池会发热变烫，甚至可能爆炸。
   misconceptions:
     - 误认为短路只是灯泡不亮没关系，实际导线不经过灯泡直接连电池正负极，会让电池发热甚至损坏，很危险。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为短路只是灯泡不亮没关系，实际导线不经过灯泡直接连电池正负极，会让电池发热甚至损坏，很危险。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:磁化
   type: Concept
@@ -3048,6 +3574,8 @@
   explanation: 让原来没有磁性的物体获得磁性的过程叫磁化。比如用磁铁沿一个方向摩擦钢针，钢针就会变成能指示方向的磁针。
   misconceptions:
     - 误认为只有磁铁本身才有磁性，实际用磁铁沿一个方向摩擦钢针，钢针也能获得磁性。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有磁铁本身才有磁性，实际用磁铁沿一个方向摩擦钢针，钢针也能获得磁性。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:磁极间的相互作用
   type: Concept
@@ -3061,6 +3589,8 @@
   explanation: 两块磁铁靠近时，相同的磁极互相排斥，不同的磁极互相吸引，也就是同极相斥、异极相吸。
   misconceptions:
     - 误认为磁铁靠近总是互相吸引，实际同极相斥、异极相吸。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁靠近总是互相吸引，实际同极相斥、异极相吸。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:磁铁对运动的影响
   type: Concept
@@ -3073,6 +3603,8 @@
   explanation: 磁铁能在一定距离内吸引钢珠。当钢珠靠近磁铁时，受到的吸引力越来越大，运动路线就会从直线变成曲线。
   misconceptions:
     - 误认为磁铁不会影响物体运动，实际钢珠靠近磁铁时吸引力越来越大，运动状态随之改变。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁不会影响物体运动，实际钢珠靠近磁铁时吸引力越来越大，运动状态随之改变。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:磁铁的形状
   type: Concept
@@ -3084,6 +3616,8 @@
   explanation: 磁铁有不同的形状，常见的有条形磁铁、蹄形磁铁和环形磁铁。
   misconceptions:
     - 误认为磁铁只有条形一种，实际还有蹄形、环形等不同形状。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁只有条形一种，实际还有蹄形、环形等不同形状。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:磁铁的用途
   type: Concept
@@ -3096,6 +3630,8 @@
   explanation: 生活中很多地方都用到磁铁，比如门吸、冰箱密封条、手包扣和喇叭。强磁铁不能靠近手机、磁卡、手表等物品，否则会影响它们工作。
   misconceptions:
     - 误认为磁铁只用在玩具上，实际门吸、冰箱密封条、手包扣和喇叭里都有磁铁。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁只用在玩具上，实际门吸、冰箱密封条、手包扣和喇叭里都有磁铁。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:磁铁的磁极
   type: Concept
@@ -3111,6 +3647,8 @@
   explanation: 磁铁水平自由旋转停下来后，总是一端指南、一端指北。指南的一端叫南极（S），指北的一端叫北极（N）。
   misconceptions:
     - 误认为磁铁两端磁性相同，实际指南的一端叫南极、指北的一端叫北极。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁两端磁性相同，实际指南的一端叫南极、指北的一端叫北极。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:磁铁能吸引铁
   type: Concept
@@ -3123,6 +3661,8 @@
   explanation: 磁铁能吸引铁做的物体，比如回形针、大头针。磁铁还能吸引镍等一些金属做的物体。用磁铁可以帮我们找出铁做的物品。
   misconceptions:
     - 误认为磁铁能吸引所有金属，实际它主要吸引铁，还能吸引镍等少数金属。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磁铁能吸引所有金属，实际它主要吸引铁，还能吸引镍等少数金属。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:磁铁隔物吸铁
   type: Concept
@@ -3135,6 +3675,8 @@
   explanation: 磁铁能隔着纸、布、塑料板，甚至隔着水，吸引铁做的物体。但隔的东西太厚或太多时，吸引力会变弱。
   misconceptions:
     - 误认为隔着东西就吸不住铁，实际隔着纸、布、塑料板甚至水都能吸引，只是隔得太厚会减弱。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为隔着东西就吸不住铁，实际隔着纸、布、塑料板甚至水都能吸引，只是隔得太厚会减弱。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:种子的传播方式
   type: Concept
@@ -3147,6 +3689,8 @@
   explanation: 植物把种子传播出去的方式有很多：果实能爆裂的凤仙花靠弹力传播，果实有倒钩的苍耳靠动物传播，蒲公英轻小带绒毛靠风传播，樱桃鲜美的果实靠动物食用后传播。
   misconceptions:
     - 误认为种子都靠风传播，实际还有弹力传播、动物传播、水流传播等多种方式。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为种子都靠风传播，实际还有弹力传播、动物传播、水流传播等多种方式。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:种子的结构
   type: Concept
@@ -3159,6 +3703,8 @@
   explanation: 种子的外面是种皮，起保护作用；里面是胚，包括胚根、胚芽和子叶。胚根能长成根，胚芽能长成茎和叶，子叶里储存着养分。
   misconceptions:
     - 误认为种子只有外面一层皮，实际外面是保护用的种皮，里面是包含胚根、胚芽和子叶的胚。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为种子只有外面一层皮，实际外面是保护用的种皮，里面是包含胚根、胚芽和子叶的胚。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:种子萌发的条件
   type: Concept
@@ -3170,6 +3716,8 @@
   explanation: 要挑选饱满、没有受过伤的种子播种，还要提供适宜的水分和温暖的环境，种子才能顺利萌发长成幼苗。
   misconceptions:
     - 误认为种子随手撒下就能发芽，实际要挑选饱满无损伤的种子，并提供适宜的水分和温暖的环境。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为种子随手撒下就能发芽，实际要挑选饱满无损伤的种子，并提供适宜的水分和温暖的环境。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:种子萌发的过程
   type: Concept
@@ -3181,6 +3729,8 @@
   explanation: 种子萌发时先长出根，根再带着幼芽向高处生长，最后破土长出茎和叶。
   misconceptions:
     - 误认为种子发芽先长叶，实际先长出根，再由根带着幼芽向高处生长。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为种子发芽先长叶，实际先长出根，再由根带着幼芽向高处生长。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:空气占据空间
   type: Concept
@@ -3193,6 +3743,8 @@
   explanation: 空气会占满它所在的空间。把拧紧瓶盖的瓶子压入水中，水进不去，就是因为瓶中的空气占据着空间；放出空气后水才能进来。
   misconceptions:
     - 误认为瓶子压入水中水会灌进去，实际瓶里的空气占据了空间，水进不去。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为瓶子压入水中水会灌进去，实际瓶里的空气占据了空间，水进不去。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:空气可以被压缩
   type: Concept
@@ -3205,6 +3757,8 @@
   explanation: 空气占据的空间可以被压缩，松手后又能恢复；水占据的空间很难被压缩。所以压装满空气的瓶子，瓶子会变瘪一些。
   misconceptions:
     - 误认为空气和水一样难压缩，实际空气占据的空间可以被压缩，水却很难被压缩。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为空气和水一样难压缩，实际空气占据的空间可以被压缩，水却很难被压缩。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:空气有质量
   type: Concept
@@ -3216,6 +3770,8 @@
   explanation: 空气虽然很轻，但也有质量。用简易天平给皮球打入空气后，天平会向打了气的一端倾斜，加入绿豆重新平衡就能比较空气质量的大小。
   misconceptions:
     - 误认为空气没有质量，实际给皮球打入空气后天平会向这一侧下沉，说明空气有质量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为空气没有质量，实际给皮球打入空气后天平会向这一侧下沉，说明空气有质量。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:空气柱与音调
   type: Concept
@@ -3228,6 +3784,8 @@
   explanation: 物体里空气柱的长短会影响声音的高低：空气柱变短，振动变快，声音变高。用暖水瓶接水时声音越来越高，就是这个道理。
   misconceptions:
     - 误认为空气柱越长声音越高，实际空气柱变短时振动变快，声音变高。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为空气柱越长声音越高，实际空气柱变短时振动变快，声音变高。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S11.md
 - id: concept:科学:空气流动产生力量
   type: Concept
@@ -3240,6 +3798,8 @@
   explanation: 流动的空气有力量，能推动物体运动。气球放气会飞出去，帆船、风筝都是利用空气流动的力量工作的。
   misconceptions:
     - 误认为风没有力量，实际流动的空气能推动物体运动，帆船和风筝都靠它。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风没有力量，实际流动的空气能推动物体运动，帆船和风筝都靠它。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:空气的特征
   type: Concept
@@ -3251,6 +3811,8 @@
   explanation: 空气看不见、摸不着，无色透明，我们周围到处都有空气，人和动植物的生存都离不开它。
   misconceptions:
     - 误认为空气并不真正存在，实际它看不见摸不着、无色透明，周围到处都有，人和动植物都离不开。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为空气并不真正存在，实际它看不见摸不着、无色透明，周围到处都有，人和动植物都离不开。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:空气阻力
   type: Concept
@@ -3263,6 +3825,8 @@
   explanation: 空气会阻碍物体运动，使下落的物体减速，这就是空气阻力。降落伞就是利用空气阻力减速的；月球上没有大气，所以月球探测器不用降落伞。
   misconceptions:
     - 误认为物体下落只受重力，实际空气会阻碍运动，降落伞就是利用空气阻力减速。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为物体下落只受重力，实际空气会阻碍运动，降落伞就是利用空气阻力减速。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S10.md
 - id: concept:科学:简单机械
   type: Concept
@@ -3274,6 +3838,8 @@
   explanation: 杠杆、斜面、滑轮、轮轴都是简单机械。使用简单机械可以省力，也可以让工作更方便，比如用撬棒撬重物、用斜面搬运东西。
   misconceptions:
     - 误认为只有机器才叫机械，实际杠杆、斜面、滑轮、轮轴都是简单机械，能省力或让操作更方便。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有机器才叫机械，实际杠杆、斜面、滑轮、轮轴都是简单机械，能省力或让操作更方便。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:简易显微镜的使用方法
   type: Concept
@@ -3285,6 +3851,8 @@
   explanation: 使用手持式简易显微镜时，先打开电源，把物镜对准物体，再调节调焦环直到看清图像，然后从目镜观察并记录。靠近眼睛的透镜叫目镜，靠近物体的透镜叫物镜。
   misconceptions:
     - 误认为对着物体就能看清，实际要先打开电源、把物镜对准物体，再调节调焦环直到看清。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为对着物体就能看清，实际要先打开电源、把物镜对准物体，再调节调焦环直到看清。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:细胞
   type: Concept
@@ -3296,6 +3864,8 @@
   explanation: 细胞是生物体基本的结构和功能单位。用显微镜观察，可以发现动植物都是由细胞构成的，而非生物没有细胞结构。
   misconceptions:
     - 误认为只有动物才有细胞，实际细胞是生物体结构和功能的基本单位，动植物都由细胞组成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只有动物才有细胞，实际细胞是生物体结构和功能的基本单位，动植物都由细胞组成。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:群落
   type: Concept
@@ -3308,6 +3878,8 @@
   explanation: 在一定区域里共同生活的各种生物合在一起，就叫一个群落，比如绿豆苗和它周围的动物、植物组成一个群落。
   misconceptions:
     - 误认为一个区域里只有一种生物，实际在一定区域里共同生活的各种生物合起来才叫群落。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为一个区域里只有一种生物，实际在一定区域里共同生活的各种生物合起来才叫群落。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:羽化
   type: Concept
@@ -3320,6 +3892,8 @@
   explanation: 蛾和蝶由蛹变成成虫的过程叫羽化。蚕蛹变成蚕蛾钻出茧，就是蚕的羽化。
   misconceptions:
     - 误认为蚕由幼虫直接变成蛾，实际要先化成蛹，再由蛹变成成虫，这个过程叫羽化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蚕由幼虫直接变成蛾，实际要先化成蛹，再由蛹变成成虫，这个过程叫羽化。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:肺活量
   type: Concept
@@ -3331,6 +3905,8 @@
   explanation: 肺活量是尽力吸气后再尽力呼出的气体总量，用肺活量测量袋可以测出来。肺活量大的人为血液供氧的能力更强，经常锻炼能增大肺活量。
   misconceptions:
     - 误认为肺活量就是肺的大小，实际是尽力吸气后再尽力呼出的气体总量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为肺活量就是肺的大小，实际是尽力吸气后再尽力呼出的气体总量。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:胃的消化作用
   type: Concept
@@ -3342,6 +3918,8 @@
   explanation: 胃能暂时储存食物，通过蠕动和分泌胃液，把口腔送来的食物进一步磨碎、消化，变成食糜再慢慢送进小肠。
   misconceptions:
     - 误认为胃只负责存放食物，实际它通过蠕动和分泌胃液，把食物进一步磨碎、消化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为胃只负责存放食物，实际它通过蠕动和分泌胃液，把食物进一步磨碎、消化。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:能量
   type: Concept
@@ -3353,6 +3931,8 @@
   explanation: 运动的物体具有能量，能把别的物体推动或撞开。斜面坡度越大，小球滚下来速度越快，把木块撞得越远，说明能量越大。
   misconceptions:
     - 误认为静止的物体没有能量，实际运动的物体具有能量，能把别的物体推动或撞开。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为静止的物体没有能量，实际运动的物体具有能量，能把别的物体推动或撞开。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:脊椎动物和无脊椎动物
   type: Concept
@@ -3366,6 +3946,8 @@
   explanation: 身体里有脊柱的动物叫脊椎动物，比如鱼、鸟、人和其他哺乳动物；身体里没有脊柱的动物叫无脊椎动物，比如昆虫。
   misconceptions:
     - 误认为身体大的动物就是脊椎动物，实际要看身体里有没有脊柱，鱼、鸟、人和哺乳动物有脊柱。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为身体大的动物就是脊椎动物，实际要看身体里有没有脊柱，鱼、鸟、人和哺乳动物有脊柱。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:脑的结构和功能
   type: Concept
@@ -3378,6 +3960,8 @@
   explanation: 脑位于颅腔内，包括大脑、小脑和脑干等部分，是身体的“总指挥”，负责思考、记忆、运动和感觉等各种活动。
   misconceptions:
     - 误认为脑是一个不分部位的整体，实际它包括大脑、小脑和脑干等部分，分别负责思考、平衡等。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为脑是一个不分部位的整体，实际它包括大脑、小脑和脑干等部分，分别负责思考、平衡等。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:自然保护区
   type: Concept
@@ -3389,6 +3973,8 @@
   explanation: 自然保护区是依法划出一定面积，对珍稀濒危动植物和自然生态系统进行特殊保护和管理的区域。
   misconceptions:
     - 误认为保护区只是圈起来不让人进，实际是依法划出区域，对珍稀濒危动植物和自然生态系统做特殊保护。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为保护区只是圈起来不让人进，实际是依法划出区域，对珍稀濒危动植物和自然生态系统做特殊保护。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:自然物
   type: Concept
@@ -3400,6 +3986,8 @@
   explanation: 来自大自然、没有经过人们加工的材料叫自然物，比如干草、泥土和树枝。
   misconceptions:
     - 误认为泥土、树枝是人造物，实际它们来自大自然、没有经过加工，属于自然物。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为泥土、树枝是人造物，实际它们来自大自然、没有经过加工，属于自然物。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:船的动力
   type: Concept
@@ -3411,6 +3999,8 @@
   explanation: 船可以靠人力划桨、风帆吹风、蒸汽机或电动机推动前进。安装船舵还能控制船行驶的方向。
   misconceptions:
     - 误认为船只能靠风帆前进，实际还可以靠人力划桨、蒸汽机或电动机推动，船舵用来控制方向。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为船只能靠风帆前进，实际还可以靠人力划桨、蒸汽机或电动机推动，船舵用来控制方向。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:船的发展历史
   type: Concept
@@ -3423,6 +4013,8 @@
   explanation: 从独木舟到帆船、蒸汽船再到轮船，船的体积越来越大、材料越来越结实、动力越来越强，说明人们不断改进技术满足生产生活的需要。
   misconceptions:
     - 误认为船自古以来变化不大，实际从独木舟到帆船、蒸汽船再到轮船，体积、材料和动力都在变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为船自古以来变化不大，实际从独木舟到帆船、蒸汽船再到轮船，体积、材料和动力都在变化。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:船的结构
   type: Concept
@@ -3435,6 +4027,8 @@
   explanation: 现代轮船有骨架、船舱等结构，能让船更牢固、更好地利用空间。我国古代发明的龙骨结构还能增强船抵御风浪的能力。
   misconceptions:
     - 误认为船只要能浮起来就行，实际现代轮船有骨架、船舱等结构，更牢固也更便于利用空间。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为船只要能浮起来就行，实际现代轮船有骨架、船舱等结构，更牢固也更便于利用空间。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:船的载重量
   type: Concept
@@ -3447,6 +4041,8 @@
   explanation: 船能装的货物质量就是载重量。用同样大小的铝箔做船，体积越大载重量越大，但体积大也要注意保持稳定不侧翻。
   misconceptions:
     - 误认为船越大载重量一定越大，实际用同样材料时，船的体积越大载重量越大。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为船越大载重量一定越大，实际用同样材料时，船的体积越大载重量越大。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:花的结构
   type: Concept
@@ -3459,6 +4055,8 @@
   explanation: 一朵完整的花由花萼、花瓣、雄蕊和雌蕊组成。雄蕊上有花粉，雌蕊上常有黏液，花蕊与结出果实有密切关系。
   misconceptions:
     - 误认为花只由花瓣组成，实际一朵完整的花由花萼、花瓣、雄蕊和雌蕊组成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为花只由花瓣组成，实际一朵完整的花由花萼、花瓣、雄蕊和雌蕊组成。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:茎的运输作用
   type: Concept
@@ -3471,6 +4069,8 @@
   explanation: 植物的茎能从下往上把根吸收的水分运输到叶、花和果实，把植物各部分连成一个整体。
   misconceptions:
     - 误认为茎只起支撑作用，实际它能把根吸收的水分自下而上运到叶、花和果实。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为茎只起支撑作用，实际它能把根吸收的水分自下而上运到叶、花和果实。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:蒸发
   type: Concept
@@ -3483,6 +4083,8 @@
   explanation: 水会慢慢变成看不见的水蒸气，飞散到空气里，这种现象叫蒸发。湿衣服晾干、黑板上的水迹消失都是蒸发。
   misconceptions:
     - 误认为水只有烧开才会变成水蒸气，实际常温下水也会慢慢蒸发到空气里。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为水只有烧开才会变成水蒸气，实际常温下水也会慢慢蒸发到空气里。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:蚕卵的孵化
   type: Concept
@@ -3495,6 +4097,8 @@
   explanation: 蚕是卵生动物，蚕卵在合适的温度、湿度等条件下会孵出小蚕。蚕卵很小，观察时可以用画图和文字记录它的形状、大小和颜色。
   misconceptions:
     - 误认为蚕卵随便放着就能孵出小蚕，实际需要合适的温度和湿度等条件。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蚕卵随便放着就能孵出小蚕，实际需要合适的温度和湿度等条件。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:蚕吐丝结茧
   type: Concept
@@ -3508,6 +4112,8 @@
   explanation: 蚕长大后开始吐丝，用蚕丝把自己包裹起来，结成一个茧。结茧是为了在里面安全地变成蚕蛹。
   misconceptions:
     - 误认为结茧意味着蚕死了，实际它用蚕丝把自己包起来，在茧里变成蛹，茧起保护作用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为结茧意味着蚕死了，实际它用蚕丝把自己包起来，在茧里变成蛹，茧起保护作用。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:蚕的生命周期
   type: Concept
@@ -3520,6 +4126,8 @@
   explanation: 蚕的一生要经历卵、幼虫、蛹、成虫四个阶段，成虫产卵后衰老死亡。把蚕一生经历的变化按顺序排列，就是它的生命周期。
   misconceptions:
     - 误认为蚕的一生只有卵和幼虫两个阶段，实际要经历卵、幼虫、蛹、成虫四个阶段。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蚕的一生只有卵和幼虫两个阶段，实际要经历卵、幼虫、蛹、成虫四个阶段。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:蚕蛹
   type: Concept
@@ -3532,6 +4140,8 @@
   explanation: 茧里的蚕变成了不吃不动、身体和幼虫不一样的蚕蛹。蚕蛹还活着，以后会变成蚕蛾钻出茧。
   misconceptions:
     - 误认为茧里的蛹已经死了，实际它还活着、不吃不动，之后会变成蚕蛾。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为茧里的蛹已经死了，实际它还活着、不吃不动，之后会变成蚕蛾。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:蜕皮
   type: Concept
@@ -3544,6 +4154,8 @@
   explanation: 蚕长到一定阶段会蜕掉旧皮、长出新皮，这就是蜕皮。蚕蜕皮前不吃也不动，像睡着了一样，这叫“眠”。
   misconceptions:
     - 误认为蚕一生只蜕一次皮，实际长到一定阶段就会蜕掉旧皮长出新皮，蜕皮前不吃也不动。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蚕一生只蜕一次皮，实际长到一定阶段就会蜕掉旧皮长出新皮，蜕皮前不吃也不动。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:蜗牛的身体特点
   type: Concept
@@ -3554,6 +4166,10 @@
     - 腹足
   category: 性质
   explanation: 蜗牛身体软软的，头上有触角，靠腹足慢慢爬行。遇到危险时会把身体缩进壳里。
+  misconceptions:
+    - 误认为蜗牛靠脚快速爬行，实际它身体柔软、头上有触角，靠腹足慢慢爬行，遇到危险会缩进壳里。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为蜗牛靠脚快速爬行，实际它身体柔软、头上有触角，靠腹足慢慢爬行，遇到危险会缩进壳里。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:观察云
   type: Concept
@@ -3563,6 +4179,10 @@
   aliases: []
   category: 方法
   explanation: 观察云时，可以从云量和云的形状两方面记录，云的形状和多少都能告诉我们天气信息。注意不能直视太阳。
+  misconceptions:
+    - 误认为观察云只看形状就行，实际还要记录云量，两者一起才能说明天气。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为观察云只看形状就行，实际还要记录云量，两者一起才能说明天气。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:观察岩石特征的方法
   type: Concept
@@ -3573,6 +4193,10 @@
     - 观察岩石的方法
   category: 方法
   explanation: 观察岩石可以用肉眼看颜色、颗粒和斑点条纹，用放大镜看细部，用手摸光滑还是粗糙，用手电筒照有没有光泽，还可以用指甲、铜钥匙、小刀刻画来比较软硬。
+  misconceptions:
+    - 误认为看一眼颜色就能认出岩石，实际还要用放大镜看细部、用手摸光滑程度。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为看一眼颜色就能认出岩石，实际还要用放大镜看细部、用手摸光滑程度。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:观察工具的发展
   type: Concept
@@ -3582,6 +4206,10 @@
   aliases: []
   category: 概念
   explanation: 从眼睛到放大镜，再到光学显微镜和电子显微镜，观察工具不断改进，人类看到的微小物体越来越清晰。显微镜的发明推动了生命科学、医学等许多领域的重大进步。
+  misconceptions:
+    - 误认为肉眼就能看清一切，实际从放大镜到光学显微镜、电子显微镜，工具让人看得更小、更远。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为肉眼就能看清一切，实际从放大镜到光学显微镜、电子显微镜，工具让人看得更小、更远。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:观察校园里的植物
   type: Concept
@@ -3591,6 +4219,10 @@
   aliases: []
   category: 方法
   explanation: 观察校园里的植物时，不拔起、不采摘、不伤害它们，还要注意安全，不靠近池塘和电线。
+  misconceptions:
+    - 误认为观察就要采下来，实际要不拔起、不采摘、不伤害植物，并注意安全。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为观察就要采下来，实际要不拔起、不采摘、不伤害植物，并注意安全。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:观察植物的方法
   type: Concept
@@ -3600,6 +4232,10 @@
   aliases: []
   category: 方法
   explanation: 观察植物时可以看颜色、大小、形状，摸一摸软硬，闻一闻气味。用多种感官仔细看，才能发现植物的特点。
+  misconceptions:
+    - 误认为只用眼睛看就够了，实际还可以摸软硬、闻气味，用多种感官观察。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只用眼睛看就够了，实际还可以摸软硬、闻气味，用多种感官观察。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:观察水中微小生物的方法
   type: Concept
@@ -3609,6 +4245,10 @@
   aliases: []
   category: 方法
   explanation: 用滴管把水滴在载玻片上，盖上盖玻片做成玻片标本，再放到显微镜下观察，就能看到水中的微小生物。如果微小生物运动太快，可以先放少量脱脂棉限制它的活动。
+  misconceptions:
+    - 误认为把水滴在显微镜上就能看，实际要用滴管滴在载玻片上、盖上盖玻片做成标本再观察。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为把水滴在显微镜上就能看，实际要用滴管滴在载玻片上、盖上盖玻片做成标本再观察。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:观察物体特征的方法
   type: Concept
@@ -3618,6 +4258,10 @@
   aliases: []
   category: 方法
   explanation: 可以用看、摸、比一比等办法观察物体，找出它的特征，再用词语说出来或记在记录单上。
+  misconceptions:
+    - 误认为看一眼就能说清特征，实际要看、摸、比一比，再用词语说出来或记录下来。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为看一眼就能说清特征，实际要看、摸、比一比，再用词语说出来或记录下来。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:观察矿物特征的方法
   type: Concept
@@ -3629,6 +4273,10 @@
     - 识别矿物的方法
   category: 方法
   explanation: 观察矿物可以从颜色、条痕、透明度、光泽和硬度等方面入手。把矿物在白瓷板上摩擦留下的痕迹叫条痕，透过矿物碎片边缘能否看见别的物体可以判断透明度。
+  misconceptions:
+    - 误认为只凭颜色就能认出矿物，实际还要看条痕、透明度、光泽和硬度。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为只凭颜色就能认出矿物，实际还要看条痕、透明度、光泽和硬度。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:观察笔记
   type: Concept
@@ -3638,6 +4286,10 @@
   aliases: []
   category: 方法
   explanation: 用文字和图画把亲眼看到的自然现象记录下来，要写上日期，只记真实观察到的，不记想象或听说的。
+  misconceptions:
+    - 误认为可以凭印象写，实际要写上日期，只记录亲眼观察到的真实现象。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为可以凭印象写，实际要写上日期，只记录亲眼观察到的真实现象。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:观察记录天气
   type: Concept
@@ -3647,6 +4299,10 @@
   aliases: []
   category: 方法
   explanation: 可以从冷热、刮风、阴晴、雨雪等方面观察天气，并用简单的图画和词句记录下来。
+  misconceptions:
+    - 误认为写一句“天气很好”就算记录，实际要从冷热、刮风、阴晴、雨雪等方面分别记录。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为写一句“天气很好”就算记录，实际要从冷热、刮风、阴晴、雨雪等方面分别记录。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:观测风的方法
   type: Concept
@@ -3657,6 +4313,10 @@
     - 观测风
   category: 方法
   explanation: 风看不见摸不着，可以观察地面物体的样子，或用风旗、风向标等工具，来判断风的大小和方向。
+  misconceptions:
+    - 误认为风看不见就测不出来，实际可以观察地面物体或借助风旗、风向标来判断。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风看不见就测不出来，实际可以观察地面物体或借助风旗、风向标来判断。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:解决垃圾问题的方法
   type: Concept
@@ -3669,6 +4329,10 @@
     - 无害化
   category: 方法
   explanation: 解决垃圾问题要坚持减量化、资源化、无害化：从源头少产生垃圾，把回收的垃圾变废为宝，处理时避免污染环境和危害健康。
+  misconceptions:
+    - 误认为垃圾只能填埋，实际要坚持减量化、资源化、无害化，从源头少产生垃圾。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为垃圾只能填埋，实际要坚持减量化、资源化、无害化，从源头少产生垃圾。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:计时工具的发展
   type: Concept
@@ -3678,6 +4342,10 @@
   aliases: []
   category: 概念
   explanation: 人类利用自然界有规律的变化来计时，工具从日晷、水钟发展到机械摆钟，时间的测量精度越来越高。
+  misconceptions:
+    - 误认为钟表自古就有，实际人类先用日晷、水钟，后来才发展到机械摆钟。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为钟表自古就有，实际人类先用日晷、水钟，后来才发展到机械摆钟。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S8.md
 - id: concept:科学:认识星座的方法
   type: Concept
@@ -3688,6 +4356,10 @@
     - 观星的方法
   category: 方法
   explanation: 观星时先定方向，再找银河等明显标志，然后找亮星定星座，也可以借助观星盘对照辨认。
+  misconceptions:
+    - 误认为抬头随便看就能认出星座，实际要先定方向，再找银河等标志和亮星。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为抬头随便看就能认出星座，实际要先定方向，再找银河等标志和亮星。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:记录身体信息的方法
   type: Concept
@@ -3697,6 +4369,10 @@
   aliases: []
   category: 方法
   explanation: 把身高、体重、跑步成绩等身体信息测量后记录下来。将来再打开对比，就能看出自己身体的变化。
+  misconceptions:
+    - 误认为记住就行，实际要把身高、体重、跑步成绩测量后记录下来，日后对比才看出变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为记住就行，实际要把身高、体重、跑步成绩测量后记录下来，日后对比才看出变化。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:设计制作过山车
   type: Concept
@@ -3707,6 +4383,10 @@
     - 过山车
   category: 方法
   explanation: 像工程师一样，先明确任务、画出设计图，再动手制作和测试，最后评估、改进。轨道要够长，小球要能滚完全程不脱轨。
+  misconceptions:
+    - 误认为直接动手搭就行，实际要先明确任务、画出设计图，再制作、测试和改进。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为直接动手搭就行，实际要先明确任务、画出设计图，再制作、测试和改进。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:设计图
   type: Concept
@@ -3716,6 +4396,10 @@
   aliases: []
   category: 方法
   explanation: 建造房子前要先画设计图，标出房子的样子、门窗的位置和要用的材料，照着做更省事。
+  misconceptions:
+    - 误认为房子照着想象盖就行，实际要先画设计图，标出样子、门窗位置和要用的材料。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为房子照着想象盖就行，实际要先画设计图，标出样子、门窗位置和要用的材料。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:设计玩具的方法
   type: Concept
@@ -3726,6 +4410,10 @@
     - 设计钓鱼玩具
   category: 方法
   explanation: 先看清楚要完成的任务和要求，再想办法利用手头的材料，把想法画成设计图，听了别人的意见后还可以继续修改。
+  misconceptions:
+    - 误认为随便找点材料拼起来，实际要先看清任务要求，再想办法把想法画成设计图。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为随便找点材料拼起来，实际要先看清任务要求，再想办法把想法画成设计图。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:证明空气存在的方法
   type: Concept
@@ -3735,6 +4423,10 @@
   aliases: []
   category: 方法
   explanation: 虽然看不到空气，但可以用实验证明它存在，比如用塑料袋装空气、把空瓶子压入水中看气泡、感受风吹动身边的物体。
+  misconceptions:
+    - 误认为看不见的东西就不存在，实际可以用塑料袋装空气、把空瓶压入水中等实验证明它存在。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为看不见的东西就不存在，实际可以用塑料袋装空气、把空瓶压入水中等实验证明它存在。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:评价与改进作品
   type: Concept
@@ -3744,6 +4436,10 @@
   aliases: []
   category: 方法
   explanation: 做完作品要对照标准检查，比如用了几种材料、房子稳不稳、门窗够不够大，再想想哪里可以改进。
+  misconceptions:
+    - 误认为做完就算完成，实际要对照标准检查，看看是否达到要求并加以改进。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为做完就算完成，实际要对照标准检查，看看是否达到要求并加以改进。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:资源再生
   type: Concept
@@ -3755,6 +4451,10 @@
     - 回收再利用
   category: 概念
   explanation: 废纸、塑料、金属、玻璃等回收后可以加工成新的材料再使用，比如用废纸做再生纸。资源再利用能节约原料、减少垃圾、保护环境。
+  misconceptions:
+    - 误认为垃圾回收后就没用了，实际废纸、塑料、金属、玻璃都能加工成新的材料再使用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为垃圾回收后就没用了，实际废纸、塑料、金属、玻璃都能加工成新的材料再使用。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:超声波
   type: Concept
@@ -3764,6 +4464,10 @@
   aliases: []
   category: 概念
   explanation: 每秒振动超过 20000 次的声音叫超声波，人耳听不到。它方向集中、容易被物体反射，在医学检查、工业勘探等方面很有用。
+  misconceptions:
+    - 误认为人耳能听到超声波，实际它每秒振动超过 20000 次，人耳听不到，但方向集中。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为人耳能听到超声波，实际它每秒振动超过 20000 次，人耳听不到，但方向集中。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S10.md
 - id: concept:科学:身体的结构
   type: Concept
@@ -3774,6 +4478,10 @@
     - 身体的组成部分
   category: 概念
   explanation: 我们的身体从上到下分为头、颈、躯干和四肢几个部分。用画图的方式可以记录身体的构造。
+  misconceptions:
+    - 误认为身体只有头和四肢，实际从上到下分为头、颈、躯干和四肢。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为身体只有头和四肢，实际从上到下分为头、颈、躯干和四肢。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:身边的植物
   type: Concept
@@ -3784,6 +4492,10 @@
     - 周围常见的植物
   category: 概念
   explanation: 我们周围有很多植物，比如树木、花草和蔬菜。可以先认识它们的名字和样子。
+  misconceptions:
+    - 误认为植物长得都差不多，实际周围有树木、花草和蔬菜，可以先认识它们的名字和样子。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为植物长得都差不多，实际周围有树木、花草和蔬菜，可以先认识它们的名字和样子。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:轮轴
   type: Concept
@@ -3793,6 +4505,10 @@
   aliases: []
   category: 概念
   explanation: 由较大的轮和较小的轴固定在一起转动的机械叫轮轴，比如汽车方向盘和自行车的车把。轮轴可以帮助我们省力、方便地操控方向。
+  misconceptions:
+    - 误认为轮轴就是普通的轮子，实际它由较大的轮和较小的轴固定在一起转动，如汽车方向盘。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为轮轴就是普通的轮子，实际它由较大的轮和较小的轴固定在一起转动，如汽车方向盘。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:辨别方向的方法
   type: Concept
@@ -3802,6 +4518,10 @@
   aliases: []
   category: 方法
   explanation: 可以用太阳、积雪、苔藓等自然物辨别方向，也可以用指南针更快更准确地确定方向。多观察、多分析，才能找到正确的方向。
+  misconceptions:
+    - 误认为辨方向只能靠指南针，实际也可以用太阳、积雪、苔藓等自然物来辨别。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为辨方向只能靠指南针，实际也可以用太阳、积雪、苔藓等自然物来辨别。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S9.md
 - id: concept:科学:迁徙
   type: Concept
@@ -3812,6 +4532,10 @@
     - 候鸟迁徙
   category: 现象
   explanation: 当季节变化、食物减少时，有些动物会从原来的地方飞到气候温暖、食物充足的地方生活，等季节合适再回来，比如丹顶鹤的南北迁飞。
+  misconceptions:
+    - 误认为动物迁徙是迷路，实际是季节变化、食物减少时迁往气候温暖、食物充足的地方。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为动物迁徙是迷路，实际是季节变化、食物减少时迁往气候温暖、食物充足的地方。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:过滤
   type: Concept
@@ -3821,6 +4545,10 @@
   aliases: []
   category: 方法
   explanation: 用漏斗和滤纸可以把不溶解的沙子等杂质从水中分离出来，这个方法叫过滤。
+  misconceptions:
+    - 误认为过滤能把溶解的食盐也分出来，实际它只能除去沙子这类不溶解的杂质。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为过滤能把溶解的食盐也分出来，实际它只能除去沙子这类不溶解的杂质。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:运动后呼吸加快
   type: Concept
@@ -3831,6 +4559,10 @@
     - 呼吸次数的变化
   category: 现象
   explanation: 剧烈运动时身体要消耗更多氧气，呼吸就会加快加深，让肺部气体交换更快，吸进更多氧气。运动前后每分钟呼吸次数会明显不同。
+  misconceptions:
+    - 误认为运动后喘气说明身体出了问题，实际是身体消耗更多氧气，需要加快气体交换。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为运动后喘气说明身体出了问题，实际是身体消耗更多氧气，需要加快气体交换。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:运动和静止
   type: Concept
@@ -3841,6 +4573,10 @@
     - 运动的物体与静止的物体
   category: 概念
   explanation: 把大地看作静止的，如果一个物体相对于另一个物体位置发生了变化，它就是运动的；位置没有变化，就是静止的。
+  misconceptions:
+    - 误认为静止就是绝对不动，实际是相对于另一个物体位置没有发生变化。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为静止就是绝对不动，实际是相对于另一个物体位置没有发生变化。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:运动方式
   type: Concept
@@ -3851,6 +4587,10 @@
     - 运动路线
   category: 概念
   explanation: 物体运动的形式多种多样，有的直行，有的转动，有的摆动。在物体上贴圆点、画出圆点的运动路线，能帮助我们看清物体是怎样运动的。
+  misconceptions:
+    - 误认为运动就是一直向前，实际还有转动、摆动等形式，在物体上贴圆点能看出运动轨迹。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为运动就是一直向前，实际还有转动、摆动等形式，在物体上贴圆点能看出运动轨迹。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:选择和使用工具
   type: Concept
@@ -3862,6 +4602,8 @@
   explanation: 做事情前先想清楚需要什么工具，再按正确、安全的方法使用它。比如挖掘时要戴护目镜，用锤子时力量先小后大。
   misconceptions:
     - 误认为随手拿一个工具就行，实际要先想清楚需要什么工具，再按正确、安全的方法使用。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为随手拿一个工具就行，实际要先想清楚需要什么工具，再按正确、安全的方法使用。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:透明、半透明和不透明
   type: Concept
@@ -3871,6 +4613,10 @@
   aliases: []
   category: 性质
   explanation: 光能完全穿过普通玻璃等透明物体，只能部分穿过磨砂玻璃等半透明物体，不能穿过厚纸板等不透明物体。
+  misconceptions:
+    - 误认为磨砂玻璃是透明物体，实际它只能部分透过光，属于半透明。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为磨砂玻璃是透明物体，实际它只能部分透过光，属于半透明。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:通路和断路
   type: Concept
@@ -3881,6 +4627,10 @@
     - 通路与断路
   category: 概念
   explanation: 电路接通、电流能顺利通过时叫通路；电路断开、电流不能通过时叫断路。用电路检测器检测两个接线柱之间是通路还是断路，就能推测看不见的内部连接情况。
+  misconceptions:
+    - 误认为灯泡不亮就是灯泡坏了，实际可能是电路断开形成了断路。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为灯泡不亮就是灯泡坏了，实际可能是电路断开形成了断路。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:速度
   type: Concept
@@ -3890,6 +4640,10 @@
   aliases: []
   category: 概念
   explanation: 利用物体运动的时间和距离，可以比较它们运动的快慢，快慢的程度叫速度。速度越大，运动得越快。
+  misconceptions:
+    - 误认为速度只和时间有关，实际要用运动的距离和时间一起比较快慢。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为速度只和时间有关，实际要用运动的距离和时间一起比较快慢。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:遗传
   type: Concept
@@ -3899,6 +4653,10 @@
   aliases: []
   category: 概念
   explanation: 生物的后代和亲代在很多特征上非常相似，这种现象叫遗传。
+  misconceptions:
+    - 误认为后代一定和亲代不同，实际后代与亲代在很多特征上非常相似，这叫遗传。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为后代一定和亲代不同，实际后代与亲代在很多特征上非常相似，这叫遗传。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:酒精灯的使用方法
   type: Concept
@@ -3908,6 +4666,10 @@
   aliases: []
   category: 方法
   explanation: 用酒精灯加热时要用温度最高的外焰；不能用燃着的酒精灯点燃另一盏，熄灭时要用灯帽盖灭，不能用嘴吹。
+  misconceptions:
+    - 误认为内焰温度最高，实际要用温度最高的外焰加热，也不能用燃着的酒精灯点燃另一盏。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为内焰温度最高，实际要用温度最高的外焰加热，也不能用燃着的酒精灯点燃另一盏。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:重力
   type: Concept
@@ -3917,6 +4679,10 @@
   aliases: []
   category: 概念
   explanation: 重力是地球对物体施加的吸引力，它无须接触就能把物体拉向地面。物体的质量越大，受到的重力越大。
+  misconceptions:
+    - 误认为重力要接触物体才起作用，实际地球的吸引不需要接触就把物体拉向地面。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为重力要接触物体才起作用，实际地球的吸引不需要接触就把物体拉向地面。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:铁生锈
   type: Concept
@@ -3927,6 +4693,10 @@
     - 铁钉生锈
   category: 现象
   explanation: 铁钉在潮湿的空气中容易生锈，生锈是产生了新物质的化学变化。
+  misconceptions:
+    - 误认为生锈只是表面脏了，实际是产生了新物质的化学变化，在潮湿空气中更容易发生。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为生锈只是表面脏了，实际是产生了新物质的化学变化，在潮湿空气中更容易发生。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S4.md
 - id: concept:科学:银河系
   type: Concept
@@ -3936,6 +4706,10 @@
   aliases: []
   category: 概念
   explanation: 银河系是由约 2000 亿到 4000 亿颗恒星组成的天体系统，形状像一个盘子或旋涡，太阳系只是其中普通的一员。
+  misconceptions:
+    - 误认为银河系只有几千颗恒星，实际它由约 2000 亿到 4000 亿颗恒星组成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为银河系只有几千颗恒星，实际它由约 2000 亿到 4000 亿颗恒星组成。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:降水量
   type: Concept
@@ -3945,6 +4719,10 @@
   aliases: []
   category: 概念
   explanation: 降水量是一定时间内降落在地面上的雨或雪化的水的深度，用毫米作单位。雨有大有小，要统一标准来测量。
+  misconceptions:
+    - 误认为降水量就是积雪有多厚，实际是雨或雪化成水后在地面上的深度，用毫米作单位。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为降水量就是积雪有多厚，实际是雨或雪化成水后在地面上的深度，用毫米作单位。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:雨量器
   type: Concept
@@ -3955,6 +4733,10 @@
     - 雨量计
   category: 概念
   explanation: 雨量器是用来测量降水量的工具，可以用直筒透明杯贴上刻度条自制，放在雨中收集雨水来测量。
+  misconceptions:
+    - 误认为随便拿个杯子就能测降水，实际要用直筒透明杯贴上刻度条做成雨量器，并放在雨中。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为随便拿个杯子就能测降水，实际要用直筒透明杯贴上刻度条做成雨量器，并放在雨中。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:青春期
   type: Concept
@@ -3964,6 +4746,10 @@
   aliases: []
   category: 概念
   explanation: 女生 10 岁左右、男生 12 岁左右进入的第二个快速发育时期，这时要注意补充营养并保持身体清洁卫生。
+  misconceptions:
+    - 误认为青春期只有女生会经历，实际男女都会进入第二个快速发育时期，只是起始年龄不同。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为青春期只有女生会经历，实际男女都会进入第二个快速发育时期，只是起始年龄不同。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:风力
   type: Concept
@@ -3974,6 +4760,10 @@
     - 风级
   category: 概念
   explanation: 风力指风的大小。可以看风旗的样子把风力简化为无风、微风、大风三个等级，风旗展开飘动就是大风。
+  misconceptions:
+    - 误认为风的大小没法描述，实际可以看风旗把风力简化为无风、微风、大风三个等级。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风的大小没法描述，实际可以看风旗把风力简化为无风、微风、大风三个等级。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:风向
   type: Concept
@@ -3983,6 +4773,10 @@
   aliases: []
   category: 概念
   explanation: 风向是风吹来的方向，用东、南、西、北等八个方位来描述。比如北风就是从北方吹来的风。
+  misconceptions:
+    - 误认为北风是吹向北方的风，实际风向指风吹来的方向，北风就是从北方吹来的风。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为北风是吹向北方的风，实际风向指风吹来的方向，北风就是从北方吹来的风。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:风对地表的作用
   type: Concept
@@ -3992,6 +4786,10 @@
   aliases: []
   category: 现象
   explanation: 风通过吹蚀、搬运和堆积改变地表形态，在干旱地区会形成风蚀蘑菇、雅丹地貌、沙漠和戈壁等独特的地貌。
+  misconceptions:
+    - 误认为风只能吹走沙尘，实际它通过吹蚀、搬运和堆积改变地表形态，形成风蚀蘑菇等。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风只能吹走沙尘，实际它通过吹蚀、搬运和堆积改变地表形态，形成风蚀蘑菇等。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S7.md
 - id: concept:科学:风的成因
   type: Concept
@@ -4002,6 +4800,10 @@
     - 风是怎样形成的
   category: 现象
   explanation: 地面受热不均匀时，各处空气的温度不同。温度高的地方热空气上升，别处的冷空气流过来补充，空气的这种流动就形成了风。
+  misconceptions:
+    - 误认为风是空气自己跑动，实际是地面受热不均匀，热空气上升、别处冷空气补充形成风。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为风是空气自己跑动，实际是地面受热不均匀，热空气上升、别处冷空气补充形成风。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:食物中的能量
   type: Concept
@@ -4012,6 +4814,10 @@
     - 食物的能量
   category: 概念
   explanation: 食物蕴含着能量，食物进入身体后经过复杂而平稳的化学变化，转化为身体所需的能量和营养。
+  misconceptions:
+    - 误认为食物只是填饱肚子，实际它蕴含能量，进入身体后经化学变化转化为身体所需的能量。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为食物只是填饱肚子，实际它蕴含能量，进入身体后经化学变化转化为身体所需的能量。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S6.md
 - id: concept:科学:食物中的营养物质
   type: Concept
@@ -4022,6 +4828,10 @@
     - 营养成分
   category: 概念
   explanation: 食物中含有糖类、脂肪、蛋白质、无机盐、维生素和水等营养物质，它们为身体提供能量和生长所需的材料。
+  misconceptions:
+    - 误认为有营养就是指蛋白质，实际还包括糖类、脂肪、无机盐、维生素和水。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为有营养就是指蛋白质，实际还包括糖类、脂肪、无机盐、维生素和水。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:食物的消化过程
   type: Concept
@@ -4032,6 +4842,10 @@
     - 食物在身体里的旅行
   category: 概念
   explanation: 食物经过口腔、食管、胃、小肠、大肠这些消化器官：口腔嚼碎，食管运送，胃磨碎消化，小肠吸收营养，大肠处理残渣，最后废物排出体外。
+  misconceptions:
+    - 误认为食物主要在胃里就消化完了，实际要经过口腔、食管、胃、小肠、大肠的连续过程。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为食物主要在胃里就消化完了，实际要经过口腔、食管、胃、小肠、大肠的连续过程。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:食物网
   type: Concept
@@ -4041,6 +4855,10 @@
   aliases: []
   category: 概念
   explanation: 一个区域里的许多条食物链相互交叉连在一起，像一张大网。一种生物常常处在多条食物链中，少了谁都可能影响其他生物。
+  misconceptions:
+    - 误认为食物链是一条单独的线，实际许多条食物链交叉连在一起，一种生物常处在多条链中。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为食物链是一条单独的线，实际许多条食物链交叉连在一起，一种生物常处在多条链中。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:食物链
   type: Concept
@@ -4050,6 +4868,10 @@
   aliases: []
   category: 概念
   explanation: 生物之间因为吃与被吃的关系连成一条链，比如绿豆苗被蚜虫吃、蚜虫被瓢虫吃。一般用箭头表示“谁被谁吃”的顺序。
+  misconceptions:
+    - 误认为食物链可以从任意生物开始，实际要按吃与被吃的关系连成，如绿豆苗被蚜虫吃、蚜虫被瓢虫吃。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为食物链可以从任意生物开始，实际要按吃与被吃的关系连成，如绿豆苗被蚜虫吃、蚜虫被瓢虫吃。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:鱼的身体特点
   type: Concept
@@ -4059,6 +4881,10 @@
   aliases: []
   category: 性质
   explanation: 鱼身上有鳞片，靠鳍在水里游泳，用鳃呼吸，所以能一直待在水里。
+  misconceptions:
+    - 误认为鱼靠鳍呼吸，实际它用鳃呼吸、靠鳍游泳，身上还覆盖鳞片。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为鱼靠鳍呼吸，实际它用鳃呼吸、靠鳍游泳，身上还覆盖鳞片。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:黄土高原的形成
   type: Concept
@@ -4068,6 +4894,10 @@
   aliases: []
   category: 现象
   explanation: 黄土高原是西北大风千万年来从沙漠地区吹扬起细小尘土、在远处堆积形成的，降雨又冲刷出无数沟壑，冲下来的泥沙还造就了华北平原。
+  misconceptions:
+    - 误认为黄土高原是流水冲积形成的，实际是西北大风千万年来把尘土吹扬到远处堆积形成。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为黄土高原是流水冲积形成的，实际是西北大风千万年来把尘土吹扬到远处堆积形成。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S9.md
 - id: concept:科学:鼓膜的作用
   type: Concept
@@ -4077,6 +4907,10 @@
   aliases: []
   category: 概念
   explanation: 鼓膜很薄而且有弹性，轻微的声音都能使它振动。声音越强鼓膜振动越明显，鼓膜穿孔听力就会受影响。
+  misconceptions:
+    - 误认为鼓膜是坚硬的骨头，实际它很薄且有弹性，声音越强振动越明显。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为鼓膜是坚硬的骨头，实际它很薄且有弹性，声音越强振动越明显。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:鼻腔的作用
   type: Concept
@@ -4086,4 +4920,8 @@
   aliases: []
   category: 概念
   explanation: 鼻腔像空气的"加工厂"，能调节吸入空气的温度和湿度，鼻毛还能阻挡尘埃等有害物质。所以鼻塞时呼吸会受影响，平时不要随便挖鼻孔。
+  misconceptions:
+    - 误认为鼻腔只用来把空气吸进去，实际它还能调节空气的温度和湿度，鼻毛可阻挡尘埃。
+  masteryCriteria:
+    - 能指出并纠正这一错误：误认为鼻腔只用来把空气吸进去，实际它还能调节空气的温度和湿度，鼻毛可阻挡尘埃。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S8.md
