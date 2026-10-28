@@ -88,6 +88,8 @@
     - 探索地球
   category: 观点
   explanation: 地球上还有很多动植物没被发现，地球内部和历史也还没有完全弄清楚。科学家每天都在研究地球，不断发现它更多的秘密。
+  misconceptions:
+    - 误认为地球已被完全探明，实际还有很多动植物未被发现，地球内部和历史也没有完全弄清楚。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S11.md
 - id: concept:科学:人类探索宇宙的历程
   type: Concept
@@ -98,6 +100,8 @@
     - 探索宇宙的历史
   category: 概念
   explanation: 人类从古代观测记录天象，到发明望远镜观测太空，再到用火箭把卫星、探测器送入太空、建设空间站，一步步探索宇宙。
+  misconceptions:
+    - 误认为一开始就用火箭探测太空，实际先有观测记录天象、发明望远镜，之后才用火箭送卫星和探测器。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:人类活动对地球的影响
   type: Concept
@@ -107,6 +111,8 @@
   aliases: []
   category: 概念
   explanation: 人类砍伐森林、建设城市、捕捞鱼类等活动，压缩了动植物的生存空间，还造成环境污染和全球变暖，改变着地球的环境。
+  misconceptions:
+    - 误认为只有砍伐森林会破坏环境，实际建设城市、捕捞鱼类同样压缩动植物生存空间并造成污染。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S10.md
 - id: concept:科学:人耳的结构
   type: Concept
@@ -117,6 +123,8 @@
     - 耳朵的结构
   category: 概念
   explanation: 耳朵由耳郭、外耳道、鼓膜、耳蜗等组成。声音经过外耳道这条"隧道"到达鼓膜，引起鼓膜振动，我们才能听到声音。
+  misconceptions:
+    - 误认为耳朵只是一个听声音的孔，实际耳郭、外耳道、鼓膜、耳蜗分工，鼓膜振动才让我们听到声音。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:人造物
   type: Concept
@@ -161,6 +169,8 @@
     - 人工授粉
   category: 现象
   explanation: 雄蕊上的花粉传到雌蕊上的过程叫传粉。植物只有完成传粉，花才能发育成果实；蜜蜂等昆虫可以帮助植物传粉。
+  misconceptions:
+    - 误认为花开了就会结果，实际只有完成传粉，花才能发育成果实。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:住房的结构和系统
   type: Concept
@@ -170,6 +180,8 @@
   aliases: []
   category: 概念
   explanation: 住房由基础、墙体、门窗等结构组成，还需要供水、供电、供暖等系统来满足居住需要。
+  misconceptions:
+    - 误认为住房只需墙和门窗，实际还需要供水、供电、供暖等系统才满足居住需要。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:侵蚀作用
   type: Concept
@@ -203,6 +215,8 @@
     - 听力的保护
   category: 观点
   explanation: 长时间待在大音量的环境里听力会受到伤害。不要让强声音直接刺激耳朵，必要时戴上耳罩，在公共场所要轻声说话。
+  misconceptions:
+    - 误认为只有巨响才伤听力，实际长时间待在大音量环境里听力同样会受损。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:保护呼吸器官和消化器官
   type: Concept
@@ -212,6 +226,8 @@
   aliases: []
   category: 观点
   explanation: 要养成良好生活习惯：科学佩戴口罩、勤洗手、常通风来预防呼吸道疾病；饭前便后勤洗手、不吃变质不洁的食物来保护胃肠。
+  misconceptions:
+    - 误认为戴口罩只为挡灰尘，实际它与勤洗手、常通风一起用于预防呼吸道疾病。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:保护地球的行动
   type: Concept
@@ -222,6 +238,8 @@
     - 保护环境的措施
   category: 方法
   explanation: 人们设立生态保护区，利用太阳能、风力发电，回收处理垃圾等，用这些行动减少污染、保护地球环境。
+  misconceptions:
+    - 误认为保护地球只能少用资源，实际设立生态保护区、用太阳能风能、回收垃圾都是具体行动。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S10.md
 - id: concept:科学:保护岩石和土壤
   type: Concept
@@ -232,6 +250,8 @@
     - 保护自然资源
   category: 观点
   explanation: 岩石和矿物被开采后不能再生，我们要合理利用它们；人类生存离不开土壤，要珍惜土壤，防止土壤被污染和浪费。
+  misconceptions:
+    - 误认为岩石和矿物取之不尽，实际开采后不能再生，要合理利用。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:保护感觉器官
   type: Concept
@@ -241,6 +261,8 @@
   aliases: []
   category: 观点
   explanation: 感觉器官很容易受到伤害。不看强光、不揉眼睛、不掏耳朵、不长时间戴耳机，要好好保护它们。
+  misconceptions:
+    - 误认为感觉器官不需要特别保护，实际强光、掏耳朵、长时间戴耳机都会伤害它们。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:保护水资源
   type: Concept
@@ -251,6 +273,8 @@
     - 保护身边的水
   category: 观点
   explanation: 水被污染后会变得又黑又臭，让鱼和植物死去，也危害我们。要节约用水，不往河里扔垃圾。
+  misconceptions:
+    - 误认为水被污染只是变脏，实际会让鱼和植物死去，也危害人的健康。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S9.md
 - id: concept:科学:保护生物多样性
   type: Concept
@@ -260,6 +284,8 @@
   aliases: []
   category: 观点
   explanation: 每个物种都是独一无二的，生物多样性关系到人类的健康和生存，应该与自然和谐相处、加以保护。
+  misconceptions:
+    - 误认为保护生物多样性只是保护稀有动物，实际每个物种都独一无二，关系到人类的健康和生存。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:保温的方法
   type: Concept
@@ -270,6 +296,8 @@
     - 保温杯
   category: 方法
   explanation: 用导热慢的材料包裹杯子、加盖密封、留出真空夹层等办法，都能减慢热量的传递，让热水凉得更慢，比如制作保温杯和保温瓶。
+  misconceptions:
+    - 误认为保温就是持续加热，实际是用导热慢的材料、加盖密封、留真空夹层来减慢热量传递。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S7.md
 - id: concept:科学:健康呼吸
   type: Concept
@@ -279,6 +307,8 @@
   aliases: []
   category: 观点
   explanation: 用鼻子呼吸、经常深呼吸有助于健康；长期用嘴呼吸对身体不好。室内常通风、远离二手烟、人多场所戴口罩，都是保护呼吸的好习惯。
+  misconceptions:
+    - 误认为用嘴呼吸更省力，实际长期用嘴呼吸对身体不好，应该用鼻子呼吸。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S10.md
 - id: concept:科学:健康生活
   type: Concept
@@ -288,6 +318,8 @@
   aliases: []
   category: 概念
   explanation: 健康生活既包括平衡膳食、充足睡眠、合理运动等生理健康，也包括认识和管理情绪等心理健康，还要有合理的目标和可行的计划。
+  misconceptions:
+    - 误认为健康就是不生病，实际还包括平衡膳食、充足睡眠、合理运动以及管理情绪。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:健康生活计划
   type: Concept
@@ -309,6 +341,8 @@
     - 睡眠与健康
   category: 概念
   explanation: 小学生每天应睡够 10 小时左右，长期睡眠不足会使记忆力、注意力下降，影响学习效果。
+  misconceptions:
+    - 误认为睡得少可以白天补回来，实际小学生每天应睡够约 10 小时，不足会降低记忆力和注意力。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:光与视觉
   type: Concept
@@ -318,6 +352,8 @@
   aliases: []
   category: 概念
   explanation: 外界物体发出或反射的光进入眼睛引起视觉；视网膜上的视杆细胞帮助我们在暗处看清轮廓，视锥细胞帮助我们分辨颜色。
+  misconceptions:
+    - 误认为眼睛自己发光才能看见物体，实际是物体发出或反射的光进入眼睛引起视觉。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:光合作用
   type: Concept
@@ -327,6 +363,8 @@
   aliases: []
   category: 概念
   explanation: 在光照下，植物吸收空气中的二氧化碳和水分，在绿叶里制造出生长需要的养料，同时放出氧气。
+  misconceptions:
+    - 误认为植物只吸收氧气，实际它在光照下吸收二氧化碳和水分制造养料，同时放出氧气。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:光学仪器
   type: Concept
@@ -336,6 +374,8 @@
   aliases: []
   category: 概念
   explanation: 利用光的各种特性制造的、用于观察、显示、测量等用途的仪器，如投影仪、显微镜、望远镜和照相机。
+  misconceptions:
+    - 误认为光学仪器只是把物体放大，实际它们是利用光的各种特性做观察、显示和测量。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:光学显微镜的使用方法
   type: Concept
@@ -357,6 +397,8 @@
     - 光的直线传播
   category: 性质
   explanation: 光在空气中沿直线传播，排队看齐、林间光束、影子的形成都可以用这一特点解释。
+  misconceptions:
+    - 误认为光会绕过障碍拐弯，实际光在空气中沿直线传播，影子和林间光束就是证据。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:光源
   type: Concept
@@ -366,6 +408,8 @@
   aliases: []
   category: 概念
   explanation: 太阳、电灯等本身能发光的物体叫光源。月球、镜子本身不会发光，只是反射别的物体的光，所以不是光源。
+  misconceptions:
+    - 误认为月亮也是光源，实际它只反射太阳光，本身不发光。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:光的反射
   type: Concept
@@ -376,6 +420,8 @@
     - 镜面反射
   category: 现象
   explanation: 光遇到物体表面会被反射回去，我们能看到不发光的物体，就是因为它们把光反射进了我们的眼睛。
+  misconceptions:
+    - 误认为看见物体是眼睛发出光，实际是物体表面把光反射进了眼睛。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:光的色散
   type: Concept
@@ -387,6 +433,8 @@
     - 白光的分解
   category: 现象
   explanation: 太阳光看上去是白色的，实际由多种色光组成，通过三棱镜或水和镜子后会分散成红、橙、黄、绿、蓝、靛、紫的彩色光带，彩虹就是这样形成的。
+  misconceptions:
+    - 误认为太阳光是单一的白光，实际它由多种色光组成，经三棱镜会分散成红橙黄绿蓝靛紫。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:冬眠
   type: Concept
@@ -397,6 +445,8 @@
     - 夏眠
   category: 现象
   explanation: 一些动物在冬天不吃、不喝、不动，体温下降，用这种方式熬过严寒，这叫冬眠。蛇、刺猬、蝙蝠等很多动物都会冬眠。
+  misconceptions:
+    - 误认为冬眠只是睡得久，实际是不吃、不喝、不动且体温下降，用来熬过严寒。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S10.md
 - id: concept:科学:冰川和海浪的侵蚀
   type: Concept
@@ -406,6 +456,8 @@
   aliases: []
   category: 现象
   explanation: 在地表缓慢移动的大冰体叫冰川，它像推土机一样磨蚀岩层，形成 U 形谷、角峰等地形；海浪不断拍打磨蚀岸边岩石，会形成海蚀拱桥、海蚀洞穴等地形。
+  misconceptions:
+    - 误认为只有流水会侵蚀地表，实际冰川磨蚀岩层、海浪拍打海岸同样改变地形。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S9.md
 - id: concept:科学:凝结
   type: Concept
@@ -416,6 +468,8 @@
     - 凝结现象
   category: 现象
   explanation: 空气中的水蒸气遇到冷的物体，会变成小水珠，这种现象叫凝结。冰镇饮料罐外壁出现的水珠，就是空气中的水蒸气遇冷凝结成的。
+  misconceptions:
+    - 误认为冰镇饮料罐外的水珠是从罐里渗出来的，实际是空气中的水蒸气遇冷凝结成小水珠。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:分析环境问题的方法
   type: Concept
@@ -437,6 +491,8 @@
     - 给物体分类
   category: 方法
   explanation: 按照物体的一个特征，把它们分成几类，就叫分类。同一个特征分类结果一样，选不同特征会有不同的分法。
+  misconceptions:
+    - 误认为分类结果只有一种，实际按不同特征分类会得到不同的结果。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:制作岩石矿物标本
   type: Concept
@@ -470,6 +526,8 @@
   aliases: []
   category: 方法
   explanation: 设计并制作能匀速滴漏的水钟，用秒表在接水容器上标出均匀的时间刻度，并测试计时的误差。
+  misconceptions:
+    - 误认为容器越大计时越准，实际要在接水容器上标出均匀的时间刻度并测试计时误差。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S3.md
 - id: concept:科学:制作科普海报
   type: Concept
@@ -514,6 +572,8 @@
   aliases: []
   category: 观点
   explanation: 物体的动静、快慢、方向等运动状态，在重力、弹力、摩擦力等力的作用下会发生改变，力是改变物体运动状态的原因。
+  misconceptions:
+    - 误认为只有推和拉能改变运动，实际重力、弹力、摩擦力都能改变物体的快慢和方向。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:力的单位牛顿
   type: Concept
@@ -525,6 +585,8 @@
     - 'N'
   category: 概念
   explanation: 力的单位是牛顿，简称牛，用符号 N 表示，是以物理学家牛顿的名字命名的。
+  misconceptions:
+    - 误认为力的单位是千克，实际力的单位是牛顿，符号 N。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:加快溶解的方法
   type: Concept
@@ -535,6 +597,8 @@
     - 加快溶解
   category: 方法
   explanation: 搅拌、用热水、把物质研碎成小颗粒，都能加快物质在水中的溶解。做比较实验时，其他条件要一样才公平。
+  misconceptions:
+    - 误认为搅拌能让水里溶解更多物质，实际搅拌只加快溶解速度，不改变能溶解的量。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:动滑轮
   type: Concept
@@ -544,6 +608,8 @@
   aliases: []
   category: 概念
   explanation: 像塔吊的吊钩那样，可以随重物一起移动的滑轮叫动滑轮。用动滑轮提升重物能省力。
+  misconceptions:
+    - 误认为动滑轮只能改变用力方向，实际它随重物一起移动，能省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:动物分类的依据
   type: Concept
@@ -553,6 +619,8 @@
   aliases: []
   category: 方法
   explanation: 给动物分类要找依据，比如身体里有没有脊柱、吃什么食物、怎样运动。依据不同，分出来的类别也不同。
+  misconceptions:
+    - 误认为动物分类有唯一标准，实际按有无脊柱、吃什么、怎样运动分出来的类别并不相同。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:动物生存需要的条件
   type: Concept
@@ -563,6 +631,8 @@
     - 动物的需要
   category: 概念
   explanation: 动物生存和生长都需要食物、空气、水和适宜的温度等条件。满足这些条件，动物才能正常生活和繁殖后代。
+  misconceptions:
+    - 误认为动物有食物就能活，实际还需要空气、水和适宜的温度。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S9.md
 - id: concept:科学:动物的生命周期
   type: Concept
@@ -573,6 +643,8 @@
     - 生命周期
   category: 概念
   explanation: 所有动物都会经历出生、生长、繁殖、死亡的过程，这就是动物的生命周期。不同的动物生命周期不一样，比如蝌蚪会变成蛙。
+  misconceptions:
+    - 误认为只有人会经历生长与死亡，实际动物都要经历出生、生长、繁殖、死亡的过程。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:动物的生活环境
   type: Concept
@@ -583,6 +655,8 @@
     - 生活环境
   category: 概念
   explanation: 动物生活的地方就是它的家，比如蜗牛喜欢阴湿的地方。养小动物要给它合适的家，有食物、有水，还要保持干净。
+  misconceptions:
+    - 误认为给动物一个容器就算安家，实际要有食物、有水，还要有适合它的环境。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:动物的繁殖
   type: Concept
@@ -592,6 +666,8 @@
   aliases: []
   category: 概念
   explanation: 动物生出小宝宝、繁殖后代的现象叫动物的繁殖。动物繁殖后代需要筑巢、孵卵、喂食等很多行为。
+  misconceptions:
+    - 误认为生下后代就完成了繁殖，实际还要筑巢、孵卵、喂食等许多行为。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:动物的食物
   type: Concept
@@ -601,6 +677,8 @@
   aliases: []
   category: 概念
   explanation: 动物都要吃食物，但不同动物吃的东西不一样，吃的方式也不同，比如蜗牛吃菜叶，蜜蜂吸花蜜。
+  misconceptions:
+    - 误认为所有动物吃同一种食物，实际不同动物吃的东西和吃的方式都不一样。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:动物适应环境变化的行为
   type: Concept
@@ -610,6 +688,8 @@
   aliases: []
   category: 概念
   explanation: 环境发生改变时，动物会用特殊的行为来适应，比如青蛙冬天钻进泥土冬眠、丹顶鹤秋天迁往温暖的南方越冬。
+  misconceptions:
+    - 误认为动物遇到环境变化只能被动受害，实际会通过冬眠、迁徙等行为来适应。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:动物需要适宜的环境
   type: Concept
@@ -620,6 +700,8 @@
     - 动物对环境的选择
   category: 概念
   explanation: 通过实验发现蚯蚓喜欢黑暗、潮湿的环境，说明动物都生活在适合自己生存的环境里，和植物一样对环境有要求。
+  misconceptions:
+    - 误认为蚯蚓随便放在哪里都能活，实际它喜欢黑暗、潮湿的环境。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:化学变化
   type: Concept
@@ -629,6 +711,8 @@
   aliases: []
   category: 概念
   explanation: 产生了新物质的变化叫化学变化，如食物变质、铁锅生锈。
+  misconceptions:
+    - 误认为颜色变了就是化学变化，实际要看是否产生了新物质，比如铁锅生锈、食物变质。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S1.md
 - id: concept:科学:化学变化伴随的现象
   type: Concept
@@ -639,6 +723,8 @@
     - 变化中伴随的现象
   category: 现象
   explanation: 化学变化常伴随发光发热、改变颜色、产生气体、生成沉淀等现象，可以借助这些现象来判断物质发生了什么变化。
+  misconceptions:
+    - 误认为只要发光发热就是化学变化，实际要结合颜色改变、产生气体、生成沉淀等现象判断是否有新物质。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S4.md
 - id: concept:科学:化石
   type: Concept
@@ -649,6 +735,8 @@
     - 古生物化石
   category: 概念
   explanation: 化石是存留在岩石中的古生物遗体、遗物或遗迹，能帮助科学家复原古代生物的样子和生活环境。
+  misconceptions:
+    - 误认为化石就是动物骨头本身，实际是保存在岩石中的古生物遗体、遗物或遗迹。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:北极星
   type: Concept
@@ -658,6 +746,8 @@
   aliases: []
   category: 概念
   explanation: 北极星位于地球自转轴北极指向的延长线上，人们习惯用它辨认方向；因地轴指向缓慢变化，北极星会慢慢更换。
+  misconceptions:
+    - 误认为北极星永远固定在同一个位置，实际地轴指向缓慢变化，北极星也会慢慢更换。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S9.md
 - id: concept:科学:单细胞生物
   type: Concept
@@ -667,6 +757,8 @@
   aliases: []
   category: 概念
   explanation: 大多数生物由许多细胞构成，但有些生物全身只有一个细胞，叫单细胞生物，如草履虫、变形虫、眼虫等。
+  misconceptions:
+    - 误认为生物都由许多细胞构成，实际草履虫、变形虫等全身只有一个细胞。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:卵生和胎生
   type: Concept
@@ -678,6 +770,8 @@
     - 胎生动物
   category: 概念
   explanation: 像鸡、金鱼那样通过产卵繁殖后代的方式叫卵生；像猫、狗那样直接生小动物的方式叫胎生。动物的繁殖方式主要分为卵生和胎生。
+  misconceptions:
+    - 误认为所有动物都直接生小动物，实际鸡、金鱼等通过产卵繁殖后代，属于卵生。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:变异
   type: Concept
@@ -687,6 +781,8 @@
   aliases: []
   category: 概念
   explanation: 生物的后代和亲代之间、后代个体之间也会有一些细微的不同，这种现象叫变异。
+  misconceptions:
+    - 误认为后代一定和亲代完全一样，实际后代与亲代之间、后代个体之间都有细微不同。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:变温动物和恒温动物
   type: Concept
@@ -698,6 +794,8 @@
     - 恒温动物
   category: 概念
   explanation: 体温会随环境温度变化的动物叫变温动物，比如蛙、蛇；体温保持稳定的动物叫恒温动物，比如鸟类和人类。变温动物天冷时常常要冬眠。
+  misconceptions:
+    - 误认为所有动物体温都保持稳定，实际蛙、蛇的体温会随环境温度变化。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S10.md
 - id: concept:科学:口腔的消化作用
   type: Concept
@@ -708,6 +806,8 @@
     - 口腔里的消化
   category: 概念
   explanation: 口腔是消化的第一站：牙齿嚼碎食物，舌搅拌食物，唾液润湿并初步消化食物，使食物变成柔软的小块再咽下去。
+  misconceptions:
+    - 误认为口腔只负责把食物嚼碎，实际唾液还会润湿并初步消化食物。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:古人计时的方法
   type: Concept
@@ -717,6 +817,8 @@
   aliases: []
   category: 方法
   explanation: 古人利用自然现象计时：根据太阳和日影制作日晷、圭表，还用燃香、蜡烛燃烧的长短来计算时间。
+  misconceptions:
+    - 误认为古人只靠看太阳判断时间，实际还用日晷、圭表和燃香、蜡烛燃烧的长短来计时。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:可再生能源和不可再生能源
   type: Concept
@@ -727,6 +829,8 @@
     - 新能源
   category: 概念
   explanation: 煤、石油、天然气用一点少一点，是不可再生能源；太阳能、风能、地热能、海洋能可以源源不断地获得，是可再生能源。我们要节约能源、开发新能源。
+  misconceptions:
+    - 误认为煤、石油永远用不完，实际它们用一点少一点，只有太阳能、风能等可以源源不断获得。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:叶在茎上的分布
   type: Concept
@@ -736,6 +840,8 @@
   aliases: []
   category: 现象
   explanation: 植物的叶在茎上是交叉生长的，叶子平展伸展，能让每片叶子都尽可能多地晒到阳光。
+  misconceptions:
+    - 误认为叶子随意生长，实际叶在茎上交叉生长、平展伸展，让每片叶都尽可能多晒到阳光。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:叶的作用
   type: Concept
@@ -747,6 +853,8 @@
     - 叶吸收阳光和蒸腾水分
   category: 概念
   explanation: 叶能吸收阳光，为植物生长提供能量；还能通过蒸腾作用散失水分，促进根不断地吸收水分。
+  misconceptions:
+    - 误认为叶只起观赏作用，实际它吸收阳光为植物提供能量，还通过蒸腾作用促进根吸水。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:呼吸与消化
   type: Concept
@@ -756,6 +864,8 @@
   aliases: []
   category: 概念
   explanation: 呼吸让人体每时每刻获得氧气、排出废气，消化把吃进的食物变成身体能吸收的营养。它们共同维持我们的生命活动。
+  misconceptions:
+    - 误认为呼吸和消化互不相关，实际一个供氧、一个供营养，共同维持身体活动。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:呼吸器官
   type: Concept
@@ -766,6 +876,8 @@
     - 人体的呼吸器官
   category: 概念
   explanation: 参与呼吸的器官有鼻腔、气管和肺等。吸气时空气从鼻腔进入，经过气管到达肺；呼气时气体沿原路排出体外。
+  misconceptions:
+    - 误认为呼吸只靠肺完成，实际空气要先经过鼻腔、气管才能到达肺。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:土壤的形成
   type: Concept
