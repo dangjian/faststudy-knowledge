@@ -887,6 +887,8 @@
   aliases: []
   category: 现象
   explanation: 土壤的形成是一个极其漫长的过程，形成很薄的一层土壤可能需要几百到数万年时间，所以我们要珍惜土壤。
+  misconceptions:
+    - 误认为土壤是短时间内形成的，实际形成很薄的一层土壤可能需要几百到数万年。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:土壤的成分
   type: Concept
@@ -897,6 +899,8 @@
     - 土壤的组成
   category: 概念
   explanation: 土壤里有沙砾、沙、粉沙、黏土等颗粒，还有水、空气、动植物遗体等。把土壤倒进水里搅拌静置后，颗粒会按大小分层沉降。
+  misconceptions:
+    - 误认为土壤里只有土，实际还有沙砾、沙、粉沙、黏土、水、空气和动植物遗体。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:土壤的类型
   type: Concept
@@ -908,6 +912,8 @@
     - 比较不同的土壤
   category: 概念
   explanation: 根据成分含量不同，土壤分为沙质土、壤土和黏质土。含沙多的沙质土渗水快、黏性差；含黏土多的黏质土渗水慢、黏性强；壤土介于两者之间，适合多种植物生长。
+  misconceptions:
+    - 误认为所有土壤都一样，实际按成分含量分为沙质土、壤土和黏质土，渗水性与黏性各不相同。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:土壤颗粒的大小
   type: Concept
@@ -918,6 +924,8 @@
     - 土壤微粒分类
   category: 概念
   explanation: 按颗粒从大到小给土壤微粒分类：最大的是沙砾（小石子），其次是沙，再小的是粉沙，最小的是黏土，黏土微粒小到肉眼几乎看不清。
+  misconceptions:
+    - 误认为沙比沙砾大，实际从大到小依次是沙砾、沙、粉沙、黏土。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:圭表
   type: Concept
@@ -927,6 +935,8 @@
   aliases: []
   category: 概念
   explanation: 我国古代测量正午日影的仪器，直立的“表”挡出影子，带刻度的“圭”读出影长，可以用来测定节气和一年时间的长短。
+  misconceptions:
+    - 误认为圭表是用来计时的钟，实际它是我国古代测量正午日影长度的仪器。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:地形图
   type: Concept
@@ -936,6 +946,8 @@
   aliases: []
   category: 概念
   explanation: 地形图是认识地形的重要工具，展示地球表面的海陆分布和高低起伏，图中暖色调代表海拔高，冷色调代表海拔低。
+  misconceptions:
+    - 误认为地形图只标注地名，实际用颜色表示海拔高低与海陆分布。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地球上的水体
   type: Concept
@@ -946,6 +958,8 @@
     - 水体
   category: 概念
   explanation: 地球上分布着很多水，常见的有江、河、湖、海，还有冰川和地下水等，它们都是水体。
+  misconceptions:
+    - 误认为水只存在于江河湖海，实际还有冰川和地下水等水体。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:地球公转
   type: Concept
@@ -956,6 +970,8 @@
     - 公转
   category: 概念
   explanation: 地球在自转的同时还围绕太阳自西向东转动叫公转，公转一周约一年，公转时地轴倾斜的方向基本保持不变。
+  misconceptions:
+    - 误认为公转一周是一天，实际公转一周约一年，且地轴倾斜方向保持不变。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:地球家园
   type: Concept
@@ -965,6 +981,8 @@
   aliases: []
   category: 概念
   explanation: 地球是人类和动植物共同生活的家园，上面有陆地、海洋、空气和各种各样的生物。
+  misconceptions:
+    - 误认为地球只属于人类，实际它是人类和动植物共同生活的家园。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:地球模型
   type: Concept
@@ -975,6 +993,8 @@
     - 地球仪
   category: 概念
   explanation: 地球太大难以直接研究，人们用地球仪等模型来模拟地球，研究昼夜交替、四季变化等问题。
+  misconceptions:
+    - 误认为地球仪只是摆件，实际人们用它模拟地球来研究昼夜交替和四季变化。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球生命的生存条件
   type: Concept
@@ -985,6 +1005,8 @@
     - 生命存在的必要条件
   category: 概念
   explanation: 地球有适宜的温度、大量氧气、液态水和岩石土壤等条件，正好适合生命生存，所以我们要珍惜这颗独特的星球。
+  misconceptions:
+    - 误认为有氧气就有生命，实际还需要适宜的温度、液态水和岩石土壤。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球的内部结构
   type: Concept
@@ -994,6 +1016,8 @@
   aliases: []
   category: 概念
   explanation: 地球内部从外到内分为地壳、地幔和地核三层。火山喷出的岩浆说明地球内部是温度很高、压力很大的炽热状态。
+  misconceptions:
+    - 误认为地球内部是均匀的实心球，实际分为地壳、地幔、地核，内部温度很高。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:地球的圈层结构
   type: Concept
@@ -1003,6 +1027,8 @@
   aliases: []
   category: 概念
   explanation: 地球外部由大气圈、水圈、生物圈等圈层组成，内部包括地壳、地幔和地核，地壳和地幔的一部分组成岩石圈。
+  misconceptions:
+    - 误认为圈层只指地球外部，实际外部有大气圈、水圈、生物圈，内部有地壳、地幔、地核。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地球的特点
   type: Concept
@@ -1013,6 +1039,8 @@
     - 地球小档案
   category: 概念
   explanation: 地球是一个球体，是太阳系的行星之一。地表由陆地和海洋组成，外面有大气圈包裹，上面生活着许多生物，平均温度约15℃。
+  misconceptions:
+    - 误认为地球是太阳系的中心，实际它是绕太阳运行的行星之一。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:地球磁场
   type: Concept
@@ -1023,6 +1051,8 @@
     - 地磁场
   category: 概念
   explanation: 地球周围存在着看不见的磁场，它像一道天然屏障，替地球挡住了太阳吹来的带电粒子，保护着地球上的生命。
+  misconceptions:
+    - 误认为磁场是能看见的东西，实际它看不见，却能挡住太阳吹来的带电粒子。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S10.md
 - id: concept:科学:地球自转
   type: Concept
@@ -1033,6 +1063,8 @@
     - 自转
   category: 概念
   explanation: 地球绕着穿过自身的地轴不停地旋转叫自转，自转的方向和周期可以用地球模型做模拟实验来研究。
+  misconceptions:
+    - 误认为自转一周是一年，实际自转是绕地轴旋转，周期约一天。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:地球自转的方向
   type: Concept
@@ -1042,6 +1074,8 @@
   aliases: []
   category: 概念
   explanation: 地球自西向东自转，所以东边的北京比西边的乌鲁木齐先迎来黎明，太阳看起来才东升西落。
+  misconceptions:
+    - 误认为太阳绕着地球转，实际是地球自西向东自转，东边的地方先迎来黎明。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:地球表面的地形
   type: Concept
@@ -1051,6 +1085,8 @@
   aliases: []
   category: 概念
   explanation: 地球表面大约 71% 被海洋覆盖，其余是高低起伏、形态多样的陆地，有平原、山地、峡谷等不同的地形地貌。
+  misconceptions:
+    - 误认为地球表面大部分是陆地，实际约 71% 被海洋覆盖。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S1.md
 - id: concept:科学:地表变化的原因
   type: Concept
@@ -1060,6 +1096,8 @@
   aliases: []
   category: 概念
   explanation: 地球表面的形态是地球内部和外部因素共同作用的结果。地震、火山喷发等内部力量使地表剧烈改变，水、风等外部力量的作用则缓慢而漫长。
+  misconceptions:
+    - 误认为地表变化只由外力造成，实际是地震、火山等内部力量与外部力量共同作用的结果。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S8.md
 - id: concept:科学:地震
   type: Concept
@@ -1069,6 +1107,8 @@
   aliases: []
   category: 现象
   explanation: 地震主要是由地下深处岩层挤压、弯曲直至断裂错动引起的，会使地面出现裂缝、塌陷，造成房屋倒塌等灾害。
+  misconceptions:
+    - 误认为地震是地面自己抖动，实际是地下深处岩层挤压、弯曲直至断裂错动引起的。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S3.md
 - id: concept:科学:垃圾分类
   type: Concept
@@ -1079,6 +1119,8 @@
     - 垃圾分类标准
   category: 概念
   explanation: 生活垃圾一般分为可回收物、有害垃圾、厨余垃圾和其他垃圾四类。分类投放便于回收利用和处理，能减轻垃圾对环境的危害。
+  misconceptions:
+    - 误认为垃圾只分可回收和不可回收两类，实际分为可回收物、有害垃圾、厨余垃圾和其他垃圾四类。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:声音的产生
   type: Concept
@@ -1089,6 +1131,8 @@
     - 声音由振动产生
   category: 概念
   explanation: 声音是由物体振动产生的。物体发声时都在振动，振动停止，声音也跟着停止。
+  misconceptions:
+    - 误认为声音靠敲击产生，实际声音由物体振动产生，振动停止声音也停止。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:声音的传播
   type: Concept
@@ -1099,6 +1143,8 @@
     - 声音的传播需要介质
   category: 概念
   explanation: 声音向四面八方传播，需要借助固体、液体或气体。玻璃罩里的空气被抽走后，闹钟的声音就听不见了，说明声音传播离不开这些物质。
+  misconceptions:
+    - 误认为声音在真空中也能传播，实际它需要借助固体、液体或气体。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S7.md
 - id: concept:科学:声音的强弱
   type: Concept
@@ -1110,6 +1156,8 @@
     - 声音的大小
   category: 概念
   explanation: 声音的大小、轻重都指声音的强弱，也叫音量。用力越大，物体振动的幅度越大，声音就越强；用力越小，声音就越弱。
+  misconceptions:
+    - 误认为用力越大声音越高，实际用力影响的是振动幅度即强弱，音高由振动快慢决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:声音的高低
   type: Concept
@@ -1120,6 +1168,8 @@
     - 音调
   category: 概念
   explanation: 声音的高低叫音调。物体振动得越快，声音越高；振动得越慢，声音越低。比如尺子伸出桌面越长，振动越慢，声音越低。
+  misconceptions:
+    - 误认为声音高低由用力大小决定，实际由物体振动的快慢决定。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:多种多样的动物
   type: Concept
@@ -1130,6 +1180,8 @@
     - 周围的动物
   category: 概念
   explanation: 我们周围生活着很多动物，比如麻雀、蝴蝶、蚂蚁、蚯蚓。它们生活在不同的地方，种类多种多样。
+  misconceptions:
+    - 误认为动物都生活在同一种环境里，实际它们生活在不同地方，种类多种多样。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:大气圈
   type: Concept
@@ -1139,6 +1191,8 @@
   aliases: []
   category: 概念
   explanation: 地球被一层厚厚的大气包围着，里面有氮气、氧气、水汽等，这层大气叫大气圈。风、云、雨、雪等天气现象都发生在靠近地面的大气里。
+  misconceptions:
+    - 误认为空气不属于地球的一部分，实际地球被大气圈包围，风、云都发生在这一层。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:天气对农业的影响
   type: Concept
@@ -1148,6 +1202,8 @@
   aliases: []
   category: 概念
   explanation: 天气对农业生产很重要。适量的雨水和适宜的气温有利于庄稼生长，而干旱、暴雨、霜冻、冰雹等灾害天气会让农作物减产。
+  misconceptions:
+    - 误认为雨水越多越有利于庄稼，实际要适量，干旱、暴雨、霜冻都会造成损害。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:天气对生活的影响
   type: Concept
@@ -1157,6 +1213,8 @@
   aliases: []
   category: 概念
   explanation: 天气会影响人们的生活、学习和生产劳动。我们要根据天气预报提前做好准备，比如下雨带雨具、高温注意防暑，不同的人对天气的感受也不一样。
+  misconceptions:
+    - 误认为天气只影响穿什么，实际还影响出行、学习和生产劳动。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:天气现象
   type: Concept
@@ -1166,6 +1224,8 @@
   aliases: []
   category: 现象
   explanation: 天气现象是发生在大气中的阴、晴、雨、雪、风等情况。天气一直在变化，我们可以用词语和句子来描述它。
+  misconceptions:
+    - 误认为天气一旦形成就不再变化，实际天气一直在变，可以用阴、晴、雨、雪、风等词语描述。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:天气符号
   type: Concept
@@ -1175,6 +1235,8 @@
   aliases: []
   category: 概念
   explanation: 天气符号是天气预报中用图形表示天气现象的符号，比如晴、小雨、大雪、台风等，认识符号才能看懂天气预报。
+  misconceptions:
+    - 误认为天气符号只是图形装饰，实际它用来表示晴、小雨、大雪、台风等天气现象。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:天气预报
   type: Concept
@@ -1184,6 +1246,8 @@
   aliases: []
   category: 概念
   explanation: 天气预报告诉我们未来一段时间的天气情况，内容包括最高气温、最低气温、晴转多云、风向风力等信息。可以通过广播、电视、手机查询。
+  misconceptions:
+    - 误认为预报只说明下不下雨，实际还包括最高最低气温、风力、晴转多云等内容。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:天气预报的制作过程
   type: Concept
@@ -1204,6 +1268,8 @@
   aliases: []
   category: 现象
   explanation: 一天中，太阳在天空中的位置不断变化，早晨从东方升起，傍晚向西落下。
+  misconceptions:
+    - 误认为太阳绕着地球转，实际这是地球自转造成的视运动。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:太阳是恒星
   type: Concept
@@ -1214,6 +1280,8 @@
     - 发光发热的太阳
   category: 概念
   explanation: 太阳是太阳系的中心天体，是一颗能自己发光发热的恒星，表面温度约6000℃。它给地球带来光明和温暖，是地球重要的能量来源。
+  misconceptions:
+    - 误认为太阳是行星，实际它是太阳系的中心天体，是一颗能自己发光发热的恒星。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:太阳系
   type: Concept
@@ -1223,6 +1291,8 @@
   aliases: []
   category: 概念
   explanation: 太阳系是以太阳为中心的天体系统，太阳的质量约占整个太阳系的 99.86%，行星、卫星、小行星、彗星等都围绕太阳运行。
+  misconceptions:
+    - 误认为太阳系只有太阳和地球，实际包括行星、卫星、小行星等，太阳质量约占整个太阳系的 99.86%。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:太阳系的八颗行星
   type: Concept
@@ -1234,6 +1304,8 @@
     - 太阳系的行星
   category: 概念
   explanation: 围绕太阳转动的行星有八颗，地球是其中一颗。按离太阳由近到远依次是水星、金星、地球、火星、木星、土星、天王星、海王星，它们大小和特点各不相同。
+  misconceptions:
+    - 误认为地球离太阳最近，实际由近到远依次是水星、金星、地球、火星等八颗。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S7.md
 - id: concept:科学:太阳风
   type: Concept
@@ -1243,6 +1315,8 @@
   aliases: []
   category: 现象
   explanation: 太阳会不停地向四面八方喷出带电的粒子流，就像吹不停的风，这就是太阳风。大部分太阳风都被地球磁场推开了。
+  misconceptions:
+    - 误认为太阳风是空气流动形成的风，实际它是太阳喷出的带电粒子流。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S10.md
 - id: concept:科学:季节变化
   type: Concept
@@ -1253,6 +1327,8 @@
     - 四季变化
   category: 现象
   explanation: 一年有春、夏、秋、冬四个季节，不同季节里动植物的样子和人们的生活都不一样。
+  misconceptions:
+    - 误认为季节变化只影响气温，实际动植物的样子和人们的生活都会随之改变。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:安全剪刀的使用方法
   type: Concept
@@ -1274,6 +1350,8 @@
     - 用电安全
   category: 观点
   explanation: 插座里的电来自发电厂，触碰会引发事故甚至危及生命，千万不能直接触摸，也不能用插座里的电做实验。实验时只能用干电池，看到断开或裸露的电线要马上报告大人。
+  misconceptions:
+    - 误认为插座里的电很弱不会伤人，实际直接触摸会引发事故甚至危及生命。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:安装照明电路
   type: Concept
@@ -1285,6 +1363,8 @@
     - 设计照明电路
   category: 方法
   explanation: 安装照明电路要先设计方案：在平面图上标出电灯和开关的位置，画出电路图；再按图组装电路，最后检测电流能否通过、开关能否控制电灯、有没有短路。设计要合理，检测后还要改进。
+  misconceptions:
+    - 误认为把灯接亮就行，实际要先设计方案、画出电路图，再按图组装。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:定滑轮
   type: Concept
@@ -1294,6 +1374,8 @@
   aliases: []
   category: 概念
   explanation: 固定在一个位置转动而不移动的滑轮叫定滑轮，比如旗杆顶部的滑轮。用定滑轮提升重物不省力，但可以改变用力的方向。
+  misconceptions:
+    - 误认为定滑轮能省力，实际它固定在一处转动，只改变用力方向而不省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:对比实验
   type: Concept
@@ -1304,6 +1386,8 @@
     - 对照实验
   category: 方法
   explanation: 研究一个条件的作用时，只改变这个条件，其他条件都保持一样，把两组结果放在一起比较。这样看到的差别才能确定是这个条件造成的。
+  misconceptions:
+    - 误认为可以同时改变几个条件，实际只改变要研究的那个条件，其他条件都保持一样。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:导体和绝缘体
   type: Concept
@@ -1314,6 +1398,8 @@
     - 导电性
   category: 概念
   explanation: 容易让电流通过的物体叫导体，像金属、人体、大地等；不容易让电流通过的物体叫绝缘体，像塑料、橡胶、干木头等。导线的芯用金属做导体，外面包塑料做绝缘体，这样用电才安全。
+  misconceptions:
+    - 误认为人体不导电，实际金属、人体、大地都容易让电流通过，属于导体。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:小孔成像
   type: Concept
@@ -1323,6 +1409,8 @@
   aliases: []
   category: 现象
   explanation: 光沿直线穿过小孔，会在后面的屏上形成倒立的像，《墨经》中就记录了这个实验。
+  misconceptions:
+    - 误认为小孔成的是正立的像，实际光沿直线穿过小孔会形成倒立的像。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:小灯泡的结构
   type: Concept
@@ -1333,6 +1421,8 @@
     - 小灯泡的组成
   category: 概念
   explanation: 小灯泡由玻璃泡、金属架、灯丝和两个连接点组成。电流从灯丝通过时，小灯泡就会发光。
+  misconceptions:
+    - 误认为灯泡只要装上就发光，实际要电流通过灯丝并经两个连接点形成回路才会亮。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:小肠的消化作用
   type: Concept
@@ -1342,6 +1432,8 @@
   aliases: []
   category: 概念
   explanation: 小肠又长又有很多皱褶，能和食物充分接触。它是消化食物和吸收营养的主要场所。
+  misconceptions:
+    - 误认为胃是吸收营养的主要场所，实际小肠才是消化食物和吸收营养的主要场所。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:小苏打和白醋的反应
   type: Concept
@@ -1352,6 +1444,8 @@
     - 小苏打与白醋混合
   category: 现象
   explanation: 小苏打和白醋混合会产生二氧化碳气体，这是产生了新物质的化学变化。
+  misconceptions:
+    - 误认为冒气泡只是混合没有新物质，实际产生了二氧化碳，是化学变化。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S2.md
 - id: concept:科学:小车的结构
   type: Concept
@@ -1361,6 +1455,8 @@
   aliases: []
   category: 概念
   explanation: 小车一般由车架、车轮、电池等部分组成，电池驱动小电动机产生动力。拆解小车模型可以认识各部分的结构和作用。
+  misconceptions:
+    - 误认为小车靠轮子自己转动前进，实际由电池驱动小电动机产生动力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:就地取材建造房屋
   type: Concept
@@ -1370,6 +1466,8 @@
   aliases: []
   category: 概念
   explanation: 各地人们用当地容易找到的材料盖房子，比如北极的冰屋、云南的竹楼和黄土高原的窑洞。
+  misconceptions:
+    - 误认为各地房屋样式是随意选择的，实际是用当地容易找到的材料，如冰屋、竹楼、窑洞。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S8.md
 - id: concept:科学:岩石、沙和黏土的特征
   type: Concept
@@ -1380,6 +1478,8 @@
     - 岩石、沙和黏土
   category: 概念
   explanation: 大块岩石碎裂会形成沙和黏土。岩石颗粒大而坚硬；沙颗粒较大，不能黏成团；黏土颗粒最小，摸起来滑腻，潮湿时黏性强，能团成小球。
+  misconceptions:
+    - 误认为沙和黏土是同一种东西，实际沙颗粒较大不能黏成团，黏土颗粒最小能黏成团。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:岩石和土壤的用途
   type: Concept
@@ -1389,6 +1489,8 @@
   aliases: []
   category: 概念
   explanation: 岩石和土壤是地球上的重要资源，用途很广：岩石可以铺路、建房、造雕塑，煤是重要的能源矿产，计算机芯片用的硅来自石英等矿物，植物从土壤中获得养分。
+  misconceptions:
+    - 误认为岩石只是没用的石头，实际可以铺路、建房、造雕塑，煤还是重要的能源。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S8.md
 - id: concept:科学:岩石和土壤记录地球历史
   type: Concept
@@ -1399,6 +1501,8 @@
     - 岩石和土壤的故事
   category: 概念
   explanation: 岩石和土壤是天然形成的，形成过程非常漫长，上面留下了大自然的痕迹。岩石中的生物痕迹能告诉我们过去有什么生物，岩石的化学成分能告诉我们地球的年龄，喜马拉雅山发现菊石化石说明那里几亿年前曾是海洋。
+  misconceptions:
+    - 误认为岩石只是静止不动的物体，实际上面留有生物痕迹，记录着地球的历史。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S1.md
 - id: concept:科学:岩石由矿物组成
   type: Concept
@@ -1409,6 +1513,8 @@
     - 岩石的组成
   category: 概念
   explanation: 所有的岩石都是由矿物组成的。花岗岩就是由石英、长石、云母三种矿物组成的，有的岩石只由一种矿物组成。
+  misconceptions:
+    - 误认为岩石是单一物质，实际所有岩石都由矿物组成，如花岗岩由石英、长石、云母组成。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:岩石的分类
   type: Concept
@@ -1418,6 +1524,8 @@
   aliases: []
   category: 概念
   explanation: 地质学家按形成原因把岩石分为岩浆岩、沉积岩和变质岩三大类：岩浆冷却形成岩浆岩，沉积物压实固结形成沉积岩，岩石在高温高压下变成变质岩。
+  misconceptions:
+    - 误认为岩石只按颜色分类，实际地质学家按形成原因分为岩浆岩、沉积岩和变质岩。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:岩石的风化
   type: Concept
@@ -1427,6 +1535,8 @@
   aliases: []
   category: 现象
   explanation: 裸露在地表的岩石长期受到温度变化、水等自然因素的影响，会慢慢破碎、改变模样，冷热反复作用就能使岩石产生碎渣。
+  misconceptions:
+    - 误认为风化是瞬间碎裂，实际是长期受温度变化、水等自然因素影响慢慢破碎。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:岩石软硬的判别标准
   type: Concept
@@ -1436,6 +1546,8 @@
   aliases: []
   category: 方法
   explanation: 能用指甲刻画出痕迹的是软；指甲刻不动但铜钥匙能刻动的是较软；铜钥匙刻不动但小刀能刻动的是较硬；小刀也刻不动的是硬。
+  misconceptions:
+    - 误认为用手掰一下就能判断软硬，实际按指甲、铜钥匙、小刀能否刻动来分级。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:工具与技术的关系
   type: Concept
