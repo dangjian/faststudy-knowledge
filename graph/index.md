@@ -5,7 +5,7 @@
 > 与 `tools/skills/INDEX.md` 的分工:那里讲**怎么建图**,这里讲**怎么查图**。两者口径必须一致。
 
 <!-- stats:begin -->
-> 最后更新: 2026-10-28 | 分层 v4 | 18542 nodes, 33451 edges
+> 最后更新: 2026-10-28 | 分层 v4 | 18542 nodes, 33430 edges
 
 | 实体类型 | 数量 |
 |---|---|
@@ -22,9 +22,9 @@
 |---|---|
 | covered_by | 9779 |
 | demonstrates | 2591 |
-| part_of | 4312 |
+| part_of | 4195 |
 | prerequisite | 1798 |
-| related | 14971 |
+| related | 15067 |
 <!-- stats:end -->
 
 > **prerequisite 可信度分两档，靠边字段 `reviewed` 区分，消费方必须据此收口。**
