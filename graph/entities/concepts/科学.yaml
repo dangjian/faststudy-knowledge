@@ -2897,6 +2897,8 @@
     - 电路故障检测
   category: 方法
   explanation: 把简易电路中的开关拆掉，就做成了一个电路检测器。用它接触电路的各个部分，看小灯泡亮不亮，就能找出电路的故障在哪里。它只能检测干电池电路，不能检测家用电路。
+  misconceptions:
+    - 误认为电路检测器能测电压，实际它就是拆掉开关的简易电路，用来看电路各部分是否接通。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:电路的组成
   type: Concept
@@ -2908,6 +2910,8 @@
     - 闭合回路
   category: 概念
   explanation: 一个能正常工作的电路由电源、导线、小灯泡等用电器和开关组成。电流从电池一端流出，经过小灯泡回到电池另一端，形成一个闭合的回路。
+  misconceptions:
+    - 误认为有电池和灯泡就能发光，实际还需要导线和开关，组成完整的回路。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:画植物记录的方法
   type: Concept
@@ -2918,6 +2922,8 @@
     - 给植物画像的方法
   category: 方法
   explanation: 给植物画像时要写出它的名称，画出它长在哪里、长什么样子。这样画出的记录别人才能认出来。
+  misconceptions:
+    - 误认为画得像就够了，实际要写出名称，并画出它长在哪里、长什么样子。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:疫苗
   type: Concept
@@ -2927,6 +2933,8 @@
   aliases: []
   category: 概念
   explanation: 疫苗是用特殊微生物制成的免疫制剂，接种后能激活免疫系统。当病原体再次入侵时，有记忆能力的免疫系统会迅速识别并清除它。
+  misconceptions:
+    - 误认为疫苗能直接杀死病原体，实际它是用特殊微生物制成的免疫制剂，接种后激活免疫系统，病原体再来时能迅速识别。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S9.md
 - id: concept:科学:病毒
   type: Concept
@@ -2936,6 +2944,8 @@
   aliases: []
   category: 概念
   explanation: 病毒比细菌更小，没有细胞结构，不能独立生存，必须寄生在其他生物的活细胞内，一旦离开活细胞就很容易死亡。
+  misconceptions:
+    - 误认为病毒是一种细菌，实际它比细菌更小、没有细胞结构，必须寄生在其他生物的活细胞里才能生存。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:百叶箱
   type: Concept
@@ -2945,6 +2955,8 @@
   aliases: []
   category: 概念
   explanation: 百叶箱是安放气温计的白色箱子，放在通风良好、不受阳光直射的草坪上，这样测出的气温更准确。
+  misconceptions:
+    - 误认为把气温计直接晒在太阳下测得准，实际要放在通风良好、不受阳光直射的白色百叶箱里。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:皮肤的作用
   type: Concept
@@ -2954,6 +2966,8 @@
   aliases: []
   category: 概念
   explanation: 皮肤能感受到冷、热、痛、痒，还会把这些信息告诉大脑。它像保护罩一样保护身体，还能靠出汗调节体温。
+  misconceptions:
+    - 误认为皮肤只是一层外皮，实际它能感受冷、热、痛、痒并把信息告诉大脑，还起保护作用。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:直根系和须根系
   type: Concept
@@ -2964,6 +2978,8 @@
     - 根的种类
   category: 概念
   explanation: 像凤仙花那样有一条明显主根、主根上长出侧根的，叫直根系；像葱那样由许多粗细差不多的根组成的，叫须根系。
+  misconceptions:
+    - 误认为所有植物的根都长一个样，实际凤仙花有明显主根属直根系，葱由许多细根组成属须根系。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:直线运动
   type: Concept
@@ -2973,6 +2989,8 @@
   aliases: []
   category: 概念
   explanation: 物体沿着直线路径的运动叫直线运动，比如汽车直行、小钢珠沿直线滚动。
+  misconceptions:
+    - 误认为物体运动都是直线的，实际沿直线路径的才叫直线运动，转弯属于曲线运动。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:相同时间比快慢
   type: Concept
@@ -2982,6 +3000,8 @@
   aliases: []
   category: 方法
   explanation: 运动相同的时间时，谁走过的距离长谁就快。让两个物体同时出发、同时停止，量出各自的距离就能比较。
+  misconceptions:
+    - 误认为先到达的物体一定更快，实际运动相同时间时，走过距离长的才更快。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:相同距离比快慢
   type: Concept
@@ -2991,6 +3011,8 @@
   aliases: []
   category: 方法
   explanation: 运动相同的距离时，谁用的时间短谁就快。可以用秒表测量物体运动相同距离所花的时间来比较。
+  misconceptions:
+    - 误认为跑得远的物体更快，实际运动相同距离时，用时短的那一个更快。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:眼睛看到物体的原理
   type: Concept
@@ -3001,6 +3023,8 @@
     - 视觉
   category: 概念
   explanation: 物体发出或反射的光进入眼睛，在视网膜上成像并传给大脑，我们就能看到物体；没有光就看不到物体。
+  misconceptions:
+    - 误认为眼睛发出光才能看见物体，实际是物体发出或反射的光进入眼睛，在视网膜上成像并传给大脑。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:短路
   type: Concept
@@ -3010,6 +3034,8 @@
   aliases: []
   category: 概念
   explanation: 导线不经过小灯泡，直接连接电池的正极和负极，就会造成短路。短路时电池里的电很快消耗完，电池会发热变烫，甚至可能爆炸。
+  misconceptions:
+    - 误认为短路只是灯泡不亮没关系，实际导线不经过灯泡直接连电池正负极，会让电池发热甚至损坏，很危险。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:磁化
   type: Concept
@@ -3020,6 +3046,8 @@
     - 人工磁化
   category: 概念
   explanation: 让原来没有磁性的物体获得磁性的过程叫磁化。比如用磁铁沿一个方向摩擦钢针，钢针就会变成能指示方向的磁针。
+  misconceptions:
+    - 误认为只有磁铁本身才有磁性，实际用磁铁沿一个方向摩擦钢针，钢针也能获得磁性。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:磁极间的相互作用
   type: Concept
@@ -3031,6 +3059,8 @@
     - 磁极的相互作用
   category: 性质
   explanation: 两块磁铁靠近时，相同的磁极互相排斥，不同的磁极互相吸引，也就是同极相斥、异极相吸。
+  misconceptions:
+    - 误认为磁铁靠近总是互相吸引，实际同极相斥、异极相吸。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:磁铁对运动的影响
   type: Concept
@@ -3041,6 +3071,8 @@
     - 磁力改变运动路线
   category: 概念
   explanation: 磁铁能在一定距离内吸引钢珠。当钢珠靠近磁铁时，受到的吸引力越来越大，运动路线就会从直线变成曲线。
+  misconceptions:
+    - 误认为磁铁不会影响物体运动，实际钢珠靠近磁铁时吸引力越来越大，运动状态随之改变。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:磁铁的形状
   type: Concept
@@ -3050,6 +3082,8 @@
   aliases: []
   category: 概念
   explanation: 磁铁有不同的形状，常见的有条形磁铁、蹄形磁铁和环形磁铁。
+  misconceptions:
+    - 误认为磁铁只有条形一种，实际还有蹄形、环形等不同形状。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:磁铁的用途
   type: Concept
@@ -3060,6 +3094,8 @@
     - 磁铁在生活中的应用
   category: 概念
   explanation: 生活中很多地方都用到磁铁，比如门吸、冰箱密封条、手包扣和喇叭。强磁铁不能靠近手机、磁卡、手表等物品，否则会影响它们工作。
+  misconceptions:
+    - 误认为磁铁只用在玩具上，实际门吸、冰箱密封条、手包扣和喇叭里都有磁铁。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:磁铁的磁极
   type: Concept
@@ -3073,6 +3109,8 @@
     - N极
   category: 概念
   explanation: 磁铁水平自由旋转停下来后，总是一端指南、一端指北。指南的一端叫南极（S），指北的一端叫北极（N）。
+  misconceptions:
+    - 误认为磁铁两端磁性相同，实际指南的一端叫南极、指北的一端叫北极。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:磁铁能吸引铁
   type: Concept
@@ -3083,6 +3121,8 @@
     - 磁铁吸引铁制品
   category: 性质
   explanation: 磁铁能吸引铁做的物体，比如回形针、大头针。磁铁还能吸引镍等一些金属做的物体。用磁铁可以帮我们找出铁做的物品。
+  misconceptions:
+    - 误认为磁铁能吸引所有金属，实际它主要吸引铁，还能吸引镍等少数金属。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:磁铁隔物吸铁
   type: Concept
@@ -3093,6 +3133,8 @@
     - 隔着物体吸铁
   category: 性质
   explanation: 磁铁能隔着纸、布、塑料板，甚至隔着水，吸引铁做的物体。但隔的东西太厚或太多时，吸引力会变弱。
+  misconceptions:
+    - 误认为隔着东西就吸不住铁，实际隔着纸、布、塑料板甚至水都能吸引，只是隔得太厚会减弱。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:种子的传播方式
   type: Concept
@@ -3103,6 +3145,8 @@
     - 植物传播种子的方式
   category: 概念
   explanation: 植物把种子传播出去的方式有很多：果实能爆裂的凤仙花靠弹力传播，果实有倒钩的苍耳靠动物传播，蒲公英轻小带绒毛靠风传播，樱桃鲜美的果实靠动物食用后传播。
+  misconceptions:
+    - 误认为种子都靠风传播，实际还有弹力传播、动物传播、水流传播等多种方式。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:种子的结构
   type: Concept
@@ -3113,6 +3157,8 @@
     - 种子的内部结构
   category: 概念
   explanation: 种子的外面是种皮，起保护作用；里面是胚，包括胚根、胚芽和子叶。胚根能长成根，胚芽能长成茎和叶，子叶里储存着养分。
+  misconceptions:
+    - 误认为种子只有外面一层皮，实际外面是保护用的种皮，里面是包含胚根、胚芽和子叶的胚。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:种子萌发的条件
   type: Concept
@@ -3122,6 +3168,8 @@
   aliases: []
   category: 概念
   explanation: 要挑选饱满、没有受过伤的种子播种，还要提供适宜的水分和温暖的环境，种子才能顺利萌发长成幼苗。
+  misconceptions:
+    - 误认为种子随手撒下就能发芽，实际要挑选饱满无损伤的种子，并提供适宜的水分和温暖的环境。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:种子萌发的过程
   type: Concept
@@ -3131,6 +3179,8 @@
   aliases: []
   category: 现象
   explanation: 种子萌发时先长出根，根再带着幼芽向高处生长，最后破土长出茎和叶。
+  misconceptions:
+    - 误认为种子发芽先长叶，实际先长出根，再由根带着幼芽向高处生长。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:空气占据空间
   type: Concept
@@ -3141,6 +3191,8 @@
     - 空气能占据空间
   category: 性质
   explanation: 空气会占满它所在的空间。把拧紧瓶盖的瓶子压入水中，水进不去，就是因为瓶中的空气占据着空间；放出空气后水才能进来。
+  misconceptions:
+    - 误认为瓶子压入水中水会灌进去，实际瓶里的空气占据了空间，水进不去。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:空气可以被压缩
   type: Concept
@@ -3151,6 +3203,8 @@
     - 空气可压缩
   category: 性质
   explanation: 空气占据的空间可以被压缩，松手后又能恢复；水占据的空间很难被压缩。所以压装满空气的瓶子，瓶子会变瘪一些。
+  misconceptions:
+    - 误认为空气和水一样难压缩，实际空气占据的空间可以被压缩，水却很难被压缩。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:空气有质量
   type: Concept
@@ -3160,6 +3214,8 @@
   aliases: []
   category: 性质
   explanation: 空气虽然很轻，但也有质量。用简易天平给皮球打入空气后，天平会向打了气的一端倾斜，加入绿豆重新平衡就能比较空气质量的大小。
+  misconceptions:
+    - 误认为空气没有质量，实际给皮球打入空气后天平会向这一侧下沉，说明空气有质量。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:空气柱与音调
   type: Concept
@@ -3170,6 +3226,8 @@
     - 空气柱的长短与声音高低
   category: 现象
   explanation: 物体里空气柱的长短会影响声音的高低：空气柱变短，振动变快，声音变高。用暖水瓶接水时声音越来越高，就是这个道理。
+  misconceptions:
+    - 误认为空气柱越长声音越高，实际空气柱变短时振动变快，声音变高。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S11.md
 - id: concept:科学:空气流动产生力量
   type: Concept
@@ -3180,6 +3238,8 @@
     - 空气流动的力量
   category: 性质
   explanation: 流动的空气有力量，能推动物体运动。气球放气会飞出去，帆船、风筝都是利用空气流动的力量工作的。
+  misconceptions:
+    - 误认为风没有力量，实际流动的空气能推动物体运动，帆船和风筝都靠它。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:空气的特征
   type: Concept
@@ -3189,6 +3249,8 @@
   aliases: []
   category: 概念
   explanation: 空气看不见、摸不着，无色透明，我们周围到处都有空气，人和动植物的生存都离不开它。
+  misconceptions:
+    - 误认为空气并不真正存在，实际它看不见摸不着、无色透明，周围到处都有，人和动植物都离不开。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:空气阻力
   type: Concept
@@ -3199,6 +3261,8 @@
     - 空气的阻碍作用
   category: 概念
   explanation: 空气会阻碍物体运动，使下落的物体减速，这就是空气阻力。降落伞就是利用空气阻力减速的；月球上没有大气，所以月球探测器不用降落伞。
+  misconceptions:
+    - 误认为物体下落只受重力，实际空气会阻碍运动，降落伞就是利用空气阻力减速。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S10.md
 - id: concept:科学:简单机械
   type: Concept
@@ -3208,6 +3272,8 @@
   aliases: []
   category: 概念
   explanation: 杠杆、斜面、滑轮、轮轴都是简单机械。使用简单机械可以省力，也可以让工作更方便，比如用撬棒撬重物、用斜面搬运东西。
+  misconceptions:
+    - 误认为只有机器才叫机械，实际杠杆、斜面、滑轮、轮轴都是简单机械，能省力或让操作更方便。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:简易显微镜的使用方法
   type: Concept
@@ -3217,6 +3283,8 @@
   aliases: []
   category: 方法
   explanation: 使用手持式简易显微镜时，先打开电源，把物镜对准物体，再调节调焦环直到看清图像，然后从目镜观察并记录。靠近眼睛的透镜叫目镜，靠近物体的透镜叫物镜。
+  misconceptions:
+    - 误认为对着物体就能看清，实际要先打开电源、把物镜对准物体，再调节调焦环直到看清。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:细胞
   type: Concept
@@ -3226,6 +3294,8 @@
   aliases: []
   category: 概念
   explanation: 细胞是生物体基本的结构和功能单位。用显微镜观察，可以发现动植物都是由细胞构成的，而非生物没有细胞结构。
+  misconceptions:
+    - 误认为只有动物才有细胞，实际细胞是生物体结构和功能的基本单位，动植物都由细胞组成。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:群落
   type: Concept
@@ -3236,6 +3306,8 @@
     - 生物群落
   category: 概念
   explanation: 在一定区域里共同生活的各种生物合在一起，就叫一个群落，比如绿豆苗和它周围的动物、植物组成一个群落。
+  misconceptions:
+    - 误认为一个区域里只有一种生物，实际在一定区域里共同生活的各种生物合起来才叫群落。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:羽化
   type: Concept
@@ -3246,6 +3318,8 @@
     - 破茧
   category: 现象
   explanation: 蛾和蝶由蛹变成成虫的过程叫羽化。蚕蛹变成蚕蛾钻出茧，就是蚕的羽化。
+  misconceptions:
+    - 误认为蚕由幼虫直接变成蛾，实际要先化成蛹，再由蛹变成成虫，这个过程叫羽化。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:肺活量
   type: Concept
@@ -3255,6 +3329,8 @@
   aliases: []
   category: 概念
   explanation: 肺活量是尽力吸气后再尽力呼出的气体总量，用肺活量测量袋可以测出来。肺活量大的人为血液供氧的能力更强，经常锻炼能增大肺活量。
+  misconceptions:
+    - 误认为肺活量就是肺的大小，实际是尽力吸气后再尽力呼出的气体总量。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:胃的消化作用
   type: Concept
@@ -3264,6 +3340,8 @@
   aliases: []
   category: 概念
   explanation: 胃能暂时储存食物，通过蠕动和分泌胃液，把口腔送来的食物进一步磨碎、消化，变成食糜再慢慢送进小肠。
+  misconceptions:
+    - 误认为胃只负责存放食物，实际它通过蠕动和分泌胃液，把食物进一步磨碎、消化。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:能量
   type: Concept
@@ -3273,6 +3351,8 @@
   aliases: []
   category: 概念
   explanation: 运动的物体具有能量，能把别的物体推动或撞开。斜面坡度越大，小球滚下来速度越快，把木块撞得越远，说明能量越大。
+  misconceptions:
+    - 误认为静止的物体没有能量，实际运动的物体具有能量，能把别的物体推动或撞开。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:脊椎动物和无脊椎动物
   type: Concept
@@ -3284,6 +3364,8 @@
     - 无脊椎动物
   category: 概念
   explanation: 身体里有脊柱的动物叫脊椎动物，比如鱼、鸟、人和其他哺乳动物；身体里没有脊柱的动物叫无脊椎动物，比如昆虫。
+  misconceptions:
+    - 误认为身体大的动物就是脊椎动物，实际要看身体里有没有脊柱，鱼、鸟、人和哺乳动物有脊柱。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:脑的结构和功能
   type: Concept
@@ -3294,6 +3376,8 @@
     - 大脑
   category: 概念
   explanation: 脑位于颅腔内，包括大脑、小脑和脑干等部分，是身体的“总指挥”，负责思考、记忆、运动和感觉等各种活动。
+  misconceptions:
+    - 误认为脑是一个不分部位的整体，实际它包括大脑、小脑和脑干等部分，分别负责思考、平衡等。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:自然保护区
   type: Concept
@@ -3303,6 +3387,8 @@
   aliases: []
   category: 概念
   explanation: 自然保护区是依法划出一定面积，对珍稀濒危动植物和自然生态系统进行特殊保护和管理的区域。
+  misconceptions:
+    - 误认为保护区只是圈起来不让人进，实际是依法划出区域，对珍稀濒危动植物和自然生态系统做特殊保护。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:自然物
   type: Concept
@@ -3312,6 +3398,8 @@
   aliases: []
   category: 概念
   explanation: 来自大自然、没有经过人们加工的材料叫自然物，比如干草、泥土和树枝。
+  misconceptions:
+    - 误认为泥土、树枝是人造物，实际它们来自大自然、没有经过加工，属于自然物。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:船的动力
   type: Concept
@@ -3321,6 +3409,8 @@
   aliases: []
   category: 概念
   explanation: 船可以靠人力划桨、风帆吹风、蒸汽机或电动机推动前进。安装船舵还能控制船行驶的方向。
+  misconceptions:
+    - 误认为船只能靠风帆前进，实际还可以靠人力划桨、蒸汽机或电动机推动，船舵用来控制方向。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:船的发展历史
   type: Concept
@@ -3331,6 +3421,8 @@
     - 船的历史
   category: 概念
   explanation: 从独木舟到帆船、蒸汽船再到轮船，船的体积越来越大、材料越来越结实、动力越来越强，说明人们不断改进技术满足生产生活的需要。
+  misconceptions:
+    - 误认为船自古以来变化不大，实际从独木舟到帆船、蒸汽船再到轮船，体积、材料和动力都在变化。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:船的结构
   type: Concept
@@ -3341,6 +3433,8 @@
     - 龙骨
   category: 概念
   explanation: 现代轮船有骨架、船舱等结构，能让船更牢固、更好地利用空间。我国古代发明的龙骨结构还能增强船抵御风浪的能力。
+  misconceptions:
+    - 误认为船只要能浮起来就行，实际现代轮船有骨架、船舱等结构，更牢固也更便于利用空间。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S8.md
 - id: concept:科学:船的载重量
   type: Concept
@@ -3351,6 +3445,8 @@
     - 载重量
   category: 概念
   explanation: 船能装的货物质量就是载重量。用同样大小的铝箔做船，体积越大载重量越大，但体积大也要注意保持稳定不侧翻。
+  misconceptions:
+    - 误认为船越大载重量一定越大，实际用同样材料时，船的体积越大载重量越大。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:花的结构
   type: Concept
@@ -3361,6 +3457,8 @@
     - 花的组成
   category: 概念
   explanation: 一朵完整的花由花萼、花瓣、雄蕊和雌蕊组成。雄蕊上有花粉，雌蕊上常有黏液，花蕊与结出果实有密切关系。
+  misconceptions:
+    - 误认为花只由花瓣组成，实际一朵完整的花由花萼、花瓣、雄蕊和雌蕊组成。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:茎的运输作用
   type: Concept
@@ -3371,6 +3469,8 @@
     - 茎的作用
   category: 概念
   explanation: 植物的茎能从下往上把根吸收的水分运输到叶、花和果实，把植物各部分连成一个整体。
+  misconceptions:
+    - 误认为茎只起支撑作用，实际它能把根吸收的水分自下而上运到叶、花和果实。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:蒸发
   type: Concept
@@ -3381,6 +3481,8 @@
     - 蒸发现象
   category: 现象
   explanation: 水会慢慢变成看不见的水蒸气，飞散到空气里，这种现象叫蒸发。湿衣服晾干、黑板上的水迹消失都是蒸发。
+  misconceptions:
+    - 误认为水只有烧开才会变成水蒸气，实际常温下水也会慢慢蒸发到空气里。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:蚕卵的孵化
   type: Concept
@@ -3391,6 +3493,8 @@
     - 蚕卵孵化
   category: 现象
   explanation: 蚕是卵生动物，蚕卵在合适的温度、湿度等条件下会孵出小蚕。蚕卵很小，观察时可以用画图和文字记录它的形状、大小和颜色。
+  misconceptions:
+    - 误认为蚕卵随便放着就能孵出小蚕，实际需要合适的温度和湿度等条件。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:蚕吐丝结茧
   type: Concept
@@ -3402,6 +3506,8 @@
     - 吐丝结茧
   category: 现象
   explanation: 蚕长大后开始吐丝，用蚕丝把自己包裹起来，结成一个茧。结茧是为了在里面安全地变成蚕蛹。
+  misconceptions:
+    - 误认为结茧意味着蚕死了，实际它用蚕丝把自己包起来，在茧里变成蛹，茧起保护作用。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:蚕的生命周期
   type: Concept
@@ -3412,6 +3518,8 @@
     - 蚕的一生
   category: 概念
   explanation: 蚕的一生要经历卵、幼虫、蛹、成虫四个阶段，成虫产卵后衰老死亡。把蚕一生经历的变化按顺序排列，就是它的生命周期。
+  misconceptions:
+    - 误认为蚕的一生只有卵和幼虫两个阶段，实际要经历卵、幼虫、蛹、成虫四个阶段。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S7.md
 - id: concept:科学:蚕蛹
   type: Concept
@@ -3422,6 +3530,8 @@
     - 蛹
   category: 概念
   explanation: 茧里的蚕变成了不吃不动、身体和幼虫不一样的蚕蛹。蚕蛹还活着，以后会变成蚕蛾钻出茧。
+  misconceptions:
+    - 误认为茧里的蛹已经死了，实际它还活着、不吃不动，之后会变成蚕蛾。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S5.md
 - id: concept:科学:蜕皮
   type: Concept
@@ -3432,6 +3542,8 @@
     - 蚕蜕皮
   category: 现象
   explanation: 蚕长到一定阶段会蜕掉旧皮、长出新皮，这就是蜕皮。蚕蜕皮前不吃也不动，像睡着了一样，这叫“眠”。
+  misconceptions:
+    - 误认为蚕一生只蜕一次皮，实际长到一定阶段就会蜕掉旧皮长出新皮，蜕皮前不吃也不动。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S4.md
 - id: concept:科学:蜗牛的身体特点
   type: Concept
