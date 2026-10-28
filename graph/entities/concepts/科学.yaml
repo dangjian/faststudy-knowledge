@@ -2221,6 +2221,8 @@
   aliases: []
   category: 概念
   explanation: 每秒振动低于 20 次的声音叫次声波，人耳也听不到。它传播距离比较远，可以用来预测地质灾害。
+  misconceptions:
+    - 误认为人耳能听到所有声音，实际每秒振动低于 20 次的次声波人耳听不到，但它传播得更远。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S10.md
 - id: concept:科学:比较液体流动快慢
   type: Concept
@@ -2241,6 +2243,8 @@
   aliases: []
   category: 方法
   explanation: 要用同样多的水，把不同物质一份一份地加入，等前一份完全溶解再加下一份，直到加不进去为止，就能比较它们的溶解能力。
+  misconceptions:
+    - 误认为把物质一次全倒进去就能比出溶解能力，实际要一份一份加入，等前一份完全溶解再加下一份。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:比较物体轻重
   type: Concept
@@ -2263,6 +2267,8 @@
   aliases: []
   category: 方法
   explanation: 比较是把事物按同一个标准排一排、对照看一看。比如按颜色深浅给三杯酱油水排序，就知道哪杯酱油多。
+  misconceptions:
+    - 误认为比较只要随意看看，实际要按同一个标准排一排、对照看一看。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:比较磁力大小的方法
   type: Concept
@@ -2273,6 +2279,8 @@
     - 比较磁铁力量的大小
   category: 方法
   explanation: 可以让不同的磁铁吸引大头针或垫圈，谁吸的数量多，谁的力量就大；也可以用磁铁吸弹簧，看弹簧被拉得多长来比较。
+  misconceptions:
+    - 误认为磁铁越大磁力越强，实际要比它吸引大头针或垫圈的数量。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:气体交换
   type: Concept
@@ -2282,6 +2290,8 @@
   aliases: []
   category: 概念
   explanation: 呼吸其实是在进行气体交换：空气中的氧气进入血液，身体产生的二氧化碳被排出去。气体交换主要在肺里进行。
+  misconceptions:
+    - 误认为呼吸只是把空气吸进肺里，实际是空气中的氧气进入血液、身体产生的二氧化碳被排出。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:气温计
   type: Concept
@@ -2292,6 +2302,8 @@
     - 温度计
   category: 概念
   explanation: 气温计是用来测量气温的工具，由刻度、液柱和玻璃泡组成。用它测量气温，能比人的感觉更准确。
+  misconceptions:
+    - 误认为气温计和体温计用法一样，实际气温计由刻度、液柱和玻璃泡组成，专门用来测气温。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:气温计的使用方法
   type: Concept
@@ -2301,6 +2313,8 @@
   aliases: []
   category: 方法
   explanation: 测量气温时，要把气温计放在阳光照不到、空气流通、离地面约1.5米的地方，不要用手摸玻璃泡，等液柱稳定后再平视读数。
+  misconceptions:
+    - 误认为放在哪儿都能测准，实际要放在阳光照不到、空气流通、离地面约 1.5 米的地方。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:气温计读数
   type: Concept
@@ -2310,6 +2324,8 @@
   aliases: []
   category: 方法
   explanation: 读气温计时，眼睛要平视液柱顶端，先看液柱指在0℃以上还是以下，再正确读出和记录温度。
+  misconceptions:
+    - 误认为可以斜着看读数，实际眼睛要平视液柱顶端，先判断在 0℃ 以上还是以下再读。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:水循环
   type: Concept
@@ -2320,6 +2336,8 @@
     - 水循环现象
   category: 现象
   explanation: 水在固态、液态和气态之间不断循环变化：水蒸发变成水汽升上天空，再通过降雨、降雪回到地面。比如青藏高原的冰川、河流就这样循环着。
+  misconceptions:
+    - 误认为水用完就消失了，实际水在固态、液态、气态之间不断循环。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:水的三态变化
   type: Concept
@@ -2330,6 +2348,8 @@
     - 水的三态
   category: 概念
   explanation: 水有固态、液态、气态三种状态，它们是同一种物质，可以互相转化：水在0℃结冰，加热到100℃沸腾变成水蒸气，又能变回液态的水。
+  misconceptions:
+    - 误认为冰、水、水蒸气是三种不同物质，实际它们是同一种物质的三种状态，可以互相转化。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:水的特征
   type: Concept
@@ -2339,6 +2359,8 @@
   aliases: []
   category: 性质
   explanation: 水没有颜色、没有气味，也没有固定的形状，放进什么容器就是什么形状。水还会流动。
+  misconceptions:
+    - 误认为水有固定形状，实际水没有颜色和气味，也没有固定形状，装进什么容器就是什么形状。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S5.md
 - id: concept:科学:水的阻力
   type: Concept
@@ -2348,6 +2370,8 @@
   aliases: []
   category: 概念
   explanation: 船在水中行驶时会受到水的阻力，阻力越小船走得越快。流线型的船体受到的阻力比较小。
+  misconceptions:
+    - 误认为船的快慢只由动力决定，实际水有阻力，流线型船体阻力更小、船走得更快。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:水结冰
   type: Concept
@@ -2358,6 +2382,8 @@
     - 凝固
   category: 现象
   explanation: 水的温度降到0℃时会结冰，从液态变成固态。冰是固体，有固定的形状，不能流动。
+  misconceptions:
+    - 误认为水结冰后还能流动，实际温度降到 0℃ 时水从液态变为固态，冰有固定形状。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:水钟
   type: Concept
@@ -2370,6 +2396,8 @@
     - 铜壶滴漏
   category: 概念
   explanation: 利用水流计时的工具叫水钟，关键是让水匀速滴漏，分为记录水漏完时间的泄水型和记录水装满时间的受水型两种。
+  misconceptions:
+    - 误认为水钟靠容器里水的多少计时，实际关键是让水匀速滴漏，分泄水型和受水型两类。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:沉积作用
   type: Concept
@@ -2380,6 +2408,8 @@
     - 堆积作用
   category: 概念
   explanation: 被侵蚀的泥沙等物质被流水带到下游，流速变慢后堆积下来，这个过程叫沉积作用，也叫堆积作用，河流中下游的沙洲就是这样形成的。
+  misconceptions:
+    - 误认为泥沙被冲走就消失了，实际流水速度变慢后泥沙会堆积下来，形成沉积作用。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:河外星系
   type: Concept
@@ -2390,6 +2420,8 @@
     - 银河系以外的星系
   category: 概念
   explanation: 银河系以外还有许多像银河系一样庞大的恒星集团，如仙女座星系，它们大小不一、形状各异，都在高速运动。
+  misconceptions:
+    - 误认为银河系就是整个宇宙，实际银河系之外还有许多庞大的恒星集团，如仙女座星系。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:沸腾
   type: Concept
@@ -2400,6 +2432,8 @@
     - 沸腾现象
   category: 现象
   explanation: 水加热到100℃左右时会不停地翻滚冒泡，温度不再升高，这种现象叫沸腾。沸腾时产生的大量"白气"，是水蒸气遇冷变成的小水珠。
+  misconceptions:
+    - 误认为水沸腾后温度会继续升高，实际水在 100℃ 左右沸腾时温度不再上升。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:测试和改进
   type: Concept
@@ -2410,6 +2444,8 @@
     - 反思改进
   category: 方法
   explanation: 作品做好后，要照着要求测试一下，看看有没有达到目标，再找出问题、想办法改进，让它做得更好。
+  misconceptions:
+    - 误认为作品做好就结束了，实际要按目标测试、找出问题再改进。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:浮力
   type: Concept
@@ -2419,6 +2455,8 @@
   aliases: []
   category: 概念
   explanation: 像橡皮泥这样会下沉的材料，做成船形后在水里受到的浮力增大了，所以也能漂浮。浮力是水托起物体向上的力。
+  misconceptions:
+    - 误认为会下沉的材料做成船一定沉，实际橡皮泥做成船形后受到的浮力增大，也能漂浮。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:海洋和陆地的面积
   type: Concept
@@ -2429,6 +2467,8 @@
     - 海洋面积大于陆地
   category: 概念
   explanation: 地球表面大部分是海洋，海洋的面积比陆地大得多，约占地球表面的71%。淡水资源却很少，我们要节约用水。
+  misconceptions:
+    - 误认为陆地比海洋面积大，实际海洋约占地球表面的 71%，比陆地大得多。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:消化器官
   type: Concept
@@ -2438,6 +2478,8 @@
   aliases: []
   category: 概念
   explanation: 牙齿、口腔、食管、胃、小肠、大肠都是消化器官，它们分工合作，把食物消化成营养并吸收，把废物排出体外。
+  misconceptions:
+    - 误认为消化只发生在胃里，实际牙齿、口腔、食管、胃、小肠、大肠分工合作完成消化。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:温室效应
   type: Concept
@@ -2448,6 +2490,8 @@
     - 全球变暖
   category: 概念
   explanation: 人类大量燃烧煤、石油和天然气，使大气中二氧化碳增多，地表附近的气温随之上升，这种增温效果就像栽培植物的温室。
+  misconceptions:
+    - 误认为温室效应完全是自然现象，实际大量燃烧煤、石油和天然气使大气中二氧化碳增多，地表气温上升。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S5.md
 - id: concept:科学:溶解
   type: Concept
@@ -2458,6 +2502,8 @@
     - 溶解现象
   category: 概念
   explanation: 把食盐等物质放进水里搅拌，它会均匀地分散在水里看不见了，这就是溶解。不同的物质在水里的溶解量不一样。
+  misconceptions:
+    - 误认为物质看不见了就是消失了，实际它均匀分散在水里，而且不同物质的溶解能力不同。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:潜望镜的原理
   type: Concept
@@ -2467,6 +2513,8 @@
   aliases: []
   category: 概念
   explanation: 在“之”形通道的两个转角处各放一块平面镜，光经过两次反射实现“拐弯”，就能看到遮挡物另一侧的物体。
+  misconceptions:
+    - 误认为潜望镜靠透镜放大，实际是在“之”形通道的两个转角各放一块平面镜，经两次反射让光拐弯。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:火山喷发
   type: Concept
@@ -2476,6 +2524,8 @@
   aliases: []
   category: 现象
   explanation: 火山喷发是地球内部炽热的岩浆等物质从地壳薄弱处喷出地面的自然现象，它会剧烈地改变地表，形成火山锥、火山口湖等地貌。
+  misconceptions:
+    - 误认为火山喷发只是冒烟，实际是地球内部炽热的岩浆从地壳薄弱处喷出，会剧烈改变地形。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C4/sections/S2.md
 - id: concept:科学:点亮小灯泡的方法
   type: Concept
@@ -2486,6 +2536,8 @@
     - 电池与小灯泡的连接
   category: 方法
   explanation: 用导线把电池和小灯泡的两个连接点连起来，让电流从电池正极出发经过灯丝流回负极，小灯泡才能亮起来。
+  misconceptions:
+    - 误认为接上一根导线灯泡就会亮，实际要用导线把电池和灯泡的两个连接点连成回路。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:热传导
   type: Concept
@@ -2496,6 +2548,8 @@
     - 传导
   category: 现象
   explanation: 热沿着物体从温度高的部分传到温度低的部分，比如加热金属条中部，两端的蜡会先后熔化。金属是容易传热的材料。
+  misconceptions:
+    - 误认为热只能向下传递，实际热沿着物体从温度高的部分传向温度低的部分。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S4.md
 - id: concept:科学:热传递
   type: Concept
@@ -2505,6 +2559,8 @@
   aliases: []
   category: 概念
   explanation: 温度不同的物体相互接触时，热量总是从温度高的物体传向温度低的物体，直到两者的温度相同为止，比如凉牛奶浸在热水里会变热。
+  misconceptions:
+    - 误认为热量可以从冷处传到热处，实际总是从温度高的物体传向温度低的，直到两者温度相同。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S3.md
 - id: concept:科学:热对流
   type: Concept
@@ -2515,6 +2571,8 @@
     - 对流
   category: 现象
   explanation: 给水底部加热时，受热的水变轻向上流，较冷的水流下来补充，水循环流动把热传到各处。房间里的空气变暖也是这个道理。
+  misconceptions:
+    - 误认为水静止也能把热传开，实际底部受热的水变轻上升、较冷的水下降补充，靠循环流动传热。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S5.md
 - id: concept:科学:热空气会上升
   type: Concept
@@ -2525,6 +2583,8 @@
     - 热空气上升
   category: 现象
   explanation: 空气受热后会变轻并上升。用蜡烛加热塑料袋里的空气，袋子感觉到要上升时松手，它就能像热气球一样升起来。
+  misconceptions:
+    - 误认为热空气会下沉，实际空气受热后变轻上升，纸袋和孔明灯因此会升空。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:热胀冷缩
   type: Concept
@@ -2534,6 +2594,8 @@
   aliases: []
   category: 现象
   explanation: 很多物体受热时体积会变大，遇冷时体积会变小，这种现象叫热胀冷缩。比如温度计的液柱受热上升、遇冷下降。
+  misconceptions:
+    - 误认为物体受热体积不变，实际很多物体受热体积变大、遇冷体积变小。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:煤的形成
   type: Concept
@@ -2544,6 +2606,8 @@
     - 煤的形成过程
   category: 概念
   explanation: 远古的植物大量堆积，被泥沙层层掩埋，在地底高温高压的环境下经过亿万年慢慢变成了煤。
+  misconceptions:
+    - 误认为煤是石头变的，实际是远古植物大量堆积、被泥沙掩埋后在地下高温高压下经亿万年形成。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S5.md
 - id: concept:科学:熔化
   type: Concept
@@ -2554,6 +2618,8 @@
     - 融化
   category: 现象
   explanation: 冰受热后从固体变成液体，变成水，这个过程叫熔化。给冰加热、用手捂、吹热气都能让冰熔化。
+  misconceptions:
+    - 误认为冰化成水产生了新物质，实际只是从固态变成液态，物质本身没有改变。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:牙齿的种类和作用
   type: Concept
@@ -2566,6 +2632,8 @@
     - 臼齿
   category: 概念
   explanation: 按形状分，牙齿有门齿、犬齿和臼齿：门齿切断食物，犬齿撕裂食物，臼齿研磨食物。它们分工合作，把食物嚼碎。
+  misconceptions:
+    - 误认为所有牙齿作用都一样，实际门齿切断食物、犬齿撕裂食物、臼齿研磨食物。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C2/sections/S5.md
 - id: concept:科学:物体的形状与滚动
   type: Concept
@@ -2575,6 +2643,8 @@
   aliases: []
   category: 性质
   explanation: 物体形状不同，能不能滚动也不一样。圆的物体容易滚动，方的物体容易叠放稳当。
+  misconceptions:
+    - 误认为所有物体都能滚动，实际圆的物体容易滚动，方的物体更容易叠放稳当。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:物体的特征
   type: Concept
@@ -2584,6 +2654,8 @@
   aliases: []
   category: 性质
   explanation: 每个物体都有自己的特征，比如颜色、形状、大小、软硬、光滑还是粗糙。观察物体就是找出它的这些特点。
+  misconceptions:
+    - 误认为物体只有颜色和形状，实际还包括大小、软硬、光滑还是粗糙等特征。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C1/sections/S1.md
 - id: concept:科学:物理变化
   type: Concept
@@ -2593,6 +2665,8 @@
   aliases: []
   category: 概念
   explanation: 没有产生新物质的变化叫物理变化，如白砂糖、食盐溶在水里，物质本身没有变成别的物质。
+  misconceptions:
+    - 误认为物质形态改变就是产生了新物质，实际糖和盐溶解在水里只是物理变化。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S2.md
 - id: concept:科学:物质的变化
   type: Concept
@@ -2602,6 +2676,8 @@
   aliases: []
   category: 概念
   explanation: 物质总是在不断地变化，有些变化只改变物质的大小、形态，有些变化会产生新物质。
+  misconceptions:
+    - 误认为物质的所有变化都会产生新物质，实际有些只改变大小和形态。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C4/sections/S1.md
 - id: concept:科学:环境问题
   type: Concept
@@ -2611,6 +2687,8 @@
   aliases: []
   category: 概念
   explanation: 大气污染、水污染、固体废弃物污染、噪声污染等都是地球面临的环境问题，其中很多是人类不合理的活动造成的，会危害生物和人类健康。
+  misconceptions:
+    - 误认为环境问题只有雾霾，实际还包括水污染、固体废弃物污染、噪声污染等。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:环形山
   type: Concept
@@ -2621,6 +2699,8 @@
     - 陨石坑
   category: 概念
   explanation: 月球表面有许多大大小小的圆形坑，叫环形山。它们大多数是由太空中的石块撞击月面形成的。
+  misconceptions:
+    - 误认为环形山是月球上的火山造成，实际大多数由太空中的石块撞击形成。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:生态系统
   type: Concept
@@ -2630,6 +2710,8 @@
   aliases: []
   category: 概念
   explanation: 群落里的生物和环境中的水、土壤、阳光等非生物相互联系、相互影响，构成一个整体，这就是生态系统。生态瓶就是模拟的小型生态系统。
+  misconceptions:
+    - 误认为生态系统只包括生物，实际生物还要与环境中的水、土壤、阳光等非生物相互联系。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S7.md
 - id: concept:科学:生物
   type: Concept
@@ -2639,6 +2721,8 @@
   aliases: []
   category: 概念
   explanation: 动物、植物和我们人都有生命，都要吃食物、会长大，这样的东西叫生物。
+  misconceptions:
+    - 误认为只有动物才算生物，实际动物、植物和人都有生命、要吃食物、会长大，都是生物。
   sourceRef: content/一年级/下册/科学/ES-1-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:生物多样性
   type: Concept
@@ -2648,6 +2732,8 @@
   aliases: []
   category: 概念
   explanation: 一个区域内动植物种类的丰富程度叫生物多样性，种类越多说明生物越丰富。
+  misconceptions:
+    - 误认为生物多样性就是动物种类多，实际是一个区域内动植物种类的丰富程度。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:生物多样性的调查方法
   type: Concept
@@ -2658,6 +2744,8 @@
     - 生物调查
   category: 方法
   explanation: 调查生物多样性可以先按环境划分区域，再分小组统计每个区域内生物的种类和数量，并做好记录。
+  misconceptions:
+    - 误认为随便走走看看就能统计，实际要先按环境划分区域，再分小组统计每个区域内生物的种类和数量。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:生物时钟
   type: Concept
@@ -2668,6 +2756,8 @@
     - 化石钟
   category: 概念
   explanation: 生物体上会留下时间的痕迹，如树木年轮、贝壳和珊瑚化石的生长纹、龟甲环纹，可以用来推测生物的年龄和地球的历史。
+  misconceptions:
+    - 误认为时间只能靠钟表记录，实际树木年轮、贝壳和珊瑚化石的生长纹也留下了时间痕迹。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S7.md
 - id: concept:科学:生长发育的信息
   type: Concept
@@ -2677,6 +2767,8 @@
   aliases: []
   category: 概念
   explanation: 通过身高、体重、肺活量、视力等数据，可以了解自己这些年身体的生长变化情况。
+  misconceptions:
+    - 误认为身高就能说明生长发育，实际还要看体重、肺活量、视力等数据。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:生长的证据
   type: Concept
@@ -2687,6 +2779,8 @@
     - 长大的证据
   category: 概念
   explanation: 个子变高、体重变重、换牙齿、旧衣服变小等，都能证明我们在长大。这些就是长大的证据。
+  misconceptions:
+    - 误认为只有个子变高才算长大，实际换牙、体重变重、旧衣服变小也都是证据。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:用太阳辨认方向
   type: Concept
@@ -2696,6 +2790,8 @@
   aliases: []
   category: 方法
   explanation: 早晨起来面向太阳，前面是东，后面是西，左面是北，右面是南。
+  misconceptions:
+    - 误认为面向太阳就能随口说方位，实际早晨面向太阳时前面是东、后面是西、左面是北、右面是南。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S6.md
 - id: concept:科学:用工具测量长度
   type: Concept
@@ -2706,6 +2802,8 @@
     - 测量长度
   category: 方法
   explanation: 可以用软尺直接量物体的长度，也可以借助绳子或身体来量弯曲的、不好量的地方，然后把结果记下来。
+  misconceptions:
+    - 误认为尺子只能量直的东西，实际弯曲或不好量的地方可以借助绳子、身体来量。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:用方向和距离描述位置
   type: Concept
@@ -2715,6 +2813,8 @@
   aliases: []
   category: 方法
   explanation: 描述一个物体的位置，要说清方向和距离。方向可以用前、后、左、右、上、下表示，距离可以用米、厘米或步数来估计。
+  misconceptions:
+    - 误认为说“在那边”就能说清位置，实际要说清方向和距离。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:用气味辨别物品
   type: Concept
@@ -2724,6 +2824,8 @@
   aliases: []
   category: 方法
   explanation: 鼻子闻一闻气味，可以分辨不同的物品。但要注意，不能随便闻陌生或刺鼻的东西。
+  misconceptions:
+    - 误认为闻气味很安全，实际不能随便闻陌生或刺鼻的东西。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:用水分离物质
   type: Concept
@@ -2734,6 +2836,8 @@
     - 分离食盐和沙子
   category: 方法
   explanation: 利用水能溶解食盐又能蒸发的方法可以分离沙子和食盐：先溶解、再过滤去掉沙子、最后把水蒸干，就得到盐了。
+  misconceptions:
+    - 误认为沙子和食盐混在一起就分不开，实际先溶解再过滤去掉沙子，就能分离。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C2/sections/S8.md
 - id: concept:科学:用浮的材料造船
   type: Concept
@@ -2745,6 +2849,8 @@
     - 木排
   category: 方法
   explanation: 像竹筏、木排那样，用能漂浮的材料加大在水面的接触面积，比独木舟更稳定、能装更多货物，但要注意捆扎牢固、防止进水。
+  misconceptions:
+    - 误认为材料越重船越稳，实际要加大与水面的接触面积，船才更稳定、载重更多。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:用磁铁辨别方向
   type: Concept
@@ -2755,6 +2861,8 @@
     - 利用磁铁辨别方向
   category: 方法
   explanation: 让磁铁悬挂起来或浮在水面上，它能水平自由旋转，静止后一端指南、一端指北，我们就能据此确定方向。
+  misconceptions:
+    - 误认为磁铁放在桌上就能指南北，实际要让它在水平方向自由旋转，静止后一端指南一端指北。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:用自然物辨别方向
   type: Concept
@@ -2765,6 +2873,8 @@
     - 利用自然物辨别方向
   category: 方法
   explanation: 太阳有规律地运动，影响身边的事物：向阳面树叶多、雪化得快，苔藓喜欢长在阴暗潮湿的地方。观察这些自然物的特点，就能大致判断南北方向。
+  misconceptions:
+    - 误认为向阳面和背阴面没差别，实际向阳面树叶多、雪化得快，苔藓喜欢长在阴湿处。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:电源
   type: Concept
@@ -2775,6 +2885,8 @@
     - 电的来源
   category: 概念
   explanation: 生活中使用的电都是由电源提供的。电灯、洗衣机等由发电厂通过电网供电，手机、石英钟等由电池供电。
+  misconceptions:
+    - 误认为电可以凭空产生，实际生活中的电都由电源提供，如发电厂通过电网供电、手机用电池。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S1.md
 - id: concept:科学:电路检测器
   type: Concept
