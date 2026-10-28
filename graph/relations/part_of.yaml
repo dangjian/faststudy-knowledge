@@ -1,5 +1,3 @@
-- from: concept:化学:给物质加热
-  to: concept:化学:化学实验常用仪器
 - from: concept:化学:酒精灯使用注意事项
   to: concept:化学:给物质加热
 - from: concept:化学:实验室安全规则
@@ -48,8 +46,6 @@
   to: concept:化学:原子
 - from: concept:化学:地壳中元素含量
   to: concept:化学:元素
-- from: concept:化学:质子
-  to: concept:化学:玻尔原子模型
 - from: concept:化学:阳离子
   to: concept:化学:离子
 - from: concept:化学:阴离子
@@ -108,16 +104,8 @@
   to: concept:化学:二氧化碳的化学性质
 - from: concept:化学:木炭的吸附性
   to: concept:化学:无定形碳的吸附性
-- from: concept:化学:金刚石的性质和用途
-  to: concept:化学:碳单质的同素异形体
-- from: concept:化学:石墨的性质和用途
-  to: concept:化学:碳单质的同素异形体
 - from: concept:化学:甲烷的燃烧
   to: concept:化学:甲烷
-- from: concept:化学:碳的完全燃烧
-  to: concept:化学:碳与二氧化碳的反应
-- from: concept:化学:碳的不完全燃烧
-  to: concept:化学:碳与二氧化碳的反应
 - from: concept:化学:自然界的碳循环和氧循环
   to: concept:化学:碳循环和氧循环
 - from: concept:化学:化石燃料燃烧对环境的影响
@@ -136,12 +124,6 @@
   to: concept:化学:合金
 - from: concept:化学:生铁和钢
   to: concept:化学:合金
-- from: concept:化学:金属与氧气的反应
-  to: concept:化学:金属活动性顺序
-- from: concept:化学:金属与盐溶液的反应
-  to: concept:化学:金属活动性顺序
-- from: concept:化学:金属与稀酸的反应
-  to: concept:化学:金属活动性顺序
 - from: concept:化学:金属的物理差异性
   to: concept:化学:金属的物理性质
 - from: concept:化学:金属的物理共性
@@ -174,8 +156,6 @@
   to: concept:化学:结晶
 - from: concept:化学:蒸发结晶
   to: concept:化学:结晶
-- from: concept:化学:配制一定溶质质量分数的溶液
-  to: concept:化学:溶质的质量分数
 - from: concept:化学:化肥的合理施用
   to: concept:化学:化肥的施用
 - from: concept:化学:铁的冶炼
@@ -200,13 +180,7 @@
   to: concept:化学:碱的化学性质
 - from: concept:化学:碱的化学性质
   to: concept:化学:碱的通性
-- from: concept:化学:碳酸钙与碳酸氢钙的转化
-  to: concept:化学:碳酸盐的检验
 - from: concept:化学:酸与盐的反应
-  to: concept:化学:酸的通性
-- from: concept:化学:酸和碱的解离
-  to: concept:化学:酸的通性
-- from: concept:化学:酸碱指示剂
   to: concept:化学:酸的通性
 - from: concept:化学:铵态氮肥的检验
   to: concept:化学:铵盐
@@ -430,10 +404,6 @@
   to: concept:历史:郑和下西洋
 - from: concept:历史:黄宗羲的思想
   to: concept:历史:郑和下西洋
-- from: concept:历史:《北京条约》
-  to: concept:历史:《南京条约》
-- from: concept:历史:《天津条约》
-  to: concept:历史:《南京条约》
 - from: concept:历史:亚罗号事件
   to: concept:历史:《天津条约》
 - from: concept:历史:农民阶级的局限性
@@ -656,8 +626,6 @@
   to: concept:历史:新民主主义革命的胜利
 - from: concept:历史:《中苏友好同盟互助条约》
   to: concept:历史:一边倒
-- from: concept:历史:《义勇军进行曲》
-  to: concept:历史:五星红旗
 - from: concept:历史:《共同纲领》
   to: concept:历史:中国人民政治协商会议
 - from: concept:历史:万隆会议
@@ -788,8 +756,6 @@
   to: concept:历史:脱贫攻坚战
 - from: concept:历史:脱贫攻坚精神
   to: concept:历史:脱贫攻坚战
-- from: concept:历史:《中华人民共和国香港特别行政区维护国家安全法》
-  to: concept:历史:香港国安法
 - from: concept:历史:四个意识
   to: concept:历史:两个维护
 - from: concept:历史:四个自信
@@ -902,8 +868,6 @@
   to: concept:历史:文艺复兴
 - from: concept:历史:但丁
   to: concept:历史:文艺复兴
-- from: concept:历史:1787年美国宪法
-  to: concept:历史:三权分立
 - from: concept:历史:《权利法案》
   to: concept:历史:君主立宪制
 - from: concept:历史:攻占巴士底狱
@@ -7358,8 +7322,6 @@
   to: concept:历史:抗日民族统一战线
 - from: concept:历史:三步走发展战略
   to: concept:历史:社会主义初级阶段理论
-- from: concept:历史:863计划
-  to: concept:历史:科学技术是第一生产力
 - from: concept:历史:西电东送工程
   to: concept:历史:西部大开发战略
 - from: concept:历史:构建社会主义和谐社会
@@ -7389,8 +7351,6 @@
 - from: concept:历史:贫富分化加剧
   to: concept:历史:第二次工业革命
 - from: concept:历史:凡尔登战役
-  to: concept:历史:第一次世界大战
-- from: concept:历史:《凡尔赛条约》
   to: concept:历史:第一次世界大战
 - from: concept:历史:巴黎和会
   to: concept:历史:第一次世界大战
@@ -8839,8 +8799,6 @@
 - from: concept:化学:溶质
   to: concept:化学:溶液
 - from: concept:化学:溶剂
-  to: concept:化学:溶液
-- from: concept:化学:稳定性
   to: concept:化学:溶液
 - from: concept:化学:吸热现象
   to: concept:化学:溶解时的吸热或放热现象

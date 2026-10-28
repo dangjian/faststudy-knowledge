@@ -22,9 +22,9 @@
 |---|---|
 | covered_by | 9779 |
 | demonstrates | 2591 |
-| part_of | 4993 |
+| part_of | 4972 |
 | prerequisite | 1798 |
-| related | 14407 |
+| related | 14428 |
 <!-- stats:end -->
 
 > **prerequisite 可信度分两档，靠边字段 `reviewed` 区分，消费方必须据此收口。**
