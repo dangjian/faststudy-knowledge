@@ -3,281 +3,391 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>凸透镜成像 · 教材 p.61–90</title>
+<title>凸透镜成像 · 闯关</title>
 <!--
-  单文件、零依赖演示：数据来自本仓
+  单文件、零依赖。数据来自本仓：
     concept:物理:凸透镜成像规律
-    covered_by: SK-8-1-Physics-C3 第三章 光的折射 透镜  p.61-90
-    misconceptions: 见页脚两条
-  公式：1/v − 1/u = 1/f（薄透镜，u 取物体到透镜的距离，正值）
-  由 `pnpm kg:ask covered 'concept:物理:凸透镜成像规律'` 取得，改写自教材对应章节。
+    covered_by: SK-8-1-Physics-C3 第三章 光的折射 透镜  p.61–90
+    引文出自 content/八年级/上册/物理/SK-8-1-Physics/chapters/C3/sections/S1.md
+  公式：1/v − 1/u = 1/f
 -->
 <style>
-  :root{--line:#e2e0da;--ink:#241f1a;--muted:#8a8279;--accent:#1f6f5c;--warn:#a8512a;--bg:#faf8f4}
+  :root{
+    --paper:#fdfbf6; --ink:#2a2620; --sub:#8b8378;
+    --line:#e6e1d6; --green:#2c6e57; --amber:#b26a2c; --red:#a8432c;
+  }
   *{box-sizing:border-box}
-  body{margin:0;font:14px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
-  header{display:flex;align-items:baseline;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line)}
-  header h1{font-size:16px;margin:0}
-  header .src{color:var(--muted);font-size:12px}
-  main{display:grid;grid-template-columns:150px 1fr 250px;gap:16px;padding:16px 20px 40px;max-width:1200px}
-  @media(max-width:900px){main{grid-template-columns:1fr}}
-  .steps{display:flex;flex-direction:column;gap:6px}
-  .steps button{text-align:left;font:inherit;font-size:13px;padding:8px 10px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;color:var(--ink)}
-  .steps button.on{background:#eaf3ef;border-color:var(--accent);color:var(--accent);font-weight:600}
-  .stage{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;position:relative}
-  canvas{width:100%;height:420px;display:block}
-  .readout{text-align:center;color:var(--muted);font-size:12px;padding:6px 0 2px}
-  aside{display:flex;flex-direction:column;gap:14px}
-  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px}
-  .card h2{font-size:12px;color:var(--muted);margin:0 0 8px;font-weight:600;letter-spacing:.03em}
-  .row{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;font-size:13px;margin-bottom:6px}
-  .row input[type=range]{width:100%}
-  .kv{display:flex;justify-content:space-between;font-size:13px;padding:3px 0;border-bottom:1px dashed #f0ede8}
-  .kv:last-child{border:0}
-  .kv b{font-weight:600}
-  .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:#eaf3ef;color:var(--accent)}
-  .tag.warn{background:#fdf1e9;color:var(--warn)}
-  footer{max-width:1200px;padding:0 20px 50px;color:var(--muted);font-size:12px}
+  html,body{height:100%}
+  body{
+    margin:0; color:var(--ink); background:var(--paper);
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:28px 28px; background-position:-1px -1px;
+    font:15px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1060px;margin:0 auto;padding:26px 22px 90px}
+
+  /* 关卡条 */
+  .hud{display:flex;align-items:center;gap:14px;margin-bottom:6px;font-size:13px;color:var(--sub)}
+  .dots{display:flex;gap:6px}
+  .dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--sub);opacity:.45}
+  .dot.done{background:var(--green);border-color:var(--green);opacity:1}
+  .dot.now{border-color:var(--amber);opacity:1;box-shadow:0 0 0 3px rgba(178,106,44,.18)}
+  h1{font-size:26px;line-height:1.35;margin:4px 0 2px;font-family:Georgia,"Songti SC",serif;font-weight:600;letter-spacing:.01em}
+  .goal{color:var(--amber);font-weight:600}
+  .sub{color:var(--sub);font-size:13px;margin-bottom:16px}
+
+  /* 舞台 */
+  .stage{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;
+         box-shadow:0 1px 0 #fff inset, 0 10px 24px -18px rgba(0,0,0,.35);overflow:hidden}
+  canvas{display:block;width:100%;height:400px;cursor:grab;touch-action:none}
+  canvas.dragging{cursor:grabbing}
+  .hint{position:absolute;left:14px;bottom:10px;font-size:12px;color:var(--sub);pointer-events:none}
+
+  /* 达成卡 */
+  .win{position:absolute;right:14px;top:14px;width:322px;background:#fff;border:1px solid var(--green);
+       border-radius:12px;padding:14px 16px;box-shadow:0 16px 40px -22px rgba(44,110,87,.7);
+       transform:translateY(-8px);opacity:0;pointer-events:none;transition:.28s cubic-bezier(.2,.8,.2,1)}
+  .win.show{transform:none;opacity:1;pointer-events:auto}
+  .win .tag{display:inline-block;font-size:11px;letter-spacing:.06em;color:var(--green);
+            border:1px solid var(--green);border-radius:99px;padding:0 8px;margin-bottom:8px}
+  .win .quote{font-family:Georgia,"Songti SC",serif;font-size:14.5px;line-height:1.8;color:#33302a;
+              border-left:3px solid var(--green);padding-left:10px;margin:6px 0 10px}
+  .win .src{font-size:11.5px;color:var(--sub);margin-bottom:10px}
+  .win button{font:inherit;font-size:13px;padding:5px 14px;border:0;border-radius:8px;
+              background:var(--green);color:#fff;cursor:pointer}
+  .win button:hover{filter:brightness(1.08)}
+
+  /* 参数 */
+  .panel{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+  .ctl{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .ctl .lab{display:flex;justify-content:space-between;font-size:12px;color:var(--sub);margin-bottom:2px}
+  .ctl .val{font-family:Georgia,serif;font-size:17px;font-weight:600}
+  input[type=range]{width:100%;accent-color:var(--green)}
+
+  /* 读数 */
+  .reads{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px;padding:12px 14px;
+         background:#fff;border:1px solid var(--line);border-radius:10px;font-size:13px}
+  .reads div{color:var(--sub)}
+  .reads b{color:var(--ink);font-family:Georgia,serif;font-size:15px;margin-left:5px}
+
+  footer{margin-top:26px;font-size:12.5px;color:var(--sub)}
   footer ul{margin:6px 0 0;padding-left:18px}
-  footer code{background:#fff;border:1px solid var(--line);border-radius:4px;padding:0 4px}
+  .bad{border-color:var(--red)!important}
+  @media(max-width:860px){
+    .panel{grid-template-columns:1fr}
+    .win{position:static;width:auto;margin:10px;transform:none}
+  }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<header>
-  <h1>凸透镜成像</h1>
-  <span class="src">concept:物理:凸透镜成像规律 · 教材 p.61–90</span>
-</header>
+  <div class="hud">
+    <span class="dots" id="dots"></span>
+    <span id="lv">第 1 关 / 共 3 关</span>
+  </div>
 
-<main>
-  <nav class="steps" id="steps">
-    <button data-step="0" class="on">01 认识焦距</button>
-    <button data-step="1">02 改变物距</button>
-    <button data-step="2">03 实像与虚像</button>
-    <button data-step="3">04 光屏承接</button>
-  </nav>
+  <h1>让像<span class="goal" id="goalWord">清晰地落在光屏上</span></h1>
+  <p class="sub" id="goalSub">拖动蜡烛改变物距，拖动光屏承接像。</p>
 
-  <section class="stage">
+  <div class="stage">
     <canvas id="cv"></canvas>
-    <div class="readout" id="readout"></div>
-  </section>
-
-  <aside>
-    <div class="card">
-      <h2>参数</h2>
-      <div class="row"><span>焦距 f</span><input id="f" type="range" min="5" max="20" step="1" value="10"><span><b id="fv">10</b> cm</span></div>
-      <div class="row"><span>物距 u</span><input id="u" type="range" min="3" max="60" step="1" value="30"><span><b id="uv">30</b> cm</span></div>
-      <div class="row"><span>光屏</span><input id="s" type="range" min="2" max="70" step="1" value="15"><span><b id="sv">15</b> cm</span></div>
+    <div class="hint">拖蜡烛 ←→ 改变物距　·　拖光屏 ←→ 承接像</div>
+    <div class="win" id="win">
+      <span class="tag">达成</span>
+      <div class="quote" id="quote"></div>
+      <div class="src" id="more"></div>
+      <div class="src" id="src"></div>
+      <button id="next">下一关 →</button>
     </div>
+  </div>
 
-    <div class="card">
-      <h2>像的性质</h2>
-      <div class="kv"><span>像距 v</span><b id="vv">—</b></div>
-      <div class="kv"><span>放大率</span><b id="mv">—</b></div>
-      <div class="kv"><span>正倒</span><b id="ev">—</b></div>
-      <div class="kv"><span>大小</span><b id="szv">—</b></div>
-      <div class="kv"><span>虚实</span><b id="rv">—</b></div>
+  <div class="panel">
+    <div class="ctl">
+      <div class="lab"><span>焦距 f</span><span class="val" id="fv">10</span></div>
+      <input id="f" type="range" min="6" max="16" step="1" value="10">
     </div>
-
-    <div class="card">
-      <h2>光屏</h2>
-      <div id="screenState" class="kv"><span>承接情况</span><b>—</b></div>
+    <div class="ctl">
+      <div class="lab"><span>物距 u</span><span class="val" id="uv">30</span></div>
+      <input id="u" type="range" min="4" max="56" step="1" value="30">
     </div>
-  </aside>
-</main>
+    <div class="ctl">
+      <div class="lab"><span>光屏位置</span><span class="val" id="sv">42</span></div>
+      <input id="s" type="range" min="2" max="70" step="1" value="42">
+    </div>
+  </div>
 
-<footer>
-  计算依据 <code>1/v − 1/u = 1/f</code>（薄透镜公式，物距 u 取正值）。
-  像距 v &gt; 0 为透镜右侧实像，v &lt; 0 为左侧虚像；放大率 m = −v/u，负号表示倒立。
-  <br>
-  <b>教材里容易错的地方</b>（取自本仓 <code>misconceptions</code>）：
-  <ul>
-    <li>物距等于焦距时<b>也能成像</b>——实际不成像，光屏上无像。</li>
-    <li>物距大于 2f 时成<b>倒立等大</b>的像——实际是倒立<b>缩小</b>实像。</li>
-  </ul>
-</footer>
+  <div class="reads">
+    <div>像距<b id="vv">—</b></div>
+    <div>放大率<b id="mv">—</b></div>
+    <div>正倒<b id="ev">—</b></div>
+    <div>大小<b id="szv">—</b></div>
+    <div>光屏<b id="scv">—</b></div>
+  </div>
+
+  <footer>
+    <b>教材里最容易错的两处</b>（取自本仓 <code>misconceptions</code>）：
+    <ul>
+      <li>「物距等于焦距时也能成像」——实际不成像，光屏上无像。</li>
+      <li>「物距大于 2f 时成倒立等大的像」——实际是倒立<b>缩小</b>实像。</li>
+    </ul>
+  </footer>
+</div>
 
 <script>
 (function () {
-  const cv = document.getElementById('cv')
-  const ctx = cv.getContext('2d')
   const $ = (id) => document.getElementById(id)
+  const cv = $('cv'), ctx = cv.getContext('2d')
   const dpr = window.devicePixelRatio || 1
 
-  const S = { f: 10, u: 30, s: 15, step: 0 }
-  let W = 0, H = 0, scale = 4    // px per cm
+  const S = { f: 10, u: 30, s: 42, level: 0, solved: false }
+  let W = 0, H = 0, scale = 5
+
+  // 三关：目标条件 + 达成后的教材依据
+  const LEVELS = [
+    {
+      goal: '让像清晰地落在光屏上',
+      sub: '拖蜡烛把物距拉到 2f 以外，再拖光屏找到清晰的像。',
+      check: (v, u, f, s) => v > 0 && Math.abs(v - s) < 1.2 && u > 2 * f,
+      quote: '二倍焦距处，是成缩小像与放大像的分界点。',
+      more: '因此物体在二倍焦距以外时，成倒立、缩小的实像；像落在焦距与二倍焦距之间。',
+    },
+    {
+      goal: '把像从缩小变成放大',
+      sub: '物距改到焦距与二倍焦距之间，重新找到清晰的像。',
+      check: (v, u, f, s) => v > 0 && Math.abs(v - s) < 1.2 && u > f && u < 2 * f,
+      quote: '一倍焦距处，是成倒立实像与正立虚像的分界点。',
+      more: '物体在一倍焦距与二倍焦距之间时，成倒立、放大的实像；像在二倍焦距以外。',
+    },
+    {
+      goal: '做出一个光屏接不住的像',
+      sub: '把物距调到焦距以内，看看光屏上还剩什么。',
+      check: (v) => v < 0,
+      quote: '一倍焦距处是成倒立实像与正立虚像的分界点。',
+      more: '物体在一倍焦距以内时，成正立、放大的虚像。虚像不是实际光线会聚成的，光屏接不到。',
+    },
+  ]
+
+  const SRC = '教材 p.61–90 · 第三章 光的折射 透镜（本仓 content/八年级/上册/物理/SK-8-1-Physics）'
+
+  // ── 物理 ──
+  function solve() {
+    const { f, u } = S
+    if (Math.abs(u - f) < 1e-6) return { none: true }
+    const v = 1 / (1 / f - 1 / u)
+    return { v, m: -v / u }
+  }
 
   function resize() {
     const r = cv.getBoundingClientRect()
     W = Math.round(r.width); H = Math.round(r.height)
     cv.width = W * dpr; cv.height = H * dpr
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
-    // 让 ±(u + 2f) 大致落在画布内
-    scale = Math.min(W / (2 * Math.max(S.u, 2 * S.f) + 40), 6)
+    scale = Math.min(W / (2 * Math.max(S.u, 2 * S.f) + 36), 7)
     draw()
   }
 
   const X = (cm) => W / 2 + cm * scale
-  const Y = () => H * 0.52
+  const Y = () => H * 0.54
+  const OBJ_H = 34
 
-  function lens() {
-    const { f, u } = S
-    if (Math.abs(u - f) < 1e-6) return { v: Infinity, m: -Infinity, none: true }
-    const v = 1 / (1 / f - 1 / u)
-    return { v, m: -v / u, none: false }
-  }
-
-  const objH = 34   // 物高（px 口径，与 cm 同尺度）
-
-  function arrow(x, y, h, color, dashed) {
+  function arrow(x, y0, h, color, dashed, lw) {
     ctx.strokeStyle = color; ctx.fillStyle = color
-    ctx.lineWidth = 2
-    ctx.setLineDash(dashed ? [4, 4] : [])
-    ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y - h); ctx.stroke()
+    ctx.lineWidth = lw || 2.2
+    ctx.setLineDash(dashed ? [5, 4] : [])
+    ctx.beginPath(); ctx.moveTo(x, y0); ctx.lineTo(x, y0 - h); ctx.stroke()
     ctx.setLineDash([])
-    const dir = h > 0 ? -1 : 1
-    ctx.beginPath()
-    ctx.moveTo(x, y - h)
-    ctx.lineTo(x - 4, y - h + dir * 8)
-    ctx.lineTo(x + 4, y - h + dir * 8)
+    const d = h > 0 ? -1 : 1
+    ctx.beginPath(); ctx.moveTo(x, y0 - h)
+    ctx.lineTo(x - 4.5, y0 - h + d * 9); ctx.lineTo(x + 4.5, y0 - h + d * 9)
     ctx.closePath(); ctx.fill()
   }
 
+  // 手绘感的线：分两段画，带轻微抖动
+  function handLine(x1, y1, x2, y2) {
+    const mx = (x1 + x2) / 2 + (Math.random() - 0.5) * 0.6
+    const my = (y1 + y2) / 2 + (Math.random() - 0.5) * 0.6
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.quadraticCurveTo(mx, my, x2, y2); ctx.stroke()
+  }
+
   function draw() {
+    const y0 = Y(), { f, u, s } = S
+    const res = solve()
     ctx.clearRect(0, 0, W, H)
-    const y0 = Y()
-    const { f, u, s } = S
-    const res = lens()
 
     // 主轴
-    ctx.strokeStyle = '#dcd8d0'; ctx.lineWidth = 1
-    ctx.beginPath(); ctx.moveTo(20, y0); ctx.lineTo(W - 20, y0); ctx.stroke()
-    ctx.setLineDash([5, 5]); ctx.strokeStyle = '#eae6de'
-    ctx.beginPath(); ctx.moveTo(X(0), 40); ctx.lineTo(X(0), H - 40); ctx.stroke()
-    ctx.setLineDash([])
+    ctx.strokeStyle = '#d9d4c8'; ctx.lineWidth = 1
+    ctx.beginPath(); ctx.moveTo(18, y0); ctx.lineTo(W - 18, y0); ctx.stroke()
 
-    // 焦点与 2F
-    ctx.fillStyle = '#9a938a'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center'
-    ;[[-2 * f, '2F'], [-f, 'F'], [f, 'F′'], [2 * f, '2F′']].forEach(([cm, t]) => {
-      ctx.beginPath(); ctx.arc(X(cm), y0, 2.5, 0, 7); ctx.fill()
-      ctx.fillText(t, X(cm), y0 + 16)
+    // 焦点
+    ctx.font = '11px -apple-system,sans-serif'; ctx.textAlign = 'center'
+    ;[[-2 * f, '2F'], [-f, 'F'], [f, "F′"], [2 * f, "2F′"]].forEach(([cm, t]) => {
+      ctx.fillStyle = '#b3ab9e'
+      ctx.beginPath(); ctx.arc(X(cm), y0, 2.2, 0, 7); ctx.fill()
+      ctx.fillText(t, X(cm), y0 + 15)
     })
 
     // 透镜
-    ctx.fillStyle = 'rgba(31,111,92,.12)'
-    ctx.strokeStyle = '#1f6f5c'; ctx.lineWidth = 1.5
-    ctx.beginPath(); ctx.ellipse(X(0), y0, 9, 62, 0, 0, Math.PI * 2); ctx.fill(); ctx.stroke()
+    ctx.fillStyle = 'rgba(44,110,87,.08)'
+    ctx.strokeStyle = '#2c6e57'; ctx.lineWidth = 1.6
+    ctx.beginPath(); ctx.ellipse(X(0), y0, 10, 64, 0, 0, Math.PI * 2)
+    ctx.fill(); ctx.stroke()
 
     // 物
     const ox = X(-u)
-    arrow(ox, y0, objH, '#b0602a')
-    ctx.fillStyle = '#8a8279'; ctx.fillText('物', ox, y0 + 16)
+    arrow(ox, y0, OBJ_H, '#b26a2c')
+
+    // 光屏
+    ctx.strokeStyle = '#cfc8ba'; ctx.lineWidth = 3.5
+    ctx.beginPath(); ctx.moveTo(X(s), y0 - 76); ctx.lineTo(X(s), y0 + 76); ctx.stroke()
+    ctx.fillStyle = '#b3ab9e'; ctx.font = '11px sans-serif'
+    ctx.fillText('光屏', X(s), y0 - 84)
 
     if (res.none) {
-      $('readout').textContent = 'u = f：不成像，出射光平行'
-      ;['vv','mv','ev','szv','rv'].forEach(k => $(k).textContent = '—')
-      $('screenState').innerHTML = '<span>承接情况</span><b style="color:#a8512a">无像可承接</b>'
+      setReads(null)
       return
     }
 
     const v = res.v, m = res.m
-    const ix = X(v)
-    const ih = objH * m
+    const tip = { x: ox, y: y0 - OBJ_H }
+    const imgTip = { x: X(v), y: y0 - OBJ_H * m }
 
-    // 三条光线
-    const tip = { x: ox, y: y0 - objH }
-    const imgTip = { x: ix, y: y0 - ih }
-    const rayColor = ['#c58f6a', '#7aa695', '#c58f6a']
+    // 光线
+    ctx.strokeStyle = '#c9a06f'; ctx.lineWidth = 1.35
+    handLine(tip.x, tip.y, X(0), tip.y)
+    ctx.setLineDash(v < 0 ? [5, 4] : [])
+    handLine(X(0), tip.y, imgTip.x, imgTip.y)
+    ctx.setLineDash([])
 
-    // ① 平行主轴 → 过 F′
-    ctx.strokeStyle = rayColor[0]; ctx.lineWidth = 1.4
-    ctx.beginPath(); ctx.moveTo(tip.x, tip.y); ctx.lineTo(X(0), tip.y)
-    lineToFrom(ctx, X(0), tip.y, imgTip.x, imgTip.y, v < 0)
-    ctx.stroke()
-    if (v < 0) back(ctx, X(0), tip.y, imgTip.x, imgTip.y)
-
-    // ② 过光心
-    ctx.strokeStyle = rayColor[1]
-    ctx.beginPath(); ctx.moveTo(tip.x, tip.y); ctx.lineTo(X(0), y0)
-    ctx.lineTo(v < 0 ? Math.max(20, imgTip.x) : imgTip.x, v < 0 ? y0 + (y0 - tip.y) * (Math.max(20, imgTip.x) - X(0)) / (X(0) - tip.x) * -1 : imgTip.y)
-    ctx.stroke()
-
-    // ③ 过 F → 出射平行
-    ctx.strokeStyle = rayColor[2]
-    const crossY = tip.y + (y0 - tip.y) * ((X(-f) - tip.x) / (X(0) - tip.x))
-    ctx.beginPath(); ctx.moveTo(tip.x, tip.y); ctx.lineTo(X(-f), y0); ctx.lineTo(X(0), crossY)
-    ctx.lineTo(v < 0 ? 24 : W - 24, crossY)
-    ctx.stroke()
-    if (v < 0) back(ctx, X(0), crossY, imgTip.x, imgTip.y)
+    ctx.strokeStyle = '#7fa595'
+    handLine(tip.x, tip.y, X(0), y0)
+    ctx.setLineDash(v < 0 ? [5, 4] : [])
+    handLine(X(0), y0, v < 0 ? Math.max(24, imgTip.x) : imgTip.x,
+             v < 0 ? y0 + (tip.y - y0) * 0.55 : imgTip.y)
+    ctx.setLineDash([])
 
     // 像
-    if (Number.isFinite(v)) {
-      arrow(ix, y0, ih, v > 0 ? '#1f6f5c' : '#8a8279', v < 0)
-      ctx.fillStyle = '#8a8279'; ctx.fillText(v > 0 ? '实像' : '虚像', ix, y0 + (v > 0 ? 16 : 30))
+    const solvedNow = !S.solved && LEVELS[S.level].check(v, u, S.f, s)
+    if (v > 0) arrow(X(v), y0, OBJ_H * m, '#2c6e57', false, 2.2)
+    else arrow(X(v), y0, OBJ_H * m, '#8b8378', true, 1.8)
+
+    // 光屏上是否清晰
+    const sharp = v > 0 && Math.abs(v - s) < 1.2
+    if (sharp) {
+      ctx.save()
+      ctx.globalAlpha = .55
+      arrow(X(s), y0, OBJ_H * m, '#2c6e57', false, 3)
+      ctx.restore()
     }
 
-    // 光屏
-    if (S.step >= 3) {
-      ctx.strokeStyle = '#c9c3b8'; ctx.lineWidth = 3
-      ctx.beginPath(); ctx.moveTo(X(s), y0 - 70); ctx.lineTo(X(s), y0 + 70); ctx.stroke()
-      ctx.fillStyle = '#9a938a'; ctx.font = '11px sans-serif'
-      ctx.fillText('光屏', X(s), y0 - 78)
-    }
+    setReads({ v, m, sharp })
+    if (solvedNow) win()
+  }
 
-    // 读数
-    const onScreen = v > 0 && Math.abs(v - s) < 1.2
-    $('vv').textContent = `${v.toFixed(1)} cm`
-    $('mv').textContent = `${m.toFixed(2)}×`
+  function setReads(r) {
+    if (!r) {
+      ;['vv', 'mv', 'ev', 'szv', 'scv'].forEach(k => $(k).textContent = '—')
+      return
+    }
+    const { v, m, sharp } = r
+    $('vv').textContent = v.toFixed(1) + ' cm'
+    $('mv').textContent = m.toFixed(2) + '×'
     $('ev').textContent = m < 0 ? '倒立' : '正立'
     $('szv').textContent = Math.abs(m) > 1.02 ? '放大' : Math.abs(m) < 0.98 ? '缩小' : '等大'
-    $('rv').textContent = v > 0 ? '实像' : '虚像'
-    $('screenState').innerHTML = v > 0
-      ? `<span>承接情况</span><b style="color:${onScreen ? '#1f6f5c' : '#a8512a'}">${onScreen ? '清晰' : (Math.abs(v - s) < 8 ? '偏离焦点' : '无清晰像')}</b>`
-      : '<span>承接情况</span><b style="color:#a8512a">虚像无法承接</b>'
-
-    const desc = v > 0
-      ? `实像 · ${m < 0 ? '倒立' : '正立'} · ${Math.abs(m) > 1 ? '放大' : '缩小'} · 像距 ${v.toFixed(1)} cm`
-      : `虚像 · 正立 · 放大 · 位于物体同侧`
-    $('readout').textContent = desc
+    $('scv').textContent = v > 0 ? (sharp ? '清晰' : '未对准') : '接不到'
+    $('scv').style.color = sharp || v < 0 ? 'var(--green)' : 'var(--red)'
   }
 
-  function lineToFrom(c, x1, y1, x2, y2, dashed) {
-    c.setLineDash(dashed ? [5, 4] : [])
-    c.lineTo(x2, y2)
-    c.setLineDash([])
-  }
-  function back(c, x1, y1, x2, y2) {
-    c.setLineDash([4, 4])
-    c.beginPath(); c.moveTo(x1, y1); c.lineTo(Math.min(x1, x2) - 40, y1 + (y2 - y1) * ((Math.min(x1, x2) - 40 - x1) / (x2 - x1)))
-    c.stroke(); c.setLineDash([])
+  function renderHud() {
+    $('lv').textContent = `第 ${S.level + 1} 关 / 共 ${LEVELS.length} 关`
+    $('goalWord').textContent = LEVELS[S.level].goal
+    $('goalSub').textContent = LEVELS[S.level].sub
+    $('dots').innerHTML = LEVELS.map((_, i) =>
+      `<span class="dot ${i < S.level ? 'done' : i === S.level ? 'now' : ''}"></span>`).join('')
   }
 
-  // 交互
-  ;['f', 'u', 's'].forEach((k) => {
-    $(k).addEventListener('input', (e) => {
+  function win() {
+    S.solved = true
+    const L = LEVELS[S.level]
+    $('quote').textContent = L.quote
+    $('src').textContent = SRC
+    $('more').textContent = L.more
+    $('win').classList.add('show')
+  }
+
+  function nextLevel() {
+    if (S.level >= LEVELS.length - 1) {
+      $('win').innerHTML = '<span class="tag">全部完成</span><div class="quote">三关都过了：缩小实像 → 放大实像 → 虚像接不住。</div><div class="src">' + SRC + '</div>'
+      $('win').classList.add('show')
+      return
+    }
+    S.level++; S.solved = false
+    $('win').classList.remove('show')
+    // 每关给一个合理的起点，但不直接给答案
+    if (S.level === 1) { S.f = 10; S.u = 16; S.s = 25 }
+    if (S.level === 2) { S.f = 10; S.u = 14; S.s = 30 }
+    syncInputs(); renderHud(); resize()
+  }
+
+  function syncInputs() {
+    $('f').value = S.f; $('u').value = S.u; $('s').value = S.s
+    $('fv').textContent = S.f; $('uv').textContent = S.u; $('sv').textContent = S.s
+  }
+
+  // ── 拖拽 ──
+  let drag = null
+  const toCm = (px) => (px - W / 2) / scale
+  const px = (e) => {
+    const r = cv.getBoundingClientRect()
+    const p = e.touches ? e.touches[0] : e
+    return p.clientX - r.left
+  }
+  const pick = (x) => {
+    const ux = X(-S.u), sx = X(S.s)
+    if (Math.abs(x - ux) < 28) return 'u'
+    if (Math.abs(x - sx) < 26) return 's'
+    return null
+  }
+
+  function down(e) {
+    const x = px(e)
+    drag = pick(x)
+    if (drag) cv.classList.add('dragging')
+    e.preventDefault()
+  }
+  function move(e) {
+    if (!drag) return
+    const cm = -toCm(px(e))
+    if (drag === 'u') S.u = Math.max(4, Math.min(56, Math.round(cm)))
+    else S.s = Math.max(2, Math.min(70, Math.round(-toCm(px(e)) * -1)))
+    syncInputs(); resize()
+    e.preventDefault()
+  }
+  function up() { drag = null; cv.classList.remove('dragging') }
+
+  cv.addEventListener('mousedown', down)
+  cv.addEventListener('mousemove', move)
+  window.addEventListener('mouseup', up)
+  cv.addEventListener('touchstart', down, { passive: false })
+  cv.addEventListener('touchmove', move, { passive: false })
+  window.addEventListener('touchend', up)
+
+  // ── 滑块 ──
+  ;['f', 'u', 's'].forEach(k => {
+    $(k).addEventListener('input', e => {
       S[k] = Number(e.target.value)
-      $(k + 'v').textContent = e.target.value
-      resize()
+      S.solved = false
+      $('win').classList.remove('show')
+      syncInputs(); resize()
     })
   })
 
-  document.querySelectorAll('#steps button').forEach((b) => {
-    b.onclick = () => {
-      S.step = Number(b.dataset.step)
-      document.querySelectorAll('#steps button').forEach(x => x.classList.toggle('on', x === b))
-      // 每步给一组预设，让步骤真的有内容
-      if (S.step === 0) { S.f = 10; S.u = 30; S.s = 15 }
-      if (S.step === 1) { S.f = 10; S.u = 25; S.s = Math.round((1 / (1 / 10 - 1 / 25))) }
-      if (S.step === 2) { S.f = 10; S.u = 6; S.s = 15 }
-      if (S.step === 3) { S.f = 10; S.u = 15; S.s = Math.round((1 / (1 / 10 - 1 / 15))) }
-      $('f').value = S.f; $('u').value = S.u; $('s').value = S.s
-      $('fv').textContent = S.f; $('uv').textContent = S.u; $('sv').textContent = S.s
-      resize()
-    }
-  })
-
+  $('next').onclick = nextLevel
   window.addEventListener('resize', resize)
-  resize()
+  renderHud(); syncInputs(); resize()
 })()
 </script>
 </body>
