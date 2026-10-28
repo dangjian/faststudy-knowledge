@@ -2446,24 +2446,16 @@
   to: concept:英语:字母表
 - from: concept:英语:键盘字母位置
   to: concept:英语:字母表
-- from: concept:英语:自我介绍
-  to: concept:英语:询问姓名
 - from: concept:英语:月份表达
   to: concept:英语:月份词汇
 - from: concept:英语:生日愿望
   to: concept:英语:特殊生日
-- from: concept:英语:询问生日
-  to: concept:英语:特殊疑问词
-- from: concept:英语:询问年龄
-  to: concept:英语:特殊疑问词
 - from: concept:英语:特殊疑问句 What colour is/are...?
   to: concept:英语:询问颜色的句型
 - from: concept:英语:元音字母的短音发音
   to: concept:英语:元音字母的发音规则
 - from: concept:英语:元音字母的长音发音
   to: concept:英语:元音字母的发音规则
-- from: concept:英语:特殊疑问词
-  to: concept:英语:特殊疑问句 What colour is/are...?
 - from: concept:英语:音标/h/ /r/ /l/ /m/ /n/ /ŋ/ /w/ /j/
   to: concept:英语:语音：辅音音素
 - from: concept:英语:形容词描述地点
@@ -2500,8 +2492,6 @@
   to: concept:英语:情态动词 must
 - from: concept:英语:祈使句表示规则
   to: concept:英语:规则表达句型
-- from: concept:英语:规则的重要性
-  to: concept:英语:规则表达句型
 - from: concept:英语:频率副词
   to: concept:英语:频度表达
 - from: concept:英语:不可数名词
@@ -2528,8 +2518,6 @@
   to: concept:英语:现在进行时
 - from: concept:英语:语音：句子重音和弱读
   to: concept:英语:语音：句子节奏
-- from: concept:英语:直接引语
-  to: concept:英语:一般疑问句
 - from: concept:英语:动词过去式
   to: concept:英语:一般过去时
 - from: concept:英语:形容词比较级
@@ -2614,8 +2602,6 @@
   to: concept:英语:自然灾害
 - from: concept:英语:海啸
   to: concept:英语:自然灾害
-- from: concept:英语:过去进行时
-  to: concept:英语:when和while引导的时间状语从句
 - from: concept:英语:现在完成时的构成
   to: concept:英语:现在完成时
 - from: concept:英语:现在完成时的用法
@@ -2730,10 +2716,6 @@
   to: concept:英语:环境保护
 - from: concept:英语:be excited about 对……感到兴奋
   to: concept:英语:be excited about
-- from: concept:英语:食物链
-  to: concept:英语:环保行动
-- from: concept:英语:鲨鱼鳍
-  to: concept:英语:环保行动
 - from: concept:英语:be nervous about 对……感到紧张
   to: concept:英语:be nervous about
 - from: concept:英语:kiss somebody on + 部位
@@ -2778,8 +2760,6 @@
   to: concept:英语:节日词汇
 - from: concept:英语:重阳节
   to: concept:英语:中国传统节日
-- from: concept:英语:直接问句
-  to: concept:英语:宾语从句（一般疑问句）
 - from: concept:英语:间接问句
   to: concept:英语:宾语从句（一般疑问句）
 - from: concept:英语:take care of
@@ -2796,8 +2776,6 @@
   to: concept:英语:感官动词 + 宾语 + 宾语补足语
 - from: concept:英语:感官动词 feel 的用法
   to: concept:英语:感官动词 + 宾语 + 宾语补足语
-- from: concept:英语:缩写和简写
-  to: concept:英语:口语中的省略
 - from: concept:英语:be produced
   to: concept:英语:一般现在时的被动语态
 - from: concept:英语:be sent for processing
@@ -2806,10 +2784,6 @@
   to: concept:英语:传统艺术形式
 - from: concept:英语:folk or traditional art
   to: concept:英语:传统艺术形式
-- from: concept:英语:短语动词的被动语态
-  to: concept:英语:主动语态与被动语态的转换
-- from: concept:英语:情态动词的被动语态
-  to: concept:英语:主动语态与被动语态的转换
 - from: concept:英语:被动语态中 by 短语的使用
   to: concept:英语:主动语态与被动语态的转换
 - from: concept:英语:被动语态中 by 短语的省略
@@ -2825,16 +2799,6 @@
 - from: concept:英语:被动语态中现在完成时被动
   to: concept:英语:被动语态中时态的被动
 - from: concept:英语:被动语态中将来时被动
-  to: concept:英语:被动语态中时态的被动
-- from: concept:英语:被动语态中动词过去分词
-  to: concept:英语:被动语态中不规则动词的过去分词
-- from: concept:英语:被动语态中双宾语的处理
-  to: concept:英语:被动语态中动词过去分词
-- from: concept:英语:被动语态中感官动词的处理
-  to: concept:英语:被动语态中动词过去分词
-- from: concept:英语:被动语态中使役动词的处理
-  to: concept:英语:被动语态中动词过去分词
-- from: concept:英语:被动语态中主谓一致
   to: concept:英语:被动语态中时态的被动
 - from: concept:英语:被动语态中语态的辨析
   to: concept:英语:被动语态的用法
@@ -2911,8 +2875,6 @@
 - from: concept:语文:同盟会
   to: concept:语文:回忆我的母亲
 - from: concept:语文:取义成仁
-  to: concept:语文:回忆我的母亲
-- from: concept:语文:共产主义精神
   to: concept:语文:回忆我的母亲
 - from: concept:语文:慰勉
   to: concept:语文:宽厚
@@ -3094,8 +3056,6 @@
   to: concept:语文:鲁迅
 - from: concept:语文:何陋之有
   to: concept:语文:之的用法
-- from: concept:语文:出淤泥而不染
-  to: concept:语文:周敦颐
 - from: concept:语文:勿以善小而不为，勿以恶小而为之
   to: concept:语文:中华美德
 - from: concept:语文:千里之堤，溃于蚁穴
@@ -3112,8 +3072,6 @@
   to: concept:语文:围绕中心选择材料
 - from: concept:语文:材料要真实、新颖
   to: concept:语文:围绕中心选择材料
-- from: concept:语文:不要堆砌词语
-  to: concept:语文:选材
 - from: concept:语文:爱莲说
   to: concept:语文:议论性散文
 - from: concept:语文:行而宜之之谓义
@@ -3124,8 +3082,6 @@
   to: concept:语文:语气助词
 - from: concept:语文:感动中国年度人物
   to: concept:语文:黄文秀事迹
-- from: concept:语文:井冈山精神
-  to: concept:语文:脱贫攻坚精神
 - from: concept:语文:驿路梨花
   to: concept:语文:长篇小说
 - from: concept:语文:保尔·柯察金
@@ -3143,8 +3099,6 @@
 - from: concept:语文:定中关系
   to: concept:语文:偏正短语
 - from: concept:语文:传感眼镜
-  to: concept:语文:创作科幻故事
-- from: concept:语文:共振现象
   to: concept:语文:创作科幻故事
 - from: concept:语文:哥伦比亚号航天飞机事故
   to: concept:语文:为探索者画像
@@ -3172,8 +3126,6 @@
   to: concept:语文:新闻写作
 - from: concept:语文:客观事实与主观评价
   to: concept:语文:新闻写作
-- from: concept:语文:侧面描写
-  to: concept:语文:人物通讯
 - from: concept:语文:倒金字塔结构
   to: concept:语文:新闻写作
 - from: concept:语文:新闻体裁比较
@@ -3258,8 +3210,6 @@
   to: concept:语文:抒情手法
 - from: concept:语文:概括式叙述
   to: concept:语文:抒情手法
-- from: concept:语文:写景作文修改
-  to: concept:语文:多角度观察与描写
 - from: concept:语文:写景顺序
   to: concept:语文:多角度观察与描写
 - from: concept:语文:多感官描写
@@ -3280,10 +3230,6 @@
   to: concept:语文:意境
 - from: concept:语文:对仗
   to: concept:语文:律诗
-- from: concept:语文:借景抒情
-  to: concept:语文:咏物诗
-- from: concept:语文:一词多义
-  to: concept:语文:名词作状语
 - from: concept:语文:三峡
   to: concept:语文:《水经注》
 - from: concept:语文:吴均三书
@@ -3292,8 +3238,6 @@
   to: concept:语文:唐诗
 - from: concept:语文:三杯吐然诺，五岳倒为轻
   to: concept:语文:唐诗
-- from: concept:语文:人倍信则名不达
-  to: concept:语文:儒有不宝金玉，而忠信以为宝
 - from: concept:语文:商鞅立木
   to: concept:语文:儒有不宝金玉，而忠信以为宝
 - from: concept:语文:文言实词一词多义
@@ -3334,8 +3278,6 @@
   to: concept:语文:世界遗产
 - from: concept:语文:《世界遗产青少年教育苏州宣言》
   to: concept:语文:世界遗产青少年教育
-- from: concept:语文:人民英雄纪念碑
-  to: concept:语文:革命精神
 - from: concept:语文:卢沟桥
   to: concept:语文:说明对象
 - from: concept:语文:《清明上河图》
@@ -3550,10 +3492,6 @@
   to: concept:语文:《经典常谈》
 - from: concept:语文:读后感
   to: concept:语文:观后感
-- from: concept:语文:《逍遥游》
-  to: concept:语文:庄子
-- from: concept:语文:《秋水》
-  to: concept:语文:庄子
 - from: concept:语文:伯乐相马
   to: concept:语文:伯乐
 - from: concept:语文:千里马
@@ -3597,8 +3535,6 @@
 - from: concept:语文:勃朗峰
   to: concept:语文:游记散文
 - from: concept:语文:各拉丹冬
-  to: concept:语文:游记散文
-- from: concept:语文:丽江古城
   to: concept:语文:游记散文
 - from: concept:语文:移步换景
   to: concept:语文:游记散文
@@ -3670,8 +3606,6 @@
   to: concept:语文:白杨礼赞
 - from: concept:语文:闰土形象
   to: concept:语文:闰土
-- from: concept:语文:他信力
-  to: concept:语文:自欺力
 - from: concept:语文:驳论文
   to: concept:语文:驳论
 - from: concept:语文:论证要合理
@@ -3738,14 +3672,8 @@
   to: concept:语文:扩写
 - from: concept:语文:衬托手法
   to: concept:语文:对比衬托
-- from: concept:语文:何大学问
-  to: concept:语文:何满子
-- from: concept:语文:一丈青大娘
-  to: concept:语文:何满子
 - from: concept:语文:飞蛾扑火
   to: concept:语文:象征意义
-- from: concept:语文:何满子
-  to: concept:语文:人物塑造方法
 - from: concept:语文:奥楚蔑洛夫
   to: concept:语文:人物塑造方法
 - from: concept:语文:变色龙
@@ -3756,14 +3684,6 @@
   to: concept:语文:小说语言欣赏
 - from: concept:语文:小说语言特色
   to: concept:语文:小说语言欣赏
-- from: concept:语文:义和团
-  to: concept:语文:伪满洲国
-- from: concept:语文:《儒林外史》的批判精神
-  to: concept:语文:讽刺作品
-- from: concept:语文:《儒林外史》的讽刺艺术
-  to: concept:语文:讽刺作品
-- from: concept:语文:《格列佛游记》的讽刺艺术
-  to: concept:语文:讽刺作品
 - from: concept:语文:洗三
   to: concept:语文:蒲柳人家
 - from: concept:语文:百家衣
@@ -5442,8 +5362,6 @@
   to: concept:语文:朱德
 - from: concept:语文:用典
   to: concept:语文:修辞手法
-- from: concept:语文:《归田录》
-  to: concept:语文:欧阳修
 - from: concept:语文:欧阳修
   to: concept:语文:唐宋八大家
 - from: concept:语文:概括人物：人+事+品格
@@ -5496,8 +5414,6 @@
   to: concept:语文:溜索
 - from: concept:语文:长勺之战
   to: concept:语文:曹刿论战
-- from: concept:语文:《聊斋志异》
-  to: concept:语文:蒲松龄
 - from: concept:语文:结构助词
   to: concept:语文:助词
 - from: concept:语文:箭扣长城修缮
@@ -5548,8 +5464,6 @@
   to: concept:语文:剧本阅读策略
 - from: concept:语文:读书计划
   to: concept:语文:阅读
-- from: concept:语文:《猫》
-  to: concept:语文:郑振铎
 - from: concept:语文:任人宰割
   to: concept:语文:邓稼先
 - from: concept:语文:可歌可泣
