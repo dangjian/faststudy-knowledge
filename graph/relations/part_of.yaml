@@ -224,8 +224,6 @@
   to: concept:历史:炎帝和黄帝
 - from: concept:历史:阪泉之战
   to: concept:历史:炎帝和黄帝
-- from: concept:历史:涿鹿之战
-  to: concept:历史:炎帝和黄帝
 - from: concept:历史:禅让制
   to: concept:历史:早期国家
 - from: concept:历史:世袭制取代禅让制
@@ -236,12 +234,8 @@
   to: concept:历史:分封制
 - from: concept:历史:老子
   to: concept:历史:道家学派
-- from: concept:历史:荀子
-  to: concept:历史:道家学派
 - from: concept:历史:韩非
   to: concept:历史:道家学派
-- from: concept:历史:铁制农具和牛耕
-  to: concept:历史:铁器牛耕
 - from: concept:历史:三十税一
   to: concept:历史:休养生息政策
 - from: concept:历史:以农为本
@@ -250,12 +244,6 @@
   to: concept:历史:休养生息政策
 - from: concept:历史:光武中兴
   to: concept:历史:东汉建立
-- from: concept:历史:河西四郡
-  to: concept:历史:丝绸之路
-- from: concept:历史:漠北战役
-  to: concept:历史:丝绸之路
-- from: concept:历史:汉赋与乐府诗
-  to: concept:历史:司马迁与《史记》
 - from: concept:历史:西晋的建立
   to: concept:历史:西晋的短暂统一
 - from: concept:历史:西晋的统一
@@ -288,68 +276,36 @@
   to: concept:历史:元朝的统治
 - from: concept:历史:方田均税法
   to: concept:历史:王安石变法
-- from: concept:历史:活字印刷术
-  to: concept:历史:毕昇
 - from: concept:历史:程朱理学
   to: concept:历史:理学
 - from: concept:历史:朱熹
   to: concept:历史:理学
-- from: concept:历史:简仪
-  to: concept:历史:水运仪象台
-- from: concept:历史:编年体通史
-  to: concept:历史:科举制的发展
-- from: concept:历史:辽的建立
-  to: concept:历史:辽与北宋的和战
-- from: concept:历史:郾城大捷
-  to: concept:历史:金灭辽及北宋
-- from: concept:历史:陈桥兵变
-  to: concept:历史:辽与北宋的和战
 - from: concept:历史:靖康之变
   to: concept:历史:金灭辽及北宋
 - from: concept:历史:市舶司
   to: concept:历史:宋元海外贸易
 - from: concept:历史:指南针
   to: concept:历史:四大发明
-- from: concept:历史:杂剧
-  to: concept:历史:宋词
 - from: concept:历史:杯酒释兵权
   to: concept:历史:崇文抑武方针
 - from: concept:历史:榷场
   to: concept:历史:宋元商业繁荣
-- from: concept:历史:毕昇
-  to: concept:历史:四大发明
 - from: concept:历史:文字狱
   to: concept:历史:文化专制政策
-- from: concept:历史:李自成起义
-  to: concept:历史:明朝灭亡
 - from: concept:历史:清军入关
   to: concept:历史:清朝对全国的统治
-- from: concept:历史:清朝设置台湾府
-  to: concept:历史:清朝疆域
-- from: concept:历史:滋生人丁，永不加赋
-  to: concept:历史:摊丁入亩
-- from: concept:历史:明清时期农业的发展
-  to: concept:历史:明清时期人口的增长
 - from: concept:历史:设置伊犁将军
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:设置驻藏办事大臣
   to: concept:历史:清朝对全国的统治
-- from: concept:历史:金瓶掣签制度
-  to: concept:历史:设置驻藏办事大臣
 - from: concept:历史:雅克萨之战
   to: concept:历史:清朝对全国的统治
 - from: concept:历史:议政王大臣会议
   to: concept:历史:清朝君主专制的强化
 - from: concept:历史:满洲兴起
   to: concept:历史:清朝对全国的统治
-- from: concept:历史:郑成功收复台湾
-  to: concept:历史:清朝设置台湾府
 - from: concept:历史:钓鱼岛及其附属岛屿
   to: concept:历史:清朝疆域
-- from: concept:历史:闭关政策
-  to: concept:历史:郑和下西洋
-- from: concept:历史:隆庆和议
-  to: concept:历史:郑和下西洋
 - from: concept:历史:靖难之役
   to: concept:历史:郑和下西洋
 - from: concept:历史:顾炎武的思想
@@ -394,14 +350,10 @@
   to: concept:历史:辛亥革命
 - from: concept:历史:徐锡麟
   to: concept:历史:安庆起义
-- from: concept:历史:秋瑾
-  to: concept:历史:安庆起义
 - from: concept:历史:黄兴
   to: concept:历史:黄花岗起义
 - from: concept:历史:黄花岗七十二烈士
   to: concept:历史:黄花岗起义
-- from: concept:历史:湖北军政府
-  to: concept:历史:武昌起义
 - from: concept:历史:黎元洪
   to: concept:历史:湖北军政府
 - from: concept:历史:袁世凯窃取辛亥革命果实
@@ -420,10 +372,6 @@
   to: concept:历史:军阀割据
 - from: concept:历史:桂系军阀
   to: concept:历史:军阀割据
-- from: concept:历史:滇系军阀
-  to: concept:历史:直系军阀
-- from: concept:历史:皖系军阀
-  to: concept:历史:直系军阀
 - from: concept:历史:文学革命
   to: concept:历史:新文化运动
 - from: concept:历史:民主与科学
@@ -448,8 +396,6 @@
   to: concept:历史:国民革命
 - from: concept:历史:湘江战役
   to: concept:历史:红军长征
-- from: concept:历史:第五次反“围剿”
-  to: concept:历史:红军长征
 - from: concept:历史:遵义会议
   to: concept:历史:红军长征
 - from: concept:历史:遵义会议的历史意义
@@ -468,18 +414,6 @@
   to: concept:历史:重庆谈判
 - from: concept:历史:土地改革总路线
   to: concept:历史:新民主主义革命的胜利
-- from: concept:历史:毛泽东思想
-  to: concept:历史:新民主主义革命的胜利
-- from: concept:历史:汪精卫叛国
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:洛川会议
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:狼牙山五壮士
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:皖南事变
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:知识青年奔赴延安
-  to: concept:历史:抗日战争胜利的意义
 - from: concept:历史:解放区军民粉碎国民党进攻
   to: concept:历史:国民党发动全面内战
 - from: concept:历史:重点进攻
@@ -500,15 +434,9 @@
   to: concept:历史:抗美援朝战争
 - from: concept:历史:公私合营
   to: concept:历史:三大改造
-- from: concept:历史:第二炮兵部队
-  to: concept:历史:武器装备国产化
 - from: concept:历史:国防现代化
   to: concept:历史:“四个现代化”
 - from: concept:历史:民族区域自治的五个自治区
-  to: concept:历史:民族区域自治制度
-- from: concept:历史:民族地区民主改革和社会主义改造
-  to: concept:历史:民族区域自治制度
-- from: concept:历史:民族地区经济建设
   to: concept:历史:民族区域自治制度
 - from: concept:历史:大庆精神（铁人精神）
   to: concept:历史:艰苦奋斗的时代精神
@@ -524,12 +452,8 @@
   to: concept:历史:社会主义建设道路的探索
 - from: concept:历史:社会主义建设总路线
   to: concept:历史:社会主义建设道路的探索
-- from: concept:历史:社会主义初级阶段理论
-  to: concept:历史:社会主义本质论
 - from: concept:历史:私营经济法律地位确认
   to: concept:历史:社会主义民主法制建设
-- from: concept:历史:科学技术是第一生产力
-  to: concept:历史:社会主义本质论
 - from: concept:历史:经济特区
   to: concept:历史:全方位多层次宽领域对外开放格局
 - from: concept:历史:菜篮子工程
@@ -562,8 +486,6 @@
   to: concept:历史:一国两制
 - from: concept:历史:科技强军战略
   to: concept:历史:军事战略方针
-- from: concept:历史:科教兴国战略
-  to: concept:历史:中国特色社会主义理论体系
 - from: concept:历史:西部大开发战略
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:邓小平理论
@@ -573,8 +495,6 @@
 - from: concept:历史:公共文化服务体系
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:脱贫攻坚战全面胜利
-  to: concept:历史:脱贫攻坚战
-- from: concept:历史:脱贫攻坚精神
   to: concept:历史:脱贫攻坚战
 - from: concept:历史:文化自信
   to: concept:历史:四个自信
@@ -620,8 +540,6 @@
   to: concept:历史:庄园经济
 - from: concept:历史:拜占庭文化
   to: concept:历史:拜占庭帝国
-- from: concept:历史:法兰克王国
-  to: concept:历史:查理曼帝国
 - from: concept:历史:穆斯林公社
   to: concept:历史:伊斯兰教的创立
 - from: concept:历史:哥伦布发现美洲
@@ -634,15 +552,9 @@
   to: concept:历史:新航路开辟
 - from: concept:历史:新航路开辟的影响
   to: concept:历史:新航路开辟
-- from: concept:历史:租地农场
-  to: concept:历史:富裕农民和市民阶层
 - from: concept:历史:葡萄牙与西班牙的殖民掠夺
   to: concept:历史:早期殖民掠夺
 - from: concept:历史:英国的殖民扩张
-  to: concept:历史:早期殖民掠夺
-- from: concept:历史:殖民掠夺的影响
-  to: concept:历史:早期殖民掠夺
-- from: concept:历史:资本原始积累
   to: concept:历史:早期殖民掠夺
 - from: concept:历史:达·芬奇
   to: concept:历史:文艺复兴
@@ -670,8 +582,6 @@
   to: concept:历史:法国大革命
 - from: concept:历史:法兰西第一共和国
   to: concept:历史:法国大革命
-- from: concept:历史:进化论
-  to: concept:历史:达尔文
 - from: concept:历史:凡尔赛体系
   to: concept:历史:凡尔赛—华盛顿体系
 - from: concept:历史:亚洲战争策源地
@@ -679,8 +589,6 @@
 - from: concept:历史:欧洲战争策源地
   to: concept:历史:法西斯同盟
 - from: concept:历史:法西斯政权
-  to: concept:历史:法西斯同盟
-- from: concept:历史:轴心国
   to: concept:历史:法西斯同盟
 - from: concept:历史:珍珠港事件
   to: concept:历史:第二次世界大战
@@ -6704,8 +6612,6 @@
   to: concept:历史:儒家学派
 - from: concept:历史:墨家学派
   to: concept:历史:百家争鸣
-- from: concept:历史:民贵君轻
-  to: concept:历史:孟子
 - from: concept:历史:孙武
   to: concept:历史:兵家学派
 - from: concept:历史:司马迁与《史记》
@@ -6805,8 +6711,6 @@
 - from: concept:历史:战国七雄
   to: concept:历史:战国时期
 - from: concept:历史:郾城大捷
-  to: concept:历史:岳飞抗金
-- from: concept:历史:莫须有罪名
   to: concept:历史:岳飞抗金
 - from: concept:历史:宋元海外贸易
   to: concept:历史:宋元商业繁荣
@@ -6918,8 +6822,6 @@
   to: concept:历史:明朝的统治
 - from: concept:历史:迁都北京
   to: concept:历史:明朝的统治
-- from: concept:历史:明朝的对外关系
-  to: concept:历史:明朝的统治
 - from: concept:历史:郑和下西洋
   to: concept:历史:明朝的对外关系
 - from: concept:历史:倭寇
@@ -6994,8 +6896,6 @@
   to: concept:历史:早期殖民掠夺
 - from: concept:历史:资本原始积累
   to: concept:历史:殖民掠夺的影响
-- from: concept:历史:流水线生产
-  to: concept:历史:汽车
 - from: concept:历史:土地荒漠化
   to: concept:历史:生态问题
 - from: concept:历史:温室效应
@@ -7006,8 +6906,6 @@
   to: concept:历史:良渚古城遗址
 - from: concept:历史:西周的建立
   to: concept:历史:夏商西周奴隶制王朝的更替
-- from: concept:历史:焚书坑儒
-  to: concept:历史:秦统一六国
 - from: concept:历史:统一度量衡
   to: concept:历史:秦统一六国
 - from: concept:历史:统一文字
@@ -7015,8 +6913,6 @@
 - from: concept:历史:统一货币
   to: concept:历史:秦统一六国
 - from: concept:历史:统一车轨
-  to: concept:历史:秦统一六国
-- from: concept:历史:郡县制
   to: concept:历史:秦统一六国
 - from: concept:历史:科举制的创立
   to: concept:历史:科举制
@@ -7030,14 +6926,8 @@
   to: concept:历史:维新运动
 - from: concept:历史:红军三大主力会师
   to: concept:历史:红军长征
-- from: concept:历史:长征精神
-  to: concept:历史:红军长征
 - from: concept:历史:百团大战
   to: concept:历史:敌后战场
-- from: concept:历史:百团大战
-  to: concept:历史:人民游击战争
-- from: concept:历史:花园口决堤
-  to: concept:历史:武汉会战
 - from: concept:历史:皖南事变
   to: concept:历史:抗日民族统一战线
 - from: concept:历史:西电东送工程
@@ -7062,16 +6952,10 @@
   to: concept:历史:第二次工业革命
 - from: concept:历史:流水线生产
   to: concept:历史:第二次工业革命
-- from: concept:历史:贫富分化加剧
-  to: concept:历史:第二次工业革命
 - from: concept:历史:凡尔登战役
-  to: concept:历史:第一次世界大战
-- from: concept:历史:萨拉热窝事件
   to: concept:历史:第一次世界大战
 - from: concept:历史:曼哈顿计划
   to: concept:历史:第二次世界大战
-- from: concept:历史:美国新经济
-  to: concept:历史:第三次科技革命
 - from: concept:历史:联合国安全理事会
   to: concept:历史:联合国
 - from: concept:历史:联合国宗旨
@@ -7114,8 +6998,6 @@
   to: concept:历史:正面战场
 - from: concept:历史:豫湘桂战役
   to: concept:历史:战略相持阶段
-- from: concept:历史:阿部规秀
-  to: concept:历史:百团大战
 - from: concept:历史:解放区土地改革
   to: concept:历史:人民解放战争胜利的原因
 - from: concept:历史:辽沈战役
