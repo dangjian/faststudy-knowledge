@@ -56,13 +56,13 @@ def ledger():
     return {}
 
 
-def cmd_next(n):
+def cmd_next(n, offset=0):
     g = load_graph()
     cands, by_id = candidates(g)
     done = ledger()
     todo = [e for e in cands if f"{e['from']}|{e['to']}" not in done]
     print(f'非含容边 {len(cands)} | 已判 {len(done)} | 待判 {len(todo)}')
-    for e in todo[:n]:
+    for e in todo[offset:offset + n]:
         c, p = by_id[e['from']], by_id[e['to']]
         expl = (c.get('explanation') or '').replace('\n', ' ')[:40]
         print(f"{e['from']}\t{e['to']}\t{c.get('title')} ⊂ {p.get('title')}\t{expl}")
@@ -112,7 +112,8 @@ def cmd_stat():
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'stat'
     if cmd == 'next':
-        cmd_next(int(sys.argv[2]) if len(sys.argv) > 2 else 50)
+        cmd_next(int(sys.argv[2]) if len(sys.argv) > 2 else 50,
+                 int(sys.argv[3]) if len(sys.argv) > 3 else 0)
     elif cmd == 'apply':
         cmd_apply()
     else:

@@ -28688,12 +28688,8 @@
   to: concept:历史:一国两制
 - from: concept:地理:北极和南极
   to: concept:地理:南北半球分界线
-- from: concept:地理:低碳生活
-  to: concept:地理:人类活动对气候的影响
 - from: concept:地理:温带季风气候
   to: concept:地理:温带落叶阔叶林
-- from: concept:数学:二次根式的加减运算
-  to: concept:数学:二次根式的加减法则
 - from: concept:数学:箱线图
   to: concept:数学:百分位数
 - from: concept:物理:力的三要素
@@ -28702,24 +28698,14 @@
   to: concept:物理:电路
 - from: concept:生物:光学显微镜
   to: concept:生物:显微镜的发展史
-- from: concept:生物:幼根的生长
-  to: concept:生物:根尖的结构
 - from: concept:生物:菌丝
   to: concept:生物:真菌的繁殖方式
 - from: concept:生物:膳食纤维
   to: concept:生物:营养物质的吸收
-- from: concept:生物:出芽生殖
-  to: concept:生物:营养生殖
 - from: concept:英语:告别语
   to: concept:英语:问候语
-- from: concept:英语:简单过去时
-  to: concept:英语:一般过去时
-- from: concept:英语:形容词比较级和最高级
-  to: concept:英语:Comparatives and superlatives
 - from: concept:英语:Allergy
   to: concept:英语:Germs
-- from: concept:英语:短语学习
-  to: concept:英语:短语搭配
 - from: concept:语文:敬辞与谦辞
   to: concept:语文:语境
 - from: concept:语文:建安风骨
@@ -28766,10 +28752,6 @@
   to: concept:化学:防止铁锈蚀的方法
 - from: concept:化学:固体试剂的取用
   to: concept:化学:化学实验常用仪器
-- from: concept:化学:氧气的物理性质
-  to: concept:化学:氧气的用途
-- from: concept:化学:氮气的性质与用途
-  to: concept:化学:稀有气体的性质与用途
 - from: concept:化学:控制变量法
   to: concept:化学:对比实验
 - from: concept:化学:归纳法
@@ -28778,8 +28760,6 @@
   to: concept:化学:化合价规则
 - from: concept:化学:实验室制取气体的方法
   to: concept:化学:发生装置的选择
-- from: concept:化学:氢气的可燃性
-  to: concept:化学:氢气的爆炸极限
 - from: concept:化学:氢气的热值
   to: concept:化学:氢气的可燃性
 - from: concept:化学:新型陶瓷
@@ -28802,8 +28782,6 @@
   to: concept:化学:燃烧条件
 - from: concept:化学:煤的综合利用
   to: concept:化学:化石燃料
-- from: concept:化学:溶解过程
-  to: concept:化学:溶解时的吸热或放热现象
 - from: concept:化学:溶解性等级
   to: concept:化学:溶解度
 - from: concept:化学:浓硫酸的稀释方法
@@ -28832,11 +28810,7 @@
   to: concept:化学:金属活动性顺序
 - from: concept:化学:配制一定溶质质量分数的溶液
   to: concept:化学:溶质的质量分数
-- from: concept:化学:碳酸钙与碳酸氢钙的转化
-  to: concept:化学:碳酸盐的检验
 - from: concept:化学:酸和碱的解离
-  to: concept:化学:酸的通性
-- from: concept:化学:酸碱指示剂
   to: concept:化学:酸的通性
 - from: concept:化学:稳定性
   to: concept:化学:溶液
@@ -28854,3 +28828,21 @@
   to: concept:历史:科学技术是第一生产力
 - from: concept:历史:《凡尔赛条约》
   to: concept:历史:第一次世界大战
+- from: concept:历史:儒家学派
+  to: concept:历史:为政以德
+- from: concept:历史:会通河和通惠河
+  to: concept:历史:隋朝大运河
+- from: concept:历史:元曲
+  to: concept:历史:关汉卿
+- from: concept:历史:人民游击战争
+  to: concept:历史:八路军
+- from: concept:历史:人民生活总体达到小康
+  to: concept:历史:全方位多层次宽领域对外开放格局
+- from: concept:历史:全方位外交
+  to: concept:历史:全方位对外开放新格局
+- from: concept:历史:全方位多层次宽领域对外开放格局
+  to: concept:历史:全方位对外开放新格局
+- from: concept:历史:信息化战争
+  to: concept:历史:军事战略方针
+- from: concept:历史:人民游击战争
+  to: concept:历史:中国共产党是全民族抗战的中流砥柱

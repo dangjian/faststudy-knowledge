@@ -238,8 +238,6 @@
   to: concept:历史:陶器
 - from: concept:历史:三星堆遗址
   to: concept:历史:陶器
-- from: concept:历史:儒家学派
-  to: concept:历史:为政以德
 - from: concept:历史:商朝的建立
   to: concept:历史:商朝的统治
 - from: concept:历史:分封制瓦解
@@ -300,8 +298,6 @@
   to: concept:历史:元朝的统治
 - from: concept:历史:元朝疆域
   to: concept:历史:元朝的统治
-- from: concept:历史:会通河和通惠河
-  to: concept:历史:隋朝大运河
 - from: concept:历史:元朝统一
   to: concept:历史:元朝的统治
 - from: concept:历史:北宋的建立
@@ -312,8 +308,6 @@
   to: concept:历史:北宋的政治
 - from: concept:历史:分化事权
   to: concept:历史:北宋的政治
-- from: concept:历史:元曲
-  to: concept:历史:关汉卿
 - from: concept:历史:四等人制
   to: concept:历史:元朝的统治
 - from: concept:历史:北庭都元帅府
@@ -574,8 +568,6 @@
   to: concept:历史:七七事变
 - from: concept:历史:八路军
   to: concept:历史:国共合作宣言
-- from: concept:历史:人民游击战争
-  to: concept:历史:八路军
 - from: concept:历史:伪满洲国
   to: concept:历史:九一八事变
 - from: concept:历史:姚子青
@@ -692,14 +684,8 @@
   to: concept:历史:中国参与联合国维和行动
 - from: concept:历史:五个一工程
   to: concept:历史:社会主义精神文明建设
-- from: concept:历史:人民生活总体达到小康
-  to: concept:历史:全方位多层次宽领域对外开放格局
 - from: concept:历史:依法治国
   to: concept:历史:社会主义民主法制建设
-- from: concept:历史:全方位外交
-  to: concept:历史:全方位对外开放新格局
-- from: concept:历史:全方位多层次宽领域对外开放格局
-  to: concept:历史:全方位对外开放新格局
 - from: concept:历史:公民道德建设实施纲要
   to: concept:历史:社会主义精神文明建设
 - from: concept:历史:兴边富民行动
@@ -748,8 +734,6 @@
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:京津城际铁路
   to: concept:历史:全面建设小康社会目标
-- from: concept:历史:信息化战争
-  to: concept:历史:军事战略方针
 - from: concept:历史:公共文化服务体系
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:脱贫攻坚战全面胜利
@@ -6871,8 +6855,6 @@
 - from: concept:历史:京汉铁路工人大罢工
   to: concept:历史:第一次工人运动高潮
 - from: concept:历史:八路军
-  to: concept:历史:中国共产党是全民族抗战的中流砥柱
-- from: concept:历史:人民游击战争
   to: concept:历史:中国共产党是全民族抗战的中流砥柱
 - from: concept:历史:中国远征军
   to: concept:历史:世界反法西斯战争的东方主战场
