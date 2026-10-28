@@ -674,12 +674,6 @@
   to: concept:地理:气候
 - from: concept:地理:气温年变化曲线图
   to: concept:地理:气温年变化
-- from: concept:地理:秦岭—淮河线
-  to: concept:地理:温度带
-- from: concept:地理:等温线
-  to: concept:地理:气温年变化
-- from: concept:地理:长江的开发与治理
-  to: concept:地理:长江概况
 - from: concept:地理:长江经济带
   to: concept:地理:长江的开发与治理
 - from: concept:地理:降水量柱状图
@@ -698,8 +692,6 @@
   to: concept:地理:蓝天碧水净土保卫战
 - from: concept:地理:高速铁路列车
   to: concept:地理:高速铁路
-- from: concept:地理:长芦盐场
-  to: concept:地理:重点海域综合治理
 - from: concept:地理:台风
   to: concept:地理:气象灾害
 - from: concept:地理:寒潮
@@ -724,16 +716,12 @@
   to: concept:地理:北京市域空间结构
 - from: concept:地理:北京的世界文化遗产
   to: concept:地理:北京的历史文化传统
-- from: concept:地理:防灾减灾体系
-  to: concept:地理:自然灾害
 - from: concept:地理:四川省的交通
   to: concept:地理:四川省的经济
 - from: concept:地理:四川省的经济发展差异
   to: concept:地理:四川省的经济
 - from: concept:地理:四川省的自然灾害
   to: concept:地理:自然灾害
-- from: concept:地理:雄安新区
-  to: concept:地理:北京市域空间结构
 - from: concept:地理:世界第一大洲
   to: concept:地理:七大洲
 - from: concept:地理:北冰洋
@@ -758,12 +746,6 @@
   to: concept:地理:板块构造学说
 - from: concept:地理:泛大洋
   to: concept:地理:大陆漂移说
-- from: concept:地理:非洲
-  to: concept:地理:海陆分布特点
-- from: concept:地理:苏伊士运河
-  to: concept:地理:海陆分布特点
-- from: concept:地理:陆地地形类型
-  to: concept:地理:海陆分布特点
 - from: concept:地理:海陆面积比例
   to: concept:地理:海陆分布特点
 - from: concept:地理:陆半球和水半球
@@ -772,8 +754,6 @@
   to: concept:地理:昼夜长短变化
 - from: concept:地理:六大板块
   to: concept:地理:地壳运动
-- from: concept:地理:纬度位置对气温的影响
-  to: concept:地理:纬度因素对气温的影响
 - from: concept:地理:亚热带季风和亚热带湿润气候
   to: concept:地理:世界气候类型分布
 - from: concept:地理:地中海气候
@@ -988,22 +968,8 @@
   to: concept:数学:乘方
 - from: concept:数学:指数
   to: concept:数学:乘方
-- from: concept:数学:倒数
-  to: concept:数学:有理数除法法则
 - from: concept:数学:除以一个数等于乘这个数的倒数
   to: concept:数学:有理数除法法则
-- from: concept:数学:加法交换律
-  to: concept:数学:有理数加法法则
-- from: concept:数学:加法结合律
-  to: concept:数学:有理数加法法则
-- from: concept:数学:乘法交换律
-  to: concept:数学:有理数乘法法则
-- from: concept:数学:乘法结合律
-  to: concept:数学:有理数乘法法则
-- from: concept:数学:乘法对加法的分配律
-  to: concept:数学:有理数乘法法则
-- from: concept:数学:乘法分配律
-  to: concept:数学:有理数乘法法则
 - from: concept:数学:正数和负数
   to: concept:数学:有理数大小比较
 - from: concept:数学:科学记数法
@@ -1068,8 +1034,6 @@
   to: concept:数学:整式的乘法
 - from: concept:数学:积的乘方
   to: concept:数学:整式的乘法
-- from: concept:数学:余角
-  to: concept:数学:互余的角
 - from: concept:数学:相遇问题
   to: concept:数学:行程问题
 - from: concept:数学:追及问题
@@ -1104,8 +1068,6 @@
   to: concept:数学:整式的乘法
 - from: concept:数学:补角
   to: concept:数学:余角与补角
-- from: concept:数学:互补的角
-  to: concept:数学:补角
 - from: concept:数学:同位角
   to: concept:数学:同位角、内错角、同旁内角
 - from: concept:数学:内错角
@@ -1122,8 +1084,6 @@
   to: concept:数学:相交线
 - from: concept:数学:平行线的判定定理
   to: concept:数学:平行线的性质定理
-- from: concept:数学:不可能事件
-  to: concept:数学:随机事件
 - from: concept:数学:概率的取值范围
   to: concept:数学:概率
 - from: concept:数学:概率的古典定义
@@ -1228,8 +1188,6 @@
   to: concept:数学:变量之间关系的表示方法
 - from: concept:数学:表格法
   to: concept:数学:用表格表示变量之间的关系
-- from: concept:数学:匀速运动
-  to: concept:数学:速度
 - from: concept:数学:勾股定理的逆定理
   to: concept:数学:勾股定理
 - from: concept:数学:勾股定理的应用
@@ -1240,8 +1198,6 @@
   to: concept:数学:勾股定理
 - from: concept:数学:勾、股、弦
   to: concept:数学:勾股定理
-- from: concept:数学:二次根式的乘法公式
-  to: concept:数学:二次根式的乘法法则
 - from: concept:数学:二次根式的混合运算
   to: concept:数学:二次根式的运算
 - from: concept:数学:二次根式的乘除法则
@@ -1313,8 +1269,6 @@
 - from: concept:数学:工程问题
   to: concept:数学:一元一次方程的应用
 - from: concept:数学:行程问题
-  to: concept:数学:一元一次方程的应用
-- from: concept:数学:列方程解应用题
   to: concept:数学:一元一次方程的应用
 - from: concept:数学:用一元一次方程解决实际问题的一般步骤
   to: concept:数学:一元一次方程的应用
@@ -1390,17 +1344,9 @@
   to: concept:数学:消元法
 - from: concept:数学:消元法
   to: concept:数学:解方程组的基本思路
-- from: concept:数学:二元一次方程与一次函数的关系
-  to: concept:数学:一次函数图象与二元一次方程组的解的关系
 - from: concept:数学:列二元一次方程组解决实际问题的一般步骤
   to: concept:数学:列二元一次方程组解应用题
-- from: concept:数学:列二元一次方程组解应用题
-  to: concept:数学:二元一次方程组的应用
 - from: concept:数学:加权平均数
-  to: concept:数学:平均数
-- from: concept:数学:中位数
-  to: concept:数学:平均数
-- from: concept:数学:众数
   to: concept:数学:平均数
 - from: concept:数学:四分位数
   to: concept:数学:平均数
@@ -1440,8 +1386,6 @@
   to: concept:数学:命题
 - from: concept:数学:命题的证明
   to: concept:数学:命题
-- from: concept:数学:公理
-  to: concept:数学:基本事实
 - from: concept:数学:定理
   to: concept:数学:命题
 - from: concept:数学:对顶角相等
@@ -1534,8 +1478,6 @@
   to: concept:数学:旋转
 - from: concept:数学:旋转角
   to: concept:数学:旋转
-- from: concept:数学:公式法
-  to: concept:数学:公因式
 - from: concept:数学:公式法因式分解
   to: concept:数学:因式分解
 - from: concept:数学:提公因式法
@@ -1548,8 +1490,6 @@
   to: concept:数学:分式
 - from: concept:数学:分式的除法法则
   to: concept:数学:分式
-- from: concept:数学:分式的通分
-  to: concept:数学:分式的基本性质
 - from: concept:数学:分式方程
   to: concept:数学:分式
 - from: concept:数学:分式比较大小
@@ -1598,8 +1538,6 @@
   to: concept:数学:定理
 - from: concept:数学:三角形外角大于不相邻内角
   to: concept:数学:定理
-- from: concept:数学:互逆命题
-  to: concept:数学:真命题
 - from: concept:数学:三角形全等的判定
   to: concept:数学:定理
 - from: concept:数学:平行线
@@ -1686,10 +1624,6 @@
   to: concept:数学:用树状图或表格求概率
 - from: concept:数学:用表格求概率
   to: concept:数学:用树状图或表格求概率
-- from: concept:数学:三边成比例的两个三角形相似
-  to: concept:数学:两边成比例且夹角相等的两个三角形相似
-- from: concept:数学:两角分别相等的两个三角形相似
-  to: concept:数学:两边成比例且夹角相等的两个三角形相似
 - from: concept:数学:反比例函数与一次函数的综合应用
   to: concept:数学:一次函数与反比例函数图象的交点
 - from: concept:数学:反比例函数的图象
@@ -1710,8 +1644,6 @@
   to: concept:数学:仰角与俯角
 - from: concept:数学:利用三角函数测高
   to: concept:数学:三角函数的应用
-- from: concept:数学:三角函数
-  to: concept:数学:锐角三角函数
 - from: concept:数学:三角函数的应用
   to: concept:数学:三角函数
 - from: concept:数学:正切
@@ -1772,14 +1704,6 @@
   to: concept:数学:二次函数
 - from: concept:数学:抛物线
   to: concept:数学:二次函数
-- from: concept:数学:三角形的外接圆
-  to: concept:数学:三角形的内切圆
-- from: concept:数学:劣弧
-  to: concept:数学:半圆
-- from: concept:数学:切线的判定定理
-  to: concept:数学:切线的性质定理
-- from: concept:数学:切线长定理
-  to: concept:数学:切线的性质定理
 - from: concept:数学:圆周角定理
   to: concept:数学:圆周角
 - from: concept:数学:圆心角定理
@@ -5228,8 +5152,6 @@
   to: concept:数学:一次函数的图象与性质
 - from: concept:数学:k值对函数图象倾斜程度的影响
   to: concept:数学:k和b对一次函数图象的影响
-- from: concept:数学:一次函数图象与正比例函数图象的关系
-  to: concept:数学:正比例函数的图象
 - from: concept:数学:一次函数的增减性
   to: concept:数学:一次函数的图象与性质
 - from: concept:数学:一次函数的性质
@@ -5246,8 +5168,6 @@
   to: concept:数学:二元一次方程组
 - from: concept:数学:二元一次方程组的应用
   to: concept:数学:二元一次方程组
-- from: concept:数学:二元一次方程与一次函数的关系
-  to: concept:数学:二元一次方程组
 - from: concept:数学:一次函数图象与二元一次方程组的解的关系
   to: concept:数学:二元一次方程组
 - from: concept:数学:中位数
@@ -5258,8 +5178,6 @@
   to: concept:数学:箱线图
 - from: concept:数学:三个角都相等的三角形是等边三角形
   to: concept:数学:等边三角形的判定
-- from: concept:数学:三角形三边垂直平分线的性质
-  to: concept:数学:线段垂直平分线的性质定理
 - from: concept:数学:三角形外角大于不相邻内角
   to: concept:数学:三角形外角定理
 - from: concept:数学:不等式的基本性质
@@ -5338,8 +5256,6 @@
   to: concept:数学:全等三角形
 - from: concept:数学:利用关系式求值
   to: concept:数学:关系式
-- from: concept:数学:从图象获取信息
-  to: concept:数学:用图象表示变量之间的关系
 - from: concept:数学:关系式法
   to: concept:数学:关系式
 - from: concept:数学:勾、股、弦
@@ -5387,8 +5303,6 @@
 - from: concept:数学:二次函数的对称轴
   to: concept:数学:二次函数的图象
 - from: concept:数学:二次函数的顶点
-  to: concept:数学:二次函数的图象
-- from: concept:数学:利用二次函数图象求一元二次方程的近似根
   to: concept:数学:二次函数的图象
 - from: concept:数学:二次函数的增减性
   to: concept:数学:二次函数的性质
@@ -8324,19 +8238,13 @@
   to: concept:地理:板块构造学说
 - from: concept:地理:海陆因素对气温的影响
   to: concept:地理:世界气温分布规律
-- from: concept:地理:纬度因素对气温的影响
-  to: concept:地理:世界气温分布规律
 - from: concept:地理:地形对气温的影响
   to: concept:地理:世界气温分布规律
 - from: concept:地理:洋流对气温的影响
   to: concept:地理:世界气温分布规律
 - from: concept:地理:海陆位置对气温的影响
   to: concept:地理:世界气温分布规律
-- from: concept:地理:纬度位置对气温的影响
-  to: concept:地理:世界气温分布规律
 - from: concept:地理:海陆位置对降水的影响
-  to: concept:地理:世界降水分布规律
-- from: concept:地理:纬度位置对降水的影响
   to: concept:地理:世界降水分布规律
 - from: concept:地理:热带气候类型
   to: concept:地理:世界气候类型分布
@@ -8378,8 +8286,6 @@
   to: concept:地理:地球仪
 - from: concept:地理:图例
   to: concept:地理:地图
-- from: concept:地理:黄河水患的治理措施
-  to: concept:地理:小浪底水利枢纽工程
 - from: concept:地理:地震
   to: concept:地理:地质灾害
 - from: concept:地理:地球自转的周期
@@ -8422,8 +8328,6 @@
   to: concept:地理:四大地理区域
 - from: concept:地理:青藏地区
   to: concept:地理:四大地理区域
-- from: concept:地理:长江的开发与治理
-  to: concept:地理:长江三峡水利枢纽工程
 - from: concept:地理:洪涝灾害
   to: concept:地理:自然灾害
 - from: concept:地理:海陆变迁的证据
@@ -8528,8 +8432,6 @@
   to: concept:数学:数轴
 - from: concept:数学:普查
   to: concept:数学:收集数据的方法
-- from: concept:数学:加减混合运算
-  to: concept:数学:有理数加减混合运算
 - from: concept:数学:比较100以内数的大小
   to: concept:数学:有理数大小比较
 - from: concept:数学:混合运算的运算顺序
@@ -9382,3 +9284,9 @@
   to: concept:历史:半殖民地半封建社会
 - from: concept:历史:隋炀帝的暴政
   to: concept:历史:隋朝的灭亡
+- from: concept:数学:列方程解应用题
+  to: concept:数学:一元一次方程的应用
+- from: concept:地理:纬度位置对气温的影响
+  to: concept:地理:纬度因素对气温的影响
+- from: concept:地理:纬度因素对气温的影响
+  to: concept:地理:世界气温分布规律
