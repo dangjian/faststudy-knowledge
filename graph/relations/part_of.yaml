@@ -1,7 +1,3 @@
-- from: concept:化学:固体试剂的取用
-  to: concept:化学:化学实验常用仪器
-- from: concept:化学:玻璃仪器的洗涤
-  to: concept:化学:化学实验常用仪器
 - from: concept:化学:给物质加热
   to: concept:化学:化学实验常用仪器
 - from: concept:化学:酒精灯使用注意事项
@@ -36,14 +32,8 @@
   to: concept:化学:原子结构
 - from: concept:化学:电子云模型
   to: concept:化学:原子结构
-- from: concept:化学:氧气的物理性质
-  to: concept:化学:氧气的用途
-- from: concept:化学:氮气的性质与用途
-  to: concept:化学:稀有气体的性质与用途
 - from: concept:化学:电解水实验
   to: concept:化学:水的组成
-- from: concept:化学:混合物
-  to: concept:化学:物质由微观粒子构成
 - from: concept:化学:物理变化与化学变化中分子的变化
   to: concept:化学:物质由微观粒子构成
 - from: concept:化学:中子
@@ -76,8 +66,6 @@
   to: concept:化学:氧气的实验室制法
 - from: concept:化学:沉淀法
   to: concept:化学:水的净化方法
-- from: concept:化学:沉淀
-  to: concept:化学:沉淀法
 - from: concept:化学:水的净化方法
   to: concept:化学:水的净化
 - from: concept:化学:自来水生产过程
@@ -88,24 +76,14 @@
   to: concept:化学:氧化反应
 - from: concept:化学:自燃
   to: concept:化学:燃烧
-- from: concept:化学:爆炸
-  to: concept:化学:燃烧
 - from: concept:化学:爆炸极限
   to: concept:化学:爆炸
-- from: concept:化学:灭火原理
-  to: concept:化学:燃烧条件
-- from: concept:化学:控制变量法
-  to: concept:化学:对比实验
-- from: concept:化学:归纳法
-  to: concept:化学:对比实验
 - from: concept:化学:过滤法
   to: concept:化学:过滤
 - from: concept:化学:最小公倍数法
   to: concept:化学:化学方程式的配平
 - from: concept:化学:根据化合价写化学式
   to: concept:化学:化合物化学式的书写
-- from: concept:化学:根据化学式求化合价
-  to: concept:化学:化合价规则
 - from: concept:化学:化学方程式的配平
   to: concept:化学:化学方程式
 - from: concept:化学:化学计量数
@@ -146,16 +124,8 @@
   to: concept:化学:化石燃料
 - from: concept:化学:天然气
   to: concept:化学:化石燃料
-- from: concept:化学:煤的综合利用
-  to: concept:化学:化石燃料
 - from: concept:化学:可燃冰
   to: concept:化学:化石燃料
-- from: concept:化学:实验室制取气体的方法
-  to: concept:化学:发生装置的选择
-- from: concept:化学:氢气的可燃性
-  to: concept:化学:氢气的爆炸极限
-- from: concept:化学:氢气的热值
-  to: concept:化学:氢气的可燃性
 - from: concept:化学:合金的导热性
   to: concept:化学:合金
 - from: concept:化学:合金的熔点
@@ -196,11 +166,7 @@
   to: concept:化学:溶液的组成
 - from: concept:化学:溶质
   to: concept:化学:溶液的组成
-- from: concept:化学:溶解过程
-  to: concept:化学:溶解时的吸热或放热现象
 - from: concept:化学:溶解度曲线
-  to: concept:化学:溶解度
-- from: concept:化学:溶解性等级
   to: concept:化学:溶解度
 - from: concept:化学:溶解速率的影响因素
   to: concept:化学:溶解过程
@@ -222,16 +188,12 @@
   to: concept:化学:复分解反应
 - from: concept:化学:氢氧化钠的变质
   to: concept:化学:氢氧化钠
-- from: concept:化学:浓硫酸的稀释方法
-  to: concept:化学:浓硫酸的特性
 - from: concept:化学:浓硫酸的腐蚀性
   to: concept:化学:浓硫酸的特性
 - from: concept:化学:常见物质的pH
   to: concept:化学:溶液的酸碱度与pH
 - from: concept:化学:pH与生命活动
   to: concept:化学:溶液的酸碱度与pH
-- from: concept:化学:盐酸的挥发性
-  to: concept:化学:酸的通性
 - from: concept:化学:碱与盐的反应
   to: concept:化学:碱的化学性质
 - from: concept:化学:碱与非金属氧化物的反应
@@ -268,8 +230,6 @@
   to: concept:化学:有机合成材料
 - from: concept:化学:氢燃料电池
   to: concept:化学:化学电池
-- from: concept:化学:新型陶瓷
-  to: concept:化学:传统无机非金属材料
 - from: concept:历史:彩陶
   to: concept:历史:陶器
 - from: concept:历史:新石器时代
@@ -8840,8 +8800,6 @@
   to: concept:化学:结晶
 - from: concept:化学:化学方程式的书写
   to: concept:化学:化学方程式
-- from: concept:化学:澄清石灰水变浑浊的条件
-  to: concept:化学:二氧化碳的检验
 - from: concept:化学:化肥的种类和作用
   to: concept:化学:化学肥料
 - from: concept:化学:合成橡胶
@@ -8884,10 +8842,6 @@
   to: concept:化学:溶液
 - from: concept:化学:稳定性
   to: concept:化学:溶液
-- from: concept:化学:均一性
-  to: concept:化学:溶液
-- from: concept:化学:均一性和稳定性
-  to: concept:化学:溶液
 - from: concept:化学:吸热现象
   to: concept:化学:溶解时的吸热或放热现象
 - from: concept:化学:放热现象
@@ -8922,8 +8876,6 @@
   to: concept:化学:有机物
 - from: concept:化学:麻黄碱
   to: concept:化学:有机物
-- from: concept:化学:氧气的实验室制法
-  to: concept:化学:高锰酸钾制取氧气
 - from: concept:化学:燃烧条件
   to: concept:化学:燃烧
 - from: concept:化学:过滤
