@@ -1557,6 +1557,8 @@
   aliases: []
   category: 观点
   explanation: 任何技术的背后都有科学原理支撑，工具和技术的发展是相互促进的，它们的不断改进共同推动着社会的发展。
+  misconceptions:
+    - 误认为技术只靠经验积累，实际任何技术背后都有科学原理支撑，工具与技术相互促进。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:工具的发展变化
   type: Concept
@@ -1566,6 +1568,8 @@
   aliases: []
   category: 概念
   explanation: 从古至今，工具在不断发展和改进，比如从毛笔到钢笔、从扁担背篼到手推车。不同的工具材料和作用不同，适用于不同的场景。
+  misconceptions:
+    - 误认为工具从古到今基本一样，实际从毛笔到钢笔、从扁担背篼到手推车，用途不同工具也不同。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S1.md
 - id: concept:科学:工程的限制条件
   type: Concept
@@ -1576,6 +1580,8 @@
     - 限制条件
   category: 概念
   explanation: 工程要在时间、费用、材料、环境等条件的限制下完成，设计时要同时满足这些要求和约束。
+  misconceptions:
+    - 误认为工程只要做出来就算成功，实际要在时间、费用、材料、环境等限制下同时满足要求。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S2.md
 - id: concept:科学:工程要考虑的因素
   type: Concept
@@ -1585,6 +1591,8 @@
   aliases: []
   category: 概念
   explanation: 设计一项工程要考虑建在哪里、用什么材料、成本多少、是否安全稳固等因素，要兼顾实用和节省。
+  misconceptions:
+    - 误认为只要结实就行，实际还要考虑建在哪里、用什么材料、成本多少、是否安全稳固。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:工程设计的基本步骤
   type: Concept
@@ -1594,6 +1602,8 @@
   aliases: []
   category: 方法
   explanation: 完成一项工程任务的基本步骤是：明确任务、制订方案、实施方案、测试与改进、展示与交流。根据测试结果要不断调整改进作品。
+  misconceptions:
+    - 误认为直接动手做即可，实际要按明确任务、制订方案、实施方案、测试与改进、展示的顺序进行。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S6.md
 - id: concept:科学:常见材料
   type: Concept
@@ -1603,6 +1613,8 @@
   aliases: []
   category: 概念
   explanation: 我们身边的物品常用金属、塑料、玻璃、布、纸、木、陶瓷等材料做成，有的物品还组合了几种材料。
+  misconceptions:
+    - 误认为一件物品只用一种材料，实际常常同时用到金属、塑料、玻璃、布、纸、木、陶瓷等多种材料。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:常见的岩石
   type: Concept
@@ -1613,6 +1625,8 @@
     - 花岗岩、砂岩、大理岩
   category: 概念
   explanation: 花岗岩、砂岩和大理岩是三种常见的岩石。它们在颜色、颗粒、光泽、软硬等特征上各不相同，观察这些特征就能区分和描述岩石。
+  misconceptions:
+    - 误认为岩石都差不多，实际花岗岩、砂岩、大理岩在颜色、颗粒、光泽和软硬上各不相同。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C3/sections/S2.md
 - id: concept:科学:平衡膳食
   type: Concept
@@ -1623,6 +1637,8 @@
     - 营养均衡
   category: 概念
   explanation: 每天要参照平衡膳食宝塔合理搭配食物，谷类、蔬菜水果、肉蛋奶等按合适的比例食用，营养才均衡。
+  misconceptions:
+    - 误认为多吃肉更有营养，实际要参照平衡膳食宝塔的比例搭配谷类、蔬菜水果和肉蛋奶。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:开关的作用
   type: Concept
@@ -1632,6 +1648,8 @@
   aliases: []
   category: 概念
   explanation: 开关连在电路里，可以控制电流的通和断：接通开关，电流通过，用电器工作；断开开关，电流中断，用电器停止工作。
+  misconceptions:
+    - 误认为开关只是配件，实际它控制电流的通与断，断开时用电器就停止工作。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:弹力
   type: Concept
@@ -1641,6 +1659,8 @@
   aliases: []
   category: 概念
   explanation: 物体受到外力时形状会发生改变，这时它会产生一个要恢复原来形状的力，这个力叫弹力。橡皮筋缠绕圈数越多，拉伸越长，弹力越大。
+  misconceptions:
+    - 误认为只有弹簧才有弹力，实际物体受力变形后要恢复原来形状时都会产生弹力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:弹簧测力计
   type: Concept
@@ -1650,6 +1670,8 @@
   aliases: []
   category: 概念
   explanation: 弹簧测力计是测量力的大小的工具，由提环、弹簧、指针和刻度组成。拉力越大，弹簧伸得越长，指针示数越大，但用力不能超过它的测量范围。
+  misconceptions:
+    - 误认为刻度是随意标定的，实际拉力越大弹簧伸得越长，据此读出力的大小。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S4.md
 - id: concept:科学:影响摆动快慢的因素
   type: Concept
@@ -1659,6 +1681,8 @@
   aliases: []
   category: 概念
   explanation: 摆的快慢与摆绳长度有关，摆绳越长摆动越慢、越短越快；与摆锤质量无关。可以据此调试出 1 分钟摆动 60 次的摆。
+  misconceptions:
+    - 误认为摆锤越重摆得越快，实际摆的快慢只与摆绳长度有关，与摆锤质量无关。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S6.md
 - id: concept:科学:影响生长发育的因素
   type: Concept
@@ -1668,6 +1692,8 @@
   aliases: []
   category: 概念
   explanation: 遗传、饮食习惯、运动、睡眠等都会影响我们的生长发育。
+  misconceptions:
+    - 误认为身高只由遗传决定，实际饮食习惯、运动、睡眠同样影响生长发育。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:影子的变化规律
   type: Concept
@@ -1678,6 +1704,8 @@
     - 一天中影子的变化
   category: 现象
   explanation: 一天中，太阳的位置在不断变化，阳光下物体的影子也会跟着变化：影子总是在背着太阳的一侧，方向和长短都随时间有规律地改变。
+  misconceptions:
+    - 误认为影子固定不动，实际太阳位置变化影子也随之变化，且总在背光的一侧。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:影子的形成
   type: Concept
@@ -1688,6 +1716,8 @@
     - 影子是怎样形成的
   category: 现象
   explanation: 光照射到不透明的物体上，光被挡住，物体背光的一侧就会形成影子。产生影子需要光、物体和挡住光的条件。
+  misconceptions:
+    - 误认为有光就有影子，实际需要光被不透明物体挡住才会形成影子。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S6.md
 - id: concept:科学:影长的四季变化
   type: Concept
@@ -1697,6 +1727,8 @@
   aliases: []
   category: 现象
   explanation: 一年中正午影长有规律地变化：夏至太阳最高、影长最短，冬至太阳最低、影长最长，与太阳高度有关。
+  misconceptions:
+    - 误认为一年中正午影长不变，实际夏至最短、冬至最长，春秋居中。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:微生物
   type: Concept
@@ -1706,6 +1738,8 @@
   aliases: []
   category: 概念
   explanation: 微生物是个体非常微小、要用显微镜才能看到的生物，包括酵母菌、霉菌、细菌、病毒等。有些微生物能帮我们制造食品、处理垃圾，有些却会让食物霉变、引起疾病。
+  misconceptions:
+    - 误认为微生物都是有害的细菌，实际包括酵母菌、霉菌、细菌、病毒等，要用显微镜才能看到。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S7.md
 - id: concept:科学:恐龙化石
   type: Concept
@@ -1716,6 +1750,8 @@
     - 恐龙足迹化石
   category: 概念
   explanation: 恐龙化石是很久以前留下的恐龙骨骼或足迹，被大自然保存下来。科学家通过研究化石，可以知道恐龙的样子、怎么走路、怎么生活。
+  misconceptions:
+    - 误认为化石是完整的恐龙遗骸，实际多是骨骼或足迹，科学家据此推测恐龙的样貌和生活。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S9.md
 - id: concept:科学:情绪
   type: Concept
@@ -1725,6 +1761,8 @@
   aliases: []
   category: 概念
   explanation: 人有快乐、愤怒、悲伤、恐惧等情绪，情绪会影响健康；遇到过度紧张等情绪问题时，要学会调节并向他人求助。
+  misconceptions:
+    - 误认为情绪与健康无关，实际情绪会影响健康，遇到过度紧张等问题需要及时调节。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S6.md
 - id: concept:科学:感觉器官
   type: Concept
@@ -1735,6 +1773,8 @@
     - 感官
   category: 概念
   explanation: 眼睛、耳朵、鼻子、舌头和皮肤是我们的感觉器官。在玩游戏时，它们帮助我们看、听、闻、摸，作出反应。
+  misconceptions:
+    - 误认为感觉全靠大脑，实际眼睛、耳朵、鼻子、舌头和皮肤才是感觉器官。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C2/sections/S3.md
 - id: concept:科学:我国农具的发展
   type: Concept
@@ -1744,6 +1784,8 @@
   aliases: []
   category: 文化常识
   explanation: 我国农具从原始的石斧、木棒，发展到磨制的石镰，再到铁制农具和牛耕，如今有了先进的农业机械。农具的改进让农业生产效率不断提高。
+  misconceptions:
+    - 误认为农具一直是铁制的，实际从石斧、木棒到石镰、铁制农具和牛耕，如今已有现代农业机械。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:拉力
   type: Concept
@@ -1753,6 +1795,8 @@
   aliases: []
   category: 概念
   explanation: 朝自己身边方向用力叫拉力，比如拉动小车、拉开门。
+  misconceptions:
+    - 误认为推和拉是同一种力，实际朝自己身边方向用力叫拉力。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:拼接化石的方法
   type: Concept
@@ -1762,6 +1806,8 @@
   aliases: []
   category: 方法
   explanation: 先按形状给骨骼化石分类，想一想它属于身体的哪个部位，再对照图片把骨骼拼起来，拼好后还要检查和调整。
+  misconceptions:
+    - 误认为把骨骼随便拼起来就行，实际要先按形状分类、判断属于身体哪个部位，再对照图片拼装。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C1/sections/S4.md
 - id: concept:科学:指南针的使用方法
   type: Concept
@@ -1771,6 +1817,8 @@
   aliases: []
   category: 方法
   explanation: 把指南针放平，等磁针静止后，转动刻度盘让南北方向和磁针一致，刻度盘上的方向就是实际的方向。红色磁针一端指北，白色一端指南。
+  misconceptions:
+    - 误认为拿起来就能读数，实际要放平、等磁针静止，再转动刻度盘让南北方向与磁针一致。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C1/sections/S8.md
 - id: concept:科学:振动
   type: Concept
@@ -1781,6 +1829,8 @@
     - 物体振动
   category: 概念
   explanation: 振动是物体不断重复做往复运动的状态。拨动的橡皮筋、敲响的鼓面都在振动。
+  misconceptions:
+    - 误认为振动就是整体晃动，实际是物体不断重复做往复运动，如拨动的橡皮筋、敲响的鼓面。
   sourceRef: content/四年级/上册/科学/ES-4-1-Science/chapters/C3/sections/S1.md
 - id: concept:科学:推力
   type: Concept
@@ -1790,6 +1840,8 @@
   aliases: []
   category: 概念
   explanation: 把物体往外推出去的力叫推力，比如推动小车、推开门。
+  misconceptions:
+    - 误认为推力是往自己方向用力，实际把物体往外推出去的力叫推力。
   sourceRef: content/二年级/下册/科学/ES-2-2-Science/chapters/C2/sections/S3.md
 - id: concept:科学:摄氏度
   type: Concept
@@ -1800,6 +1852,8 @@
     - ℃
   category: 概念
   explanation: 摄氏度是常用的温度单位，用符号℃表示。比如38℃读作三十八摄氏度，-4℃读作零下四摄氏度。
+  misconceptions:
+    - 误认为 0℃ 表示没有温度，实际摄氏度是温度单位，-4℃ 表示零下四摄氏度。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:摆的等时性
   type: Concept
@@ -1810,6 +1864,8 @@
     - 单摆的等时性
   category: 法则
   explanation: 同一个摆来回摆动一次所用的时间相同；摆长越长周期越长，与摆球的质量无关。伽利略发现了这一规律，为摆钟的发明奠定了基础。
+  misconceptions:
+    - 误认为摆锤越重摆得越慢，实际同一个摆来回摆动一次的时间相同，与摆球质量无关。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S9.md
 - id: concept:科学:摆的运动特点
   type: Concept
@@ -1820,6 +1876,8 @@
     - 钟摆
   category: 概念
   explanation: 摆由摆绳和摆锤组成，同一个摆在相同时间内摆动的次数相同；摆幅会慢慢变小，但摆动的快慢不变。
+  misconceptions:
+    - 误认为摆幅变小后摆动会越来越快，实际同一时间内摆动次数不变，只是摆幅逐渐变小。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C4/sections/S5.md
 - id: concept:科学:摩擦力
   type: Concept
@@ -1829,6 +1887,8 @@
   aliases: []
   category: 概念
   explanation: 一个物体在另一个物体表面运动时，接触面会阻碍物体的运动，这种力叫摩擦力。接触面越粗糙、物体越重，摩擦力越大。
+  misconceptions:
+    - 误认为摩擦力总是有害，实际接触面粗糙程度不同摩擦力不同，有时恰恰需要增大摩擦力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S5.md
 - id: concept:科学:放大镜的放大原理
   type: Concept
@@ -1838,6 +1898,8 @@
   aliases: []
   category: 概念
   explanation: 放大镜的镜片是凸透镜，中央厚、边缘薄，能把物体的图像放大，让我们看清人眼不容易看清的细微之处。
+  misconceptions:
+    - 误认为任何玻璃都能放大，实际放大镜是中央厚、边缘薄的凸透镜。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:斜面
   type: Concept
@@ -1847,6 +1909,8 @@
   aliases: []
   category: 概念
   explanation: 斜面是像搭在货车上的长木板那样的简单机械，沿斜面把重物推上高处比直接提升省力。坡度越缓越省力，斜面越长坡度越缓。
+  misconceptions:
+    - 误认为直接把重物提上去更省力，实际沿斜面把重物推上高处比直接提升省力。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S4.md
 - id: concept:科学:日食
   type: Concept
@@ -1857,6 +1921,8 @@
     - 日蚀
   category: 现象
   explanation: 月球运行到太阳和地球之间，挡住太阳射向地球的光，就形成了日食。
+  misconceptions:
+    - 误认为日食是地球挡住了太阳，实际是月球运行到太阳和地球之间挡住了射向地球的阳光。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:昆虫的特征
   type: Concept
@@ -1867,6 +1933,8 @@
     - 昆虫的身体结构
   category: 概念
   explanation: 昆虫的身体分为头、胸、腹三部分，头部长有触角，胸部长有三对足。蚕蛾、蝴蝶、蚂蚁、蜻蜓都是昆虫，蜘蛛不是。
+  misconceptions:
+    - 误认为有翅膀的就是昆虫，实际昆虫身体要分头、胸、腹三部分，胸部有三对足和触角。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C2/sections/S6.md
 - id: concept:科学:星座
   type: Concept
@@ -1876,6 +1944,8 @@
   aliases: []
   category: 概念
   explanation: 人们把天空划分成不同的区域，根据星星的形态想象成形并命名，这些区域就是星座，全天共划分为 88 个星座。
+  misconceptions:
+    - 误认为同一星座的星星彼此靠得很近，实际只是从地球看去在同一区域，人们据此划分并命名。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C3/sections/S4.md
 - id: concept:科学:昼夜交替
   type: Concept
@@ -1885,6 +1955,8 @@
   aliases: []
   category: 现象
   explanation: 白昼和黑夜交替出现，可以提出不同的假说来解释，并借助地球模型做模拟实验来验证。
+  misconceptions:
+    - 误认为昼夜交替是太阳绕地球转造成的，实际可以用地球模型模拟自转来解释并验证。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C3/sections/S2.md
 - id: concept:科学:显微镜的放大原理
   type: Concept
@@ -1894,6 +1966,8 @@
   aliases: []
   category: 概念
   explanation: 一个凸透镜的放大倍数有限，把两个凸透镜平行重叠组合起来，可以把物体的图像放得更大更清晰，这就是显微镜的基本原理。
+  misconceptions:
+    - 误认为一个凸透镜就能把物体放得很大，实际要把两个凸透镜平行重叠组合才能放得更大。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:暴雨预警
   type: Concept
@@ -1904,6 +1978,8 @@
     - 暴雨预警信号
   category: 概念
   explanation: 暴雨到来之前，气象部门会发出预警，分为蓝色、黄色、橙色、红色四级，级别越高雨越大。收到预警要少外出，注意安全。
+  misconceptions:
+    - 误认为预警只有一种级别，实际分为蓝、黄、橙、红四级，级别越高雨势越强。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C1/sections/S4.md
 - id: concept:科学:曲线运动
   type: Concept
@@ -1913,6 +1989,8 @@
   aliases: []
   category: 概念
   explanation: 物体沿着弯曲路径的运动叫曲线运动，比如汽车转弯、荡秋千时的运动。
+  misconceptions:
+    - 误认为物体运动只能是直线，实际沿弯曲路径的运动叫曲线运动，如汽车转弯、荡秋千。
   sourceRef: content/三年级/上册/科学/ES-3-1-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月亮形状的变化
   type: Concept
@@ -1923,6 +2001,8 @@
     - 月亮圆缺变化
   category: 现象
   explanation: 月亮的形状每天都在变化，有时圆、有时弯，不是每天都能看见月亮。
+  misconceptions:
+    - 误认为月亮自己会变形，实际是月相变化，有时圆、有时弯，也不是每天都能看见。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S7.md
 - id: concept:科学:月球是地球的卫星
   type: Concept
@@ -1933,6 +2013,8 @@
     - 地球的卫星
   category: 概念
   explanation: 月球围绕着地球转动，是地球唯一的天然卫星。它自己不会发光，我们看到的月光是它反射的太阳光。
+  misconceptions:
+    - 误认为月球自己会发光，实际它围绕地球转动，是地球唯一的天然卫星，月光是它反射的太阳光。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月球表面的特点
   type: Concept
@@ -1943,6 +2025,8 @@
     - 月海
   category: 概念
   explanation: 月球表面没有水和大气，也没有生物，昼夜温差很大。表面有明有暗，暗色的斑块叫月海，其实是低洼的平原，并不是海。
+  misconceptions:
+    - 误认为月球和地球一样有水和空气，实际那里没有水和大气、没有生物，昼夜温差很大。
   sourceRef: content/三年级/下册/科学/ES-3-2-Science/chapters/C3/sections/S3.md
 - id: concept:科学:月球车的设计
   type: Concept
@@ -1952,6 +2036,8 @@
   aliases: []
   category: 概念
   explanation: 月球车的设计要适应月球的环境：轮子材料要耐高温抗低温，太阳翼能发电也能保温，还要防月尘、能爬坡越障。探月任务决定了月球车的模样。
+  misconceptions:
+    - 误认为月球车和普通车差不多，实际轮子材料要耐高温抗低温，太阳翼既能发电也能保温。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C3/sections/S8.md
 - id: concept:科学:木质茎和草质茎
   type: Concept
@@ -1963,6 +2049,8 @@
     - 草质茎
   category: 概念
   explanation: 茎秆坚硬、大部分由木质部组成的叫木质茎，如油松；茎柔软易折断、常呈绿色的叫草质茎，如狗尾草。
+  misconceptions:
+    - 误认为植物的茎都坚硬，实际油松等茎秆坚硬属木质茎，柔软易折断、常呈绿色的属草质茎。
   sourceRef: content/六年级/下册/科学/ES-6-2-Science/chapters/C2/sections/S2.md
 - id: concept:科学:材料
   type: Concept
@@ -1972,6 +2060,8 @@
   aliases: []
   category: 概念
   explanation: 用来建造东西或做物品的东西叫材料，比如干草、泥、砖和木头。动物和人都用材料建造自己的家。
+  misconceptions:
+    - 误认为材料只指金属，实际干草、泥、砖和木头都是材料。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C1/sections/S1.md
 - id: concept:科学:材料的导热性能
   type: Concept
@@ -1982,6 +2072,8 @@
     - 导热性
   category: 性质
   explanation: 不同材料传热的快慢不同：金属传热快，木头、塑料传热慢。传热快慢不同的材料在生活中有不同的用途，比如锅身用金属、锅柄用塑料。
+  misconceptions:
+    - 误认为所有材料传热一样快，实际金属传热快，木头和塑料传热慢。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C4/sections/S6.md
 - id: concept:科学:杠杆
   type: Concept
@@ -1992,6 +2084,8 @@
     - 撬杠
   category: 概念
   explanation: 像撬杠这样能绕固定点转动的棍子就是杠杆。杠杆上有三个重要位置：支撑转动的支点、用力的用力点和阻碍转动的阻力点，用力点离支点越远往往越省力。
+  misconceptions:
+    - 误认为杠杆只是一根棍子，实际它要能绕固定点转动，有支点、用力点和阻力点三个重要位置。
   sourceRef: content/五年级/上册/科学/ES-5-1-Science/chapters/C2/sections/S2.md
 - id: concept:科学:果实的结构
   type: Concept
@@ -2002,6 +2096,8 @@
     - 果皮和种子
   category: 概念
   explanation: 果实由果皮和种子组成。果皮保护里面的种子，有的果皮还能帮助种子传播；种子落在适宜的环境里能长成新的植物。
+  misconceptions:
+    - 误认为果实只有果皮，实际由果皮和种子组成，果皮保护种子并帮助种子传播。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S6.md
 - id: concept:科学:根据证据推测
   type: Concept
@@ -2024,6 +2120,8 @@
     - 植物根的作用
   category: 概念
   explanation: 根能吸收土壤里的水分和养料，还能把植物固定在土壤里，使植物不容易倒下或被风吹走。
+  misconceptions:
+    - 误认为根只用来固定植物，实际它还能吸收土壤里的水分和养料。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:检验食物营养的方法
   type: Concept
@@ -2033,6 +2131,8 @@
   aliases: []
   category: 方法
   explanation: 把食物涂在纸上留下不会消失的油迹，说明含有脂肪；在食物上滴碘酒变蓝紫色，说明含有淀粉。
+  misconceptions:
+    - 误认为尝一尝就能判断营养，实际要用纸上油迹检验脂肪、滴碘酒变蓝紫色检验淀粉。
   sourceRef: content/六年级/上册/科学/ES-6-1-Science/chapters/C1/sections/S2.md
 - id: concept:科学:植物开花与阳光
   type: Concept
@@ -2042,6 +2142,8 @@
   aliases: []
   category: 现象
   explanation: 许多植物开花受阳光的“指挥”，菊花要等秋天白天变短了才开花。
+  misconceptions:
+    - 误认为开花只与温度有关，实际许多植物开花受日照长短指挥，如菊花要等秋天白天变短才开。
   sourceRef: content/二年级/上册/科学/ES-2-1-Science/chapters/C2/sections/S9.md
 - id: concept:科学:植物生长的地方
   type: Concept
@@ -2051,6 +2153,8 @@
   aliases: []
   category: 概念
   explanation: 植物大多长在土壤里，土壤能固定植物，还能提供水分和养分。有的植物也能长在水里。
+  misconceptions:
+    - 误认为植物只能长在土壤里，实际有的植物也能长在水里。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S3.md
 - id: concept:科学:植物生长需要阳光
   type: Concept
@@ -2060,6 +2164,8 @@
   aliases: []
   category: 概念
   explanation: 把绿豆苗分别种在阳光充足和黑暗的地方，阳光下的苗长得高、茎粗、叶绿。说明植物的生长离不开阳光。
+  misconceptions:
+    - 误认为只要浇水就能长好，实际阳光下的绿豆苗长得更高、茎更粗、叶更绿。
   sourceRef: content/五年级/下册/科学/ES-5-2-Science/chapters/C1/sections/S3.md
 - id: concept:科学:植物的变化
   type: Concept
@@ -2069,6 +2175,8 @@
   aliases: []
   category: 现象
   explanation: 植物在生长过程中会慢慢长大、长出叶子、开花结果。把植物的变化记录下来，就能发现它每天都在变。
+  misconceptions:
+    - 误认为植物长成后就不再变化，实际会慢慢长大、长叶、开花结果，记录才能发现规律。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:植物的生命周期
   type: Concept
@@ -2079,6 +2187,8 @@
     - 凤仙花的一生
   category: 概念
   explanation: 凤仙花从播种、发芽、长出茎叶、开花、结果，到果实开裂结出新的种子，最后枯死，完成一个生命周期。整理生长记录就能发现植物生长变化的规律。
+  misconceptions:
+    - 误认为植物不会死亡，实际凤仙花从播种、发芽、开花结果，到结出新种子后枯死。
   sourceRef: content/四年级/下册/科学/ES-4-2-Science/chapters/C1/sections/S8.md
 - id: concept:科学:植物的需要
   type: Concept
@@ -2088,6 +2198,8 @@
   aliases: []
   category: 概念
   explanation: 植物生长需要水、阳光和空气。我们要按时给植物浇水，让它晒到太阳。
+  misconceptions:
+    - 误认为植物只需要水，实际还需要阳光和空气。
   sourceRef: content/一年级/上册/科学/ES-1-1-Science/chapters/C1/sections/S5.md
 - id: concept:科学:模拟实验
   type: Concept
