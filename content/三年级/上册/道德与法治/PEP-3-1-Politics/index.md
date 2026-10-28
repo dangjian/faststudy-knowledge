@@ -90,7 +90,7 @@ chapters:
   order: 4
   pageRange:
   - 61
-  - 90
+  - 87
   sections:
   - id: S1
     title: 第10课 公共场所的文明素养

@@ -90,7 +90,7 @@ chapters:
   order: 4
   pageRange:
   - 71
-  - 98
+  - 95
   sections:
   - id: S1
     title: 第10课 我们当地的风俗

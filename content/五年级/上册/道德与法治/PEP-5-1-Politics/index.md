@@ -96,7 +96,7 @@ chapters:
   order: 4
   pageRange:
   - 57
-  - 77
+  - 74
   sections:
   - id: S1
     title: 第11课 走进新时代

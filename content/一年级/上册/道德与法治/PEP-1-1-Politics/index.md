@@ -108,7 +108,7 @@ chapters:
   order: 4
   pageRange:
   - 47
-  - 65
+  - 60
   sections:
   - id: S1
     title: 第13课 我们小点儿声

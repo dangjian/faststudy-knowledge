@@ -385,7 +385,7 @@ chapters:
   order: 11
   pageRange:
   - 120
-  - 125
+  - 122
   sections:
   - id: S1
     title: 词语表（第 1 课起）

@@ -65,7 +65,7 @@ chapters:
   order: 3
   pageRange:
   - 43
-  - 99
+  - 95
   sections:
   - id: S1
     title: 第7课 不甘屈辱 奋勇抗争

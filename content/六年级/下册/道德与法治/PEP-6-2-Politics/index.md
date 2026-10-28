@@ -78,7 +78,7 @@ chapters:
   order: 4
   pageRange:
   - 57
-  - 86
+  - 81
   sections:
   - id: S1
     title: 第8课 科技发展 造福人类

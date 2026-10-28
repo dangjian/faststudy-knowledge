@@ -84,7 +84,7 @@ chapters:
   order: 4
   pageRange:
   - 49
-  - 81
+  - 77
   sections:
   - id: S1
     title: 第9课 学会倾听

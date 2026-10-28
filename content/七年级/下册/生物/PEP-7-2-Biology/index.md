@@ -178,7 +178,7 @@ chapters:
   order: 9
   pageRange:
   - 124
-  - 143
+  - 131
   sections:
   - id: S1
     title: 人体内废物的排出

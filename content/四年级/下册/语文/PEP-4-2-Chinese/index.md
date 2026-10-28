@@ -421,7 +421,7 @@ chapters:
   order: 11
   pageRange:
   - 142
-  - 146
+  - 144
   sections:
   - id: S1
     title: 词语表（第 2 课起）

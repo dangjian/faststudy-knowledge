@@ -70,7 +70,7 @@ chapters:
   order: 2
   pageRange:
   - 25
-  - 50
+  - 49
   sections:
   - id: S1
     title: 1 我们的身体

@@ -90,7 +90,7 @@ chapters:
   order: 4
   pageRange:
   - 61
-  - 89
+  - 84
   sections:
   - id: S1
     title: 第10课 购物有学问

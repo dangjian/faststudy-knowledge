@@ -408,15 +408,13 @@ function checkPageRangeRequired(g: LoadedGraph, report: LintReport): void {
 // 书级 totalPages 必须是 **PDF 页数**（与 source_data/<book>/metadata.json 一致），
 // 于是合法条件就是 pageRange[1] + imageOffset <= totalPages。
 //
-// 为什么只校验 Section、不校验 Chapter：
-//   章的 pageRange 覆盖整章（含单元小结、练习），而这些块在数据里没有对应节，
-//   章末页无法从节推导；且实测有 4 册章上界直接写成了 PDF 总页数
-//   （SK-8-1-Physics C5 121-158、BSDU-8-1-Math C8 200-205、
-//     PEP-7-2-Biology C9 124-143、PEP-7-1-Biology C9 122-146）——章级数据本身待清理。
-//   节级 2,976 条经全量核对全部合法，故对节严格、对章暂不报错。
+// 章与节都校验。章级的坑与节不同：章的 pageRange 要覆盖「单元小结/练习/阅读实践/
+// 写作/整本书阅读」这些**没有对应节**的板块，早年有一批章直接把上界写成了 PDF 总页数
+// （SK-8-1-Physics C5 121-158、PEP-7-1-Biology C9 122-146 等 4 册），
+// 另有 28 章把后记/封底/空白页算了进来——均已按 PDF 实页核实修正。
 //
 // totalPages 曾经各册语义不一（有的记 PDF 页数、有的记印刷页数），已按 metadata.json 统一；
-// 漂移由 gen_book_index.py 的 G1 校验拦截。
+// 漂移由 tools/kg/scripts/check_pages.py 的一致性检查拦截。
 function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
   const books = new Map<string, { totalPages?: number; offset: number }>()
   for (const e of g.entities) {
@@ -425,7 +423,7 @@ function checkPageRangeBounds(g: LoadedGraph, report: LintReport): void {
     books.set(e.id, { totalPages: t.totalPages, offset: t.imageOffset ?? 0 })
   }
   for (const e of g.entities) {
-    if (e.type !== 'Section') continue
+    if (e.type !== 'Chapter' && e.type !== 'Section') continue
     const node = e as { id: string; textbookId: string; pageRange?: [number, number] }
     const r = node.pageRange
     if (!r) continue

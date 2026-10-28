@@ -427,7 +427,7 @@ chapters:
   order: 11
   pageRange:
   - 120
-  - 122
+  - 120
   sections:
   - id: S1
     title: 常用偏旁名称表

@@ -108,7 +108,7 @@ chapters:
   order: 4
   pageRange:
   - 49
-  - 69
+  - 65
   sections:
   - id: S1
     title: 第13课 美丽中国我们的家

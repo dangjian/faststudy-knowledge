@@ -108,7 +108,7 @@ chapters:
   order: 4
   pageRange:
   - 45
-  - 65
+  - 61
   sections:
   - id: S1
     title: 第13课 每个人都有梦想

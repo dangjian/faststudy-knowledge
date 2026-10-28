@@ -99,7 +99,7 @@ chapters:
   order: 6
   pageRange:
   - 123
-  - 151
+  - 144
   sections:
   - id: S1
     title: 曹刿论战/《左传》

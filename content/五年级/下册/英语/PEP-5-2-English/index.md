@@ -219,7 +219,7 @@ chapters:
   order: 13
   pageRange:
   - 80
-  - 82
+  - 80
   sections:
   - id: S1
     title: Proverbs 谚语

@@ -108,7 +108,7 @@ chapters:
   order: 4
   pageRange:
   - 49
-  - 65
+  - 62
   sections:
   - id: S1
     title: 第13课 快乐儿童节

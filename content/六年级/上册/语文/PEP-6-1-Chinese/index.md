@@ -372,7 +372,7 @@ chapters:
   order: 10
   pageRange:
   - 128
-  - 133
+  - 130
   sections:
   - id: S1
     title: 词语表
