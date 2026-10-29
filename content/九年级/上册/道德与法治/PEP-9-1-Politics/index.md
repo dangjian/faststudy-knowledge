@@ -85,7 +85,7 @@ chapters:
   order: 4
   pageRange:
   - 89
-  - 107
+  - 119
   sections:
   - id: S1
     title: 第七课
@@ -104,7 +104,7 @@ chapters:
     order: 3
     pageRange:
     - 104
-    - 107
+    - 119
 ---
 
 # 义务教育教科书·道德与法治九年级上册

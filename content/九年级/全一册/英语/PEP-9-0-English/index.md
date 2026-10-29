@@ -53,41 +53,41 @@ chapters:
   title: 第三单元 UNIT 3
   order: 3
   pageRange:
-  - 32
-  - 39
+  - 17
+  - 24
   sections:
   - id: S1
     title: 第3单元 UNIT 3
     order: 1
     pageRange:
-    - 32
-    - 39
+    - 17
+    - 24
 - id: C4
   title: 第四单元 UNIT 4
   order: 4
   pageRange:
-  - 40
-  - 47
+  - 25
+  - 32
   sections:
   - id: S1
     title: 第4单元 UNIT 4
     order: 1
     pageRange:
-    - 40
-    - 47
+    - 25
+    - 32
 - id: C5
   title: 第五单元 UNIT 5
   order: 5
   pageRange:
-  - 48
-  - 55
+  - 33
+  - 40
   sections:
   - id: S1
     title: 第5单元 UNIT 5
     order: 1
     pageRange:
-    - 48
-    - 55
+    - 33
+    - 40
 - id: C6
   title: 第六单元 UNIT 6
   order: 6
@@ -111,15 +111,15 @@ chapters:
   title: 第七单元 UNIT 7
   order: 7
   pageRange:
-  - 64
-  - 71
+  - 49
+  - 56
   sections:
   - id: S1
     title: 第7单元 UNIT 7
     order: 1
     pageRange:
-    - 64
-    - 71
+    - 49
+    - 56
 - id: C8
   title: 第八单元 UNIT 8
   order: 8
@@ -143,15 +143,15 @@ chapters:
   title: 第九单元 UNIT 9
   order: 9
   pageRange:
-  - 80
-  - 87
+  - 65
+  - 72
   sections:
   - id: S1
     title: 第9单元 UNIT 9
     order: 1
     pageRange:
-    - 80
-    - 87
+    - 65
+    - 72
 - id: C10
   title: 第十单元 UNIT 10
   order: 10
@@ -194,34 +194,34 @@ chapters:
   title: 第十二单元 UNIT 12
   order: 12
   pageRange:
-  - 104
-  - 111
+  - 89
+  - 96
   sections:
   - id: S1
     title: 第12单元 UNIT 12
     order: 1
     pageRange:
-    - 104
-    - 111
+    - 89
+    - 96
 - id: C13
   title: 第十三单元 UNIT 13
   order: 13
   pageRange:
-  - 112
-  - 119
+  - 97
+  - 104
   sections:
   - id: S1
     title: 第13单元 UNIT 13
     order: 1
     pageRange:
-    - 112
-    - 119
+    - 97
+    - 104
 - id: C14
   title: 第十四单元 UNIT 14
   order: 14
   pageRange:
   - 105
-  - 113
+  - 112
   sections:
   - id: S1
     title: Section A
@@ -239,7 +239,7 @@ chapters:
   title: Notes on the Text 课文注释
   order: 15
   pageRange:
-  - 114
+  - 113
   - 135
   sections:
   - id: S1

@@ -85,7 +85,7 @@ chapters:
   order: 4
   pageRange:
   - 69
-  - 135
+  - 131
   sections:
   - id: S1
     title: 第一节 地势与地形
@@ -110,7 +110,7 @@ chapters:
     order: 4
     pageRange:
     - 104
-    - 135
+    - 119
 ---
 
 # 义务教育教科书·地理七年级上册（主编：王民）

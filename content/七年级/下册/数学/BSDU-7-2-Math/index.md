@@ -6,8 +6,8 @@ term: '2'
 subject: 数学
 publisher: BSDU
 standardEdition: 2022版
-totalPages: 180
-imageOffset: 5
+totalPages: 181
+imageOffset: 6
 origin: textbook
 outlineSource: catalog-toc
 chapters:
