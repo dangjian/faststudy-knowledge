@@ -3609,151 +3609,151 @@
 - from: concept:数学:等腰梯形的性质
   to: BSDU-8-2-Math-C6
 - from: concept:物理:密度公式
-  to: SK-8-2-Physics-C1-S1
-- from: concept:物理:量筒的使用
   to: SK-8-2-Physics-C1-S3
+- from: concept:物理:量筒的使用
+  to: SK-8-2-Physics-C1-S5
 - from: concept:物理:测量固体密度
-  to: SK-8-2-Physics-C1-S1
+  to: SK-8-2-Physics-C1-S3
 - from: concept:物理:测量液体密度
-  to: SK-8-2-Physics-C3-S6
+  to: SK-8-2-Physics-C4-S6
 - from: concept:物理:密度知识的应用
-  to: SK-8-2-Physics-C1-S1
+  to: SK-8-2-Physics-C1-S3
 - from: concept:物理:延展性
-  to: SK-8-2-Physics-C1-S2
-- from: concept:物理:力的测量
   to: SK-8-2-Physics-C1-S4
+- from: concept:物理:力的测量
+  to: SK-8-2-Physics-C2-S1
 - from: concept:物理:弹力
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:弹性势能
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:重力
-  to: SK-8-2-Physics-C1-S5
+  to: SK-8-2-Physics-C2-S2
 - from: concept:物理:重力与质量的关系
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:重力的方向
-  to: SK-8-2-Physics-C1-S5
+  to: SK-8-2-Physics-C2-S2
 - from: concept:物理:力的三要素
-  to: SK-8-2-Physics-C1-S5
+  to: SK-8-2-Physics-C2-S2
 - from: concept:物理:力的示意图
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:重心
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:重力势能
-  to: SK-8-2-Physics-C1-S5
+  to: SK-8-2-Physics-C2-S2
 - from: concept:物理:势能
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:摩擦力
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:滑动摩擦力
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:影响滑动摩擦力大小的因素
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:增大和减小摩擦的方法
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:力的作用是相互的
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:力是物体对物体的作用
-  to: SK-8-2-Physics-C1-S7
+  to: SK-8-2-Physics-C2-S4
 - from: concept:物理:二力平衡
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:二力平衡的条件
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:平衡状态
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:归纳法
-  to: SK-8-2-Physics-C2-S1
+  to: SK-8-2-Physics-C2-S3
 - from: concept:物理:牛顿第一定律
   to: SK-8-2-Physics-C1
 - from: concept:物理:静摩擦
   to: SK-8-2-Physics-C3
 - from: concept:物理:影响压力作用效果的因素
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:压强公式
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:压强单位
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:增大和减小压强的方法
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:液体压强的特点
-  to: SK-8-2-Physics-C3-S2
+  to: SK-8-2-Physics-C4-S2
 - from: concept:物理:连通器
-  to: SK-8-2-Physics-C3-S2
+  to: SK-8-2-Physics-C4-S2
 - from: concept:物理:马德堡半球实验
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:托里拆利实验
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:气压计
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:大气压的测量
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:大气压的变化
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:流体压强与流速的关系
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:浮力产生的原因
-  to: SK-8-2-Physics-C3-S4
+  to: SK-8-2-Physics-C4-S4
 - from: concept:物理:分子动理论
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:分子间存在引力
-  to: SK-8-2-Physics-C4-S1
+  to: SK-8-2-Physics-C5-S1
 - from: concept:物理:分子间存在斥力
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:固体、液体、气体的分子模型
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:纳米材料
-  to: SK-8-2-Physics-C4-S1
+  to: SK-8-2-Physics-C5-S1
 - from: concept:物理:摩擦起电
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:两种电荷
-  to: SK-8-2-Physics-C4-S2
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:电荷间的相互作用
-  to: SK-8-2-Physics-C4-S2
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:静电现象
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:验电器
-  to: SK-8-2-Physics-C4-S2
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:原子结构
-  to: SK-8-2-Physics-C4-S3
+  to: SK-8-2-Physics-C5-S3
 - from: concept:物理:电子
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:原子核
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:质子
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:中子
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:夸克
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:摩擦起电的原因
-  to: SK-8-2-Physics-C4-S3
+  to: SK-8-2-Physics-C5-S3
 - from: concept:物理:加速器
-  to: SK-8-2-Physics-C4-S3
+  to: SK-8-2-Physics-C5-S3
 - from: concept:物理:地心说
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:日心说
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:太阳系
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:八大行星
-  to: SK-8-2-Physics-C4-S4
+  to: SK-8-2-Physics-C5-S4
 - from: concept:物理:万有引力理论
-  to: SK-8-2-Physics-C4-S4
+  to: SK-8-2-Physics-C5-S4
 - from: concept:物理:光年
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:物理:银河系
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:物理:宇宙结构层次
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:大爆炸理论
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:物理:哈勃定律
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:物理:探月工程
-  to: SK-8-2-Physics-C4-S4
+  to: SK-8-2-Physics-C5-S4
 - from: concept:物理:火星探测工程
-  to: SK-8-2-Physics-C4-S4
+  to: SK-8-2-Physics-C5-S4
 - from: concept:物理:载人航天工程
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:生物:分裂生殖
   to: PEP-8-2-Biology-C2-S1
 - from: concept:生物:出芽生殖
@@ -5815,11 +5815,11 @@
 - from: concept:物理:制动距离
   to: SK-8-2-Physics-C3
 - from: concept:物理:宇宙
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:物理:恒星
-  to: SK-8-2-Physics-C4-S5
+  to: SK-8-2-Physics-C5-S5
 - from: concept:物理:卫星
-  to: SK-8-2-Physics-C5-S1
+  to: SK-8-2-Physics-C5-S2
 - from: concept:生物:卵壳的气孔
   to: PEP-8-2-Biology-C2-S3
 - from: concept:生物:人类起源
@@ -15457,11 +15457,11 @@
 - from: concept:物理:凹透镜
   to: SK-8-1-Physics-C3-S4
 - from: concept:物理:分子
-  to: SK-8-2-Physics-C4-S1
+  to: SK-8-2-Physics-C5-S1
 - from: concept:物理:力与运动的关系
-  to: SK-8-2-Physics-C1-S7
+  to: SK-8-2-Physics-C2-S4
 - from: concept:物理:力的作用效果
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:功率
   to: SK-9-1-Physics-C1-S1
 - from: concept:物理:动滑轮
@@ -15471,9 +15471,9 @@
 - from: concept:物理:半导体
   to: SK-9-1-Physics-C4-S1
 - from: concept:物理:压力
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:压强
-  to: SK-8-2-Physics-C3-S1
+  to: SK-8-2-Physics-C4-S1
 - from: concept:物理:发电机
   to: SK-9-2-Physics-C2-S4
 - from: concept:物理:受控电路
@@ -15481,7 +15481,7 @@
 - from: concept:物理:可再生能源
   to: SK-9-2-Physics-C4-S1
 - from: concept:物理:合力
-  to: SK-8-2-Physics-C3-S4
+  to: SK-8-2-Physics-C4-S4
 - from: concept:物理:同一直线上二力的合成
   to: SK-8-2-Physics-C3
 - from: concept:物理:声现象
@@ -15489,7 +15489,7 @@
 - from: concept:物理:大气压与海拔高度的关系
   to: SK-8-2-Physics-C4
 - from: concept:物理:大气压强
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:定滑轮
   to: SK-9-1-Physics-C1-S2
 - from: concept:物理:实际功率
@@ -15497,21 +15497,21 @@
 - from: concept:物理:家庭电路
   to: SK-9-2-Physics-C1-S4
 - from: concept:物理:密度
-  to: SK-8-2-Physics-C1-S1
+  to: SK-8-2-Physics-C1-S3
 - from: concept:物理:密度单位换算
   to: SK-8-2-Physics-C1
 - from: concept:物理:导体
   to: SK-9-1-Physics-C4-S1
 - from: concept:物理:导热性
-  to: SK-8-2-Physics-C1-S2
+  to: SK-8-2-Physics-C1-S4
 - from: concept:物理:导电性
-  to: SK-8-2-Physics-C1-S2
+  to: SK-8-2-Physics-C1-S4
 - from: concept:物理:干路
   to: SK-9-1-Physics-C3-S2
 - from: concept:物理:并联电路电压特点
   to: SK-9-1-Physics-C3
 - from: concept:物理:形变
-  to: SK-8-2-Physics-C1-S4
+  to: SK-8-2-Physics-C2-S1
 - from: concept:物理:影子长度的影响因素
   to: SK-8-1-Physics-C1
 - from: concept:物理:惯性
@@ -15547,7 +15547,7 @@
 - from: concept:物理:杠杆的平衡条件
   to: SK-9-1-Physics-C1
 - from: concept:物理:标准大气压
-  to: SK-8-2-Physics-C3-S3
+  to: SK-8-2-Physics-C4-S3
 - from: concept:物理:核电站
   to: SK-9-2-Physics-C4-S1
 - from: concept:物理:核能
@@ -15573,11 +15573,11 @@
 - from: concept:物理:波长
   to: SK-9-2-Physics-C3-S2
 - from: concept:物理:测量物质的密度
-  to: SK-8-2-Physics-C1-S1
+  to: SK-8-2-Physics-C1-S3
 - from: concept:物理:浮力
-  to: SK-8-2-Physics-C3-S4
+  to: SK-8-2-Physics-C4-S4
 - from: concept:物理:液体压强
-  to: SK-8-2-Physics-C3-S2
+  to: SK-8-2-Physics-C4-S2
 - from: concept:物理:液体温度计
   to: SK-8-1-Physics-C4-S1
 - from: concept:物理:液化
@@ -15611,13 +15611,13 @@
 - from: concept:物理:燃料完全燃烧放热公式
   to: SK-9-1-Physics-C2
 - from: concept:物理:物体的浮沉条件
-  to: SK-8-2-Physics-C3-S5
+  to: SK-8-2-Physics-C4-S5
 - from: concept:物理:物理学
   to: SK-8-1-Physics-C1-S1
 - from: concept:物理:物质的三态
   to: SK-8-1-Physics-C4-S1
 - from: concept:物理:物质的物理属性
-  to: SK-8-2-Physics-C1-S1
+  to: SK-8-2-Physics-C1-S3
 - from: concept:物理:物距
   to: SK-8-1-Physics-C3-S3
 - from: concept:物理:电流的磁效应
@@ -15647,7 +15647,7 @@
 - from: concept:物理:省力杠杆
   to: SK-9-1-Physics-C1
 - from: concept:物理:硬度
-  to: SK-8-2-Physics-C1-S2
+  to: SK-8-2-Physics-C1-S4
 - from: concept:物理:磁体
   to: SK-9-2-Physics-C2-S1
 - from: concept:物理:磁场
@@ -15701,7 +15701,7 @@
 - from: concept:物理:远视眼
   to: SK-8-1-Physics-C3-S4
 - from: concept:物理:连通器原理
-  to: SK-8-2-Physics-C3-S2
+  to: SK-8-2-Physics-C4-S2
 - from: concept:物理:透镜
   to: SK-8-1-Physics-C3-S4
 - from: concept:物理:通信
@@ -15711,7 +15711,7 @@
 - from: concept:物理:问题
   to: SK-8-1-Physics-C3-S6
 - from: concept:物理:阿基米德原理
-  to: SK-8-2-Physics-C3-S4
+  to: SK-8-2-Physics-C4-S4
 - from: concept:物理:非晶体
   to: SK-8-1-Physics-C4-S3
 - from: concept:物理:非清洁能源
@@ -19353,7 +19353,7 @@
 - from: concept:数学:因式分解
   to: BSDU-8-2-Math-C4-S4
 - from: concept:物理:重力
-  to: SK-8-2-Physics-C1-S6
+  to: SK-8-2-Physics-C2-S3
 - from: concept:生物:生物多样性
   to: PEP-8-2-Biology-C5-S2
 - from: concept:生物:遗传多样性

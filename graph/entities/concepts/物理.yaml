@@ -1146,7 +1146,7 @@
     - 认为力可以脱离物体单独存在，比如没有受力物体的力。
     - 认为只有相互接触才能产生力，忽略重力、磁力等非接触力。
     - 认为施力物体不会受到力的作用，实际上力的作用是相互的。
-  sourceRef: content/八年级/下册/物理/SK-8-2-Physics/chapters/C1/sections/S7.md
+  sourceRef: content/八年级/下册/物理/SK-8-2-Physics/chapters/C2/sections/S4.md
 - id: concept:物理:力的三要素
   type: Concept
   subject: 物理
@@ -4047,7 +4047,7 @@
     - 先测空杯质量，再测总质量，最后倒入量筒测体积，烧杯残留使体积偏小，密度偏大
     - 将量筒置于天平上直接测液体质量，量筒较重且易倒，测量不准确
     - 认为液体密度与体积无关，但计算时误用量筒总量体积而非倒出部分体积
-  sourceRef: content/八年级/下册/物理/SK-8-2-Physics/chapters/C3/sections/S6.md
+  sourceRef: content/八年级/下册/物理/SK-8-2-Physics/chapters/C4/sections/S6.md
 - id: concept:物理:测量物质的密度
   type: Concept
   subject: 物理
