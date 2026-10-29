@@ -34,8 +34,18 @@ def norm(s):
     return re.sub(r'[^\u4e00-\u9fa5A-Za-z0-9]', '', s or '')
 
 
+def hans(s):
+    """只保留汉字。
+
+    一年级等册的 PDF 文本层带拼音注音（「我w们men知zh道do」），若把拉丁字母
+    也算进指纹，md 的连续子串在 PDF 里结构上永远匹配不上——2026-10-29 审计
+    发现旧判据因此把 78% 的样本误报成「不符」。
+    """
+    return re.sub(r'[^\u4e00-\u9fa5]', '', s or '')
+
+
 def section_body(sec):
-    """读节正文（跳过 YAML front matter），返回规范化后的前 30 字。"""
+    """读节正文（跳过 front matter、去掉标题行），返回前 40 个汉字。"""
     ref = sec.get('sourceRef') or ''
     fp = os.path.join(ROOT, ref)
     if not os.path.exists(fp):
@@ -44,10 +54,28 @@ def section_body(sec):
     parts = s.split('---')
     if len(parts) >= 3:
         s = '---'.join(parts[2:])
-    s = re.sub(r'(?m)^#+\s*', '', s)
+    s = re.sub(r'(?m)^#+\s*.*$', '', s)       # 整行删除标题（标题与正文在 PDF 里常不连续）
+
     # 抽取时插入的图注标记会打乱与 PDF 原文的比对，先剔掉
     s = re.sub(r'配图|图表|见表|如图|插图', '', s)
-    return norm(s)[:10]
+    return hans(s)[:40]
+
+
+def bigrams(t):
+    return {t[i:i + 2] for i in range(len(t) - 1)}
+
+
+def hit_ratio(head, txt):
+    """md 正文与 PDF 页文本的汉字 bigram 重合率。
+
+    不用「连续子串」：md 的正文是跨页合并的，标题与正文之间、页与页之间都
+    不连续；带拼音注音的册更是整段插入了拉丁字母。bigram 重合率对这两类
+    差异都容忍，同时仍能识别「页码指到了完全无关的页」。
+    """
+    hb = bigrams(head)
+    if not hb:
+        return 0.0
+    return len(hb & bigrams(txt)) / len(hb)
 
 
 def check_book_meta():
@@ -97,6 +125,8 @@ def main():
             secs.setdefault(n.get('textbookId'), []).append(n)
 
     missing_pdf, oob, mism, empty = [], [], [], 0
+    no_text = 0          # 有图无文本层（扫描件），无法对位
+    no_offset = []       # 缺 imageOffset 的册：换算基准缺失时不再按 0 兜底
     sampled = hit = 0
 
     for bid, ss in secs.items():
@@ -104,15 +134,18 @@ def main():
         if not os.path.exists(path):
             missing_pdf.append(bid)
             continue
-        off = books.get(bid, {}).get('imageOffset') or 0
+        if 'imageOffset' not in books.get(bid, {}):
+            no_offset.append(bid)
+            continue
+        off = books[bid]['imageOffset']
         doc = pymupdf.open(path)
         pages = doc.page_count
         mx = max(max(s['pageRange']) for s in ss) + off
         if mx > pages:
             oob.append((bid, mx, pages))
 
-        # 首/中/末三处抽检：印刷页 + 偏移 = PDF 页
-        picks = [ss[0], ss[len(ss) // 2], ss[-1]]
+        # 首/中/末三处抽检（去重：单节/双节册否则会重复计入分母）
+        picks = list({s['id']: s for s in (ss[0], ss[len(ss) // 2], ss[-1])}.values())
         for s in picks:
             head = section_body(s)
             if not head:
@@ -121,11 +154,25 @@ def main():
             p = s['pageRange'][0] + off
             if p < 1 or p > pages:
                 continue
-            txt = norm(doc[p - 1].get_text())
-            if not txt:
-                empty += 1
+            page = doc[p - 1]
+            raw = page.get_text()
+            if not raw.strip():
+                # 文本层空：再看墨量，判定是真空白还是扫描图
+                pix = page.get_pixmap(dpi=40)
+                smp = pix.samples
+                tot = max(1, len(range(0, len(smp), 3 * 11)))
+                ink = sum(1 for i in range(0, len(smp), 3 * 11)
+                          if smp[i] < 245 or smp[i + 1] < 245 or smp[i + 2] < 245) / tot
+                if ink < 0.02:
+                    empty += 1
+                else:
+                    no_text += 1
                 continue
-            if head in txt:
+            ph = hans(raw)
+            if len(ph) < 30:
+                no_text += 1      # 文本层过于稀疏（OCR 碎片），无法判定而非不符
+                continue
+            if hit_ratio(head, ph) >= 0.5:
                 hit += 1
             else:
                 mism.append((bid, s['id'], s['pageRange'][0], p, head[:10]))
@@ -133,12 +180,22 @@ def main():
 
     print(f'PDF 可用 {len(books) - len(missing_pdf)} / {len(books)} 册' + (f'，缺 {missing_pdf[:3]}' if missing_pdf else ''))
     print(f'页码越界 {len(oob)} 册' + ('' if not oob else f'：{oob[:3]}'))
-    print(f'对位抽检 {hit}/{sampled} 命中（印刷页 + imageOffset → PDF 页）')
+    if no_offset:
+        print(f'缺 imageOffset 跳过 {len(no_offset)} 册：{no_offset[:3]}')
+    checked = hit + len(mism)
+    ratio = len(mism) / checked if checked else 0.0
+    print(f'对位抽检 {hit}/{checked} 命中（不符 {ratio * 100:.0f}%，抽 {sampled} 处）')
     for x in mism[:6]:
         print(f'   不符: {x[0]} {x[1]} 印刷 p.{x[2]} → PDF {x[3]} | md 开头 {x[4]}')
     if empty:
-        print(f'抽到无文本层页 {empty} 处（扫描件，无法自动核对）')
-    return 1 if (drift or oob) else 0
+        print(f'真空白页 {empty} 处')
+    if no_text:
+        print(f'有图无文本层 {no_text} 处（扫描件，无法自动核对）')
+
+    failed = bool(drift or oob) or ratio > 0.3
+    if ratio > 0.3:
+        print(f'✗ 不符比例 {ratio * 100:.0f}% 超过 30% 阈值，判为失败')
+    return 1 if failed else 0
 
 
 if __name__ == '__main__':

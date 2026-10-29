@@ -16,6 +16,9 @@ import os
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import partof_audit as pa  # noqa: E402  复用 read_edges，保证与 apply 同一口径
+
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 LEDGER = os.path.join(ROOT, 'tools/kg/eval/partof-audit.json')
 
@@ -27,14 +30,17 @@ def main():
     path = sys.argv[1]
     do_apply = '--apply' in sys.argv
 
-    with open(os.path.join(ROOT, 'dist/graph.json'), encoding='utf-8') as f:
-        g = json.load(f)
-    alive = {f"{e['from']}|{e['to']}" for e in g['edges'] if e['type'] == 'part_of'}
+    # 必须读 part_of.yaml 而不是 dist/graph.json：apply 只改 yaml，dist 要等 kg:build。
+    # 读 dist 会让「边是否还在」恒为真（apply 后未 build 时），把已移走的边判为存活，
+    # 判定被错误接受、精度虚高；反向也会把 yaml 新增边误判 stale 丢掉。
+    alive = {f'{f}|{t}' for f, t in pa.read_edges(pa.PART_OF)}
     with open(LEDGER, encoding='utf-8') as f:
         ledger = json.load(f)
 
+    VALID = {'ok', 'wrong:parallel', 'wrong:cause', 'wrong:attribute',
+             'wrong:object', 'wrong:reverse', 'wrong:unrelated'}
     merged = wrong = stale = dup = 0
-    bad_lines = []
+    bad_lines, stale_keys = [], []
     for ln, line in enumerate(open(path, encoding='utf-8'), 1):
         line = line.rstrip('\n')
         if not line.strip():
@@ -44,9 +50,13 @@ def main():
             bad_lines.append(f'{ln}: 字段不足 —— {line[:60]}')
             continue
         a, b, v = parts[0].strip(), parts[1].strip(), parts[2].strip()
+        if v not in VALID:
+            bad_lines.append(f'{ln}: 非法判定 {v!r}（须为 ok 或 wrong:<类型>）')
+            continue
         key = f'{a}|{b}'
         if key not in alive:
             stale += 1
+            stale_keys.append(key)
             continue
         if key in ledger:
             dup += 1
@@ -55,12 +65,18 @@ def main():
         if v.startswith('wrong'):
             wrong += 1
 
-    with open(LEDGER, 'w', encoding='utf-8') as f:
+    tmp = LEDGER + '.tmp'
+    with open(tmp, 'w', encoding='utf-8') as f:
         json.dump(ledger, f, ensure_ascii=False, indent=0)
+    os.replace(tmp, LEDGER)
 
     print(f'合并 {merged} 条（判错 {wrong}）| 已判过 {dup} | 边已不存在 {stale} | 坏行 {len(bad_lines)}')
     for b in bad_lines[:5]:
-        print('  ', b)
+        print('  坏行', b)
+    for k in stale_keys[:5]:
+        print('  边已不存在', k)
+    if len(stale_keys) > 5:
+        print(f'  … 另有 {len(stale_keys) - 5} 条边已不存在（明细见上）')
 
     if do_apply:
         subprocess.run([sys.executable, os.path.join(ROOT, 'tools/kg/scripts/partof_audit.py'), 'apply'],
