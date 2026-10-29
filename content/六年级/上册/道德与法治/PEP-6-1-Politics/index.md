@@ -90,7 +90,7 @@ chapters:
   order: 4
   pageRange:
   - 51
-  - 66
+  - 63
   sections:
   - id: S1
     title: 第10课 用好法律 维护权利
@@ -104,12 +104,6 @@ chapters:
     pageRange:
     - 58
     - 63
-  - id: S3
-    title: 后记
-    order: 3
-    pageRange:
-    - 64
-    - 66
 ---
 
 # 人教版6年级道德与法治上册

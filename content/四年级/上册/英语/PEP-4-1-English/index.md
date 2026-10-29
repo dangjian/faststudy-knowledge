@@ -217,7 +217,7 @@ chapters:
   order: 11
   pageRange:
   - 86
-  - 89
+  - 87
   sections:
   - id: S1
     title: Unit 1
@@ -230,7 +230,7 @@ chapters:
     order: 2
     pageRange:
     - 87
-    - 89
+    - 87
 ---
 
 # 人教版4年级英语上册

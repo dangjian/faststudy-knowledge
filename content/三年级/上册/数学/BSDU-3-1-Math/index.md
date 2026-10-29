@@ -380,7 +380,7 @@ chapters:
   order: 12
   pageRange:
   - 99
-  - 117
+  - 116
   sections:
   - id: S1
     title: 数与代数
@@ -412,12 +412,6 @@ chapters:
     pageRange:
     - 107
     - 116
-  - id: S6
-    title: 后记
-    order: 6
-    pageRange:
-    - 117
-    - 117
 ---
 
 # 北师大版3年级数学上册

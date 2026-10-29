@@ -141,7 +141,7 @@ chapters:
   order: 6
   pageRange:
   - 115
-  - 151
+  - 149
   sections:
   - id: S1
     title: 智取生辰纲/施耐庵

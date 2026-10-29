@@ -121,7 +121,7 @@ chapters:
   order: 5
   pageRange:
   - 77
-  - 101
+  - 99
   sections:
   - id: S1
     title: 第一节 进化与生物多样性
@@ -134,7 +134,7 @@ chapters:
     order: 2
     pageRange:
     - 84
-    - 101
+    - 99
 ---
 
 # 义务教育教科书·生物学八年级下册（根据2022年版课程标准修订）

@@ -116,7 +116,7 @@ chapters:
   order: 6
   pageRange:
   - 52
-  - 73
+  - 71
   sections:
   - id: S1
     title: Appendix 1 Songs in each unit（各单元歌曲）
@@ -153,7 +153,7 @@ chapters:
     order: 6
     pageRange:
     - 70
-    - 73
+    - 71
 ---
 
 # 人教版6年级英语下册

@@ -127,7 +127,7 @@ chapters:
   order: 6
   pageRange:
   - 100
-  - 125
+  - 121
   sections:
   - id: S1
     title: 第一节 分析人类活动对生态环境的影响
@@ -140,7 +140,7 @@ chapters:
     order: 2
     pageRange:
     - 110
-    - 125
+    - 121
 ---
 
 # 义务教育教科书·生物学八年级上册

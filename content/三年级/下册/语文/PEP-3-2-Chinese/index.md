@@ -403,14 +403,14 @@ chapters:
   order: 11
   pageRange:
   - 116
-  - 121
+  - 120
   sections:
   - id: S1
     title: 词语表
     order: 1
     pageRange:
     - 116
-    - 121
+    - 120
 ---
 
 # 人教版3年级语文下册

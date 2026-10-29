@@ -452,7 +452,7 @@ chapters:
   order: 12
   pageRange:
   - 113
-  - 129
+  - 128
   sections:
   - id: S1
     title: 数与代数
@@ -484,12 +484,6 @@ chapters:
     pageRange:
     - 121
     - 127
-  - id: S6
-    title: 后记
-    order: 6
-    pageRange:
-    - 129
-    - 129
 ---
 
 # 北师大版5年级数学上册

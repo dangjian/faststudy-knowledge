@@ -196,7 +196,7 @@ chapters:
   order: 8
   pageRange:
   - 135
-  - 145
+  - 143
   sections:
   - id: S1
     title: 学史方法
@@ -215,7 +215,7 @@ chapters:
     order: 3
     pageRange:
     - 141
-    - 145
+    - 143
 - id: C7
   title: 人民解放战争
   order: 7

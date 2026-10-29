@@ -194,7 +194,7 @@ chapters:
   order: 12
   pageRange:
   - 89
-  - 93
+  - 90
   sections:
   - id: S1
     title: Appendix 5 Pronunciation
@@ -202,12 +202,6 @@ chapters:
     pageRange:
     - 89
     - 90
-  - id: S2
-    title: 后记
-    order: 2
-    pageRange:
-    - 91
-    - 93
 ---
 
 # 人教版3年级英语下册

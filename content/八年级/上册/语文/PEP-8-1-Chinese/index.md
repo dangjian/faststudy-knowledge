@@ -274,7 +274,7 @@ chapters:
   order: 6
   pageRange:
   - 143
-  - 167
+  - 166
   sections:
   - id: S1
     title: 23《孟子》三章
@@ -323,7 +323,7 @@ chapters:
     order: 8
     pageRange:
     - 165
-    - 167
+    - 166
 ---
 
 # （根据2022年版课程标准修订）义务教育教科书·语文八年级上册

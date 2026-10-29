@@ -236,7 +236,7 @@ chapters:
   order: 12
   pageRange:
   - 88
-  - 93
+  - 92
   sections:
   - id: S1
     title: 单词重音
@@ -255,7 +255,7 @@ chapters:
     order: 3
     pageRange:
     - 91
-    - 93
+    - 92
 ---
 
 # 人教版4年级英语下册

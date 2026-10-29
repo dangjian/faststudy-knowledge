@@ -169,7 +169,7 @@ chapters:
   order: 4
   pageRange:
   - 85
-  - 112
+  - 109
   sections:
   - id: S1
     title: 国家利益高于一切
@@ -212,13 +212,7 @@ chapters:
     order: 7
     pageRange:
     - 109
-    - 110
-  - id: S8
-    title: 后记
-    order: 8
-    pageRange:
-    - 111
-    - 112
+    - 109
 
 ---
 

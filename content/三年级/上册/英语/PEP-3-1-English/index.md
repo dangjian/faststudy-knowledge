@@ -255,14 +255,14 @@ chapters:
   order: 13
   pageRange:
   - 91
-  - 93
+  - 91
   sections:
   - id: S1
     title: Appendix 6 The alphabet 字母表
     order: 1
     pageRange:
     - 91
-    - 93
+    - 91
 ---
 
 # 人教版3年级英语上册

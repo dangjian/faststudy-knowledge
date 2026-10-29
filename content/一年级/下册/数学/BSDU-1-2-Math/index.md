@@ -372,7 +372,7 @@ chapters:
   order: 10
   pageRange:
   - 90
-  - 100
+  - 99
   sections:
   - id: S1
     title: 数与代数

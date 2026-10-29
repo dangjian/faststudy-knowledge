@@ -188,14 +188,14 @@ chapters:
   order: 5
   pageRange:
   - 120
-  - 124
+  - 123
   sections:
   - id: S1
     title: 总复习
     order: 1
     pageRange:
     - 120
-    - 124
+    - 123
 ---
 
 # 义务教育教科书·数学九年级下册

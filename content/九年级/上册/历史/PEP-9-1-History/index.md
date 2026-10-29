@@ -172,7 +172,7 @@ chapters:
   order: 8
   pageRange:
   - 93
-  - 109
+  - 106
   sections:
   - id: S1
     title: 第20 课  第一次工业革命
@@ -191,7 +191,7 @@ chapters:
     order: 3
     pageRange:
     - 102
-    - 109
+    - 106
 ---
 
 # 义务教育教科书·世界历史九年级上册

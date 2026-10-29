@@ -417,7 +417,7 @@ chapters:
   order: 13
   pageRange:
   - 108
-  - 125
+  - 124
   sections:
   - id: S1
     title: 总复习
@@ -449,12 +449,6 @@ chapters:
     pageRange:
     - 117
     - 123
-  - id: S6
-    title: 后记
-    order: 6
-    pageRange:
-    - 125
-    - 125
 ---
 
 # 北师大版6年级数学上册

@@ -371,7 +371,7 @@ chapters:
   order: 9
   pageRange:
   - 122
-  - 124
+  - 123
   sections:
   - id: S1
     title: 词语表
@@ -379,12 +379,6 @@ chapters:
     pageRange:
     - 122
     - 123
-  - id: S2
-    title: 后记
-    order: 2
-    pageRange:
-    - 124
-    - 124
 ---
 
 # 人教版6年级语文下册

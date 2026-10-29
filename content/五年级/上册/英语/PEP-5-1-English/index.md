@@ -253,7 +253,7 @@ chapters:
   order: 11
   pageRange:
   - 86
-  - 90
+  - 88
   sections:
   - id: S1
     title: Unit 1
@@ -266,7 +266,7 @@ chapters:
     order: 2
     pageRange:
     - 88
-    - 90
+    - 88
 ---
 
 # 人教版5年级英语上册

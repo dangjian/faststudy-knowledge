@@ -254,7 +254,7 @@ chapters:
   order: 12
   pageRange:
   - 92
-  - 94
+  - 92
   sections:
   - id: S1
     title: 不规则动词表
@@ -262,12 +262,6 @@ chapters:
     pageRange:
     - 92
     - 92
-  - id: S2
-    title: 后记
-    order: 2
-    pageRange:
-    - 93
-    - 94
 ---
 
 # 人教版6年级英语上册

@@ -475,7 +475,7 @@ chapters:
   order: 11
   pageRange:
   - 116
-  - 119
+  - 118
   sections:
   - id: S1
     title: 词语表
@@ -525,12 +525,6 @@ chapters:
     pageRange:
     - 118
     - 118
-  - id: S9
-    title: 后记
-    order: 9
-    pageRange:
-    - 119
-    - 119
 ---
 
 # 人教版2年级语文上册

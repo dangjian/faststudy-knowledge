@@ -207,7 +207,7 @@ chapters:
   order: 12
   pageRange:
   - 125
-  - 143
+  - 142
   sections:
   - id: S1
     title: Vocabulary A-Z
@@ -227,12 +227,6 @@ chapters:
     pageRange:
     - 137
     - 141
-  - id: S4
-    title: 后记
-    order: 4
-    pageRange:
-    - 143
-    - 143
 ---
 
 # （根据2022年版课程标准修订）义务教育教科书·英语八年级下册

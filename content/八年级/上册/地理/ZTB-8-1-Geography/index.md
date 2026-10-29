@@ -154,14 +154,14 @@ chapters:
   order: 7
   pageRange:
   - 133
-  - 134
+  - 133
   sections:
   - id: S1
     title: 附录
     order: 1
     pageRange:
     - 133
-    - 134
+    - 133
 ---
 
 # 义务教育教科书·地理八年级上册

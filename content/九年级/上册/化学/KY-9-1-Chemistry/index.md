@@ -171,7 +171,7 @@ chapters:
   order: 6
   pageRange:
   - 177
-  - 181
+  - 180
   sections:
   - id: S1
     title: 附录 I 相对原子质量表
@@ -190,7 +190,7 @@ chapters:
     order: 3
     pageRange:
     - 180
-    - 181
+    - 180
 ---
 
 # （根据2022年版课程标准修订）义务教育教科书•化学九年级上册

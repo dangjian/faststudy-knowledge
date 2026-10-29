@@ -415,14 +415,14 @@ chapters:
   order: 11
   pageRange:
   - 120
-  - 125
+  - 124
   sections:
   - id: S1
     title: 词语表
     order: 1
     pageRange:
     - 120
-    - 125
+    - 124
 ---
 
 # 人教版2年级语文下册

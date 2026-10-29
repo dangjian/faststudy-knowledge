@@ -218,7 +218,7 @@ chapters:
   order: 5
   pageRange:
   - 101
-  - 119
+  - 117
   sections:
   - id: S1
     title: 第十三课
@@ -249,7 +249,7 @@ chapters:
     order: 5
     pageRange:
     - 116
-    - 119
+    - 117
 ---
 
 # （根据2022年版课程标准修订）义务教育教科书·道德与法治八年级下册
