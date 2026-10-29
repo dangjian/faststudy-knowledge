@@ -1359,8 +1359,6 @@
 - from: concept:数学:加权平均数
   to: concept:数学:中位数
 - from: concept:数学:加权平均数
-  to: concept:数学:众数
-- from: concept:数学:加权平均数
   to: concept:数学:四分位数
 - from: concept:数学:加权平均数
   to: concept:数学:离散程度
@@ -28674,16 +28672,12 @@
   to: concept:数学:相同数位上的数相加减
 - from: concept:化学:不饱和溶液
   to: concept:化学:溶解度
-- from: concept:历史:李清照
-  to: concept:历史:宋词
 - from: concept:历史:明清时期手工业的发展
   to: concept:历史:明清时期商业的发展
 - from: concept:历史:白莲教起义
   to: concept:历史:社会矛盾加剧
 - from: concept:历史:1954年宪法
   to: concept:历史:《中华人民共和国宪法》
-- from: concept:历史:香港回归
-  to: concept:历史:一国两制
 - from: concept:地理:北极和南极
   to: concept:地理:南北半球分界线
 - from: concept:地理:温带季风气候
@@ -28692,16 +28686,12 @@
   to: concept:数学:百分位数
 - from: concept:物理:力的三要素
   to: concept:物理:力是物体对物体的作用
-- from: concept:物理:通路
-  to: concept:物理:电路
 - from: concept:生物:光学显微镜
   to: concept:生物:显微镜的发展史
 - from: concept:生物:菌丝
   to: concept:生物:真菌的繁殖方式
 - from: concept:生物:膳食纤维
   to: concept:生物:营养物质的吸收
-- from: concept:英语:告别语
-  to: concept:英语:问候语
 - from: concept:英语:Allergy
   to: concept:英语:Germs
 - from: concept:语文:敬辞与谦辞
@@ -28710,16 +28700,6 @@
   to: concept:语文:唐诗
 - from: concept:语文:名词作状语
   to: concept:语文:文言句式
-- from: concept:语文:独白
-  to: concept:语文:戏剧冲突
-- from: concept:道德与法治:两岸三通
-  to: concept:道德与法治:一国两制
-- from: concept:语文:感叹句
-  to: concept:语文:句子语气
-- from: concept:语文:对仗
-  to: concept:语文:对偶句
-- from: concept:历史:环境污染
-  to: concept:历史:第二次工业革命
 - from: concept:地理:南极大陆海拔最高
   to: concept:地理:世界地形分布大势
 - from: concept:数学:异分母分数加减法
@@ -28740,8 +28720,6 @@
   to: concept:化学:化学变化中元素种类不变
 - from: concept:化学:催化作用
   to: concept:化学:催化剂
-- from: concept:化学:低碳生活
-  to: concept:化学:绿色环保理念
 - from: concept:化学:化肥对环境的影响
   to: concept:化学:化肥的施用
 - from: concept:化学:二氧化硅与氢氧化钠反应
@@ -28750,22 +28728,12 @@
   to: concept:化学:防止铁锈蚀的方法
 - from: concept:化学:固体试剂的取用
   to: concept:化学:化学实验常用仪器
-- from: concept:化学:控制变量法
-  to: concept:化学:对比实验
 - from: concept:化学:归纳法
   to: concept:化学:对比实验
 - from: concept:化学:根据化学式求化合价
   to: concept:化学:化合价规则
 - from: concept:化学:实验室制取气体的方法
   to: concept:化学:发生装置的选择
-- from: concept:化学:氢气的热值
-  to: concept:化学:氢气的可燃性
-- from: concept:化学:新型陶瓷
-  to: concept:化学:传统无机非金属材料
-- from: concept:化学:均一性
-  to: concept:化学:溶液
-- from: concept:化学:均一性和稳定性
-  to: concept:化学:溶液
 - from: concept:化学:氧气的实验室制法
   to: concept:化学:高锰酸钾制取氧气
 - from: concept:化学:玻璃仪器的洗涤
@@ -28792,46 +28760,18 @@
   to: concept:化学:化学实验常用仪器
 - from: concept:化学:质子
   to: concept:化学:玻尔原子模型
-- from: concept:化学:金刚石的性质和用途
-  to: concept:化学:碳单质的同素异形体
-- from: concept:化学:石墨的性质和用途
-  to: concept:化学:碳单质的同素异形体
-- from: concept:化学:碳的完全燃烧
-  to: concept:化学:碳与二氧化碳的反应
-- from: concept:化学:碳的不完全燃烧
-  to: concept:化学:碳与二氧化碳的反应
-- from: concept:化学:金属与氧气的反应
-  to: concept:化学:金属活动性顺序
-- from: concept:化学:金属与盐溶液的反应
-  to: concept:化学:金属活动性顺序
-- from: concept:化学:金属与稀酸的反应
-  to: concept:化学:金属活动性顺序
-- from: concept:化学:配制一定溶质质量分数的溶液
-  to: concept:化学:溶质的质量分数
-- from: concept:化学:酸和碱的解离
-  to: concept:化学:酸的通性
-- from: concept:化学:稳定性
-  to: concept:化学:溶液
 - from: concept:历史:《北京条约》
   to: concept:历史:《南京条约》
 - from: concept:历史:《天津条约》
   to: concept:历史:《南京条约》
 - from: concept:历史:《义勇军进行曲》
   to: concept:历史:五星红旗
-- from: concept:历史:《中华人民共和国香港特别行政区维护国家安全法》
-  to: concept:历史:香港国安法
-- from: concept:历史:1787年美国宪法
-  to: concept:历史:三权分立
 - from: concept:历史:863计划
   to: concept:历史:科学技术是第一生产力
 - from: concept:历史:《凡尔赛条约》
   to: concept:历史:第一次世界大战
 - from: concept:历史:儒家学派
   to: concept:历史:为政以德
-- from: concept:历史:会通河和通惠河
-  to: concept:历史:隋朝大运河
-- from: concept:历史:元曲
-  to: concept:历史:关汉卿
 - from: concept:历史:人民游击战争
   to: concept:历史:八路军
 - from: concept:历史:信息化战争
@@ -28846,10 +28786,6 @@
   to: concept:历史:休养生息政策
 - from: concept:历史:亚罗号事件
   to: concept:历史:《天津条约》
-- from: concept:历史:中华民国成立
-  to: concept:历史:中国同盟会
-- from: concept:历史:中国共产党第一次全国代表大会
-  to: concept:历史:中国共产党成立
 - from: concept:历史:中国共产党早期组织
   to: concept:历史:中国共产党成立
 - from: concept:历史:中国共产党成立的历史意义
@@ -28858,22 +28794,12 @@
   to: concept:历史:中法战争
 - from: concept:历史:《马关条约》的影响
   to: concept:历史:甲午中日战争
-- from: concept:历史:京师大学堂
-  to: concept:历史:戊戌六君子
 - from: concept:历史:中华苏维埃共和国临时中央政府
   to: concept:历史:农村包围城市、武装夺取政权
-- from: concept:历史:七七事变
-  to: concept:历史:局部抗战
-- from: concept:历史:两弹一星功勋奖章
-  to: concept:历史:“两弹一星”
-- from: concept:历史:两弹一星精神
-  to: concept:历史:“两弹一星”
 - from: concept:历史:两免一补
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:中国—东盟自由贸易区
   to: concept:历史:全面建设小康社会目标
-- from: concept:历史:中国特色现代化武器装备体系
-  to: concept:历史:军事战略方针
 - from: concept:历史:中非新型战略伙伴关系
   to: concept:历史:全面建设小康社会目标
 - from: concept:历史:京津城际铁路
@@ -28926,38 +28852,18 @@
   to: concept:历史:张骞通西域
 - from: concept:历史:推恩令
   to: concept:历史:刺史制度
-- from: concept:历史:华佗与麻沸散、五禽戏
-  to: concept:历史:张仲景与《伤寒杂病论》
-- from: concept:历史:南宋建立
-  to: concept:历史:宋金和议
-- from: concept:历史:宋夏和约
-  to: concept:历史:岁币
 - from: concept:历史:宋金和议
   to: concept:历史:岁币
 - from: concept:历史:岳飞抗金
   to: concept:历史:宋金和议
-- from: concept:历史:成吉思汗统一蒙古
-  to: concept:历史:宣慰使司都元帅府
 - from: concept:历史:农民阶级的局限性
   to: concept:历史:太平天国运动
 - from: concept:历史:广州起义
   to: concept:历史:辛亥革命
 - from: concept:历史:文学社与共进会
   to: concept:历史:武昌起义
-- from: concept:历史:旧民主主义革命
-  to: concept:历史:新民主主义革命
 - from: concept:历史:护国战争
   to: concept:历史:袁世凯复辟帝制
-- from: concept:历史:新疆建省
-  to: concept:历史:左宗棠收复新疆
-- from: concept:历史:台湾建省
-  to: concept:历史:中法战争
-- from: concept:历史:列强瓜分中国狂潮
-  to: concept:历史:八国联军侵华战争
-- from: concept:历史:实业救国
-  to: concept:历史:民族资本主义的初步发展
-- from: concept:历史:四一二反革命政变
-  to: concept:历史:七一五反革命政变
 - from: concept:历史:南京国民政府
   to: concept:历史:宁汉合流
 - from: concept:历史:国共合作宣言
@@ -28966,34 +28872,18 @@
   to: concept:历史:七七事变
 - from: concept:历史:平型关大捷
   to: concept:历史:七七事变
-- from: concept:历史:八路军
-  to: concept:历史:国共合作宣言
 - from: concept:历史:姚子青
   to: concept:历史:七七事变
 - from: concept:历史:国家公祭日
   to: concept:历史:南京大屠杀
-- from: concept:历史:反“扫荡”作战
-  to: concept:历史:抗日战争胜利的意义
 - from: concept:历史:国统区学生反饥饿反内战运动
   to: concept:历史:国民党发动全面内战
-- from: concept:历史:大生产运动
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:左权
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:开罗会议
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:政治协商会议
-  to: concept:历史:重庆谈判
-- from: concept:历史:日本投降
-  to: concept:历史:抗日战争胜利的意义
 - from: concept:历史:八字方针
   to: concept:历史:“调整、巩固、充实、提高”方针
 - from: concept:历史:华东军区海军
   to: concept:历史:武器装备国产化
 - from: concept:历史:抗震救灾精神
   to: concept:历史:汶川特大地震
-- from: concept:历史:新时期军队建设总要求
-  to: concept:历史:军事战略方针
 - from: concept:历史:四个意识
   to: concept:历史:两个维护
 - from: concept:历史:四个自信
@@ -29044,10 +28934,6 @@
   to: concept:历史:班超经营西域
 - from: concept:历史:姚子青
   to: concept:历史:淞沪会战
-- from: concept:历史:垄断组织
-  to: concept:历史:第二次工业革命
-- from: concept:历史:城市化
-  to: concept:历史:第二次工业革命
 - from: concept:历史:巴黎和会
   to: concept:历史:第一次世界大战
 - from: concept:历史:左宗棠收复新疆
@@ -29098,25 +28984,9 @@
   to: concept:历史:直系军阀
 - from: concept:历史:第五次反“围剿”
   to: concept:历史:红军长征
-- from: concept:历史:汪精卫叛国
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:洛川会议
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:狼牙山五壮士
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:皖南事变
-  to: concept:历史:抗日战争胜利的意义
-- from: concept:历史:知识青年奔赴延安
-  to: concept:历史:抗日战争胜利的意义
 - from: concept:历史:第二炮兵部队
   to: concept:历史:武器装备国产化
-- from: concept:历史:民族地区民主改革和社会主义改造
-  to: concept:历史:民族区域自治制度
-- from: concept:历史:民族地区经济建设
-  to: concept:历史:民族区域自治制度
 - from: concept:历史:社会主义初级阶段理论
-  to: concept:历史:社会主义本质论
-- from: concept:历史:科学技术是第一生产力
   to: concept:历史:社会主义本质论
 - from: concept:历史:科教兴国战略
   to: concept:历史:中国特色社会主义理论体系
@@ -29128,10 +28998,6 @@
   to: concept:历史:早期殖民掠夺
 - from: concept:历史:资本原始积累
   to: concept:历史:早期殖民掠夺
-- from: concept:历史:进化论
-  to: concept:历史:达尔文
-- from: concept:历史:轴心国
-  to: concept:历史:法西斯同盟
 - from: concept:历史:民贵君轻
   to: concept:历史:孟子
 - from: concept:历史:莫须有罪名
@@ -29140,22 +29006,12 @@
   to: concept:历史:明朝的统治
 - from: concept:历史:流水线生产
   to: concept:历史:汽车
-- from: concept:历史:焚书坑儒
-  to: concept:历史:秦统一六国
-- from: concept:历史:郡县制
-  to: concept:历史:秦统一六国
-- from: concept:历史:长征精神
-  to: concept:历史:红军长征
 - from: concept:历史:百团大战
   to: concept:历史:人民游击战争
 - from: concept:历史:花园口决堤
   to: concept:历史:武汉会战
-- from: concept:历史:贫富分化加剧
-  to: concept:历史:第二次工业革命
 - from: concept:历史:萨拉热窝事件
   to: concept:历史:第一次世界大战
-- from: concept:历史:美国新经济
-  to: concept:历史:第三次科技革命
 - from: concept:历史:阿部规秀
   to: concept:历史:百团大战
 - from: concept:历史:韩非
@@ -29178,12 +29034,6 @@
   to: concept:历史:马克思主义的传播
 - from: concept:地理:中国的民族
   to: concept:地理:中国的疆域
-- from: concept:地理:三大丘陵
-  to: concept:地理:四大高原
-- from: concept:地理:三大平原
-  to: concept:地理:四大高原
-- from: concept:地理:四大盆地
-  to: concept:地理:四大高原
 - from: concept:地理:东西半球分界线
   to: concept:地理:南北半球分界线
 - from: concept:地理:南回归线
@@ -29212,10 +29062,6 @@
   to: concept:地理:气温年变化
 - from: concept:地理:温度带
   to: concept:地理:气候类型复杂多样
-- from: concept:地理:北京的气候
-  to: concept:地理:北京的地理位置
-- from: concept:地理:北京的水系
-  to: concept:地理:北京的地理位置
 - from: concept:地理:四川省的地形
   to: concept:地理:四川省的地理位置
 - from: concept:地理:四川省的气候
@@ -29234,8 +29080,6 @@
   to: concept:地理:海陆分布特点
 - from: concept:地理:海底地形类型
   to: concept:地理:海陆分布特点
-- from: concept:地理:太阳直射点
-  to: concept:地理:昼夜长短变化
 - from: concept:地理:昼夜更替
   to: concept:地理:时间差异
 - from: concept:地理:海洋生物资源
@@ -29244,12 +29088,8 @@
   to: concept:地理:海底地形分布规律
 - from: concept:地理:海盆
   to: concept:地理:海底地形分布规律
-- from: concept:地理:海陆位置对气温的影响
-  to: concept:地理:海陆因素对气温的影响
 - from: concept:地理:温带大陆性气候
   to: concept:地理:温带草原和荒漠
-- from: concept:地理:猴面包树
-  to: concept:地理:热带草原气候
 - from: concept:地理:发展中国家
   to: concept:地理:南南合作
 - from: concept:地理:亚洲的人口特征
@@ -29270,12 +29110,8 @@
   to: concept:地理:巴西经济
 - from: concept:地理:巴西种族构成
   to: concept:地理:巴西人口分布
-- from: concept:地理:日本的地形特点
-  to: concept:地理:日本的地理位置
 - from: concept:地理:日本的森林资源
   to: concept:地理:日本的地形特点
-- from: concept:地理:亚欧大陆地形特点
-  to: concept:地理:亚洲
 - from: concept:地理:公转方向
   to: concept:地理:公转周期
 - from: concept:地理:公转周期
@@ -29284,26 +29120,16 @@
   to: concept:历史:和平统一、一国两制
 - from: concept:历史:马戛尔尼使团来华
   to: concept:历史:清朝对全国的统治
-- from: concept:历史:飞机
-  to: concept:历史:第二次工业革命
-- from: concept:历史:马戛尔尼使团来华
-  to: concept:历史:闭关政策
 - from: concept:历史:黄兴
   to: concept:历史:中国同盟会
 - from: concept:历史:黄花岗起义
   to: concept:历史:中国同盟会
 - from: concept:历史:黎元洪
   to: concept:历史:武昌起义
-- from: concept:地理:地形对降水的影响
-  to: concept:地理:世界降水分布规律
-- from: concept:地理:上海精神
-  to: concept:地理:上海合作组织
 - from: concept:地理:海底地形分布规律
   to: concept:地理:大洋底
 - from: concept:地理:海底地形分布规律
   to: concept:地理:大陆坡
-- from: concept:地理:海底地形分布规律
-  to: concept:地理:大陆架
 - from: concept:地理:海底地形分布规律
   to: concept:地理:岛弧
 - from: concept:地理:海底地形分布规律
@@ -29314,8 +29140,6 @@
   to: concept:地理:长江概况
 - from: concept:地理:长芦盐场
   to: concept:地理:重点海域综合治理
-- from: concept:地理:防灾减灾体系
-  to: concept:地理:自然灾害
 - from: concept:地理:雄安新区
   to: concept:地理:北京市域空间结构
 - from: concept:地理:非洲
@@ -29326,16 +29150,6 @@
   to: concept:地理:海陆分布特点
 - from: concept:数学:倒数
   to: concept:数学:有理数除法法则
-- from: concept:数学:加法交换律
-  to: concept:数学:有理数加法法则
-- from: concept:数学:加法结合律
-  to: concept:数学:有理数加法法则
-- from: concept:数学:乘法交换律
-  to: concept:数学:有理数乘法法则
-- from: concept:数学:乘法结合律
-  to: concept:数学:有理数乘法法则
-- from: concept:数学:乘法对加法的分配律
-  to: concept:数学:有理数乘法法则
 - from: concept:数学:乘法分配律
   to: concept:数学:有理数乘法法则
 - from: concept:数学:余角
@@ -29352,8 +29166,6 @@
   to: concept:数学:二元一次方程组的应用
 - from: concept:数学:公式法
   to: concept:数学:公因式
-- from: concept:数学:分式的通分
-  to: concept:数学:分式的基本性质
 - from: concept:数学:互逆命题
   to: concept:数学:真命题
 - from: concept:数学:三角函数
@@ -29376,16 +29188,10 @@
   to: concept:地理:小浪底水利枢纽工程
 - from: concept:数学:加减混合运算
   to: concept:数学:有理数加减混合运算
-- from: concept:数学:圆弧
-  to: concept:数学:圆心
 - from: concept:数学:科学记数法
   to: concept:数学:有理数的混合运算
-- from: concept:数学:扇形
-  to: concept:数学:圆弧
 - from: concept:数学:圆柱的侧面展开图
   to: concept:数学:勾股定理的应用
-- from: concept:数学:毕达哥拉斯树
-  to: concept:数学:勾股定理
 - from: concept:数学:平方差公式在二次根式中的应用
   to: concept:数学:实数
 - from: concept:数学:海伦公式
@@ -29436,12 +29242,8 @@
   to: concept:数学:分式的基本性质
 - from: concept:数学:反比例
   to: concept:数学:反比例函数
-- from: concept:数学:绝对值
-  to: concept:数学:正数和负数
 - from: concept:数学:近似数
   to: concept:数学:有理数的混合运算
-- from: concept:数学:频数
-  to: concept:数学:数据
 - from: concept:数学:负整数指数幂
   to: concept:数学:整式的乘法
 - from: concept:数学:钝角三角形
@@ -29462,8 +29264,6 @@
   to: concept:物理:平面镜成像特点
 - from: concept:物理:月食
   to: concept:物理:平面镜成像特点
-- from: concept:物理:实像
-  to: concept:物理:凸透镜
 - from: concept:物理:凸面镜
   to: concept:物理:透镜
 - from: concept:物理:凹面镜
@@ -29474,8 +29274,6 @@
   to: concept:物理:望远镜
 - from: concept:物理:液体温度计
   to: concept:物理:温度计的使用方法
-- from: concept:物理:氯氟碳化合物
-  to: concept:物理:臭氧层
 - from: concept:物理:可听声波
   to: concept:物理:问题
 - from: concept:物理:声呐
@@ -29500,8 +29298,6 @@
   to: concept:物理:问题
 - from: concept:物理:平面镜成像特点
   to: concept:物理:问题
-- from: concept:物理:凝固点
-  to: concept:物理:晶体
 - from: concept:物理:沸点
   to: concept:物理:晶体
 - from: concept:物理:沸点与气压的关系
@@ -29510,30 +29306,18 @@
   to: concept:物理:太阳系
 - from: concept:物理:潜艇的浮沉原理
   to: concept:物理:物体的浮沉条件
-- from: concept:物理:两种电荷
-  to: concept:物理:万有引力理论
 - from: concept:物理:内能
   to: concept:物理:机械能
-- from: concept:物理:短路
-  to: concept:物理:电路
 - from: concept:物理:感应电流
   to: concept:物理:产生感应电流的条件
-- from: concept:物理:发电机
-  to: concept:物理:感应电流
 - from: concept:物理:换向器
   to: concept:物理:发电机
 - from: concept:物理:受控电路
   to: concept:物理:控制电路
-- from: concept:物理:光缆
-  to: concept:物理:光导纤维
 - from: concept:物理:声音的三要素
   to: concept:物理:声音的产生
-- from: concept:物理:机械波
-  to: concept:物理:电磁波
 - from: concept:数学:频数直方图
   to: concept:数学:条形统计图
-- from: concept:数学:角角边（AAS）判定定理
-  to: concept:数学:三角形
 - from: concept:物理:镜面反射
   to: concept:物理:反射角
 - from: concept:物理:音色
@@ -29544,14 +29328,8 @@
   to: concept:物理:问题
 - from: concept:物理:超声波
   to: concept:物理:问题
-- from: concept:生物:无机物
-  to: concept:生物:分子
-- from: concept:生物:有机物
-  to: concept:生物:分子
 - from: concept:生物:爬行动物的生殖发育
   to: concept:生物:爬行动物与人类生活的关系
-- from: concept:生物:哺乳动物与人类生活的关系
-  to: concept:生物:哺乳动物的主要特征
 - from: concept:生物:小肠绒毛
   to: concept:生物:小肠是吸收营养物质的主要器官
 - from: concept:生物:心脏的结构
@@ -29564,34 +29342,18 @@
   to: concept:生物:神经元
 - from: concept:生物:条件反射
   to: concept:生物:神经中枢
-- from: concept:生物:人工角膜
-  to: concept:生物:眼球的结构
 - from: concept:生物:侏儒症
   to: concept:生物:垂体
-- from: concept:生物:巨人症
-  to: concept:生物:生长激素
-- from: concept:生物:沙眼衣原体
-  to: concept:生物:汤飞凡
 - from: concept:生物:动脉出血
   to: concept:生物:医疗救护员
 - from: concept:生物:人工呼吸
   to: concept:生物:医疗救护员
-- from: concept:生物:溺水自救
-  to: concept:生物:紧急呼救
-- from: concept:生物:心肺复苏
-  to: concept:生物:出血和止血
-- from: concept:生物:HIV
-  to: concept:生物:艾滋病
-- from: concept:生物:合理用药
-  to: concept:生物:运动损伤的预防与处理
 - from: concept:生物:沉迷手机的危害
   to: concept:生物:生活方式病
 - from: concept:生物:毒品的危害
   to: concept:生物:生活方式病
 - from: concept:生物:吸烟的危害
   to: concept:生物:吸毒的危害
-- from: concept:生物:岩石圈
-  to: concept:生物:生物圈
 - from: concept:生物:海洋生态系统
   to: concept:生物:生态系统是统一的整体
 - from: concept:生物:淡水生态系统
@@ -29608,14 +29370,10 @@
   to: concept:生物:生物多样性保护法律
 - from: concept:生物:生态系统的组成成分
   to: concept:生物:生态系统的类型
-- from: concept:生物:生态保护与修复
-  to: concept:生物:生态保护红线
 - from: concept:生物:品种
   to: concept:生物:生物分类
 - from: concept:生物:《中国居民膳食指南（2022）》
   to: concept:生物:合理营养
-- from: concept:生物:排尿的意义
-  to: concept:生物:排泄
 - from: concept:生物:DDT
   to: concept:生物:生物富集
 - from: concept:物理:静电现象
@@ -29632,17 +29390,7 @@
   to: concept:生物:根尖的结构
 - from: concept:生物:蘑菇
   to: concept:生物:霉菌
-- from: concept:生物:超级细菌
-  to: concept:生物:菌落
-- from: concept:生物:酵母菌
-  to: concept:生物:菌落
-- from: concept:生物:霉菌
-  to: concept:生物:菌落
-- from: concept:生物:鞭毛
-  to: concept:生物:超级细菌
 - from: concept:生物:细菌
-  to: concept:生物:细菌和真菌与人类的关系
-- from: concept:生物:细菌和真菌在自然界中的作用
   to: concept:生物:细菌和真菌与人类的关系
 - from: concept:生物:造血干细胞
   to: concept:生物:血细胞
@@ -29652,28 +29400,18 @@
   to: concept:生物:肺循环
 - from: concept:生物:肾衰竭
   to: concept:生物:肾的功能
-- from: concept:生物:血液透析
-  to: concept:生物:肾衰竭
-- from: concept:生物:肾移植
-  to: concept:生物:肾衰竭
 - from: concept:生物:胃蛋白酶
   to: concept:生物:蛋白质
 - from: concept:生物:脂质
   to: concept:生物:营养物质的吸收
-- from: concept:生物:膈肌
-  to: concept:生物:肺循环
 - from: concept:生物:血量
   to: concept:生物:血液的组成与功能
 - from: concept:生物:贫血
   to: concept:生物:血液的功能
-- from: concept:生物:神经胶质细胞
-  to: concept:生物:神经元
 - from: concept:生物:肾小球的滤过作用
   to: concept:生物:肾单位
 - from: concept:生物:肾小管的重吸收作用
   to: concept:生物:肾单位
-- from: concept:生物:白内障
-  to: concept:生物:眼球的结构
 - from: concept:生物:病毒性肝炎
   to: concept:生物:病原体
 - from: concept:生物:艾滋病
@@ -29688,8 +29426,6 @@
   to: concept:生物:药品说明书
 - from: concept:生物:药物误用和滥用
   to: concept:生物:药品说明书
-- from: concept:生物:脂肪性肝炎
-  to: concept:生物:传染病
 - from: concept:生物:胸外按压
   to: concept:生物:止血方法
 - from: concept:生物:药物不良反应
@@ -29710,10 +29446,6 @@
   to: concept:生物:传染病
 - from: concept:生物:细胞质
   to: concept:生物:细胞的生活是物质、能量和信息的统一
-- from: concept:生物:血量
-  to: concept:生物:血液
-- from: concept:生物:米勒实验
-  to: concept:生物:生命起源的化学进化说
 - from: concept:英语:Elephant characteristics
   to: concept:英语:Elephant as national animal
 - from: concept:英语:Elephant endangerment
@@ -29732,10 +29464,6 @@
   to: concept:英语:动词不定式表目的
 - from: concept:英语:不定式作宾语补足语
   to: concept:英语:动词不定式表目的
-- from: concept:英语:problem-solving
-  to: concept:英语:Idioms
-- from: concept:英语:thank-you letter
-  to: concept:英语:Idioms
 - from: concept:英语:Social aspect of laughter
   to: concept:英语:Laughter
 - from: concept:英语:have been to与have gone to的区别
@@ -29748,8 +29476,6 @@
   to: concept:英语:Laughter
 - from: concept:英语:Chemicals
   to: concept:英语:Oxygen
-- from: concept:英语:Cold desert
-  to: concept:英语:Climate change
 - from: concept:英语:Disease spread
   to: concept:英语:Germs
 - from: concept:英语:否定形容词
@@ -29764,8 +29490,6 @@
   to: concept:英语:疑问词引导的从句
 - from: concept:英语:宾语从句（that引导）
   to: concept:英语:疑问词引导的从句
-- from: concept:英语:宾语从句（特殊疑问句）
-  to: concept:英语:宾语从句（一般疑问句）
 - from: concept:英语:宾语从句（陈述句）
   to: concept:英语:间接问句
 - from: concept:英语:助动词do强调
@@ -29780,16 +29504,10 @@
   to: concept:英语:主动语态与被动语态的转换
 - from: concept:英语:Favourite Subject
   to: concept:英语:表达喜好和原因
-- from: concept:英语:used to be afraid of the dark
-  to: concept:英语:used to 结构
 - from: concept:英语:不规则动词
   to: concept:英语:不规则动词过去式
 - from: concept:科学:食物中的能量
   to: concept:科学:食物中的营养物质
-- from: concept:英语:询问生日
-  to: concept:英语:特殊疑问词
-- from: concept:英语:询问年龄
-  to: concept:英语:特殊疑问词
 - from: concept:英语:特殊疑问词
   to: concept:英语:特殊疑问句 What colour is/are...?
 - from: concept:英语:规则的重要性
@@ -29800,8 +29518,6 @@
   to: concept:英语:环保行动
 - from: concept:英语:鲨鱼鳍
   to: concept:英语:环保行动
-- from: concept:英语:直接问句
-  to: concept:英语:宾语从句（一般疑问句）
 - from: concept:英语:短语动词的被动语态
   to: concept:英语:主动语态与被动语态的转换
 - from: concept:英语:情态动词的被动语态
@@ -29834,12 +29550,6 @@
   to: concept:语文:咏物诗
 - from: concept:语文:一词多义
   to: concept:语文:名词作状语
-- from: concept:语文:人民英雄纪念碑
-  to: concept:语文:革命精神
-- from: concept:语文:《逍遥游》
-  to: concept:语文:庄子
-- from: concept:语文:《秋水》
-  to: concept:语文:庄子
 - from: concept:语文:丽江古城
   to: concept:语文:游记散文
 - from: concept:语文:他信力
@@ -29870,10 +29580,6 @@
   to: concept:语文:朗读技巧
 - from: concept:语文:慰勉
   to: concept:语文:宽厚
-- from: concept:语文:孔子
-  to: concept:语文:《论语》
-- from: concept:语文:同义词
-  to: concept:语文:语境
 - from: concept:语文:形象思维
   to: concept:语文:语境
 - from: concept:语文:刮目相待
@@ -29884,8 +29590,6 @@
   to: concept:语文:文言实词“尔”的用法
 - from: concept:语文:复述课文
   to: concept:语文:概括人物：人+事+品格
-- from: concept:语文:小说主题理解
-  to: concept:语文:小说三要素
 - from: concept:语文:悲剧命运
   to: concept:语文:祥子
 - from: concept:语文:感动中国年度人物
@@ -29904,30 +29608,16 @@
   to: concept:语文:儒有不宝金玉，而忠信以为宝
 - from: concept:语文:手卷
   to: concept:语文:图案画与美术画
-- from: concept:语文:安史之乱
-  to: concept:语文:三吏三别
-- from: concept:语文:和而不同
-  to: concept:语文:和为贵
-- from: concept:语文:寓言说理
-  to: concept:语文:庄子
-- from: concept:语文:托物寓意
-  to: concept:语文:伯乐相马
 - from: concept:语文:勃朗峰
   to: concept:语文:游记散文
 - from: concept:语文:各拉丹冬
   to: concept:语文:游记散文
-- from: concept:语文:小说笔法
-  to: concept:语文:散文笔法
 - from: concept:语文:政通人和
   to: concept:语文:气象万千
 - from: concept:语文:古代白话小说
   to: concept:语文:《水浒传》
-- from: concept:语文:双关
-  to: concept:语文:论证
 - from: concept:语文:奥楚蔑洛夫
   to: concept:语文:人物塑造方法
-- from: concept:语文:变色龙
-  to: concept:语文:小说人物形象塑造
 - from: concept:语文:南安军
   to: concept:语文:别云间
 - from: concept:语文:反语
@@ -29950,12 +29640,8 @@
   to: concept:语文:金色花
 - from: concept:语文:自我介绍
   to: concept:语文:记事
-- from: concept:语文:文言实词“治性”
-  to: concept:语文:文言实词“励精”
 - from: concept:语文:文言实词“广”
   to: concept:语文:文言实词“励精”
-- from: concept:语文:百草园
-  to: concept:语文:三味书屋
 - from: concept:语文:文言句式“将复何及”
   to: concept:语文:文言文朗读节奏
 - from: concept:语文:文言句式“无以”
@@ -30008,20 +29694,12 @@
   to: concept:语文:长篇小说
 - from: concept:语文:杜甫
   to: concept:语文:唐宋八大家
-- from: concept:语文:普希金
-  to: concept:语文:弗罗斯特
 - from: concept:语文:时效性
   to: concept:语文:新闻的语言特点
 - from: concept:语文:细节描写
   to: concept:语文:抒情手法
 - from: concept:语文:文言句式
   to: concept:语文:文言实词
-- from: concept:语文:渣滓洞和白公馆
-  to: concept:语文:革命精神
-- from: concept:语文:白杨礼赞
-  to: concept:语文:象征手法
-- from: concept:语文:汪曾祺
-  to: concept:语文:背影
 - from: concept:语文:晏殊
   to: concept:语文:浣溪沙
 - from: concept:语文:朱敦儒
@@ -30030,40 +29708,18 @@
   to: concept:语文:说明事物要抓住特征
 - from: concept:语文:箭扣长城修缮
   to: concept:语文:非物质文化遗产
-- from: concept:语文:艺术与技术
-  to: concept:语文:箭扣长城修缮
-- from: concept:语文:近体诗
-  to: concept:语文:词牌
 - from: concept:语文:欧阳修
   to: concept:语文:采桑子
 - from: concept:语文:汉文帝
   to: concept:语文:纪传体通史
-- from: concept:语文:炼字
-  to: concept:语文:文言文翻译方法
-- from: concept:语文:特殊句式
-  to: concept:语文:文言文翻译方法
-- from: concept:语文:用典
-  to: concept:语文:文言文翻译方法
-- from: concept:语文:生于忧患，死于安乐
-  to: concept:语文:文言文翻译方法
-- from: concept:语文:邀请函
-  to: concept:语文:表达得体
-- from: concept:语文:斯石英
-  to: concept:语文:撞击说
 - from: concept:语文:高下差异对物候的影响
   to: concept:语文:物候学的研究意义
-- from: concept:语文:读后感
-  to: concept:语文:观后感
 - from: concept:语文:教学相长
   to: concept:语文:《礼运》
 - from: concept:语文:演讲稿的语言锤炼
   to: concept:语文:演讲稿的观点表达
 - from: concept:语文:演讲的针对性
   to: concept:语文:演讲稿的观点表达
-- from: concept:语文:玉龙雪山
-  to: concept:语文:丽江古城
-- from: concept:语文:移步换景
-  to: concept:语文:游记散文
 - from: concept:语文:气象万千
   to: concept:语文:范仲淹
 - from: concept:语文:水落石出
@@ -30076,46 +29732,20 @@
   to: concept:语文:烂柯人
 - from: concept:语文:议论与抒情结合
   to: concept:语文:主题思想
-- from: concept:语文:闲来垂钓碧溪上
-  to: concept:语文:长风破浪会有时
-- from: concept:语文:曹雪芹
-  to: concept:语文:王熙凤
-- from: concept:语文:罗贯中
-  to: concept:语文:帝室之胄
-- from: concept:语文:胡屠户
-  to: concept:语文:张乡绅
-- from: concept:语文:殷汝耕
-  to: concept:语文:伪满洲国
-- from: concept:语文:石敬瑭
-  to: concept:语文:伪满洲国
-- from: concept:语文:蒙疆政府
-  to: concept:语文:伪满洲国
 - from: concept:语文:石印
   to: concept:语文:班史编写
 - from: concept:语文:魏碑
   to: concept:语文:班史编写
 - from: concept:语文:裴矩
   to: concept:语文:班史编写
-- from: concept:语文:散文笔法
-  to: concept:语文:游记散文
 - from: concept:语文:边塞词
   to: concept:语文:词牌名
 - from: concept:语文:类比论证
   to: concept:语文:道理论证
-- from: concept:语文:昆曲
-  to: concept:语文:戏剧冲突
-- from: concept:语文:越剧
-  to: concept:语文:戏剧冲突
-- from: concept:语文:黄梅戏
-  to: concept:语文:戏剧冲突
-- from: concept:语文:舞台说明
-  to: concept:语文:戏剧冲突
 - from: concept:语文:曹刿论战
   to: concept:语文:文言词语古今异义
 - from: concept:语文:邹忌讽齐王纳谏
   to: concept:语文:文言词语古今异义
-- from: concept:道德与法治:与老师发生矛盾的处理方法
-  to: concept:道德与法治:师生交往的理想状态
 - from: concept:道德与法治:中关村国家自主创新示范区
   to: concept:道德与法治:产学研深度融合
 - from: concept:道德与法治:中国力量
@@ -30132,14 +29762,6 @@
   to: concept:道德与法治:社会主义制度
 - from: concept:语文:社会环境描写
   to: concept:语文:环境描写的作用
-- from: concept:道德与法治:正确对待老师的表扬和批评
-  to: concept:道德与法治:师生交往的理想状态
-- from: concept:道德与法治:共产主义道德
-  to: concept:道德与法治:中华优秀传统文化
-- from: concept:道德与法治:信息茧房
-  to: concept:道德与法治:信息节食
-- from: concept:道德与法治:正义的价值
-  to: concept:道德与法治:正义行为与非正义行为
 - from: concept:道德与法治:全民国防教育
   to: concept:道德与法治:国防和军队现代化新三步走战略
 - from: concept:道德与法治:文化教育权利
@@ -30150,8 +29772,6 @@
   to: concept:道德与法治:非故意首次违法轻罚、免罚
 - from: concept:道德与法治:创客
   to: concept:道德与法治:创新
-- from: concept:道德与法治:教育强国
-  to: concept:道德与法治:教育的重要性
 - from: concept:道德与法治:计划生育基本国策
   to: concept:道德与法治:我国人口现状及趋势
 - from: concept:道德与法治:全球发展倡议
@@ -30160,8 +29780,6 @@
   to: concept:道德与法治:全球治理倡议
 - from: concept:道德与法治:全球文明倡议
   to: concept:道德与法治:全球治理倡议
-- from: concept:道德与法治:我为世界添光彩
-  to: concept:道德与法治:在交往中探索世界
 - from: concept:道德与法治:全面依法治国总目标
   to: concept:道德与法治:中国特色社会主义法治道路
 - from: concept:道德与法治:党对人民军队的绝对领导
@@ -30184,10 +29802,6 @@
   to: concept:道德与法治:正义行为与非正义行为
 - from: concept:道德与法治:卫国戍边英雄事迹
   to: concept:道德与法治:人民军队的作用
-- from: concept:道德与法治:国家监察机关的职责
-  to: concept:道德与法治:国家监察机关的性质和产生
-- from: concept:道德与法治:国家行政机关的职权
-  to: concept:道德与法治:国家行政机关的性质
 - from: concept:道德与法治:北斗卫星导航系统
   to: concept:道德与法治:创新型国家
 - from: concept:道德与法治:国家科学技术奖励制度
@@ -30202,16 +29816,6 @@
   to: concept:道德与法治:维护国家利益是公民的责任
 - from: concept:道德与法治:土地生命奖
   to: concept:道德与法治:可持续发展
-- from: concept:道德与法治:家庭的社会功能
-  to: concept:道德与法治:家庭的含义
-- from: concept:道德与法治:建设美好家庭的要求
-  to: concept:道德与法治:家庭的含义
-- from: concept:道德与法治:自卑
-  to: concept:道德与法治:自尊
-- from: concept:道德与法治:自负
-  to: concept:道德与法治:自尊
-- from: concept:道德与法治:自信
-  to: concept:道德与法治:自尊
 - from: concept:道德与法治:对他人负责
   to: concept:道德与法治:对自己负责
 - from: concept:道德与法治:对国家和社会负责
@@ -30236,16 +29840,10 @@
   to: concept:道德与法治:美丽中国建设
 - from: concept:道德与法治:尊敬老师
   to: concept:道德与法治:关心体贴老师
-- from: concept:道德与法治:人民调解委员会
-  to: concept:道德与法治:依法办事
-- from: concept:道德与法治:他律与自律
-  to: concept:道德与法治:依法办事
 - from: concept:道德与法治:人民军队的作用
   to: concept:道德与法治:人民军队的性质和宗旨
 - from: concept:道德与法治:人民军队的构成
   to: concept:道德与法治:人民军队的性质和宗旨
-- from: concept:道德与法治:习近平强军思想
-  to: concept:道德与法治:党对人民军队的绝对领导
 - from: concept:道德与法治:中央军事委员会
   to: concept:道德与法治:人民军队的构成
 - from: concept:道德与法治:以高水平治理推动人民军队高质量发展
@@ -30254,8 +29852,6 @@
   to: concept:道德与法治:人大代表的职权
 - from: concept:道德与法治:人大代表的作用
   to: concept:道德与法治:人大代表的职权
-- from: concept:道德与法治:人民代表大会制度
-  to: concept:道德与法治:基本政治制度
 - from: concept:道德与法治:中央军事委员会的职权
   to: concept:道德与法治:中央军事委员会的性质和地位
 - from: concept:道德与法治:中央军事委员会的领导体制
